@@ -1,0 +1,665 @@
+{
+ "task": "bnexam",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528"
+ ],
+ "seconds": 16.0,
+ "text": "- **Domain:** √(x−2) needs x ≥ 2, so the domain is [2, ∞). Option D is the intended answer.\n- **Average speed:** For equal distances, average speed = 2·5·3/(5+3) = 15/4 km/h.\n- **Local government tiers:** This follows the common exam answer of three tiers (Zila, Upazila, Union).\n- **Logic algebra:** It was devised by George Boole.\n- **Seconds pendulum:** Its period is 2 s, so its frequency is 0.5 Hz.\n- **Henna colour:** It comes from lawsone.\n- **Dicot root:** A dicot root has no hypodermis, so \"hypodermis present\" is the wrong statement.\n- **Passive of \"The pill tastes bitter\":** \"The pill is bitter when it is tasted.\"\n- **Translation:** \"Fortunately I could get into the next bus.\"\n- **Screwdriver:** The number of turns depends on the screw's thread pitch, not the handle. Both need the same number of turns; the thicker handle only needs less force.\n- **Central Shaheed Minar:** The architect is Hamidur Rahman.\n- **False statement:** Polarity is a property of covalent compounds, so D is false.\n- **Earthquake damage:** Buildings collapse because of resonance.\n- **Inexorable:** It means \"unyielding\" (অনমনীয়).\n- **Projectile range:** It is maximum at a 45° launch angle.\n\n{\"answers\": {\"000c853a-7896-439c-af8f-83f93a94aa21-146810\": \"D\", \"018777f7-7958-4668-95af-70afe6cf7e66-103354\": \"A\", \"01e79fd1-255b-4857-96fc-59c1f17df04c-15675\": \"A\", \"0269a96c-32f5-477c-bab9-31fd827929f3-51190\": \"C\", \"0328368d-9139-4f5e-b75b-2eae817dba6d-119686\": \"C\", \"034aa277-1099-4156-bd75-02abc0eca393-64103\": \"D\", \"03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978\": \"C\", \"064a8667-f1ca-4d1a-8459-11db81ef4a69-131760\": \"D\", \"0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424\": \"A\", \"084c3183-b891-4cae-bca9-e9b73a923003-48454\": \"C\", \"08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115\": \"A\", \"08de5d58-d002-429c-ba6c-c49610eea192-102317\": \"D\", \"09255f80-0720-46f4-ae96-f013ca5a79fb-108294\": \"D\", \"09771521-ceb8-449f-bced-46bb53d91cf7-63413\": \"B\", \"0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2789,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1546,
+  "output_tokens_details": {
+   "thinking_tokens": 551
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2789,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1546,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2789,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2789
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.05324,
+ "answers_batch": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "D",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ },
+ "single": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 576,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 52,
+    "output_tokens_details": {
+     "thinking_tokens": 49
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 52,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 643,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 36,
+    "output_tokens_details": {
+     "thinking_tokens": 33
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 643,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 36,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 643,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 643
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 576,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 151,
+    "output_tokens_details": {
+     "thinking_tokens": 148
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 151,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 576,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 573,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 573,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 573,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 573
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 570,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 570,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 570,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 570
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 695,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 102,
+    "output_tokens_details": {
+     "thinking_tokens": 99
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 695,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 102,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 695,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 695
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 596,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 596,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 596,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 596
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 618,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 618,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 618,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 618
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 744,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 46,
+    "output_tokens_details": {
+     "thinking_tokens": 43
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 744,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 46,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 744,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 744
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 589,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 589,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 589,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 589
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 758,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 207,
+    "output_tokens_details": {
+     "thinking_tokens": 204
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 758,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 207,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 758,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 758
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 614,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 222,
+    "output_tokens_details": {
+     "thinking_tokens": 219
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 614,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 222,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 614,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 614
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 560,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 560,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 560,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 560
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 580,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 580,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 580,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 580
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "D",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ }
+}

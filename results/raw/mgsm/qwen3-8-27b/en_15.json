@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 4.8,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 150]**\n1.  **Steve's time:**\n    *   Distance = 3 miles = $3 \\times 5280$ feet = 15,840 feet.\n    *   Speed = 440 feet/minute.\n    *   Time = $15,840 / 440 = 36$ minutes.\n2.  **Tim's time:**\n    *   Distance = 2 miles = $2 \\times 5280$ feet = 10,560 feet.\n    *   Speed = 264 feet/minute.\n    *   Time = $10,560 / 264 = 40$ minutes.\n3.  **Waiting time:**\n    *   Steve arrives in 36 minutes, Tim in 40 minutes.\n    *   Steve is the winner. The waiting time is $40 - 36 = 4$ minutes.\n*   Answer: 4\n\n**[id 151]**\n1.  **Bicycles:** 5 people, 2 tires each = $5 \\times 2 = 10$ tires.\n2.  **Tricycles:** 3 people, 3 tires each = $3 \\times 3 = 9$ tires.\n3.  **Unicycle:** 1 person, 1 tire each = $1 \\times 1 = 1$ tire.\n4.  **Total tires:** $10 + 9 + 1 = 20$ tires.\n5.  **Total cost:** 20 tires $\\times$ \\$0.25/tire = \\$5.00.\n*   Answer: 5\n\n**[id 152]**\n1.  **Total cookies:** 10 packs $\\times$ 6 cookies/pack = 60 cookies.\n2.  **Total cost:** 60 cookies $\\times$ \\$0.10/cookie = \\$6.00.\n3.  **Change:** \\$10.00 - \\$6.00 = \\$4.00.\n*   Answer: 4\n\n**[id 153]**\nLet $E$ be the number of fries the seagull ate.\n1.  Dave ate 14 fries.\n2.  Seagull ate half of Dave's amount: $E = 14 / 2 = 7$.\n3.  Pigeons ate 3 fries each (3 pigeons): $3 \\times 3 = 9$.\n4.  Let $R$ be the number of fries remaining *after* the rivals (seagull and pigeons) ate.\n5.  Raccoon ate two thirds of $R$: $(2/3)R$.\n6.  Remaining after raccoon: $R - (2/3)R = (1/3)R$.\n7.  Ants carried off 1 final fry: $(1/3)R - 1$.\n8.  This left 5 fries: $(1/3)R - 1 = 5 \\Rightarrow (1/3)R = 6 \\Rightarrow R = 18$.\n9.  The number of fries in the pack initially ($N$) minus Dave's fries minus Seagull's fries minus Pigeons' fries equals $R$.\n    $N - 14 - 7 - 9 = 18$\n    $N - 30 = 18$\n    $N = 48$.\n*   Answer: 48\n\n**[id 154]**\n1.  **Mon/Wed/Fri hours per day:** 3 classes $\\times$ 1 hour/class = 3 hours.\n    Days per week: 3.\n    Weekly hours for these days: $3 \\times 3 = 9$ hours/week.\n2.  **Tue/Thu hours per day:** 2 classes $\\times$ 2 hours/class = 4 hours.\n    Days per week: 2.\n    Weekly hours for these days: $2 \\times 4 = 8$ hours/week.\n3.  **Total weekly hours:** $9 + 8 = 17$ hours/week.\n4.  **Total semester hours:** 17 hours/week $\\times$ 16 weeks = 272 hours.\n*   Answer: 272\n\n**[id 155]**\n1.  **Rolls:** 300 rolls $\\times$ 4 inches = 1200 inches.\n2.  **Croissants:** 120 croissants $\\times$ 6 inches = 720 inches.\n3.  **Baguettes:** 60 baguettes $\\times$ 2 feet = 120 feet. Note: 120 feet = $120 \\times 12$ inches = 1440 inches.\n4.  **Total length in inches:** $1200 + 720 + 1440 = 3360$ inches.\n5.  **Convert to feet:** $3360 / 12 = 280$ feet.\n    *Alternative calculation in feet:*\n    Rolls: $300 \\times (4/12) = 300 / 3 = 100$ feet.\n    Croissants: $120 \\times (6/12) = 120 / 2 = 60$ feet.\n    Baguettes: $60 \\times 2 = 120$ feet.\n    Total: $100 + 60 + 120 = 280$ feet.\n*   Answer: 280\n\n**[id 156]**\n1.  **Monthly requirement:**\n    Monkeys: 200\n    Gorillas: 400\n    Baboons: 100\n    Total monthly: $200 + 400 + 100 = 700$ bananas.\n2.  **2-month requirement:** $700 \\times 2 = 1400$ bananas.\n*   Answer: 1400\n\n**[id 157]**\n1.  **Blake's distance:**\n    \"Back and forth\" implies a round trip. Distance for one back-and-forth = $2 \\times 100$ yards = 200 yards.\n    Blake does this 15 times.\n    Total distance = $15 \\times 200 = 3000$ yards.\n2.  **Kelly's distance:**\n    First part: \"runs back and forth once\". This is equal to 1 round trip of the field length (100 yards each way). Distance = $2 \\times 100 = 200$ yards.\n    Second part: \"starts to run to the 40-yard line and back\".\n    Distance from goal line (start line) to 40-yard line is 40 yards. Back to start is 40 yards. One such trip = 80 yards.\n    She does this 34 times.\n    Total distance for this part = $34 \\times 80 = 2720$ yards.\n    Total Kelly distance = $200 + 2720 = 2920$ yards.\n3.  **Difference:**\n    Blake (3000) - Kelly (2920) = 80 yards.\n*   Answer: 80\n\n**[id 158]**\n1.  **Pens:** 4 pens $\\times$ \\$1.50 = \\$6.00.\n2.  **Notebooks:** 2 notebooks $\\times$ \\$4.00 = \\$8.00.\n3.  **Bond paper:** \\$20.00.\n4.  **Total:** $6 + 8 + 20 = 34$.\n*   Answer: 34\n\n**[id 159]**\n1.  **Initial:** Finn sees 11 tadpoles. (The problem states \"Finn watches 11 tadpoles swimming... Suddenly he sees 6 of them come out of hiding\"). This implies the 11 seen initially did NOT include the hidden ones, or the phrasing means he sees 11 active, and then 6 more appear from hiding. Let's parse carefully: \"Finn watches 11 tadpoles swimming... Suddenly he sees 6 of them come out of hiding\". In standard math problem logic, \"watches 11\" is the initial count of visible tadpoles. The 6 from hiding *add* to the visible count.\n    Visible so far: $11 + 6 = 17$.\n2.  **Hiding event:** \"sees 2 of them hide under a rock\".\n    Does he see 2 of the *originally visible* or *any* visible tadpoles hide? The phrasing \"2 of them\" usually refers to the current group or the previously mentioned group. Since they hide, they are no longer visible.\n    Visible now: $17 - 2 = 15$.\n    *Ambiguity check:* If \"11 tadpoles\" referred to the total population in the area, and 6 hid, then 5 were visible initially. But it says \"watches 11... swimming\", which implies visibility. Then 6 come out. So visible count increases by 6. Then 2 hide. Visible count decreases by 2.\n    Calculation: $11 + 6 - 2 = 15$.\n*   Answer: 15\n\n```json\n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 48, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}\n```",
+ "usage": {
+  "queue_time": 0.069718108,
+  "prompt_tokens": 931,
+  "prompt_time": 0.063723092,
+  "completion_tokens": 2287,
+  "completion_time": 4.5813733039999995,
+  "total_tokens": 3218,
+  "total_time": 4.645096396
+ },
+ "served_by": null,
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

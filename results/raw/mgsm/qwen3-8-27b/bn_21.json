@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 4.4,
+ "text": "I will solve each problem step-by-step.\n\n**[id 210]**\n*   **Goal:** Buy a jacket ($30) and 2 pairs of shoes (2 * $20 = $40). Total cost = $30 + $40 = $70.\n*   **Current Savings:**\n    *   Initial savings: $10.\n    *   Babysitting: 4 times * $5/time = $20.\n    *   Total current money = $10 + $20 = $30.\n*   **Remaining Amount Needed:** $70 (total cost) - $30 (current money) = $40.\n*   **Earning from Mowing:** $4 per time.\n*   **Times to Mow:** $40 / $4 = 10 times.\n\n**[id 211]**\n*   Let $R$ be the number of red chickens and $W$ be the number of white chickens.\n*   Red chickens lay 3 eggs/day, white lay 5 eggs/day.\n*   Total eggs: $3R + 5W = 42$.\n*   Red chickens are 2 more than white: $R = W + 2$.\n*   Substitute $R$ in the egg equation: $3(W + 2) + 5W = 42$.\n*   $3W + 6 + 5W = 42 \\Rightarrow 8W + 6 = 42 \\Rightarrow 8W = 36 \\Rightarrow W = 4.5$.\n*   Wait, let me re-read carefully. \"লাল মুরগির থেকে সাদা মুরগি দুটি বেশি থাকে\" translates to \"White chickens are two more than red chickens\" OR \"There are two more white chickens than red chickens\".\n    *   Interpretation A: $W = R + 2$.\n    *   Interpretation B: $R = W + 2$ (Red are 2 more than White).\n    *   Let's check the Bengali: \"লাল মুরগির থেকে সাদা মুরগি দুটি বেশি\" -> \"From red chickens, white chickens [are] two more\". This usually means $W = R + 2$.\n    *   Let's test $W = R + 2$.\n        *   $3R + 5(R + 2) = 42 \\Rightarrow 3R + 5R + 10 = 42 \\Rightarrow 8R = 32 \\Rightarrow R = 4$.\n        *   If $R = 4$, then $W = 6$.\n        *   Check eggs: $4 * 3 + 6 * 5 = 12 + 30 = 42$. This works perfectly with integers.\n    *   The question asks for the number of **red** chickens ($R$).\n    *   Answer: 4.\n\n**[id 212]**\n*   Park is a rectangle with width $w = 1.5$ miles and length $l = 6$ miles.\n*   Walking along the boundary means walking the perimeter.\n*   Perimeter $P = 2 * (l + w) = 2 * (6 + 1.5) = 2 * 7.5 = 15$ miles.\n*   Speed = 3 miles/hour.\n*   Time = Distance / Speed = $15 / 3 = 5$ hours.\n\n**[id 213]**\n*   Day 1 customers: 100.\n*   Day 2 customers: 100 + 50 = 150 (50 more than the first day).\n*   Total customers through Day 3: 500.\n*   Day 3 customers = Total - (Day 1 + Day 2) = $500 - (100 + 150) = 500 - 250 = 250$.\n\n**[id 214]**\n*   Two tanks leak 4 gallons/min each.\n*   Let $S$ be the current amount of water in the small tank.\n*   Let $B$ be the current amount of water in the large tank.\n*   Current condition: $B = 4S$.\n*   4 minutes ago, each tank had $4 * 4 = 16$ more gallons of water.\n*   Amount in small tank 4 mins ago: $S + 16$.\n*   Amount in large tank 4 mins ago: $B + 16$.\n*   Condition 4 mins ago: Large tank had twice as much as small tank.\n    *   $B + 16 = 2(S + 16)$.\n*   Substitute $B = 4S$:\n    *   $4S + 16 = 2S + 32$.\n    *   $2S = 16 \\Rightarrow S = 8$.\n*   The question asks for the amount of water in the small tank **now**.\n*   Answer: 8.\n\n**[id 215]**\n*   Cost of shoes: $320.00.\n*   Cost of belt: $32.00.\n*   Total cost: $320 + 32 = 352$.\n*   Hourly wage: $8.00.\n*   Hours needed: $352 / 8$.\n*   Calculation: $320 / 8 = 40$, $32 / 8 = 4$. Total = 44 hours.\n\n**[id 216]**\n*   Borrowed amount: $2000.\n*   Additional interest: 10% of $2000 = $200.\n*   Total amount to repay: $2000 + 200 = 2200$.\n*   Payments made: 12 months * $165/month.\n*   Total paid: $12 * 165$.\n    *   $12 * 100 = 1200$.\n    *   $12 * 60 = 720$.\n    *   $12 * 5 = 60$.\n    *   Total paid = $1200 + 720 + 60 = 1980$.\n*   Remaining balance: $2200 - 1980 = 220$.\n\n**[id 217]**\n*   Number of roses: 4.\n*   Number of dahlia: \"7 more than the number of roses in the vase\" -> $4 + 7 = 11$.\n*   Total flowers: Roses + Dahlia = $4 + 11 = 15$.\n\n**[id 218]**\n*   Harriet's current age ($H$) = 21.\n*   Adrian's age ($A$) is 3 times Harriet's: $A = 3 * 21 = 63$.\n*   Harriet's age is half of Jack's, so Jack's age ($J$) is 2 times Harriet's: $J = 2 * 21 = 42$.\n*   Ages 3 years later:\n    *   $H_{new} = 21 + 3 = 24$.\n    *   $A_{new} = 63 + 3 = 66$.\n    *   $J_{new} = 42 + 3 = 45$.\n*   Sum of ages: $24 + 66 + 45$.\n    *   $24 + 66 = 90$.\n    *   $90 + 45 = 135$.\n*   Average age: $135 / 3 = 45$.\n\n**[id 219]**\n*   Total points: 251.\n*   Naomi ($N$): 68.\n*   Yuri ($Y$): 10 points more than Naomi: $68 + 10 = 78$.\n*   Brianna ($B$): 17 points more than Naomi: $68 + 17 = 85$.\n*   Jojo ($J$): ?\n*   Equation: $N + Y + B + J = 251$.\n*   $68 + 78 + 85 + J = 251$.\n*   Sum of known points: $68 + 78 = 146$.\n*   $146 + 85 = 231$.\n*   $231 + J = 251$.\n*   $J = 251 - 231 = 20$.\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n```",
+ "usage": {
+  "queue_time": 0.06418562,
+  "prompt_tokens": 1261,
+  "prompt_time": 0.092553348,
+  "completion_tokens": 2093,
+  "completion_time": 4.090234659,
+  "total_tokens": 3354,
+  "total_time": 4.182788007
+ },
+ "served_by": null,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

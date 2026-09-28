@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 33.2,
+ "text": "Based on the provided Bengali passages, here are the step-by-step rationales for the answers:\n\n1. **[id 232]**: The passage states, \"যা পরে মশার মাধ্যমে মানুষের দেহে স্থানান্তরিত হয়\" (which is later transmitted to human bodies through mosquitoes). Therefore, the disease is transmitted to humans via mosquitoes.\n2. **[id 233]**: The text says, \"তিব্বতে হিংস্র কুকুর আক্রমণ করেছিল\" (ferocious dog(s) attacked in Tibet). This makes a dog the attacker.\n3. **[id 234]**: The passage mentions a temporary restraining order regarding \"কোর্ট কমিশনার কর্তৃক শুনানি না পেয়ে 24 ঘণ্টারও বেশি সময় ধরে আটক থাকাদের\" (those detained for more than 24 hours without getting a hearing by a court commissioner). Thus, a hearing (শুনানি) must be permitted.\n4. **[id 235]**: The film's nominations are listed and include Best Picture, Best Sound Mixing, and Best Original Song. \"সেরা ভিজুয়াল এফেক্ট\" (Best Visual Effects) is not mentioned in the list of nominations.\n5. **[id 236]**: The text notes \"কিছু রাস্তা নষ্ট হয়েছে\" (some roads have been damaged). While the airport is closed and some homes lack power/water, the roads are explicitly mentioned as physically damaged.\n6. **[id 237]**: Palestine wants borders based on the pre-1967 war, and they agreed to a military presence for up to five years. \"জর্ডান উপত্যকায় বর্তমান সামরিক বাহিনীর উপস্থিতি\" (maintaining the current military presence, which Israel demanded for 10 years) is an Israeli demand, not a Palestinian one.\n7. **[id 238]**: The passage notes that Massa suffered a head injury \"2009 সালে হাঙ্গেরিয়ান গ্র্যান্ড প্রিক্সে দুর্ঘটনার পরে\" (after an accident at the 2009 Hungarian Grand Prix).\n8. **[id 239]**: The text specifies \"পুলিশ জানিয়েছে যে তারা হামলার জন্য অভিযুক্ত দায়েশ (ISIL) জঙ্গিকে সন্দেহ করেছে\" (Police reported that they suspect Daesh militants for the attack), indicating that the police provided the information regarding the suspect.\n\n```json\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17386,
+  "output_tokens": 4230,
+  "thinking_tokens": 3673,
+  "cache_read_tokens": 8141,
+  "total_tokens": 21616
+ },
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

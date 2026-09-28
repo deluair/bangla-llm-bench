@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 48.7,
+ "text": "To ensure accuracy, I will solve each problem step-by-step.\n\n**[id 120]**\nMiguel uses 2 pads a week.\n1 pad = 30 sheets.\nSheets per week = $2 \\text{ pads} \\times 30 \\text{ sheets/pad} = 60$ sheets.\nA month is typically considered to have 4 weeks in these types of word problems (unless specified as 30 days). Let's assume 4 weeks.\nSheets per month = $60 \\text{ sheets/week} \\times 4 \\text{ weeks} = 240$ sheets.\n\n**[id 121]**\nMorisette brought:\n- 5 apples\n- 8 oranges\nTotal for Morisette = $5 + 8 = 13$ fruits.\n\nKael brought:\n- Apples: Twice Morisette's amount = $2 \\times 5 = 10$ apples.\n- Oranges: Half of Morisette's amount = $8 / 2 = 4$ oranges.\nTotal for Kael = $10 + 4 = 14$ fruits.\n\nTotal fruits = Morisette's total + Kael's total = $13 + 14 = 27$.\n\n**[id 122]**\nMonday: 8 hours.\nNext two days (Tuesday and Wednesday): 2 hours less than Monday each.\nSo, Tuesday = $8 - 2 = 6$ hours.\nWednesday = $8 - 2 = 6$ hours.\n\"Rest of the week\": This implies Thursday, Friday, Saturday, and Sunday (4 days).\nShe slept 1 hour more *than those two days*. The phrase \"than those two days\" refers to the amount slept on *each* of those two days (6 hours), not the sum. So, sleeping 1 hour more than the 6 hours she slept on Tue/Wed means she slept $6 + 1 = 7$ hours per day for the remaining days.\nDays left: 4 days.\nHours for rest of week = $4 \\text{ days} \\times 7 \\text{ hours/day} = 28$ hours.\nTotal hours = Monday + Tuesday + Wednesday + Rest = $8 + 6 + 6 + 28 = 48$ hours.\n\n**[id 123]**\nRosie runs 10 mph for 3 hours.\nDistance = $10 \\times 3 = 30$ miles.\nThen she runs at 5 mph. The total time is 7 hours.\nTime remaining = $7 - 3 = 4$ hours.\nDistance in remaining time = $5 \\text{ mph} \\times 4 \\text{ hours} = 20$ miles.\nTotal distance = $30 + 20 = 50$ miles.\n\n**[id 124]**\nJennie has a pile of 60 letters needing stamps.\nShe stamps one-third of them: $60 / 3 = 20$ letters.\nThese 20 letters are moved to the \"already stamped\" pile.\nThe new total of the already-stamped pile is 30 letters.\nLet $x$ be the initial number of already-stamped letters.\n$x + 20 = 30$\n$x = 10$.\n\n**[id 125]**\nLet $J$ be the number of spoons in the package Julia bought.\nHusband bought 5 spoons.\nTotal spoons available initially after purchases = $J + 5$.\nJulia used 3 spoons to sample.\nRemaining spoons set on the table = 12.\nEquation: $(J + 5) - 3 = 12$\n$J + 2 = 12$\n$J = 10$.\n\n**[id 126]**\nChicken sausages = 38.\nFish sausages = 6 more than chicken = $38 + 6 = 44$.\nTotal sausages = $38 + 44 = 82$.\n\n**[id 127]**\nLily made 50 friends.\nAmy made 20 more than Lily = $50 + 20 = 70$ friends.\nTogether = $50 + 70 = 120$ friends.\n\n**[id 128]**\nCost of pepper = $15.\nCost of watermelon = $3 \\times 15 = 45$.\nCost of orange = Watermelon cost - 5 = $45 - 5 = 40$.\nDillon buys:\n- 4 watermelons: $4 \\times 45 = 180$.\n- 20 peppers: $20 \\times 15 = 300$.\n- 10 oranges: $10 \\times 40 = 400$.\nTotal cost = $180 + 300 + 400 = 880$.\n\n**[id 129]**\nPatients per day = 500.\nAverage visit time = 24 minutes = $24/60 = 0.4$ hours.\nTotal hours of patient care per day = $500 \\times 0.4 = 200$ hours.\nHospital revenue per patient-hour = $200.\nTotal Revenue = $200 \\text{ hours} \\times 200 \\text{ dollars/hour} = 40,000$ dollars.\nHospital cost per doctor-hour = $150.\nTotal Cost = $200 \\text{ hours} \\times 150 \\text{ dollars/hour} = 30,000$ dollars.\nProfit = Revenue - Cost = $40,000 - 30,000 = 10,000$.\n\n```json\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}\n```",
+ "usage": {
+  "queue_time": 0.174047234,
+  "prompt_tokens": 783,
+  "prompt_time": 0.067755506,
+  "completion_tokens": 1429,
+  "completion_time": 3.041563142,
+  "total_tokens": 2212,
+  "total_time": 3.109318648
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

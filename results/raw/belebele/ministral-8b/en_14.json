@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 3.9,
+ "text": "1. The passage suggests that the disease must become less lethal before it can cause a global epidemic.\n2. The passage states that the threat level has been reduced, but the overall threat has not gone away.\n3. The passage mentions that India lost 7 wickets.\n4. The passage advises prioritizing the airline that might offer more generous points or additional privileges, not necessarily the one you travel most often.\n5. Passports are collected on night sleeper trains to avoid interrupting passengers' sleep.\n6. The sultan of Morocco rebuilt Casablanca the second time.\n7. People can reach the Cinque Terre villages by train or boat.\n8. Boots with studded equipment are suitable for slippery winter conditions.\n\n```json\n{\n  \"answers\": {\n    \"112\": \"A\",\n    \"113\": \"A\",\n    \"114\": \"B\",\n    \"115\": \"D\",\n    \"116\": \"B\",\n    \"117\": \"D\",\n    \"118\": \"C\",\n    \"119\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1297,
+  "completion_tokens": 231,
+  "total_tokens": 1528,
+  "cost": 0.0002292,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002292,
+   "upstream_inference_prompt_cost": 0.00019455,
+   "upstream_inference_completions_cost": 3.465e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

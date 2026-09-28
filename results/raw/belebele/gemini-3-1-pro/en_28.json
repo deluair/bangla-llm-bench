@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 11.9,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n* **224:** The passage states that the explosion closed \"the airport to commercial flights.\" (A)\n* **225:** The passage states Brzezinski served as NSA from 1977 to 1981, \"succeeding Henry Kissinger.\" Thus, Kissinger held the position until 1977. (B)\n* **226:** The passage says the Luno was a \"100-metre ship\" and had \"120–160 cubic metres of fuel aboard.\" The statement that it had 100 meters of fuel aboard is false. (B)\n* **227:** The passage refers to Vautier heading back in the 1960s to \"newly-independent Algeria.\" (C)\n* **228:** The passage explicitly states an official reported to the scene \"after a neighbor called about a gas leak.\" (A)\n* **229:** The passage confirms the latest infection in a dead wild duck found \"near Lyon in the east of France.\" (A)\n* **230:** The passage notes that the storm Fred \"is moving towards the northwest.\" (D)\n* **231:** The passage reports that the earthquake activity resulting in the phase change \"had took place on March 10.\" (C)\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17280,
+  "output_tokens": 1229,
+  "thinking_tokens": 859,
+  "cache_read_tokens": 8141,
+  "total_tokens": 18509
+ },
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

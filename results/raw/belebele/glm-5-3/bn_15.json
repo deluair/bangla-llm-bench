@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 10.6,
+ "text": "**120:** The passage states Sirena is the only station providing both camping and temporary lodging, so it offers two types of accommodation. → **A**\n\n**121:** The passage credits Norwegians, who opened the first recreational ski club in Australia in 1861. → **B**\n\n**122:** The largest island off East Africa is Madagascar, which is associated with wildlife. → **C**\n\n**123:** Genuinely imported expensive brand-name frames cost much more abroad than domestic items. → **B**\n\n**124:** The best way is having your company pay for it. → **A**\n\n**125:** Nouns (and \"Sie\") are always capitalized, even mid-sentence. → **B**\n\n**126:** The passage says families with small children need more preparation, but day trips with children are easily possible — so statement D is incorrect. → **D**\n\n**127:** The northern shore is where the colonialists settled, making it a good place to explore colonial history. → **A**\n\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 798,
+  "completion_tokens_details": {
+   "reasoning_tokens": 521
+  },
+  "prompt_tokens": 5753,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6551
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

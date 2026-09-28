@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 4.1,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 60]**\n*   Total oranges: 25\n*   Bad oranges: 1\n*   Unripe oranges: 20% of 25 = $0.20 \\times 25 = 5$\n*   Sour oranges: 2\n*   Good oranges = Total - (Bad + Unripe + Sour)\n*   Good oranges = $25 - (1 + 5 + 2) = 25 - 8 = 17$\n*   Answer: 17\n\n**[id 61]**\n*   Cost of material: $500\n*   Cost of construction: $800\n*   Subtotal: $500 + $800 = $1300\n*   Insurance cost: 10% of $1300 = $0.10 \\times 1300 = $130\n*   Total paid: $1300 + $130 = $1430\n*   Answer: 1430\n\n**[id 62]**\n*   Marcy works for 30 years.\n*   The problem states: \"Starting after 20 years, she becomes entitled to 5% of the value of the pension per year.\" This phrasing is slightly ambiguous but typically implies an accumulation of pension value.\n*   Base pension for 40 years is $50,000. This usually scales with years of service. A common interpretation in such problems is that the full pension amount is accrued over the 40-year period, or the \"pension value\" referred to is the final amount. However, let's look at the specific condition: \"Starting after 20 years... entitled to 5% of the value of the pension per year.\"\n*   Let's assume the \"value of the pension\" refers to the final annual amount she would get if she stayed for 40 years, which is $50,000.\n*   She quits after 30 years. She has worked 30 years.\n*   The period \"starting after 20 years\" means from year 21 to year 30. That is 10 years.\n*   Each year during this period, she earns 5% of the $50,000 value.\n*   Earned amount = $10 \\text{ years} \\times (0.05 \\times 50,000) = 10 \\times 2,500 = 25,000$.\n*   So her annual pension is $25,000$.\n*   *Alternative Interpretation*: If the pension is proportional to years worked relative to 40 years, then 30/40 * 50,000 = 37,500. But the text specifically highlights the 20-year threshold and the 5% accrual rate. This suggests a two-part or specific accrual rule. Let's re-read carefully: \"If Marcy works... 40 years, she gets an annual pension of $50,000/year.\" This sets the benchmark. \"Starting after 20 years, she becomes entitled to 5% of the value of the pension per year.\" This implies that for each year worked *after* the 20th year, she earns 5% of the $50,000.\n*   Years worked after 20th = $30 - 20 = 10$ years.\n*   Pension = $10 \\times (5\\% \\text{ of } 50,000) = 10 \\times 2,500 = 25,000$.\n*   Answer: 25000\n\n**[id 63]**\n*   Monthly charge first half (6 months): $140\n*   Cost for first half: $6 \\times 140 = 840$\n*   Monthly charge second half (6 months): 10% less than $140.\n*   $10\\% \\text{ of } 140 = 14$.\n*   New rate: $140 - 14 = 126$.\n*   Cost for second half: $6 \\times 126 = 756$\n*   Total cost: $840 + 756 = 1596$\n*   Answer: 1596\n\n**[id 64]**\n*   Sophia traveled 100 miles using 4 gallons of gas.\n*   Fuel efficiency (miles per gallon) = $100 / 4 = 25$ miles/gallon.\n*   Tank capacity = 12 gallons.\n*   Distance on full tank = $12 \\text{ gallons} \\times 25 \\text{ miles/gallon} = 300$ miles.\n*   Answer: 300\n\n**[id 65]**\n*   Time watching TV per session: 2 hours.\n*   Time reading per session: \"half as long\" as TV = $2 / 2 = 1$ hour.\n*   Total time per session (TV + Reading) = $2 + 1 = 3$ hours.\n*   Frequency: 3 times a week.\n*   Time per week = $3 \\text{ sessions} \\times 3 \\text{ hours/session} = 9$ hours.\n*   Time in 4 weeks = $4 \\times 9 = 36$ hours.\n*   Answer: 36\n\n**[id 66]**\n*   Number of schools: 4.\n*   Teams per school: 1 girls' + 1 boys' = 2 teams.\n*   Players per team: 5.\n*   Total players per school = $2 \\text{ teams} \\times 5 \\text{ players/team} = 10$ players.\n*   Coaches per school: 1 per team = 2 coaches.\n*   Total people per school = $10 \\text{ players} + 2 \\text{ coaches} = 12$ people.\n*   Total for all schools = $4 \\text{ schools} \\times 12 \\text{ people/school} = 48$.\n*   Answer: 48\n\n**[id 67]**\n*   Diamonds: 175\n*   Rubies: 35 fewer than diamonds = $175 - 35 = 140$\n*   Emeralds: Twice the number of rubies = $2 \\times 140 = 280$\n*   Total gems = $175 + 140 + 280$\n*   $175 + 140 = 315$\n*   $315 + 280 = 595$\n*   Answer: 595\n\n**[id 68]**\n*   Girls: 60\n*   Boys: Twice as many as girls = $2 \\times 60 = 120$\n*   Total students = $60 + 120 = 180$\n*   Ratio: 5 students to every 1 teacher.\n*   Teachers = Total students / 5 = $180 / 5 = 36$\n*   Answer: 36\n\n**[id 69]**\n*   Let initial amount be $x$.\n*   Allowance received: $5 \\text{ per week} \\times 8 \\text{ weeks} = 40$.\n*   Total amount at end = Initial + Allowance = $x + 40$.\n*   Given total is $100.\n*   $x + 40 = 100$\n*   $x = 60$\n*   Answer: 60\n\n```json\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}\n```",
+ "usage": {
+  "queue_time": 0.121652214,
+  "prompt_tokens": 740,
+  "prompt_time": 0.065637713,
+  "completion_tokens": 1884,
+  "completion_time": 3.7728844759999998,
+  "total_tokens": 2624,
+  "total_time": 3.838522189
+ },
+ "served_by": null,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

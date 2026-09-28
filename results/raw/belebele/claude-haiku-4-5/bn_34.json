@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 38.9,
+ "text": "Looking at each question carefully based on the passages:\n\n**[id 272]**: The passage states that Kerala temple festivals feature \"সজ্জিত হাতির নিয়মিত শোভাযাত্রা\" (regular processions of decorated elephants). The decorated elephants are specifically mentioned in the context of temple festival processions.\n**Answer: C**\n\n**[id 273]**: The passage mentions that some supermarkets keep \"মাইক্রোওয়েভ বা অন্য ব্যবস্থা খাবার গরম রাখার জন্য\" (microwave or other arrangements to keep food warm). This facility would make pre-made food more acceptable to customers.\n**Answer: D**\n\n**[id 274]**: The passage explicitly states that \"ফরাসী ভাষী বেলজিয়াম এবং সুইজারল্যান্ডের সংখ্যা পদ্ধতিতে কিছু অদ্ভুত বৈশিষ্ট্য রয়েছে যে ফ্রান্সে ব্যবহৃত ফরাসী ভাষার চেয়ে আলাদা\" (the number system in French-speaking Belgium and Switzerland has peculiar characteristics different from French used in France).\n**Answer: B**\n\n**[id 275]**: The passage discusses how capitalization helps differentiate between verbs and nouns, and notes that finding whether abbreviated forms are verbs or adjectives creates difficulty in writing.\n**Answer: B**\n\n**[id 276]**: The passage states that cracks and crevasses \"হয়ত বরফের ভঙ্গুর সেতু দ্বারা যুক্ত থাকে\" (are perhaps connected by fragile ice bridges), meaning cracks/crevasses lie behind these bridges.\n**Answer: A**\n\n**[id 277]**: Saying the war situation is \"impressive\" contradicts the passage's warning to research the war situation in North Kivu before traveling outside Goma. This is a caution, not a positive recommendation.\n**Answer: A**\n\n**[id 278]**: The passage states \"খাদ বাঁচানোর জন্য কম অনুমোদন পাওয়া যায়\" (Limited approvals are available to preserve the canyon). Limited permits is the conservation principle.\n**Answer: D**\n\n**[id 279]**: The passage explicitly states \"অপ্রস্তুতদের সম্ভবত ঠাণ্ডা আবহাওয়ার মতো একমাত্র বাস্তব বিপদের মুখোমুখি হতে হবে\" (Unprepared people would face only a real danger like cold weather). It also states crime is \"virtually unknown\" in Greenland.\n**Answer: C**\n\n```json\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"B\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5927,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3398,
+  "output_tokens_details": {
+   "thinking_tokens": 2604
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5927,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3398,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5927,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5927
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028852999999999997,
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "B",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "B",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

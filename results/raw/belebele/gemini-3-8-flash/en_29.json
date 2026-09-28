@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 8.2,
+ "text": "Brief reasoning:\n\n- **232**: The passage explicitly states that the disease \"migrates to humans through mosquitos.\" Option A.\n- **233**: The passage states Iwasaki was \"attacked in Tibet by a rabid dog.\" Option C.\n- **234**: The restraining order enforced the release of detainees held longer than 24 hours who \"did not receive a hearing by a court commissioner.\" Option D.\n- **235**: The list of nominations mentions Best Picture, Sound Mixing, and Original Song, but not Best Visual Effects. Option B.\n- **236**: The text directly states that \"Some roads have been damaged.\" Option C.\n- **237**: An \"ongoing military presence in the valley\" is demanded by Israel, whereas the Palestinian Authority agrees only to a five-year presence. Option B.\n- **238**: Massa suffered the injury \"during the 2009 Hungarian Grand Prix.\" Option A.\n- **239**: The passage notes that \"Police said they suspect an alleged Daesh (ISIL) militant.\" Option A.\n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n",
+ "usage": {
+  "input_tokens": 25083,
+  "output_tokens": 2052,
+  "thinking_tokens": 1746,
+  "cache_read_tokens": 0,
+  "total_tokens": 27135
+ },
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

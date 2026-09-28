@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 7.1,
+ "text": "Brief reasoning:\n\n- **[id 240]**: The passage states Gingrich came in second with 32 percent of the vote (Option B).\n- **[id 241]**: The text mentions \"Gingrich lauded Santorum\", meaning Gingrich spoke highly of another candidate (Option B).\n- **[id 242]**: The passage notes Nadal won \"76 points in the first serve\" (Option B).\n- **[id 243]**: Australia's former government stated ratifying Kyoto \"would damage the economy\" (Option B).\n- **[id 244]**: The controller of the Nintendo Revolution was described as \"resembling a television remote\" (Option B).\n- **[id 245]**: The storm was once Category 4 and weakened to a tropical depression, making statement B false (Option B).\n- **[id 246]**: The passage names the parent species, location, and timeframe, but does not state the name of the new species (Option C).\n- **[id 247]**: CowParade is explicitly described as \"the world's largest public art event\" (Option D).\n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25143,
+  "output_tokens": 1511,
+  "thinking_tokens": 1183,
+  "cache_read_tokens": 0,
+  "total_tokens": 26654
+ },
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

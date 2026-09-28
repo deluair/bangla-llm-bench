@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 33.8,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n- **[id 170]**:\n  - Hat cost = $25\n  - Jacket cost = $25 × 3 = $75\n  - Pants cost = (25 + 75) / 2 = $50\n  - Total per uniform = 25 + 75 + 50 = $150\n\n- **[id 171]**:\n  - Spider legs = 80 × 8 = 640\n  - Insect legs = 90 × 6 = 540\n  - Mutant invertebrate legs = 3 × 10 = 30\n  - Total legs = 640 + 540 + 30 = 1210\n\n- **[id 172]**:\n  - Sally Thirtytwo = 8\n  - Sally Four = 8\n  - Granny Red = 8 × 2 = 16\n  - Sally Two = 16 + 3 = 19\n  - Total age = 8 + 8 + 16 + 19 = 51\n\n- **[id 173]**:\n  - Minimum monthly payments = $300 + $200 + $500 = $1000\n  - Paying 50% extra = $1000 × 1.5 = $1500/month\n  - Annual payment = $1500 × 12 = $18000\n\n- **[id 174]**:\n  - Peeling time = 60 × 1.5 minutes = 90 minutes\n  - Cutting time = 60 × 5 seconds = 300 seconds = 5 minutes\n  - Total prep time = 90 + 5 = 95 minutes\n\n- **[id 175]**:\n  - Revenue per gallon = 20 × $0.50 = $10\n  - Cost per gallon = $3 (lemons) + $2 (sugar) = $5\n  - Profit per gallon = $10 - $5 = $5\n  - Gallons sold = $25 / $5 = 5 gallons\n  - Total spent on lemons = 5 × $3 = $15\n\n- **[id 176]**:\n  - Chinese team members = 240 - 80 = 160\n  - Girls on the Chinese team = 160 - 60 = 100\n\n- **[id 177]**:\n  - Rent = (1/4) × 6000 = $1500\n  - Fuel = (1/3) × 6000 = $2000\n  - Remaining after rent and fuel = 6000 - 3500 = $2500\n  - Donated to charity = 2500 / 2 = $1250\n  - Remaining after charity = $1250\n  - Given to daughter and wife = $200 + $700 = $900\n  - Final remaining amount = 1250 - 900 = $350\n\n- **[id 178]**:\n  - Bo = 40 crabs\n  - Monic = 40 - 4 = 36 crabs\n  - Rani = 36 + 10 = 46 crabs\n  - Total crabs = 40 + 36 + 46 = 122\n\n- **[id 179]**:\n  - Total hours = 5 + 8 = 13 hours\n  - Total earnings = 13 × $10 = $130\n\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}\n",
+ "usage": {
+  "input_tokens": 52163,
+  "output_tokens": 4428,
+  "thinking_tokens": 2112,
+  "cache_read_tokens": 146810,
+  "total_tokens": 56591
+ },
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

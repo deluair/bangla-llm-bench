@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "1680",
+  "1726",
+  "1753",
+  "1772",
+  "1773",
+  "1820",
+  "1850",
+  "1873",
+  "1892",
+  "1895",
+  "1929",
+  "1995",
+  "1998",
+  "2004",
+  "2043"
+ ],
+ "seconds": 7.8,
+ "text": "1. **1680 – A.** Natural processes move from higher order to lower order, as the second law of thermodynamics describes.\n2. **1726 – B.** Assuming the two books have equal mass, the net force is mg acting on a total mass of 2m, so the acceleration is g/2.\n3. **1753 – B.** Pitch depends mainly on frequency.\n4. **1772 – B.** The impulse–momentum relationship comes from Newton's second law, F = dp/dt.\n5. **1773 – A.** A fission reactor heats water to make steam; it does not generate electricity directly.\n6. **1820 – B.** Negative autocorrelation shows up as residuals that alternate in sign.\n7. **1850 – A.** In an ARMA(p,q) model, both the acf and the pacf decline geometrically.\n8. **1873 – A.** Statements (ii) and (iv) are true. Statement (i) describes impulse responses, not variance decompositions. Statement (iii) is false because ordering also matters for variance decompositions.\n9. **1892 – C.** The residual is the actual value minus the fitted value, y − ŷ.\n10. **1895 – B.** There are three unordered choices (equity, bond, cash), so a multinomial logit is appropriate.\n11. **1929 – A.** LC oscillators typically cover about 1 MHz to 500 MHz.\n12. **1995 – D.** Welding electrodes need high electrical conductivity, high thermal conductivity and strength at high temperature.\n13. **1998 – D.** Heat sink materials need high thermal conductivity, large surface area and a high melting point.\n14. **2004 – A.** Capacitors in parallel add: 4 × 40 µF = 160 µF.\n15. **2043 – D.** Poles and zeros alternating on the negative real axis are characteristic of RC and RL networks.\n\n{\"answers\": {\"1680\": \"A\", \"1726\": \"B\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"A\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"A\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1927,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 852,
+  "output_tokens_details": {
+   "thinking_tokens": 119
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1927,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 852,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1927,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1927
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032464,
+ "answers_batch": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "A",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {},
+ "answers": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "A",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ }
+}

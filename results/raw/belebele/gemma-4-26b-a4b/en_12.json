@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 5.3,
+ "text": "The passage states: \"Four skiers in the women's sitting group failed to finish their runs, and 45 of the 117 total skiers in the Giant Slalom failed to rank in the race.\" However, the question specifically asks how many competitors \"did not finish\". The text says four skiers in the sitting group failed to finish, while 45 in the total group \"failed to rank\" (which can include DNFs but is a different metric). Looking at the options, 4 is the only number explicitly tied to a \"failed to finish\" status.\n\nThe passage says Northern Rock required support \"due to its exposure during the subprime mortgage crisis in 2007.\" This corresponds to option D.\n\nThe researcher Berhane Asfaw says, \"Based on this fossil, that means the split is much earlier...\" This indicates the information regarding the split is derived from/found on a fossil.\n\nThe passage states: \"Later reports then stated the plane received a bomb threat and was diverted back to Afghanistan, landing in Kandahar.\" It also mentions the plane was \"denied an emergency landing in Ürümqi.\" The \"later reports\" (the latest reports) include the bomb threat, the diversion to Afghanistan, and landing in Kandahar. They do *not* state it landed in Ürümqi (it was denied landing there).\n\nThe passage states: \"Bush spokesman Gordon Johndroe called North Korea's pledge 'a major step...'\"\n\nThe passage states: \"The Ninth Ward... is currently in waist-high water...\"\n\nThe passage states: \"...assistance of 80 police were on hand to direct motorists to detours.\"\n\nThe passage states: \"By early today, winds were around 83 km/h, and it was expect to keep weakening.\"\n\n{\"answers\": {\"96\": \"C\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1242,
+  "completion_tokens": 439,
+  "total_tokens": 1681,
+  "cost": 0.00021939,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021939,
+   "upstream_inference_prompt_cost": 7.452e-05,
+   "upstream_inference_completions_cost": 0.00014487
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "96": "C",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "C",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 15.2,
+ "text": "Here are the answers to the 8 multiple-choice questions based on the provided passages:\n\n**[id 128]** The passage states that a contagious disease is \"easily transmitted by being in the vicinity of an infected person.\" Therefore, it is spread by infected people.\nAnswer: A\n\n**[id 129]** The passage begins with, \"Because calls are routed over the Internet, you do not need to use a phone company located where you live or where you travel.\" \nAnswer: A\n\n**[id 130]** The passage explicitly mentions that a double 'r' is pronounced differently, most words are pronounced how they are written, and 'c' and 'g' can be tricky. It says that the pronunciation of 'c' and 'g' varies depending on the following vowel, not the pronunciation of *most words*.\nAnswer: D\n\n**[id 131]** The passage attributes tourism to religious significance, historic/archaeological/cultural sites, and shopping/cafés/restaurants. Its status as Israel's capital is mentioned, but explicitly stated as not recognized by most other countries, and it is not cited as a tourist draw.\nAnswer: B\n\n**[id 132]** The passage warns climbers to \"take care in the steeper portions, especially when wet, as it can become dangerous quickly.\"\nAnswer: A\n\n**[id 133]** The passage notes that Moldova is a multi-ethnic republic suffering from \"ethnic conflict,\" and that \"this conflict led to the creation of the self-proclaimed Transnistria Republic.\"\nAnswer: B\n\n**[id 134]** The passage explicitly states, \"Beware: small-town bars here are not always good places for the out-of-state visitor to hang out,\" citing a high concentration of intoxicated drivers close to them.\nAnswer: B\n\n**[id 135]** The passage specifically mentions that \"Fruit juices are pricey but excellent,\" making them the beverage to avoid for budget-conscious travelers.\nAnswer: D\n\n```json\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17393,
+  "output_tokens": 1756,
+  "thinking_tokens": 1245,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19149
+ },
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

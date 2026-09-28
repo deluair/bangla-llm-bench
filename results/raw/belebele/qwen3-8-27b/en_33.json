@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 1.8,
+ "text": "**Question 264**\nThe passage states that canyoning combines elements from \"swimming, climbing and jumping.\" It contrasts this with activities requiring significant training, implying that basic competency in the combined elements, such as swimming, is necessary. It explicitly says it requires \"relatively little training,\" making advanced athletic capability (A) incorrect. It mentions scuba diving as a comparison for training levels, not a prerequisite (B). There is no mention of certification (C). Swimming ability (D) is one of the core components listed.\nAnswer: D\n\n**Question 265**\nThe passage states that Chile declared independence in 1810 (so D occurred in 1810). It mentions the Napoleonic wars were happening then (so C occurred in 1810). It mentions Spain was without a functioning central government for a couple of years amid the wars starting around that time (so A is associated with 1810). However, the passage explicitly states \"decisive victory over the Spanish was not achieved until 1818,\" meaning victory did *not* occur in 1810.\nAnswer: B\n\n**Question 266**\nThe passage lists \"Sand, gravel or salt (calcium chloride)\" as substances scattered on roads to improve traction. Water is not listed and would likely reduce traction (cause slipping).\nAnswer: D\n\n**Question 267**\nThe passage states: \"The Cook Islands do not have any cities but are composed of 15 different islands. The main ones are Rarotonga and Aitutaki.\" Therefore, describing Rarotonga and Aitutaki as \"cities\" is inaccurate according to the text. Option A is supported (\"Though smaller...\"). Option B is supported (\"It is an archipelago\"). Option D is supported (\"same time zone as Hawaii\").\nAnswer: C\n\n**Question 268**\nThe passage states: \"Travellers who had an easy time adjusting to the new culture sometimes have a particularly hard time readjusting to their native culture.\" This directly supports option B.\nAnswer: B\n\n**Question 269**\nThe first sentence states: \"Moose (also known as elk) aren't inherently aggressive...\" Therefore, statement A (\"They are naturally aggressive animals\") is not true according to the passage. The other options are supported: B (people don't see them as dangerous), C (approach too closely/trigger), D (defend themselves if perceive a threat).\nAnswer: A\n\n**Question 270**\nThe passage says: \"Madagascar is by far the biggest... a continent on its own when it comes to wildlife.\" For the *smaller* islands, it says they are \"known as luxury beach resorts\" (B) and \"independent nations, or associated with France\" (A and D). The reputation for significant wildlife is attributed specifically to Madagascar, not the smaller islands.\nAnswer: C\n\n**Question 271**\nThe passage states: \"High-end brand-name frames available in such areas may have two problems; some may be knock-offs...\" A knock-off is a fake. Therefore, purchasing them might mean you get a fake.\nAnswer: C\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}",
+ "usage": {
+  "queue_time": 0.093540625,
+  "prompt_tokens": 1410,
+  "prompt_time": 0.096615332,
+  "completion_tokens": 748,
+  "completion_time": 1.4609833110000001,
+  "total_tokens": 2158,
+  "total_time": 1.557598643
+ },
+ "served_by": null,
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

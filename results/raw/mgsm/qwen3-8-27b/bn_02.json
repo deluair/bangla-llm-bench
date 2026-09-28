@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 3.7,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 20]**\n*   **Orange Drink:** 10 liters total. Water is 2/3 of it.\n    *   Water amount = $10 \\times \\frac{2}{3} = \\frac{20}{3}$ liters.\n    *   I spill 1 liter of orange drink. The concentration remains the same.\n    *   Remaining orange drink = 9 liters.\n    *   Water in remaining orange drink = $9 \\times \\frac{2}{3} = 6$ liters.\n*   **Pineapple Drink:** 15 liters total. Water is 3/5 of it.\n    *   Water amount = $15 \\times \\frac{3}{5} = 9$ liters.\n*   **Total Water:** Sum of water from both parts.\n    *   Total Water = $6 + 9 = 15$ liters.\n    *   Check total volume: $9 \\text{ (leftover orange)} + 15 \\text{ (pineapple)} = 24$ liters. This matches the problem statement.\n*   **Answer:** 15\n\n**[id 21]**\n*   Raymond is 6 years older than Samantha.\n*   Samantha is currently 31 years old.\n*   Therefore, Raymond is currently $31 + 6 = 37$ years old.\n*   Raymond had his son when he was 23 years old.\n*   Time elapsed since son's birth = Current Age - Age at Son's Birth.\n*   Time elapsed = $37 - 23 = 14$ years.\n*   **Answer:** 14\n\n**[id 22]**\n*   First 3 customers buy 1 DVD each: $3 \\times 1 = 3$ DVDs.\n*   Next 2 customers buy 2 DVDs each: $2 \\times 2 = 4$ DVDs.\n*   Last 3 customers buy 0 DVDs: $3 \\times 0 = 0$ DVDs.\n*   Total DVDs sold = $3 + 4 + 0 = 7$.\n*   **Answer:** 7\n\n**[id 23]**\n*   Melt rate = 2 cm per hour.\n*   Time period: 1:00 PM to 5:00 PM.\n*   Duration = 4 hours.\n*   Total melted = $4 \\text{ hours} \\times 2 \\text{ cm/hour} = 8$ cm.\n*   **Answer:** 8\n\n**[id 24]**\n*   Sale Price = $\\$19.50$.\n*   Discount = 25%.\n*   Sale Price is $(100\\% - 25\\%) = 75\\%$ of the original price.\n*   Let $P$ be the original price.\n*   $0.75 P = 19.50$\n*   $P = \\frac{19.50}{0.75} = \\frac{19.50}{3/4} = 19.50 \\times \\frac{4}{3} = 6.5 \\times 4 = 26$.\n*   **Answer:** 26\n\n**[id 25]**\n*   Chicken Meal: $\\$12$.\n*   Milk: 5 packets $\\times$ $\\$3$ = $\\$15$.\n*   Apples: 4 apples $\\times$ $\\$1.50$ = $\\$6$.\n*   Cost of fixed items = $12 + 15 + 6 = \\$33$.\n*   Total spent = $\\$50$.\n*   Remaining amount for pizza = $50 - 33 = \\$17$.\n*   Price per pizza box = $\\$8.50$.\n*   Number of pizza boxes = $\\frac{17}{8.5} = 2$.\n*   **Answer:** 2\n\n**[id 26]**\n*   Shorts: 3 pairs $\\times$ $\\$16.50$ = $\\$49.50$.\n*   Pants: 3 pairs $\\times$ $\\$22.50$ = $\\$67.50$.\n*   Shoes: 3 pairs $\\times$ $\\$42.00$ = $\\$126.00$.\n*   Total cost = $49.50 + 67.50 + 126.00$.\n*   $49.50 + 67.50 = 117.00$.\n*   $117.00 + 126.00 = 243.00$.\n*   **Answer:** 243\n\n**[id 27]**\n*   One carton serves 15 times and costs $\\$4.00$.\n*   Cynthia eats 1 serving per day.\n*   Number of days = 60.\n*   Number of cartons needed = $\\frac{60}{15} = 4$ cartons.\n*   Total cost = $4 \\text{ cartons} \\times \\$4.00/\\text{carton} = \\$16.00$.\n*   **Answer:** 16\n\n**[id 28]**\n*   Total trip distance = 60 miles.\n*   First stop is after 20 miles. Position = 20 miles.\n*   Second stop is 15 miles before the end. Position = $60 - 15 = 45$ miles.\n*   Distance traveled between stops = (Position at second stop) - (Position at first stop).\n*   Distance = $45 - 20 = 25$ miles.\n*   **Answer:** 25\n\n**[id 29]**\n*   Let $B$ be the price of the boots.\n*   Let $H_1$ and $H_2$ be the prices of the two pairs of heels.\n*   $H_1 = 33$.\n*   $H_2 = 2 \\times H_1 = 2 \\times 33 = 66$.\n*   The price of the two pairs of heels together is $H_1 + H_2 = 33 + 66 = 99$.\n*   The problem states the heels together cost five dollars less than the boots.\n*   So, $Boots - 5 = Heels$.\n*   $B - 5 = 99$.\n*   $B = 99 + 5 = 104$.\n*   **Answer:** 104\n\n```json\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}\n```",
+ "usage": {
+  "queue_time": 0.088348121,
+  "prompt_tokens": 1179,
+  "prompt_time": 0.101995636,
+  "completion_tokens": 1605,
+  "completion_time": 3.290575689,
+  "total_tokens": 2784,
+  "total_time": 3.392571325
+ },
+ "served_by": null,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

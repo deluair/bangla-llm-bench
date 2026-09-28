@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "899",
+  "908",
+  "951",
+  "981",
+  "987",
+  "1004",
+  "1011",
+  "1019",
+  "1030",
+  "1045",
+  "1100",
+  "1116",
+  "1125",
+  "1141",
+  "1158"
+ ],
+ "seconds": 96.7,
+ "text": "Looking at each question:\n\n**[id 899] Redox Balancing**\nBalancing the equation with Mn: +7→+2 (gains 5e⁻) and I: -1→+5 (loses 6e⁻):\n6MnO₄⁻ + 5I⁻ + 18H⁺ → 6Mn²⁺ + 5IO₃⁻ + 9H₂O\n\nChecking options: B) MnO₄⁻:I⁻ = 6:5 ✓\n\n**[id 908] Cyclobutyl Radical β-coupling**\nFor a flat cyclobutyl radical with HCH angle 115°, using the β-coupling formula with dihedral angle relationships, the coupling constant is approximately **A) 4.6 mT**.\n\n**[id 951] Quantum Yield Definition**\nStandard definition: Φf = (photons emitted)/(photons absorbed)\n**Answer: C**\n\n**[id 981] EPR Resonant Fields**\nAt center field: B₀ = hν/(gμB) ≈ 338.3 mT\nHyperfine splitting: ΔB = (280×10⁶ Hz)×h/(gμB) ≈ 5 mT\nTwo lines at: 338.3 ± 5 mT → 333.5 and 343.5 mT\n**Answer: C**\n\n**[id 987] Spontaneous Process**\nΔG < 0 for spontaneous processes. Only statement D is always true: ΔS(universe) > 0\n**Answer: D**\n\n**[id 1004] Floating-point Arithmetic**\nStatements A, B, D are true. Statement C is problematic - you cannot achieve true associativity with just conventions; the fundamental issue persists.\n**Answer: C**\n\n**[id 1011] String Function**\nTesting: a^M = (a·e)^M = a·e^M·a = a·e·a = aa (not a)\nComputing other options similarly shows none hold.\n**Answer: D**\n\n**[id 1019] K-ary Tree Ratio**\nFor a complete K-ary tree of depth N:\nNonterminal nodes/(Total nodes) = (K^N - 1)/(K^(N+1) - 1) ≈ 1/K for large N\n**Answer: A**\n\n**[id 1030] Activation Record**\nStack frames contain local variables, return address, and stack pointers. A heap area is a separate global memory region, not part of individual stack frames.\n**Answer: B**\n\n**[id 1045] Addition in 8-bit Representations**\n109 + (-42) = 67\n- One's complement range: -127 to 127 ✓\n- Two's complement range: -128 to 127 ✓\n- Sign-magnitude range: -127 to 127 ✓\nAll three representations work.\n**Answer: D**\n\n**[id 1100] Damaged Suitcases**\nP(exactly 2 damaged) = C(5,2)×C(20,1)/C(25,3) = (10×20)/2300 = 200/2300 = 2/23\n**Answer: C**\n\n**[id 1116] Eigenvector Properties**\nIf Av = λv:\n- I. 2A·v = 2λv ✓\n- II. A²v = λ²v ✓\n- III. A⁻¹v = (1/λ)v ✓\n**Answer: D**\n\n**[id 1125] Largest Order in S₅**\nCycle types and orders: (5)→5, (4,1)→4, (3,2)→lcm(3,2)=6, etc.\nMaximum order is 6 from a (3,2) cycle.\n**Answer: B**\n\n**[id 1141] Topology Statements**\nStatement 1: Continuous function from compact to metric space is uniformly continuous - **TRUE**\nStatement 2: Composition of differentiable functions is differentiable (chain rule) - **TRUE**\n**Answer: A**\n\n**[id 1158] Complex Numbers Order**\nStatement A: We can place a linear order on ℂ that isn't an ordered field - **TRUE** (any incompatible order)\nStatement B: We can make ℂ an ordered field - **FALSE** (i² = -1 creates contradiction)\n**Answer: A**\n\n```json\n{\n  \"answers\": {\n    \"899\": \"B\",\n    \"908\": \"A\",\n    \"951\": \"C\",\n    \"981\": \"C\",\n    \"987\": \"D\",\n    \"1004\": \"C\",\n    \"1011\": \"D\",\n    \"1019\": \"A\",\n    \"1030\": \"B\",\n    \"1045\": \"D\",\n    \"1100\": \"C\",\n    \"1116\": \"D\",\n    \"1125\": \"B\",\n    \"1141\": \"A\",\n    \"1158\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 1962,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9344,
+  "output_tokens_details": {
+   "thinking_tokens": 8070
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1962,
+    "output_tokens": 9344,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.048681999999999996,
+ "answers_batch": {
+  "899": "B",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {},
+ "answers": {
+  "899": "B",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ }
+}

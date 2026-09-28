@@ -1,0 +1,281 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540",
+  "33c29299-13bd-4d46-98af-56924515044c-13811"
+ ],
+ "seconds": 10.2,
+ "text": "I will analyze each question and provide the correct answer based on physics, chemistry, biology, mathematics, and general knowledge principles.\n\n**1. [id 27e195f4...]**\n*   **Concept:** Relation between Linear Momentum ($p$) and Kinetic Energy ($K.E.$).\n*   **Formula:** $K.E. = \\frac{p^2}{2m}$\n*   **Calculation:**\n    *   Initial Momentum $p_1 = p$\n    *   $K.E._1 = \\frac{p^2}{2m}$\n    *   New Momentum $p_2 = p + 50\\% = 1.5p$\n    *   New $K.E._2 = \\frac{(1.5p)^2}{2m} = \\frac{2.25p^2}{2m} = 2.25 K.E._1$\n    *   Percentage Increase = $(\\frac{K.E._2 - K.E._1}{K.E._1}) \\times 100 = (2.25 - 1) \\times 100 = 125\\%$\n*   **Answer:** C\n\n**2. [id 28e6793d...]**\n*   **Concept:** Correcting Myopia (Near-sightedness).\n*   **Formula:** Power of Lens $P = \\frac{1}{f}$ (where $f$ is in meters).\n*   **Calculation:**\n    *   Far point distance $d = -75$ cm (negative because the image of a distant object forms in front of the retina, so the corrective lens must form a virtual image at the far point).\n    *   $f = -75 \\text{ cm} = -0.75 \\text{ m}$\n    *   $P = \\frac{1}{-0.75} = -\\frac{4}{3} \\approx -1.33$ Diopters.\n*   **Answer:** A\n\n**3. [id 2b64958b...]**\n*   **Concept:** Types of Nouns.\n*   **Analysis:** \"Truth\" is an idea or quality, not a physical thing. Therefore, it is an abstract noun.\n*   **Answer:** D\n\n**4. [id 2b94c828...]**\n*   **Concept:** In-situ vs Ex-situ Conservation.\n*   **Analysis:**\n    *   In-situ (On-site) conservation includes National Parks, Wildlife Sanctuaries, Biosphere Reserves, etc.\n    *   Ex-situ (Off-site) conservation includes Zoos, Botanical Gardens, Seed Banks, Tissue Culture Labs.\n    *   Safari Park is generally considered a form of ex-situ or semi-ex-situ conservation where animals are kept in managed encloses, but **Seed Bank** is definitely ex-situ. However, looking at standard classifications:\n        *   Option A (Safari Park): Animals are in a controlled environment, often considered ex-situ or edge cases.\n        *   Option B (Seed Bank): Definitely ex-situ (genetic material storage).\n        *   Option C (Wildlife Sanctuary): In-situ.\n        *   Option D (Game Reserve): In-situ.\n    *   Wait, let's re-evaluate \"Safari Park\" vs \"Seed Bank\". A seed bank is the classic example of ex-situ conservation. A safari park keeps living animals but in a modified habitat. Both can be argued, but Seed Bank is the most distinct *non-living habitat* ex-situ method. However, sometimes \"Safari Park\" is contrasted with \"Sanctuary\". Let's look at the options again.\n    *   Actually, usually, **Seed Bank** is the clear answer for \"Not In-situ\". In-situ protects species in their natural habitat. Seed banks store samples outside the habitat.\n*   **Answer:** B\n\n**5. [id 2ca9ec0e...]**\n*   **Concept:** Trigonometric Identity.\n*   **Formula:** $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$ for $x \\in [-1, 1]$.\n*   **Answer:** D\n\n**6. [id 2ce86248...]**\n*   **Concept:** Primary Standard Substances.\n*   **Analysis:** A primary standard must be stable, pure, have a high molecular weight, and react completely.\n    *   NaCl: Stable, pure, but often used for calibration, less common as a *titrant* primary standard compared to others, but it is a primary standard in gravimetry.\n    *   NaOH: Hygroscopic, absorbs CO2, not a primary standard.\n    *   Na2CO3: Stable, often used as a primary standard for acid-base titrations after drying.\n    *   NaNO3: Stable, but doesn't change during titration easily in the same way.\n    *   Among the choices, **Na2CO3** is a very common primary standard for standardizing HCl. NaCl is also a primary standard. However, in the context of laboratory titrations (common exam context), Sodium Carbonate is the classic example among these organic/salty options for acid standardization. Let's check NaCl. NaCl is also a primary standard. Which one is \"the\" answer? Usually, questions ask for the one that *is* a primary standard. Both A and C are. However, NaOH is not. NaNO3 is not typically used for volumetric standardization. Let's look for nuances. Sodium Carbonate is widely cited. Let's assume the question implies acid-base titration contexts where Na2CO3 is the go-to. Or perhaps NaCl is preferred for conductivity or other methods. Let's look at similar exam patterns. Often, **Na2CO3** is the intended answer for \"Primary Standard\" in general chemistry tests involving titrations.\n*   **Answer:** C (Note: NaCl is also a primary standard, but Na2CO3 is more frequently the target in titration contexts).\n\n**7. [id 2d869d8d...]**\n*   **Concept:** Nuclear Fusion.\n*   **Analysis:** The process of combining light nuclei to form a heavier nucleus is called Nuclear Fusion.\n*   **Answer:** B\n\n**8. [id 2dd69cbc...]**\n*   **Concept:** Bangla Software for Blind/Visually Impaired.\n*   **Analysis:** The famous screen reader software developed in Bangladesh (specifically by the Union Bank of Bangladesh or related tech initiatives/CS&RDD) for the visually impaired is **Alis** (or similar transliterations). Looking at the options:\n    *   A) Ailip\n    *   B) Icyt\n    *   C) Eidot\n    *   D) Ailight\n    *   Actually, the well-known Bangla screen reader is **Aaloo** or **Alis**? Let's check \"Icyt\". No.\n    *   Let's check \"Ailip\".\n    *   Let's check \"Eidot\".\n    *   There is a software named **\"Aarong\"**? No.\n    *   Let's look at **CSRDD** (Community and Social Development Centre) or **Dhaka University**.\n    *   Wait, the software is likely **\"Alis\"** or **\"Ailip\"**?\n    *   Actually, the screen reader developed for Bangla in Bangladesh is often referred to as **\"Ariya\"** or **\"Alis\"**.\n    *   Let's look at the phonetics. \"Ailip\" sounds like a misprint or specific local name.\n    *   Let's consider **\"Joni\"**? No.\n    *   Let's search mental database for \"Bangla screen reader software name\".\n    *   One prominent one is **\"Alis\"**.\n    *   Another is **\"Shohor\"**?\n    *   Let's look at option A: **Ailip**.\n    *   Let's look at option C: **Eidot**.\n    *   Actually, there is a software called **\"Anubad\"**? No.\n    *   Let's reconsider the options. Maybe it is **Ailip**.\n    *   *Correction*: The software is often cited in Bangla IT exams as **\"Ailip\"** (or similar transliteration of a specific local project). However, a very famous one is **\"Kalab\"**? No.\n    *   Let's look at **Option A**.\n    *   Let's look at **Option D**.\n    *   Actually, the correct name might be **\"Aarong\"**? No.\n    *   Let's guess based on common exam questions from Bangladesh. The software is **\"Ailip\"** (possibly a typo for **Alis** or a specific acronym).\n    *   *Self-Correction*: The screen reader developed by the **Association for the Blind (Dhaka)** or similar bodies. One popular Bangla screen reader is **\"Ahal\"** (Island) or **\"Ailip\"**.\n    *   Let's go with **A** as it's the most likely candidate for a specific local acronym/name in this context.\n\n**9. [id 2e17e9b1...]**\n*   **Concept:** Translation.\n*   **Analysis:** \"তোমার\" (Your) \"পশুত্ব\" (beastly nature / animal nature) \"দমন\" (suppress/control) \"কর\" (do/imperative).\n    *   Meaning: Control/Suppress the beast (animal nature) within you.\n    *   Option A: Check the beast in you. (Close)\n    *   Option B: Catch the animal in you. (Incorrect verb)\n    *   Option C: Suppress the beats. (Incorrect noun)\n    *   Option D: Beat bestiality. (Incorrect structure)\n    *   \"Beast\" is a common metaphor for \"পশুত্ব\". \"Check\" or \"Suppress\" works. Option A uses \"Check... beast\". Option C uses \"Suppress\" but \"beats\" is wrong. Option D uses \"Beat\".\n    *   Option A is the most meaningful translation, though \"Suppress\" is more precise for \"দমন\". However, \"Check the beast in you\" is a standard idiomatic translation often used for this specific poetic line (often attributed to Tagore or similar).\n    *   Actually, let's look at Option A again. \"Check the beast in you.\" This is a direct, albeit slightly informal, translation.\n*   **Answer:** A\n\n**10. [id 2ed7b022...]**\n*   **Concept:** Latus Rectum of an Ellipse.\n*   **Formula:** For ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, the length of the latus rectum is $\\frac{2b^2}{a}$ (if $a > b$).\n*   **Analysis:**\n    *   Equation: $16x^2 + 9y^2 = 144$\n    *   Divide by 144: $\\frac{x^2}{9} + \\frac{y^2}{16} = 1$\n    *   Here, denominator under $y^2$ is larger ($16 > 9$), so major axis is along y-axis.\n    *   $a^2 = 16 \\implies a = 4$ (semi-major axis)\n    *   $b^2 = 9 \\implies b = 3$ (semi-minor axis)\n    *   Length of Latus Rectum = $\\frac{2b^2}{a} = \\frac{2(9)}{4} = \\frac{18}{4} = \\frac{9}{2}$\n    *   $\\frac{9}{2} = 4.5$\n*   **Answer:** B\n\n**11. [id 2fda34ee...]**\n*   **Concept:** Equation of a Circle.\n*   **Analysis:**\n    *   Expand the equation: $(ax+y)^2 + 2xy + 4x + ay - 9 = 0$\n    *   $(ax+y)^2 = a^2x^2 + 2axy + y^2$\n    *   Substitute back: $a^2x^2 + 2axy + y^2 + 2xy + 4x + ay - 9 = 0$\n    *   Group terms: $a^2x^2 + y^2 + (2a+2)xy + 4x + ay - 9 = 0$\n    *   For this to be a circle, the coefficient of $x^2$ must equal the coefficient of $y^2$, and the coefficient of $xy$ must be zero.\n    *   1) $a^2 = 1 \\implies a = \\pm 1$\n    *   2) $2a + 2 = 0 \\implies 2a = -2 \\implies a = -1$\n    *   Both conditions must be met. $a = -1$ satisfies both ($(-1)^2 = 1$ and $2(-1)+2 = 0$).\n    *   So, $a = -1$.\n*   **Answer:** C\n\n**12. [id 2ff2a82c...]**\n*   **Concept:** Equilibrium Constant $K_p$.\n*   **Reaction:** $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$\n*   **Formula:** $K_p = \\frac{(P_{NO_2})^2}{P_{N_2O_4}}$\n*   **Calculation:**\n    *   $P_{NO_2} = 0.31$ atm\n    *   $P_{N_2O_4} = 0.96$ atm\n    *   $K_p = \\frac{(0.31)^2}{0.96} = \\frac{0.0961}{0.96}$\n    *   $0.0961 / 0.96 \\approx 0.1001$\n*   **Answer:** C\n\n**13. [id 323ff80c...]**\n*   **Concept:** Local Administration in Bangladesh.\n*   **Analysis:**\n    *   The local government units are District (জেলা), Upazila (উপজেলা), and Union (ইউনিয়ন).\n    *   Division (বিভাগ) is an *administrative* unit for the central government (Administered by Divisional Commissioner), but it is **not** a \"Local Government\" unit with an elected council at the local level in the same statutory sense as the other three which have elected members (MLAs, Union Parishad members).\n    *   Therefore, Division is not part of the local administration *structure* in terms of local governance units.\n*   **Answer:** D\n\n**14. [id 32fecb16...]**\n*   **Concept:** Moment of Inertia.\n*   **Analysis:** Moment of Inertia ($I$) depends on the mass of the body, the distribution of that mass relative to the axis of rotation, and the position/orientation of the axis itself.\n    *   Option B says \"Mass and position of rotation axis\" (ভর ও ঘূর্ণন অক্ষের অবস্থান). This covers the key dependencies.\n*   **Answer:** B\n\n**15. [id 33c29299...]**\n*   **Concept:** Moment of Inertia Dependencies.\n*   **Analysis:**\n    *   Similar to Q14.\n    *   Option C says \"Distribution of mass of the body\" (বস্তুর ভরের বণ্টন) - Actually, it usually says \"ভরের বণ্টন\" or \"ভর বণ্টন\". The text says \"বেরির বণ্টন\" which might be a typo for \"ভরের বণ্টন\" (Distribution of mass).\n    *   Let's compare B and C in the previous questions.\n    *   Q14 Answer was B.\n    *   Q15 Ask: \"Moment of inertia depends on which?\"\n    *   A) Angular acceleration (No)\n    *   B) Radius of circular motion (No, that's for specific cases, general I is about mass distribution)\n    *   C) Distribution of mass of the body (Yes, this is the primary physical factor distinguishing I for different shapes with same mass).\n    *   D) Rotational kinetic energy (No, that depends on I and $\\omega$).\n    *   Note: Q14 and Q15 seem very similar.\n    *   Q14: \"নিচের কোনটির উপর বস্তুর জড়তার ভ্রামক নির্ভর করে?\" (On which of the following does the moment of inertia depend?)\n        *   Options: Angular Momentum, Mass & Axis Position, Linear Velocity, Angular Velocity.\n        *   Correct: Mass & Axis Position.\n    *   Q15: \"জড়তার ভ্রামক কোনটির উপর নির্ভর করে?\"\n        *   Options: Angular Acceleration, Radius, **Distribution of Mass**, Rotational KE.\n        *   Correct: Distribution of Mass.\n*   **Answer:** C\n\n```json\n{\"answers\": {\"27e195f4-617e-475f-9f6d-d4c98ba89f24-123070\": \"C\", \"28e6793d-8ec2-481a-818c-670b1c210c32-4715\": \"A\", \"2b64958b-0cc4-414f-bbce-724ef5ee150f-109668\": \"D\", \"2b94c828-59cf-4a27-baf0-845d57c5b076-26780\": \"B\", \"2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217\": \"D\", \"2ce86248-3043-4db5-81e2-c499a0b73dc9-55758\": \"C\", \"2d869d8d-429e-4620-82cb-0263d8c49367-97721\": \"B\", \"2dd69cbc-1d26-4a39-877a-afa049370034-113689\": \"A\", \"2e17e9b1-1b5c-497c-b577-aaef2590919a-93860\": \"A\", \"2ed7b022-a4db-418f-9cfd-54774ada45d9-117247\": \"B\", \"2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752\": \"C\", \"2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687\": \"C\", \"323ff80c-24b3-4571-a498-a31fcb345a97-93818\": \"D\", \"32fecb16-f656-48f7-900c-8708ace2f375-74540\": \"B\", \"33c29299-13bd-4d46-98af-56924515044c-13811\": \"C\"}}\n```",
+ "usage": {
+  "queue_time": 0.032887013,
+  "prompt_tokens": 1682,
+  "prompt_time": 0.149755042,
+  "completion_tokens": 4547,
+  "completion_time": 9.899985387,
+  "total_tokens": 6229,
+  "total_time": 10.049740429
+ },
+ "served_by": null,
+ "answers_batch": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "A",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ },
+ "single": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.118761534,
+    "prompt_tokens": 158,
+    "prompt_time": 0.011353083,
+    "completion_tokens": 2,
+    "completion_time": 0.003983844,
+    "total_tokens": 160,
+    "total_time": 0.015336927
+   },
+   "answer": "C"
+  },
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.116848795,
+    "prompt_tokens": 176,
+    "prompt_time": 0.01306554,
+    "completion_tokens": 2,
+    "completion_time": 0.003992994,
+    "total_tokens": 178,
+    "total_time": 0.017058534
+   },
+   "answer": "A"
+  },
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.069777704,
+    "prompt_tokens": 134,
+    "prompt_time": 0.00923463,
+    "completion_tokens": 2,
+    "completion_time": 0.004086957,
+    "total_tokens": 136,
+    "total_time": 0.013321587
+   },
+   "answer": "D"
+  },
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.153720677,
+    "prompt_tokens": 138,
+    "prompt_time": 0.010042655,
+    "completion_tokens": 2,
+    "completion_time": 0.004071403,
+    "total_tokens": 140,
+    "total_time": 0.014114058
+   },
+   "answer": "B"
+  },
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.063892671,
+    "prompt_tokens": 130,
+    "prompt_time": 0.008907033,
+    "completion_tokens": 2,
+    "completion_time": 0.003983595,
+    "total_tokens": 132,
+    "total_time": 0.012890628
+   },
+   "answer": "D"
+  },
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.063768076,
+    "prompt_tokens": 124,
+    "prompt_time": 0.008236665,
+    "completion_tokens": 2,
+    "completion_time": 0.00425417,
+    "total_tokens": 126,
+    "total_time": 0.012490835
+   },
+   "answer": "A"
+  },
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.099162124,
+    "prompt_tokens": 186,
+    "prompt_time": 0.015197436,
+    "completion_tokens": 2,
+    "completion_time": 0.004195913,
+    "total_tokens": 188,
+    "total_time": 0.019393349
+   },
+   "answer": "B"
+  },
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.09935014,
+    "prompt_tokens": 141,
+    "prompt_time": 0.011033317,
+    "completion_tokens": 2,
+    "completion_time": 0.004195779,
+    "total_tokens": 143,
+    "total_time": 0.015229096
+   },
+   "answer": "A"
+  },
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.458361591,
+    "prompt_tokens": 139,
+    "prompt_time": 0.011858379,
+    "completion_tokens": 2,
+    "completion_time": 0.005041003,
+    "total_tokens": 141,
+    "total_time": 0.016899382
+   },
+   "answer": "A"
+  },
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.081369462,
+    "prompt_tokens": 164,
+    "prompt_time": 0.014370456,
+    "completion_tokens": 2,
+    "completion_time": 0.004657327,
+    "total_tokens": 166,
+    "total_time": 0.019027783
+   },
+   "answer": "C"
+  },
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.00399184,
+    "prompt_tokens": 146,
+    "prompt_time": 0.012645262,
+    "completion_tokens": 2,
+    "completion_time": 0.00419217,
+    "total_tokens": 148,
+    "total_time": 0.016837432
+   },
+   "answer": "C"
+  },
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004341767,
+    "prompt_tokens": 199,
+    "prompt_time": 0.017017251,
+    "completion_tokens": 2,
+    "completion_time": 0.004177571,
+    "total_tokens": 201,
+    "total_time": 0.021194822
+   },
+   "answer": "B"
+  },
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.131579404,
+    "prompt_tokens": 124,
+    "prompt_time": 0.009667897,
+    "completion_tokens": 2,
+    "completion_time": 0.004194231,
+    "total_tokens": 126,
+    "total_time": 0.013862128
+   },
+   "answer": "D"
+  },
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.099325848,
+    "prompt_tokens": 154,
+    "prompt_time": 0.012099247,
+    "completion_tokens": 2,
+    "completion_time": 0.004213993,
+    "total_tokens": 156,
+    "total_time": 0.01631324
+   },
+   "answer": "B"
+  },
+  "33c29299-13bd-4d46-98af-56924515044c-13811": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.116578196,
+    "prompt_tokens": 150,
+    "prompt_time": 0.011766763,
+    "completion_tokens": 2,
+    "completion_time": 0.004186499,
+    "total_tokens": 152,
+    "total_time": 0.015953262
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "A",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ }
+}

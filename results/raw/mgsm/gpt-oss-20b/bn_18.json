@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 64.7,
+ "text": "{\"answers\":{\"180\":20,\"181\":160,\"182\":24,\"183\":220,\"184\":25,\"185\":31,\"186\":5,\"187\":106,\"188\":50,\"189\":34\"}}",
+ "usage": {
+  "prompt_tokens": 1190,
+  "completion_tokens": 3021,
+  "total_tokens": 4211,
+  "cost": 0.00029331,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029331,
+   "upstream_inference_prompt_cost": 2.142e-05,
+   "upstream_inference_completions_cost": 0.00027189
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2968,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 220.0,
+  "184": 25.0,
+  "185": 31.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 220.0,
+  "184": 25.0,
+  "185": 31.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

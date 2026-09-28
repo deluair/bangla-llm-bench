@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 238.8,
+ "text": "\n\n[id 30]\nLet Darrell's age be $7x$ and Allen's age be $11x$.\nTotal age: $7x + 11x = 18x = 162$.\n$x = 9$.\nAllen's current age: $11 \\times 9 = 99$.\nAllen's age in 10 years: $99 + 10 = 109$.\n\n[id 31]\nFriend 1: 80.\nFriend 2: $20 + (80 / 2) = 60$.\nFriend 3: $80 + (0.25 \\times 80) = 100$.\nAverage: $(80 + 60 + 100) / 3 = 240 / 3 = 80$.\n\n[id 32]\nDaily hours for dogs: $10 \\text{ dogs} \\times 0.5 \\text{ hours/day} = 5 \\text{ hours/day}$.\nWeekly hours: $5 \\text{ hours/day} \\times 7 \\text{ days/week} = 35 \\text{ hours}$.\n\n[id 33]\nLet Silver coins = $S$. Gold coins = $S + 30$.\nTotal: $S + S + 30 = 110$.\n$2S = 80 \\Rightarrow S = 40$.\nGold coins: $40 + 30 = 70$.\n\n[id 34]\nRaymond = 40.\nAaron = $(40 / 2) + 5 = 25$.\nSiobhan = $25 - 2 = 23$.\n\n[id 35]\nFirst interval: 4 points.\nSecond interval: $4 + (0.25 \\times 4) = 5$ points.\nTotal points: $4 + 5 = 9$.\n\n[id 36]\nTotal yogurts: $2 \\times 30 = 60$.\nCost: $60$ yogurts at $5.00 / 4 = \\$1.25$ each.\nTotal cost: $60 \\times 1.25 = \\$75$.\n\n[id 37]\nVideo games cost: $8 \\times 20 = 160$.\nLegos sold: $x$ sets at $15 each. Revenue = $15x$.\nRemaining money: $15x - 160 = 5$.\n$15x = 165 \\Rightarrow x = 11$ sets sold.\nStarting sets: 13.\nSets remaining: $13 - 11 = 2$.\n\n[id 38]\nDay 1: 3 hours.\nDays 2 & 3: $3 / 2 = 1.5$ hours each.\nTotal time: $3 + 1.5 + 1.5 = 6$ hours.\nTotal distance: 60 miles.\nSpeed: $60 / 6 = 10$ mph.\n\n[id 39]\nSkip speed = 3 mph.\nRun speed = $3 / 0.5 = 6$ mph.\nWalk speed = $6 / 4 = 1.5$ mph.\nTime walk = $6 \\times (1/3) = 2$ hours. Distance = $2 \\times 1.5 = 3$ miles.\nTime run = $6 \\times (2/3) = 4$ hours. Distance = $4 \\times 6 = 24$ miles.\nTotal distance = $3 + 24 = 27$ miles.\n\n{\"answers\": {\"30\": 109, \"31\": 80, \"32\": 35, \"33\": 70, \"34\": 23, \"35\": 9, \"36\": 75, \"37\": 2, \"38\": 10, \"39\": 27}}",
+ "usage": {
+  "prompt_tokens": 649,
+  "completion_tokens": 6896,
+  "total_tokens": 7545,
+  "cost": 0.0010993,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010993,
+   "upstream_inference_prompt_cost": 6.49e-05,
+   "upstream_inference_completions_cost": 0.0010344
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4093,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 27.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 27.0
+ }
+}

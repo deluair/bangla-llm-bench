@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 3.1,
+ "text": "Here are the answers based on the reasoning from each passage:\n\n[id 240] The passage states that Newt Gingrich received 32 percent of the vote.\n[id 241] Gingrich lauded Santorum after the caucus results.\n[id 242] Nadal won 76 points in the first serve, and he had 88% net points overall.\n[id 243] The former Australian government believed ratification would damage the economy.\n[id 244] The controller design for the Nintendo Revolution console resembled a television remote.\n[id 245] The false statement is that Felicia was first categorized as a tropical depression before becoming a Category 4 storm.\n[id 246] The researchers did not report the name of the new species.\n[id 247] CowParade is described as the world's largest public art event.\n\n```json\n{\n  \"answers\": {\n    \"240\": \"B\",\n    \"241\": \"B\",\n    \"242\": \"B\",\n    \"243\": \"B\",\n    \"244\": \"B\",\n    \"245\": \"B\",\n    \"246\": \"C\",\n    \"247\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1274,
+  "completion_tokens": 272,
+  "total_tokens": 1546,
+  "cost": 0.0002319,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002319,
+   "upstream_inference_prompt_cost": 0.0001911,
+   "upstream_inference_completions_cost": 4.08e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

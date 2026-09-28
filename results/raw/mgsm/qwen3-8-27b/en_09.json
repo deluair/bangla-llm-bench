@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 3.9,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 90]**\n*   Adult consumption: 10 lbs each.\n*   Child consumption: Half of an adult = $10 / 2 = 5$ lbs each.\n*   Total for 20 adults: $20 \\times 10 = 200$ lbs.\n*   Total for 5 children: $5 \\times 5 = 25$ lbs.\n*   Total potato salad needed: $200 + 25 = 225$ lbs.\n*   **Answer: 225**\n\n**[id 91]**\n*   Cindy has 4 pets.\n*   Marcia has 2 more pets than Cindy: $4 + 2 = 6$ pets.\n*   Jan has three times the number of pets as Marcia: $3 \\times 6 = 18$ pets.\n*   Total pets: $4 (\\text{Cindy}) + 6 (\\text{Marcia}) + 18 (\\text{Jan}) = 28$.\n*   **Answer: 28**\n\n**[id 92]**\n*   James is 10 years old.\n*   James is 1 year younger than Corey, so Corey is $10 + 1 = 11$ years old.\n*   Amy is 2 years younger than Corey, so Amy is $11 - 2 = 9$ years old.\n*   Amy is 5 years older than Jackson, so Jackson is $9 - 5 = 4$ years old.\n*   **Answer: 4**\n\n**[id 93]**\n*   Let $L$ be Lee's time and $G_{old}$ be Gerald's old time.\n*   Lee's time is 2 seconds faster (less time) than Gerald's old time: $L = G_{old} - 2$.\n*   We know Lee's time $L = 38$ seconds.\n*   So, $38 = G_{old} - 2 \\Rightarrow G_{old} = 40$ seconds.\n*   Gerald improved his speed by 10%. \"Improved speed\" usually means he runs faster, taking less time. However, in math word problems, \"improved his speed by 10%\" can be ambiguous. Does it mean his velocity increased by 10%, or his time decreased by 10%?\n    *   *Interpretation A (Time decreased by 10%):* New time = $40 \\times (1 - 0.10) = 36$ seconds.\n    *   *Interpretation B (Velocity increased by 10%):* $V_{new} = 1.1 V_{old}$. Since Time = Distance/Speed, $T_{new} = D / (1.1 V_{old}) = T_{old} / 1.1 = 40 / 1.1 \\approx 36.36$.\n    *   Looking at the context of simple integer-based word problems, Interpretation A is the standard convention unless \"speed\" is explicitly quantified in distance/time units. \"Improved speed by 10%\" often colloquially maps to \"10% faster\", which in time-based problems is often treated as a 10% reduction in time for simplicity in lower-level math contexts. Let's re-read carefully. \"improved his speed by 10%\". If speed $S$ becomes $1.1S$, time $T$ becomes $T/1.1$. $40/1.1 = 36.36...$ which is not a nice integer. If the problem meant \"time decreased by 10%\", the answer is 36. Given the other problems yield integers, it is highly likely the intended meaning is that his *time* was reduced by 10%, or the wording implies a proportional reduction in effort/time. Let's look for similar problems online. Often \"run 10% faster\" is interpreted as taking 10% less time in simpler curricula. Let's assume the answer is an integer. $40 \\times 0.9 = 36$.\n*   **Answer: 36**\n\n**[id 94]**\n*   Number of dogs = 60.\n*   Number of cats = 2 for every dog = $2 \\times 60 = 120$.\n*   Combined number of dogs and cats = $60 + 120 = 180$.\n*   Number of rabbits = 12 less than combined dogs and cats = $180 - 12 = 168$.\n*   Total pets = Dogs + Cats + Rabbits = $60 + 120 + 168 = 348$.\n*   **Answer: 348**\n\n**[id 95]**\n*   Total students = 200.\n*   Boys = $2/5$ of 200 = $200 \\times 0.4 = 80$.\n*   Girls = Total - Boys = $200 - 80 = 120$.\n*   Girls in Girl Scout = $2/3$ of the girls = $120 \\times (2/3) = 80$.\n*   Girls NOT in Girl Scout = Total Girls - Girls in Girl Scout = $120 - 80 = 40$.\n*   **Answer: 40**\n\n**[id 96]**\n*   Harry slept 9 hours.\n*   James slept $2/3$ of Harry's time: $9 \\times (2/3) = 6$ hours.\n*   Difference: $9 - 6 = 3$ hours.\n*   **Answer: 3**\n\n**[id 97]**\n*   Sauce made = 32 ounces.\n*   Tomatoes lose half their volume when cooked. This means the sauce volume is half of the original tomato volume.\n*   Original tomato volume = $32 \\times 2 = 64$ ounces.\n*   Each can is 16 ounces.\n*   Number of cans used = $64 / 16 = 4$ cans.\n*   Each can contains 3 tomatoes.\n*   Total tomatoes = $4 \\text{ cans} \\times 3 \\text{ tomatoes/can} = 12$ tomatoes.\n*   **Answer: 12**\n\n**[id 98]**\n*   Original cars = 30.\n*   5 cars took an exit, so they are no longer in the line to drive through.\n*   Remaining cars in line = $30 - 5 = 25$ cars.\n*   These 25 cars are the ones that actually drive through the jam.\n*   20 cars drove through in the remaining 15 minutes.\n*   Cars that drove through in the first 15 minutes = Total cars through - Cars through in second 15 min = $25 - 20 = 5$.\n*   **Answer: 5**\n\n**[id 99]**\n*   Initial plants on ledges = $40 \\text{ ledges} \\times 2 \\text{ plants/ledge} = 80$ plants.\n*   Received new plants = 18.\n*   Total plants available = $80 + 18 = 98$ plants.\n*   She gives 1 plant from *each ledge* to friends. There are 40 ledges.\n*   Plants given away = 40.\n*   Remaining plants = Total plants - Plants given away = $98 - 40 = 58$.\n*   **Answer: 58**\n\n```json\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n```",
+ "usage": {
+  "queue_time": 0.098947216,
+  "prompt_tokens": 776,
+  "prompt_time": 0.066917639,
+  "completion_tokens": 1825,
+  "completion_time": 3.6462902230000003,
+  "total_tokens": 2601,
+  "total_time": 3.713207862
+ },
+ "served_by": null,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

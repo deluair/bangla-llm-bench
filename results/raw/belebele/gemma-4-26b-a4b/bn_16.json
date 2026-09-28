@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 37.0,
+ "text": "The following are the answers based on the provided passages:\n\n[id 128] The passage states, \"একটি সংক্রামক রোগ হলো একটি রোগ যেটি একজন আক্রান্ত রোগীর সান্নিধ্যে যাওয়ার মাধ্যমে ছড়ায়\" (An infectious disease is a disease that spreads through proximity to an infected patient). Therefore, the correct option is A.\n\n[id 129] The passage mentions that \"আপনাকে প্রায়শই, আপনাকে আলাদাভাবে একটি গ্লোবাল নম্বর কিনতে হয় যা PSTN ফোনগুলোকে আপনাকে কল করার অনুমতি দেয়\" (Often, you have to separately buy a global number that allows PSTN phones to call you). This implies the need for a global number when dealing with certain types of connections/services outside one's normal region. Option B is the most direct answer.\n\n[id 130] The passage says \"নজর রাখার মত প্রধান অক্ষরগুলি হলো c এবং g যেহেতু তাদের উচ্চারণ নীচের স্বরবর্ণের উপর ভিত্তি করে পরিবর্তিত হয়\" (The main letters to watch are c and g because their pronunciation changes based on the following vowel). Option D says \"বেশিরভাগ শব্দের উচ্চারণ পরবর্তী স্বরবর্ণের সাপেক্ষে নানা রকমের হয়ে থাকে\" (Most words' pronunciations vary based on the following vowel), which is a generalization not supported; it only specifies c and g. However, looking closer, B and A are explicitly stated. C is also stated. Option D is the most likely intended \"incorrect\" description as it generalizes the rule to *most* words, whereas the text limits it to c and g.\n\n[id 131] The passage says Jerusalem is a major tourist center *because of* its religious importance, cultural assets, and historical sites. It mentions that most countries/UN do not recognize it as Israel's capital, but this is presented as a political fact, not a reason why tourism is *less* attractive. However, the question asks which aspect makes it *least* attractive. Since A, C, and D are cited as reasons for attraction, B is the only factor that does not contribute to attraction.\n\n[id 132] The passage states: \"খাঁড়া অংশগুলিতে যত্ন নিতে হবে, বিশেষত ভেজা হলে কারণ এটি দ্রুত বিপজ্জনক হয়ে উঠতে পারে\" (Care must be taken on steep parts, especially if wet because it can quickly become dangerous). Therefore, the correct option is A.\n\n[id 133] The passage states: \"মোল্ডোভা একটি বহু-জাতিগত প্রজাতন্ত্র যা জাতিগত সংঘাতের শিকার হয়েছে। ১৯৯৪ সালে এই দ্বন্দ্ব... ট্র‍্যান্সনিস্ট্রিয়া রিপাবলিকের জন্ম দেয়\" (Moldova is a multi-ethnic republic that has been a victim of ethnic conflict. In 1994 this conflict... gave birth to the Transnistria Republic). Therefore, the conflict was ethnic. Option B.\n\n[id 134] The passage warns: \"সাবধান: এখানে ছোট শহরের বারগুলো রাজ্যের বাইরের পরিদর্শকদের জন্য দীর্ঘক্ষণ থাকার জন্য ভালো না\" (Warning: Small town bars here are not good for out-of-state visitors to stay long). It also mentions issues with drunk driving in these bars. Therefore, visitors should avoid option B.\n\n[id 135] The passage states: \"ফলের রস সাধারণত দামি হলেও দুর্দান্ত স্বাদের হয়ে থাকে\" (Fruit juice is generally expensive but tastes great). Therefore, budget-conscious tourists would avoid option D.\n\n{\"answers\": {\"128\": \"A\", \"129\": \"B\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1682,
+  "completion_tokens": 777,
+  "total_tokens": 2459,
+  "cost": 0.00038192,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038192,
+   "upstream_inference_prompt_cost": 0.00011774,
+   "upstream_inference_completions_cost": 0.00026418
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "128": "A",
+  "129": "B",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "B",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

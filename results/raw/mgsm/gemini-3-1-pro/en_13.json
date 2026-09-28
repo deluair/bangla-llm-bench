@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 18.3,
+ "text": "Here are the step-by-step solutions to your math word problems:\n\n**[id 130]**\nNissa starts with 60 elves. One third (60 / 3 = 20) quit, leaving 40. Then 10 more quit, leaving 30 elves.\nAnswer: 30\n\n**[id 131]**\nMay expenditure is $500. June expenditure is $500 - $60 = $440. Total for the two months is $500 + $440 = $940.\nAnswer: 940\n\n**[id 132]**\nPam rides 2 (coaster) + 2 (luge) = 4 rides. Fred rides 4 (coaster) + 2 (luge) = 6 rides. Total rides = 10. Each ride is 6 tickets, so 10 * 6 = 60 tickets.\nAnswer: 60\n\n**[id 133]**\nMonday = 4 miles. Tuesday = 6 * 4 = 24 miles. Monday + Tuesday = 28 miles. Since Monday through Wednesday is 41 miles, Wednesday = 41 - 28 = 13 miles.\nAnswer: 13\n\n**[id 134]**\nCost per month is 4 washes * $15 = $60. Total for a year is $60 * 12 months = $720.\nAnswer: 720\n\n**[id 135]**\nBrian has 20 - 5 = 15 video games at the time of comparison. Bobby has 3 times that amount minus 5. So, Bobby = (3 * 15) - 5 = 45 - 5 = 40.\nAnswer: 40\n\n**[id 136]**\nThere are 27 unicorns. One third are in the Scottish Highlands (27 / 3 = 9). Two thirds of those 9 are female, so 9 * (2/3) = 6.\nAnswer: 6\n\n**[id 137]**\nFood cost = $15 (subs) + $3 (chips) + $2 (cookies) = $20.00. \nDelivery fee = 20% of $20 = $4.00. \nTip = $5.00. \nTotal = $20 + $4 + $5 = $29.\nAnswer: 29\n\n**[id 138]**\nFirst test: 8 hours * 5 questions/hour = 40 completed. Incomplete = 75 - 40 = 35.\nSecond test: 6 hours * 5 questions/hour = 30 completed. Incomplete = 100 - 30 = 70.\nTotal incomplete = 35 + 70 = 105.\nAnswer: 105\n\n**[id 139]**\nBlue = 12. Pink is 22 more than four times blue. Pink = (4 * 12) + 22 = 48 + 22 = 70.\nAnswer: 70\n\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}\n",
+ "usage": {
+  "input_tokens": 16648,
+  "output_tokens": 2069,
+  "thinking_tokens": 1237,
+  "cache_read_tokens": 8140,
+  "total_tokens": 18717
+ },
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

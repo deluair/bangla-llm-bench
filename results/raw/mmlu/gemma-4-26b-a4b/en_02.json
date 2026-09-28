@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  899,
+  908,
+  951,
+  981,
+  987,
+  1004,
+  1011,
+  1019,
+  1030,
+  1045,
+  1100,
+  1116,
+  1125,
+  1141,
+  1158
+ ],
+ "seconds": 150.5,
+ "text": "To solve these questions:\n\n[899] Balancing $\\text{MnO}_4^- + \\text{I}^- + \\text{H}^+ \\to \\text{Mn}^{2+} + \\text{IO}_3^- + \\text{H}_2\\text{O}$:\n$\\text{Mn}^{7+} \\to \\text{Mn}^{2+}$ (gain 5e)\n$\\text{I}^- \\to \\text{IO}_3^-$ (lose 6e)\nLcm of 5 and 6 is 30.\n$2\\text{MnO}_4^- + 6\\text{I}^- + 14\\text{H}^+ \\to 2\\text{Mn}^{2+} + 6\\text{IO}_3^- + 8\\text{H}_2\\text{O}$.\nThe ratio $\\text{I}^-: \\text{IO}_3^-$ is $6:6 = 1:1$.\nThe ratio $\\text{MnO}_4^-: \\text{I}^-$ is $2:6 = 1:3$.\nThe ratio $\\text{MnO}_4^-: \\text{Mn}^{2+}$ is $2:2 = 1:1$.\nWait, checking the reaction again:\n$\\text{MnO}_4^- + 2\\text{I}^- + \\text{H}^+ \\to \\text{Mn}^{2+} + \\text{I}_2 + \\dots$ No, it's $\\text{IO}_3^-$.\nLet's re-calculate:\n$2\\text{MnO}_4^- + 6\\text{I}^- + 14\\text{H}^+ \\to 2\\text{Mn}^{2+} + 6\\text{IO}_3^- + 8\\text{H}_2\\text{O}$.\nRatio $\\text{MnO}_4^- : \\text{I}^- = 2:6 = 1:3$.\nActually, looking at the options:\nA) $1:1$ (False)\nB) $1:3$ (False)\nC) $1:1$ (False)\nD) $14:6 = 7:3$ (False).\nWait, let me re-balance.\nMn: +7 to +2 (5e).\nI: -1 to +5 (6e).\n$2\\text{MnO}_4^- + 6\\text{I}^- + 14\\text{H}^+ \\to 2\\text{Mn}^{2+} + 6\\text{IO}_3^- + 8\\text{H}_2\\text{O}$.\nCheck option B again. $2:6$ is $1:3$. If the question meant $\\text{MnO}_4^- : \\text{I}^- = 1:3$? Let's look for another combination.\nIf I use $2:6$, none match. Let's check if I missed a coefficient.\n$\\text{MnO}_4^- + \\text{I}^- + \\text{H}^+ \\to \\text{Mn}^{2+} + \\text{IO}_3^- + \\text{H}_2\\text{O}$\n$\\text{MnO}_4^- + 6\\text{I}^- + 14\\text{H}^+ \\to \\dots$ No.\nLet's try Mn: +7 to +2 (5e), I: -1 to +5 (6e). Total electrons 30.\n$2\\text{MnO}_4^-$ (needs 10e) and $6\\text{I}^-$ (needs 36e). No.\n$2 \\times 5 = 10$. $6 \\times 1 = 6$? No.\n$2 \\text{MnO}_4^- + 6\\text{I}^- + \\dots \\to 2 \\text{Mn}^{2+} + 6\\text{IO}_3^-$.\nMn: $2 \\times 7 = 14 \\to 2 \\times 2 = 4$ (loss of 10).\nI: $6 \\times (-1) = -6 \\to 6 \\times 5 = 30$ (loss of 36).\nThese must be equal. $10 \\neq 36$.\nLet's retry: $\\text{MnO}_4^-$ (gain 5), $\\text{I}^-$ (lose 6).\n$6 \\text{MnO}_4^- + 5 \\text{I}^- \\to 6 \\text{Mn}^{2+} + 5 \\text{IO}_3^-$.\nWait, $\\text{MnO}_4^-$ is the oxidant (gains e), $\\text{I}^-$ is the reductant (loses e).\n$6 \\text{MnO}_4^- + 5 \\text{I}^- + 14\\text{H}^+ \\to 6\\text{Mn}^{2+} + 5\\text{IO}_3^- + 7\\text{H}_2\\text{O}$.\nCheck Mn: $6 \\times 7 = 42 \\to 6 \\times 2 = 12$. (30e gained).\nCheck I: $5 \\times (-1) = -5 \\to 5 \\times 5 = 25$. (30e lost).\nBalanced!\nNow check ratios:\nA) $\\text{I}^- : \\text{IO}_3^-$ is $5:5 = 1:1$.\nB) $\\text{MnO}_4^- : \\text{I}^-$ is $6:5$. (Matches B!)\nC) $\\text{MnO}_4^- : \\text{Mn}^{2+}$ is $6:6 = 1:1$.\nD) $\\text{H}^+ : \\text{I}^-$ is $14:5$.\n\n[908] Cyclobutyl radical $\\beta$-hyperfine. $\\text{HCF} \\approx 2.3 \\text{ mT} \\times \\cos(\\theta/2)$. For $\\theta=115^\\circ$, $\\cos(57.5^\\circ) \\approx 0.537$. $2.3 \\times 0.537 \\approx 1.2$. This is for a different model.\nAlternatively, for cyclobutyl radical, experimental values for $\\beta$-H are around 27 G (approx 2.7 mT). 27 G = 2.7 mT.\nLooking at the options, 27 G is B.\n\n[951] Quantum yield is $\\Phi_f = (\\text{photons emitted}) / (\\text{photons absorbed})$. Option C.\n\n[981] $\\Delta \\nu = 280 \\text{ MHz}$. $\\nu = 9.5 \\text{ GHz}$.\n$B = h\\nu/g\\beta$. $\\Delta B = \\Delta \\nu / (g \\times 28 \\text{ GHz/T})$.\n$\\Delta B = 0.280 / (2.005 \\times 28) \\approx 0.005 \\text{ T} = 5 \\text{ mT}$.\nCenter field $B_0$: $B_0 = \\nu / (g \\times 28) = 9.5 / (2.005 \\times 28) \\approx 0.169 \\text{ T}$. Wait.\nLet's use $B = \\nu / (g \\times 28 \\text{ MHz/G})$.\n$B \\approx 9500 / (2.005 \\times 28) \\approx 169 \\text{ G}$. Something is wrong.\nX-band is $\\sim 340 \\text{ mT}$.\n$B = \\nu / (g \\times \\gamma)$. $B = 9.5 \\text{ GHz} / (2.005 \\times 28 \\text{ GHz/T}) = 9.5 / 56.14 \\approx 0.169 \\text{ T}$.\nIf $g = 2.005$, then $B \\approx 340 \\text{ mT}$ is more common for X-band.\n$B = \\frac{9.5 \\times 10^9}{2.005 \\times 27.99 \\times 10^{10}} \\approx 0.169$.\nLet's re-check the field. $\\nu = 9.5 \\text{ GHz}$. $B \\approx 340 \\text{ mT}$ implies $g \\approx 2 \\times 9.5 / 340 \\times 1000 \\dots$\n$\\nu = g\\beta B / h \\implies B = h\\nu / g\\beta$.\nFor $g=2$, $B \\approx (6.6 \\times 10^{-34} \\times 9.5 \\times 10^9) / (2 \\times 9.27 \\times 10^{-24}) \\approx 0.339 \\text{ T} = 339 \\text{ mT}$.\n$\\Delta B = \\Delta \\nu / (g \\times 28 \\text{ MHz/G}) = 280 / (2.005 \\times 28) \\approx 5 \\text{ mT}$.\nIf center is $338.5$, lines at $333.5$ and $343.5$. (Matches C).\n\n[987] Spontaneous process: $\\Delta S_{\\text{total}} > 0$. Option D.\n\n[1004] Floating-point: Associativity is NOT true. Statement C says it can be achieved, which is generally false in standard IEEE 754. However, the question asks which is NOT true. A, B, D are standard facts. C is the most likely candidate for being \"not true\".\n\n[1011] $e^M = e$. $(aw)^M = aw^Ma$.\n$a^M = a$. (Correct by definition).\n$(ax)^M = ax^Ma$.\n$(xa)^M = xa^Mx a$? No.\n$(xy)^M = y^Mx^M$ is the rule for reversing strings.\nLet $x=a, y=b$. $(ab)^M = ab^Ma$.\n$y^Mx^M = b^Ma^M = b a a$. Not equal.\nCheck A: $a$ is length 1, $e$ is empty string. $a^M = a e^M a = aea = aa$.\nWait: $(aw)^M = aw^Ma$.\n$a^M = (ae)^M = a e^M a = aea = aa$.\nSo $a^M = a$ is False.\nTry $x=a, y=b$. $(ab)^M = ab^Ma = abba$.\n$y^Mx^M = b^Ma^M = b(aa)a = baaa$.\nLet's re-evaluate $a^M$: if $w=e$, $(aw)^M = aw^Ma \\implies a^M = a e^M a = aa$.\nThen $(aa)^M = a(a^M)a = a(aa)a = aaaa$.\nIn general $x^M$ is $x$ followed by its reverse, or similar.\nLooking at $(ax)^M = ax^Ma$.\n$a^M = aa$.\n$(a^2)^M = a(a^M)a = aaaa$.\n$(a^3)^M = a(a^4)a = a^6$.\nPattern $a^{2^n}$? No.\n$x^M$ for $x=a_1 a_2 \\dots a_n$ is $a_1 a_2 \\dots a_n a_n \\dots a_2 a_1$.\nIf $x=a$, $x^M = aa$.\nIf $x=ab$, $x^M = abba$.\nCheck B: $(ax)^M = ax^Ma$. $(xa)^M = x a^M a = x aaaa$. Not equal.\nCheck C: $(xy)^M = xy(xy)^R$. $y^Mx^M = y y^R x x^R$. Not equal.\nSo D.\n\n[1019] Nonterminal nodes in K-ary tree:\nTotal nodes $\\approx K^N / (K-1)$.\nNonterminal nodes (internal) $\\approx K^{N-1} / (K-1) \\times K = K^N / (K-1)$? No.\nTotal nodes $S = (K^{N+1}-1)/(K-1)$.\nNonterminal nodes (internal) $I = (K^N-1)/(K-1)$.\nRatio $I/S \\approx (K^N)/(K^{N+1}) = 1/K$.\nWait, internal nodes are those with children. For depth $N$, internal nodes are levels $0$ to $N-1$.\nTotal nodes $S \\approx K^N$.\nInternal nodes $I \\approx K^0 + K^1 + \\dots + K^{N-1} \\approx K^N / (K-1)$.\nRatio $I/S \\approx 1/(K-1)$? No, $I/S \\to 1/K$ as $N \\to \\infty$?\nLet's check $K=2, N=2$. Nodes: 1 (root), 2 (level 1), 4 (level 2). Total 7.\nInternal: 1 (root) + 2 (level 1) = 3.\nRatio $3/7 \\approx 0.43$.\n$1/K = 1/2 = 0.5$.\n$K-1/K = 1/2 = 0.5$.\nIf $K=3, N=2$. Total: $1+3+9=13$. Internal: $1+3=4$. Ratio $4/13 \\approx 0.3$.\n$1/K = 1/3 = 0.33$.\nOption A is $1/K$.\n\n[1030] Activation record: Local variables, Return address, Saved pointer are usually there. Heap is a separate memory area. Option B.\n\n[1045] 8-bit words.\n$109 - 42 = 67$.\nRange for 8-bit:\nI. One's complement: $-127$ to $127$. $67$ is in range.\nII. Two's complement: $-128$ to $127$. $67$ is in range.\nIII. Sign and magnitude: $-127$ to $127$. $67$ is in range.\nWait, \"addition of the integers 109 and -42\".\n$109 + (-42) = 67$.\nCan 109 and -42 be represented?\n109 is $01101101$ (in all).\n-42:\nI. $42 = 00101010 \\implies -42 = 11010101$.\nII. $42 = 00101010 \\implies -42 = 11010110$.\nIII. $-42 = 10101010$.\nAll can be represented. Their sum 67 is also in range.\nOption D.\n\n[1100] Total $\\binom{25}{3} = \\frac{25 \\times 24 \\times 23}{3 \\times 2 \\times 1} = 25 \\times 4 \\times 23 = 2300$.\nExactly 2 damaged: $\\binom{5}{2} \\times \\binom{20}{1} = 10 \\times 20 = 200$.\nProb = $200/2300 = 2/23$. Option C.\n\n[1116] $A\\mathbf{v} = \\lambda \\mathbf{v}$.\nI. $2A\\mathbf{v} = 2\\lambda \\mathbf{v}$ (True).\nII. $A^2\\mathbf{v} = A(\\lambda \\mathbf{v}) = \\lambda^2 \\mathbf{v}$ (True).\nIII. $A^{-1}\\mathbf{v} = (1/\\lambda) \\mathbf{v}$ (True, as $A$ is invertible).\nOption D.\n\n[1125] Max order in $S_5$:\nOrder is LCM of cycle lengths. Partitions of 5:\n(5) $\\to 5$\n(4,1) $\\to 4$\n(3,2) $\\to 6$\n(3,1,1) $\\to 3$\n(2,2,1) $\\to 2$\nMax is 6. Option B.\n\n[1141] Statement 1: Continuous on compact $\\implies$ uniformly continuous (True).\nStatement 2: Composition of differentiable is differentiable (True).\nOption A.\n\n[1158] Complex numbers $\\mathbb{C}$.\nA) Ordered field requires properties like $a^2 > 0$. In $\\mathbb{C}$, $i^2 = -1 < 0$, so it can't be an ordered field. But we can define *a* linear order.\nB) Cannot be an ordered field.\nC) $\\mathbb{C}$ cannot be an ordered field.\nA is true (we can define a non-field-order). B is false.\nSo A is the only correct statement.\n\nFinal check:\n899: B\n908: B\n951: C\n981: C\n987: D\n1004: C\n1011: D\n1019: A\n1030: B\n1045: D\n1100: C\n1116: D\n1125: B\n1141: A\n1158: A\n\nWait, [908] cyclobutyl radical $\\beta$ hyperfine is actually usually $2.3$ mT or so. 27 G is a common unit for EPR. Let's re-verify. $2.7 \\text{ mT} \\approx 27 \\text{ G}$. \n[1004] C is likely the intended \"NOT true\".\n\n```json\n{\"answers\": {\"899\": \"B\", \"908\": \"B\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"C\", \"1011\": \"D\", \"1019\": \"A\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"C\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1494,
+  "completion_tokens": 4338,
+  "total_tokens": 5832,
+  "cost": 0.00095724,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00095724,
+   "upstream_inference_prompt_cost": 8.964e-05,
+   "upstream_inference_completions_cost": 0.0008676
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers": {
+  "899": "B",
+  "908": "B",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "answers_batch": {
+  "899": "B",
+  "908": "B",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {}
+}

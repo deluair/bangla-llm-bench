@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 97.0,
+ "text": "### Solutions\n\n**[id 0]**\n* Eggs remaining after breakfast and muffins: $16 - 3 - 4 = 9$\n* Daily earnings: $9 \\times 2 = 18$\n\n**[id 1]**\n* Blue thread: $2$ reels\n* White thread: $2 \\div 2 = 1$ reel\n* Total reels: $2 + 1 = 3$\n\n**[id 2]**\n* Total investment: $\\$80{,}000 + \\$50{,}000 = \\$130{,}000$\n* Value increase: $150\\% \\text{ of } \\$80{,}000 = \\$120{,}000$\n* New house value: $\\$80{,}000 + \\$120{,}000 = \\$200{,}000$\n* Profit: $\\$200{,}000 - \\$130{,}000 = 70000$\n\n**[id 3]**\n* Total sprints per week: $3 \\times 3 = 9$ sprints\n* Total distance: $9 \\times 60 = 540$ meters\n\n**[id 4]**\n* Total feed required for 20 chickens: $20 \\times 3 = 60$ cups\n* Feed provided morning and afternoon: $15 + 25 = 40$ cups\n* Feed needed for the final meal: $60 - 40 = 20$ cups\n\n**[id 5]**\n* 16 glasses comprise 8 regular-priced glasses and 8 discounted glasses\n* Price of discounted glass: $60\\% \\text{ of } \\$5 = \\$3$\n* Total cost: $(8 \\times \\$5) + (8 \\times \\$3) = 40 + 24 = 64$\n\n**[id 6]**\n* Seattle: $20$ sheep\n* Charleston: $4 \\times 20 = 80$ sheep\n* Toulouse: $2 \\times 80 = 160$ sheep\n* Total sheep: $20 + 80 + 160 = 260$\n\n**[id 7]**\n* Time for initial 40% (80 GB): $80 \\div 2 = 40$ minutes\n* Restart/update time: $20$ minutes\n* Time for full restart download (200 GB): $200 \\div 2 = 100$ minutes\n* Total time: $40 + 20 + 100 = 160$ minutes\n\n**[id 8]**\n* Distance from home when turning around: $3 \\times 60 = 180$ miles\n* First 2 hours in traffic: $0$ miles\n* Next 0.5 hour at 30 mph: $0.5 \\times 30 = 15$ miles\n* Remaining time ($4 - 2 - 0.5 = 1.5$ hours) at 80 mph: $1.5 \\times 80 = 120$ miles\n* Distance driven back: $15 + 120 = 135$ miles\n* Distance remaining to home: $180 - 135 = 45$ miles\n\n**[id 9]**\n* Regular earnings for 40 hours: $40 \\times \\$10 = \\$400$\n* Overtime rate: $\\$10 \\times 1.2 = \\$12/\\text{hour}$\n* Overtime earnings for 5 hours: $5 \\times \\$12 = \\$60$\n* Total earnings: $\\$400 + \\$60 = 460$\n\n{\"answers\": {\"0\": 18, \"1\": 3, \"2\": 70000, \"3\": 540, \"4\": 20, \"5\": 64, \"6\": 260, \"7\": 160, \"8\": 45, \"9\": 460}}\n",
+ "usage": {
+  "input_tokens": 150921,
+  "output_tokens": 6970,
+  "thinking_tokens": 3770,
+  "cache_read_tokens": 456285,
+  "total_tokens": 157891
+ },
+ "answers_batch": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ },
+ "single": {},
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ }
+}

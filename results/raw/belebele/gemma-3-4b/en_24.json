@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 5.7,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 192]\nA) They are able to hunt well at night\n[id 193]\nB) The sound of their roar\n[id 194]\nA) Capillaries\n[id 195]\nB) Life span\n[id 196]\nC) The ability to fly\n[id 197]\nB) A plant with tough branches\n[id 198]\nA) German occupation\n[id 199]\nC) Concave\n\n{\"answers\": {\"192\": \"A\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1267,
+  "completion_tokens": 199,
+  "total_tokens": 1466,
+  "cost": 8.325e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.325e-05,
+   "upstream_inference_prompt_cost": 6.335e-05,
+   "upstream_inference_completions_cost": 1.99e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "192": "A",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "A",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

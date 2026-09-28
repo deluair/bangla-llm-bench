@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 8.6,
+ "text": "Brief reasoning:\n\n- **[id 64]**: The passage states that the overheating incidents left \"four people with minor burns\", so 4 people were injured. (Option A)\n- **[id 65]**: Steve Jobs stated, \"Today Apple is going to reinvent the phone\". (Option B)\n- **[id 66]**: Peter Costello is described as \"the man most likely to succeed Prime Minister John Howard as Liberal party leader\", identifying John Howard as the leader. (Option B)\n- **[id 67]**: The passage states he \"denied the attack\", making \"He admitted to the attack\" inaccurate. (Option B)\n- **[id 68]**: Sharing technologies to help developing nations is listed as another subject on the agenda in Bali, distinct from the global warming fund's designated uses (flood-proof houses, water management, crop diversification). (Option B)\n- **[id 69]**: The bill governs the state of California, not outside of California. (Option C)\n- **[id 70]**: NDP leader Jack Layton asked for a \"thorough and complete rewriting\" of the bill. (Option C)\n- **[id 71]**: Tommy Dreamer stated that \"Luna was the first Queen of Extreme.\" (Option D)\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25113,
+  "output_tokens": 1969,
+  "thinking_tokens": 1626,
+  "cache_read_tokens": 0,
+  "total_tokens": 27082
+ },
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

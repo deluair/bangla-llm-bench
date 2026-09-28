@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 6.6,
+ "text": "The following are the answers to the multiple-choice questions based on the provided passages:\n\n[288] The passage states satellite phones are an option in remote areas where cell coverage is unavailable. Option B (boat trips) fits the context of remote/unreachable areas better than city trips or places with coverage.\n[289] The passage states Montevideo is in the Southern Hemisphere and experiences winter when the Northern Hemisphere experiences summer. Therefore, to enjoy the \"cold climate,\" one should visit during the Northern Hemisphere's summer.\n[290] The passage states SkyTeam does not go to any of the three ocean crossings, making it the one with the minimum (zero) ocean crossings mentioned.\n[291] The passage states the economy is \"diverse\" and mentions several sectors; it does not say it is *entirely* dependent on tourism.\n[292] The passage says \"many places are only accessible with 4x4 high wheels,\" making the suggestion that most areas can be traveled by regular cars a \"bad advice\" (incorrect statement).\n[293] The passage explicitly says: \"If you live in a city with a diverse beverage culture, go frequently to the bars or pubs around you.\"\n[294] The passage states: \"Today, Timbuktu is a poor country [referring to the region/context], although it is an attractive tourist center and has an airport.\" Thus, A is true. (C is also potentially true, but A is a direct fact mentioned). Looking closer, C says \"less African influence,\" while the text says \"Arab influence is more,\" making C a very strong candidate. However, A is explicitly stated (\"it also has an airport\"). Let's re-evaluate: A is a direct fact.\n[295] The passage states travel agents are a good way to experience cultures, languages, or low-income countries outside of one's previous experience. Therefore, helping someone book a \"special trip\" (B) for the first time aligns with this.\n\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1807,
+  "completion_tokens": 497,
+  "total_tokens": 2304,
+  "cost": 0.0003298,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003298,
+   "upstream_inference_prompt_cost": 0.0001807,
+   "upstream_inference_completions_cost": 0.0001491
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

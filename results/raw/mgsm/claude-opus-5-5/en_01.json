@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 10.8,
+ "text": "- **[10]** Month 1 is 60, month 2 is 3 × 60 = 180, and month 3 is 180 × 0.7 = 126. The total is 60 + 180 + 126 = **366**.\n- **[11]** Donuts cost 3 × 68 = 204, cupcakes 2 × 80 = 160, and cheesecakes 6 × 55 = 330. The total is **694**.\n- **[12]** Each year he earns 7 × 1.5 = 10.50 and spends 3, so he nets 7.50. He breaks even after 90 ÷ 7.5 = 12 years, so he first earns money in year **13**.\n- **[13]** Working backwards, 5 left is half of 10 before the orange house. Adding the 2 for the red house gives 12. That 12 is two-thirds of the start, so she began with **18**.\n- **[14]** Contemporary takes 4 students, leaving 16. Jazz takes 25% of 16 = 4, leaving 12 for hip-hop. 12 of 20 is **60%**.\n- **[15]** Jewelry gains 5000 × 0.025 = 125, and gadgets gain 8000 × 0.012 = 96. The better choice gives **125**.\n- **[16]** Each train covers 80 + 150 = **230** miles.\n- **[17]** Weekly pay is 20 × 35 + 30 × 15 = 700 + 450 = 1150. Over 50 weeks that is **57,500**.\n- **[18]** She uses 3 × 28 = 84 eggs, which is 84 ÷ 12 = **7** dozen.\n- **[19]** An average of 4 mph over 12 miles means 3 hours in total. She has used 2 hours for 6 miles, so the remaining 6 miles must take 1 hour, which is **6** mph.\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 13, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1436,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 955,
+  "output_tokens_details": {
+   "thinking_tokens": 277
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1436,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 955,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1436,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1436
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.030595999999999998,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

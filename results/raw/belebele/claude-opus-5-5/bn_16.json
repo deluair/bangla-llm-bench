@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 6.4,
+ "text": "128 (A): The passage says a contagious disease spreads by being near an infected patient.\n129 (A): Because calls run over the internet, you don't need a phone company where you live or travel.\n130 (D): Only c and g change sound with the following vowel, not most words, so D is the incorrect description.\n131 (B): Its status as Israel's capital is not recognised by most countries, so it is the least attractive aspect for tourism.\n132 (A): The passage warns the steep parts can quickly become dangerous when wet.\n133 (B): The conflict that created the Transnistria Republic was an ethnic one.\n134 (B): Visitors are warned about small-town bars because of drunk drivers.\n135 (D): Fruit juice is described as usually expensive.\n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5559,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 471,
+  "output_tokens_details": {
+   "thinking_tokens": 170
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5559,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 471,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5559,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5559
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.053899999999999997,
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 155.3,
+ "text": "[id 140]: Total semi-automatic cars = 20 − 12 − 4 = 4. Percentage = 4/20 × 100 = 20.\n\n[id 141]: Let queens = Q. Then babies = 2Q and workers = 4Q. Total Q + 2Q + 4Q = 7Q = 700, so Q = 100. Workers = 4 × 100 = 400.\n\n[id 142]: 2 hours/day × 7 days = 14 hours/week. Earnings = 14 × $10 = $140.\n\n[id 143]: Food items: $2 + $3 = $5. Nonfood items: $3 + $3 + $4 = $10. Tax = 10% of $10 = $1. Total = $5 + $10 + $1 = $16.\n\n[id 144]: Total clients = 3 + 5 = 8. Expenses per client = 2×$2 + $5 = $9. Total expenses = 8 × $9 = $72. Profit = $92 − $72 = $20.\n\n[id 145]: Pineapples per harvest = 10 × 100 = 1000. Harvests per year = 12/3 = 4. Yearly total = 1000 × 4 = 4000.\n\n[id 146]: Sets are 500, 3×500 = 1500, and 500/4 = 125. Total = 500 + 1500 + 125 = 2125.\n\n[id 147]: Bees that left: 30 + 60 = 90. Bees already returned: 15. Bees returning in last 6 hours = 90 − 15 = 75.\n\n[id 148]: Ticket cost = $12 + $10 = $22. Money given = $22 + $8 change = $30.\n\n[id 149]: Dorothy has 12/3 = 4 friends. James has 4 × 4 = 16 friends.\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}",
+ "usage": {
+  "prompt_tokens": 781,
+  "completion_tokens": 5901,
+  "total_tokens": 6682,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5409
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

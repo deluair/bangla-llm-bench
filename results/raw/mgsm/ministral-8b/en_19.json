@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 10.1,
+ "text": "[id 190]\nJohn collects peaches for 3 hours, which is 180 minutes. At 2 peaches per minute, he collects 180 * 2 = 360 peaches.\n**Reasoning:** 3 hours = 180 minutes; 180 * 2 = 360\n\n[id 191]\nDucks need 3.5 pounds per week for 10 ducks, so total weekly need is 3.5 * 10 = 35 pounds. Divided by 7 days = 35 / 7 = 5 pounds per day.\n**Reasoning:** 3.5 * 10 = 35; 35 / 7 = 5\n\n[id 192]\nTom plants 10 trees/year and chops 2 trees/year, so net gain is 8 trees/year. After 10 years, he has 50 + (8 * 10) = 130 trees. 30% die, so 130 * 0.7 = 91 trees left.\n**Reasoning:** 50 + (10 - 2) * 10 = 130; 130 * 0.7 = 91\n\n[id 193]\nFriday: 18 pink flamingos. Saturday: 1/3 of 18 = 6 taken, painted white, so 12 pink and 6 white. Sunday: add 18 pink, total pink = 12 + 18 = 30, white = 6. Difference = 30 - 6 = 24.\n**Reasoning:** 30 pink - 6 white = 24\n\n[id 194]\nVioletta needs 5 crayons at $2 each, so total cost = 5 * 2 = $10. Change from $20 = 20 - 10 = 10.\n**Reasoning:** 5 * 2 = 10; 20 - 10 = 10\n\n[id 195]\nA pen costs $1.20 (pencil) + $0.30 (eraser) = $1.50. 8 pens cost 8 * 1.50 = $12.\n**Reasoning:** 1.20 + 0.30 = 1.50; 1.50 * 8 = 12\n\n[id 196]\nTotal carrots = 200 pounds. Distribute 2 pounds per restaurant to 40 restaurants: 40 * 2 = 80 pounds used. Leftover = 200 - 80 = 120 pounds.\n**Reasoning:** 40 * 2 = 80; 200 - 80 = 120\n\n[id 197]\nTotal population = 23786. Men + women = 8417 + 9092 = 17509. Children = 23786 - 17509 = 6277.\n**Reasoning:** 23786 - (8417 + 9092) = 6277\n\n[id 198]\nInitial cards = 20. First month: 3 * 20 = 60. Second month: 60 - 20 = 40. Third month: 2 * (20 + 60) = 160. Total = 20 + 60 + 40 + 160 = 280.\n**Reasoning:** 20 + 60 + 40 + 160 = 280\n\n[id 199]\nPublisher A pays 5 cents per sentence. Publisher B pays twice that, so 10 cents per sentence. Total sentences = 1000, split equally: 500 per publisher. Mark earns (500 * 5) + (500 * 10) = 2500 + 5000 = 7500 cents.\n**Reasoning:** 500 * 5 + 500 * 10 = 7500\n\n```json\n{\n  \"answers\": {\n    \"190\": 360,\n    \"191\": 5,\n    \"192\": 91,\n    \"193\": 24,\n    \"194\": 10,\n    \"195\": 12,\n    \"196\": 120,\n    \"197\": 6277,\n    \"198\": 280,\n    \"199\": 7500\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 723,
+  "completion_tokens": 1079,
+  "total_tokens": 1802,
+  "cost": 0.0002703,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002703,
+   "upstream_inference_prompt_cost": 0.00010845,
+   "upstream_inference_completions_cost": 0.00016185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 280.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 280.0,
+  "199": 7500.0
+ }
+}

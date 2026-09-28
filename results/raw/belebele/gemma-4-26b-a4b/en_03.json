@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 8.8,
+ "text": "[id 24] The passage states the rule creates \"dynamism\" (B), \"keeps a measure of order\" (D), and identifies the \"most effective place for the main subject\" (C). While it implies a guideline, it does not explicitly state it creates a \"baseline\" (A) in the way it describes dynamism and order. However, looking closer, \"dynamism\" is \"life and energy\", \"order\" is \"order\", and \"most effective place\" is \"keeping subject in a specific place\". A \"baseline\" is not mentioned.\n[id 25] A is true (\"still produced today\"). B is true (\"inherited by digital camera... formats\"). D is true (\"most common still image photography format\"). C is false because the passage says many common formats are \"equal to or closely approximate\" the 3:2 ratio, not that it has a *different* ratio than common formats.\n[id 26] D is incorrect because the passage says mysticism *can be distinguished* from other forms of religious belief by its emphasis on direct personal experience, implying it is a distinguishing feature, not a comparable one.\n[id 27] The passage says it encompasses \"some regions in... northeast Afghanistan\", not \"all regions\".\n[id 28] The passage states: \"The war expenditures... were paid for by the Filipino people themselves.\"\n[id 29] The passage mentions sedatives (morphine and scopolamine), amputations, and arterial clamps. It does *not* mention treating post-traumatic stress disorder.\n[id 30] The first sentence says: \"Vision, or the ability to see depends on visual system sensory organs or eyes.\"\n[id 31] The passage states: \"The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs.\" This means the guru is *not* unique to Sikhism.\n\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1515,
+  "completion_tokens": 471,
+  "total_tokens": 1986,
+  "cost": 0.00024633,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024633,
+   "upstream_inference_prompt_cost": 9.09e-05,
+   "upstream_inference_completions_cost": 0.00015543
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

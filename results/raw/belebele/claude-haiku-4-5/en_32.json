@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 38.8,
+ "text": "Looking at each question:\n\n**[256]** The passage explicitly states \"The crash occurred high up in mountainous terrain\" - this directly answers the question.\n\n**[257]** Despite his opinion that women shouldn't fight, the passage states he will support \"the British competitors at the 2012 Olympics.\" In context, these competitors would include female fighters, so he's supporting female fighters despite his stated position.\n\n**[258]** The passage describes Xavier Zayat as a \"fellow racer\" who struck Peter Lenz's bike.\n\n**[259]** The passage explicitly states: \"The whole district is designated as a UNESCO World Heritage Site for its unique cultural and historical value.\"\n\n**[260]** Auxiliary languages are defined as \"artificial or constructed languages.\" Option A incorrectly describes them as \"organic languages,\" which directly contradicts the passage's definition.\n\n**[261]** The passage clearly states: \"Regular announcements in the Metro are made only in Catalan, but unplanned disruptions are announced...in a wide variety of languages.\" For regular announcements, Catalan is used.\n\n**[262]** The passage states luxury B&Bs \"compete mainly on two main things: bedding and breakfast,\" emphasizing \"historic old building with antique furnishings\" not contemporary decor. Contemporary decor is neither mentioned nor competed on.\n\n**[263]** Beijing is described as \"the host city of the Olympic Winter Games in 2022.\" While specific events (ice events, ceremonies) are also hosted there, the overarching answer is that the Winter Olympics itself is hosted by Beijing.\n\n```json\n{\"answers\": {\"256\": \"D\", \"257\": \"A\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1628,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4638,
+  "output_tokens_details": {
+   "thinking_tokens": 4226
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1628,
+    "output_tokens": 4638,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.024818,
+ "answers_batch": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

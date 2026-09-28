@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 9.3,
+ "text": "[id 180]\nThe winner got 3/4 of 80 votes, so 60 votes. The loser got 80 - 60 = 20 votes.\n**20**\n\n[id 181]\nLet x be the number of white carnations. Then red roses = 4x, and pink calla lilies = 5x = 200.\nSo x = 40, and red roses = 4 * 40 = 160.\n**160**\n\n[id 182]\nJean is 30 years old (given). Two years ago, Jean was 28 and Mark was 26 (since Jean is 2 years older).\nTwo years ago, Mark was 5 years older than half of Jean's age at that time: 26 = 0.5 * 28 + 5 → 26 = 14 + 5 → 26 = 26 (consistent).\nJean's current age is 30 + 2 = 32.\n**32**\n\n[id 183]\nWell-rounded team total time: 4 * 55 = 220 seconds.\nLess well-rounded team times: 60, 57, 54, 51 → total = 60 + 57 + 54 + 51 = 222 seconds.\nDifference: 222 - 220 = 2 seconds.\n**2**\n\n[id 184]\nProbability of rolling a number greater than 3 (4, 5, or 6) = 3/6 = 50%.\nProbability of rolling two even numbers in a row (2, 4, or 6) = (3/6) * (3/6) = 9/36 = 25%.\nDifference: 50% - 25% = 25%.\n**25**\n\n[id 185]\nMom picked 20 apples, Jenna picked half of that: 20 / 2 = 10 apples.\nTotal apples picked: 20 + 10 = 30.\n**30**\n\n[id 186]\nLet r be the number of rats per cage. There are 3 cages, so total rats = 3r.\nStraw for rats: 3r * 6 = 18r.\nStraw for hamsters: 10 cages * 5 = 50 (since each hamster is alone, assume 1 hamster per cage).\nStraw for rabbits: 20.\nTotal straw: 18r + 50 + 20 = 160.\nSo 18r = 90 → r = 5.\n**5**\n\n[id 187]\nStarting debt: $100.\nMonthly interest: 2% of $100 = $2.\nInterest over 3 months: 3 * $2 = $6.\nTotal amount to pay: $100 + $6 = $106.\n**106**\n\n[id 188]\nLet b be the number of bags.\nCost to buy: 20b.\nTransportation cost: 2b.\nTotal cost: 20b + 2b = 22b.\nSelling price: 30b.\nProfit: 30b - 22b = 8b = $400.\nSo b = 400 / 8 = 50.\n**50**\n\n[id 189]\nCost of tickets: $20.25.\nCost of food: $20.25 - $4.50 = $15.75.\nCost of rides: 2 * $33 = $66.\nTotal cost: $20.25 + $15.75 + $66 = $102.\nSplit evenly among 3 friends: $102 / 3 = $34.\n**34**\n\n---\n```json\n{\n\"answers\": {\n\"180\": 20,\n\"181\": 160,\n\"182\": 32,\n\"183\": 2,\n\"184\": 25,\n\"185\": 30,\n\"186\": 5,\n\"187\": 106,\n\"188\": 50,\n\"189\": 34\n}\n}\n```",
+ "usage": {
+  "prompt_tokens": 831,
+  "completion_tokens": 976,
+  "total_tokens": 1807,
+  "cost": 0.00027105,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027105,
+   "upstream_inference_prompt_cost": 0.00012465,
+   "upstream_inference_completions_cost": 0.0001464
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 32.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 32.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

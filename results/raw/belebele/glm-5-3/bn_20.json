@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 16.4,
+ "text": "**Brief reasoning:**\n\n- **160:** The passage states that in the nomadic phase the colony makes a temporary nest \"which changes every day\" → **C**\n- **161:** Kirby Muxloe was more a fortified house; its large glass windows (and thin walls) distinguished it from true castles; the best answer highlighting its distinct construction feature is big windows → **A**\n- **162:** The passage recommends nutrition, hydration, and energy balance for enjoyment; it does not suggest maintaining peak performance (it even says nutrition alone cannot create best performance) → **B**\n- **163:** Foundation discovered in 1970; patent granted \"four years later\" → 1974 → **B**\n- **164:** Understanding intention \"helps resolve potential ambiguities in physical actions\" → **A**\n- **165:** The Renaissance reduced pressure to memorize texts, so textual memorization received the least emphasis → **C**\n- **166:** Button use for fastening clothes began as a result of the Crusades during the late Middle Ages → **D**\n- **167:** Promoting an extravagant lifestyle is part of the problem, not any solution → **C**\n\n{\"answers\": {\"160\": \"C\", \"161\": \"A\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"C\", \"166\": \"D\", \"167\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1124,
+  "completion_tokens_details": {
+   "reasoning_tokens": 803
+  },
+  "prompt_tokens": 5469,
+  "prompt_tokens_details": {
+   "cached_tokens": 5440
+  },
+  "total_tokens": 6593
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "C",
+  "166": "D",
+  "167": "C"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "C",
+  "166": "D",
+  "167": "C"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 17.4,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 168]\nThe Thirty Years' War would be the last war to be labeled a religious war.\nAnswer: A) Thirty Years’ War\n\n[id 169]\nThe statement that was not forced upon the King and the Queen by the mob is that they were not given the head of a royal guard to view.\nAnswer: C) A viewing of the guard’s beheading\n\n[id 170]\nThe statement that does not accurately describe Britain’s naval blockade against Germany is that it ensured that neutral ships wouldn’t be jeopardized.\nAnswer: D) It ensured that neutral ships wouldn’t be jeopardized\n\n[id 171]\nThe statement that does not accurately reflect the process of checking a victim is that you shouldn’t be concerned with sustaining your own injuries.\nAnswer: A) Don’t be concerned with sustaining your own injuries\n\n[id 172]\nAccording to the passage, what can be said about public transportation systems?\nAnswer: C) They cause a lot of complaints by those who use them\n\n[id 173]\nThe various effects of mutations do not rely upon the type of affected mutation.\nAnswer: D) The type of affected mutation\n\n[id 174]\nBased on the passage, which of the following statements accurately describes the majority of tornadoes?\nAnswer: A) They usually last over three hours\n\n[id 175]\nAccording to the passage, why were wooden wheels replaced by iron wheels?\nAnswer: D) They were being worn down by the iron on the tracks\n\n{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"D\", \"174\": \"A\", \"175\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1328,
+  "completion_tokens": 358,
+  "total_tokens": 1686,
+  "cost": 4.088e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.088e-05,
+   "upstream_inference_prompt_cost": 2.656e-05,
+   "upstream_inference_completions_cost": 1.432e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "D",
+  "174": "A",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "D",
+  "174": "A",
+  "175": "D"
+ }
+}

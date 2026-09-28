@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 47.0,
+ "text": "[id 112]: The passage explicitly states that \"Some studies suggest that the disease must become less lethal before it can cause a global epidemic.\" → **A**\n[id 113]: The passage mentions \"the reduction of the threat level to severe\" and explicitly says the threat has not gone away. → **A**\n[id 114]: The passage states India ended the innings \"loosing 7 wickets.\" → **B**\n[id 115]: The passage advises that despite intuition to join the airline flown most often, points may be more generous under a different airline, implying one should prioritize generosity of points/privileges. → **A**\n[id 116]: The passage explicitly says on night sleeper trains, passports may be collected so sleep is not interrupted. → **B**\n[id 117]: The Portuguese rebuilt it first; after they abandoned it, the Moroccan sultan rebuilt it. → **D**\n[id 118]: The passage states that paths, trains, and boats connect the villages, and cars cannot reach them. → **C**\n[id 119]: The passage mentions studded boots and studded add-on equipment as suitable for slippery conditions, while specifying heels should be low and wide and patterns should be deep. → **B**\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1265,
+  "completion_tokens": 1824,
+  "total_tokens": 3089,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1522
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  2143,
+  2159,
+  2319,
+  2348,
+  2355,
+  2448,
+  2457,
+  2459,
+  2557,
+  2567,
+  2573,
+  2582,
+  2628,
+  2632,
+  2636
+ ],
+ "seconds": 18.0,
+ "text": "[id 2143] 3 qt = 12 cups. Ratio 2:12 = 1/6.\n[id 2159] 84 / 42 = 2. So 42 is the GCF.\n[id 2319] m = 6 * 8/5 = 48/5 = 9 3/5.\n[id 2348] (5 * 36) + (6 * 32) = 180 + 192 = 372. Closest to 380.\n[id 2355] Multiplication represents repeated addition. 6 miles per day for 2 days.\n[id 2448] (∃x)[Hx • (∀y)(Ay ⊃ Bxy)] means There exists an x such that x is a house AND for every y, if y is an apartment, x is bigger than y. \"Some houses are bigger than every apartment.\"\n[id 2457] Let's test I=True, H=False, J=False.\nPremise 1: H ≡ (~I ∨ J) => F ≡ (~T ∨ F) => F ≡ F (True).\nPremise 2: H ∨ ~J => F ∨ ~F => F ∨ T (True).\nConclusion: ~I => ~T (False).\nInvalid. Counterexample: I is true, H and J are false.\n[id 2459] \"P if and only if Q\" (P ↔ Q) doesn't have a single antecedent in the way a standard conditional (P ⊃ Q) does. However, in \"P if Q\", Q is the antecedent. In \"P if and only if Q\", the components are equivalent. Standard logic notation: (Q ↔ R) ⊃ P? No, it's P ↔ Q. Looking at the phrasing: \"The university raises tuition (P) if and only if (Q and R)\". This is P ↔ (Q ∧ R). None of the individual parts is \"the\" antecedent of a conditional since it's a biconditional.\n[id 2557] \"A or B given C\" => C ⊃ (A ∨ B).\nA = England's importing beef is a necessary condition for France's subsidizing agriculture => F ⊃ E.\nB = China promotes human rights (C) given South Africa doesn't supply diamonds (~S) => ~S ⊃ C.\nSo: (F ⊃ E) ∨ (~S ⊃ C).\n[id 2567] \"Some CEO (∃x Cx) is wealthier than everyone (∀y Py ⊃ Wxy)\".\n[id 2573] From 1950 (approx $1000-2000) to 2016 (approx $35,000-45,000). 45/1 = 45? No, let's check historical stats. Japan GDP per capita grew significantly. Actually, looking at standard textbook data for this type of question, it is approximately 20 fold.\n[id 2582] Redistribution-with-growth usually refers to inclusive growth. Progressive taxation and land reform are redistributive. Minimum wage is also redistributive. However, redistribution-with-growth as a specific policy framework (like in developmental economics) emphasizes market mechanisms and education. Actually, minimum wage is often seen as a \"protectionist\" or \"labor market intervention\" that may conflict with pure \"growth\" strategies in some models, but the question asks what is *not* an element. Minimum wage is generally a standard element of redistribution. Actually, \"Redistribution-with-growth\" is often contrasted with \"Growth-first\" or \"Redistribution-first\". Usually, the elements include progressive tax, land reform, and education. Minimum wage is the most likely outlier in a \"growth\" focus model. Wait, let me re-evaluate. Redistribution-with-growth (like in some Latin American models) focuses on tax/land. Minimum wage is a key component.\n[id 2628] 7.5 + 11.8 + 15.5 = 34.8.\n[id 2632] UNICEF/UNESCO reports for India 2009: The figure was very high, around 78%.\n[id 2636] According to 2017 data, Canada and Iran have high per capita emissions. Iran is typically higher than Canada.\n\n{\"answers\": {\"2143\": \"D\", \"2159\": \"C\", \"2319\": \"D\", \"2348\": \"B\", \"2355\": \"A\", \"2448\": \"D\", \"2457\": \"D\", \"2459\": \"D\", \"2557\": \"D\", \"2567\": \"C\", \"2573\": \"D\", \"2582\": \"A\", \"2628\": \"B\", \"2632\": \"C\", \"2636\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1430,
+  "completion_tokens": 1151,
+  "total_tokens": 2581,
+  "cost": 0.00031328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00031328,
+   "upstream_inference_prompt_cost": 6.006e-05,
+   "upstream_inference_completions_cost": 0.00025322
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "D",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "D"
+ },
+ "answers_batch": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "D",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "D"
+ },
+ "single": {}
+}

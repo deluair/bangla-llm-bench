@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 60.8,
+ "text": "Looking at each question carefully:\n\n**[id 208]**: The passage states that in Tibetan meditation, chakras are activated through \"দেবত্ব শক্তি অনুধাবনের মাধ্যমে\" (through comprehension/visualization of divine power). This corresponds to visualizing/comprehending the deity.\n**Answer: B**\n\n**[id 209]**: The passage mentions \"লাক্কা সিং ভজন গানে নেতৃত্ব নিলেন...ছাপ্পান ভোগের 108 রকমের প্লেট পরিবেশন করা হয়েছিল। লক্ষা সিংও ছাপ্পান ভোগ ভজন উপস্থাপন করেছিলেন\" - referring to লখা সিং singing during the food offering.\n**Answer: A**\n\n**[id 210]**: The passage explicitly states \"তহবিলের ঘাটতি এবং টেলিভিশনে শিক্ষামূলক অনুষ্ঠানের প্রতি ঝোঁক উভয়ই এই সিরিজটি শেষ করতে ভূমিকা রেখেছিল\" - directly naming funding shortage as a factor.\n**Answer: A**\n\n**[id 211]**: The passage states \"নয়জন ভুক্তভোগীর মধ্যে তিনজনের অন্ত্যেষ্টিক্রিয়া হওয়ার কারণে...খবর ছড়িয়ে পড়েছিল\" - clearly mentioning three funerals.\n**Answer: B**\n\n**[id 212]**: The passage directly states \"লাটভিয়া এবং স্লোভাকিয়া দুটি দেশই ACTA-তে যোগদানের প্রক্রিয়াতে বিলম্ব করেছিল\" - Latvia is listed.\n**Answer: D**\n\n**[id 213]**: The passage says \"METI ঘোষণা করেছিল যে, অ্যাপল এরকম 34 অতিরিক্ত উত্তেজিত ঘটনার তথ্য দিয়েছে, যাকে সংস্থা 'গুরুতর নয়' বলে অভিহিত করেছে\" - METI (the organization) called it not serious.\n**Answer: A**\n\n**[id 214]**: The passage emphasizes that nuclear power should be pursued \"যখন অর্থনৈতিকভাবে সফল হয়\" - implying economic viability is the current barrier.\n**Answer: D**\n\n**[id 215]**: Miller states \"আমি প্রস্তুত হচ্ছিলাম তাই সে কি বলছে তা আমি শুনতে পাচ্ছিলাম না\" (I was preparing myself so I couldn't hear what he was saying) - indicating he wasn't paying attention while preparing.\n**Answer: B**\n\n```json\n{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"B\", \"212\": \"D\", \"213\": \"A\", \"214\": \"D\", \"215\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5662,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5639,
+  "output_tokens_details": {
+   "thinking_tokens": 4729
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5662,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 5639,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5662,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5662
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.039527999999999994,
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "A",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "A",
+  "214": "D",
+  "215": "B"
+ }
+}

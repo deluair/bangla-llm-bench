@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 9.3,
+ "text": "Here are my answers with brief reasoning:\n\n**96:** The passage states 45 of the 117 total skiers in the Giant Slalom failed to rank — the 36 refers to the Slalom, and 4 refers only to the women's sitting group. → **D**\n\n**97:** Northern Rock required support \"due to its exposure during the subprime mortgage crisis in 2007.\" → **D**\n\n**98:** The passage says \"Based on this fossil, that means the split is much earlier\" — the split was evidenced on a fossil. → **B**\n\n**99:** The latest reports stated the plane received a bomb threat, was diverted to Afghanistan, and landed in Kandahar — nothing about landing in Ürümqi. → **B**\n\n**100:** Bush spokesman Gordon Johndroe called the pledge \"a major step.\" → **C**\n\n**101:** The passage says the Ninth Ward \"is currently in waist-high water.\" → **C**\n\n**102:** The 80 police were \"on hand to direct motorists to detours.\" → **C**\n\n**103:** \"By early today, winds were around 83 km/h, and it was expected to keep weakening.\" → **B**\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 748,
+  "completion_tokens_details": {
+   "reasoning_tokens": 446
+  },
+  "prompt_tokens": 1161,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1909
+ },
+ "served_by": null,
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 8.6,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 224]**: The passage states the crash resulted in \"closing the airport to commercial flights\" (**A**).\n- **[id 225]**: Brzezinski served as NSA from 1977 to 1981, \"succeeding Henry Kissinger,\" meaning Kissinger held the post until 1977 (**B**).\n- **[id 226]**: The ship was 100 metres long and had 120–160 cubic metres of fuel aboard; stating it had \"100 meters of fuel aboard\" is false (**B**).\n- **[id 227]**: The text notes that in the 1960s he returned to \"newly-independent Algeria,\" placing its independence in the 1960s (**C**).\n- **[id 228]**: The official reported to the scene after \"a neighbor called about a gas leak\" (**A**).\n- **[id 229]**: France became the seventh and latest EU country where the virus was confirmed (**A**).\n- **[id 230]**: The passage directly states Fred was \"moving towards the northwest\" (**D**).\n- **[id 231]**: The significant earthquake activity resulting in the phase change took place on March 10 (**C**).\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 25152,
+  "output_tokens": 1558,
+  "thinking_tokens": 1180,
+  "cache_read_tokens": 0,
+  "total_tokens": 26710
+ },
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

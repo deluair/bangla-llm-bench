@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 4.9,
+ "text": "1. **id 184**: The passage describes scaffolding as a support system for learners, not a teaching method. Option C incorrectly equates scaffolding with project-based learning, which is a separate concept.\n   - **Answer**: C\n\n2. **id 185**: The passage mentions that the one-web address feature helps students with typing difficulties or those who struggle with spelling, making it easier for them to access the class page.\n   - **Answer**: C\n\n3. **id 186**: The passage states that the temple was rebuilt after Alexander the Great’s death in 323 BCE, not during his lifetime.\n   - **Answer**: B\n\n4. **id 187**: The passage indicates that *Homo erectus* regularly walked on two legs, unlike Australopithecines.\n   - **Answer**: B\n\n5. **id 188**: The passage suggests that the Allies (Britain and America) were more successful in securing their supply lines despite German efforts to disrupt them.\n   - **Answer**: A\n\n6. **id 189**: The passage specifies that only priests could enter the inner sanctum (abhayaranaya).\n   - **Answer**: B\n\n7. **id 190**: The passage mentions that ancient Romans did not consume turkey (Turkey roast).\n   - **Answer**: D\n\n8. **id 191**: The passage states that electrons are removed from hydrogen atoms to form hydrogen ions.\n   - **Answer**: D\n\n```json\n{\n  \"answers\": {\n    \"184\": \"C\",\n    \"185\": \"C\",\n    \"186\": \"B\",\n    \"187\": \"B\",\n    \"188\": \"A\",\n    \"189\": \"B\",\n    \"190\": \"D\",\n    \"191\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2786,
+  "completion_tokens": 405,
+  "total_tokens": 3191,
+  "cost": 0.00047865,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00047865,
+   "upstream_inference_prompt_cost": 0.0004179,
+   "upstream_inference_completions_cost": 6.075e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "184": "C",
+  "185": "C",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "C",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

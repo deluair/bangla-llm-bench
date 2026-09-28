@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 8.6,
+ "text": "Here are the answers based on the reasoning for each question:\n\n---\n**[id 1680]**\nNatural processes tend to move from higher energy states to lower energy states (entropy increases).\n**Answer: A**\n\n**[id 1726]**\nSince there is no friction, the book on top experiences no horizontal force (Newton’s 1st law). It will not accelerate horizontally.\n**Answer: A**\n\n**[id 1753]**\nThe pitch (frequency) of a sound determines its sharpness or \"tightness.\"\n**Answer: B**\n\n**[id 1772]**\nMomentum (p = mv) and force (F = ma) are directly related via Newton’s 2nd law (F = dp/dt).\n**Answer: B**\n\n**[id 1773]**\nA typical nuclear fission reactor generates heat (via fission) to produce steam for electricity.\n**Answer: A**\n\n**[id 1820]**\nNegative residual autocorrelation suggests alternating patterns (e.g., residuals oscillate above/below zero).\n**Answer: B**\n\n**[id 1850]**\nIn an ARMA(p,q) model, the ACF decays geometrically, and the PACF cuts off after lag p.\n**Answer: B**\n\n**[id 1873]**\nVariance decomposition in VAR models measures the contribution of each shock to the variance of each variable (i and ii are correct). Statement (iv) is also true, while (iii) is irrelevant.\n**Answer: A**\n\n**[id 1892]**\nResiduals in regression are the difference between observed (y) and fitted (ŷ) values.\n**Answer: C**\n\n**[id 1895]**\nFor a discrete choice between bond/cash vs. equity funds, a **multinomial logit model** is appropriate.\n**Answer: B**\n\n**[id 1929]**\nLC oscillators typically operate in the **100 kHz to 500 MHz** range for RF applications.\n**Answer: B**\n\n**[id 1995]**\nElectrodes require **high electrical conductivity** to minimize resistance.\n**Answer: A**\n\n**[id 1998]**\nHeat sinks need **high thermal conductivity**, **large surface area**, and **high melting point** for efficiency.\n**Answer: D**\n\n**[id 2004]**\nCapacitors in parallel add directly: 4 × 40 µF = **160 µF**.\n**Answer: A**\n\n**[id 2043]**\nAlternating poles/zeros on the real axis indicate an **LC network** (inductors/capacitors).\n**Answer: A**\n\n---\n```json\n{\n  \"answers\": {\n    \"1680\": \"A\",\n    \"1726\": \"A\",\n    \"1753\": \"B\",\n    \"1772\": \"B\",\n    \"1773\": \"A\",\n    \"1820\": \"B\",\n    \"1850\": \"B\",\n    \"1873\": \"A\",\n    \"1892\": \"C\",\n    \"1895\": \"B\",\n    \"1929\": \"B\",\n    \"1995\": \"A\",\n    \"1998\": \"D\",\n    \"2004\": \"A\",\n    \"2043\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1821,
+  "completion_tokens": 740,
+  "total_tokens": 2561,
+  "cost": 0.00038415,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038415,
+   "upstream_inference_prompt_cost": 0.00027315,
+   "upstream_inference_completions_cost": 0.000111
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "1680": "A",
+  "1726": "A",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "B",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "A",
+  "1998": "D",
+  "2004": "A",
+  "2043": "A"
+ },
+ "answers_batch": {
+  "1680": "A",
+  "1726": "A",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "B",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "A",
+  "1998": "D",
+  "2004": "A",
+  "2043": "A"
+ },
+ "single": {}
+}

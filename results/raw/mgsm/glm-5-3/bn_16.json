@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 20.5,
+ "text": "**Brief solutions:**\n\n- **160:** Tuesday = 17 + 7 = 24 ft; Wednesday = (2/3)×24 = **16 ft**\n- **161:** Anakin = 10+6+3 = 19; Luxsin = 5+3+5 = 13; Total = **32**\n- **162:** 20% of original $20 = $4 increase per 2 months; 36 months = 18 periods; 20 + 18×4 = **$92**\n- **163:** Cars = 5×4 = $20; Figures = 3×5 = $15; Doll = 3×5 = $15; Total = **$50**\n- **164:** Self-filing loses 3×35 = $105; Accountant costs $90; Savings = 105 − 90 = **$15**\n- **165:** 1500 − 1090 − 157 − 74 − 102 = **€77**\n- **166:** 15 flans × 3 eggs = 45 eggs; 45 ÷ 9 = **5 times**\n- **167:** Now sum = 28 − 4 = 24; Seth = 2×Brooke, so Brooke = 8, Seth = **16**\n- **168:** Jimmy = 2×8 + 2 = **$18**\n- **169:** 5×20 + 2×10 = **120 miles**\n\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}",
+ "usage": {
+  "completion_tokens": 1720,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1339
+  },
+  "prompt_tokens": 2246,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 3966
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

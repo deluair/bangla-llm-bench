@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  2741,
+  2786,
+  2823,
+  2916,
+  2945,
+  2995,
+  2997,
+  3092,
+  3129,
+  3170,
+  3196,
+  3204,
+  3209,
+  3241,
+  3257
+ ],
+ "seconds": 14.2,
+ "text": "**2741:** D — Early Earth had little free oxygen; oxygen would actually hinder organic molecule formation (it's reactive/oxidizing), so this statement is NOT correct.\n\n**2786:** A — Apoptosis is programmed cell *death*, not a type of cell division, making A the incorrect statement.\n\n**2823:** D — Post-transcriptional modification (capping, poly-A tail, splicing) occurs in the nucleus of eukaryotes, not the cytoplasm.\n\n**2916:** A — Random mating is a Hardy-Weinberg condition; genetic drift, mutation, and gene flow all *disrupt* equilibrium.\n\n**2945:** C — Water potential = pressure potential + solute potential; they combine to determine it.\n\n**2995:** A — More products than reactants at equilibrium means K > 1 and ΔG° < 0, indicating spontaneity.\n\n**2997:** B — A substance produced in one step and consumed in a later step is an intermediate.\n\n**3092:** C — Only temperature changes the numerical value of the equilibrium constant.\n\n**3129:** C — Argon liquefies due to London dispersion forces (instantaneous/induced dipoles).\n\n**3170:** D — ΔG = ΔH − TΔS; with ΔH > 0 and ΔS > 0, high T makes ΔG negative (spontaneous), while at standard conditions ΔG > 0.\n\n**3196:** C — Huffman coding is a classic lossless compression technique.\n\n**3204:** B — `//` is floor division in Python 3.\n\n**3209:** D — If num1 is less than both num2 and num3, neither condition (num1 > num2 || num1 > num3) can be true, so the loop never executes.\n\n**3241:** A — min([1,2,3,4]) returns 1.\n\n**3257:** C — 'C' (uppercase) < 'c' (lowercase) in ASCII, so \"Carrot\" < \"car\" (strB.compareTo(strC) < 0), and \"CARROT\" < \"Carrot\" since 'A' < 'a' (so strB.compareTo(strA) > 0).\n\n{\"answers\": {\"2741\": \"D\", \"2786\": \"A\", \"2823\": \"D\", \"2916\": \"A\", \"2945\": \"C\", \"2995\": \"A\", \"2997\": \"B\", \"3092\": \"C\", \"3129\": \"C\", \"3170\": \"D\", \"3196\": \"C\", \"3204\": \"B\", \"3209\": \"D\", \"3241\": \"A\", \"3257\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1325,
+  "completion_tokens_details": {
+   "reasoning_tokens": 718
+  },
+  "prompt_tokens": 1370,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2695
+ },
+ "served_by": null,
+ "answers": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "A",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ },
+ "answers_batch": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "A",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ },
+ "single": {}
+}

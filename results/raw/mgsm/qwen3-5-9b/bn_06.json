@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 82.3,
+ "text": "\n\nHere is the solution to the math problems:\n\n**id 60:**\nTotal lemons = 25.\nBad lemons = 1.\nGreen/Ruption lemons = 20% of 25 = 5.\nSour lemons = 2.\nGood lemons = Total - (Bad + Green + Sour) = 25 - (1 + 5 + 2) = 25 - 8 = 17.\n\n**id 61:**\nCost for materials = $500.\nCost for work = $800.\nTotal item cost = $500 + $800 = $1300.\nInsurance cost = 10% of $1300 = $130.\nTotal amount paid = Cost + Insurance = 1300 + 130 = $1430.\n\n**id 62:**\nFull pension = $50,000 for 40 years.\nEligibility starts after 20 years. She works 30 years total.\nYears contributing to pension = 30 - 20 = 10 years.\nRate = 5% per year.\nTotal eligibility = 10 * 5% = 50%.\nAnnual pension = 50% of $50,000 = $25,000.\n\n**id 63:**\nMonthly cost = $140.\nFirst half (6 months) = 6 * $140 = $840.\nSecond half (6 months) cost reduced by 10% = $140 * 0.9 = $126.\nSecond half cost = 6 * $126 = $756.\nTotal payment = $840 + $756 = $1596.\n\n**id 64:**\nMiles driven = 100 miles.\nFuel used = 12 gallons - 4 gallons (refill amount to full) = 8 gallons?\nWait, logic check: She filled it with 4 gallons. If she started full (12 gal) and ended needing 4 to refill 12, she had 8 left.\nConsumed = 12 - 8 = 4 gallons.\nMiles per gallon (MPG) = 100 miles / 4 gallons = 25 MPG.\nMax distance on full tank (12 gallons) = 25 * 12 = 300 miles.\n\n**id 65:**\nTV Time = 2 hours.\nBook Time = Half of TV time = 1 hour.\nTotal Session Time = 3 hours.\nFrequency = 3 times a week * 4 weeks = 12 sessions.\nTotal Time = 12 * 3 = 36 hours.\n\n**id 66:**\n4 Schools.\nEach School: 1 Girl Team (5 players + 1 trainer) + 1 Boy Team (5 players + 1 trainer).\nPeople per School = (5+1) + (5+1) = 12.\nTotal People = 12 * 4 = 48.\n\n**id 67:**\nDiamonds = 175.\nRubies = 175 - 35 = 140.\nPanjna (Amethysts) = 140 * 2 = 280.\nTotal Gems = 175 + 140 + 280 = 595.\n\n**id 68:**\nGirls = 60.\nBoys = 2 * 60 = 120.\nStudents = 180.\nTeachers = Students / 5 = 180 / 5 = 36.\n\n**id 69:**\nStart Amount + 8 * $5 = $100.\nStart Amount + $40 = $100.\nStart Amount = $60.\n\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}",
+ "usage": {
+  "prompt_tokens": 1652,
+  "completion_tokens": 11869,
+  "total_tokens": 13521,
+  "cost": 0.00194555,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00194555,
+   "upstream_inference_prompt_cost": 0.0001652,
+   "upstream_inference_completions_cost": 0.00178035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10880,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

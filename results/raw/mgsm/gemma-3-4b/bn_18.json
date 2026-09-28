@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 49.4,
+ "text": "Here are the solutions to the math word problems:\n\n[id 180]\nLet $v$ be the number of votes the winner received.\nThe winner received $\\frac{3}{4}$ of the votes, and the total number of votes cast was 80.\nSo, $v = \\frac{3}{4} \\times 80 = 60$.\nThe loser received $80 - 60 = 20$ votes.\n\nAnswer: 20\n\n[id 181]\nLet $r$ be the number of red roses Sandra ordered.\nSandra ordered 4 times the number of white roses, so the number of white roses is $\\frac{r}{4}$.\nSandra ordered 200 pink calla lilies, which is 5 times the number of white roses, so $\\frac{r}{4} = 200 \\times 5 = 1000$.\nTherefore, $r = 4 \\times 1000 = 4000$.\nSandra needs to deliver 4000 red roses by 5 pm.\n\nAnswer: 4000\n\n[id 182]\nLet J be Janna's age and G be Gin's age.\nWe are given that Gin is 2 years older than Mark, so $G = M + 2$.\nTwo years ago, Mark's age was $M - 2$ and Janna's age was $J - 2$.\nWe are given that two years ago, Mark's age was $\\frac{1}{2}$ of Janna's age, so $M - 2 = \\frac{1}{2}(J - 2)$.\nWe are given that Janna's age is 30, so $J = 30$.\nThen $G = M + 2$.\n$M - 2 = \\frac{1}{2}(30 - 2) = \\frac{1}{2}(28) = 14$.\nSo $M = 14 + 2 = 16$.\nGin's age is $G = 16 + 2 = 18$.\n\nAnswer: 18\n\n[id 183]\nLet $t_1$ and $t_2$ be the times taken by the two teams to run 400m.\nTeam 1's runner runs 400m in 60 seconds, and the next runner runs 400m in $60 - 3 = 57$ seconds.\nTeam 2's runner runs 400m in 55 seconds.\nThe total time taken by Team 2 is $60 + 57 + 55 = 172$ seconds.\nThe time taken by Team 1 is $60 + 57 = 117$ seconds.\nThe difference in time is $172 - 117 = 55$ seconds.\nTeam 2 wins by 55 seconds.\n\nAnswer: 55\n\n[id 184]\nLet $x$ be the number of times a player chooses a number greater than 3.\nThe possible outcomes when choosing a number from 1 to 6 are 6.\nThe favorable outcomes are the number of times a player chooses a number greater than 3, which is 3 (4, 5, 6).\nThe probability is $\\frac{3}{6} = \\frac{1}{2} = 0.5$.\nSo the probability is 50%.\n\nAnswer: 50\n\n[id 185]\nLet $J$ be the number of apples Jena collected.\nJena collected $\\frac{1}{2}$ of her mother's apples, so $J = \\frac{1}{2} \\times 20 = 10$.\nHer mother collected 20 apples.\nTogether they collected $10 + 20 = 30$ apples.\n\nAnswer: 30\n\n[id 186]\nLet $n$ be the number of mice per cage.\nThere are 10 cages, so there are $10n$ mice in total.\nEach mouse gets 6 pieces of food.\nThe total number of food pieces is $10n \\times 6 = 60n$.\nThere is also a hamster in a cage with 20 pieces of food.\nThe total number of food pieces is $60n + 20$.\nWe are given that the total number of food pieces is 160.\nSo $60n + 20 = 160$.\n$60n = 140$.\n$n = \\frac{140}{60} = \\frac{7}{3}$, which is not an integer, so there must be an error in the problem statement or our calculations.\n\nLet's interpret the problem differently:  The total number of rats is 10 cages x number of rats per cage.  Each rat gets 6 pieces of food.  The hamster gets 20 pieces.  Total food is 160.\nLet x be the number of rats per cage.  Then 10x + 20 = 160\n10x = 140\nx = 14\n\nAnswer: 14\n\n[id 187]\nThe simple interest is 2% of the principal amount (P) for 3 months.\nThe principal amount is P.\nThe interest is $0.02P$.\nThe total amount to be paid is $P + 0.02P = 1.02P$.\nMandy needs to pay $1.02P$ after 3 months.\n\nAnswer: 102\n\n[id 188]\nLet $x$ be the number of bags of wheat the farmer sold.\nThe cost per bag is $20, so the total cost is $20x$.\nThe transportation cost per bag is $2, so the total transportation cost is $2x$.\nThe total cost is $20x + 2x = 22x$.\nThe selling price per bag is $30, so the total revenue is $30x$.\nThe profit is $30x - 22x = 8x$.\nWe are given that the profit is $400, so $8x = 400$.\n$x = \\frac{400}{8} = 50$.\n\nAnswer: 50\n\n[id 189]\nLet $t$ be the total amount each friend pays.\nThree friends buy 3 tickets for $20.25, so the cost of the tickets is $20.25$.\nThe cost of the food is $4.50 less than the tickets, so the food cost is $20.25 - 4.50 = 15.75$.\nThe cost of the rides is $2 \\times 33 = 66$.\nThe total cost is $20.25 + 15.75 + 66 = 102$.\nSince there are 3 friends, each friend pays $\\frac{102}{3} = 34$.\n\nAnswer: 34",
+ "usage": {
+  "prompt_tokens": 993,
+  "completion_tokens": 1617,
+  "total_tokens": 2610,
+  "cost": 0.00021135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021135,
+   "upstream_inference_prompt_cost": 4.965e-05,
+   "upstream_inference_completions_cost": 0.0001617
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "180": {
+   "text": "Let the total number of students who voted be $V = 80$.\nThe winning candidate received $\\frac{3}{4}$ of the votes.\nSo, the number of votes the winning candidate received is $\\frac{3}{4} \\times 80 = 3 \\times 20 = 60$.\nLet the number of votes the losing candidate received be $L$.\nSince the total number of votes cast is 80, we have $60 + L = 80$.\nTherefore, $L = 80 - 60 = 20$.\nThe losing candidate received 20 votes.\n\nANSWER: 20",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 143,
+    "total_tokens": 250,
+    "cost": 1.965e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.965e-05,
+     "upstream_inference_prompt_cost": 5.35e-06,
+     "upstream_inference_completions_cost": 1.43e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 20.0
+  },
+  "181": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Calculate the number of red roses:** Sandra ordered four times as many red roses as white carnations. Let 'x' be the number of white carnations. Then the number of red roses is 4x.\n\n2. **Calculate the number of pink calla lilies:** The number of pink calla lilies is five times the number of white carnations, so it's 5x.\n\n3. **Set up an equation:** We know Sandra ordered 200 pink calla lilies. So, 5x = 200.\n\n4. **Solve for x:** Divide both sides of the equation by 5: x = 200 / 5 = 40.  Therefore, Sandra ordered 40 white carnations.\n\n5. **Calculate the number of red roses:** The number of red roses is 4x = 4 * 40 = 160.\n\n6. **Determine the required delivery:** Sandra needs to ensure that Fred delivers at least 160 red roses by 5 pm.\n\nANSWER: 160",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 246,
+    "total_tokens": 427,
+    "cost": 3.365e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.365e-05,
+     "upstream_inference_prompt_cost": 9.05e-06,
+     "upstream_inference_completions_cost": 2.46e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 160.0
+  },
+  "182": {
+   "text": "Let J be Jin's current age.\nLet M be Mark's current age.\nLet Y be Jane's current age.\n\nWe are given that Jin is 2 years older than Mark, so J = M + 2.\n\nTwo years ago, Mark's age was M - 2.\nTwo years ago, Jane's age was Y - 2.\nTwo years ago, Mark's age was the half of Jane's age plus 5 years, so\nM - 2 = (Y - 2) / 2 + 5\nM - 2 = (Y - 2) / 2 + 5\nMultiply by 2 to get rid of the fraction:\n2(M - 2) = Y - 2 + 10\n2M - 4 = Y + 8\nY = 2M - 12\n\nWe are given that Jane's current age is 30, so Y = 30.\n30 = 2M - 12\n30 + 12 = 2M\n42 = 2M\nM = 21\n\nSince J = M + 2, Jin's current age is J = 21 + 2 = 23.\n\nNow, we need to find Jin's current age.\nJin's current age is J = 23.\n\nANSWER: 23",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 308,
+    "total_tokens": 403,
+    "cost": 3.555e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.555e-05,
+     "upstream_inference_prompt_cost": 4.75e-06,
+     "upstream_inference_completions_cost": 3.08e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 23.0
+  },
+  "183": {
+   "text": "Let's analyze the problem.\n\nTeam 1 is very good and each member runs 400 meters in 55 seconds.  Since there are four members, the total time for Team 1 to complete the relay is 4 * 55 = 220 seconds.\n\nTeam 2 has a slower runner who takes 60 seconds to run 400 meters. The subsequent runners run 3 seconds faster than the previous runner. Let's denote the time taken by each runner as follows:\n\n* Runner 1: 60 seconds\n* Runner 2: 60 - 3 = 57 seconds\n* Runner 3: 57 - 3 = 54 seconds\n* Runner 4: 54 - 3 = 51 seconds\n\nThe total time for Team 2 to complete the relay is 60 + 57 + 54 + 51 = 222 seconds.\n\nThe difference in time between the two teams is 222 - 220 = 2 seconds.\nTherefore, Team 2 wins by 2 seconds.\n\nANSWER: 2",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 247,
+    "total_tokens": 442,
+    "cost": 3.445e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.445e-05,
+     "upstream_inference_prompt_cost": 9.75e-06,
+     "upstream_inference_completions_cost": 2.47e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 2.0
+  },
+  "184": {
+   "text": "\n$P(X > 3) = 1 - P(X \\le 3) = 1 - \\frac{46250}{46656} = \\frac{46656 - 46250}{46656} = \\frac{406}{46656} = \\frac{203}{23328} \\approx 0.00873$\nHowever, we need to consider that the numbers on the bead can be 1, 2, 3, 4, 5, 6.\nSo the number of ways to rotate to a number greater than 3 is the number of ways to rotate to 4, 5, or 6.\nFor each rotation, there are 3 options (4, 5, 6) and 3 options (1, 2, 3). So the probability of rotating to a number greater than 3 is $\\frac{3}{6} = \\frac{1}{2}$.\nThe probability of rotating to a number less than or equal to 3 is $\\frac{3}{6} = \\frac{1}{2}$.\nWe want to find the probability that the number of rotations is greater than 3.\nSince each rotation is independent, we can use the binomial distribution.\n$P(X > 3) = 1 - P(X \\le 3)$.\nThe probability of rotating to a number greater than 3 in one rotation is $\\frac{3}{6} = \\frac{1}{2}$.\nThe probability of rotating to a number less than or equal to 3 in one rotation is $\\frac{3}{6} = \\frac{1}{2}$.\n$P(X > 3) = (1 - \\frac{1}{2})^6 = (\\frac{1}{2})^6 = \\frac{1}{64} = 0.015625$.\nWe made an error in our initial calculation. We want the probability of more than 3 rotations being greater than 3.\n\nLet $p = \\frac{3}{6} = \\frac{1}{2}$ be the probability of rotating to a number greater than 3. Then $1-p = \\frac{1}{2}$ is the probability of rotating to a number less than or equal to 3.\nThe number of rotations greater than 3 follows a binomial distribution with parameters $n=6$ and $p=\\frac{1}{2}$.\nWe want to find $P(X > 3) = P(X=4) + P(X=5) + P(X=6)$.\n$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k} = \\binom{6}{k} (\\frac{1}{2})^k (\\frac{1}{2})^{6-k} = \\binom{6}{k} (\\frac{1}{2})^6 = \\frac{\\binom{6}{k}}{64}$.\n$P(X=4) = \\frac{\\binom{6}{4}}{64} = \\frac{15}{64}$\n$P(X=5) = \\frac{\\binom{6}{5}}{64} = \\frac{6}{64}$\n$P(X=6) = \\frac{\\binom{6}{6}}{64} = \\frac{1}{64}$\n$P(X > 3) = \\frac{15}{64} + \\frac{6}{64} + \\frac{1}{64} = \\frac{22}{64} = \\frac{11}{32} = 0.34375$\n\nThe probability is $\\frac{11}{32} = 0.34375$\n\nANSWER: 34.375",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 1668,
+    "total_tokens": 1764,
+    "cost": 0.0001716,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0001716,
+     "upstream_inference_prompt_cost": 4.8e-06,
+     "upstream_inference_completions_cost": 0.0001668
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 34.375
+  },
+  "185": {
+   "text": "Let $j$ be the number of apples Jena picked, and $m$ be the number of apples her mother picked.\nWe are given that Jena picked half as many apples as her mother, so $j = \\frac{1}{2}m$.\nWe are also given that her mother picked 20 apples, so $m = 20$.\nThen $j = \\frac{1}{2}(20) = 10$.\nThe total number of apples they picked together is $j + m = 10 + 20 = 30$.\n\nANSWER: 30",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 131,
+    "total_tokens": 238,
+    "cost": 1.845e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.845e-05,
+     "upstream_inference_prompt_cost": 5.35e-06,
+     "upstream_inference_completions_cost": 1.31e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 30.0
+  },
+  "186": {
+   "text": "x + 50y + 20 = 160$.\n$18x + 50y = 160 - 20 = 140$.\nWe are also given that the mice are divided into groups, and the number of mice in each group is $x$. This means that the mice are divided into groups of $x$ mice. Since the mice are in 3 cages, we have $x$ mice per cage.\nThe problem states that the mice are divided into equal groups. This implies that the number of mice in each group is the same, say $n$. The total number of mice is $3n$.\nEach mouse gets 6 pieces of hay, so the total number of hay pieces for the mice is $3n \\times 6 = 18n$.\nThere are 10 cages for hamsters, and each hamster gets 5 pieces of hay. Let $h$ be the number of hamsters in each cage. Then the total number of hamsters is $10h$.\nThe total number of hay pieces for the hamsters is $10h \\times 5 = 50h$.\nThe rabbit enclosure gets 20 pieces of hay.\nThe total number of hay pieces is $18n + 50h + 20 = 160$.\n$18n + 50h = 140$.\nSince $n$ and $h$ are integers, we need to find integer solutions for $18n + 50h = 140$.\nWe can divide the equation by 2: $9n + 25h = 70$.\nWe can express $n$ in terms of $h$: $9n = 70 - 25h$, so $n = \\frac{70 - 25h}{9}$.\nWe need to find an integer $h$ such that $70 - 25h$ is divisible by 9 and $n \\geq 1$.\nIf $h = 1$, then $n = \\frac{70 - 25}{9} = \\frac{45}{9} = 5$.\nIf $h = 2$, then $n = \\frac{70 - 50}{9} = \\frac{20}{9}$, which is not an integer.\nIf $h = 3$, then $n = \\frac{70 - 75}{9} = \\frac{-5}{9}$, which is not possible since $n$ must be positive.\nThus, the only integer solution is $n = 5$ and $h = 1$. This means there are 5 mice in each group (each cage) and 1 hamster in each cage.\nSince there are 3 cages for the mice, the number of mice in each cage is 5. The total number of mice is $3 \\times 5 = 15$.\nSince there are 10 cages for the hamsters, the number of hamsters in each cage is 1. The total number of hamsters is $10 \\times 1 = 10$.\nThe question asks for the number of mice in each cage, which is $x$. We found that $x = 5$.\n\nFinal Answer: The final answer is 5.\nANSWER: 5",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 943,
+    "total_tokens": 1148,
+    "cost": 0.00010455,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00010455,
+     "upstream_inference_prompt_cost": 1.025e-05,
+     "upstream_inference_completions_cost": 9.43e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 5.0
+  },
+  "187": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the interest for one month:** $100 * 0.02 = $2\n2. **Calculate the interest for 3 months:** $2 * 3 = $6\n3. **Calculate the total amount to be repaid:** $100 (principal) + $6 (interest) = $106\n\nANSWER: 106",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 91,
+    "total_tokens": 197,
+    "cost": 1.44e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.44e-05,
+     "upstream_inference_prompt_cost": 5.3e-06,
+     "upstream_inference_completions_cost": 9.1e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 106.0
+  },
+  "188": {
+   "text": "Let $x$ be the number of wheat bags the businessman bought from the farmer.\nThe cost of each bag is $20.\nThe transportation cost for each bag is $2.\nThe total cost of buying $x$ bags is $20x + 2x \\times 2 = 20x + 4x = 24x$.\nThe businessman sells each bag for $30.\nThe total revenue from selling $x$ bags is $30x$.\nThe businessman's profit is the total revenue minus the total cost, which is $30x - 24x = 6x$.\nThe businessman made a profit of $400, so we have $6x = 400$.\nDividing both sides by 6, we get $x = \\frac{400}{6} = \\frac{200}{3} \\approx 66.67$.\nSince the number of bags must be a whole number, we made an error in the calculation. Let's redo the calculation.\n\nThe cost of buying $x$ bags is $20x$.\nThe transportation cost for $x$ bags is $2x$.\nSo, the total cost is $20x + 2x = 22x$.\nThe selling price of $x$ bags is $30x$.\nThe profit is $30x - 22x = 8x$.\nWe are given that the profit is $400$, so $8x = 400$.\nDividing by 8, we get $x = \\frac{400}{8} = 50$.\n\nSo, the businessman sold 50 bags.\n\nLet's verify the answer:\nCost of 50 bags = $50 \\times 20 = 1000$\nTransportation cost for 50 bags = $50 \\times 2 = 100$\nTotal cost = $1000 + 100 = 1100$\nRevenue from selling 50 bags = $50 \\times 30 = 1500$\nProfit = $1500 - 1100 = 400$\n\nThe businessman sold 50 bags.\n\nANSWER: 50",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 505,
+    "total_tokens": 629,
+    "cost": 5.67e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.67e-05,
+     "upstream_inference_prompt_cost": 6.2e-06,
+     "upstream_inference_completions_cost": 5.05e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 50.0
+  },
+  "189": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Cost of tickets:** The tickets cost $20.25 for 3 tickets, so each ticket cost $20.25 / 3 = $6.75.\n\n2. **Cost of food:** They spent $4.50 less on food than on tickets, so they spent $20.25 - $4.50 = $15.75 on food.\n\n3. **Total cost of rides:** They spent $33 per ride * 2 rides = $66 on rides.\n\n4. **Total cost:** The total cost is the cost of tickets + food + rides = $20.25 + $15.75 + $66 = $102.\n\n5. **Cost per person:** Since there are 3 friends, each person pays $102 / 3 = $34.\n\nANSWER: 34",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 210,
+    "total_tokens": 342,
+    "cost": 2.76e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.76e-05,
+     "upstream_inference_prompt_cost": 6.6e-06,
+     "upstream_inference_completions_cost": 2.1e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 34.0
+  }
+ },
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 34.375,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

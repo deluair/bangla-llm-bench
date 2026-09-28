@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 6.4,
+ "text": "Here are the answers to the word problems:\n\n[id 90]\n180\n\n[id 91]\n16\n\n[id 92]\n18\n\n[id 93]\n32\n\n[id 94]\n150\n\n[id 95]\n40\n\n[id 96]\n6\n\n[id 97]\n16\n\n[id 98]\n20\n\n[id 99]\n16\n\n{\"answers\": {\n\"90\": 180,\n\"91\": 16,\n\"92\": 18,\n\"93\": 32,\n\"94\": 150,\n\"95\": 40,\n\"96\": 6,\n\"97\": 16,\n\"98\": 20,\n\"99\": 16\n}}",
+ "usage": {
+  "prompt_tokens": 916,
+  "completion_tokens": 208,
+  "total_tokens": 1124,
+  "cost": 6.66e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.66e-05,
+   "upstream_inference_prompt_cost": 4.58e-05,
+   "upstream_inference_completions_cost": 2.08e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "90": 180.0,
+  "91": 16.0,
+  "92": 18.0,
+  "93": 32.0,
+  "94": 150.0,
+  "95": 40.0,
+  "96": 6.0,
+  "97": 16.0,
+  "98": 20.0,
+  "99": 16.0
+ },
+ "single": {},
+ "answers": {
+  "90": 180.0,
+  "91": 16.0,
+  "92": 18.0,
+  "93": 32.0,
+  "94": 150.0,
+  "95": 40.0,
+  "96": 6.0,
+  "97": 16.0,
+  "98": 20.0,
+  "99": 16.0
+ }
+}

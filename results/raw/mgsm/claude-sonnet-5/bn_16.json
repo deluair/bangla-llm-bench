@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 12.2,
+ "text": "160: Monday=17, Tuesday=17+7=24, Wednesday=2/3×24=16\n\n161: Anakin=10+6+3=19; Loksin=5+3+5=13; total=32\n\n162: 20×(1.2)^18 ≈ 532.47\n\n163: Doll=3×5=15; cars=5×4=20; figures=3×5=15; total=50\n\n164: DIY loses 3×35=105; accountant=90; difference=15\n\n165: 1500-(1090+157+74+102)=1500-1423=77\n\n166: 15×3=45 eggs needed; 45/9=5 times\n\n167: Seth+Brooke=24 (after +4), Seth=2×Brooke → Brooke=8, Seth=16\n\n168: 2×8+2=18\n\n169: 5×20+2×10=120\n\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 532.47, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2533,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1304,
+  "output_tokens_details": {
+   "thinking_tokens": 971
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2533,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1304,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2533,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2533
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.023176000000000002,
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 532.47,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 532.47,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

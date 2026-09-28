@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 6.5,
+ "text": "Here are my answers with brief reasoning:\n\n- **112**: The passage states \"the disease must become less lethal before it can cause a global epidemic\" → A\n- **113**: The passage says \"the reduction of the threat level to severe\" occurred, though the threat hasn't gone away → A\n- **114**: The passage says India \"made 36 runs loosing 7 wickets\" → B\n- **115**: The passage advises choosing based on privileges and points generosity, not the airline you fly most → A\n- **116**: \"On night sleeper trains, passports may be collected by the conductor\" → B\n- **117**: The Portuguese rebuilt it first (Casa Branca); after the earthquake, the Moroccan sultan rebuilt it a second time → D\n- **118**: \"Paths, trains and boats connect the villages, and cars cannot reach them\" → C\n- **119**: \"Some boots have studs and there is studded add-on equipment for slippery conditions\" → B\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 559,
+  "completion_tokens_details": {
+   "reasoning_tokens": 298
+  },
+  "prompt_tokens": 1275,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1834
+ },
+ "served_by": null,
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

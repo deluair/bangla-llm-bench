@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867",
+  "82690f9c-99db-4a82-a197-44485e220416-129544",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591"
+ ],
+ "seconds": 50.5,
+ "text": "# Multiple Choice Exam Answers\n\nLet me work through these questions systematically:\n\n**Q1 (BIMSTEC):** BIMSTEC (Bay of Bengal Initiative) headquarters is in Dhaka, Bangladesh.\n\n**Q2 (Circle y-axis intercept):** For circle x² + y² + 2gx + 2fy + c = 0, setting x=0 gives y² + 2fy + c = 0. The intercept is 2√(f² - c).\n\n**Q3 (Mountain lichen moss):** Reindeer moss (রেইনডিয়ার মস) is the lichen that grows densely on mountainsides.\n\n**Q4 (Letter sequence):** F(6), I(9), M(13), P(16), T(20) - differences are 3,4,3,4. Next: 20+3=23=W\n\n**Q5 (BBC office):** Bush House (বুশ হাউস) in London was historically associated with BBC operations.\n\n**Q6 (Elasticity):** Rubber has the highest elasticity as it deforms extensively and returns to original shape.\n\n**Q7 (জ্ঞান compound):** The conjunct জ্ঞ is formed from জ্ + ঞ.\n\n**Q8 (Lead storage cell reduction):** During charging, PbSO₄ is reduced (বিজারিত) at both terminals.\n\n**Q9 (Diffusion rate):** By Graham's law, lighter molecules diffuse faster. NH₃ (M=17) diffuses fastest.\n\n**Q10 (Translation):** \"গরগর করছেন\" (boiling/seething) translates to \"boiling with rage.\"\n\n**Q11 (Logarithm):** log₍√₃₎ 81 = x means (3^(1/2))^x = 3⁴, so x/2 = 4, therefore x = 8.\n\n**Q12 (Waterloo location):** The Battle of Waterloo (1815) took place in Belgium.\n\n**Q13 (Laws of chemical combination):** The Law of Conservation of Mass is NOT specifically a law of chemical combination, unlike the definite proportions law, multiple proportions law, and Avogadro's law.\n\n**Q14 (Black body radiation):** Using Stefan-Boltzmann: E_P/E_Q = (T_P/T_Q)⁴ = 16, so T_Q = 1600/2 = 800K.\n\n**Q15 (Synonym of ঈপ্সা):** ঈপ্সা means desire/craving. অসুয়া means jealousy/envy, NOT a synonym.\n\n```json\n{\"answers\": {\"810280d0-a0f8-4950-91ff-6ac7b92623c2-59723\": \"C\", \"815030d7-4c65-4841-8e9d-d95ba5af96cd-85550\": \"D\", \"82483b9e-6995-45bc-826d-6be5734374d2-68867\": \"A\", \"82690f9c-99db-4a82-a197-44485e220416-129544\": \"A\", \"828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450\": \"D\", \"834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376\": \"B\", \"83d04104-a4e5-4d5d-a5fc-5228d8100284-90422\": \"C\", \"84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504\": \"C\", \"863c5d34-029d-443b-a54e-c96c1e1ab46a-13867\": \"A\", \"8658ca46-a875-45eb-8c52-3f18a05be4ef-47105\": \"D\", \"87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919\": \"C\", \"89701f30-73fe-4492-bec9-b8528692025e-121889\": \"D\", \"897af77b-6414-496b-a81c-e0b5a435942f-76425\": \"A\", \"89812516-f0f1-44cd-9665-f969ca7fc6eb-135572\": \"A\", \"89b398d4-89b5-41ad-85da-55a3546f874a-25591\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 2131,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5775,
+  "output_tokens_details": {
+   "thinking_tokens": 4621
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2131,
+    "output_tokens": 5775,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.031006,
+ "answers_batch": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "B",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "C",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "A",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "A",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ },
+ "single": {},
+ "answers": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "B",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "C",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "A",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "A",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ }
+}

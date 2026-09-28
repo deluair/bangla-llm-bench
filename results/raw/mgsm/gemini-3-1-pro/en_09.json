@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 26.4,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n**[id 90]**\nAdults eat 10 lbs each. 20 adults * 10 lbs = 200 lbs.\nChildren eat half (5 lbs) each. 5 children * 5 lbs = 25 lbs.\nTotal potato salad = 200 + 25 = 225 lbs.\n\n**[id 91]**\nCindy has 4 pets.\nMarcia has 2 more than Cindy: 4 + 2 = 6 pets.\nJan has 3 times as many as Marcia: 6 * 3 = 18 pets.\nTotal pets = 4 + 6 + 18 = 28 pets.\n\n**[id 92]**\nJames is 10.\nJames is 1 year younger than Corey, so Corey is 11.\nAmy is 2 years younger than Corey, so Amy is 9.\nAmy is 5 years older than Jackson, so Jackson is 9 - 5 = 4.\n\n**[id 93]**\nLee runs the hurdles in 38 seconds. \nLee used to be 2 seconds faster than Gerald, meaning Gerald used to run it in 38 + 2 = 40 seconds.\nGerald improved his time/speed by 10%: 40 seconds * 10% = 4 seconds off his time.\nGerald's new time = 40 - 4 = 36 seconds.\n\n**[id 94]**\nDogs = 60.\nCats (two for every dog) = 60 * 2 = 120.\nCombined dogs and cats = 60 + 120 = 180.\nRabbits (12 less than combined) = 180 - 12 = 168.\nTotal pets = 60 + 120 + 168 = 348.\n\n**[id 95]**\nTotal students = 200.\nBoys = 2/5 of 200 = 80.\nGirls = 200 - 80 = 120.\nGirls in girl scout = 2/3 of 120 = 80.\nGirls NOT in girl scout = 120 - 80 = 40.\n\n**[id 96]**\nHarry slept 9 hours.\nJames slept 2/3 of what Harry slept: (2/3) * 9 = 6 hours.\nDifference = 9 - 6 = 3 hours.\n\n**[id 97]**\nFinal sauce volume = 32 ounces.\nSince they lose half their volume, the initial volume of the canned tomatoes was 32 * 2 = 64 ounces.\nEach can is 16 ounces, so she used 64 / 16 = 4 cans.\nEach can has 3 tomatoes, so 4 * 3 = 12 tomatoes.\n\n**[id 98]**\nTotal cars originally = 30.\nCars that took the exit = 5.\nCars that drove through the traffic jam = 30 - 5 = 25.\nCars that drove through in the remaining 15 minutes = 20.\nCars that drove through in the first 15 minutes = 25 - 20 = 5.\n\n**[id 99]**\nMary received 18 new plants.\nShe had 2 plants on each of the 40 ledges: 2 * 40 = 80 plants.\nTotal plants before giving any away = 80 + 18 = 98 plants.\nShe gives away 1 plant from each of the 40 ledges (40 plants given away).\nRemaining plants = 98 - 40 = 58.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n",
+ "usage": {
+  "input_tokens": 16754,
+  "output_tokens": 3335,
+  "thinking_tokens": 2375,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20089
+ },
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

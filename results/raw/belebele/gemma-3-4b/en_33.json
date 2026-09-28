@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 4.9,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 264] D\n[id 265] B\n[id 266] D\n[id 267] C\n[id 268] B\n[id 269] A\n[id 270] C\n[id 271] C\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1398,
+  "completion_tokens": 152,
+  "total_tokens": 1550,
+  "cost": 8.51e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.51e-05,
+   "upstream_inference_prompt_cost": 6.99e-05,
+   "upstream_inference_completions_cost": 1.52e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 28.9,
+ "text": "{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1182,
+  "completion_tokens": 7312,
+  "total_tokens": 8494,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7259
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1182
+ },
+ "served_by": null,
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

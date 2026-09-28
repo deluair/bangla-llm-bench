@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 11.7,
+ "text": "[id 100]\nFriend 1: 20 rings.\nFriend 2: 20 + (1/4 * 20) = 20 + 5 = 25 rings.\nFriend 4: 60 rings.\nFriend 3: 60 + 10 = 70 rings.\nTotal: 20 + 25 + 70 + 60 = 175.\n\n[id 101]\nTotal pages: 4 + 20 + 7 + 8 = 39.\nPages remaining after Monday: 39 - 15 = 24.\nRemaining days: 4.\nAverage per day: 24 / 4 = 6.\n\n[id 102]\nWeekday (Mon-Fri): 4 glasses/day * 5 days = 20 glasses.\nWeekend (Sat-Sun): 3 glasses/day * 2 days = 6 glasses.\nTotal: 20 + 6 = 26.\n\n[id 103]\nRate: 10 mins per 3 miles.\nTotal distance: 42 miles.\nNumber of 3-mile segments: 42 / 3 = 14.\nTotal time: 14 * 10 = 140.\n\n[id 104]\nTotal: 1000.\nPoppy: 1/4 * 1000 = 250.\nRemaining: 1000 - 250 = 750.\nMom: 1/3 * 750 = 250.\nLeft: 750 - 250 = 500.\n\n[id 105]\nAmir: 5.\nCody: 5 * 3 = 15.\nTotal: 5 + 15 = 20.\n\n[id 106]\nExternal dimensions: 5 x 6 x 4.\nWall thickness: 1 inch.\nInner dimensions: (5 - 2) x (6 - 2) x (4 - 2) = 3 x 4 x 2 = 24 cubic inches per box.\nTotal for 3 boxes: 24 * 3 = 72.\n\n[id 107]\nMon: 1 hr.\nTue: 1 hr.\nThu: 1 hr + 0.5 hr = 1.5 hrs.\nFri: 2 hrs.\nSum so far: 1 + 1 + 1.5 + 2 = 5.5 hrs.\nTotal: 7 hrs.\nWednesday time: 7 - 5.5 = 1.5 hrs.\nNumber of 30-minute episodes: 1.5 / 0.5 = 3.\n\n[id 108]\nFinal count: 110.\nCount before dropping 5: 110 + 5 = 115.\nCount he intended to bake: 115 - 15 = 100.\nIntended amount is twice last year: 2x = 100.\nLast year: 100 / 2 = 50.\n\n[id 109]\nPrice per gallon: $3.00.\nCashback per gallon: $0.20.\nNet price per gallon: $3.00 - $0.20 = $2.80.\nTotal for 10 gallons: $2.80 * 10 = 28.\n\n(Note: Problem 109 asks \"how much with their gas be\", implying the cost. The requested answer is a number.)\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "prompt_tokens": 862,
+  "completion_tokens": 939,
+  "total_tokens": 1801,
+  "cost": 0.00035928,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00035928,
+   "upstream_inference_prompt_cost": 7.758e-05,
+   "upstream_inference_completions_cost": 0.0002817
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

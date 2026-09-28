@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 21.1,
+ "text": "[id 232] The passage states the disease is carried by pigs and then transferred to humans via mosquitoes (\"শূকরের দ্বারা বাহিত, যা পরে মশার মাধ্যমে মানুষের দেহে স্থানান্তরিত হয়\"). Answer: A.\n\n[id 233] The passage mentions \"তিব্বতে হিংস্র কুকুর আক্রমণ করেছিল\" (violent dogs attacked him in Tibet). Answer: C.\n\n[id 234] The text says that if a person is held for more than 24 hours without a hearing, Judge Glenn issued an order. For the detention to be valid, the complaint filed by the arresting officer must be legitimate (\"যদি মঞ্জুরিপ্রাপ্ত হয় এবং গ্রেপ্তারকারী কর্মকর্তার দ্বারা দায়েরকৃত অভিযোগগুলি বৈধ হয়\"). However, looking at the specific mechanics: the text states that if a hearing doesn't happen, the release is effective. The question asks what is needed to keep them if they are held (implying the legality/process). The text implies that for the detention to follow the process, a hearing/valid complaint is needed. Among the options, \"একটি শুনানি\" (A hearing) is the core requirement mentioned to prevent the release of those held over 24 hours. Answer: D.\n\n[id 235] The passage lists nominations: Best Picture (A), Cinematography, Costume Design, Film Editing, Original Score, Production Design, Sound Editing, Sound Mixing (C), and Original Screenplay. It also mentions two songs for Best Original Song (D). It does *not* mention \"Best Visual Effects\". Answer: B.\n\n[id 236] The passage states \"কিছু রাস্তা নষ্ট হয়েছে\" (Some roads are damaged). While it mentions the airport is closed and power/water is out, \"damaged roads\" is explicitly stated as an effect of the situation. Looking closer: \"কিছু রাস্তা নষ্ট হয়েছে\" (Some roads are damaged). \"নটো বিমানবন্দর বন্ধ রয়েছে\" (Noto airport is closed). \"শিকা বিদ্যুৎকেন্দ্রে... চুল্লি বন্ধ করা হয়েছে\" (reactors shut down). Between the options, \"কিছু কিছু রাস্তা\" (C) is a direct consequence mentioned. Answer: C.\n\n[id 237] The passage says: Israel wants to keep military presence in the valley for 10 years, while PA wants it for 5 years. Therefore, \"জর্ডান উপত্যকায় পাঁচ বছর পর্যন্ত সামরিক বাহিনীর উপস্থিতি\" (D) is a claim of the PA, not a general \"Palestinian claim\" exclusion context, but the question asks what is *not* included in Palestinian claims. The passage states the PA wants the presence to be left for only five years. This is a claim. Option B (current military presence in the valley) is the status quo being negotiated. However, looking at the list: A (borders), C (Jerusalem), and D (5 years) are all things the Palestinian side (or the document describing their stance) deals with. Option B refers to the *current* presence (which Israel wants to keep), whereas the PA wants it reduced. Actually, the question asks what is NOT included in the Palestinian claims. The passage says the PA is willing to leave/allow the presence for only five years. So D is a claim. A and C are also mentioned. B is the *current* state which is the subject of the dispute. However, B is part of the context. Let's re-read: \"इजरायल... দাবি করেছে... যেখানে PA এই উপস্থিতিটি কেবল পাঁচ বছরের জন্য ছেড়ে দিতে রাজি হয়েছে।\" This means the 5-year limit is the PA's stance. Therefore B (the current presence) is what they are negotiating *against*. But B is listed as the subject. Let's look at B again: \"জর্ডান উপত্যকায় বর্তমান সামরিক বাহিনীর উপস্থিতি\". This is the status being discussed. If we look at the phrasing, A, C, and D are specific points of the negotiation/claims. B is the subject of the dispute itself. Actually, looking at the options, B is the most likely answer as it describes the current situation rather than a specific \"claim\" or \"demand\" made by the Palestinians (who demand the *removal* or *reduction* of that presence). Answer: B.\n\n[id 238] The passage says \"2009 সালে হাঙ্গেরিয়ান গ্র্যান্ড প্রিক্সে দুর্ঘটনার পরে একজন ব্রাজিলিয়ান মাথায় গুরুতর আঘাত পেয়েছিলেন। মাসা অন্তত 2009 সালের বাকি মরসুম বাইরে থাকবেন।\" This means the injury happened during the 2009 Grand Prix. Option A is \"During the Grand Prix\". Answer: A.\n\n[id 239] The text says \"পুলিশ জানিয়েছে যে তারা হামলার জন্য অভিযুক্ত দায়েশ (ISIL) জঙ্গিকে সন্দেহ করেছে\" (Police said they suspect...). Answer: A.\n\n```json\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1417,
+  "completion_tokens": 1077,
+  "total_tokens": 2494,
+  "cost": 0.00045063,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00045063,
+   "upstream_inference_prompt_cost": 0.00012753,
+   "upstream_inference_completions_cost": 0.0003231
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

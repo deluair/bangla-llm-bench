@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 26.4,
+ "text": "Based on the provided passages, here are the reasoned answers:\n\n*   **[id 216]** The passage states that the researchers compared the structures using Fourier Transform Infrared Spectroscopy (FTIR) to observe the crystals formed in the pet's urine. Therefore, the answer is **B**.\n*   **[id 217]** The passage explicitly mentions that South Africa improved consistently \"as the tournament progressed\" (টুর্নামেন্ট এগিয়ে যাওয়ার সাথে সাথে). Therefore, the answer is **D**.\n*   **[id 218]** The passage says, \"তিনি এই কমানোর জন্য কোনও পরিমাণ স্থাপন করেননি\" (He did not set any specific amount/statistics for this reduction). Thus, he did not mention the statistics of the carbon emission reduction. The answer is **D**.\n*   **[id 219]** The text notes that Norman Lamb MP is expected to take over the post of Business Minister which Ed Davey is leaving (who took Huhne's place in the cabinet after his resignation). The answer is **A**.\n*   **[id 220]** The text says that ten years later, Leonov led the Soviet part of the Apollo-Soyuz mission (অ্যাপোলো-সোয়ুজ মিশন). Therefore, the answer is **B**.\n*   **[id 221]** The scientists' team was observing the energy flow and effects between the dark matter of the Sagittarius galaxy (সাগিটারিয়াস ছায়াপথ) and the Milky Way / Akashganga (আকাশগঙ্গা). The answer is **D**.\n*   **[id 222]** The passage mentions that \"Liberal criticism\" (উদার সমালোচনা) of the rebuilding efforts targeted Washington insiders securing the rebuilding contracts. The answer is **B**.\n*   **[id 223]** By acquiring Skype, eBay hoped to diversify its profit sources and gain popularity (grow business) in new places like China, Eastern Europe, and Brazil. The answer is **B**.\n\n```json\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17515,
+  "output_tokens": 3442,
+  "thinking_tokens": 2942,
+  "cache_read_tokens": 8141,
+  "total_tokens": 20957
+ },
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 14.1,
+ "text": "[id 230]\nMark pays 12 * $20,000 * 0.10 + 12 * $1000 = $240,000 + $12,000 = $252,000.\n\n{id 231}\nKylie collects 20 + 5 = 25 shells on Monday. She collects 25 * 2 = 50 shells on Tuesday.\n\n{id 232}\nThere are 50 ants. The number of bugs is 50 / 2 = 25. The total number of insects is 50 + 25 = 75.\n\n{id 233}\nOne-third of the penguins are 36 / 3 = 12. Another one-third of the penguins are 36 / 3 = 12. The remaining penguins are 36 - 12 - 12 = 12.\n\n{id 234}\nSteve eats 6 * 2 = 12 tomatoes per day. He needs 12 / 3 = 4 vines per week. He needs 4 * 4 = 16 vines in total.\n\n{id 235}\nJohn needs 20 * 4 = 80 slices. Each pizza has 8 slices. He needs 80 / 8 = 10 pizzas.\n\n{id 236}\nRam gets 25 + 25 = 50 new pens.\n\n{id 237}\nJohnny has $20 + $10 = $30. He has $30 * 3 = $90 after a year.\n\n{id 238}\nJessa is 20 years old. Joan is 20 + 5 = 25 years old. Mary is 25 - 2 = 23 years old. The sum of their ages is 20 + 25 + 23 = 68.\n\n{id 239}\n30% of the students went out through exit A, which is 1000 * 0.30 = 300 students. The remaining students are 1000 - 300 = 700. 3/5 of the remaining students went out through exit B, which is 700 * 3/5 = 420 students. The rest went out through exit C, which is 700 - 420 = 280 students.\n\n{\"answers\": {\"230\": 252000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 16, \"235\": 10, \"236\": 50, \"237\": 90, \"238\": 68, \"239\": 280}}",
+ "usage": {
+  "prompt_tokens": 659,
+  "completion_tokens": 507,
+  "total_tokens": 1166,
+  "cost": 3.346e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.346e-05,
+   "upstream_inference_prompt_cost": 1.318e-05,
+   "upstream_inference_completions_cost": 2.028e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "230": 252000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 16.0,
+  "235": 10.0,
+  "236": 50.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 252000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 16.0,
+  "235": 10.0,
+  "236": 50.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

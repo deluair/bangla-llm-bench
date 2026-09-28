@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  13615,
+  13645,
+  13695,
+  13697,
+  13703,
+  13705,
+  13716,
+  13757,
+  13806,
+  13841,
+  13890,
+  13921,
+  13930,
+  14006,
+  14019
+ ],
+ "seconds": 5.4,
+ "text": "Here are the answers based on historical, scientific, and cultural reasoning:\n\n1. The Cold War context shaped US perceptions of the Third World by viewing local developments through a geopolitical lens, often as part of the broader struggle against communism.\n2. Realists emphasize **anarchy** as the fundamental difference between the international system and the domestic system.\n3. US defense spending generally increased during wars but did not return to prewar levels afterward.\n4. The **Domino Theory** suggested that the fall of one state to communism would lead to the fall of neighboring states.\n5. The George W. Bush administration **criticized international organizations** and often bypassed them in favor of unilateral action.\n6. As of current knowledge, **10 human polyomaviruses** are known.\n7. Retroviruses were first discovered in **mice causing leukemia** (though later found in other species).\n8. The influenza virus is mainly controlled in \"risk\" sectors by **vaccination**.\n9. The chance of acquiring HIV from factor VIII in the US in 2011 was 0% primarily because **all donors for factor VIII are screened**.\n10. Nipah virus originated in **bats**.\n11. The most important prayer in Judaism is the **Shema**.\n12. **Guru-Panth** in Sikh traditions refers to **community**.\n13. A fundamental theme of Japanese culture is **humans aligning with life energy through worship of kami** (Shinto).\n14. The Continental Reformation started in **1517** with Martin Luther’s 95 Theses.\n15. The English title for the *Yijing* is **The Classic of Changes**.\n\n---\n```json\n{\n  \"answers\": {\n    \"13615\": \"B\",\n    \"13645\": \"B\",\n    \"13695\": \"B\",\n    \"13697\": \"C\",\n    \"13703\": \"A\",\n    \"13705\": \"D\",\n    \"13716\": \"C\",\n    \"13757\": \"B\",\n    \"13806\": \"A\",\n    \"13841\": \"B\",\n    \"13890\": \"A\",\n    \"13921\": \"A\",\n    \"13930\": \"B\",\n    \"14006\": \"B\",\n    \"14019\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 984,
+  "completion_tokens": 533,
+  "total_tokens": 1517,
+  "cost": 0.00022755,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00022755,
+   "upstream_inference_prompt_cost": 0.0001476,
+   "upstream_inference_completions_cost": 7.995e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "D",
+  "13716": "C",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "D",
+  "13716": "C",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {}
+}

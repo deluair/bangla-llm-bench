@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 4.6,
+ "text": "{\"answers\": {\"72\": \"C\", \"73\": \"C\", \"74\": \"D\", \"75\": \"D\", \"76\": \"D\", \"77\": \"C\", \"78\": \"B\", \"79\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.065463998,
+  "prompt_tokens": 2104,
+  "prompt_time": 0.093390515,
+  "completion_tokens": 1981,
+  "completion_time": 4.212543363,
+  "total_tokens": 4085,
+  "total_time": 4.305933878,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1921
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

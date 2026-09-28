@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 4.8,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 16] A\n[id 17] A\n[id 18] A\n[id 19] D\n[id 20] D\n[id 21] D\n[id 22] A\n[id 23] D\n\n{\"answers\": {\"16\": \"A\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1361,
+  "completion_tokens": 136,
+  "total_tokens": 1497,
+  "cost": 8.165e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.165e-05,
+   "upstream_inference_prompt_cost": 6.805e-05,
+   "upstream_inference_completions_cost": 1.36e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "16": "A",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "D"
+ },
+ "single": {},
+ "answers": {
+  "16": "A",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "D"
+ }
+}

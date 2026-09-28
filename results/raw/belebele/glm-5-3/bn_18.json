@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 17.7,
+ "text": "Brief reasoning:\n\n- **144**: The passage defines curry as meat or vegetables with herbs and spices — the core ingredients listed are herbs and spices → **B**\n- **145**: Coffee, chamomile tea, and blended/fancy drinks are mentioned; beer is not mentioned as a home-made option → **C**\n- **146**: Proof of financial resources is required for a student visa → **D**\n- **147**: The passage says to be especially careful about mosquitoes when visiting rainforests in summer → **A**\n- **148**: The passage states Timbuktu has an airport, so saying it cannot be reached by plane is incorrect → **C**\n- **149**: The funnel becomes a tornado when the cloud touches the ground → **D**\n- **150**: The common standard film format is 35 mm film, which corresponds to a 36 x 24 mm negative → **D**\n- **151**: The vast treasures have been moved to the Egyptian Museum in Cairo → **D**\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 1165,
+  "completion_tokens_details": {
+   "reasoning_tokens": 860
+  },
+  "prompt_tokens": 5030,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6195
+ },
+ "served_by": null,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

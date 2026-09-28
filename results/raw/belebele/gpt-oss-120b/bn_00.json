@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 5.4,
+ "text": "{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"C\"}}",
+ "usage": {
+  "queue_time": 0.032907677,
+  "prompt_tokens": 2056,
+  "prompt_time": 0.11059483,
+  "completion_tokens": 2393,
+  "completion_time": 5.045344819,
+  "total_tokens": 4449,
+  "total_time": 5.1559396490000005,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2333
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "C"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "C"
+ }
+}

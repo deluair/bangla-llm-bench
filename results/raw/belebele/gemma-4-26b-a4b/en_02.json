@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 14.2,
+ "text": "The passage states that \"studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.\" Thus, Traffic Flow is the subject that is difficult to gauge.\n\nThe passage specifies: \"Only mutations in germ-line cells can be passed on to children.\"\n\nThe passage defines an experiment as: \"a test that is used to eliminate one or more of the possible hypotheses.\"\n\nThe passage states: \"the first true telescopes were made in Europe in the late 16th century.\"\n\nThe passage states: \"Members of a subculture often signal their membership through a distinctive and symbolic use of style.\"\n\nThe passage begins: \"The postmodern approach to learning offers the freedom from absolutes.\"\n\nThe passage states: \"Virtual teams are held to the same standards of excellence as conventional teams...\"\n\nContent theories look at internalized needs (C), what makes people tick/appeals to them (D), and how the environment affects behavior (B). Option A is incorrect because the passage says needs/desires are internalized \"as they mature to adulthood,\" not that they \"materialize\" (newly appear) at that stage.\n\n{\"answers\": {\"16\": \"D\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1369,
+  "completion_tokens": 295,
+  "total_tokens": 1664,
+  "cost": 0.00038235,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 6,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038235,
+   "upstream_inference_prompt_cost": 0.00020535,
+   "upstream_inference_completions_cost": 0.000177
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Google",
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

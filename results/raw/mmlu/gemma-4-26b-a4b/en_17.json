@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  13079,
+  13080,
+  13082,
+  13109,
+  13123,
+  13159,
+  13190,
+  13216,
+  13256,
+  13268,
+  13432,
+  13443,
+  13519,
+  13522,
+  13570
+ ],
+ "seconds": 15.5,
+ "text": "13079: Grassroots marketing (C) involves peer-to-peer communication.\n13080: A public issues campaign (B) deals with opposing sides on emotional convictions.\n13082: Video (B) is the primary driver for internet traffic growth.\n13109: Issues management (B) deals with emerging issues.\n13123: A pre and post analysis of opinions (D) measures attitude change.\n13159: The responsibility to remain sovereign (C) is not one of the three pillars of R2P (Prevent, React, Rebuild).\n13190: Securitization fails if the audience does not grant the special rights (D).\n13216: Thick space (A) refers to the dense set of relations in the international.\n13256: All of the above (D) describe TNC as a threat.\n13268: Statement D is false; arms control has faced significant challenges/decline in momentum recently (D).\n13432: Third age (A) is active retirement.\n13443: Weber linked the spirit of capitalism to Calvinist asceticism (D).\n13519: Feminist standpoint (B) is studying from women's perspectives.\n13522: Globalization generally challenges/erodes rather than extends the power of nation states (B).\n13570: Absolute poverty (B) refers to the minimum subsistence level.\n\n{\"answers\": {\"13079\": \"C\", \"13080\": \"B\", \"13082\": \"B\", \"13109\": \"B\", \"13123\": \"D\", \"13159\": \"C\", \"13190\": \"D\", \"13216\": \"A\", \"13256\": \"D\", \"13268\": \"D\", \"13432\": \"A\", \"13443\": \"D\", \"13519\": \"B\", \"13522\": \"B\", \"13570\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1486,
+  "completion_tokens": 483,
+  "total_tokens": 1969,
+  "cost": 0.00026824,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00026824,
+   "upstream_inference_prompt_cost": 0.00010402,
+   "upstream_inference_completions_cost": 0.00016422
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "13079": "C",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "answers_batch": {
+  "13079": "C",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {}
+}

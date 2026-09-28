@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8b",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 29.2,
+ "text": "{\"answers\": {\"136\": \"D\", \"137\": \"C\", \"138\": \"B\", \"139\": \"A\", \"140\": \"B\", \"141\": \"B\", \"142\": \"A\", \"143\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 5272,
+  "completion_tokens": 1483,
+  "total_tokens": 6755,
+  "cost": 0.001291589,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001291589,
+   "upstream_inference_prompt_cost": 0.000616824,
+   "upstream_inference_completions_cost": 0.000674765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1411,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Alibaba",
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "C"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "C"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522"
+ ],
+ "seconds": 43.9,
+ "text": "{\"answers\": {\"33ee0f6d-2208-4252-a253-52aa63720948-3812\": \"A\", \"349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597\": \"B\", \"37f12437-63ed-47d2-822d-e43efb5fc695-124481\": \"A\", \"3b374461-0318-4d76-8666-87185e36ae19-7268\": \"D\", \"3baddf77-158e-4c58-835d-bcf0966f61e2-46524\": \"D\", \"3c022c34-fa81-495b-a405-f8f6b74b8440-38265\": \"C\", \"3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238\": \"B\", \"3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217\": \"C\", \"3d7e7041-55fa-4705-a956-07dbc67e3322-8053\": \"B\", \"3d802074-f841-4127-8ab8-dc73f830b286-38317\": \"D\", \"403644e4-0efa-4dd2-b773-e183a64969dc-68991\": \"B\", \"40865a63-8ab2-4409-bd3d-80b3cf488669-114511\": \"C\", \"40946678-c005-4e30-9b51-0cd751ab48dd-12237\": \"D\", \"40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418\": \"B\", \"4101a41c-2881-4ead-96e9-f65223a3ca56-37522\": \"C\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2937,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4326,
+  "output_tokens_details": {
+   "thinking_tokens": 3821
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2937,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4326,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2937,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2937
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.055012,
+ "answers_batch": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "B",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "C",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "D",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ },
+ "single": {},
+ "answers": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "B",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "C",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "D",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ }
+}

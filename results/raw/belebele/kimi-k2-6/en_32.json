@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 308.9,
+ "text": "Based on the passages:\n\n- **256**: The crash is explicitly stated to have occurred in “mountainous terrain.”\n- **257**: Amir Khan’s personal opinion is that women shouldn’t fight, yet he will support the British competitors (the female fighters) at the 2012 Olympics.\n- **258**: Xavier Zayat is described as the “fellow racer” who struck Peter Lenz.\n- **259**: The Canal District is a UNESCO site “for its unique cultural and historical value.”\n- **260**: Auxiliary languages are “artificial or constructed,” not organic; option A misattributes the defining trait of lingua francas to auxiliary languages.\n- **261**: Regular Metro announcements are made “only in Catalan.”\n- **262**: Luxury B&Bs compete mainly on “bedding and breakfast”; contemporary décor is never listed as a main competitive point.\n- **263**: Beijing will specifically host “the indoor ice events” (along with the ceremonies), while other skiing events are in Zhangjiakou.\n\n{\"answers\": {\"256\": \"D\", \"257\": \"A\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1118,
+  "completion_tokens": 12634,
+  "total_tokens": 13752,
+  "completion_tokens_details": {
+   "reasoning_tokens": 12373
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ }
+}

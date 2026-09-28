@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 7.0,
+ "text": "- **112 (A):** The passage says the disease must take a less deadly form before a worldwide pandemic.\n- **113 (A):** The passage says the threat level has been reduced to \"severe\". This does not mean the threat is gone.\n- **114 (B):** After the captain's wicket fell, India lost 7 wickets while scoring only 36 runs.\n- **115 (D):** You should favour the airline that may offer more benefits, even if it is not the one you fly most.\n- **116 (B):** On night sleeper trains, conductors may collect passports so your sleep is not disturbed.\n- **117 (D):** The Portuguese rebuilt the city first as Casa Branca. The Sultan of Morocco then rebuilt it second as Dar el-Badya.\n- **118 (C):** The villages are reached by trail, train or boat, and no cars can get there from outside.\n- **119 (B):** Boots with studs or spiked add-ons suit slippery conditions.\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"D\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4960,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 601,
+  "output_tokens_details": {
+   "thinking_tokens": 228
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4960,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 601,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4960,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4960
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.051708,
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

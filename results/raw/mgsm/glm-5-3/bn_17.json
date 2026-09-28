@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 38.6,
+ "text": "**Brief solutions:**\n\n- **170:** Hat = $25, Jacket = 3×25 = $75, Pants = avg(25, 75) = $50. Total = 25+75+50 = **150**\n- **171:** 80×8 = 640; 90×6 = 540; 3×10 = 30. Total = 640+540+30 = **1210** legs\n- **172:** Sally Four = Sally Thirtytwo = 8; Granny Red = 2×8 = 16; Sally Two = 16+3 = 19. Total = 19+16+8+8 = **51** years\n- **173:** Minimum = 300+200+500 = $1000/month; 50% more = $1500/month × 12 = **18000**\n- **174:** Per potato: 90 sec peel + 5 sec cut = 95 sec; 60 × 95 = 5700 sec = **95** minutes\n- **175:** Cost/gallon = $5; Revenue/gallon = 20×0.50 = $10; Profit/gallon = $5. $25 profit → 5 gallons; lemons = 5×3 = **15** dollars\n- **176:** Chinese = 240−80 = 160; Girls = 160−60 = **100**\n- **177:** Rent = 1500, Fuel = 2000; remainder = 2500; charity = 1250; left 1250; minus 200 (daughter) and 700 (wife) = **350**\n- **178:** Bo = 40, Monique = 40−4 = 36, Ranee = 36+10 = 46. Total = 40+36+46 = **122**\n- **179:** (5+8) hours × $10 = **130** dollars\n\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}",
+ "usage": {
+  "completion_tokens": 3031,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2508
+  },
+  "prompt_tokens": 2460,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5491
+ },
+ "served_by": null,
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

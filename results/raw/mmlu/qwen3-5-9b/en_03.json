@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 99.5,
+ "text": "\n\n[id 1196]\nThe scenario describes behavior driven by unconscious childhood trauma and identification with a figure (father), leading to discrimination based on superficial traits (looking like the father). This aligns with the **Psychoanalytic** framework (Freudian), which emphasizes the unconscious mind, early childhood experiences, and defense mechanisms. Behaviorism focuses on observable conditioning, and CBT focuses on conscious thought patterns.\nAnswer: B\n\n[id 1258]\nA marathon is an endurance sport lasting over 2 hours. The primary physiological attribute required to sustain performance for such a duration is endurance or **stamina** (aerobic capacity). Strength and power are more relevant for shorter, high-intensity events.\nAnswer: D\n\n[id 1322]\nWhen oxygen is removed, the Electron Transport Chain (ETC) cannot function because it requires Oxygen as the final electron acceptor to produce **Water**. Without oxygen, the ETC stops immediately, halting water production. While the TCA cycle (producing oxaloacetate) eventually stops due to NADH buildup, glycolysis (producing pyruvate) continues via fermentation. ATP production from glycolysis also continues. Thus, water production ceases first as a direct consequence of the absence of the oxygen reactant.\nAnswer: C\n\n[id 1326]\nSDS (Sodium Dodecyl Sulfate) is an anionic detergent that denatures proteins and coats them with a uniform negative charge proportional to their length. This ensures that separation in SDS-PAGE is based on the **length of the primary sequence** (molecular weight/size) rather than intrinsic charge or shape. Option D is incorrect because SDS does not break the covalent peptide bonds of the primary structure, only the bonds maintaining tertiary structure.\nAnswer: B\n\n[id 1357]\nGold (Au, Z=79) has the electron configuration $[Xe] 4f^{14} 5d^{10} 6s^1$ in its actual ground state, which gives 30 electrons with $l=2$ (10 in 3d, 10 in 4d, 10 in 5d). However, standard Aufbau prediction yields $5d^9$, leading to 29 electrons with $l=2$. Given the options (9, 23, 29, 79) and the absence of 30, the question likely assumes the Aufbau prediction or a specific context yielding 29.\nAnswer: C\n\n[id 1374]\nNitrogen (Z=7) has the ground state configuration $1s^2 2s^2 2p^3$. According to Hund's rule, the three $2p$ electrons occupy separate orbitals with parallel spins. Each contributes a spin of $1/2$. The total spin quantum number $S = 1/2 + 1/2 + 1/2 = 3/2$.\nAnswer: C\n\n[id 1381]\nTo determine whether a semiconductor is N-type (electrons, negative charge) or P-type (holes, positive charge), the standard method is measuring the **Hall coefficient** (Hall Effect). The sign of the Hall voltage directly indicates the sign of the dominant charge carriers.\nAnswer: D\n\n[id 1384]\n**Fermions** obey the Pauli exclusion principle and have antisymmetric wave functions. **Bosons** do not obey the exclusion principle and have symmetric wave functions. Option D correctly matches Fermions with antisymmetric wave functions and the exclusion principle.\nAnswer: D\n\n[id 1395]\nFrom the orbit of a moon, one can calculate the semi-major axis, mass of the planet (assuming $M \\gg m$ via $G(M+m) \\approx GM$), and minimum speed via conservation laws. However, the **mass of the moon** cannot be separated from the planet's mass using only orbital kinematics without independent knowledge, as the system dynamics depend on the total mass ($M+m$).\nAnswer: A\n\n[id 1452]\nUsing the Doppler effect for a moving source, then the reflected wave acting as a moving observer:\n$f_{obs} = f_s \\frac{v + v_s}{v - v_s} = 600 \\times \\frac{350 + 3.5}{350 - 3.5} = 600 \\times \\frac{353.5}{346.5} \\approx 612.1 \\text{ Hz}$.\nAnswer: D\n\n[id 1476]\nA **Buffer-overrun** (or buffer overflow) is a common coding mistake where writing more data to a buffer than it can hold, corrupting memory and potentially allowing an attacker to execute code or gain unauthorized access.\nAnswer: B\n\n[id 1492]\nIn side-channel timing attacks, **blinding** (multiplying the input by a random value before processing) randomizes the computational workload and data values. This obscures the correlation between the specific bits of the private key (or coefficients) and the timing of operations, effectively masking the attack vector.\nAnswer: C\n\n[id 1523]\n**IM-Trojans** (Instant Messaging Trojans) are a specific category of malware designed to infiltrate and steal credentials for instant messaging applications from a user's device.\nAnswer: A\n\n[id 1534]\nOld operating systems like **UNIX** and NT-based systems historically suffered from buffer-overflow vulnerabilities due to assumptions in C programming (lack of bounds checking) prevalent before input validation became standard.\nAnswer: D\n\n[id 1570]\nThe classic Information Security triad consists of **Confidentiality**, **Integrity**, and **Availability** (CIA). **Correctness** is a property of software/systems generally, but not one of the \"CIA\" security pillars.\nAnswer: C\n\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"B\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"D\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"C\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1350,
+  "completion_tokens": 14596,
+  "total_tokens": 15946,
+  "cost": 0.0023244,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0023244,
+   "upstream_inference_prompt_cost": 0.000135,
+   "upstream_inference_completions_cost": 0.0021894
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 13176,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 82.4,
+ "text": "**Brief reasoning:**\n\n- **[8]** Micro-expressions are brief *facial* movements (eyebrow raising, blinking). A thumbs-up is a deliberate hand gesture, not a facial micro-expression. → **D**\n- **[9]** The passage cites relationship-based motives (socialization, keeping in touch). Researching travel is informational, not relationship maintenance. → **C**\n- **[10]** The scrutiny focused on the church's excess wealth/power, its centralization in Rome, and whether its tenet (helping the poor) was being fulfilled — not on revising the religion's core doctrines. → **B**\n- **[11]** Britain's blockade violated international law and endangered neutral ships, and Germany retaliated with unrestricted submarine warfare — but no change to international law was mentioned. → **C**\n- **12** MS is most common in young/middle-aged adults, and women are twice as likely as men — the 32-year-old woman fits best. → **A**\n- **13** The passage states fencing is played by two people, one against another — a duel format. → **D**\n- **14** For working-class people, the key change was advancement (careers, army rank) based on talent rather than birth/class. → **B**\n- **15** The passage says complaints are common about transportation, unlike water quality or bridges. → **C**\n\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 5863,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5423
+  },
+  "prompt_tokens": 5371,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 11234
+ },
+ "served_by": null,
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

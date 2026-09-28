@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 6.8,
+ "text": "- **224:** The passage says the airport shut down commercial flights after the crash, so the answer is A.\n- **225:** Brzezinski succeeded Henry Kissinger as National Security Advisor in 1977, so Kissinger held the post until then. The answer is B.\n- **226:** The ship held 120–160 cubic meters of fuel oil; \"100 meters\" was its length. So option B is the false statement.\n- **227:** He returned in the 1960s to a \"newly independent\" Algeria, which points to the 1960s. The answer is C.\n- **228:** A neighbour reported the gas leak, so the answer is A.\n- **229:** France was the seventh EU country hit, after the others listed. The cases in Croatia and Denmark are unconfirmed, so France is the latest confirmed case. The answer is A.\n- **230:** Fred was moving northwest, so the answer is D.\n- **231:** The phase change took place on 10 March, so the answer is C.\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4813,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 446,
+  "output_tokens_details": {
+   "thinking_tokens": 74
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4813,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 446,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4813,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4813
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.047431999999999995,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

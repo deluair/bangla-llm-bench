@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 210.4,
+ "text": "[id 100] First friend: 20. Second: 20 + 20/4 = 25. Fourth: 60. Third: 10 × 60 = 600. Total = 20 + 25 + 600 + 60 = 705.\n[id 101] Total pages = 4 + 20 + 7 + 8 = 39. Remaining after Monday = 39 − 15 = 24. Average per day = 24 ÷ 4 = 6.\n[id 102] Normal day: 4 glasses (breakfast, lunch, dinner, bedtime). On the last day dinner is soda, so 3 glasses. 6 days × 4 + 1 day × 3 = 24 + 3 = 27.\n[id 103] Time = (42 ÷ 3) × 10 = 14 × 10 = 140 minutes.\n[id 104] Poppy places 1000 ÷ 4 = 250. Remaining = 750. Mother places 750 ÷ 3 = 250. Left = 750 − 250 = 500.\n[id 105] Cody = 3 × 5 = 15. Total = 5 + 15 = 20.\n[id 106] Interior dimensions: (5−2) × (6−2) × (4−2) = 3 × 4 × 2 = 24 in³ per box. 3 boxes: 24 × 3 = 72.\n[id 107] Total watched = 7 h = 420 min. Mon 60 + Tue 60 + Thu 90 + Fri 120 = 330 min. Wednesday = 420 − 330 = 90 min. 90 ÷ 30 = 3 episodes.\n[id 108] Let last year = L. Wanted = 2L. Baked = 2L + 15. After 5 fell: 2L + 10 = 110 → 2L = 100 → L = 50.\n[id 109] Cost = 10 × $3.00 = $30. Cashback = 10 × $0.20 = $2. Net = $30 − $2 = $28.\n{\"answers\": {\"100\": 705, \"101\": 6, \"102\": 27, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "prompt_tokens": 1867,
+  "completion_tokens": 8442,
+  "total_tokens": 10309,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7908
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "100": 705.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 705.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

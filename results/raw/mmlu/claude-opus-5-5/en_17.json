@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "13079",
+  "13080",
+  "13082",
+  "13109",
+  "13123",
+  "13159",
+  "13190",
+  "13216",
+  "13256",
+  "13268",
+  "13432",
+  "13443",
+  "13519",
+  "13522",
+  "13570"
+ ],
+ "seconds": 7.5,
+ "text": "Answers, with brief reasoning:\n\n- **13079 – D (Viral campaigns):** these spread a message peer-to-peer online.\n- **13080 – B (Public issues):** this type of campaign involves opposing sides with strong emotional convictions about a decision that affects their lives.\n- **13082 – B (Video):** video is the predicted main driver of internet traffic growth.\n- **13109 – B (Issues management):** this area anticipates emerging issues and their potential impact on an organisation.\n- **13123 – D:** a pre/post survey of constituents' opinions directly measures change in attitudes.\n- **13159 – C:** R2P consists of the responsibilities to prevent, react and rebuild; \"remaining sovereign\" is not one of them.\n- **13190 – D:** securitisation fails if the audience accepts the speech act but does not grant the special rights requested.\n- **13216 – A:** \"thick space\" describes the international as hierarchically ordered and dense with constructed relations.\n- **13256 – D:** all three arguments present TNC as a security threat.\n- **13268 – D:** arms control has not kept its momentum after the Cold War, so this statement does not fit.\n- **13432 – A:** the \"third age\" is active, independent life after retirement.\n- **13443 – D:** Weber linked the spirit of capitalism to Calvinist asceticism as a sign of salvation.\n- **13519 – B:** feminist standpoint means studying society from women's perspective.\n- **13522 – B:** globalisation is associated with weakened, not extended, nation-state power.\n- **13570 – B:** the absolute poverty line is the minimum income needed for subsistence.\n\n{\"answers\": {\"13079\": \"D\", \"13080\": \"B\", \"13082\": \"B\", \"13109\": \"B\", \"13123\": \"D\", \"13159\": \"C\", \"13190\": \"D\", \"13216\": \"A\", \"13256\": \"D\", \"13268\": \"D\", \"13432\": \"A\", \"13443\": \"D\", \"13519\": \"B\", \"13522\": \"B\", \"13570\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2546,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 769,
+  "output_tokens_details": {
+   "thinking_tokens": 107
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2546,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 769,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2546,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2546
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.035756,
+ "answers_batch": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {},
+ "answers": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ }
+}

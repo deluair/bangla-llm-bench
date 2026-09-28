@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 70.1,
+ "text": "\n\n[id 110]: (2 * 24) + (3 * 14) = 48 + 42 = 90. Average = 90 / 2 = 45.\n[id 111]: 64 seconds at 1.25 ft/s = 80 ft. 80 ft * 2 liters / 10 ft = 16 liters.\n[id 112]: 4 teachers * 2 lessons * 3 cleans = 24 cleans.\n[id 113]: 2 flowers/day * 15 days = 30. 30 - 5 = 25.\n[id 114]: Jamal = 1800. Brittany = 1800/6 = 300. Birds = 300/50 = 6.\n[id 115]: Revenue = 1.5 * (10*10 + 5*16) = 1.5 * 180 = 270. Profit = 270 - 180 = 90.\n[id 116]: Sugar/Water = 7/13. Total = 120. Sugar = (7/20) * 120 = 42.\n[id 117]: 3 kids * 2 pairs * $60 = 360.\n[id 118]: Venue 1 = 10 vehicles. Total = 30. Rem = 20. Containers = 20/5 = 4.\n[id 119]: Ad_old = 40000. L_old = 40000/1.3. Ad_new = 40000 * 1.4. L_new = (40000/1.3) * 1.4. Total = 56000 + (56000/1.3) = 99076.92 -> 99077.\n\n{\"answers\": {\"110\": 45, \"111\": 16, \"112\": 24, \"113\": 25, \"114\": 6, \"115\": 90, \"116\": 42, \"117\": 360, \"118\": 4, \"119\": 99077}}",
+ "usage": {
+  "prompt_tokens": 831,
+  "completion_tokens": 10632,
+  "total_tokens": 11463,
+  "cost": 0.0016779,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016779,
+   "upstream_inference_prompt_cost": 8.31e-05,
+   "upstream_inference_completions_cost": 0.0015948
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10075,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 99077.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 99077.0
+ }
+}

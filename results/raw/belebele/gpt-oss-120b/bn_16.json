@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 3.7,
+ "text": "{\"answers\": {\"128\": \"A\", \"129\": \"B\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.034505833,
+  "prompt_tokens": 2202,
+  "prompt_time": 0.107300161,
+  "completion_tokens": 1558,
+  "completion_time": 3.31645189,
+  "total_tokens": 3760,
+  "total_time": 3.423752051,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1498
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "128": "A",
+  "129": "B",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "B",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

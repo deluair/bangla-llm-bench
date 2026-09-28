@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "3308",
+  "3347",
+  "3412",
+  "3438",
+  "3441",
+  "3466",
+  "3493",
+  "3553",
+  "3595",
+  "3628",
+  "3647",
+  "3650",
+  "3672",
+  "3748",
+  "3762"
+ ],
+ "seconds": 42.4,
+ "text": "# Analysis of Multiple-Choice Questions\n\nLet me work through these questions systematically:\n\n**[3308]** - Napoleon's domestic criticism: The diary entries show his focus on controlling the press and maintaining power through conquest. Despite praise for the Napoleonic Code and military meritocracy, Napoleon is historically criticized for suppressing civil liberties and press freedom (evident in his 1805 entry). Answer: **D**\n\n**[3347]** - Robespierre's least beneficial policy: Among the radical measures, dechristianization alienated the Catholic population, particularly in the Vendée region, sparking rebellion that weakened French defense. Mass conscription helped defense; meritocracy was beneficial. Answer: **C**\n\n**[3412]** - Voltaire's cultural movement: This passage exemplifies Enlightenment values—tolerance, reason, and criticism of religious authority. Answer: **C**\n\n**[3438]** - Napoleon's 1802 motivation: The 1802 entry explicitly states \"My power comes from my reputation... only victories can maintain me.\" This reflects his fear of losing power without continued military success. Answer: **A**\n\n**[3441]** - Gorbachev on Perestroika: The text states perestroika \"has long been yearned for\" and comes from \"deep processes,\" indicating the necessity built up over time. Answer: **C**\n\n**[3466]** - Latitude and longitude: These coordinates specify absolute location. Answer: **C**\n\n**[3493]** - Smallest map scale: A world map shows the largest area with smallest scale (least detail). Answer: **A**\n\n**[3553]** - NATO's purpose: NATO was created in 1949 to defend against Soviet/Communist expansion. Answer: **A**\n\n**[3595]** - Problem Europe does NOT face: Europe actually prioritizes environmental concerns heavily. The EU leads on climate policy. Answer: **C**\n\n**[3628]** - NOT a developing world city characteristic: Developing cities typically lack well-developed infrastructure; they have migration, commerce centers, and GDP contribution. Answer: **B**\n\n**[3647]** - Child's political views: Family is the primary agent of political socialization. Answer: **B**\n\n**[3650]** - Federal judge penalties: Federal judges can only be removed through Congressional impeachment, conviction, and removal. Answer: **A**\n\n**[3672]** - Republican Party since 1980s: Evangelical Christians became increasingly influential in the Republican coalition from the 1980s onward. Answer: **D**\n\n**[3748]** - House Rules Committee: The Rules Committee determines both rules and procedures for legislation. Answer: **A**\n\n**[3762]** - Fourteenth Amendment incorporation: The Due Process Clause of the Fourteenth Amendment is the primary vehicle for incorporating Bill of Rights protections to the states. Answer: **B**\n\n```json\n{\"answers\": {\"3308\": \"D\", \"3347\": \"C\", \"3412\": \"C\", \"3438\": \"A\", \"3441\": \"C\", \"3466\": \"C\", \"3493\": \"A\", \"3553\": \"A\", \"3595\": \"C\", \"3628\": \"B\", \"3647\": \"B\", \"3650\": \"A\", \"3672\": \"D\", \"3748\": \"A\", \"3762\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 7928,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3631,
+  "output_tokens_details": {
+   "thinking_tokens": 2865
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7928,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3631,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 7928,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7928
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.034019999999999995,
+ "answers_batch": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {},
+ "answers": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ }
+}

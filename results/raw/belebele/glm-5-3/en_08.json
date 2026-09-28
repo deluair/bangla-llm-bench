@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 6.2,
+ "text": "Here are my answers with brief reasoning:\n\n- **64**: The passage states \"leaving four people with minor burns\" → A\n- **65**: Jobs said \"Today Apple is going to reinvent the phone\" → B\n- **66**: The passage says Costello is likely to \"succeed Prime Minister John Howard as Liberal party leader,\" meaning Howard is the current leader → B\n- **67**: The passage says Blake \"denied the attack,\" so saying he admitted it is not accurate → B\n- **68**: Technology sharing is a separate agenda item; the fund covers flood-proof houses, water management, and crop diversification → B\n- **69**: The bill only applies within California, not outside it → C\n- **70**: Layton asked for a \"thorough and complete rewriting\" of the bill → C\n- **71**: Tommy Dreamer said \"Luna was the first Queen of Extreme\" → D\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 448,
+  "completion_tokens_details": {
+   "reasoning_tokens": 201
+  },
+  "prompt_tokens": 1236,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1684
+ },
+ "served_by": null,
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

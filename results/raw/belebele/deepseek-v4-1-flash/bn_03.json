@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 38.4,
+ "text": "{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2711,
+  "completion_tokens": 8659,
+  "total_tokens": 11370,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8606
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2711
+ },
+ "served_by": null,
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ }
+}

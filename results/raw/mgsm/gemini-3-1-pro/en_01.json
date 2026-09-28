@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 23.8,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**Problem 10**\n- Month 1: 60 downloads\n- Month 2: 3 × 60 = 180 downloads\n- Month 3: 180 - (0.30 × 180) = 180 - 54 = 126 downloads\n- Total = 60 + 180 + 126 = 366\n\n**Problem 11**\n- Donuts: 3 dozen × $68 = $204\n- Mini cupcakes: 2 dozen × $80 = $160\n- Mini cheesecakes: 6 dozen × $55 = $330\n- Total cost = $204 + $160 + $330 = $694\n\n**Problem 12**\n- Initial cost: $90\n- Revenue per year: 7 lemons × $1.50 = $10.50\n- Expenses per year: $3\n- Net profit per year: $10.50 - $3.00 = $7.50\n- Years to break even: $90 / $7.50 = 12 years\n\n**Problem 13**\n- Let the starting number be x.\n- After green house: x - (1/3)x = (2/3)x left\n- After red house: (2/3)x - 2 left\n- Orange house takes half of the remainder: (1/2) × ((2/3)x - 2) = 5\n- (2/3)x - 2 = 10\n- (2/3)x = 12\n- x = 18\n\n**Problem 14**\n- Total students = 20\n- Contemporary dance: 20% of 20 = 4 students\n- Remaining students = 20 - 4 = 16 students\n- Jazz dance: 25% of 16 = 4 students\n- Hip-hop dance = 16 - 4 = 12 students\n- Percentage in hip-hop = (12 / 20) × 100 = 60%\n\n**Problem 15**\n- Plan A (Jewelry): $5,000 × 2.5% = $125 profit\n- Plan B (Gadgets): $8,000 × 1.2% = $96 profit\n- Maximum profit is from Plan A: $125\n\n**Problem 16**\n- Westward distance = 80 miles\n- Northward distance = 150 miles\n- Distance covered by each train = 80 + 150 = 230 miles\n\n**Problem 17**\n- Weekly teaching salary: 35 hours × $20/hour = $700\n- Weekly coach salary: 15 hours × $30/hour = $450\n- Total weekly salary = $700 + $450 = $1,150\n- Annual salary = $1,150 × 50 weeks = $57,500\n\n**Problem 18**\n- 3 eggs per day\n- 4 weeks = 28 days\n- Total eggs = 3 × 28 = 84 eggs\n- Dozens of eggs = 84 / 12 = 7 dozens\n\n**Problem 19**\n- Total distance = 12 miles, desired average speed = 4 mph\n- Total time required = 12 / 4 = 3 hours\n- Distance walked so far = 4 miles + 2 miles = 6 miles\n- Time taken so far = 1 hour + 1 hour = 2 hours\n- Remaining distance = 12 - 6 = 6 miles\n- Remaining time = 3 - 2 = 1 hour\n- Required speed = 6 miles / 1 hour = 6 mph\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n",
+ "usage": {
+  "input_tokens": 16731,
+  "output_tokens": 2845,
+  "thinking_tokens": 1854,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19576
+ },
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

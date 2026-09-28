@@ -45,6 +45,7 @@ workers = 3
 provider = "deepseek"
 model = "deepseek-flash"
 size = "mid"
+max_tokens = 64000
 
 [models.glm-5-3]
 provider = "zai"

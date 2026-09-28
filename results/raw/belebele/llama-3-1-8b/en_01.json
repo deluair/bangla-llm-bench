@@ -1,0 +1,253 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 21.5,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 8]\nAccording to the passage, which of the following would not be considered a micro-expression?\nA) Glancing away while speaking\nB) Furrowing the brow\nC) Blinking rapidly\nD) Giving a thumb’s up\nAnswer: D) Giving a thumb’s up\n\n{\"answers\": {\"8\": \"D\"}}\n\n[id 9]\nWhich of the following does not reflect a motivation to use the internet for continuing relationships?\nA) Business networking\nB) Staying in touch with family\nC) Researching travel\nD) Meeting new people\nAnswer: C) Researching travel\n\n{\"answers\": {\"9\": \"C\"}}\n\n[id 10]\nWhich of the following aspects of the Catholic Church was not being scrutinized?\nA) If the allocation of wealth within the Church was appropriate\nB) If the main tenets of the religion should be amended\nC) The concentration of power within the Church\nD) If the main tenets of the Church were being met\nAnswer: B) If the main tenets of the religion should be amended\n\n{\"answers\": {\"10\": \"B\"}}\n\n[id 11]\nWhich of the following was not a result of Britain’s unconventional naval warfare?\nA) Germany’s wish to employ similar warfare tactics\nB) Uninvolved ships were put in harm’s way\nC) Changes were made to international law\nD) Crucial supplies were unaccessible \nAnswer: D) Crucial supplies were unaccessible \n\n{\"answers\": {\"11\": \"D\"}}\n\n[id 12]\nBased on the passage, for whom would a diagnosis of Multiple Sclerosis be most likely?\nA) A 32 year old female\nB) A 15 year old male\nC) A 43 year old male\nD) A 10 year old female\nAnswer: A) A 32 year old female\n\n{\"answers\": {\"12\": \"A\"}}\n\n[id 13]\nAccording to the passage, how is fencing usually played?\nA) In a modern format\nB) At the university level\nC) At the Olympic level\nD) In a duel format\nAnswer: D) In a duel format\n\n{\"answers\": {\"13\": \"D\"}}\n\n[id 14]\nWhich of the changes prompted by The French Revolution had a significant impact on working class citizens?\nA) Increased support for the nation\nB) A shift of focus from class to competence\nC) An adoption of Republican ideology\nD) A new measuring system\nAnswer: B) A shift of focus from class to competence\n\n{\"answers\": {\"14\": \"B\"}}\n\n[id 15]\nWhich public service is said to cause the most discontent in developed countries?\nA) Water quality\nB) Bridge construction\nC) Public transport\nD) Education\nAnswer: C) Public transport\n\n{\"answers\": {\"15\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1255,
+  "completion_tokens": 597,
+  "total_tokens": 1852,
+  "cost": 4.898e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.898e-05,
+   "upstream_inference_prompt_cost": 2.51e-05,
+   "upstream_inference_completions_cost": 2.388e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "15": "C"
+ },
+ "single": {
+  "8": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 3,
+    "total_tokens": 202,
+    "cost": 4.13e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.13e-06,
+     "upstream_inference_prompt_cost": 3.98e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "9": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 189,
+    "completion_tokens": 2,
+    "total_tokens": 191,
+    "cost": 3.86e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.86e-06,
+     "upstream_inference_prompt_cost": 3.78e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "10": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 2,
+    "total_tokens": 244,
+    "cost": 4.94e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.94e-06,
+     "upstream_inference_prompt_cost": 4.84e-06,
+     "upstream_inference_completions_cost": 1e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "11": {
+   "text": "A)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 3,
+    "total_tokens": 203,
+    "cost": 4.15e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.15e-06,
+     "upstream_inference_prompt_cost": 4e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "12": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 2,
+    "total_tokens": 188,
+    "cost": 3.82e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.82e-06,
+     "upstream_inference_prompt_cost": 3.72e-06,
+     "upstream_inference_completions_cost": 1e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "13": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 3,
+    "total_tokens": 134,
+    "cost": 2.77e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.77e-06,
+     "upstream_inference_prompt_cost": 2.62e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "14": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 2,
+    "total_tokens": 212,
+    "cost": 4.28e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.28e-06,
+     "upstream_inference_prompt_cost": 4.2e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "D",
+  "11": "A",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 9.9,
+ "text": "[id 50]\nEggs per day: 252.\nDozens per day: 252 / 12 = 21.\nRevenue per day: 21 * $2 = $42.\nRevenue per week: 42 * 7 = $294.\n\n[id 51]\nTime traveling out: 1 PM to 4 PM = 3 hours.\nSpeed out: 10 mph.\nDistance: 10 mph * 3 hours = 30 miles.\nSpeed back: 6 mph.\nTime back: 30 miles / 6 mph = 5 hours.\n\n[id 52]\nTotal weight to remove: 15 lbs.\nWeight from comic books: 30 * 1/4 = 7.5 lbs.\nRemaining weight needed: 15 - 7.5 = 7.5 lbs.\nWeight per toy: 1/2 lb.\nNumber of toys: 7.5 / 0.5 = 15.\n\n[id 53]\nThursday revenue: (6 * 60) + (4 * 40) = 360 + 160 = 520.\nFriday revenue: (12 * 40) + (0 * 60) = 480.\nDifference: 520 - 480 = 40.\n\n[id 54]\nAdopted kittens: 7.\nPatchy's kittens: 3 * 7 = 21.\nTrixie's kittens: 12.\nTotal kittens: 7 + 21 + 12 = 40.\n\n[id 55]\nInitial lollipops: 30.\nAfter eating 2: 30 - 2 = 28.\nBags: 28 / 2 = 14.\n\n[id 56]\nCost per trip: $7 + $7 = $14.\nTotal money: $42.\nTrips: 42 / 14 = 3.\n\n[id 57]\nBridge limit: 5000 lbs.\nTruck + driver weight: 3755 lbs.\nAvailable weight for boxes: 5000 - 3755 = 1245 lbs.\nWeight per box: 15 lbs.\nMax boxes: 1245 / 15 = 83.\n\n[id 58]\nGroceries: $40.00.\n25% fee: 0.25 * 40 = $10.00.\nDelivery fee: $3.00.\nTip: $4.00.\nFinal price: 40 + 10 + 3 + 4 = $57.\n\n[id 59]\nClusters: 6 * 20 = 120.\nIndividual: 67.\nTotal: 120 + 67 = 187.\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "prompt_tokens": 786,
+  "completion_tokens": 772,
+  "total_tokens": 1558,
+  "cost": 0.0003102,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003102,
+   "upstream_inference_prompt_cost": 7.86e-05,
+   "upstream_inference_completions_cost": 0.0002316
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

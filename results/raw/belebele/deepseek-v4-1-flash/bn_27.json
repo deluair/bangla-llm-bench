@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 6.1,
+ "text": "{\"answers\":{\"216\":\"B\",\"217\":\"D\",\"218\":\"D\",\"219\":\"A\",\"220\":\"B\",\"221\":\"D\",\"222\":\"B\",\"223\":\"B\"}}",
+ "usage": {
+  "prompt_tokens": 2375,
+  "completion_tokens": 1030,
+  "total_tokens": 3405,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 993
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2375
+ },
+ "served_by": null,
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

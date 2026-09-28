@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 73.2,
+ "text": "Looking at each problem:\n\n**[id 140]** Semi-automatic cars: 20 - 12 - 4 = 4. Percentage: 4/20 = 20%\n\n**[id 141]** Let q = queens. Then babies = 2q, workers = 4q. Total: 7q = 700, so q = 100. Workers = 400\n\n**[id 142]** 2 hours/day × $10/hour = $20/day. Per week: $20 × 7 = $140\n\n**[id 143]** Food: $2 + $3 = $5 (no tax). Nonfood: $3 + $3 + $4 = $10 → with 10% tax = $11. Total: $16\n\n**[id 144]** Total clients: 3 + 5 = 8. Cost per client: 2($2) + $5 = $9. Total expenses: $72. Profit: $92 - $72 = $20\n\n**[id 145]** Total pineapples: 10 hectares × 100 = 1000. Harvests per year: 12 ÷ 3 = 4. Annual harvest: 4000\n\n**[id 146]** Box 1: 500. Box 2: \"3 times more than 500\" = 500 + 3(500) = 2000. Box 3: 500/4 = 125. Total: 500 + 2000 + 125 = 2625\n\n**[id 147]** \n- Hours 0-6: 30 bees leave\n- Hours 6-12: 15 bees return (half of 30)\n- Hours 12-18: 60 bees leave (2× the first 30)\n- Hours 18-24: All bees that hadn't returned come back = 30 - 15 + 60 - 0 = 75 bees return\n\n**[id 148]** Cost: $10 + $12 = $22. Amount given: $22 + $8 change = $30\n\n**[id 149]** Charlie has 12 friends and 3× Dorothy's amount, so Dorothy has 4. James has 4× Dorothy's = 16 friends\n\n```json\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2625, \"147\": 75, \"148\": 30, \"149\": 16}}\n```",
+ "usage": {
+  "input_tokens": 1286,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7998,
+  "output_tokens_details": {
+   "thinking_tokens": 7369
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1286,
+    "output_tokens": 7998,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.041276,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2625.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2625.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

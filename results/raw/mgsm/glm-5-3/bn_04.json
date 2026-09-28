@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 9.3,
+ "text": "**Brief solutions:**\n\n- **40:** Suzie = 1 yr, Ben = 2×1 = 2, Brandon = 4×2 = **8**\n- **41:** With gem: 400×3 = 1200 ft; beyond fire range: 1200 − 1000 = **200 ft**\n- **42:** Total slices: 5×8 = 40; taken: 40 − 14 = **26**\n- **43:** Calories left: 2000 − 1800 = 200; servings: 200/250 = 0.8; grams: 0.8 × (300/5) = **48**\n- **44:** 20 candles = 2 lbs wax = $20 cost; revenue 20×$2 = $40; profit = **$20**\n- **45:** Mon 5, Tue 5+2 = 7, Wed 14; total 26 articles × 4 hrs = **104 hours**\n- **46:** 80 + x − 220 = 23 → x = **163**\n- **47:** Blue: 200/40 = 5 ties; Red: 10 ties × $60 = $600; total = 600 + 200 = **$800**\n- **48:** 4 ft = 48 in; 48/6 = **8 pieces**\n- **49:** Total units: 15×8 = 120; unoccupied: 120×(1/4) = **30**\n\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}",
+ "usage": {
+  "completion_tokens": 812,
+  "completion_tokens_details": {
+   "reasoning_tokens": 429
+  },
+  "prompt_tokens": 2908,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 3720
+ },
+ "served_by": null,
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

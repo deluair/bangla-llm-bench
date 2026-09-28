@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 54.2,
+ "text": "[id 128] The passage states that a contagious disease is “easily transmitted by being in the vicinity of an infected person,” so the spread is tied to infected people.  \n[id 129] The passage begins with “Because calls are routed over the Internet, you do not need to use a phone company located where you live,” making Internet routing the key factor.  \n[id 130] The passage says most Italian words are pronounced as written and that only c and g vary based on the following vowel; therefore the claim that most words vary this way is inaccurate.  \n[id 131] The passage mentions religious significance, cultural sites, and historic sites as tourist draws, but it notes that most countries do not recognize Jerusalem as Israel’s capital, so that status is the least likely attraction.  \n[id 132] The passage specifically warns to “take care in the steeper portions, especially when wet, as it can become dangerous quickly.”  \n[id 133] The passage says Moldova “has suffered from ethnic conflict” and that this conflict led to the creation of Transnistria.  \n[id 134] The passage cautions that “small-town bars here are not always good places for the out-of-state visitor to hang out” because of drunk-driving risks.  \n[id 135] The passage explicitly says “Fruit juices are pricey but excellent,” which budget-conscious travelers would likely avoid.  \n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1392,
+  "completion_tokens": 1885,
+  "total_tokens": 3277,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1549
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

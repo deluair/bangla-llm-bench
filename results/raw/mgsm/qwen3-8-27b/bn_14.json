@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 4.8,
+ "text": "I will solve each problem step-by-step.\n\n**[id 140]**\nProblem: Out of 20 cars available for rent, 12 are automatic, 4 are manual, and the rest are semi-automatic. What percentage of the cars are semi-automatic?\n1. Total cars = 20.\n2. Automatic = 12.\n3. Manual = 4.\n4. Semi-automatic = Total - (Automatic + Manual) = 20 - (12 + 4) = 20 - 16 = 4.\n5. Percentage = (4 / 20) * 100 = 20%.\nAnswer: 20\n\n**[id 141]**\nProblem: A beehive has 700 bees. The number of worker bees is twice the number of baby bees, and the number of baby bees is twice the number of queen bees. How many worker bees are there?\n1. Let $Q$ = Queen bees, $B$ = Baby bees, $W$ = Worker bees.\n2. $B = 2Q$.\n3. $W = 2B$.\n4. Total = $Q + B + W = 700$.\n5. Substitute $B$ and $W$ in terms of $Q$: $Q + 2Q + 2(2Q) = Q + 2Q + 4Q = 7Q = 700$.\n6. $Q = 100$.\n7. Worker bees $W = 2B = 2(2Q) = 4Q = 4 * 100 = 400$.\nAnswer: 400\n\n**[id 142]**\nProblem: Jordan plays video games for 2 hours every day. He also works a part-time job earning $10 per hour. If Jordan spent the time playing video games on the job instead, how much money could he earn in a week?\n1. Time spent on games per day = 2 hours.\n2. Working days in a week = 7 (assuming \"every day\" implies 7 days, or standard week work? The phrasing \"2 hours every day... in a week\" usually implies 7 * 2 hours. Even if it meant 5 days, let's check the context. Usually \"every day\" means 7. If it meant workdays, it would say \"workdays\". Let's assume 7 days).\n3. Total hours = 2 hours/day * 7 days = 14 hours.\n4. Earnings = 14 hours * $10/hour = $140.\n*Note: If it assumed a 5-day work week, it would be 10 hours -> $100. However, \"every day\" is explicit. Let's look at standard test logic. Often \"a week\" implies 7 days unless \"work week\" is specified. Let's stick with 140.*\nLet's re-read carefully: \"Jordan plays video games for 2 hours every day.\" -> 2*7 = 14 hours. \"If Jordan spent the time ... on the job instead\". He earns $10/hr. 14 * 10 = 140.\nAnswer: 140\n\n**[id 143]**\nProblem: John bought milk for $2, eggs for $3, light bulbs for $3, cups for $3, and a lamp shade for $4. If there is a 10% tax on items that are not food, what was the total cost of all items?\n1. Food items: Milk ($2), Eggs ($3). Total food cost = 5.\n2. Non-food items: Light bulbs ($3), Cups ($3), Lamp shade ($4). Total non-food base cost = 3 + 3 + 4 = 10.\n3. Tax on non-food = 10% of 10 = 1.\n4. Total cost = Food + Non-food base + Tax = 5 + 10 + 1 = 16.\nAnswer: 16\n\n**[id 144]**\nProblem: Kim started her own housecleaning business. She currently has 3 clients and is confident in adding 5 more (Total 8 clients). Each client requires 2 bottles of bleach and 1 pack of rags. Bleach is $2/bottle, rags are $5/pack. Total weekly revenue is $92. What is her weekly profit?\n1. Total clients = 3 + 5 = 8.\n2. Cost per client = (2 bottles * $2) + (1 pack * $5) = $4 + $5 = $9.\n3. Total cost = 8 clients * $9/client = $72.\n4. Total revenue = $92.\n5. Profit = Revenue - Cost = 92 - 72 = 20.\nAnswer: 20\n\n**[id 145]**\nProblem: John has a 10-hectare pineapple field. 100 pineapples grow per hectare. John harvests pineapples every 3 months. How many pineapples does he harvest in one year?\n1. Total yield per harvest = 10 hectares * 100 pineapples/hectare = 1000 pineapples.\n2. Harvests per year = 12 months / 3 months = 4 harvests.\n3. Total pineapples = 1000 * 4 = 4000.\nAnswer: 4000\n\n**[id 146]**\nProblem: Joni is picking up LEGOs. One box had 500 pieces. Another box had 3 times as many pieces as the 500-piece box. Another box had 1/4 of the pieces of the 500-piece box. How many blocks did she pick up in total?\n1. Box 1: 500 pieces.\n2. Box 2: 3 * 500 = 1500 pieces.\n3. Box 3: 1/4 * 500 = 125 pieces.\n4. Total = 500 + 1500 + 125 = 2125.\nAnswer: 2125\n\n**[id 147]**\nProblem: Deborah observes bees.\n- First 6 hours: 30 bees leave. (Leaving = 30, Returned = 0, Net outside = 30)\n- Next 6 hours: She sees 1/2 of that number (1/2 of 30 = 15) return. (Returned = 15). Net outside = 30 - 15 = 15.\n- Next 6 hours: She sees twice the number of bees from the *first observation* (first obs was 30 leaving) leave. So, 2 * 30 = 60 leave. Net outside = 15 + 60 = 75.\n- Next 6 hours: \"Every bee that had previously left the hive and had not returned yet\" returns.\n  - Who has left and not returned? The current net outside bees are 75. All of them return.\n  - Question: How many bees did Deborah see return in the last 6 hours?\n  - The text says \"Then every bee that had previously left... returns\". This implies the 75 bees currently outside come back.\n  - Did any others return? The prompt asks what she saw in the *last* 6 hours. The event described is \"every bee... returns\". So she sees 75 bees return.\nAnswer: 75\n\n**[id 148]**\nProblem: Brittany and her mother go to a museum. Adult ticket $12, Child ticket $10. Mother pays for 1 child and 1 adult. She gets $8 change. How much did she give?\n1. Total cost = $12 + $10 = $22.\n2. Change = $8.\n3. Amount given = Cost + Change = 22 + 8 = 30.\nAnswer: 30\n\n**[id 149]**\nProblem: Charlie has 3 times as many FB friends as Dorothy. James has 4 times as many FB friends as Dorothy. If Charlie has 12 friends, how many does James have?\n1. Charlie = 12.\n2. Charlie = 3 * Dorothy => 12 = 3 * Dorothy => Dorothy = 4.\n3. James = 4 * Dorothy => James = 4 * 4 = 16.\nAnswer: 16\n\n```json\n{\"answers\": {\"140\": \"20\", \"141\": \"400\", \"142\": \"140\", \"143\": \"16\", \"144\": \"20\", \"145\": \"4000\", \"146\": \"2125\", \"147\": \"75\", \"148\": \"30\", \"149\": \"16\"}}\n```",
+ "usage": {
+  "queue_time": 0.375170743,
+  "prompt_tokens": 1432,
+  "prompt_time": 0.116698757,
+  "completion_tokens": 2039,
+  "completion_time": 4.171196547,
+  "total_tokens": 3471,
+  "total_time": 4.287895304
+ },
+ "served_by": null,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

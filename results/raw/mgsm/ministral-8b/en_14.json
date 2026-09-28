@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 7.7,
+ "text": "[id 140]\nTotal cars = 20\nSemi-automatic cars = 20 - 12 - 4 = 4\nPercentage = (4 / 20) * 100 = 20\n\n[id 141]\nLet queens = Q, baby bees = B, worker bees = W\nGiven: B = 2Q, W = 2B\nTotal bees = Q + B + W = Q + 2Q + 4Q = 7Q = 700\nQ = 100, B = 200, W = 400\n\n[id 142]\nJordan's daily earnings = $10/hour * 2 hours = $20\nWeekly earnings = $20/day * 7 days = $140\n\n[id 143]\nFood items: milk ($2) + eggs ($3) = $5\nNon-food items: light bulbs ($3) + cups ($3) + roach traps ($4) = $10\nTax on non-food items = $10 * 10% = $1\nTotal cost = $5 + $10 + $1 = $16\n\n[id 144]\nTotal clients = 3 + 5 = 8\nExpenses per client = (2 * $2) + $5 = $9\nTotal expenses = $9 * 8 = $72\nProfit = $92 - $72 = $20\n\n[id 145]\nPineapples per hectare = 100\nTotal pineapples per year = 10 hectares * 100 pineapples/hectare * (1 year / 3 months) * 3 months = 10 * 100 * 4 = 4000\n\n[id 146]\nFirst box = 500 pieces\nSecond box = 3 * 500 = 1500 pieces\nThird box = 1/4 * 500 = 125 pieces\nTotal pieces = 500 + 1500 + 125 = 2125\n\n[id 147]\nFirst 6 hours: 30 bees leave\nNext 6 hours: 1/2 * 30 = 15 bees return\nNext 6 hours: 2 * 30 = 60 bees leave\nLast 6 hours: All previous bees that left and hadn't returned return = 30 (first 6 hours) + 60 (next 6 hours) = 90 bees\n\n[id 148]\nCost of 1 child ticket = $10\nCost of 1 adult ticket = $12\nTotal cost = $10 + $12 = $22\nMoney given = $22 + $8 = $30\n\n[id 149]\nCharlie's friends = 12\nCharlie has 3 times as many friends as Dorothy, so Dorothy's friends = 12 / 3 = 4\nJames has 4 times as many friends as Dorothy, so James's friends = 4 * 4 = 16\n\n```json\n{\n\"answers\": {\n    \"140\": 20,\n    \"141\": 400,\n    \"142\": 140,\n    \"143\": 16,\n    \"144\": 20,\n    \"145\": 4000,\n    \"146\": 2125,\n    \"147\": 90,\n    \"148\": 30,\n    \"149\": 16\n}\n}\n```",
+ "usage": {
+  "prompt_tokens": 836,
+  "completion_tokens": 817,
+  "total_tokens": 1653,
+  "cost": 0.00024795,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024795,
+   "upstream_inference_prompt_cost": 0.0001254,
+   "upstream_inference_completions_cost": 0.00012255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 90.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 90.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

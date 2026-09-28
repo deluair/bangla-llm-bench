@@ -1,0 +1,111 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  9824,
+  9932,
+  9955,
+  9986,
+  10007,
+  10074,
+  10093,
+  10141,
+  10169,
+  10274,
+  10388,
+  10482,
+  10508,
+  10565,
+  10623
+ ],
+ "seconds": 5.6,
+ "text": "{\"answers\": {\"id9824\": \"B\", \"id9932\": \"C\", \"id9955\": \"A\", \"id9986\": \"A\", \"id10007\": \"A\", \"id10074\": \"A\", \"id10093\": \"B\", \"id10141\": \"A\", \"id10169\": \"D\", \"id10274\": \"D\", \"id10482\": \"D\", \"id10508\": \"A\", \"id10565\": \"B\", \"id10623\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 4766,
+  "completion_tokens": 116,
+  "total_tokens": 4882,
+  "cost": 9.996e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.996e-05,
+   "upstream_inference_prompt_cost": 9.532e-05,
+   "upstream_inference_completions_cost": 4.64e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10388": "D",
+  "9824": "B",
+  "9932": "C",
+  "9955": "A",
+  "9986": "A",
+  "10007": "A",
+  "10074": "A",
+  "10093": "B",
+  "10141": "A",
+  "10169": "D",
+  "10274": "D",
+  "10482": "D",
+  "10508": "A",
+  "10565": "B",
+  "10623": "C"
+ },
+ "answers_batch": {
+  "9824": "B",
+  "9932": "C",
+  "9955": "A",
+  "9986": "A",
+  "10007": "A",
+  "10074": "A",
+  "10093": "B",
+  "10141": "A",
+  "10169": "D",
+  "10274": "D",
+  "10482": "D",
+  "10508": "A",
+  "10565": "B",
+  "10623": "C"
+ },
+ "single": {
+  "10388": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 522,
+    "completion_tokens": 3,
+    "total_tokens": 525,
+    "cost": 1.056e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.056e-05,
+     "upstream_inference_prompt_cost": 1.044e-05,
+     "upstream_inference_completions_cost": 1.2e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  }
+ }
+}

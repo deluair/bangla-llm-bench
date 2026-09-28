@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  6675,
+  6681,
+  6750,
+  6778,
+  6813,
+  6838,
+  6869,
+  6871,
+  6890,
+  6903,
+  7005,
+  7011,
+  7014,
+  7018,
+  7041
+ ],
+ "seconds": 8.1,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 6675]\nD) drawing a conclusion based on a comparison when the items being compared are not similar enough to support the conclusion.\n\n[id 6681]\nB) Guilt by association\n\n[id 6750]\nD) trying to get someone else to agree to a claim only by arousing that person's feelings about the subject\n\n[id 6778]\nB) making an argument without enough evidence to support the conclusion\n\n[id 6813]\nD) Dicto simpliciter\n\n[id 6838]\nC) 48\n(3 * 2 * 2 * 2 * 3 = 48)\n\n[id 6869]\nA) Supervised learning\n\n[id 6871]\nD) To avoid overfitting the training set\n\n[id 6890]\nD) All of the above\n\n[id 6903]\nD) False, True\n(Statement 1 is true; Statement 2 is true)\n\n[id 7005]\nB) Weber\n\n[id 7011]\nD) remotely\n\n[id 7014]\nB) Strategy formulation\n\n[id 7018]\nA) Task identity\n\n[id 7041]\nC) Worker empowerment\n\n{\"answers\": {\"6675\": \"D\", \"6681\": \"B\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"C\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"D\", \"6903\": \"D\", \"7005\": \"B\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"A\", \"7041\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1035,
+  "completion_tokens": 454,
+  "total_tokens": 1489,
+  "cost": 9.715e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.715e-05,
+   "upstream_inference_prompt_cost": 5.175e-05,
+   "upstream_inference_completions_cost": 4.54e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "C",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "D",
+  "7005": "B",
+  "7011": "D",
+  "7014": "B",
+  "7018": "A",
+  "7041": "C"
+ },
+ "answers_batch": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "C",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "D",
+  "7005": "B",
+  "7011": "D",
+  "7014": "B",
+  "7018": "A",
+  "7041": "C"
+ },
+ "single": {}
+}

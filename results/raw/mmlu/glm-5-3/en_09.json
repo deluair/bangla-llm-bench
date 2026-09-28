@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 20.8,
+ "text": "**4749:** τ = Fr = (2.0)(0.30) = 0.6 N·m; α = τ/I = 0.6/0.06 = 10 rad/s²; t = ω/α = 20/10 = 2 s → **B**\n\n**4827:** Wavelength order: gamma < UV < blue < orange → **D**\n\n**4852:** The rubber band can store elastic potential energy depending on its initial winding; this energy may be transferred to kinetic energy at different points, so the cart reaches different heights → **A**\n\n**4864:** V = Q/C = 600 μC / 2 μF = 300 V. Series capacitors: C_eq = 18/3 = 6 μF; each carries Q = (6 μF)(300 V) = 1800 μC → **D**\n\n**4873:** Standing waves form only when the string length is an integer multiple of half-wavelengths; since 60 Hz fails, L is not such a multiple → **A**\n\n**4952:** Shortest visible wavelengths appear violet → **B**\n\n**5102:** The candy rewards (strengthens) the crying, so crying is reinforced → **C**\n\n**5184:** Increased blood pressure and breathing are fight-or-flight responses regulated by the sympathetic nervous system → **C**\n\n**5312:** Gage's case linked frontal lobe damage to personality/emotional changes — an early brain-area association → **B**\n\n**5342:** The mind-body problem concerns mental vs. physical states → **B**\n\n**5454:** Follow-up, neutral wording, and random selection all reduce bias; stratification (vs. SRS) mainly reduces variability, not bias → **C**\n\n**5561:** z(80) ≈ 0.42, z(100) ≈ 2.08. P(80 < X < 100)/P(X > 80) = (0.9814 − 0.6616)/(1 − 0.6616) ≈ 0.94 → **D**\n\n**5573:** 68-95-99.7 works better with *larger* df (t → normal), so D is false → **D**\n\n**5582:** σ unknown, n = 16 → t-test with df = 15; t = (4.3−4.0)/(0.6/√16) = 2; right-tailed: P(t > 2) → **C**\n\n**5641:** r² = 0.36 vs. 0.09; 0.36/0.09 = 4 → **C**\n\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"C\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1698,
+  "completion_tokens_details": {
+   "reasoning_tokens": 995
+  },
+  "prompt_tokens": 1593,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 3291
+ },
+ "served_by": null,
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

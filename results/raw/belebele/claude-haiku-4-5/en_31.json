@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 12.9,
+ "text": "Looking at each question carefully:\n\n**[id 248]**: The passage states \"In 1989 he helped create The Simpsons with Brooks and Groening, and was responsible for hiring the show's first writing team.\" The pronoun \"he\" refers to Simon. → **B) Simon**\n\n**[id 249]**: The passage states Roberts \"flatly refused to say about when he believes life begins... saying that it would be unethical to comment on the specifics of likely cases.\" He deemed the specifics of cases unethical to discuss. → **D) The specifics of cases**\n\n**[id 250]**: The passage explicitly states \"The luminosity and rotation are used together to determine a star's Rossby number.\" → **A) Luminosity and rotation**\n\n**[id 251]**: The passage clearly states \"Murray lost the first set in a tie break.\" This directly answers what happened in the first tie break. → **A) It was lost by Murray in the first set**\n\n**[id 252]**: The passage states \"Dr. Ehud Ur... is skeptical about whether diabetes can be cured.\" → **B) If a cure is possible**\n\n**[id 253]**: The passage concludes with \"The search had been hampered by the same bad weather that had caused the aborted landing.\" → **D) The weather conditions were poor**\n\n**[id 254]**: The passage states \"An additional 300 brings the total to 1,300 carriages.\" The announcement is about funding an additional 300 carriages. → **A) They plan to fund an additional 300 carriages**\n\n**[id 255]**: The passage states \"Turkey would also take over guarding captured ISIS fighters.\" → **D) Turkey**\n\n```json\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1696,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1750,
+  "output_tokens_details": {
+   "thinking_tokens": 1295
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1696,
+    "output_tokens": 1750,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.010446,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

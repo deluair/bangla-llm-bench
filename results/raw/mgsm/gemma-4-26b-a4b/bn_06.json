@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 6.9,
+ "text": "[id 60]\nTotal = 25. Bad = 1. Raw = 20% of 25 = 5. Sour = 2.\nGood = 25 - (1 + 5 + 2) = 25 - 8 = 17.\n\n[id 61]\nMaterials = 500. Labor = 800. Subtotal = 1300.\nInsurance = 10% of 1300 = 130.\nTotal = 1300 + 130 = 1430.\n\n[id 62]\nBase pension = $50,000.\nYears worked = 30. Eligible years = 30 - 20 = 10 years.\nPension percentage = 10 years * 5% = 50%.\nAnnual pension = 50% of 50,000 = 25,000.\n\n[id 63]\nFirst 6 months: 6 * 140 = 840.\nNext 6 months: 140 - (10% of 140) = 140 - 14 = 126 per month.\nTotal for second half: 6 * 126 = 756.\nTotal annual = 840 + 756 = 1596.\n\n[id 64]\nMileage = 100 miles / 4 gallons = 25 miles per gallon.\nFull tank = 12 gallons.\nTotal distance = 12 * 25 = 300 miles.\n\n[id 65]\nPer session: TV = 2 hours. Reading = 2 / 2 = 1 hour.\nTotal time per session = 3 hours.\nSessions per week = 3.\nTotal weeks = 4.\nTotal time = 3 * 3 * 4 = 36 hours.\n\n[id 66]\nSchools = 4.\nEach school sends: 5 (girls) + 5 (boys) + 1 (coach) = 11 people.\nTotal people = 4 * 11 = 44.\n\n[id 67]\nDiamonds = 175.\nRubies = 175 - 35 = 140.\nEmeralds = 140 * 2 = 280.\nTotal = 175 + 140 + 280 = 595.\n\n[id 68]\nGirls = 60. Boys = 60 * 2 = 120.\nTotal students = 60 + 120 = 180.\nRatio = 5 students / teacher.\nTeachers = 180 / 5 = 36.\n\n[id 69]\nTotal allowance = 8 weeks * $5/week = $40.\nStarting amount + $40 = $100.\nStarting amount = 100 - 40 = 60.\n\n```json\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 44, \"67\": 595, \"68\": 36, \"69\": 60}}\n```",
+ "usage": {
+  "prompt_tokens": 825,
+  "completion_tokens": 801,
+  "total_tokens": 1626,
+  "cost": 0.00021087,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021087,
+   "upstream_inference_prompt_cost": 3.465e-05,
+   "upstream_inference_completions_cost": 0.00017622
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 44.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 44.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

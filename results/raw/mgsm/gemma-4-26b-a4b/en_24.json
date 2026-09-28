@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 20.5,
+ "text": "[240] John has 54 candies. Since John has twice as many as Robert, Robert has 54 / 2 = 27 candies. James has 6 more than Robert, so James has 27 + 6 = 33 candies. John has 54 - 33 = 21 more candies than James.\n\n[241] Dolly has 2 books (A, B). Pandora has 1 book (C). Collectively, the books are A, B, and C. They read all of them. Total books read = 3.\n\n[242] Mike has 5 - 2 = 3 pen pals. Each pen pal sends 2 letters (10 pages total). Mike sends 3 * 2 = 6 letters (30 pages total). Total pages Mike writes = 10 + 30 = 40 pages? No, wait. \"They each send 2 letters... He responds in kind.\" This means for each pen pal, Mike receives 2 letters and sends 2 letters. \nTotal letters received: 3 * 2 = 6 letters.\nTotal letters sent: 3 * 2 = 6 letters.\nTotal pages written by Mike: (6 + 6) * 5 = 60 pages.\nTime spent: 60 pages * 6 minutes/page = 360 minutes.\nHours: 360 / 60 = 6 hours.\n\n[243] Total minutes = 1000. \nDaily calls: 15 * 30 = 450. \nOther calls: 300. \nTotal used: 450 + 300 = 750. \nRemaining: 1000 - 750 = 250.\n\n[244] Griffin starts with 24. \nKyle took 5: 24 - 5 = 19. \nBilly took 2 * 5 = 10: 19 - 10 = 9. \nColby took (5 - 3) = 2: 9 - 2 = 7. \nGinger gave x: 7 + x = 27. \nx = 20.\n\n[245] Difference in snails: 32 - 4 = 28. \nLet f be the number of fish in each aquarium. Total fish = 2f.\nThe difference (28) is twice the amount of fish in both aquariums (2f).\n28 = 2 * (2f)\n28 = 4f\nf = 7.\n\n[246] Hourly rate: $250. \nDaily makeup time: 6 hours. \nDays per week: 4. \nWeeks: 5. \nTotal hours: 6 * 4 * 5 = 120 hours. \nTotal cost before discount: 120 * 250 = $30,000. \nDiscount: 10% of 30,000 = 3,000. \nTotal paid: 30,000 - 3,000 = 27,000.\n\n[247] Total spent: 12 + 43 + 15 + 4 + 22 = 96. \nSplit three ways: 96 / 3 = 32.\n\n[248] Total weight: 4 * 50 = 200 pounds. \nTotal cost: 200 * 1.50 = 300.\n\n[249] Sister's cookies: 5 (Mon) + 13 (Tue) = 18. \nSue's cookies: (4 * 5) + (2 * 13) = 20 + 26 = 46. \nDifference in cookies: 46 - 18 = 28. \nDifference in calories: 28 * 200 = 5600.\n\n{\"answers\": {\"240\": 21, \"241\": 3, \"242\": 6, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}",
+ "usage": {
+  "prompt_tokens": 790,
+  "completion_tokens": 1018,
+  "total_tokens": 1808,
+  "cost": 0.0003844,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003844,
+   "upstream_inference_prompt_cost": 7.9e-05,
+   "upstream_inference_completions_cost": 0.0003054
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "240": 21.0,
+  "241": 3.0,
+  "242": 6.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 3.0,
+  "242": 6.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

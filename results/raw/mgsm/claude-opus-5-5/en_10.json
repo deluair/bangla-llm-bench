@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 9.0,
+ "text": "- **[100]** The first friend rang 20 times. The second rang 20 + 20/4 = 25 times. The fourth rang 60 times, so the third rang 60 + 10 = 70 times. The total is 20 + 25 + 70 + 60 = **175**.\n- **[101]** Solo has 4 + 20 + 7 + 8 = 39 pages in all. After Monday, 39 − 15 = 24 pages remain. Over 4 days that is 24 / 4 = **6** pages per day.\n- **[102]** On weekdays he drinks 4 glasses × 5 days = 20. On weekends he drinks 3 glasses × 2 days = 6. The total is **26**.\n- **[103]** The city is 42 / 3 = 14 segments of 3 miles. At 10 minutes each, that is 14 × 10 = **140** minutes.\n- **[104]** Poppy places 1000 / 4 = 250 pieces, leaving 750. Her mom places 750 / 3 = 250, leaving **500**.\n- **[105]** Cody eats 3 × 5 = 15 cookies. Together they eat 15 + 5 = **20**.\n- **[106]** Removing 1 inch from each side gives inner dimensions of 3 × 4 × 2 = 24 cubic inches. For 3 boxes that is 24 × 3 = **72**.\n- **[107]** The other nights add up to 1 + 1 + 1.5 + 2 = 5.5 hours. Wednesday was 7 − 5.5 = 1.5 hours, which is **3** half-hour episodes.\n- **[108]** Before dropping any, he had 110 + 5 = 115 cookies. His intended amount was 115 − 15 = 100. Last year he baked 100 / 2 = **50**.\n- **[109]** The gas costs 10 × $3.00 = $30. The cashback is 10 × $0.20 = $2. The final cost is **$28**.\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1569,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 950,
+  "output_tokens_details": {
+   "thinking_tokens": 229
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1569,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 950,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1569,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1569
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.031560000000000005,
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "2143",
+  "2159",
+  "2319",
+  "2348",
+  "2355",
+  "2448",
+  "2457",
+  "2459",
+  "2557",
+  "2567",
+  "2573",
+  "2582",
+  "2628",
+  "2632",
+  "2636"
+ ],
+ "seconds": 33.4,
+ "text": "Looking at each question:\n\n**[2143]** Convert 3 qt to cups: 3 × 4 = 12 cups. Ratio: 2/12 = 1/6 → **D**\n\n**[2159]** GCF of 42 and 84: 42 = 2×3×7, 84 = 2²×3×7. GCF = 2×3×7 = 42 → **C**\n\n**[2319]** (5/8)m = 6 → m = 6 × (8/5) = 48/5 = 9 3/5 → **D**\n\n**[2348]** Red: 5 × 36 = 180; Blue: 6 × 32 = 192; Total = 372 ≈ 380 → **B**\n\n**[2355]** \"6 miles each day for two days\" = 6 × 2 multiplication → **A**\n\n**[2448]** (∃x)[Hx • (∀y)(Ay ⊃ Bxy)] = \"There exists an x that is a house and for all y, if y is an apartment then x is bigger than y\" = Some house is bigger than every apartment → **D**\n\n**[2457]** Testing H = true, I = true, J = false: H ≡ (F ∨ F) = true ≡ false = false (premise fails). Testing H = false, I = true, J = false: H ≡ (F ∨ F) = false ≡ false = true ✓; H ∨ ~J = false ∨ true = true ✓; ~I = false ✗. This is a counterexample → **D**\n\n**[2459]** A biconditional statement doesn't have a single antecedent (it's symmetric) → **D**\n\n**[2557]** \"Necessary condition for\" = consequent ⊃ antecedent, so F ⊃ E. \"Given that\" = conditional, so ~S ⊃ C. Either/or = disjunction → **D**\n\n**[2567]** \"Some CEO is wealthier than everyone\" = There exists a CEO who is wealthier than all persons → (∃x)[Cx • (∀y)(Py ⊃ Wxy)] → **C**\n\n**[2573]** Japan's GDP per capita grew from ~$2,500 (1950) to ~$40,000 (2016) in PPP terms ≈ 16 fold, closest is 15 fold, but 10 fold is also reasonable depending on source data → **B**\n\n**[2582]** Redistribution-with-growth emphasizes progressive taxation, land reform, and education. Minimum wage legislation can be distortionary to growth objectives → **A**\n\n**[2628]** Bottom 60% = 7.5% + 11.8% + 15.5% = 34.8% → **B**\n\n**[2632]** Physical punishment of children by teachers in India is documented at significant rates; research indicates approximately 70-80% range → **C**\n\n**[2636]** Among these countries, Canada has the highest per capita CO2 emissions (~15-16 tons) compared to Japan (~9-10), Russia (~11-12), Iran (~8-9) → **B**\n\n```json\n{\"answers\": {\"2143\": \"D\", \"2159\": \"C\", \"2319\": \"D\", \"2348\": \"B\", \"2355\": \"A\", \"2448\": \"D\", \"2457\": \"D\", \"2459\": \"D\", \"2557\": \"D\", \"2567\": \"C\", \"2573\": \"B\", \"2582\": \"A\", \"2628\": \"B\", \"2632\": \"C\", \"2636\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1898,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4023,
+  "output_tokens_details": {
+   "thinking_tokens": 3082
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1898,
+    "output_tokens": 4023,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.022012999999999998,
+ "answers_batch": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ },
+ "single": {},
+ "answers": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ }
+}

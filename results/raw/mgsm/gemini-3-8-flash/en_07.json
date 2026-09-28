@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 16.6,
+ "text": "### Brief Solutions\n\n- **[id 70]**: Judy teaches 5 weekdays $\\times$ 5 classes/day + 8 Saturday classes = 33 classes. At 15 students/class paying $15 each, she makes $33 \\times 15 \\times 15 = \\$7425$.\n- **[id 71]**: The first dish has 20 instructions, and the second has $20 \\times 2 = 40$ instructions. In total, Kelian reads $20 + 40 = 60$ instructions.\n- **[id 72]**: Tommy raises $43 \\times \\$3 = \\$129$ from brownies and $23 \\times \\$4 = \\$92$ from cheesecake, for a total of $129 + 92 = \\$221$.\n- **[id 73]**: Each phone costs $\\$150 \\times 1.02 = \\$153$. Five phones cost $\\$153 \\times 5 = \\$765$. Over 3 months, she pays $\\$765 / 3 = \\$255$ per month.\n- **[id 74]**: Rounding to nearest dollar gives marigolds at $3, petunias at $2, and begonias at $2. Total revenue is $(12 \\times 3) + (9 \\times 2) + (17 \\times 2) = 36 + 18 + 34 = \\$88$.\n- **[id 75]**: The 4 levels from top to bottom measure 16, 32, 64, and 128 sq ft. The sum is 240 sq ft, giving an average of $240 / 4 = 60$ sq ft.\n- **[id 76]**: In a 365-day year, puppy eats $(180 \\times 1) + ((365 - 180) \\times 2) = 180 + 370 = 550$ cups. That requires $550 / 110 = 5$ bags.\n- **[id 77]**: Raymond does $400 / 2 = 200$ lbs. David does $400 / 4 = 100$ lbs. The difference is $200 - 100 = 100$ lbs.\n- **[id 78]**: For 18 flowers, buying 3-packs costs $(18/3) \\times 2.50 = \\$15.00$, while 2-packs cost $(18/2) \\times 1.00 = \\$9.00$. He saves $15 - 9 = \\$6$.\n- **[id 79]**: With a 30% discount on $100, the grooming costs $100 \\times (1 - 0.30) = \\$70$.\n\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}\n",
+ "usage": {
+  "input_tokens": 30705,
+  "output_tokens": 3614,
+  "thinking_tokens": 1209,
+  "cache_read_tokens": 20401,
+  "total_tokens": 34319
+ },
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

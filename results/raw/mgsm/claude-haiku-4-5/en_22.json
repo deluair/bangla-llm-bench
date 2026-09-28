@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 16.1,
+ "text": "I'll solve each problem step by step.\n\n**[id 220]** Time = (3 × 10) + (8 × 5) = 30 + 40 = **70 minutes**\n\n**[id 221]** Water left after use: 120 - 90 = 30 liters. Rainwater: 2 × 30 = 60 liters. Total: 30 + 60 = **90 liters**\n\n**[id 222]** Geraniums: 90. Petunias: 90 - 40 = 50. Total: 90 + 50 = **140 flowers**\n\n**[id 223]** Year 1: $15,000. Year 2: $15,000/3 = $5,000. Total: 15,000 + 5,000 = **$20,000**\n\n**[id 224]** Carlos: $30 × 3 = $90. Benji: $18 × 5 = $90. Total: **$180**\n\n**[id 225]** Bus: 6 days. Car: 6/2 = 3 days. Total trip: 6 + 3 = **9 days**\n\n**[id 226]** Final counts: Fire=30, Grass=20+14=34, Water=40-8=32. Total=96. Percentage: 32/96 = 0.333... = **33%** (rounded to nearest integer)\n\n**[id 227]** Total: $6.50 + $2.00 + $1.00 + $1.00 + $0.50 + $3.00 = $14.00. After gift card: $14.00 - $5.00 = **$9.00**\n\n**[id 228]** Combined rate: 4 + 2 = 6 pieces/minute. Time: 360/6 = 60 minutes = **1 hour**\n\n**[id 229]** First harvest: 120 × 0.30 = 36 melons. Remaining: 84. Second harvest: 84 × 3/4 = 63 melons. Final remaining: 84 - 63 = **21 melons**\n\n```json\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}\n```",
+ "usage": {
+  "input_tokens": 1210,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1888,
+  "output_tokens_details": {
+   "thinking_tokens": 1270
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1210,
+    "output_tokens": 1888,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.01065,
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 21.6,
+ "text": "Here are the step-by-step solutions for each problem:\n\n- **[id 90]**: Adults eat $20 \\times 10 = 200$ lbs. Children eat half as much ($5$ lbs each), so $5 \\times 5 = 25$ lbs. Total = $200 + 25 = 225$ lbs.\n- **[id 91]**: Cindy has $4$ pets. Marcia has $4 + 2 = 6$ pets. Jan has $3 \\times 6 = 18$ pets. Total = $4 + 6 + 18 = 28$ pets.\n- **[id 92]**: James is $10$, which is $1$ year younger than Corey, so Corey is $11$. Amy is $2$ years younger than Corey, so Amy is $9$. Amy is $5$ years older than Jackson, so Jackson is $9 - 5 = 4$ years old.\n- **[id 93]**: Lee runs in $38$ seconds, which is $2$ seconds faster than Gerald's original time of $40$ seconds. A $10\\%$ improvement reduces Gerald's time by $4$ seconds to $40 - 4 = 36$ seconds.\n- **[id 94]**: Dogs = $60$. Cats = $2 \\times 60 = 120$. Combined dogs and cats = $180$. Rabbits = $180 - 12 = 168$. Total pets = $60 + 120 + 168 = 348$.\n- **[id 95]**: Grade 5 has $200$ students. Boys = $\\frac{2}{5} \\times 200 = 80$, so girls = $120$. With $\\frac{2}{3}$ in Girl Scouts, $\\frac{1}{3}$ are not: $\\frac{1}{3} \\times 120 = 40$ girls.\n- **[id 96]**: Harry slept $9$ hours. James slept $\\frac{2}{3} \\times 9 = 6$ hours. Harry slept $9 - 6 = 3$ hours more.\n- **[id 97]**: The batch made $32$ oz of sauce, requiring $32 \\times 2 = 64$ oz of canned tomatoes. That is $64 / 16 = 4$ cans. At $3$ tomatoes per can, Freda used $4 \\times 3 = 12$ tomatoes.\n- **[id 98]**: Out of $30$ cars, $5$ exited, leaving $25$ cars that drove through. Since $20$ cars drove through in the second 15 minutes, $25 - 20 = 5$ cars drove through in the first 15 minutes.\n- **[id 99]**: Mary initially has $40 \\times 2 = 80$ plants on ledges plus $18$ new plants, totaling $98$ plants. Giving away $1$ from each of the $40$ ledges removes $40$ plants: $98 - 40 = 58$ plants remain.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n",
+ "usage": {
+  "input_tokens": 16465,
+  "output_tokens": 4003,
+  "thinking_tokens": 3179,
+  "cache_read_tokens": 8161,
+  "total_tokens": 20468
+ },
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

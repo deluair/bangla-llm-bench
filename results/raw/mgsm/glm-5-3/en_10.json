@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 10.7,
+ "text": "Here are my solutions:\n\n**100:** Friend 1: 20, Friend 2: 20 + (1/4 × 20) = 25, Friend 4: 60, Friend 3: 60 + 10 = 70. Total = 20 + 25 + 60 + 70 = 175\n\n**101:** Total pages = 4 + 20 + 7 + 8 = 39. Remaining = 39 − 15 = 24. Per day = 24 ÷ 4 = 6\n\n**102:** Weekdays: 4 glasses × 5 days = 20. Weekends: 3 glasses (no water at dinner) × 2 days = 6. Total = 26\n\n**103:** 42 ÷ 3 = 14 intervals × 10 minutes = 140\n\n**104:** Poppy places 1000/4 = 250, leaving 750. Mom places 750/3 = 250. Left = 500\n\n**105:** Cody eats 3 × 5 = 15. Together = 5 + 15 = 20\n\n**106:** Inner dimensions: 3 × 4 × 2 = 24 cubic inches per box. Total = 24 × 3 = 72\n\n**107:** Mon/Tue: 2 hrs, Thu: 1.5 hrs, Fri: 2 hrs = 5.5 hrs. Wednesday = 7 − 5.5 = 1.5 hrs = 3 episodes\n\n**108:** Baked 110 + 5 = 115. Meant to bake 115 − 15 = 100. Last year = 100 ÷ 2 = 50\n\n**109:** 10 × $3.00 = $30. Cashback = 10 × $0.20 = $2. Cost = $30 − $2 = $28\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "completion_tokens": 921,
+  "completion_tokens_details": {
+   "reasoning_tokens": 455
+  },
+  "prompt_tokens": 787,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1708
+ },
+ "served_by": null,
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

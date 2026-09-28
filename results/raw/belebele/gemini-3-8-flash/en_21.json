@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 7.9,
+ "text": "Brief reasoning for each question:\n\n- **168**: The passage explicitly states that \"the Thirty Years' War would be the last war to be labeled a religious war.\" (**A**)\n- **169**: The mob waved the severed head of a guard in front of the Queen, but did not force them to view the actual beheading itself taking place. (**C**)\n- **170**: Britain's mining of international waters caused danger to neutral ships, directly contradicting the claim that it ensured neutral ships would not be jeopardized. (**D**)\n- **171**: The passage emphasizes surveying the scene to ensure safety and warns against getting hurt, making \"Don’t be concerned with sustaining your own injuries\" inaccurate. (**A**)\n- **172**: The passage highlights that almost everyone complains about transportation systems and asks why they engender such complaints. (**C**)\n- **173**: The text lists the type of mutation, significance of the piece of genetic material, and whether cells are germ-line; it does not mention the quantity/amount of genetic material affected. (**A**)\n- **174**: Tornadoes strike a small area, only 2% last over 3 hours, and wind speeds are up to 480 km/h (300 mph), but all tornadoes generally uproot trees (\"capable of ripping trees from the ground\"). (**D**)\n- **175**: The passage notes that the iron strips on tracks \"caused more wear on the wooden wheels of the wagons\", which led to them being replaced by iron wheels. (**D**)\n\n{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"A\", \"174\": \"D\", \"175\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25226,
+  "output_tokens": 1856,
+  "thinking_tokens": 1453,
+  "cache_read_tokens": 0,
+  "total_tokens": 27082
+ },
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

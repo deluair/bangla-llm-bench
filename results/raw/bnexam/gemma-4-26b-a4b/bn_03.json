@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "1f33fe18-fe2f-4931-8755-5c125d73f6f3-141588",
+  "1f420286-ce01-4588-9531-08e9a30f3e00-9720",
+  "1fc36e4b-f174-4e9b-affe-72c5b554c69e-112068",
+  "1fe94d60-0be9-4d28-95c2-6c61a9527b81-43494",
+  "20237bbf-9ee7-4adb-86a4-8f00bc58395d-50654",
+  "20878697-22ad-4a7e-aa1b-186712c7546a-11230",
+  "20cdd0e6-5505-4341-ab58-be8a0798ef9b-129961",
+  "22b6200c-967e-4c1e-b795-83428fd19ea9-38564",
+  "2412d1aa-700c-48b9-9eb9-16471aa49b94-35928",
+  "2482426f-80eb-49f5-85ae-f006e676c3d9-88630",
+  "2585bc61-6f4f-41d4-bfb2-2c1f7753142f-100344",
+  "25deb312-85ad-41bd-937b-ba75f1903f5a-90417",
+  "25fb65ff-56a2-498a-b741-889ff05095a5-64096",
+  "27ab6b9b-c362-4f64-98b5-11fa18c16f03-52700",
+  "27dad806-6307-41a0-9f25-89f836a25269-128806"
+ ],
+ "seconds": 9.2,
+ "text": "1. ‘Mother loves me’ - 'loves' has an object ('me'), so it is a Transitive verb. (B)\n2. “Dhire Bohe Meghna” was directed by Khan Ataur Rahman. (B)\n3. 'লয়' প্রাপ্ত হওয়া means to be merged or lost; 'লীন' is the most appropriate single word. (A)\n4. The cupula in the ear is responsible for maintaining balance (equilibrium). (B/C) - In most biological contexts regarding the vestibular system, it is for balance/equilibrium. C (balance control/regulation) or B (balance) are close; B is the standard function. Let's look at common exam answers for this specific question: It is for balance/equilibrium. (B)\n5. The 2012 Olympics were held in London. (D)\n6. Sarcopterygii (lobe-finned fish) typically have a diphycercal tail. (D)\n7. Spectrometers (বর্ণালীবীক্ষণ যন্ত্র) consist of collimators, prisms/gratings, and lenses. A telescope (দূরবীক্ষণ) is a separate instrument. (B)\n8. Mahasthangarh is located on the banks of the Karatoya River. (A)\n9. ASCII stands for American Standard Code for Information Interchange. Note: The options provided have a slight variation; \"Information\" is often swapped with \"Institutional\" in some error-prone texts, but C is the closest to the standard meaning if we assume a typo in the options provided, or D if truncated. However, looking at the options, C says \"Institutional\" instead of \"Information\". Given the choices, let's assume the intended answer follows the \"American Standard Code...\" structure. (C)\n10. Silicon (atomic number 14) configuration: 1s² 2s² 2p⁶ 3s² 3p². Option A is closest, though it says 3s² 3p². (A)\n11. The number of amphibian species in Bangladesh is approximately 36. (C)\n12. The noun form of 'Compel' is 'Compulsion'. (B)\n13. Let the short part be $x$ and the long part be $y$. $x + y = 20$ and $x = \\frac{2}{3}y$. So $x = \\frac{2}{3}(20-x) \\Rightarrow 3x = 40 - 2x \\Rightarrow 5x = 40 \\Rightarrow x = 8$. (B)\n14. Halley's Comet appears approximately every 76 years. (C)\n15. Area ratio $A_1/A_2 = 3/1 \\Rightarrow (s_1/s_2)^2 = 3/1 \\Rightarrow s_1/s_2 = \\sqrt{3}/1$. Since perimeter ratio is the same as side ratio, it is $\\sqrt{3} : 1$. (C)\n\n```json\n{\"answers\": {\"1f33fe18-fe2f-4931-8755-5c125d73f6f3-141588\": \"B\", \"1f420286-ce01-4588-9531-08e9a30f3e00-9720\": \"B\", \"1fc36e4b-f174-4e9b-affe-72c5b554c69e-112068\": \"A\", \"1fe94d60-0be9-4d28-95c2-6c61a9527b81-43494\": \"B\", \"20237bbf-9ee7-4adb-86a4-8f00bc58395d-50654\": \"D\", \"20878697-22ad-4a7e-aa1b-186712c7546a-11230\": \"D\", \"20cdd0e6-5505-4341-ab58-be8a0798ef9b-129961\": \"B\", \"22b6200c-967e-4c1e-b795-83428fd19ea9-38564\": \"A\", \"2412d1aa-700c-48b9-9eb9-16471aa49b94-35928\": \"C\", \"2482426f-80eb-49f5-85ae-f006e676c3d9-88630\": \"A\", \"2585bc61-6f4f-41d4-bfb2-2c1f7753142f-100344\": \"C\", \"25deb312-85ad-41bd-937b-ba75f1903f5a-90417\": \"B\", \"25fb65ff-56a2-498a-b741-889ff05095a5-64096\": \"B\", \"27ab6b9b-c362-4f64-98b5-11fa18c16f03-52700\": \"C\", \"27dad806-6307-41a0-9f25-89f836a25269-128806\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1473,
+  "completion_tokens": 1335,
+  "total_tokens": 2808,
+  "cost": 0.00054504,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00054504,
+   "upstream_inference_prompt_cost": 0.00011784,
+   "upstream_inference_completions_cost": 0.0004272
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Makora",
+ "answers_batch": {
+  "1f33fe18-fe2f-4931-8755-5c125d73f6f3-141588": "B",
+  "1f420286-ce01-4588-9531-08e9a30f3e00-9720": "B",
+  "1fc36e4b-f174-4e9b-affe-72c5b554c69e-112068": "A",
+  "1fe94d60-0be9-4d28-95c2-6c61a9527b81-43494": "B",
+  "20237bbf-9ee7-4adb-86a4-8f00bc58395d-50654": "D",
+  "20878697-22ad-4a7e-aa1b-186712c7546a-11230": "D",
+  "20cdd0e6-5505-4341-ab58-be8a0798ef9b-129961": "B",
+  "22b6200c-967e-4c1e-b795-83428fd19ea9-38564": "A",
+  "2412d1aa-700c-48b9-9eb9-16471aa49b94-35928": "C",
+  "2482426f-80eb-49f5-85ae-f006e676c3d9-88630": "A",
+  "2585bc61-6f4f-41d4-bfb2-2c1f7753142f-100344": "C",
+  "25deb312-85ad-41bd-937b-ba75f1903f5a-90417": "B",
+  "25fb65ff-56a2-498a-b741-889ff05095a5-64096": "B",
+  "27ab6b9b-c362-4f64-98b5-11fa18c16f03-52700": "C",
+  "27dad806-6307-41a0-9f25-89f836a25269-128806": "C"
+ },
+ "single": {
+  "1f33fe18-fe2f-4931-8755-5c125d73f6f3-141588": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 1.027e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.027e-05,
+     "upstream_inference_prompt_cost": 9.59e-06,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "1f420286-ce01-4588-9531-08e9a30f3e00-9720": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 2,
+    "total_tokens": 185,
+    "cost": 1.528e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.528e-05,
+     "upstream_inference_prompt_cost": 1.464e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "1fc36e4b-f174-4e9b-affe-72c5b554c69e-112068": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 2,
+    "total_tokens": 127,
+    "cost": 1.995e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 6,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.995e-05,
+     "upstream_inference_prompt_cost": 1.875e-05,
+     "upstream_inference_completions_cost": 1.2e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "1fe94d60-0be9-4d28-95c2-6c61a9527b81-43494": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 8.88e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.88e-06,
+     "upstream_inference_prompt_cost": 8.22e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "20237bbf-9ee7-4adb-86a4-8f00bc58395d-50654": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 2,
+    "total_tokens": 126,
+    "cost": 7.84e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.84e-06,
+     "upstream_inference_prompt_cost": 7.44e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "20878697-22ad-4a7e-aa1b-186712c7546a-11230": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 8.94e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.94e-06,
+     "upstream_inference_prompt_cost": 8.28e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "20cdd0e6-5505-4341-ab58-be8a0798ef9b-129961": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 2,
+    "total_tokens": 133,
+    "cost": 5.942e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.942e-06,
+     "upstream_inference_prompt_cost": 5.502e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "22b6200c-967e-4c1e-b795-83428fd19ea9-38564": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 2,
+    "total_tokens": 129,
+    "cost": 5.774e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.774e-06,
+     "upstream_inference_prompt_cost": 5.334e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "2412d1aa-700c-48b9-9eb9-16471aa49b94-35928": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 2,
+    "total_tokens": 136,
+    "cost": 6.068e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.068e-06,
+     "upstream_inference_prompt_cost": 5.628e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "2482426f-80eb-49f5-85ae-f006e676c3d9-88630": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 2,
+    "total_tokens": 203,
+    "cost": 2.07e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.07e-05,
+     "upstream_inference_prompt_cost": 2.01e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "2585bc61-6f4f-41d4-bfb2-2c1f7753142f-100344": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 2,
+    "total_tokens": 124,
+    "cost": 7.98e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.98e-06,
+     "upstream_inference_prompt_cost": 7.32e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "25deb312-85ad-41bd-937b-ba75f1903f5a-90417": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 2,
+    "total_tokens": 124,
+    "cost": 9.22e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.22e-06,
+     "upstream_inference_prompt_cost": 8.54e-06,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "25fb65ff-56a2-498a-b741-889ff05095a5-64096": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 148,
+    "completion_tokens": 2,
+    "total_tokens": 150,
+    "cost": 9.54e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.54e-06,
+     "upstream_inference_prompt_cost": 8.88e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "27ab6b9b-c362-4f64-98b5-11fa18c16f03-52700": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 1.248e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.248e-05,
+     "upstream_inference_prompt_cost": 1.188e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "27dad806-6307-41a0-9f25-89f836a25269-128806": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 2,
+    "total_tokens": 146,
+    "cost": 9.04e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.04e-06,
+     "upstream_inference_prompt_cost": 8.64e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "1f33fe18-fe2f-4931-8755-5c125d73f6f3-141588": "B",
+  "1f420286-ce01-4588-9531-08e9a30f3e00-9720": "B",
+  "1fc36e4b-f174-4e9b-affe-72c5b554c69e-112068": "A",
+  "1fe94d60-0be9-4d28-95c2-6c61a9527b81-43494": "B",
+  "20237bbf-9ee7-4adb-86a4-8f00bc58395d-50654": "D",
+  "20878697-22ad-4a7e-aa1b-186712c7546a-11230": "D",
+  "20cdd0e6-5505-4341-ab58-be8a0798ef9b-129961": "B",
+  "22b6200c-967e-4c1e-b795-83428fd19ea9-38564": "A",
+  "2412d1aa-700c-48b9-9eb9-16471aa49b94-35928": "C",
+  "2482426f-80eb-49f5-85ae-f006e676c3d9-88630": "A",
+  "2585bc61-6f4f-41d4-bfb2-2c1f7753142f-100344": "C",
+  "25deb312-85ad-41bd-937b-ba75f1903f5a-90417": "B",
+  "25fb65ff-56a2-498a-b741-889ff05095a5-64096": "B",
+  "27ab6b9b-c362-4f64-98b5-11fa18c16f03-52700": "C",
+  "27dad806-6307-41a0-9f25-89f836a25269-128806": "C"
+ }
+}

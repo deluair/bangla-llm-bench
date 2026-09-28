@@ -1,0 +1,69 @@
+{
+ "task": "bnexam",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540",
+  "33c29299-13bd-4d46-98af-56924515044c-13811"
+ ],
+ "seconds": 271.4,
+ "text": "**27e195f4...-123070:** Linear momentum \\(p\\) increased by 50% means \\(p' = 1.5p\\). Kinetic energy \\(K = p^2/(2m)\\), so \\(K' = (1.5)^2 K = 2.25K\\). The increase is \\(125\\%\\).  \n**28e6793d...-4715:** For myopia, a concave lens is needed with focal length \\(f = -75\\,\\text{cm} = -0.75\\,\\text{m}\\). Power \\(P = 1/f = -1/0.75 \\approx -1.33\\,\\text{D}\\).  \n**2b64958b...-109668:** “Truth” denotes an idea/quality, so it is an abstract noun.  \n**2b94c828...-26780:** Seed bank (বীজ ব্যাংক) is an ex-situ conservation method; the others are in-situ.  \n**2ca9ec0e...-81217:** The identity \\(\\sin^{-1}x + \\cos^{-1}x = \\pi/2\\) holds for all valid \\(x\\).  \n**2ce86248...-55758:** Anhydrous sodium carbonate (\\(\\text{Na}_2\\text{CO}_3\\)) is a common primary standard; NaOH is secondary, while NaCl/NaNO\\(_3\\) are not standard choices in this context.  \n**2d869d8d...-97721:** Light nuclei combining to form a heavier nucleus is nuclear fusion.  \n**2dd69cbc...-113689:** The first Bengali software developed for the visually impaired is আইলিপ (iLip).  \n**2e17e9b1...-93860:** The idiomatic translation of “তোমার পশুত্ব দমন কর” is “Check the beast in you.”  \n**2ed7b022...-117247:** Dividing by 144 gives \\(x^2/9 + y^2/16 = 1\\). Here \\(a=4,\\;b=3\\). Latus rectum \\(= 2b^2/a = 2\\cdot 9/4 = 9/2\\) units.  \n**2fda34ee...-35752:** Expanding gives \\(a^2x^2 + y^2 + 2(a+1)xy + \\dots = 0\\). For a circle, coefficients of \\(x^2\\) and \\(y^2\\) must be equal and the \\(xy\\) term zero, giving \\(a = -1\\).  \n**2ff2a82c...-14687:** For \\(\\text{N}_2\\text{O}_4 \\rightleftharpoons 2\\text{NO}_2\\), \\(K_p = (P_{\\text{NO}_2})^2 / P_{\\text{N}_2\\text{O}_4} = (0.31)^2 / 0.96 \\approx 0.1001\\).  \n**323ff80c...-93818:** Division (বিভাগ) is a higher administrative unit, not part of local government.  \n**32fecb16...-74540:** Moment of inertia depends on the mass of the body and the position of the axis of rotation.  \n**33c29299...-13811:** Moment of inertia is determined by how the mass is distributed relative to the axis.\n\n{\"answers\": {\"27e195f4-617e-475f-9f6d-d4c98ba89f24-123070\": \"C\", \"28e6793d-8ec2-481a-818c-670b1c210c32-4715\": \"A\", \"2b64958b-0cc4-414f-bbce-724ef5ee150f-109668\": \"D\", \"2b94c828-59cf-4a27-baf0-845d57c5b076-26780\": \"B\", \"2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217\": \"D\", \"2ce86248-3043-4db5-81e2-c499a0b73dc9-55758\": \"C\", \"2d869d8d-429e-4620-82cb-0263d8c49367-97721\": \"B\", \"2dd69cbc-1d26-4a39-877a-afa049370034-113689\": \"A\", \"2e17e9b1-1b5c-497c-b577-aaef2590919a-93860\": \"A\", \"2ed7b022-a4db-418f-9cfd-54774ada45d9-117247\": \"B\", \"2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752\": \"C\", \"2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687\": \"C\", \"323ff80c-24b3-4571-a498-a31fcb345a97-93818\": \"D\", \"32fecb16-f656-48f7-900c-8708ace2f375-74540\": \"B\", \"33c29299-13bd-4d46-98af-56924515044c-13811\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1564,
+  "completion_tokens": 10273,
+  "total_tokens": 11837,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9073
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "A",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ },
+ "single": {},
+ "answers": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "A",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "1196",
+  "1258",
+  "1322",
+  "1326",
+  "1357",
+  "1374",
+  "1381",
+  "1384",
+  "1395",
+  "1452",
+  "1476",
+  "1492",
+  "1523",
+  "1534",
+  "1570"
+ ],
+ "seconds": 85.4,
+ "text": "Looking at these multiple-choice questions, I'll work through each systematically:\n\n**[1196]** - This describes unconscious bias stemming from childhood trauma. The police officer's behavior reflects repressed psychological material from an abusive relationship. This is characteristic of **psychoanalytic** theory, which addresses unconscious drives and trauma. **Answer: B**\n\n**[1258]** - Marathon running is primarily an aerobic (not anaerobic) endurance event. Successful completion requires sustained aerobic energy production. **Answer: D**\n\n**[1322]** - Without oxygen, the electron transport chain stops. Water is the final product of aerobic respiration, produced when oxygen accepts electrons. Without oxygen, water production ceases immediately. Pyruvate and oxaloacetate can still be produced through glycolysis and Krebs cycle. **Answer: C**\n\n**[1326]** - SDS denatures proteins, disrupts tertiary structure, and breaks disulfide bonds (especially with reducing agents). This creates linear polypeptide chains that can be separated purely by molecular weight/size in the gel. **Answer: D**\n\n**[1357]** - Gold (Au, Z=79): [Xe] 4f¹⁴ 5d¹⁰ 6s¹. Electrons with l=2 (d orbitals): 3d¹⁰ + 4d¹⁰ + 5d¹⁰ = 30 electrons. The closest option is 29. **Answer: C**\n\n**[1374]** - Nitrogen (Z=7): 1s² 2s² 2p³. The three 2p electrons are unpaired (Hund's rule), giving total spin S = 3/2. **Answer: C**\n\n**[1381]** - The Hall coefficient's sign directly indicates charge carrier type (positive for holes, negative for electrons). **Answer: D**\n\n**[1384]** - Bosons have symmetric wave functions and DO NOT obey Pauli exclusion. Fermions have antisymmetric wave functions and DO obey Pauli exclusion. **Answer: B**\n\n**[1395]** - Given perihelion, aphelion, and max velocity, we can calculate: orbital period (Kepler's 3rd law), planet's mass, and moon's minimum velocity (conservation of angular momentum). However, the moon's mass doesn't affect these orbital parameters. **Answer: A**\n\n**[1452]** - Double Doppler effect:\n- First: Wall receives shifted frequency: f₁ = 600 × 350/(350-3.5) ≈ 606 Hz\n- Second: Car approaching echo source: f₂ = 606 × (350+3.5)/350 ≈ 612 Hz\n**Answer: D**\n\n**[1476]** - Buffer overflow (or buffer-overrun) is a critical vulnerability allowing attackers to write beyond allocated memory for code injection or crashes. **Answer: B**\n\n**[1492]** - Blinding randomizes the input to decryption (the ciphertext) with each operation, breaking the correlation between the actual data and timing variations that timing attacks exploit. **Answer: C**\n\n**[1523]** - A program stealing login credentials for instant messaging applications is specifically an IM-Trojan. **Answer: A**\n\n**[1534]** - UNIX and NT-based systems share common vulnerabilities from that era of OS design. **Answer: D**\n\n**[1570]** - The CIA triad (classic security attributes) consists of Confidentiality, Integrity, and Availability. **Accuracy** (Correctness) is not part of this triad. **Answer: C**\n\n```json\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"D\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"B\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"C\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4467,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7940,
+  "output_tokens_details": {
+   "thinking_tokens": 6962
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4467,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 7940,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4467,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4467
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.048643,
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {},
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  10,
+  36,
+  63,
+  65,
+  86,
+  108,
+  127,
+  150,
+  159,
+  234,
+  237,
+  255,
+  264,
+  295,
+  300
+ ],
+ "seconds": 3.8,
+ "text": "{\"answers\": {\"10\": \"A\", \"36\": \"D\", \"63\": \"C\", \"65\": \"A\", \"86\": \"C\", \"108\": \"A\", \"127\": \"B\", \"150\": \"A\", \"159\": \"A\", \"234\": \"C\", \"237\": \"C\", \"255\": \"D\", \"264\": \"D\", \"295\": \"C\", \"300\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 4019,
+  "completion_tokens": 94,
+  "total_tokens": 4113,
+  "cost": 8.414e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.414e-05,
+   "upstream_inference_prompt_cost": 8.038e-05,
+   "upstream_inference_completions_cost": 3.76e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10": "A",
+  "36": "D",
+  "63": "C",
+  "65": "A",
+  "86": "C",
+  "108": "A",
+  "127": "B",
+  "150": "A",
+  "159": "A",
+  "234": "C",
+  "237": "C",
+  "255": "D",
+  "264": "D",
+  "295": "C",
+  "300": "B"
+ },
+ "answers_batch": {
+  "10": "A",
+  "36": "D",
+  "63": "C",
+  "65": "A",
+  "86": "C",
+  "108": "A",
+  "127": "B",
+  "150": "A",
+  "159": "A",
+  "234": "C",
+  "237": "C",
+  "255": "D",
+  "264": "D",
+  "295": "C",
+  "300": "B"
+ },
+ "single": {}
+}

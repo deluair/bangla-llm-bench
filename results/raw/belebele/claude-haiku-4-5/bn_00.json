@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 87.5,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 0]** The passage discusses playing accordion. It states you DON'T need to press keys hard like piano, but on accordion you press forcefully at the bellows. Option A claims you need to press keys harder for more sound, which contradicts the passage's emphasis that you don't need to hit hard like piano. The passage emphasizes bellow pressure/momentum, not key pressure.\n\n**[id 1]** The passage explains that TV borders are cut off (overscan) so the picture covers the entire screen. This is done to ensure complete screen coverage for general viewers. Answer B directly matches the passage.\n\n**[id 2]** The passage states that when food supply decreases (\"খাবারের পরিমাণ কমে যায়\"), the nomadic phase begins. Option B correctly identifies this trigger. The nests change daily during the 17-day nomadic period, not after 17 days.\n\n**[id 3]** The passage explicitly states that biological clocks have self-sustaining oscillators that continue running \"even without external forces\" for extended periods. This is the defining characteristic of biological clocks.\n\n**[id 4]** The passage lists nature-based activities: hunting, fishing, photography, bird watching, visiting parks, and studying ecosystems. Going to a science museum is an indoor, human-made venue, not a nature-based tourism activity.\n\n**[id 5]** A five-bit binary system must have exactly 5 digits containing only 0s and 1s. Option C (10010) has exactly 5 valid binary digits. Option D has 6 bits, A has 4 bits, and B contains \"2\" which is invalid for binary.\n\n**[id 6]** The passage mentions: grammar/writing improvement, increased world knowledge, becoming more analytical/critical, and learning motivation. It does NOT state that students hear LESS criticism—rather, the presence of critical readers motivates better writing. This is about motivation, not reduced criticism.\n\n**[id 7]** The passage mentions: dungeons/prisons (\"প্রাসাদের কারাগার\"), competitions/tournaments (\"প্রতিযোগিতার চিত্র\"), feasting, Arthurian chivalry, and battles. While dungeons are mentioned, the passage doesn't specifically state they are \"underground\" (ভূগর্ভস্থ). Medieval dungeons are typically underground, but this detail isn't explicitly mentioned in the text.\n\n```json\n{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5196,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8109,
+  "output_tokens_details": {
+   "thinking_tokens": 7480
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5196,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 8109,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5196,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5196
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.050946,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "A"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "A"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "9824",
+  "9932",
+  "9955",
+  "9986",
+  "10007",
+  "10074",
+  "10093",
+  "10141",
+  "10169",
+  "10274",
+  "10388",
+  "10482",
+  "10508",
+  "10565",
+  "10623"
+ ],
+ "seconds": 36.9,
+ "text": "# Analysis of Multiple-Choice Answers\n\n**[id 9824]** Hume's aesthetic theory holds that beauty is subjective and perceived differently by different minds based on their experiences and sensitivities. Answer: **B**\n\n**[id 9932]** Plato values knowledge of the Forms/essences over mere classification. True knowledge requires understanding the logos (rationale) or why something is the way it is. Answer: **B**\n\n**[id 9955]** Feinberg argued against hedonism and the direct pursuit of happiness, suggesting the best approach is to pursue other meaningful activities and let happiness follow as a byproduct. Answer: **C**\n\n**[id 9986]** In Plato's Crito, Socrates argues he must obey Athens' laws by comparing the city to a parent that nurtured and educated him. Answer: **B**\n\n**[id 10007]** Nussbaum advocates for starting ethical inquiry with neutral terminology that doesn't presuppose which conception of a virtue is correct. Answer: **C**\n\n**[id 10074]** Archaeological evidence places Aboriginal occupation of Australia's interior at approximately 40,000-45,000 years ago. Answer: **D**\n\n**[id 10093]** Prognathous (from Greek pro- = forward, -gnathos = jaw) describes a forward-thrusting lower face. Answer: **B**\n\n**[id 10141]** Maya records primarily document astronomical observations and mathematical calculations, unlike Mesopotamian records focused on political/military history. Answer: **D**\n\n**[id 10169]** Lake Forest Archaic relied on lacustrine (freshwater lake) resources; Maritime Archaic hunted pelagic (ocean) creatures. Answer: **B**\n\n**[id 10274]** Anatomically modern Homo sapiens have skeletal evidence dating to approximately 200,000 years ago. Answer: **D**\n\n**[id 10388]** In governmental accounting, the debt service fund records the full $25,000 expenditure; transfers from the general fund are not recorded as expenditures but as transfers. Answer: **D**\n\n**[id 10482]** Capital assets are depreciated in the statement of activities: $800,000 ÷ 20 years = $40,000 annual expense. Answer: **C**\n\n**[id 10508]** Under LIFO, ending inventory is treated as composed of the earliest acquired goods (since most recent acquisitions are sold first). Answer: **D**\n\n**[id 10565]** Target CM = 20%; CM = SP - Variable Costs; 0.20 × SP = SP - $15; SP = $18.75. Answer: **B**\n\n**[id 10623]** Goods shipped on consignment remain Stone's inventory: $36,000 + $1,800 freight = $37,800. Received consignment inventory belongs to Gamma, not Stone. Answer: **D**\n\n```json\n{\"answers\": {\"9824\": \"B\", \"9932\": \"B\", \"9955\": \"C\", \"9986\": \"B\", \"10007\": \"C\", \"10074\": \"D\", \"10093\": \"B\", \"10141\": \"D\", \"10169\": \"B\", \"10274\": \"D\", \"10388\": \"D\", \"10482\": \"C\", \"10508\": \"D\", \"10565\": \"B\", \"10623\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1777,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3532,
+  "output_tokens_details": {
+   "thinking_tokens": 2735
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1777,
+    "output_tokens": 3532,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.019437,
+ "answers_batch": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "C",
+  "9986": "B",
+  "10007": "C",
+  "10074": "D",
+  "10093": "B",
+  "10141": "D",
+  "10169": "B",
+  "10274": "D",
+  "10388": "D",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ },
+ "single": {},
+ "answers": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "C",
+  "9986": "B",
+  "10007": "C",
+  "10074": "D",
+  "10093": "B",
+  "10141": "D",
+  "10169": "B",
+  "10274": "D",
+  "10388": "D",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ }
+}

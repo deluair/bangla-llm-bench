@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 53.3,
+ "text": "\n\nHere are the solutions to the math word problems:\n\n**[id 240]**\n*   John has 54 candies.\n*   John has twice as many as Robert: $Robert = 54 / 2 = 27$.\n*   James has 6 more than Robert: $James = 27 + 6 = 33$.\n*   Difference between John and James: $54 - 33 = 21$.\n*   Answer: 21\n\n**[id 241]**\n*   Dolly has 2 books, Pandora has 1. Total unique books = 3.\n*   Dolly reads her 2 + Pandora's 1 = 3 books.\n*   Pandora reads her 1 + Dolly's 2 = 3 books.\n*   Collective reading count: $3 + 3 = 6$.\n*   Answer: 6\n\n**[id 242]**\n*   Active pen pals: $5 - 2 = 3$.\n*   Letters received from pen pals: $3 \\text{ people} \\times 2 \\text{ letters} = 6 \\text{ letters}$.\n*   Mike responds in kind (2 letters each, 5 pages each): $6 \\text{ letters} \\times 5 \\text{ pages} = 30 \\text{ pages}$.\n*   Time to write: $30 \\text{ pages} \\times 6 \\text{ minutes/page} = 180 \\text{ minutes}$.\n*   Hours: $180 / 60 = 3$.\n*   Answer: 3\n\n**[id 243]**\n*   Daily call: $15 \\text{ minutes} \\times 30 \\text{ days} = 450 \\text{ minutes}$.\n*   Extra calls: 300 minutes.\n*   Total used: $450 + 300 = 750 \\text{ minutes}$.\n*   Monthly allowance: 1000 minutes.\n*   Left: $1000 - 750 = 250$.\n*   Answer: 250\n\n**[id 244]**\n*   Griffin starts with 24.\n*   Kyle takes 5: $24 - 5 = 19$.\n*   Billy takes twice Kyle's (10): $19 - 10 = 9$.\n*   Ginger gives $x$.\n*   Colby takes 3 less than Kyle's taken (5-3=2): $9 + x - 2 = 7 + x$.\n*   End count is 27: $7 + x = 27 \\Rightarrow x = 20$.\n*   Answer: 20\n\n**[id 245]**\n*   Snail difference: $32 - 4 = 28$.\n*   Difference is twice total fish: $28 = 2 \\times \\text{Total Fish} \\Rightarrow \\text{Total Fish} = 14$.\n*   Same number of fish in each aquarium: $14 / 2 = 7$.\n*   Answer: 7\n\n**[id 246]**\n*   Total hours: $6 \\text{ hours/day} \\times 4 \\text{ days/week} \\times 5 \\text{ weeks} = 120 \\text{ hours}$.\n*   Total cost: $120 \\times \\$250 = \\$30,000$.\n*   Jean pays 90% ($10\\%$ discount): $30,000 \\times 0.90 = 27,000$.\n*   Answer: 27000\n\n**[id 247]**\n*   Total cost: $12 + 43 + 15 + 4 + 22 = \\$96$.\n*   Split by 3 people (Isabelle + 2 parents): $96 / 3 = \\$32$ each.\n*   Answer: 32\n\n**[id 248]**\n*   Total weight: $4 \\text{ bags} \\times 50 \\text{ lbs} = 200 \\text{ lbs}$.\n*   Total cost: $200 \\times \\$1.50 = \\$300$.\n*   Answer: 300\n\n**[id 249]**\n*   Sister's cookies: $5 + 13 = 18$.\n*   Sue's cookies: $(4 \\times 5) + (2 \\times 13) = 20 + 26 = 46$.\n*   Difference in cookies: $46 - 18 = 28$.\n*   Difference in calories: $28 \\times 200 = 5,600$.\n*   Answer: 5600\n\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}",
+ "usage": {
+  "prompt_tokens": 779,
+  "completion_tokens": 7563,
+  "total_tokens": 8342,
+  "cost": 0.00121235,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00121235,
+   "upstream_inference_prompt_cost": 7.79e-05,
+   "upstream_inference_completions_cost": 0.00113445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6352,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

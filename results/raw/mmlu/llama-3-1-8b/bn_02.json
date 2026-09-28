@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  899,
+  908,
+  951,
+  981,
+  987,
+  1004,
+  1011,
+  1019,
+  1030,
+  1045,
+  1100,
+  1116,
+  1125,
+  1141,
+  1158
+ ],
+ "seconds": 7.0,
+ "text": "{\"answers\": {\"id 899\": \"B\", \"id 908\": \"C\", \"id 951\": \"C\", \"id 981\": \"A\", \"id 987\": \"B\", \"id 1004\": \"C\", \"id 1011\": \"D\", \"id 1019\": \"C\", \"id 1030\": \"D\", \"id 1045\": \"C\", \"id 1100\": \"D\", \"id 1116\": \"C\", \"id 1125\": \"B\", \"id 1141\": \"B\", \"id 1158\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 4367,
+  "completion_tokens": 134,
+  "total_tokens": 4501,
+  "cost": 9.27e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.27e-05,
+   "upstream_inference_prompt_cost": 8.734e-05,
+   "upstream_inference_completions_cost": 5.36e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "899": "B",
+  "908": "C",
+  "951": "C",
+  "981": "A",
+  "987": "B",
+  "1004": "C",
+  "1011": "D",
+  "1019": "C",
+  "1030": "D",
+  "1045": "C",
+  "1100": "D",
+  "1116": "C",
+  "1125": "B",
+  "1141": "B",
+  "1158": "C"
+ },
+ "answers_batch": {
+  "899": "B",
+  "908": "C",
+  "951": "C",
+  "981": "A",
+  "987": "B",
+  "1004": "C",
+  "1011": "D",
+  "1019": "C",
+  "1030": "D",
+  "1045": "C",
+  "1100": "D",
+  "1116": "C",
+  "1125": "B",
+  "1141": "B",
+  "1158": "C"
+ },
+ "single": {}
+}

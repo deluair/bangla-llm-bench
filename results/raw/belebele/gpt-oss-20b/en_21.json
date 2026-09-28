@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 14.6,
+ "text": "{\"answers\":{\"168\":\"A\",\"169\":\"C\",\"170\":\"D\",\"171\":\"A\",\"172\":\"C\",\"173\":\"A\",\"174\":\"D\",\"175\":\"D\"}}",
+ "usage": {
+  "prompt_tokens": 1382,
+  "completion_tokens": 1199,
+  "total_tokens": 2581,
+  "cost": 0.000132786,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000132786,
+   "upstream_inference_prompt_cost": 2.4876e-05,
+   "upstream_inference_completions_cost": 0.00010791
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1154,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

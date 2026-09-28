@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 6.5,
+ "text": "192: The passage states ocelots find prey by smell, so a weak sense of smell is inaccurate. → C\n193: The tiger's roar differs from the lion's full-voiced roar. → B\n194: The passage explicitly says the smallest tubes are capillaries. → A\n195: Flying helped evade enemies, find food, and find mates (reproduction) efficiently—life span is not mentioned. → B\n196: Flying is not cited as a shared characteristic; in fact, it's why people don't think of birds as dinosaurs. → C\n197: Triceratops teeth could crush tough branches, and it ate plants. → B\n198: German occupation in both World Wars affected its neutrality. → A\n199: The hollow between the edges is described as concave. → C\n\n{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 414,
+  "completion_tokens_details": {
+   "reasoning_tokens": 185
+  },
+  "prompt_tokens": 1246,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1660
+ },
+ "served_by": null,
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

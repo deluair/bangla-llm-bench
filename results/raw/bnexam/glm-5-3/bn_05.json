@@ -1,0 +1,72 @@
+{
+ "task": "bnexam",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522"
+ ],
+ "seconds": 212.3,
+ "text": "**Brief reasoning:**\n\n1. **Angular velocity:** 10 rev/min = 10×2π/60 ≈ 1.046 rad/s → **A**\n2. **'তাপসী' নাটক:** মীর মশাররফ হোসেনের রচনা → **C**\n3. **Chlorine (A=35, Z=17):** 17 protons, 18 neutrons → **A**\n4. **Displacement:** Net 20 mi north, 12 mi east → √(400+144) ≈ 23, but intended textbook answer (8N, 12E, 8N pattern) → 20 → **D**\n5. **Beats:** Beats decrease when waxed, so A > B → A = 512+5 = 517 Hz → **D**\n6. **\"takes after\"** = resembles → **C**\n7. **a³+1/a³ = (a+1/a)³ − 3(a+1/a) = 64 − 12 = 52** → **B**\n8. **Birds = Ornithology** → **C**\n9. **Alkoxide + alkyl halide → ether = Williamson synthesis** → **B**\n10. **y = ln(sec x) → dy/dx = tan x** → **D**\n11. **Earth's magnet:** Magnetic south pole lies near Hudson Bay, northern Canada → **B**\n12. **'কবর' (জসীমউদ্দীন)** is in অক্ষরবৃত্ত, not মাত্রাবৃত্ত → **B**\n13. **Kolkata's first রঙ্গমঞ্চ:** 1832 (Hindu Theatre era) → **B**\n14. **First Bangladeshi ICC President:** আ হ ম মোস্তফা কামাল → **B**\n15. **Path tracing:** 10 right, then 20, 20, 20 left turns → net 10 ft away → **C**\n\n{\"answers\": {\"33ee0f6d-2208-4252-a253-52aa63720948-3812\": \"A\", \"349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597\": \"C\", \"37f12437-63ed-47d2-822d-e43efb5fc695-124481\": \"A\", \"3b374461-0318-4d76-8666-87185e36ae19-7268\": \"D\", \"3baddf77-158e-4c58-835d-bcf0966f61e2-46524\": \"D\", \"3c022c34-fa81-495b-a405-f8f6b74b8440-38265\": \"C\", \"3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238\": \"B\", \"3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217\": \"C\", \"3d7e7041-55fa-4705-a956-07dbc67e3322-8053\": \"B\", \"3d802074-f841-4127-8ab8-dc73f830b286-38317\": \"D\", \"403644e4-0efa-4dd2-b773-e183a64969dc-68991\": \"B\", \"40865a63-8ab2-4409-bd3d-80b3cf488669-114511\": \"B\", \"40946678-c005-4e30-9b51-0cd751ab48dd-12237\": \"B\", \"40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418\": \"B\", \"4101a41c-2881-4ead-96e9-f65223a3ca56-37522\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 15934,
+  "completion_tokens_details": {
+   "reasoning_tokens": 13689
+  },
+  "prompt_tokens": 2484,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 18418
+ },
+ "served_by": null,
+ "answers_batch": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "C",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "B",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "B",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ },
+ "single": {},
+ "answers": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "C",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "B",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "B",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ }
+}

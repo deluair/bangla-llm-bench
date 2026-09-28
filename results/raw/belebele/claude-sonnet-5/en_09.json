@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 3.4,
+ "text": "{\"answers\": {\"72\": \"C\", \"73\": \"C\", \"74\": \"D\", \"75\": \"D\", \"76\": \"D\", \"77\": \"C\", \"78\": \"B\", \"79\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2422,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 261,
+  "output_tokens_details": {
+   "thinking_tokens": 202
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2422,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 261,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2422,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2422
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012302,
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

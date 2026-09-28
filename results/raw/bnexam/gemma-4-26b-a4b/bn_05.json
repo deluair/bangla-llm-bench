@@ -1,0 +1,507 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522"
+ ],
+ "seconds": 22.4,
+ "text": "Reasoning:\n1. $\\omega = 2\\pi \\times (\\text{revolutions per second}) = 2\\pi \\times (10/60) = \\pi/3 \\approx 1.047$ rad/s. Option A.\n2. 'তাপসী' was written by Rabindranath Tagore. Option D.\n3. Atomic number of Chlorine is 17 (protons = 17). Mass number is 35. Neutrons = $35 - 17 = 18$. Option A.\n4. Vertical displacement = $8 + 12 = 20$ North, Horizontal = $12$ East. Distance = $\\sqrt{20^2 + 12^2} = \\sqrt{400 + 144} = \\sqrt{544} \\approx 23.3$. Wait, let's re-read: 8 N, 12 E, 12 N. Total North = 20, Total East = 12. Distance $\\sqrt{20^2 + 12^2} \\approx 23.3$. Looking at options: 17, 28, 21, 20. Let's check if \"12 E\" is meant to be part of a triangle. If it's 8N, 12E, 12N: Total N = 20, Total E = 12. $\\sqrt{544} \\approx 23.3$. If it meant 8N, 12E then 12S? No. Let's re-calculate: $\\sqrt{(8+12)^2 + 12^2} = \\sqrt{400+144} = 23.3$. None match. Let's try: 8N, 12E, 12N is not a straight line. If it's a right triangle problem: $\\sqrt{(8+12)^2 + 12^2} \\approx 23$. If it's $12^2 + (8+12)^2 = 544$. If it's $12^2 + (12-8)^2 = 144+16=160$. If it's $20^2 + 12^2 = 544$. Let's check if \"12 E\" and \"12 N\" make a hypotenuse? $\\sqrt{12^2+12^2} = 16.9$. If the path is 8N, 12E, 12N, distance is $\\sqrt{20^2 + 12^2} = 23.3$. Wait, maybe the question implies a triangle? If it's $8+12=20$ and $12$. Is there a typo in the question or options? Let's check $20^2 + 15^2 = 25^2$. No. Let's re-read: 8 N, 12 E, 12 N. Total N = 20, Total E = 12. Distance = 23.3. If it's 9, 12, 15? No. Let's check if the answer is 20 (Option D). If distance is 20, then $x^2 + y^2 = 400$. If $x=12, y=\\sqrt{400-144} = \\sqrt{256} = 16$. $8+8=16$. If the last step was 8N instead of 12N, distance = 20. Let's assume D.\n5. Beats = $|f_A - f_B| = 5$. Since adding weight decreases frequency, $f_A$ must be $512 + 5 = 517$ Hz or $512 - 5 = 507$ Hz. Option D is 517 Hz. \n6. \"Takes after\" means to resemble. Option C.\n7. $(a + 1/a)^3 = a^3 + 3a + 3/a + 1/a^3 \\Rightarrow 4^3 = a^3 + 1/a^3 + 3(4) \\Rightarrow 64 = a^3 + 1/a^3 + 12 \\Rightarrow a^3 + 1/a^3 = 52$. Option B.\n8. Study of birds is Ornithology. Option C.\n9. Williamson ether synthesis. Option B.\n10. $d/dx (\\ln(\\sec x)) = (1/\\sec x) \\cdot \\sec x \\tan x = \\tan x$. Option D.\n11. Magnetic inclination (dip) is approx 45 degrees at equator and up to 90 at poles. The question asks for a correct fact. Actually, the magnetic North pole is near the geographic North pole. The statement \"ভূ-চুম্বক ক্ষেত্রের প্রাবল্য মান ও অভিমুখ সর্বত্র সমান\" is false. The dipole tilt is not 30. Let's check B: The magnetic south pole is near the geographic North pole. Actually, the magnetic south pole is near the geographic North pole. Let's re-evaluate: Most likely D or B is a distractor. In many textbooks, \"ভূ-চৌম্বক অক্ষ ও ভৌগোলিক অক্ষের মধ্যে কোণ\" (inclination) is discussed. The magnetic south pole is actually near the geographic North pole. Option B says \"South pole is in Hudson Bay\", which is geographically incorrect (it's in the North). Option D is a common value for certain latitudes.\n12. \"জীবন বন্দনা\" is often in Mityal Krittibas (matrabritta). \"সোনার তরী\" is in Amritakshar (payar). \"বঙ্গভাষা\" is in Amritakshar. \"কবর\" is in Amritakshar. Actually, \"জীবন বন্দনা\" is different. Let's check: \"সোনার তরী\" is Payar (Mityal/Amritakshar). \"কবর\" is Payar. \"বঙ্গভাষা\" is Payar. \"জীবন বন্দনা\" (often associated with different meters). Let's assume C/D.\n13. First theatre in Kolkata was 1852 (Bangla Natya Sabha/New Bengal Theatre era). Option C.\n14. ICC first Bangladeshi president: Akram Khan (frequently cited in older texts or specific contexts, though Najmul Hassan is current). Actually, Akram Khan was the first. Option C.\n15. Start at 0. Right 10 (+10, 0). Left 20 (-10, 0). Left 20 (-30, 0). Left 20 (-50, 0). Wait. Let's trace: 0 $\\to$ 10 (Right) $\\to$ -10 (Left 20) $\\to$ -30 (Left 20) $\\to$ -50 (Left 20). Distance = 50. Let's re-read: 10 Right, 20 Left, 20 Left, 20 Left. That's 10-20-20-20. Total displacement = $|10-20-20-20| = |-50| = 50$. Not an option. Let's try: 10 Right, 20 Left, 20 Left, 20... no. If \"Left 20\" means turning 90 degrees? \"ডান দিকে ১০ ফুট (Right), অতঃপর বামদিকে ২০ ফুট (Up), তারপর বামদিকে ২০ ফুট (Left), সবশেষে বামদিকে ২০ ফুট (Down)\". \nTrace: (0,0) $\\to$ (10,0) $\\to$ (10,20) $\\to$ (-10,20) $\\to$ (-10,0). Distance between (0,0) and (-10,0) is 10. Option C.\n\n```json\n{\"answers\": {\"33ee0f6d-2208-4252-a253-52aa63720948-3812\": \"A\", \"349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597\": \"D\", \"37f12437-63ed-47d2-822d-e43efb5fc695-124481\": \"A\", \"3b374461-0318-4d76-8666-87185e36ae19-7268\": \"D\", \"3baddf77-158e-4c58-835d-bcf0966f61e2-46524\": \"D\", \"3c022c34-fa81-495b-a405-f8f6b74b8440-38265\": \"C\", \"3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238\": \"B\", \"3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217\": \"C\", \"3d7e7041-55fa-4705-a956-07dbc67e3322-8053\": \"B\", \"3d802074-f84-4127-8ab8-dc73f830b286-38317\": \"D\", \"403644e4-0efa-4dd2-b773-e183a64969dc-68991\": \"D\", \"40865a63-8ab4-4409-bd3d-80b3cf488669-114511\": \"D\", \"40946678-c005-4e30-9b51-0cd751ab48dd-12237\": \"C\", \"40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418\": \"C\", \"4101a41c-2881-4ead-96e9-f65223a3ca56-37522\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1634,
+  "completion_tokens": 2485,
+  "total_tokens": 4119,
+  "cost": 0.000615328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000615328,
+   "upstream_inference_prompt_cost": 6.8628e-05,
+   "upstream_inference_completions_cost": 0.0005467
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "D",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f84-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "D",
+  "40865a63-8ab4-4409-bd3d-80b3cf488669-114511": "D",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "C",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "C",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ },
+ "single": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 170,
+    "completion_tokens": 2,
+    "total_tokens": 172,
+    "cost": 1.424e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.424e-05,
+     "upstream_inference_prompt_cost": 1.36e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 7.52e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.52e-06,
+     "upstream_inference_prompt_cost": 7.12e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 2,
+    "total_tokens": 188,
+    "cost": 1.182e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.182e-05,
+     "upstream_inference_prompt_cost": 1.116e-05,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 2,
+    "total_tokens": 142,
+    "cost": 1.9e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.9e-05,
+     "upstream_inference_prompt_cost": 1.82e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 2,
+    "total_tokens": 201,
+    "cost": 1.461e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.461e-05,
+     "upstream_inference_prompt_cost": 1.393e-05,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 2,
+    "total_tokens": 128,
+    "cost": 8.22e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.22e-06,
+     "upstream_inference_prompt_cost": 7.56e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 2,
+    "total_tokens": 137,
+    "cost": 6.11e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.11e-06,
+     "upstream_inference_prompt_cost": 5.67e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 2,
+    "total_tokens": 131,
+    "cost": 8.4e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.4e-06,
+     "upstream_inference_prompt_cost": 7.74e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 2,
+    "total_tokens": 188,
+    "cost": 8.252e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.252e-06,
+     "upstream_inference_prompt_cost": 7.812e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 5.984e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.984e-06,
+     "upstream_inference_prompt_cost": 5.544e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 2,
+    "total_tokens": 184,
+    "cost": 1.052e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.052e-05,
+     "upstream_inference_prompt_cost": 1.012e-05,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 2,
+    "total_tokens": 128,
+    "cost": 1.32e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.32e-05,
+     "upstream_inference_prompt_cost": 1.26e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 9.92e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.92e-06,
+     "upstream_inference_prompt_cost": 9.24e-06,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 2,
+    "total_tokens": 137,
+    "cost": 7.7e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.7e-06,
+     "upstream_inference_prompt_cost": 7.3e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 157,
+    "completion_tokens": 2,
+    "total_tokens": 159,
+    "cost": 7.034e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.034e-06,
+     "upstream_inference_prompt_cost": 6.594e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "D",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "D",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "D",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "D",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "C",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "C",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C",
+  "3d802074-f84-4127-8ab8-dc73f830b286-38317": "D",
+  "40865a63-8ab4-4409-bd3d-80b3cf488669-114511": "D"
+ }
+}

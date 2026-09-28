@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 5.6,
+ "text": "120: Sirena offers dormitory lodging and camping, whereas the others offer only camping. (A)\n121: The text states the first recreational ski club was opened by Norwegians in Australia. (B)\n122: Madagascar is the biggest island, and it is described as a \"continent on its own when it comes to wildlife.\" (C)\n123: The passage says \"the real imported [high-end brand-name frames] may be more expensive than at home.\" (B)\n124: The text says \"get your company to do it for you\" is the way to avoid forking out a thick wad of money yourself. (A)\n125: The text states \"All nouns... always begin with a capital letter\". (B)\n126: The text states \"a day outdoors is easily possible even with babies and pre-school children,\" making D inaccurate. (D)\n127: The text states \"The great majority of Hong Kong Island's urban development is densely packed on reclaimed land along the northern shore. This is the place the British colonisers took as their own...\" (A)\n\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1463,
+  "completion_tokens": 314,
+  "total_tokens": 1777,
+  "cost": 0.0002405,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002405,
+   "upstream_inference_prompt_cost": 0.0001463,
+   "upstream_inference_completions_cost": 9.42e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

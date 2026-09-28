@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 59.8,
+ "text": "Looking at each question carefully:\n\n**[id 272]** The passage states that Kerala's temple festivals feature \"regular procession of decorated elephants, temple orchestra and other festivities.\" Decorated elephants are seen specifically in these processions at temple festivals.\n\n**[id 273]** The passage mentions that some supermarkets \"provide a microwave oven or other means to heat food\" and that \"there is at least one on-site restaurant\" with affordable prices. Both are amenities that would appeal. The microwave directly enables heating of ready-made food, directly addressing the cooking limitation mentioned earlier in the passage.\n\n**[id 274]** The passage explicitly states: \"the numbering system in French-speaking Belgium and Switzerland has some slight peculiarities that are different from the French spoken in France, and the pronunciation of some words is slightly different.\" However, it also confirms that \"all French-speaking Belgians and Swiss would have learned standard French in school.\" The numbering system is clearly stated as different.\n\n**[id 275]** The passage says capitalization \"also arguably makes reading easier, though writing is somewhat complicated by the need to find out whether a verb or adjective is used in a substantivized form.\" Writing is explicitly identified as what the capitalization makes more difficult.\n\n**[id 276]** The passage states: \"This will cause cracks, crevasses, which may be obscured by snow bridges.\" Cracks can be hidden/obscured by snow bridges.\n\n**[id 277]** The passage advises to research fighting outside Goma and states \"Goma is reasonably safe\" - implying that the fights in North Kivu are a concern to avoid, not something \"entertaining.\" All other tips align with the passage.\n\n**[id 278]** The passage directly states: \"Permits are limited to protect the canyon.\" This limiting policy is the protection mechanism.\n\n**[id 279]** The passage says: \"Cold weather is perhaps the only real danger the unprepared will face\" while noting crime is \"virtually unknown\" and mosquitoes \"do not transmit any diseases\" though they're \"irritating.\"\n\n```json\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 2009,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5603,
+  "output_tokens_details": {
+   "thinking_tokens": 5073
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2009,
+    "output_tokens": 5603,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.030024000000000002,
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

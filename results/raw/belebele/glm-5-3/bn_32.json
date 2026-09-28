@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 122.3,
+ "text": "**Brief reasoning:**\n\n- **256:** The passage states the incident occurred in a high **mountainous** (পাহাড়ী) area → **D**\n- **257:** Amir Khan said he would support British competitors at the **2012 London Olympics** → **C**\n- **258:** Xavier Zayat is described as a fellow/assistant racer — i.e., **another racer** → **B**\n- **259:** UNESCO designated it for its unique **cultural and historical value** → **A**\n- **260:** Becoming a dominant language among speakers of different languages describes **lingua francas**, not auxiliary languages → **D**\n- **261:** Regular metro announcements are made in **Catalan** → **B**\n- **262:** The passage mentions antique (not modern) décor; the main competition is beds and breakfast — **modern furnishings** is not mentioned → **A**\n- **263:** Beijing will host the opening/closing ceremonies and the **indoor ice sports events** → **B**\n\n{\"answers\": {\"256\": \"D\", \"257\": \"C\", \"258\": \"B\", \"259\": \"A\", \"260\": \"D\", \"261\": \"B\", \"262\": \"A\", \"263\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 9305,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8637
+  },
+  "prompt_tokens": 4592,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 13897
+ },
+ "served_by": null,
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "D",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "D",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ }
+}

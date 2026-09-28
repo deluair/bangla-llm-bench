@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 5.4,
+ "text": "- 56: The passage says Operation Sealion was Germany's planned invasion of the island of Britain, so the answer is B.\n- 57: Italy needed a troop launching pad and had to get rid of British bases and ships in Egypt. Building additional ships is not named as a step; the passage says the new ships were already built. The answer is B.\n- 58: The passage says the Soviet Red Army invaded in violation of the Riga Peace Treaty and other agreements, so the answer is D.\n- 59: \"Fire captain\" is only the speaker's job title; the passage never says there was a fire. The answer is A.\n- 60: The passage says the prison \"has been set alight during a riot,\" so the answer is D.\n- 61: Each show recommended books for children to look for at the library, so the answer is D.\n- 62: The officials argued the tree was fungus-infected, a health hazard and about to fall. Preserving it was not their argument, so the answer is B.\n- 63: After the protests, Poland's government decided not to ratify ACTA for now, so the answer is B.\n\n{\"answers\": {\"56\": \"B\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2428,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 398,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 398,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.027392,
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

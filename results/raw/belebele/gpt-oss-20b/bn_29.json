@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 27.8,
+ "text": "{\"answers\": {\"232\":\"A\",\"233\":\"C\",\"234\":\"D\",\"235\":\"B\",\"236\":\"C\",\"237\":\"B\",\"238\":\"A\",\"239\":\"A\"}}",
+ "usage": {
+  "prompt_tokens": 1882,
+  "completion_tokens": 1762,
+  "total_tokens": 3644,
+  "cost": 0.000192456,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000192456,
+   "upstream_inference_prompt_cost": 3.3876e-05,
+   "upstream_inference_completions_cost": 0.00015858
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1716,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

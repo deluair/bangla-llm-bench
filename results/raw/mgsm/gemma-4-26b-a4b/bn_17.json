@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 29.0,
+ "text": "[id 170]\nHat = $25. Jacket = 3 * 25 = $75.\nAverage of Hat and Jacket = (25 + 75) / 2 = $50.\nPants = Average = $50.\nTotal per uniform = 25 + 75 + 50 = $150.\n\n[id 171]\nSpiders: 80 * 8 = 640 legs.\nInsects: 90 * 6 = 540 legs.\nMutants: 3 * 10 = 30 legs.\nTotal = 640 + 540 + 30 = 1210.\n\n[id 172]\nSally 32 = 8 years old.\nSally 4 = 8 years old.\nGranny Red = 2 * 8 = 16 years old.\nSally = 16 + 3 = 19 years old.\nThe \"four birds\" (people mentioned) are Sally (19), Granny Red (16), Sally 4 (8), and Sally 32 (8).\nTotal = 19 + 16 + 8 + 8 = 51.\n\n[id 173]\nMinimum monthly: 300 + 200 + 500 = $1000.\nJessica pays 50% more than minimum: 1000 * 1.5 = $1500 per month.\nIn one year (12 months): 1500 * 12 = $18000.\n\n[id 174]\nPeel/prep: 1.5 minutes = 90 seconds.\nCut: 5 seconds.\nTotal per potato: 90 + 5 = 95 seconds.\nTotal for 60 potatoes: 60 * 95 = 5700 seconds.\n5700 / 60 = 95 minutes.\n\n[id 175]\nCost per gallon: 3 + 2 = $5.\nRevenue per gallon: 20 glasses * $0.50 = $10.\nProfit per gallon: 10 - 5 = $5.\nTotal profit = $25.\nNumber of gallons sold: 25 / 5 = 5 gallons.\nLemon cost: 5 gallons * $3/gallon = $15.\n\n[id 176]\nTotal Asians = 240.\nJapanese = 80.\nChinese = 240 - 80 = 160.\nChinese boys = 60.\nChinese girls = 160 - 60 = 100.\n\n[id 177]\nMonthly income: $6000.\nRent: 1/4 * 6000 = 1500.\nFuel: 1/3 * 6000 = 2000.\nRemaining: 6000 - 1500 - 2000 = 2500.\nCharity: 1/2 * 2500 = 1250.\nMoney left after fixed/charity: 2500 - 1250 = 1250.\nDaughter: 200/week (Note: problem context implies weekly amounts are deducted from the monthly total. Usually, \"per month\" implies 4 weeks for these types of math problems).\nDaughter (4 weeks): 200 * 4 = 800.\nWife: 700.\nRemaining: 1250 - 800 - 700 = -250.\nWait, re-reading: If the $200 and $700 are monthly? No, it says \"weekly\" and \"budget\". If we assume the 200 and 700 are monthly deductions:\n1250 - 200 - 700 = 350.\nLet's assume the daughter's $200 is a weekly expense: 200 * 4 = 800.\n1250 - 800 - 700 = -250.\nLet's look at the phrasing again: \"He gives his daughter $200 as weekly expenses, and $700 to his wife for groceries/household\". \nIf the $200 is the total weekly amount given to her, and the $700 is the total monthly amount. \nLet's try: 6000 - (1/4 * 6000) - (1/3 * 6000) = 2500. \nCharity = 0.5 * 2500 = 1250. \nLeft = 1250.\nIf the $200 is weekly: 200 * 4 = 800. 1250 - 800 = 450. \n450 - 700 = -250.\nIf $200 is monthly: 1250 - 200 - 700 = 350.\nIf the 200 is for the daughter and 700 is for the wife, and both are considered expenses to be subtracted from the 1250.\nIf \"weekly expense $200\" refers to the daughter's amount per week: 200 * 4 = 800. 800 + 700 = 1500. This exceeds 1250.\nMaybe the \"1/4 and 1/3\" are not monthly? No, \"If Z earns $6000 per month\".\nLet's re-calculate: 6000 * (1 - 1/4 - 1/3) = 6000 * (12/12 - 3/12 - 4/12) = 6000 * 5/12 = 2500.\nCharity = 1250. Remaining = 1250.\nIf weekly 200 and monthly 700: 200*4 + 700 = 1500. 1250 - 1500 = -250.\nIs it possible \"weekly\" was a typo for monthly? If 200 and 700 are monthly: 1250 - 900 = 350.\nLet's try if $200 is the total for the month (for the daughter): 1250 - 200 - 700 = 350.\nLet's try if 200 is the weekly total of everything: No.\nLet's re-read: \"He gives $200 to his daughter as weekly expenses\" -> $800/month.\n\"$700 as budget to his wife\" -> $700/month.\nTotal monthly = $1500. \n1250 - 1500 = -250.\nIs it possible 1/4 and 1/3 are of the *remaining* amount?\n6000 - 1/4(6000) = 4500. 4500 - 1/3(4500) = 3000.\nCharity = 1/2(3000) = 1500.\nRemaining = 1500.\n1500 - 800 - 700 = 0.\nThis looks like a much cleaner answer. Let's assume the \"1/3 part\" is of the remaining after rent.\n\n[id 178]\nBoy = 40.\nMoni = 40 - 4 = 36.\nRani = 36 + 10 = 46.\nTotal = 40 + 36 + 46 = 122.\n\n[id 179]\nWeek 1: 5 hours.\nWeek 2: 8 hours.\nTotal hours: 5 + 8 = 13 hours.\nTotal earnings: 13 * $10 = $130.\n\nFinal check on 172: Sally 32 is 8. Sally 4 is 8. Granny is 16. Sally is 19. 8+8+16+19 = 51. Correct.\nFinal check on 177: If 1/4 of 6000 (1500) and 1/3 of (6000-1500=4500) is 1500. Total spent = 3000. Remainder 3000. Charity = 1500. Remainder 1500. Expenses = 800 + 700 = 1500. Remainder = 0.\n\nFinal check on 174: 1.5 mins = 90s. Cut = 5s. Total = 95s. 95 * 60 = 5700s. 5700/60 = 95 mins.\n\nFinal check on 175: Profit = 25. Rev/gal = 10. Cost/gal = 5. Profit/gal = 5. 25/5 = 5 gallons. Lemon cost = 5 * 3 = 15.\n\nFinal check on 170: 25 (hat) + 75 (jacket) + 50 (pants) = 150.\n\nFinal check on 171: 80*8=640, 90*6=540, 3*10=30. 640+540+30 = 1210.\n\nFinal check on 173: (300+200+500)*1.5 * 12 = 1000 * 1.5 * 12 = 1500 * 12 = 18000.\n\nFinal check on 176: 240 - 80 = 160 Chinese. 160 - 60 = 100 girls.\n\nFinal check on 178: Boy 40. Moni 36. Rani 46. 40+36+46 = 122.\n\nFinal check on 179: (5+8)*10 = 130.\n\n```json\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 0, \"178\": 122, \"179\": 130}}\n```",
+ "usage": {
+  "prompt_tokens": 917,
+  "completion_tokens": 2559,
+  "total_tokens": 3476,
+  "cost": 0.00141705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00141705,
+   "upstream_inference_prompt_cost": 0.00013755,
+   "upstream_inference_completions_cost": 0.0012795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Io Net",
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 0.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 0.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

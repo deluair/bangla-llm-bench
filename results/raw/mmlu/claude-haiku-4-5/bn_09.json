@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "4749",
+  "4827",
+  "4852",
+  "4864",
+  "4873",
+  "4952",
+  "5102",
+  "5184",
+  "5312",
+  "5342",
+  "5454",
+  "5561",
+  "5573",
+  "5582",
+  "5641"
+ ],
+ "seconds": 44.7,
+ "text": "# Answers to Multiple-Choice Questions\n\nLet me work through each question:\n\n**[id 4749]** Rotating sphere with friction\n- Torque: τ = F·r = 2.0 × 0.30 = 0.6 N·m\n- Angular acceleration: α = τ/I = 0.6/0.06 = 10 rad/s²\n- Time: t = ω₀/α = 20/10 = 2 s\n\n**[id 4827]** Electromagnetic wavelength order\nThe visible spectrum from longest to shortest: Red > Orange > Yellow > Green > Blue > Violet. Orange light has a longer wavelength than gamma rays, UV, and blue light.\n\n**[id 4852]** Toy cart consistency issue\nDepending on how the rubber band is initially deformed/wound, different amounts of elastic potential energy convert to translational kinetic energy (with the remainder as rotational energy), explaining the variable distances despite equal initial kinetic energy inputs.\n\n**[id 4864]** Capacitor voltage\n- Original: V = Q/C = 600/2 = 300 V\n- Three 18 μF capacitors in series: C_total = 6 μF\n- Charge per capacitor: Q = 6 × 300 = 1800 μC\n\n**[id 4873]** Standing wave formation\nStanding waves form only when the string length equals an integer multiple of half-wavelengths. If no wave forms at 60 Hz, it means the length is not a proper multiple of that wavelength.\n\n**[id 4952]** Smallest visible wavelength\nViolet (बेगुनी) light has the smallest wavelength in the visible spectrum that humans can see.\n\n**[id 5102]** Jacob's crying behavior\nThe mother reinforces (strengthens) the crying behavior by providing candy contingent on it, even if requiring it to stop first.\n\n**[id 5184]** Jared's physical response\nIncreased blood pressure and respiratory rate are hallmark responses of the sympathetic nervous system (fight-or-flight).\n\n**[id 5312]** Phineas Gage significance\nThe case was significant as one of the first well-documented examples linking specific brain region damage to personality and behavioral changes.\n\n**[id 5342]** Mental-physical connection\nThe philosophical and scientific exploration of connections between mental states and physical conditions is known as the mind-body problem.\n\n**[id 5454]** Reducing survey bias\nRandom selection alone doesn't specifically address sources of bias; the other options actively target specific bias types (non-response, response, sampling).\n\n**[id 5561]** Conditional probability\n- z-score for 80,000: (80,000-75,000)/12,000 = 0.417 → P(X > 80,000) ≈ 0.34\n- z-score for 100,000: (100,000-75,000)/12,000 = 2.083 → P(X > 100,000) ≈ 0.02\n- P(X < 100,000 | X > 80,000) ≈ (0.34-0.02)/0.34 ≈ 0.94\n\n**[id 5573]** False statement about t-distribution\nAs degrees of freedom *decrease*, the 68-95-99.7 rule works *worse*, not better.\n\n**[id 5582]** P-value for hypothesis test\n- t = (4.3-4.0)/(0.6/√16) = 0.3/0.15 = 2\n- df = 16-1 = 15\n- One-tailed test (right-side): P(t > 2) with df = 15\n\n**[id 5641]** Correlation variance explained\n- r = 0.6: explains 0.36 or 36% of variance\n- r = 0.3: explains 0.09 or 9% of variance\n- Ratio: 0.36/0.09 = 4\n\n```json\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"B\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"D\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5319,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4359,
+  "output_tokens_details": {
+   "thinking_tokens": 3281
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5319,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 4359,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5319,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5319
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032442,
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {},
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ }
+}

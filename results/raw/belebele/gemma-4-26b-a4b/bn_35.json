@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 14.4,
+ "text": "* [280] The passage mentions the central gazebo with concerts (A), the legend of lovers (B), and restaurants facing the garden (C). It mentions the \"templo de San Diego\" as the only surviving building from the 17th-century monastery (convents), but it doesn't say the *entire* monastery/convents are seen there, rather a specific building. However, looking at the options: A, B, and C are explicitly mentioned. D refers to \"Ancient Convent building\". The passage says the place was built as a monastery (মঠচর্চার জন্য) in the 17th century and only one building survives. This suggests the \"ancient convent\" (the monastery complex) is essentially what is there. Wait, let's re-read. The question asks what is *not* seen. A is there. B is there. C is there. D: \"Ancient Convent building\" (প্রাচীন কনভেন্ট ভবন). The passage says \"templo de San Diego\" is the only surviving building of the monastery. While it's part of the monastery, a single temple is not the whole convent. However, usually, in these tests, D is a distractor. Let's look closer. \"templo de San Diego\" is a building. \"Monastery\" is the function. Option D is the most likely intended answer if the question implies the whole complex. But actually, the passage says the place *was* built for monastery life. Let's check if there's anything else. Actually, looking at the Bengali: \"প্রাচীন কনভেন্ট ভবন\" is likely a translation of the monastery. If only one building remains, the \"convents\" as a whole are not there. But A, B, and C are clearly there.\n* [281] The passage says Norway has fjords and valleys (C), plateaus called \"vidda\" (A), and \"hei\" which are treeless wetlands (D). It specifically says \"vidda\" means \"treeless\" and \"hei\" means \"treeless\". Therefore, \"jungle-covered plateaus\" (B) is the correct answer because the text says they are treeless.\n* [282] The passage says \"Summer is generally the tourism season for Indian hill stations.\" Thus, C is correct.\n* [283] The passage says for the best views, go from the peninsula towards the Kowloon Waterfront opposite. So, the waterfront area (D) is where the view is sought/focused. However, the question asks which region would be interesting to a tourist prioritizing \"excellent views\". The text says: \"For the best view of Hong Kong, go from the peninsula towards the Kowloon Waterfront opposite.\" This implies the view is *of* Hong Kong, seen from the Waterfront. Let's check the options. The passage says \"Hong Kong's skyline... creates reflections in the waters of Victoria Harbour.\" The skyline is the view. Looking at the choices, \"Victoria Harbour\" (A) is where the reflection happens, but the view is *of* the skyline. The best place to go for the view is towards the \"Kowloon Waterfront\" (D).\n* [284] The passage states VPNs route *all* internet traffic, not just http (unlike web proxies). It says they have higher bandwidth and better service. It says they are encrypted. Option D says \"VPNs can only route http traffic\", which contradicts the text. So D is the false statement.\n* [285] The passage says \"Often, you have to separately buy a global number which allows PSTN phones to call you.\" So, A is required.\n* [286] The passage mentions history (A), religious importance (C), and cultural places (D). It mentions that most countries do not recognize it as the capital (political aspect), but it doesn't say \"political influence\" is a reason for its fame/popularity (it says it's a tourist center *due to religious importance*). So B is the answer.\n* [287] The passage says women must wear skirts/cover shoulders. It says women can get a wrap/robe (গায়ের জড়ানোর পোশাক) if unprepared. Men must wear trousers that cover knees, which can also be borrowed. It does *not* mention that shorts (B) can be borrowed; in fact, shorts would be improper as they don't cover the knees. The question asks which clothing *cannot* be borrowed (or is not provided). Since the text says you can borrow \"wrap-around clothes\" (D) and \"trousers\" (C) and \"skirts\" (A) (implied for women), and shorts are specifically forbidden by the rule of covering knees, B is the answer. Wait, the question is \"Which of these clothes cannot be borrowed from the monastery?\". The text says: \"most monasteries provide a wrap/robe (গায়ের জড়ানোর পোশাক) for women who are unprepared... men's trousers can also be borrowed\". It doesn't say skirts are borrowed, it says \"you might not feel comfortable wearing these skirts\" (implying they are the ones provided). However, shorts are not mentioned as being provided or even allowed.\n\nRefining 280: A, B, C are explicitly in the text. D is the most plausible \"not seen\" if we consider the monastery is gone and only one building remains.\nRefining 283: The question is \"Which region will be interesting to a tourist who prioritizes excellent views?\". The passage says \"For the best view... go... towards the Kowloon Waterfront\". This makes D the location to go to for the view.\nRefining 287: The text says women can get \"গায়ের জড়ানোর পোশাক\" (wrap/robe). Men can borrow \"trousers\". It implies the skirts are provided/borrowed. Shorts are never mentioned.\n\nFinal check:\n280: D\n281: B\n282: C\n283: D\n284: D\n285: A\n286: B\n287: B\n\n{\"answers\": {\"280\": \"D\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1631,
+  "completion_tokens": 1365,
+  "total_tokens": 2996,
+  "cost": 0.00055629,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00055629,
+   "upstream_inference_prompt_cost": 0.00014679,
+   "upstream_inference_completions_cost": 0.0004095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

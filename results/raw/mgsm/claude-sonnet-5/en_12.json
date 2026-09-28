@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 10.0,
+ "text": "**Solutions:**\n\n120: 2 pads × 30 sheets = 60 sheets/week × 4 weeks = 240\n\n121: Morisette: 5 apples + 8 oranges; Kael: 10 apples + 4 oranges → 5+8+10+4 = 27\n\n122: Mon=8, Tue&Wed=6 each (12), rest of week (4 days)=7 each (28) → 8+12+28 = 48\n\n123: 10×3=30 miles, then 5×4=20 miles → 50\n\n124: 60/3=20 newly stamped; 30 total now → 30-20 = 10 originally\n\n125: Before setting table: 12+3=15 total; minus husband's 5 → 10 in Julia's package\n\n126: 38 + (38+6) = 38+44 = 82\n\n127: Lily=50, Amy=70 → 120\n\n128: pepper=$15, watermelon=$45, orange=$40 → 4×45+20×15+10×40 = 180+300+400 = 880\n\n129: 500×24min=12000min=200 hours; doctor cost=200×150=30000; hospital revenue=200×200=40000; profit=10000\n\n```json\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1500,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 956,
+  "output_tokens_details": {
+   "thinking_tokens": 506
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1500,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 956,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1500,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1500
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.015564000000000001,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

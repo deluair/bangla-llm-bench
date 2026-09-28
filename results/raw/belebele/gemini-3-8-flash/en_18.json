@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 8.7,
+ "text": "Here is a brief reasoning for each question:\n\n- **[id 144]**: The passage states that \"A curry is a dish based on herbs and spices\", making **B** the correct choice.\n- **[id 145]**: Coffee, chamomile tea, and juice/smoothies are suggested to make at home, while bars/pubs are suggested for going out (no mention of making beer at home), so **C** is correct.\n- **[id 146]**: The passage notes that for student visas, one will need \"evidence of funds to support yourself\", so **D** is correct.\n- **[id 147]**: The text explicitly highlights timing: \"In summer, especially, you'll need to watch out for mosquitoes\", pointing to **A**.\n- **[id 148]**: The passage notes that Timbuktu \"has an airport\", which contradicts the statement that it is inaccessible by plane, making **C** the correct answer.\n- **[id 149]**: Funnels \"become 'tornadoes' when they touch the ground\", so **D** is correct.\n- **[id 150]**: The passage specifies that the commonest format is 35 mm film, which has a \"36 by 24 mm negative\", so **D** is correct.\n- **[id 151]**: The text states that \"The fabulous riches of the tomb are no longer in it\", making **D** correct.\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25268,
+  "output_tokens": 2195,
+  "thinking_tokens": 1800,
+  "cache_read_tokens": 0,
+  "total_tokens": 27463
+ },
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

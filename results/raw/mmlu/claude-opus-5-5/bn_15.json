@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "9824",
+  "9932",
+  "9955",
+  "9986",
+  "10007",
+  "10074",
+  "10093",
+  "10141",
+  "10169",
+  "10274",
+  "10388",
+  "10482",
+  "10508",
+  "10565",
+  "10623"
+ ],
+ "seconds": 12.1,
+ "text": "**Reasoning:**\n\n- **9824:** Hume holds that each mind perceives a different beauty.\n- **9932:** Plato values knowing the thing's logos, or reason — why it is the way it is.\n- **9955:** Feinberg argues the best way to get happiness is to forget about it.\n- **9986:** Socrates compares Athens to a parent.\n- **10007:** Nussbaum says the first-stage terms should be neutral between competing specifications of a virtue.\n- **10074:** I recall the textbook answer as 40,000–45,000 years ago, but I am less certain about this one.\n- **10093:** A forward-projecting lower face is called prognathous.\n- **10141:** Maya records focus mainly on the political and military history of rulers. Mesopotamian writing, by contrast, was largely economic.\n- **10169:** The Lake Forest Archaic relied on lacustrine (lake) resources. The Maritime Archaic hunted pelagic (open-sea) animals.\n- **10274:** Anatomically modern Homo sapiens date from about 200,000 years ago to the present.\n- **10388:** The General Fund records a transfer out, not an expenditure, so it shows $0. The Debt Service Fund shows $25,000 in expenditures ($5,000 interest + $20,000 principal). The permanent fund shows $0.\n- **10482:** The government-wide statement of activities reports depreciation of $800,000 ÷ 20 years = $40,000.\n- **10508:** Under LIFO, ending inventory consists of the earliest acquired goods. Option C is wrong because the LIFO conformity rule requires LIFO in financial statements too.\n- **10565:** Variable costs are $12 + $3 = $15. With a 20% contribution margin, $15 is 80% of price, so price = $15 ÷ 0.8 = $18.75.\n- **10623:** Goods consigned out stay in Stone's inventory at cost plus freight: $36,000 + $1,800 = $37,800. Gamma's goods held on consignment are not Stone's.\n\n{\"answers\": {\"9824\": \"B\", \"9932\": \"B\", \"9955\": \"C\", \"9986\": \"B\", \"10007\": \"C\", \"10074\": \"D\", \"10093\": \"B\", \"10141\": \"A\", \"10169\": \"B\", \"10274\": \"D\", \"10388\": \"D\", \"10482\": \"C\", \"10508\": \"D\", \"10565\": \"B\", \"10623\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4139,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1371,
+  "output_tokens_details": {
+   "thinking_tokens": 573
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4139,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1371,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4139,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4139
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.060540000000000004,
+ "answers_batch": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "C",
+  "9986": "B",
+  "10007": "C",
+  "10074": "D",
+  "10093": "B",
+  "10141": "A",
+  "10169": "B",
+  "10274": "D",
+  "10388": "D",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ },
+ "single": {},
+ "answers": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "C",
+  "9986": "B",
+  "10007": "C",
+  "10074": "D",
+  "10093": "B",
+  "10141": "A",
+  "10169": "B",
+  "10274": "D",
+  "10388": "D",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ }
+}

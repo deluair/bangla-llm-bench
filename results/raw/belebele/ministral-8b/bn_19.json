@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 3.8,
+ "text": "1. The least appealing destination for budget-conscious travelers according to the passage is **D) Whistler**, as it is described as \"expensive\" despite being famous due to the 2010 Winter Olympics.\n\n2. The passage suggests **D) Taking photos in crowded areas where the drone won't be noticed** is not recommended when using drones for filming.\n\n3. The statement that is not true is **B) In all countries, registration with local authorities is required**.\n\n4. The subject that is unlikely to be included in professional training classes or publications is **A) Surviving in remote areas**, as the passage mentions that books and magazines on this topic are useful but publications related to war zones are rare.\n\n5. The activity that is nearly impossible even for skilled swimmers is **C) Swimming against the current**.\n\n6. The situation where a wildlife photographer would need a specific lens is **A) When photographing particularly small creatures**.\n\n7. The situation that would cause the least problem for a driver traveling through mountainous regions is **A) Heavy traffic**.\n\n8. The problem that can occur when converting a movie to DVD format is **B) Subtitles being partially cut off**.\n\n```json\n{\n  \"answers\": {\n    \"152\": \"D\",\n    \"153\": \"D\",\n    \"154\": \"B\",\n    \"155\": \"A\",\n    \"156\": \"C\",\n    \"157\": \"A\",\n    \"158\": \"A\",\n    \"159\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 3005,
+  "completion_tokens": 330,
+  "total_tokens": 3335,
+  "cost": 0.00050025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00050025,
+   "upstream_inference_prompt_cost": 0.00045075,
+   "upstream_inference_completions_cost": 4.95e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

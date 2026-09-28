@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 100.2,
+ "text": "An analysis of each question based on the provided passages:\n\n- **[id 152]**: The passage states that Whistler is \"expensive,\" making it the least appealing destination for price-conscious travelers. **(D)**\n- **[id 153]**: Flying a drone over a crowd is explicitly described as \"almost always a bad idea.\" **(D)**\n- **[id 154]**: The passage notes registration is required only \"In some countries,\" making the claim that \"All countries require registration\" false. **(B)**\n- **[id 155]**: The text states that \"publications dealing with war zones are few,\" so war zone readiness is the least likely to be covered in publications. **(C)**\n- **[id 156]**: The passage notes that most fatalities occur from fatigue when \"trying to swim back against the current, which may be impossible.\" **(C)**\n- **[id 157]**: The text mentions that while long telephoto lenses are standard, \"things like a flock of birds or a tiny creature need other lenses.\" **(A)**\n- **[id 158]**: Low friction, condensation, and reduced visibility are highlighted as hazards, whereas the passage notes that \"traffic goes on mostly uninterrupted all year round.\" **(A)**\n- **[id 159]**: Due to overscan, \"if the video had subtitles too close to the bottom, they won't be fully shown.\" **(B)**\n\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 109063,
+  "output_tokens": 9519,
+  "thinking_tokens": 5395,
+  "cache_read_tokens": 607080,
+  "total_tokens": 118582
+ },
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

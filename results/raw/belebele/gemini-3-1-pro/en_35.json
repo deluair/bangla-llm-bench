@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 20.5,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n**[id 280]** \nThe passage lists \"Callejon del Beso (Alley of the Kiss)\" as a separate location where the old love legend takes place, not within Jardín de la Unión.\nAnswer: B\n\n**[id 281]**\nThe passage explicitly describes the plateaus in Norway as a \"wide, open treeless space\" and \"treeless moorland\", which makes forested plateaus atypical.\nAnswer: B\n\n**[id 282]**\nThe passage states that \"The tourist season for the hill stations generally peaks during the Indian summer,\" meaning this is when there are the most tourists.\nAnswer: C\n\n**[id 283]**\nThe passage advises tourists to \"leave the island and head for the Kowloon waterfront opposite\" to get the best views of Hong Kong.\nAnswer: D\n\n**[id 284]**\nThe passage states that VPNs are superior because \"They re-route all Internet traffic, not only http,\" making statement D false.\nAnswer: D\n\n**[id 285]**\nThe passage explicitly states that \"Often, you have to buy a global number separately that allows PSTN phones to call you.\"\nAnswer: A\n\n**[id 286]**\nWhile the passage mentions that Jerusalem is a capital city with fascinating history, religious significance, and cultural sites, it never explicitly discusses its \"political influence.\"\nAnswer: B\n\n**[id 287]**\nThe passage mentions skirts, trousers, and wraps being either worn or borrowed, but it explicitly states that both men and women must cover their knees, making shorts unacceptable and not provided.\nAnswer: B\n\n```json\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17362,
+  "output_tokens": 2224,
+  "thinking_tokens": 1772,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19586
+ },
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

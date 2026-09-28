@@ -1,0 +1,262 @@
+{
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  2143,
+  2159,
+  2319,
+  2348,
+  2355,
+  2448,
+  2457,
+  2459,
+  2557,
+  2567,
+  2573,
+  2582,
+  2628,
+  2632,
+  2636
+ ],
+ "seconds": 0.7,
+ "text": "We need to solve 15 multiple-choice questions. Let’s go through each one.\n\n---\n\n**[id 2143]: Convert 2 cups to 3 quarts to a fraction in simplest form.**\n\nRecall: 1 quart = 4 cups → 3 qt = 12 cups  \nSo 2 cups to 3 qt = 2/12 = 1/6\n\n✅ Answer: D) 1 over 6\n\n---\n\n**[id 2159]: GCF of 42 and 84?**\n\n84 is divisible by 42 → 84 = 2×42  \nSo GCF(42,84) = 42\n\n✅",
+ "usage": {
+  "queue_time": 0.09947058,
+  "prompt_tokens": 1424,
+  "prompt_time": 0.114392799,
+  "completion_tokens": 157,
+  "completion_time": 0.312144844,
+  "total_tokens": 1581,
+  "total_time": 0.426537643
+ },
+ "served_by": null,
+ "answers": {
+  "2159": "C",
+  "2319": "A",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "A",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ },
+ "answers_batch": {},
+ "single": {
+  "2143": {
+   "text": "",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 105,
+    "prompt_time": 0.007669368,
+    "completion_tokens": 1,
+    "completion_time": 0.002178058,
+    "total_tokens": 106,
+    "total_time": 0.009847426
+   },
+   "answer": null
+  },
+  "2159": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.242247732,
+    "prompt_tokens": 92,
+    "prompt_time": 0.007912507,
+    "completion_tokens": 2,
+    "completion_time": 0.004162991,
+    "total_tokens": 94,
+    "total_time": 0.012075498
+   },
+   "answer": "C"
+  },
+  "2319": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.912307409,
+    "prompt_tokens": 111,
+    "prompt_time": 0.009668089,
+    "completion_tokens": 2,
+    "completion_time": 0.004187441,
+    "total_tokens": 113,
+    "total_time": 0.01385553
+   },
+   "answer": "A"
+  },
+  "2348": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.262014993,
+    "prompt_tokens": 141,
+    "prompt_time": 0.012677102,
+    "completion_tokens": 2,
+    "completion_time": 0.004188381,
+    "total_tokens": 143,
+    "total_time": 0.016865483
+   },
+   "answer": "B"
+  },
+  "2355": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.052343269,
+    "prompt_tokens": 132,
+    "prompt_time": 0.011528432,
+    "completion_tokens": 2,
+    "completion_time": 0.004175381,
+    "total_tokens": 134,
+    "total_time": 0.015703813
+   },
+   "answer": "A"
+  },
+  "2448": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.201851636,
+    "prompt_tokens": 159,
+    "prompt_time": 0.013646083,
+    "completion_tokens": 2,
+    "completion_time": 0.005149841,
+    "total_tokens": 161,
+    "total_time": 0.018795924
+   },
+   "answer": "D"
+  },
+  "2457": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.111100876,
+    "prompt_tokens": 165,
+    "prompt_time": 0.015604115,
+    "completion_tokens": 2,
+    "completion_time": 0.004180571,
+    "total_tokens": 167,
+    "total_time": 0.019784686
+   },
+   "answer": "A"
+  },
+  "2459": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.116717943,
+    "prompt_tokens": 123,
+    "prompt_time": 0.009969092,
+    "completion_tokens": 2,
+    "completion_time": 0.004194149,
+    "total_tokens": 125,
+    "total_time": 0.014163241
+   },
+   "answer": "D"
+  },
+  "2557": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.156494362,
+    "prompt_tokens": 171,
+    "prompt_time": 0.012453441,
+    "completion_tokens": 2,
+    "completion_time": 0.004121478,
+    "total_tokens": 173,
+    "total_time": 0.016574919
+   },
+   "answer": "D"
+  },
+  "2567": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.309096613,
+    "prompt_tokens": 176,
+    "prompt_time": 0.015561945,
+    "completion_tokens": 2,
+    "completion_time": 0.004190311,
+    "total_tokens": 178,
+    "total_time": 0.019752256
+   },
+   "answer": "C"
+  },
+  "2573": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 1.71747111,
+    "prompt_tokens": 117,
+    "prompt_time": 0.008407914,
+    "completion_tokens": 2,
+    "completion_time": 0.004374036,
+    "total_tokens": 119,
+    "total_time": 0.01278195
+   },
+   "answer": "B"
+  },
+  "2582": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.083104798,
+    "prompt_tokens": 94,
+    "prompt_time": 0.007834767,
+    "completion_tokens": 2,
+    "completion_time": 0.0042475,
+    "total_tokens": 96,
+    "total_time": 0.012082267
+   },
+   "answer": "A"
+  },
+  "2628": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.044770298,
+    "prompt_tokens": 217,
+    "prompt_time": 0.018153351,
+    "completion_tokens": 2,
+    "completion_time": 0.00419121,
+    "total_tokens": 219,
+    "total_time": 0.022344561
+   },
+   "answer": "B"
+  },
+  "2632": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.050784631,
+    "prompt_tokens": 113,
+    "prompt_time": 0.009105146,
+    "completion_tokens": 2,
+    "completion_time": 0.00419213,
+    "total_tokens": 115,
+    "total_time": 0.013297276
+   },
+   "answer": "C"
+  },
+  "2636": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.068698427,
+    "prompt_tokens": 89,
+    "prompt_time": 0.007590549,
+    "completion_tokens": 2,
+    "completion_time": 0.004195251,
+    "total_tokens": 91,
+    "total_time": 0.0117858
+   },
+   "answer": "B"
+  }
+ }
+}

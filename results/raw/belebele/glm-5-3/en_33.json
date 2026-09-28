@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 6.3,
+ "text": "Brief reasoning:\n\n- **264**: The passage says canyoning combines swimming with other activities, so swimming ability may be necessary. → D\n- **265**: Decisive victory over the Spanish was not achieved until 1818, not 1810. → B\n- **266**: Water would make ice more slippery, not improve traction; sand, gravel, and salt improve traction. → D\n- **267**: The passage states the Cook Islands have no cities—Rarotonga and Aitutaki are main islands, not cities. → C\n- **268**: Travelers who adjusted easily to the new culture may have a particularly hard time readjusting to their native culture. → B\n- **269**: The passage says moose aren't inherently aggressive, so stating they are naturally aggressive is not true. → A\n- **270**: A reputation for unique wildlife describes Madagascar, not the smaller islands (which are known as luxury beach resorts). → C\n- **271**: High-end frames may be knock-offs (fake). → C\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 468,
+  "completion_tokens_details": {
+   "reasoning_tokens": 185
+  },
+  "prompt_tokens": 1368,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1836
+ },
+ "served_by": null,
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

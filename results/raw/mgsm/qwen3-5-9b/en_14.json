@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 60.7,
+ "text": "\n\n[id 140]\nTotal cars = 20.\nAutomatic = 12.\nManual = 4.\nSemi-automatic = 20 - 12 - 4 = 4.\nPercentage = (4 / 20) * 100 = 20%.\n\n[id 141]\nLet Q = Queens.\nBabies = 2Q.\nWorker bees = 2 * Babies = 4Q.\nTotal = Q + 2Q + 4Q = 7Q = 700.\nQ = 100.\nWorker bees = 4 * 100 = 400.\n\n[id 142]\nHours per week = 2 hours/day * 7 days = 14 hours.\nWage = $10/hour.\nEarnings = 14 * 10 = $140.\n\n[id 143]\nFood items: Milk ($2) + Eggs ($3) = $5.\nNon-food items: Light bulbs ($3) + Cups ($3) + Roach traps ($4) = $10.\nTax on non-food = 10% of $10 = $1.\nTotal cost = Food ($5) + Non-food ($10) + Tax ($1) = $16.\n\n[id 144]\nClients = 3 existing + 5 potential = 8 clients.\nExpenses per client = (2 * $2) + $5 = $9.\nTotal Expenses = 8 * $9 = $72.\nTotal Income = $92.\nProfit = Income - Expenses = $92 - $72 = $20.\n\n[id 145]\nPineapples per hectare = 100.\nTotal field = 10 hectares.\nPineapples per harvest = 1000.\nHarvests per year = 12 months / 3 months = 4.\nTotal pineapples = 1000 * 4 = 4000.\n\n[id 146]\nSet 1 = 500 pieces.\nSet 2 = \"3 times more pieces than the 500 piece one\". (Strict interpretation: 500 + 3*500 = 2000. Alternative colloquial: 3*500 = 1500. Given distinction with \"times as many\" in problem 149, strict interpretation used).\nSet 2 = 2000 pieces.\nSet 3 = \"1/4 the number of pieces\" (of Set 1) = 500 / 4 = 125.\nTotal = 500 + 2000 + 125 = 2625.\n\n[id 147]\nPeriod 1 (0-6h): 30 leave. (Outflow = 30).\nPeriod 2 (6-12h): 1/2 return (15). (Outflow = 30 - 15 = 15).\nPeriod 3 (12-18h): 2 * 30 = 60 leave. (Outflow = 15 + 60 = 75).\nPeriod 4 (18-24h): All bees that hadn't returned return.\nBees left = 30 (P1) + 60 (P3) = 90.\nBees returned previously = 15.\nBees remaining out = 90 - 15 = 75.\nReturns in last 6 hours = 75.\n\n[id 148]\nTotal Cost = $12 (adult) + $10 (child) = $22.\nChange = $8.\nPaid = Cost + Change = $22 + $8 = $30.\n\n[id 149]\nCharlie = 3 * Dorothy = 12. (Dorothy = 4).\nJames = 4 * Dorothy = 4 * 4 = 16.\n\n140: 20\n141: 400\n142: 140\n143: 16\n144: 20\n145: 4000\n146: 2625\n147: 75\n148: 30\n149: 16\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2625, \"147\": 75, \"148\": 30, \"149\": 16}}",
+ "usage": {
+  "prompt_tokens": 848,
+  "completion_tokens": 9896,
+  "total_tokens": 10744,
+  "cost": 0.0015692,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015692,
+   "upstream_inference_prompt_cost": 8.48e-05,
+   "upstream_inference_completions_cost": 0.0014844
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8791,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2625.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2625.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

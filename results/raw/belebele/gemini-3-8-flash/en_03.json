@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 10.2,
+ "text": "Here are the brief justifications for each question:\n\n- **[id 24] C**: The rule of thirds is a guideline to create dynamism and order, suggesting where the subject is most effectively placed rather than keeping/forcing it into a rigid, specific location.\n- **[id 25] C**: The passage states that many common formats are equal to or closely approximate the 3:2 aspect ratio of the 35mm format, making C false.\n- **[id 26] D**: Mysticism is distinguished from (rather than comparable to) other forms of religious worship specifically by its emphasis on direct personal experience.\n- **[id 27] C**: The passage specifies \"some regions\" in northeast Afghanistan, not \"all regions.\"\n- **[id 28] D**: The text explicitly states that expenditures \"were paid for by the Filipino people themselves.\"\n- **[id 29] A**: The passage mentions sedatives for surgical use/aftermath of battles, but makes no mention of treating post-traumatic stress disorder.\n- **[id 30] A**: The passage explicitly states that vision \"depends on visual system sensory organs or eyes.\"\n- **[id 31] B**: The passage states that \"The guru is a fundamental aspect of all Indian religions,\" so it is not unique to Sikhism.\n\n{\"answers\": {\"24\": \"C\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25352,
+  "output_tokens": 2767,
+  "thinking_tokens": 2420,
+  "cache_read_tokens": 0,
+  "total_tokens": 28119
+ },
+ "answers_batch": {
+  "24": "C",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "C",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

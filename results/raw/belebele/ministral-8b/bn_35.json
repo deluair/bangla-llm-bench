@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 8.1,
+ "text": "Here are the answers based on the reasoning:\n\n- **[id 280]**: The passage mentions \"কনসার্ট সমেত সেন্ট্রাল গেজেবো\" (Central Gazebo with concerts), \"বাগানের দিকে মুখ করা রেস্তোঁরা\" (restaurants facing the garden), and \"ক্যালেজন দেল বেসো\" (ancient lovers' abode), but **D) প্রাচীন কনভেন্ট ভবন** (ancient convent building) is not mentioned as present in Jardín de la Unión.\n- **[id 281]**: The passage describes \"উন্মুক্ত বিস্তৃত ভূমি\" (open, treeless plains) and \"খাড়া সমুদ্রের খাঁড়ি\" (steep fjords) as common in Norway, but **B) জঙ্গলে ঘেরা মালভূমি** (forested plateaus) is not mentioned; instead, it mentions \"গাছহীন জলাভূমি\" (treeless wetlands).\n- **[id 282]**: The passage states that the peak tourist season in the hill stations is during the **Indian summer (গ্রীষ্ম)**, not during winter or snowfall.\n- **[id 283]**: The passage emphasizes that the **ভিক্টোরিয়া হার্বার** (Victoria Harbour) offers stunning views, particularly from the **কোলউন ওয়াটারফ্রন্ট অপোজিট** (Kowloon Waterfront). However, the question asks for the area that would be interesting for tourists seeking **charming views**, which is best represented by **A) ভিক্টোরিয়া হার্বার** (Victoria Harbour).\n- **[id 284]**: The passage states that VPNs route **all internet traffic**, not just HTTP, which makes **D) VPN গুলির মাধ্যমে কেবল http ট্র্যাফিককেই পুনরায় রুট করা সম্ভব** false.\n- **[id 285]**: The passage mentions that to receive certain calls, you may need to **A) একটি গ্লোবাল নম্বর ক্রয়** (purchase a global number).\n- **[id 286]**: The passage does not mention **B) রাজনৈতিক প্রভাব** (political influence) as a reason for Jerusalem's fame.\n- **[id 287]**: The passage mentions that **B) শর্টস** (shorts) are not suitable attire for visiting monasteries.\n\n---\n```json\n{\n  \"answers\": {\n    \"280\": \"D\",\n    \"281\": \"B\",\n    \"282\": \"C\",\n    \"283\": \"A\",\n    \"284\": \"D\",\n    \"285\": \"A\",\n    \"286\": \"B\",\n    \"287\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2547,
+  "completion_tokens": 629,
+  "total_tokens": 3176,
+  "cost": 0.0004764,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004764,
+   "upstream_inference_prompt_cost": 0.00038205,
+   "upstream_inference_completions_cost": 9.435e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "A",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "A",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

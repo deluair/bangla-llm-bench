@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 5.2,
+ "text": "[id 56] **A) জার্মানি**\nThe passage mentions that Germany planned the invasion of the British Isles, codenamed \"Operation Sea Lion.\"\n\n[id 57] **D) ব্রিটিশ ঘাঁটিকে ধ্বংস করে দেওয়া**\nThe passage states that Italy needed to \"free\" British bases and ships in Egypt, not destroy them.\n\n[id 58] **D) সোভিয়েত ইউনিয়নবাসী**\nThe passage clearly states that the Soviet Union violated the peace treaty by invading Eastern Poland.\n\n[id 59] **D) প্রথম ব্যক্তিকে রাইড থেকে উদ্ধার করতে অন্তত 60 মিনিট সময় লেগেছিল**\nThe passage says it took at least one hour (not 60 minutes), so this statement is false.\n\n[id 60] **D) কারাগারটি জ্বালিয়ে দেয়া হয়েছিল**\nThe passage states that the prison was burned down during the riot, but the question asks what happened *during* the riot, which was the riot itself and the subsequent burning.\n\n[id 61] **B) স্থানীয় লাইব্রেরীর**\nThe passage mentions that each episode would recommend books for children to find in their libraries, but the recommendation was for books, not libraries themselves.\n\n[id 62] **B) এটাকে সংরক্ষণ করা উচিত**\nThe officials argued that the tree should be cut down due to health risks and instability, not that it should be preserved.\n\n[id 63] **B) পোল্যান্ড**\nThe passage states that Poland refused to ratify the ACTA agreement due to the protests.\n\n```json\n{\n  \"answers\": {\n    \"56\": \"A\",\n    \"57\": \"D\",\n    \"58\": \"D\",\n    \"59\": \"D\",\n    \"60\": \"D\",\n    \"61\": \"D\",\n    \"62\": \"B\",\n    \"63\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2506,
+  "completion_tokens": 434,
+  "total_tokens": 2940,
+  "cost": 0.000441,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000441,
+   "upstream_inference_prompt_cost": 0.0003759,
+   "upstream_inference_completions_cost": 6.51e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "56": "A",
+  "57": "D",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "A",
+  "57": "D",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 30.0,
+ "text": "{\"answers\":{\"144\":\"B\",\"145\":\"C\",\"146\":\"D\",\"147\":\"A\",\"148\":\"C\",\"149\":\"D\",\"150\":\"D\",\"151\":\"D\"}}",
+ "usage": {
+  "prompt_tokens": 2310,
+  "completion_tokens": 6409,
+  "total_tokens": 8719,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6372
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2310
+ },
+ "served_by": null,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

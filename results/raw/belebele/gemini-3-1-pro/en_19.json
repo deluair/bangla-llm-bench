@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 48.2,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages.\n\n152. **D** - The passage explicitly states that \"Whistler... is expensive\". \n153. **D** - The passage advises that \"Flying a drone near an airport or over a crowd is almost always a bad idea\".\n154. **B** - The passage states that \"In *some* countries, you must register your presence\", making the statement that *all* countries require it untrue.\n155. **C** - The passage specifically points out that \"publications dealing with war zones are few,\" making war zone readiness the most likely issue not to be covered in publications.\n156. **C** - The passage states that \"Most deaths happen as result of fatigue trying to swim back against the current, which may be impossible.\"\n157. **A** - The passage notes that \"things like a flock of birds or a tiny creature need other lenses.\"\n158. **A** - Heavy traffic is the only option not listed as a problem; in fact, the passage says \"traffic goes on mostly uninterrupted all year round.\"\n159. **B** - The passage highlights that due to overscan cutting the borders, \"if the video had subtitles too close to the bottom, they won't be fully shown.\"\n\n```json\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17482,
+  "output_tokens": 6231,
+  "thinking_tokens": 5872,
+  "cache_read_tokens": 8141,
+  "total_tokens": 23713
+ },
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

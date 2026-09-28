@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 15.0,
+ "text": "Here are the answers to the multiple-choice questions, followed by the JSON output:\n\n1.  [id 10694] **C** - The woman's emotional distress and miscarriage were a direct result of the friend's outrageous conduct, establishing a strong case for emotional distress.\n\n2.  [id 11167] **C** - The carpeting company's actions created a situation where the workman was induced to perform the work under false pretenses. The workman didn't have a contract with the company directly, but was induced into the contract by the intermediary.\n\n3.  [id 11431] **C** - The sign clearly communicated a danger, and the passenger's attempt to disregard it constitutes contributory negligence. The city’s assumption of risk defense is not applicable when the danger was readily apparent.\n\n4.  [id 11486] **B** - The double jeopardy clause prevents multiple prosecutions for the same offense based on the same conduct. Because the offenses are identical in State A and State B, a second prosecution is barred.\n\n5.  [id 11690] **C** - The police reasonably believed they were searching the defendant's residence when entering the upstairs bedroom. The warrant did not specifically name the defendant, although it did cover the property.\n\n6.  [id 12239] **D** - Repositioning the chest tube is the most appropriate immediate step to address the air leak and the patient's deteriorating condition.\n\n7.  [id 12247] **B** - The symptoms described (anxiety, hyperactivity, insomnia before menses, depression, anorexia, irritability, lethargy) are characteristic of a mixed episode of bipolar disorder.\n\n8.  [id 12303] **B** - Oral doxycycline therapy is the most appropriate initial treatment for a suspected aphthous ulcer, given the history of recurrent lesions and the characteristic acetic acid reaction.\n\n9.  [id 12421] **D** - Treating the symptoms of urticaria with antihistamines is the most appropriate course of action, as there's no indication of an underlying allergic condition requiring further investigation at this stage.\n\n10. [id 12423] **A** - The described finding (brown, irregular mass behind the tympanic membrane) strongly suggests epithelial tissue proliferation, which is characteristic of cholesteatoma.\n\n11. [id 12582] **B** - Competency evaluations focus on the defendant’s ability to understand the charges and assist in their own defense.\n\n12. [id 12609] **C** - Mothers' memories are most accurate regarding child-rearing practices, as these are often the most consciously recalled and experienced aspects of parenting.\n\n13. [id 12674] **A** - A significantly higher Verbal IQ than Performance IQ suggests a strong verbal ability with potential weaknesses in visual-spatial or performance-based tasks, often indicative of a learning disability.\n\n14. [id 12915] **A** -  In most therapy settings, the therapist \"holds the privilege\" regarding the therapeutic relationship and process.\n\n15. [id 13027] **C** - Discussing the ethical violation with the supervisor is the most responsible course of action, as it allows for a potential correction of the practice without immediately abandoning the position.\n\n```json\n{\"answers\": {\"10694\": \"C\", \"11167\": \"C\", \"11431\": \"C\", \"11486\": \"B\", \"11690\": \"C\", \"12239\": \"D\", \"12247\": \"B\", \"12303\": \"B\", \"12421\": \"D\", \"12423\": \"A\", \"12582\": \"B\", \"12609\": \"C\", \"12674\": \"A\", \"12915\": \"A\", \"13027\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 2537,
+  "completion_tokens": 898,
+  "total_tokens": 3435,
+  "cost": 0.00021665,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021665,
+   "upstream_inference_prompt_cost": 0.00012685,
+   "upstream_inference_completions_cost": 8.98e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10694": "C",
+  "11167": "C",
+  "11431": "C",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "B",
+  "12303": "B",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "A",
+  "13027": "C"
+ },
+ "answers_batch": {
+  "10694": "C",
+  "11167": "C",
+  "11431": "C",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "B",
+  "12303": "B",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "A",
+  "13027": "C"
+ },
+ "single": {}
+}

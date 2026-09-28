@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 59.0,
+ "text": "# Math Problem Solutions\n\nLet me work through each problem:\n\n**[id 70]** Judy teaches 5 classes daily + 8 on Saturday = 5×6 + 8 = 38 classes/week\nRevenue per class: 15 students × $15 = $225\nWeekly earnings: 38 × $225 = **$8,550**\n\n**[id 71]** Recipe 1: 20 instructions, Recipe 2: 20×2 = 40 instructions\nTotal: 20 + 40 = **60**\n\n**[id 72]** Brownies: 43 × $3 = $129; Cheesecake: 23 × $4 = $92\nTotal: $129 + $92 = **$221**\n\n**[id 73]** Total cost: 5 × $150 = $750\nWith 2% interest: $750 + $15 = $765\nMonthly payment: $765 ÷ 3 = **$255**\n\n**[id 74]** Rounding prices: Marigold $2.74→$3, Petunia $1.87→$2, Begonia $2.12→$2\nRevenue: (12×$3) + (9×$2) + (17×$2) = $36 + $18 + $34 = **$88**\n\n**[id 75]** Levels (top to bottom): 16, 32, 64, 128 sq ft\nAverage: (16 + 32 + 64 + 128) ÷ 4 = 240 ÷ 4 = **60**\n\n**[id 76]** First 180 days: 180 × 1 = 180 cups\nRemaining 185 days: 185 × 2 = 370 cups\nTotal: 550 cups ÷ 110 cups/bag = **5**\n\n**[id 77]** Sara: 400 lbs, Raymond: 400÷2 = 200 lbs, David: 400÷4 = 100 lbs\nDifference: 200 - 100 = **100**\n\n**[id 78]** Option 1: $2.50÷3 = $0.833/item; Option 2: $1÷2 = $0.50/item (better)\nCost at better price: 18÷2 × $1 = $9; At worse price: 18÷3 × $2.50 = $15\nSavings: $15 - $9 = **$6**\n\n**[id 79]** Original cost: $100; Discount: 30% = $30\nFinal cost: $100 - $30 = **$70**\n\n```json\n{\"answers\": {\"70\": 8550, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}\n```",
+ "usage": {
+  "input_tokens": 2481,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6048,
+  "output_tokens_details": {
+   "thinking_tokens": 5307
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2481,
+    "output_tokens": 6048,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032721,
+ "answers_batch": {
+  "70": 8550.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 8550.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

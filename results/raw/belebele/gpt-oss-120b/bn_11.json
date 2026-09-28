@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 4.3,
+ "text": "{\"answers\": {\"88\": \"B\", \"89\": \"D\", \"90\": \"B\", \"91\": \"B\", \"92\": \"C\", \"93\": \"C\", \"94\": \"D\", \"95\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.224048445,
+  "prompt_tokens": 1931,
+  "prompt_time": 0.088964886,
+  "completion_tokens": 1835,
+  "completion_time": 3.841104385,
+  "total_tokens": 3766,
+  "total_time": 3.930069271,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1775
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ }
+}

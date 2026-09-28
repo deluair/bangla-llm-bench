@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 62.4,
+ "text": "\n\nid 1680: A (Natural processes tend from order to disorder; Higher Order to Lower Order).\nid 1726: D (Acceleration $a = \\frac{m_1 g}{m_1 + m_2}$ which is between 0 and $g$).\nid 1753: B (Pitch is related to frequency).\nid 1772: B (Impulse-Momentum from Newton's 2nd Law).\nid 1773: A (Reactors heat water to drive turbines).\nid 1820: B (Negative autocorrelation shows alternating signs in residuals).\nid 1850: A (Both ACF and PACF decay geometrically for ARMA).\nid 1873: A (Ordering doesn't matter for variance decomposition decomposition in some contexts or statement iii implies it doesn't, but in standard VAR theory it's crucial; however, options A excludes iii. Statement i is slightly loose, but A is the best fit among available logic that removes the explicitly false iii).\nid 1892: C (Residual = Actual - Fitted).\nid 1895: B (Multinomial logit for >2 unordered choices).\nid 1929: B (LC oscillators typically 100 kHz - 500 MHz).\nid 1995: D (Electrode needs conductivity, thermal conductivity, and strength).\nid 1998: D (Heat sink requirements include conductivity, surface area geometry, melting point stability).\nid 2004: A (Parallel capacitance sums: $4 \\times 40 = 160$).\nid 2043: D (RC and RL networks have alternating poles/zeros on negative real axis).\n\n{\"answers\": {\"1680\": \"A\", \"1726\": \"D\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"A\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1159,
+  "completion_tokens": 10119,
+  "total_tokens": 11278,
+  "cost": 0.00163375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00163375,
+   "upstream_inference_prompt_cost": 0.0001159,
+   "upstream_inference_completions_cost": 0.00151785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9583,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers": {
+  "1680": "A",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "answers_batch": {
+  "1680": "A",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {}
+}

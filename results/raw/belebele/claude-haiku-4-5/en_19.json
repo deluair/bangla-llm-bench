@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 21.3,
+ "text": "Looking at each question:\n\n**[id 152]**: The passage explicitly states Whistler is \"expensive but well-known\" - making it the least appealing to price-conscious travelers.\n\n**[id 153]**: The passage recommends checking permits in advance (A), obtaining additional licensing (B), and researching permits (C). However, it explicitly warns against \"Flying a drone near an airport or over a crowd is almost always a bad idea\" - contradicting option D.\n\n**[id 154]**: The passage states \"In some countries\" require registration, not all countries. All other statements are supported by the passage.\n\n**[id 155]**: The passage notes that \"Books and magazines dealing with wilderness survival are common, but publications dealing with war zones are few.\" In the context of war zone preparation, wilderness survival (A) would be the least covered topic compared to first aid (B), war zone readiness (C), and role playing (D).\n\n**[id 156]**: The passage explicitly states \"Most deaths happen as result of fatigue trying to swim back against the current, which may be impossible.\"\n\n**[id 157]**: The passage states \"Wildlife photography often requires a long telephoto lens, though things like a flock of birds or a tiny creature need other lenses.\"\n\n**[id 158]**: The passage concludes that \"traffic goes on mostly uninterrupted all year round\" in places with normal winter conditions, suggesting heavy traffic (A) is least problematic compared to low friction (B), condensation (C), and visibility issues (D).\n\n**[id 159]**: The passage specifically warns that if \"the video had subtitles too close to the bottom, they won't be fully shown\" due to overscan.\n\n```json\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"A\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1944,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2042,
+  "output_tokens_details": {
+   "thinking_tokens": 1599
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1944,
+    "output_tokens": 2042,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012154,
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

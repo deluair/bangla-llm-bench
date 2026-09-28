@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 20.1,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 80]** The passage states \"No major injuries were reported, but at least five people on scene at the time of the explosion were treated for symptoms of shock.\" The question asks specifically about serious injuries. Since no major injuries were reported, the answer is B) No one.\n\n**[id 81]** The passage explicitly mentions: \"baseball and softball, which were voted out of the Olympic Games in 2005.\" The other sports either were included (rugby) or merely attempted to gain inclusion. Answer: C) Baseball.\n\n**[id 82]** The passage states: \"Prior to the arrival of troops, Haiti had not encountered problems related to the disease since the 1800s.\" This directly answers the question. Answer: A) The 1800s.\n\n**[id 83]** The passage directly quotes: \"the suspected male offender is being investigated for trespassing rather than vandalism.\" Answer: A) Trespassing.\n\n**[id 84]** The passage explicitly states: \"The speeds of 802.11n are substantially faster than that of its predecessors with a maximum theoretical throughput of 600Mbit/s.\" Answer: A) 802.11n.\n\n**[id 85]** The passage indicates that pig catchers, mosquito curtains, and pesticides are being actively deployed. However, it states that vaccine distribution plans \"were delayed due to lack of funds\" and will be delivered in the future, making vaccines the last measure to be implemented. Answer: C) Encephalitis vaccines.\n\n**[id 86]** The passage states: \"The failure of the second sentence, which proposes to ban same-sex civil unions, could possibly open the door for civil unions in the future.\" Answer: B) A future right to same-sex civil unions.\n\n**[id 87]** The passage opens with: \"leaked to the press in spring 2016.\" Answer: B) The press.\n\n```json\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1796,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2098,
+  "output_tokens_details": {
+   "thinking_tokens": 1605
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1796,
+    "output_tokens": 2098,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012286,
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

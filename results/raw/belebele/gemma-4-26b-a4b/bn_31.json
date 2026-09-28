@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 10.8,
+ "text": "The questions are answered based on the provided Bengali passages:\n\n[248] The passage states: \"১৯৮৯ সালে তিনি ব্রুকস এবং গ্রোনিংয়ের সাথে সিম্পসনস তৈরিতে সাহায্য করেছিলেন এবং শোয়ের প্রথম লেখক দলের নিয়োগের জন্য দায়িত্বপ্রাপ্ত হয়েছিলেন।\" (In 1989, he helped create the Simpsons with Brooks and Groening and was responsible for hiring the show's first writing team). The \"he\" refers to Simon (সায়মন). **Answer: B**\n\n[249] The passage states: \"...বলেছিলেন যে সম্ভাব্য মামলার সুনির্দিষ্ট বিষয়ে মন্তব্য করা অনৈতিক হবে।\" (...said that it would be unethical to comment on specific matters of potential cases). **Answer: D**\n\n[250] The passage states: \"আলোকরশ্বি এবং ঘূর্ণন একসাথে ব্যবহৃত হয় তারার রসবি নাম্বার নির্ধারণ করতে...\" (Luminosity and rotation are used together to determine the star's Rossby number...). **Answer: A**\n\n[251] The passage states: \"প্রথম সেটে দুজন খেলোয়াড়ের প্রতিটি সার্ভের পরেই ম্যুরে টাই ব্রেকে হেরে যায়।\" (In the first set, Murray lost the tie-break after each player's serve...). **Answer: A**\n\n[252] The passage states: \"বহুমূত্র নিরাময়যোগ্য কিনা তা নিয়ে অন্যান্য বিশেষজ্ঞদের মতো তিনিও সংশয়ে আছেন।\" (Like other experts, he is also skeptical about whether diabetes is curable). **Answer: B**\n\n[253] The passage states: \"খারাপ আবহাওয়ার কারণে অবতরণ বাতিল হয়েছিল...\" (The landing was cancelled due to bad weather...). **Answer: D**\n\n[254] The passage states that the announcement increased the government's commitment made in March for additional vehicles, and a total of 1,300 carriages were acquired. The core of the announcement is the commitment/action regarding these carriages to manage crowds. Looking at the options, (B) is the most accurate summary of the intent. **Answer: B**\n\n[255] The passage states: \"বিবৃতিটি জানিয়েছে ধৃত আইসিস যোদ্ধাদের প্রহরা দেওয়ার দায়িত্ব নিয়েছে তুরস্ক।\" (The statement said Turkey has taken the responsibility of guarding the captured ISIS fighters). **Answer: D**\n\n```json\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"B\", \"255\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1447,
+  "completion_tokens": 548,
+  "total_tokens": 1995,
+  "cost": 0.00040731,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040731,
+   "upstream_inference_prompt_cost": 0.00018811,
+   "upstream_inference_completions_cost": 0.0002192
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Novita",
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "B",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "B",
+  "255": "D"
+ }
+}

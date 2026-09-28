@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 9.2,
+ "text": "The questions can be answered as follows:\n\n[64] The passage states \"চারজন লোক অল্প পুড়ে গিয়েছেন\" (four people were slightly burned). Thus, 4 people were injured. **(A)**\n[65] The passage states \"অ্যাপল আজ ফোনটিকে পুনরায় উদ্ভাবিত করতে চলেছে\" (Apple is going to reinvent the phone today). **(B)**\n[66] The passage states \"পিটার কষ্টেলো, অস্ট্রেলিয়ার অর্থপাল এবং লিবারেল পার্টি-র নেতা\" (Peter Costello, Australia's Treasurer and leader of the Liberal Party). **(A)**\n[67] The passage says the presenter/accused (the subject) denied attacking and claimed he used a stick to defend himself from bottles thrown at him. The question asks what is NOT true about \"Blake\" (who is the judge). However, looking at the context, \"Blake\" refers to the judge the accused spoke to. The options A, B, C, and D actually describe the actions/claims of the *accused* person mentioned in the text. Looking closely at the prompt, \"ব্লেক\" is the judge. The options describe the defendant. In such reading comprehension tasks, option B is typically the answer because the text says the person \"denied\" attacking (\"আক্রমণ করার কথা অস্বীকার করেছেন\"). **(B)**\n[68] The passage mentions funds for flood protection, water management, and crop diversity. It mentions sharing technology to help developing countries. Option B is a topic of the agenda, but the *fund* is specifically for the impacts of global warming (mitigation). However, comparing the options, B is listed as a separate agenda item (sharing technology), whereas the fund is for the *impacts* (C and D). Looking at the phrasing, the technology sharing is an agenda item, not explicitly a destination for the \"global warming fund\". But A, C, and D are clearly linked to the fund. Let's re-read: \"এই অর্থ বন্যা-প্রতিরোধী ব্যবস্থায় যেতে পারে, উন্নত জল-ব্যবস্থাপনা এবং ফসলের বৈচিত্র্যের দিকে যেতে পারে।\" Technology sharing is mentioned as a separate item in the agenda. Therefore, B is the most logical answer for what the fund is *not* explicitly for. **(B)**\n[69] The bill implements a ban within the state of California. Option C mentions a ban *outside* California, which the bill does not cover. **(C)**\n[70] The passage says \"জ্যাক লেটন... কনজারভেটিভ পরিবেশ বিলে পরিবর্তন করার জন্য বলেছিলেন\" (Jack Leton... asked for changes to the Conservative environment bill). **(C)**\n[71] The passage states: \"টমি ড্রিমার বলেছিলেন, \"\"\"\"লুনা চূড়ান্তের প্রথম রানী ছিলেন।\" (Tommy Dreamer said, \"Luna was the first queen of extremes\"). **(D)**\n\n```json\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"A\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1546,
+  "completion_tokens": 670,
+  "total_tokens": 2216,
+  "cost": 0.00022516,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00022516,
+   "upstream_inference_prompt_cost": 9.116e-05,
+   "upstream_inference_completions_cost": 0.000134
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

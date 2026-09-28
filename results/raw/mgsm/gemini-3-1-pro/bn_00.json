@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 51.4,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 0]**\nJanet's ducks produce 16 eggs. She uses 3 for breakfast and 4 for muffins (3 + 4 = 7 eggs). \nRemaining eggs: 16 - 7 = 9 eggs. \nEarnings: 9 eggs × $2 = $18.\n\n**[id 1]**\nBlue thread: 2 reels. \nWhite thread: half of blue = 1 reel. \nTotal reels: 2 + 1 = 3 reels.\n\n**[id 2]**\nOriginal value: $80,000. \nValue increase: 150% of $80,000 = $120,000. \nNew selling price: $80,000 + $120,000 = $200,000.\nTotal cost (Purchase + Repairs): $80,000 + $50,000 = $130,000. \nProfit: $200,000 - $130,000 = $70,000.\n\n**[id 3]**\nSprints per week: 3 times × 3 sprints = 9 sprints. \nTotal distance: 9 sprints × 60 meters = 540 meters.\n\n**[id 4]**\nTotal daily feed required: 20 chickens × 3 cups = 60 cups. \nFeed already given: 15 (morning) + 25 (afternoon) = 40 cups. \nRemaining feed for evening: 60 - 40 = 20 cups.\n\n**[id 5]**\nKyler buys 16 glasses, which equals 8 pairs.\nCost of the first glass in a pair: $5. \nCost of the second glass (60% of $5): $3. \nCost per pair: $5 + $3 = $8. \nTotal cost: 8 pairs × $8 = $64.\n\n**[id 6]**\nSeattle has 20 sheep. \nCharleston has 4 times as many: 20 × 4 = 80 sheep. \nToulouse has 2 times as many as Charleston: 80 × 2 = 160 sheep. \nTotal sheep: 20 + 80 + 160 = 260 sheep.\n\n**[id 7]**\nInitial download to 40%: (200 GB × 40%) = 80 GB. At 2 GB/min, this takes 40 minutes. \nWindows update takes 20 minutes. \nRestarting the download from the beginning (200 GB at 2 GB/min) takes 100 minutes. \nTotal time: 40 + 20 + 100 = 160 minutes.\n\n**[id 8]**\nDistance from home initially: 3 hours × 60 mph = 180 miles.\nJohn attempts to return in 4 hours. \n- First 2 hours in traffic: 0 miles.\n- Next 0.5 hours at 30 mph: 0.5 × 30 = 15 miles. \n- Remaining time in the 4-hour window: 4 - 2 - 0.5 = 1.5 hours.\n- Distance covered in the remaining 1.5 hours at 80 mph: 1.5 × 80 = 120 miles.\nTotal return distance covered in 4 hours: 0 + 15 + 120 = 135 miles.\nDistance remaining to home: 180 - 135 = 45 miles.\n\n**[id 9]**\nRegular pay (40 hours): 40 × $10 = $400. \nOvertime rate: $10 × 1.2 = $12. \nOvertime pay (5 hours): 5 × $12 = $60. \nTotal earnings: $400 + $60 = $460.\n\n```json\n{\"answers\": {\"0\": 18, \"1\": 3, \"2\": 70000, \"3\": 540, \"4\": 20, \"5\": 64, \"6\": 260, \"7\": 160, \"8\": 45, \"9\": 460}}\n```\n",
+ "usage": {
+  "input_tokens": 16823,
+  "output_tokens": 6600,
+  "thinking_tokens": 5561,
+  "cache_read_tokens": 8140,
+  "total_tokens": 23423
+ },
+ "answers_batch": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ },
+ "single": {},
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ }
+}

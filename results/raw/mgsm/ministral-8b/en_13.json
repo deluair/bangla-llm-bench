@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 8.4,
+ "text": "[id 130]\nNissa starts with 60 elves. A third quit: 60 / 3 = 20 quit, 40 remain. Then 10 quit: 40 - 10 = 30 left.\n**30**\n\n[id 131]\nJoseph spent $500 in May and $60 less in June: $500 - $60 = $440. Total for two months: $500 + $440 = $940.\n**940**\n\n[id 132]\nPam rode roller coaster 2x, Fred 4x: total 6 rides. Each rode luge 2x: total 8 rides. Each ride costs 6 tickets: 8 * 6 = 48 tickets.\n**48**\n\n[id 133]\nMonday: 4 miles. Tuesday: 6 * 4 = 24 miles. Total for Monday-Wednesday: 41 miles. Wednesday: 41 - (4 + 24) = 13 miles.\n**13**\n\n[id 134]\n4 car washes/month * $15 = $60/month. Yearly: $60 * 12 = $720.\n**720**\n\n[id 135]\nBrian originally has 20 games, lost 5: 20 - 5 = 15. Bobby has 5 fewer than 3 times Brian’s current count: 3 * 15 - 5 = 40.\n**40**\n\n[id 136]\nOne third of 27 unicorns are in Scotland: 27 / 3 = 9. Two thirds of Scottish unicorns are female: 9 * (2/3) = 6.\n**6**\n\n[id 137]\nSubs: 2 * $7.50 = $15. Chips: 2 * $1.50 = $3. Cookies: 2 * $1.00 = $2. Subtotal: $15 + $3 + $2 = $20. Delivery fee: 20% of $20 = $4. Tip: $5. Total: $20 + $4 + $5 = $29.\n**29**\n\n[id 138]\nFirst test: 75 questions, 5/hour, 8 hours: 8 * 5 = 40 questions/hourly capacity. Incomplete: 75 - 40 = 35. Second test: 100 questions, 5/hour, 6 hours: 6 * 5 = 30 questions/hourly capacity. Incomplete: 100 - 30 = 70. Total incomplete: 35 + 70 = 105.\n**105**\n\n[id 139]\nPink gumballs = 4 * blue gumballs + 22. Blue gumballs = 12. Pink gumballs = 4 * 12 + 22 = 48 + 22 = 70.\n**70**\n\n---\n```json\n{\n  \"answers\": {\n    \"130\": 30,\n    \"131\": 940,\n    \"132\": 48,\n    \"133\": 13,\n    \"134\": 720,\n    \"135\": 40,\n    \"136\": 6,\n    \"137\": 29,\n    \"138\": 105,\n    \"139\": 70\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 647,
+  "completion_tokens": 811,
+  "total_tokens": 1458,
+  "cost": 0.0002187,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002187,
+   "upstream_inference_prompt_cost": 9.705e-05,
+   "upstream_inference_completions_cost": 0.00012165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 48.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 48.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

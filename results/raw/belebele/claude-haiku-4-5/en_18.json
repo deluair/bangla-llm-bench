@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 14.1,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through each question based on the passages provided:\n\n**[id 144]** The passage explicitly states \"A curry is a dish based on herbs and spices.\" → **B**\n\n**[id 145]** The passage mentions coffee, chamomile tea, juice, and smoothies. Beer is never mentioned. → **C**\n\n**[id 146]** The passage states: \"For most countries, you will need an offer letter from the institution you wish to study at, and also evidence of funds...\" This requirement is specifically for student visas. → **D**\n\n**[id 147]** The passage begins with \"In summer, especially, you'll need to watch out for mosquitoes...\" The word \"especially\" directly modifies summer. → **A**\n\n**[id 148]** The passage states Timbuktu \"has an airport,\" which contradicts the claim that it's \"inaccessible by plane.\" The other descriptions are all supported (impoverished, Arabic influence, tourist attraction). → **C**\n\n**[id 149]** The passage explicitly states: \"They begin as funnels descending from storm clouds, and become 'tornadoes' when they touch the ground.\" → **D**\n\n**[id 150]** The passage describes \"Standard 35 mm film (36 by 24 mm negative)\" as the most common format. The actual negative dimensions are 36 x 24 mm. → **D**\n\n**[id 151]** The passage states: \"The fabulous riches of the tomb are no longer in it, but have been removed to the Egyptian Museum in Cairo.\" → **D**\n\n```json\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1868,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1719,
+  "output_tokens_details": {
+   "thinking_tokens": 1282
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1868,
+    "output_tokens": 1719,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.010463,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 33.1,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 20]** \nOriginal orange drink: 10 liters, 2/3 water.\nSince 1 liter is spilled, 9 liters remain. Water in the remaining orange drink = 9 × (2/3) = 6 liters.\nPineapple drink: 15 liters, 3/5 water = 15 × (3/5) = 9 liters.\nTotal water in the remaining 24 liters (9 liters orange + 15 liters pineapple) = 6 + 9 = 15 liters.\n\n**[id 21]** \nRaymond was born 6 years before Samantha, meaning he is 6 years older.\nSamantha's current age = 31.\nRaymond's current age = 31 + 6 = 37.\nRaymond had a son when he was 23 years old.\nThe son was born 37 - 23 = 14 years ago.\n\n**[id 22]** \nFirst 3 customers: 3 × 1 = 3 DVDs.\nNext 2 customers: 2 × 2 = 4 DVDs.\nLast 3 customers: 0 DVDs.\nTotal DVDs sold = 3 + 4 + 0 = 7 DVDs.\n\n**[id 23]** \nThe candle burned from 1:00 PM to 5:00 PM, which is 4 hours.\nAt a melting rate of 2 cm per hour, the candle became shorter by 4 × 2 = 8 cm.\n\n**[id 24]** \nKyle paid $19.50, which was 75% of the original price (100% - 25% discount).\nOriginal Price = 19.50 / 0.75 = $26.\n\n**[id 25]** \nCost of chicken meal = $12\nCost of milk = 5 × $3 = $15\nCost of apples = 4 × $1.50 = $6\nTotal spent on these items = 12 + 15 + 6 = $33.\nRemaining amount for pizza = $50 - $33 = $17.\nNumber of pizza boxes ordered = $17 / $8.50 = 2 boxes.\n\n**[id 26]** \nCost of 1 pair of shorts, 1 pair of pants, and 1 pair of shoes = $16.50 + $22.50 + $42.00 = $81.00.\nSince Mishka bought 3 of each, the total cost for all clothing items = 3 × 81 = $243.\n\n**[id 27]** \nCynthia needs 60 servings for 60 days.\nShe gets 15 servings per carton, so she needs 60 / 15 = 4 cartons.\nTotal cost for 4 cartons = 4 × $4.00 = $16.\n\n**[id 28]** \nTotal trip is 60 miles.\nFirst stop is at the 20-mile mark.\nSecond stop is 15 miles before the end, which is at the 60 - 15 = 45-mile mark.\nDistance between the two stops = 45 - 20 = 25 miles.\n\n**[id 29]** \nCost of first pair of heels = $33.\nCost of second pair of heels = 33 × 2 = $66.\nCombined cost of both pairs of heels = $33 + $66 = $99.\nThe two pairs of heels cost $5 less than the boots. Thus, the boots cost $99 + $5 = $104.\n\n```json\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}\n```\n",
+ "usage": {
+  "input_tokens": 16839,
+  "output_tokens": 4342,
+  "thinking_tokens": 3388,
+  "cache_read_tokens": 8140,
+  "total_tokens": 21181
+ },
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

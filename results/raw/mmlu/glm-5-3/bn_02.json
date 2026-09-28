@@ -1,0 +1,296 @@
+{
+ "task": "mmlu",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "899",
+  "908",
+  "951",
+  "981",
+  "987",
+  "1004",
+  "1011",
+  "1019",
+  "1030",
+  "1045",
+  "1100",
+  "1116",
+  "1125",
+  "1141",
+  "1158"
+ ],
+ "seconds": 236.4,
+ "text": "",
+ "usage": {
+  "completion_tokens": 16000,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15963
+  },
+  "prompt_tokens": 3726,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 19726
+ },
+ "served_by": null,
+ "answers_batch": {},
+ "single": {
+  "899": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "completion_tokens": 408,
+    "completion_tokens_details": {
+     "reasoning_tokens": 404
+    },
+    "prompt_tokens": 237,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 645
+   },
+   "answer": "B"
+  },
+  "908": {
+   "text": "",
+   "error": null,
+   "usage": {
+    "completion_tokens": 16000,
+    "completion_tokens_details": {
+     "reasoning_tokens": 15957
+    },
+    "prompt_tokens": 188,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 16188
+   },
+   "answer": null
+  },
+  "951": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "completion_tokens": 90,
+    "completion_tokens_details": {
+     "reasoning_tokens": 87
+    },
+    "prompt_tokens": 346,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 436
+   },
+   "answer": "C"
+  },
+  "981": {
+   "text": "**C**",
+   "error": null,
+   "usage": {
+    "completion_tokens": 874,
+    "completion_tokens_details": {
+     "reasoning_tokens": 869
+    },
+    "prompt_tokens": 399,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 1273
+   },
+   "answer": "C"
+  },
+  "987": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "completion_tokens": 135,
+    "completion_tokens_details": {
+     "reasoning_tokens": 132
+    },
+    "prompt_tokens": 255,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 390
+   },
+   "answer": "D"
+  },
+  "1004": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "completion_tokens": 374,
+    "completion_tokens_details": {
+     "reasoning_tokens": 370
+    },
+    "prompt_tokens": 424,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 798
+   },
+   "answer": "C"
+  },
+  "1011": {
+   "text": "**D**",
+   "error": null,
+   "usage": {
+    "completion_tokens": 1980,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1975
+    },
+    "prompt_tokens": 372,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 2352
+   },
+   "answer": "D"
+  },
+  "1019": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 150,
+    "completion_tokens_details": {
+     "reasoning_tokens": 147
+    },
+    "prompt_tokens": 223,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 373
+   },
+   "answer": "A"
+  },
+  "1030": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "completion_tokens": 118,
+    "completion_tokens_details": {
+     "reasoning_tokens": 115
+    },
+    "prompt_tokens": 293,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 411
+   },
+   "answer": "B"
+  },
+  "1045": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "completion_tokens": 478,
+    "completion_tokens_details": {
+     "reasoning_tokens": 475
+    },
+    "prompt_tokens": 289,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 767
+   },
+   "answer": "D"
+  },
+  "1100": {
+   "text": "**C**\n\nহিসাব: C(5,2) × C(20,1) / C(25,3) = (10 × 20) / 2300 = 200/2300 = **2/23** (অর্থাৎ \"23-Feb\")",
+   "error": null,
+   "usage": {
+    "completion_tokens": 792,
+    "completion_tokens_details": {
+     "reasoning_tokens": 727
+    },
+    "prompt_tokens": 211,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 1003
+   },
+   "answer": "C"
+  },
+  "1116": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "completion_tokens": 126,
+    "completion_tokens_details": {
+     "reasoning_tokens": 121
+    },
+    "prompt_tokens": 284,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 410
+   },
+   "answer": "D"
+  },
+  "1125": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "completion_tokens": 232,
+    "completion_tokens_details": {
+     "reasoning_tokens": 220
+    },
+    "prompt_tokens": 116,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 348
+   },
+   "answer": "B"
+  },
+  "1141": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 742,
+    "completion_tokens_details": {
+     "reasoning_tokens": 739
+    },
+    "prompt_tokens": 293,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 1035
+   },
+   "answer": "A"
+  },
+  "1158": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 213,
+    "completion_tokens_details": {
+     "reasoning_tokens": 210
+    },
+    "prompt_tokens": 323,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "total_tokens": 536
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "899": "B",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 18.1,
+ "text": "I'll solve each problem systematically.\n\n**[id 210]** Sara's jacket and shoes cost: $30 + 2($20) = $70\nMoney earned: $10 (saved) + 4($5) babysitting = $30\nMowing needed: ($70 - $30) / $4 = $40 / $4 = **10 times**\n\n**[id 211]** Let r = red chickens, then white = r + 2\nDaily eggs: 3r + 5(r + 2) = 42\n8r + 10 = 42\n8r = 32, so r = **4 red chickens**\n\n**[id 212]** Perimeter = 2(1.5 + 6) = 15 miles\nTime = 15 miles / 3 mph = **5 hours**\n\n**[id 213]** Day 1: 100 customers\nDay 2: 150 customers\nDay 3: 500 - 100 - 150 = **250 customers**\n\n**[id 214]** Let S₀ = small pool 4 minutes ago\nBig pool 4 min ago: 2S₀\nAfter 4 minutes (each lost 16 gallons):\n2S₀ - 16 = 4(S₀ - 16)\n2S₀ - 16 = 4S₀ - 64\nS₀ = 24\nSmall pool now: 24 - 16 = **8 gallons**\n\n**[id 215]** Total cost: $320 + $32 = $352\nHours needed: $352 / $8 = **44 hours**\n\n**[id 216]** Total to repay: $2000 + $200 = $2200\nPaid: $165 × 12 = $1980\nRemaining: $2200 - $1980 = **$220**\n\n**[id 217]** Roses: 4, Dahlias: 4 + 7 = 11\nTotal: 4 + 11 = **15 flowers**\n\n**[id 218]** Harriet now: 21, Adrian now: 63, Zack now: 42\nIn 3 years: 24, 66, 45\nAverage: 135 / 3 = **45**\n\n**[id 219]** Naomi: 68, Yuri: 10 + 34 = 44, Brianna: 68 + 17 = 85\nJojo: 251 - 68 - 44 - 85 = **54**\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}\n```",
+ "usage": {
+  "input_tokens": 1156,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2046,
+  "output_tokens_details": {
+   "thinking_tokens": 1337
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1156,
+    "output_tokens": 2046,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011386,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

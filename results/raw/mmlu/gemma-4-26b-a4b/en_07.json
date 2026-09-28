@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  3308,
+  3347,
+  3412,
+  3438,
+  3441,
+  3466,
+  3493,
+  3553,
+  3595,
+  3628,
+  3647,
+  3650,
+  3672,
+  3748,
+  3762
+ ],
+ "seconds": 8.8,
+ "text": "To answer these questions:\n\n[3308] Napoleon's diary entries emphasize his need for reputation and his desire to control the press (\"shut their mouths forever\"). While he implemented the Code, he was criticized for the loss of democratic rights and political liberty (D).\n[3347] Robespierre's de-Christianization policy (C) was culturally disruptive and often alienated the peasantry, which was less directly \"beneficial to the defense\" compared to conscription, price controls (to prevent riots), or meritocracy.\n[3412] Voltaire's emphasis on tolerance and reason is a hallmark of the Enlightenment (C).\n[3438] The 1802 entry states, \"My power would fall if I were not to support it with more glory and more victories,\" directly linking his conquests to the maintenance of his power (A).\n[3441] Gorbachev states the society \"has long been yearning for it,\" implying the need was long in the making (C).\n[3466] Latitude and longitude define an absolute location (C).\n[3493] A small-scale map shows a large area with little detail (e.g., a world map) (A).\n[3553] NATO was formed as a collective defense alliance against the Soviet Union/communism (A).\n[3595] While Europe faces many challenges, \"environmental apathy\" (C) is generally not characterized as a primary defining problem of the continent compared to immigration, demographics, and urbanization.\n[3628] Cities in the developing world often struggle with inadequate infrastructure (B), unlike modern developed cities.\n[3647] Social science consistently shows the family (B) is the primary agent of political socialization.\n[3650] Federal judges are appointed for life and can only be removed through impeachment and conviction by Congress (A).\n[3672] Since the 1980s, the Republican Party has seen significant influence from the religious right, specifically evangelical Christians (D).\n[3748] The House Rules Committee is responsible for setting the rules for debate and the conditions under which bills are considered (A).\n[3762] The doctrine of \"incorporation\" uses the Due Process Clause (B) of the 14th Amendment to apply the Bill of Rights to the states.\n\n{\"answers\": {\"3308\": \"D\", \"3347\": \"C\", \"3412\": \"C\", \"3438\": \"A\", \"3441\": \"C\", \"3466\": \"C\", \"3493\": \"A\", \"3553\": \"A\", \"3595\": \"C\", \"3628\": \"B\", \"3647\": \"B\", \"3650\": \"A\", \"3672\": \"D\", \"3748\": \"A\", \"3762\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 2245,
+  "completion_tokens": 648,
+  "total_tokens": 2893,
+  "cost": 0.0004189,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004189,
+   "upstream_inference_prompt_cost": 0.0002245,
+   "upstream_inference_completions_cost": 0.0001944
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "answers_batch": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {}
+}

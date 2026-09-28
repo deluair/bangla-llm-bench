@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 11.0,
+ "text": "Here are the solutions:\n\n**[230]** Cars: 12 × $20,000 = $240,000; Tax: 10% × $240,000 = $24,000; Registration: 12 × $1,000 = $12,000; Total = $276,000\n\n**[231]** Robert: 20, so Kylie Monday: 20 + 5 = 25; Tuesday: 25 × 2 = 50\n\n**[232]** Bugs: 50/2 = 25; Total: 50 + 25 = 75\n\n**[233]** Swim: 36/3 = 12; Cave: 12; Left: 36 − 12 − 12 = 12\n\n**[234]** Steve eats 6/day, girlfriend eats 3/day, total 9/day = 63/week; Vines: 63/3 = 21\n\n**[235]** Slices needed: 20 × 4 = 80; Pizzas: 80/8 = 10\n\n**[236]** 25 pens + 25/5 = 5 new pens + 5/5 = 1 more pen = 31 total\n\n**[237]** $20 + $10 = $30; Tripled: $30 × 3 = $90\n\n**[238]** Jessa: 20; Joan: 20 + 5 = 25; Mary: 25 − 2 = 23; Sum: 20 + 25 + 23 = 68\n\n**[239]** Exit A: 30% × 1000 = 300; Remaining: 700; Exit B: 3/5 × 700 = 420; Exit C: 700 − 420 = 280\n\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}",
+ "usage": {
+  "completion_tokens": 899,
+  "completion_tokens_details": {
+   "reasoning_tokens": 447
+  },
+  "prompt_tokens": 664,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1563
+ },
+ "served_by": null,
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

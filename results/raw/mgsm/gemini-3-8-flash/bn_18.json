@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 33.1,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n- **[id 180]**: Total votes = 80. The winner got $\\frac{3}{4} \\times 80 = 60$ votes. The loser got $80 - 60 = 20$ votes.\n- **[id 181]**: 200 pink calla lilies is 5 times the white carnations, so there are $200 / 5 = 40$ white carnations. The red roses ordered were 4 times the white carnations: $4 \\times 40 = 160$.\n- **[id 182]**: Two years ago, Jan was $30 - 2 = 28$ years old. Mark was $5 + \\frac{28}{2} = 19$ years old. Mark is currently $19 + 2 = 21$, so Jean is $21 + 2 = 23$ years old.\n- **[id 183]**: First team finishes in $4 \\times 55 = 220$ seconds. Second team runners take $60 + 57 + 54 + 51 = 222$ seconds. The faster team wins by $222 - 220 = 2$ seconds.\n- **[id 184]**: P(number $> 3$) = $3/6 = 50\\%$. P(two even numbers in a row) = $0.5 \\times 0.5 = 25\\%$. The difference is $50\\% - 25\\% = 25\\%$.\n- **[id 185]**: Her mother picked 20 apples. Jenna picked half as many, which is $20 / 2 = 10$ apples. Together they picked $20 + 10 = 30$ apples.\n- **[id 186]**: Hamsters use $10 \\times 5 = 50$ pieces of straw; rabbits use 20 pieces. Remaining straw for the rats = $160 - 70 = 90$ pieces. Across 3 cages, each cage gets $90 / 3 = 30$ pieces. With 6 pieces per rat, each cage has $30 / 6 = 5$ rats.\n- **[id 187]**: Monthly interest is $\\$100 \\times 2\\% = \\$2$. Over 3 months, total interest is $3 \\times \\$2 = \\$6$. Total repayment is $\\$100 + \\$6 = 106$.\n- **[id 188]**: Cost per bag = $\\$20 + \\$2 = \\$22$. Selling price per bag = $\\$30$, giving a profit of $\\$30 - \\$22 = \\$8$ per bag. Total bags sold = $\\$400 / \\$8 = 50$.\n- **[id 189]**: Tickets cost $\\$20.25$. Food costs $\\$20.25 - \\$4.50 = \\$15.75$. Two rides cost $2 \\times \\$33 = \\$66$. Total cost = $\\$20.25 + \\$15.75 + \\$66 = \\$102$. Each person pays $\\$102 / 3 = 34$.\n\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 23, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}\n",
+ "usage": {
+  "input_tokens": 67717,
+  "output_tokens": 3691,
+  "thinking_tokens": 1995,
+  "cache_read_tokens": 73433,
+  "total_tokens": 71408
+ },
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

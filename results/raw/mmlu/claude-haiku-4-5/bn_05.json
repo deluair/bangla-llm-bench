@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "2143",
+  "2159",
+  "2319",
+  "2348",
+  "2355",
+  "2448",
+  "2457",
+  "2459",
+  "2557",
+  "2567",
+  "2573",
+  "2582",
+  "2628",
+  "2632",
+  "2636"
+ ],
+ "seconds": 63.5,
+ "text": "Looking at these questions, I'll work through them systematically:\n\n**[id 2143]** Ratio of 2 cups to 3 qt:\n- 3 qt = 12 cups\n- Ratio: 2:12 = 1:6\n- Answer: **D**\n\n**[id 2159]** GCF of 42 and 84:\n- 42 = 2 × 3 × 7\n- 84 = 2² × 3 × 7\n- GCF = 42\n- Answer: **C**\n\n**[id 2319]** Solve (5/8)m = 6:\n- m = 6 × (8/5) = 48/5 = 9⅗\n- Answer: **D**\n\n**[id 2348]** Total folders:\n- Red: 5 × 36 = 180\n- Blue: 6 × 32 = 192\n- Total: 372 ≈ 380\n- Answer: **B**\n\n**[id 2355]** 6 × 2 represents:\n- Hiking 6 miles daily for 2 days = 6 × 2 miles\n- Answer: **A**\n\n**[id 2448]** Predicate logic: (∃x)[Hx • (∀y)(Ay ⊃ Bxy)]\n- Translates to: \"Some house is bigger than every apartment\"\n- Answer: **D**\n\n**[id 2457]** Testing validity:\n- When I=true, H=true, J=true: Both premises are true but ~I is false\n- This is a counterexample\n- Answer: **D**\n\n**[id 2459]** Antecedent of biconditional:\n- In \"A if and only if B\", A is the antecedent\n- Answer: **A**\n\n**[id 2557]** Symbolization:\n- F ⊃ E (England imports beef if France subsidizes)\n- ~S ⊃ C (China improves rights if SA doesn't supply diamonds)\n- (F ⊃ E) ∨ (~S ⊃ C)\n- Answer: **D**\n\n**[id 2567]** \"Some CEO is richer than everyone\":\n- (∃x)[Cx • (∀y)(Py ⊃ Wxy)]\n- Answer: **C**\n\n**[id 2573]** Japan GDP growth 1950-2016:\n- Approximately 10× in PPP terms\n- Answer: **B**\n\n**[id 2582]** NOT part of redistribution-with-growth:\n- Components include land reform, progressive taxation, education\n- Minimum wage regulations were less central to the original framework\n- Answer: **A**\n\n**[id 2628]** Bottom 60% income share:\n- 7.5% + 11.8% + 15.5% = 34.8%\n- Answer: **B**\n\n**[id 2632]** Child physical punishment in India 2009:\n- Research data shows approximately 58% reported this\n- Answer: **B**\n\n**[id 2636]** Highest per capita CO₂ emissions 2017:\n- Canada has the highest per capita (~15+ tons/person) due to energy industry and climate\n- Answer: **B**\n\n```json\n{\"answers\": {\"2143\": \"D\", \"2159\": \"C\", \"2319\": \"D\", \"2348\": \"B\", \"2355\": \"A\", \"2448\": \"D\", \"2457\": \"D\", \"2459\": \"A\", \"2557\": \"D\", \"2567\": \"C\", \"2573\": \"B\", \"2582\": \"A\", \"2628\": \"B\", \"2632\": \"B\", \"2636\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 3770,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6227,
+  "output_tokens_details": {
+   "thinking_tokens": 5297
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3770,
+    "output_tokens": 6227,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.034905,
+ "answers_batch": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "A",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "B",
+  "2636": "B"
+ },
+ "single": {},
+ "answers": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "A",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "B",
+  "2636": "B"
+ }
+}

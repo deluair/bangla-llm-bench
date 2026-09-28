@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 1.6,
+ "text": "The passage on curry explicitly states it is “based on herbs and spices,” making option B correct.  \nThe staycation passage lists coffee, tea, juice, smoothies, and mentions bars for beer, but does not suggest brewing beer at home, so option C is the beverage not mentioned for home making.  \nThe visa passage notes student visas require an offer letter and proof of funds, so option D is correct.  \nMosquito vigilance is highlighted specifically for summer, thus option A.  \nTimbuktu is said to have an airport, so “inaccessible by plane” is inaccurate—option C.  \nA funnel becomes a tornado after touching the ground, option D.  \nThe most common film format is the 36 × 24 mm negative, option D.  \nThe riches from Tutankhamun’s tomb have been moved to a museum, so option D is correct.  \n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.064921763,
+  "prompt_tokens": 1386,
+  "prompt_time": 0.056382543,
+  "completion_tokens": 660,
+  "completion_time": 1.387892524,
+  "total_tokens": 2046,
+  "total_time": 1.444275067,
+  "completion_tokens_details": {
+   "reasoning_tokens": 420
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

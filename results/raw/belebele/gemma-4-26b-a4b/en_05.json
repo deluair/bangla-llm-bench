@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47"
+ ],
+ "seconds": 12.5,
+ "text": "The passage discusses speciation as a part of evolution. It describes how a small group separating and adapting to a new environment leads to new species. Option A (a group failing to thrive/not adapting) would hinder the process of evolution/speciation described.\n\nThe passage explicitly states: \"Blood... comes back to the heart in tubes called veins.\"\n\nThe passage states: \"Many people don't think about them as dinosaurs because they have feathers and can fly.\" It then lists scales, claws, egg-laying, and walking on two legs as things that *do* look like a dinosaur. Therefore, feathers are the characteristic not commonly associated with the general perception of dinosaurs in the text.\n\nThe passage states: \"Present-day parts of Belgium were part of Luxembourg in the past but became Belgian after the 1830s Belgian Revolution.\"\n\nThe passage states: \"...23,764 square kilometres (9,174 sq mi) in Europe.\"\n\nThe passage states: \"Music is often recorded using sophisticated computers to process and mix sounds together.\"\n\nThe passage states: \"The cities of Harappa and Mohenjo-daro had a flush toilet in almost every house...\"\n\nThe passage states: \"Scientists call this process 'stimulated emission of radiation' because the atoms are stimulated by the bright light...\"\n\n{\"answers\": {\"40\": \"A\", \"41\": \"D\", \"42\": \"B\", \"43\": \"B\", \"44\": \"D\", \"45\": \"A\", \"46\": \"A\", \"47\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1416,
+  "completion_tokens": 334,
+  "total_tokens": 1750,
+  "cost": 0.00015176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015176,
+   "upstream_inference_prompt_cost": 8.496e-05,
+   "upstream_inference_completions_cost": 6.68e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ },
+ "single": {},
+ "answers": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ }
+}

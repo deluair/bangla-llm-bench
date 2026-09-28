@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 55.7,
+ "text": "[id 264] The passage lists swimming as a core element of canyoning and notes it requires relatively little training or physical shape, so swimming ability is implied as necessary. The other options are either contradicted or unsupported. Answer: D.\n\n[id 265] The passage states Chile declared independence in 1810 amid the Napoleonic wars and Spain’s lack of central government, but says decisive victory over the Spanish was not achieved until 1818. Therefore, victory over the Spanish did not occur in 1810. Answer: B.\n\n[id 266] The passage explicitly mentions sand, gravel, and salt as materials used to improve traction on icy surfaces. Water is not listed and would typically reduce traction. Answer: D.\n\n[id 267] The passage states the Cook Islands “do not have any cities,” identifying Rarotonga and Aitutaki as main islands, not cities. Answer: C.\n\n[id 268] The passage directly states that travelers who had an easy time adjusting to the new culture sometimes have a particularly hard time readjusting to their native culture. Answer: B.\n\n[id 269] The passage says moose “aren’t inherently aggressive,” which directly contradicts the claim that they are naturally aggressive. Answer: A.\n\n[id 270] The passage attributes a unique wildlife reputation to Madagascar, while describing the smaller islands as independent nations, associated with France, and known as luxury beach resorts. Answer: C.\n\n[id 271] The passage warns that high-end brand-name frames may be “knock-offs,” i.e., fake. Answer: C.\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1345,
+  "completion_tokens": 2511,
+  "total_tokens": 3856,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2139
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

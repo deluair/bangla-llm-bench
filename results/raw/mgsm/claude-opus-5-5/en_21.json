@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 8.3,
+ "text": "- **210:** The jacket and shoes cost $30 + 2 × $20 = $70. Sara has $10 + 4 × $5 = $30. She needs $40 more, so she must mow $40 ÷ $4 = 10 times.\n- **211:** Let r be the number of red chickens. Then 3r + 5(r + 2) = 42, so 8r = 32 and r = 4.\n- **212:** The perimeter is 2 × (1.5 + 6) = 15 miles. At 3 mph, that takes 15 ÷ 3 = 5 hours.\n- **213:** The first two days had 100 + 150 = 250 customers. So the third day had 500 − 250 = 250.\n- **214:** Let S be the small pool now, so the big pool now holds 4S. Four minutes ago each pool had 16 gallons more. So 4S + 16 = 2(S + 16), which gives S = 8.\n- **215:** The total is $320 + $32 = $352. At $8 an hour, that is 352 ÷ 8 = 44 hours.\n- **216:** She owes $2000 × 1.10 = $2200. She pays $165 × 12 = $1980. The remaining balance is $220.\n- **217:** There are 4 + 7 = 11 dahlias. With the 4 roses, that makes 15 flowers.\n- **218:** Harriet is 21, Adrian is 63 and Zack is 42. In three years they will be 24, 66 and 45. The average is 135 ÷ 3 = 45.\n- **219:** Yuri scored 34 + 10 = 44 and Brianna scored 68 + 17 = 85. So Jojo scored 251 − 68 − 44 − 85 = 54.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1362,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 880,
+  "output_tokens_details": {
+   "thinking_tokens": 242
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1362,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 880,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1362,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1362
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028504,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

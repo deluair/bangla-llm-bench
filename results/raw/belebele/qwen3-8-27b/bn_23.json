@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 18.2,
+ "text": "Here are the brief reasonings for each question:\n\n**[id 184]**\nThe passage explicitly states: \"স্ক্যাফোল্ডিং কোনও শিক্ষা পদ্ধতি নয়\" (Scaffolding is not an educational method). Option C claims it is known as a project-based learning strategy (\"প্রজেক্টের ভিত্তিতে শেখার কৌশল নামেও পরিচিত\"). While the first sentence mentions project-based learning makes studying easier and scaffolding goes a step further, it does not define scaffolding *as* project-based learning itself. It defines scaffolding as support/helation. Therefore, C incorrectly expresses the concept by equating it to the strategy rather than the support mechanism distinct from it. Options A, B, and D are supported by the text (virtual scaffolds exist, it's a support not just a strategy, used for starting new tasks).\nAnswer: C\n\n**[id 185]**\nThe passage states: \"এটি পড়া সহজ করে তুলতে অদলবদল করা যায় এবং পছন্দ মতো বেশি বা সামান্য রঙ যোগ করা যায়।\" (It can be changed to make reading easy and colors can be added as desired.) This refers to customizing the interface (colors, readability) to help students with reading difficulties.\nAnswer: A\n\n**[id 186]**\nThe passage says: \"পরবর্তীকালে, আলেকজান্ডারের মৃত্যুর পর 323 খ্রিস্টপূর্বাব্দে মন্দিরটির পুনর্নির্মাণ করা হয়েছিল।\" (Later, the temple was reconstructed in 323 BC after Alexander's death.)\nA is incorrect because Alexander offered to pay but was refused, and died before reconstruction.\nB is correct because 323 BC is after his death (end of his rule).\nC is incorrect; no such order was given to Herostratos.\nD is incorrect; the text says 323 BC, not 320.\nAnswer: B\n\n**[id 187]**\nThe passage states: \"মানুষ পায়ে হাঁটতে শুরু করল কুড়ি লক্ষ বছর আগে যখন থেকে হোমো ইরেকটাস প্রজাতির মানুষ দুই পায়ে সম্পূর্ণ সোজা হয়ে দাঁড়াতে পারল।\" (Humans started walking... when Homo Erectus... could stand completely upright on two legs.) It also says Australopithecines did *not* have the habit of walking upright naturally (\"অস্ট্রালোপিথেকাসদের স্বাভাবিকভাবে সোজা হয়ে হাঁটার অভ্যাস ছিল না\"). Sahelanthropus is mentioned as possibly starting earlier, but Homo Erectus is the one explicitly linked to standing completely upright and the main switch to walking.\nAnswer: B\n\n**[id 188]**\nThe passage discusses the Battle of the Atlantic. It says if the Allies had failed, Germany might have won. This implies the Allies (Americans helping Britain) were successful in getting supplies through. The Germans (U-boats) were trying to stop it but didn't succeed in stopping the war effort ultimately in that campaign context described. The question asks who was *most* successful in the naval battle in the North Atlantic based on the text's implication of the outcome (Allies kept supplying Britain). \"ব্রিটিশ এবং আমেরিকানরা\" (British and Americans) are the Allies mentioned.\nAnswer: A\n\n**[id 189]**\nThe passage states: \"ভেতরে একটি অভয়ারণ্য ছিল যেখানে কেবলমাত্র পুরোহিতরাই প্রবেশ করতে পারতেন।\" (Inside there was a sanctuary where only priests could enter.) \"অভয়ারণ্য\" translates to sanctuary/shrine, which corresponds to the \"গর্ভগৃহ\" (inner sanctum/shrine) in option B.\nAnswer: B\n\n**[id 190]**\nThe question asks which is NOT part of an ancient Roman meal.\nOption D says \"Turkey roast dish\" (টার্কি রোস্টের একটি পদ). The passage explicitly states: \"কোনও প্রাচীন রোমান কখনও একটি টার্কির স্বাদ গ্রহণ করেননি।\" (No ancient Roman ever tasted a turkey.) Thus, Turkey was not part of the meal.\nAnswer: D\n\n**[id 191]**\nThe passage states: \"হাইড্রোজেন আয়নগুলি হলো এমন ধরনের প্রোটন যাদের ইলেক্ট্রনগুলোকে তাদের থেকে বিচ্ছিন্ন করা হয়েছে\" (Hydrogen ions are a type of proton whose electrons have been separated/detached from them). Therefore, electrons were removed.\nAnswer: D\n\n```json\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}\n```",
+ "usage": {
+  "queue_time": 0.066463104,
+  "prompt_tokens": 3025,
+  "prompt_time": 0.25739646,
+  "completion_tokens": 1118,
+  "completion_time": 2.313785316,
+  "total_tokens": 4143,
+  "total_time": 2.571181776
+ },
+ "served_by": null,
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

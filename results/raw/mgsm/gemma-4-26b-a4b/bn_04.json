@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 26.5,
+ "text": "[id 40]\nSuzy's iPhone is 1 year old.\nBen's iPhone is twice as old as Suzy's: $1 \\times 2 = 2$ years.\nBrandon's iPhone is four times as old as Ben's: $2 \\times 4 = 8$ years.\n\n[id 41]\nNormal throw distance = 400 feet.\nWith sapphire, distance is 3 times normal: $400 \\times 3 = 1200$ feet.\nDragon's fire range = 1000 feet.\nDistance outside the fire range = $1200 - 1000 = 200$ feet.\n\n[id 42]\nTotal pieces = 5 pies $\\times$ 8 pieces/pie = 40 pieces.\nRemaining pieces = 14.\nPieces taken = $40 - 14 = 26$.\n\n[id 43]\nRemaining calories = $2000 - 1800 = 200$ calories.\nOne serving = 250 calories.\nTotal weight of bag = 300 grams for 5 servings.\nWeight per serving = $300 / 5 = 60$ grams.\nCalories per gram = $250 / 60 = 25/6$.\nGrams allowed = $200 / (25/6) = 200 \\times 6 / 25 = 8 \\times 6 = 48$ grams.\n\n[id 44]\n10 candles cost $10.00 to make.\nTo make 20 candles, cost = $10.00 \\times 2 = \\$20.00$.\nRevenue from 20 candles = $20 \\times \\$2.00 = \\$40.00$.\nProfit = $\\$40.00 - \\$20.00 = \\$20.00$.\n\n[id 45]\nMonday: 5 articles.\nTuesday: $5 + (2/5 \\times 5) = 5 + 2 = 7$ articles.\nWednesday: $7 \\times 2 = 14$ articles.\nTotal articles = $5 + 7 + 14 = 26$ articles.\nTotal time = $26 \\text{ articles} \\times 4 \\text{ hours/article} = 104$ hours.\n\n[id 46]\nLet $x$ be the number of notes in the new packet.\nTotal notes = $80 + x$.\nNotes used = 220.\nRemaining = $(80 + x) - 220 = 23$.\n$x - 140 = 23 \\Rightarrow x = 163$.\n\n[id 47]\nCost of blue tie = $40.\nNumber of blue ties = $\\$200 / \\$40 = 5$ blue ties.\nRed ties = $2 \\times 5 = 10$ red ties.\nPrice of red tie = $40 \\times 1.5 = \\$60$.\nTotal cost = $(5 \\times 40) + (10 \\times 60) = 200 + 600 = 800$.\n\n[id 48]\nTotal length = 4 feet.\nPiece length = 6 inches = 0.5 feet.\nNumber of pieces = $4 / 0.5 = 8$.\n\n[id 49]\nTotal units = $15 \\times 8 = 120$.\nOccupied units = $120 \\times 3/4 = 90$.\nUnoccupied units = $120 - 90 = 30$.\n\n```json\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n```",
+ "usage": {
+  "prompt_tokens": 993,
+  "completion_tokens": 948,
+  "total_tokens": 1941,
+  "cost": 0.00039183,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00039183,
+   "upstream_inference_prompt_cost": 6.951e-05,
+   "upstream_inference_completions_cost": 0.00032232
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

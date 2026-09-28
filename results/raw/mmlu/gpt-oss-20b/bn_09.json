@@ -1,0 +1,83 @@
+{
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 29.5,
+ "text": "{\"answers\":{\"4749\":\"B\",\"4827\":\"D\",\"4852\":\"A\",\"4864\":\"D\",\"4873\":\"A\",\"4952\":\"B\",\"5102\":\"B\",\"5184\":\"C\",\"5312\":\"B\",\"5342\":\"B\",\"5454\":\"A\",\"5561\":\"D\",\"5573\":\"D\",\"5582\":\"C\",\"5641\":\"C\"}}",
+ "usage": {
+  "prompt_tokens": 2341,
+  "completion_tokens": 1700,
+  "total_tokens": 4041,
+  "cost": 0.00021682,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021682,
+   "upstream_inference_prompt_cost": 4.682e-05,
+   "upstream_inference_completions_cost": 0.00017
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1454,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "AkashML",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "A",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "A",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

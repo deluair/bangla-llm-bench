@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 30.8,
+ "text": "Here is the brief reasoning for each question based on the passages provided:\n\n*   **[id 272]**: The passage mentions \"সজ্জিত হাতির নিয়মিত শোভাযাত্রা\" (regular processions of decorated elephants) as part of the temple festivals. Thus, option **C** is correct.\n*   **[id 273]**: The passage explicitly states that some supermarkets provide a microwave or other means to keep food warm (\"খাবার গরম রাখার জন্য মাইক্রোওয়েভ বা অন্য ব্যবস্থাও রাখছে\"). Thus, option **D** is correct.\n*   **[id 274]**: The text points out that the number systems in French-speaking Belgium and Switzerland have strange features that differ from the French spoken in France (\"সংখ্যা পদ্ধতিতে কিছু অদ্ভুত বৈশিষ্ট্য রয়েছে\"). Thus, option **B** is correct.\n*   **[id 275]**: The passage states that capitalizing nouns makes reading logically easier (\"যুক্তি দিয়ে পড়াকে সহজ করে দেয়\"), but makes writing somewhat difficult (\"লেখাটা কিছুটা কঠিন\"). Thus, option **C** is correct.\n*   **[id 276]**: The passage states that crevices and cracks form in the ice, which may be connected by fragile ice bridges (\"বরফে ফাটল, খাত তৈরি হয়, যা হয়ত বরফের ভঙ্গুর সেতু দ্বারা যুক্ত থাকে\"). Thus, cracks (ফাটল) are beneath the bridges. Option **A** is correct.\n*   **[id 277]**: The text advises researching the war in North Kivu for safety reasons, so calling the war \"fascinating\" (চিত্তাকর্ষক) is absolutely inappropriate advice. Thus, option **A** is correct.\n*   **[id 278]**: The passage explicitly states that fewer permits are issued to save/protect the canyon (\"খাদ বাঁচানোর জন্য কম অনুমোদন পাওয়া যায়\"). Thus, option **D** is correct.\n*   **[id 279]**: The text explicitly notes that unprepared tourists will likely only face the real danger of cold weather (\"অপ্রস্তুতদের সম্ভবত ঠাণ্ডা আবহাওয়ার মতো একমাত্র বাস্তব বিপদের মুখোমুখি হতে হবে\"). Thus, option **C** is correct.\n\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17718,
+  "output_tokens": 3259,
+  "thinking_tokens": 2728,
+  "cache_read_tokens": 8142,
+  "total_tokens": 20977
+ },
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

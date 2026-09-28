@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 12.3,
+ "text": "Here is the brief reasoning for each question:\n\n- **104 [D]**: The passage states that the findings confirm at least some dinosaurs had feathers, but does not confirm that *most* dinosaurs had feathers.\n- **105 [D]**: The passage mentions lobate scarps were found across the entire Moon (\"সমস্ত চাঁদ জুড়ে পাওয়া গিয়েছিল\"), so stating they were not found much on the lunar surface is untrue.\n- **106 [D]**: The issues mentioned are bad weather, heavy ice pack, and high ice density; melting of ice is not mentioned as an issue.\n- **107 [A]**: The passage explicitly states that two light beams were pointed towards the sky (\"আকাশের দিকে তাক করে\").\n- **108 [D]**: The passage states the suspect was detained in an injured condition (\"জখম অবস্থায় আটক করা হয়েছে\"), making the statement that he was not injured false.\n- **109 [D]**: The complaint was prompted by AOL, not filed against AOL.\n- **110 [C]**: The passage explicitly names ASUS as the recipient of the Taiwan Sustainable Award in 2007.\n- **111 [C]**: The flight was on its second approach attempt when it went missing, not three times.\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 25347,
+  "output_tokens": 2779,
+  "thinking_tokens": 2436,
+  "cache_read_tokens": 0,
+  "total_tokens": 28126
+ },
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

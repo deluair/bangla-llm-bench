@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 25.6,
+ "text": "Here are the solutions to the math word problems:\n\n[id 200]\n5 + 6 = 11\n11 * 5 = 55\nAnswer: 55\n\n[id 201]\n$5000 + 5% of $5000 = $5000 + $250 = $5250\n$5250 / 7 = $750\nAnswer: 750\n\n[id 202]\n5 tonnes/acre * 10 acres = 50 tonnes\n50 tonnes * 2 barrels/tonne = 100 barrels\nAnswer: 100\n\n[id 203]\nSandwiches per week: 7 days * 1 sandwich/day = 7 sandwiches\nCheese slices per sandwich: 2 slices/sandwich\nTotal cheese slices from sandwiches: 7 sandwiches * 2 slices/sandwich = 14 slices\nCheese slices in omelets: 1 slice/omelet * 3 omelets/week = 3 slices\nTotal cheese slices: 14 + 3 = 17 slices\nAnswer: 17\n\n[id 204]\nGreen pens: 22\nYellow pens: 10\nBlue pens bought: 6 bags * 9 pens/bag = 54 pens\nRed pens bought: 2 bags * 6 pens/bag = 12 pens\nTotal pens: 22 + 10 + 54 + 12 = 98\nAnswer: 98\n\n[id 205]\nScores: 89, 71, 92, 100, 86\nSum of scores: 89 + 71 + 92 + 100 + 86 = 438\nAverage: 438 / 5 = 87.6\nRequired score: 93\nRequired score - average = 93 - 87.6 = 5.4\nAnswer: 54\n\n[id 206]\nWeeks 1-4: 5 weeks * 25 km/week = 125 km\nWeeks 5-7: 3 weeks * 60 km/week = 180 km\nTotal distance: 125 + 180 = 305 km\nAnswer: 305\n\n[id 207]\nWeight of one chocolate bar: 40 grams\nWeight of one candy apple: 40 grams / 2 = 20 grams\nTotal weight of chocolate bars: 25 bars * 40 grams/bar = 1000 grams\nTotal weight of candy apples: 80 apples * 20 grams/apple = 1600 grams\nTotal weight of candy bag: 1000 + 1600 = 2600 grams\nAnswer: 2600\n\n[id 208]\nTuesday: 4 * 3 = 12 cakes\nWednesday: 12 * 5 = 60 cakes\nTotal cakes: 4 + 12 + 60 = 76 cakes\nAnswer: 76\n\n[id 209]\nLet the price of one dozen cups be x.\nPrice of half dozen plates = 6000/2 = 3000\nTotal price of 20 dozen cups = 20x\nGiven that total price of 20 dozen cups is $1200 less than the price of half dozen plates.\n20x = 3000 - 1200\n20x = 1800\nx = 1800/20\nx = 90\nAnswer: 90\n```json\n{\"answers\": {\"200\": 55, \"201\": 750, \"202\": 100, \"203\": 17, \"204\": 98, \"205\": 54, \"206\": 305, \"207\": 2600, \"208\": 76, \"209\": 90}}\n```",
+ "usage": {
+  "prompt_tokens": 909,
+  "completion_tokens": 949,
+  "total_tokens": 1858,
+  "cost": 0.00014035,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014035,
+   "upstream_inference_prompt_cost": 4.545e-05,
+   "upstream_inference_completions_cost": 9.49e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "200": 55.0,
+  "201": 750.0,
+  "202": 100.0,
+  "203": 17.0,
+  "204": 98.0,
+  "205": 54.0,
+  "206": 305.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 90.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 750.0,
+  "202": 100.0,
+  "203": 17.0,
+  "204": 98.0,
+  "205": 54.0,
+  "206": 305.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 90.0
+ }
+}

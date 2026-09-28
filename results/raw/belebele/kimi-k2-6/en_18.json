@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 80.7,
+ "text": "144: The passage states that \"A curry is a dish based on herbs and spices,\" so the core ingredients are herbs and spices.  \n145: Coffee, tea, and juice/smoothies are all mentioned as things to brew or make at home; beer is not mentioned as a homemade staycation beverage.  \n146: The passage explicitly says that for a student visa you need \"evidence of funds to support yourself for at least the first year of your course.\"  \n147: The passage begins with \"In summer, especially, you'll need to watch out for mosquitoes,\" making summer the key time to be especially mindful.  \n148: The passage notes that Timbuktu \"has an airport,\" so claiming it is inaccessible by plane is inaccurate.  \n149: The passage clearly says funnels become \"tornadoes\" when they touch the ground.  \n150: The commonest film is \"Standard 35 mm film (36 by 24 mm negative),\" so the negative size is 36 by 24 mm.  \n151: The passage states that \"The fabulous riches of the tomb are no longer in it, but have been removed to the Egyptian Museum in Cairo.\"\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1337,
+  "completion_tokens": 2599,
+  "total_tokens": 3936,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2309
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

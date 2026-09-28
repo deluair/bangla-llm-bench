@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 34.1,
+ "text": "{\"answers\":{\"90\":225,\"91\":28,\"92\":4,\"93\":36,\"94\":348,\"95\":67,\"96\":3,\"97\":6,\"98\":5,\"99\":58}}",
+ "usage": {
+  "prompt_tokens": 1098,
+  "completion_tokens": 3348,
+  "total_tokens": 4446,
+  "cost": 0.00050166,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00050166,
+   "upstream_inference_prompt_cost": 3.294e-05,
+   "upstream_inference_completions_cost": 0.00046872
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3369,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 67.0,
+  "96": 3.0,
+  "97": 6.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 67.0,
+  "96": 3.0,
+  "97": 6.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 24.7,
+ "text": "**[128]** The passage states that a সংক্রামক রোগ spreads \"একজন আক্রান্ত রোগীর সান্নিধ্যে যাওয়ার মাধ্যমে\" — i.e., via proximity to an infected patient. → **A**\n\n**[129]** Since calls run over the internet, no local phone company or local number is needed; the only case involving a regular phone company's network is when PSTN phones call you (via a purchased global number). → **D**\n\n**[130]** The passage says only c and g change pronunciation based on the following vowel — not most words in general. So option D misstates the description. → **D**\n\n**[131]** Religious significance, historic sites, and cultural assets are all cited as tourist draws; being Israel's capital (unrecognized by most countries) is not mentioned as an attraction. → **B**\n\n**[132]** The passage warns to be careful on steep parts \"বিশেষত ভেজা হলে কারণ এটি দ্রুত বিপজ্জনক হয়ে উঠতে পারে\" — especially when wet. → **A**\n\n**[133]** Moldova is described as a multi-ethnic republic that has suffered ethnic conflict, which produced Transnistria. → **B**\n\n**[134]** The passage explicitly warns \"ছোট শহরের বারগুলো... দীর্ঘক্ষণ থাকার জন্য ভালো না\" (small-town bars are not good to stay long in). → **B**\n\n**[135]** Fruit juice is described as \"সাধারণত দামি\" (usually expensive), so budget-conscious tourists would avoid it. → **D**\n\n{\"answers\": {\"128\": \"A\", \"129\": \"D\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 2235,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1614
+  },
+  "prompt_tokens": 5754,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 7989
+ },
+ "served_by": null,
+ "answers_batch": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

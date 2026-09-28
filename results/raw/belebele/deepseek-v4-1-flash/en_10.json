@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 3.8,
+ "text": "{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1326,
+  "completion_tokens": 699,
+  "total_tokens": 2025,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 646
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1326
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

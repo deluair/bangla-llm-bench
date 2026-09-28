@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "1680",
+  "1726",
+  "1753",
+  "1772",
+  "1773",
+  "1820",
+  "1850",
+  "1873",
+  "1892",
+  "1895",
+  "1929",
+  "1995",
+  "1998",
+  "2004",
+  "2043"
+ ],
+ "seconds": 91.3,
+ "text": "# Solution to Multiple-Choice Questions\n\nLet me work through each question systematically:\n\n**[id 1680]** - Direction of natural processes follows the Second Law of Thermodynamics, moving from higher order (organized) to lower order (disorganized/higher entropy) states.\n**Answer: A**\n\n**[id 1726]** - With inextensible string, distance fallen equals horizontal distance moved, so accelerations are equal. For equal masses: mg - T = ma and T = ma, giving a = g/2.\n**Answer: B**\n\n**[id 1753]** - Pitch (तीক्ष्णता/তীক্ষ্ণতা) is determined by frequency of sound.\n**Answer: B**\n\n**[id 1772]** - Impulse-momentum theorem (FΔt = Δp) is a direct consequence of Newton's Second Law (F = ma).\n**Answer: B**\n\n**[id 1773]** - A nuclear fission reactor's primary function is to heat water for steam generation and electricity production.\n**Answer: A**\n\n**[id 1820]** - Negative autocorrelation means residuals alternate in sign from positive to negative.\n**Answer: B**\n\n**[id 1850]** - For ARMA(p,q) with both AR and MA components, both ACF and PACF exhibit geometric decay rather than cutting off.\n**Answer: A**\n\n**[id 1873]** - All four statements are true: (i) VD measures shock impacts, (ii) VD shows variance proportions, (iii) both IR and VD are interconnected tools, (iv) own-variable shocks typically explain significant variance.\n**Answer: D**\n\n**[id 1892]** - Residuals are the difference between observed values (y) and fitted values (ŷ).\n**Answer: C**\n\n**[id 1895]** - Choosing among three unordered categories (equity, bond, or cash) requires multinomial logit.\n**Answer: B**\n\n**[id 1929]** - LC oscillators operate in the RF range typically 100 KHz to 500 MHz.\n**Answer: B**\n\n**[id 1995]** - Resistance welding electrodes require high electrical conductivity, high thermal conductivity, and strength at high temperatures.\n**Answer: D**\n\n**[id 1998]** - Heat sinks need high thermal conductivity, large surface area, and high melting point.\n**Answer: D**\n\n**[id 2004]** - Parallel capacitors: C_eq = 40 + 40 + 40 + 40 = 160 µF.\n**Answer: A**\n\n**[id 2043]** - Alternating poles and zeros on negative real axis characterize both RC and RL networks (passive one-port networks).\n**Answer: D**\n\n```json\n{\"answers\": {\"1680\": \"A\", \"1726\": \"B\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"D\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 3597,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8721,
+  "output_tokens_details": {
+   "thinking_tokens": 7926
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3597,
+    "output_tokens": 8721,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.047202,
+ "answers_batch": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {},
+ "answers": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ }
+}

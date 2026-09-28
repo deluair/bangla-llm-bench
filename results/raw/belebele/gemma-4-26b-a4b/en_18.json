@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 2.6,
+ "text": "144: B (Passage: \"A curry is a dish based on herbs and spices...\")\n145: C (Coffee, tea, and smoothies/juice are mentioned as things to make; beer/bars are mentioned as places to go, not make at home.)\n146: D (Passage: \"Student visas... you will need... evidence of funds...\")\n147: A (Passage: \"In summer, especially, you'll need to watch out for mosquitoes...\")\n148: C (Passage: \"...it has an airport,\" so it is not inaccessible by plane.)\n149: D (Passage: \"...and become 'tornadoes' when they touch the ground.\")\n150: D (Passage: \"Standard 35 mm film (36 by 24 mm negative) is much the commonest.\")\n151: D (Passage: \"The fabulous riches of the tomb are no longer in it...\")\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1428,
+  "completion_tokens": 278,
+  "total_tokens": 1706,
+  "cost": 0.00017742,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017742,
+   "upstream_inference_prompt_cost": 8.568e-05,
+   "upstream_inference_completions_cost": 9.174e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

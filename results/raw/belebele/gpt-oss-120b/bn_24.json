@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 5.0,
+ "text": "{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "queue_time": 0.00543228,
+  "prompt_tokens": 1919,
+  "prompt_time": 0.094934879,
+  "completion_tokens": 2249,
+  "completion_time": 4.769180395,
+  "total_tokens": 4168,
+  "total_time": 4.8641152739999995,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2189
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

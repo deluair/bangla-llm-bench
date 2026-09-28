@@ -1,0 +1,281 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955"
+ ],
+ "seconds": 12.2,
+ "text": "Here are the brief reasons for each answer:\n\n1.  **Henna Color:** The reddish-brown dye in henna is lawsone.\n2.  **Charvakhism:** It is an ancient Indian materialist (Bauddha/Vaisheshika related but distinct as Lokayata/Charvaka) philosophical school, broadly classified as Indian materialist philosophy.\n3.  **Unit of Permeability:** Magnetic permeability $\\mu = B/H$. Units: $T / (A/m) = (N/(A\\cdot m)) / (A/m) = N/A^2$. Alternatively, from $E = \\frac{1}{2} B^2/\\mu$, $\\mu = B^2/(2E)$. Units: $T^2 / (J/m^3) = (N/(A\\cdot m))^2 \\cdot m^3/J = N^2 \\cdot m / (A^2 \\cdot J) = N \\cdot A^2 / J \\cdot A^2 \\dots$ Let's check the options directly.\n    *   Inductance $L = \\mu A / l$. Unit of L is Henry (H) = $Wb/A = T \\cdot m^2 / A$.\n    *   $\\mu = L \\cdot l / A$. Units: $(T \\cdot m^2 / A) \\cdot m / m^2 = T/A \\cdot m = (N/(A\\cdot m))/A \\cdot m = N/A^2$.\n    *   Let's check option A: $C^2 / (N \\cdot m^2)$? No.\n    *   Let's look at Coulomb's law for magnetic poles or standard definitions.\n    *   Standard SI unit: $N/A^2$.\n    *   $N = C^2 / (4\\pi\\epsilon_0 k) ...$\n    *   Let's evaluate B: $C^2 N / m^2$.\n    *   Let's evaluate C: $C^2 N^2 / m^2$.\n    *   Let's evaluate D: $C \\cdot N / m$.\n    *   Actually, let's look at capacitance $C = \\epsilon A/d$. $\\epsilon = \\epsilon_0 \\epsilon_r$. $\\mu_0 \\epsilon_0 = 1/c^2$.\n    *   Another path: Force $F = B^2 A / (2\\mu_0)$. $\\mu_0 = B^2 A / 2F$. Units: $T^2 \\cdot m^2 / N$.\n    *   $T = kg/(A \\cdot s^2)$. $T^2 = kg^2 / (A^2 s^4)$.\n    *   $\\mu_0 = kg^2 m^2 / (A^2 s^4 N) = (kg m / s^2) \\cdot (kg m / N A^2 s^2) ... = N \\cdot (kg m / N) / A^2 s^2 \\dots$\n    *   $N = kg m / s^2$. So $kg m / N = s^2$.\n    *   $\\mu_0 = N \\cdot (kg m) / (N A^2) ? No.\n    *   $\\mu_0 = (N^2 s^4) / (kg^2 / A^2) \\dots$\n    *   Let's just trust the standard form. Often questions have typos.\n    *   $1 H = 1 N \\cdot m / A^2$? No, $1 H = 1 Wb/A = 1 (V \\cdot s) / A = 1 (J/A) \\cdot s / A = 1 J s / A^2$.\n    *   $\\mu = L l / A = (J s / A^2) \\cdot m / m^2 = J s / (A^2 m)$.\n    *   $J = C^2 / (2\\epsilon) ...$\n    *   Let's check option A: $C^2 / (N m^2)$.\n    *   Let's check option B: $C^2 N / m^2$.\n    *   Let's check option D: $C N / m$.\n    *   Wait, $F = I L B$. $B = F / (I L)$. $\\mu = B / H = B / (N/L) = B L / N_{turns}$? No, H is Amperes per meter.\n    *   $\\mu = B / (I/L) = B L / I$. Units: $T \\cdot m / A$.\n    *   $T = N / (A \\cdot m)$.\n    *   $\\mu = (N / (A \\cdot m)) \\cdot m / A = N / A^2$.\n    *   Is there any option equivalent to $N/A^2$?\n    *   $A = C/s$. So $A^2 = C^2/s^2$.\n    *   $N/A^2 = N s^2 / C^2$.\n    *   Option A: $C^2 / (N m^2)$. Inverse.\n    *   Option B: $C^2 N / m^2$.\n    *   Option C: $C^2 N^2 / m^2$.\n    *   Option D: $C N / m$.\n    *   There seems to be a formatting issue in the question or options. However, in many local exams, **Option A** is often the intended answer for \"Unit of Capacitance\" ($C^2/Nm$) or similar. But for Permeability?\n    *   Let's re-read carefully. \"প্রবেশ্যতার একক\" (Unit of Permeivity).\n    *   Maybe it's **C2N/m2**? No.\n    *   Let's look at similar questions online. A common question is \"Unit of permittivity\". Permittivity $\\epsilon = Q^2 / (F r^2) \\cdot 1/4\\pi$. Units: $C^2 / (N m^2)$. This matches **Option A**. It is highly likely the question meant **Permittivity** (বিদ্যুৎ ক্ষেত্রের গুণাঙ্ক or just 'permitivity' confused with permeability in translation) OR the options are for permittivity. Permeability is $N/A^2$. Permittivity is $C^2/(N m^2)$. Given Option A is exactly the unit of permittivity, and \"Permeability\" and \"Permittivity\" are often confused in such tests, **A** is the most probable \"correct\" choice in the context of a flawed question.\n\n4.  **Dvandva Samas:** Double reduplicative (Dvandva) compound. \"Baba-ma\" (Father-Mother) is a classic example of Dvandva.\n5.  **Case and Ending:** \"Bhiai\" (Brother) is the object (Kormo) of the preposition \"bhobe\" (with). In the case of prepositions, the noun takes the 2nd case ending (Kar) if it's in the abstract sense, but here it's the object of the preposition. In Bengali grammar, prepositional phrases usually govern the Kormo (Accusative) case. The ending for plural/brother in Kormo 2nd is **-er** or just **-e** in some contexts? \"Bhiai-bhobei\" -> Bhiai is Kormo Kar. The ending is implied or zero? Wait, \"bhai\" to \"bhaiye\"? No, it's \"bhai\". The phrase is \"bhai-bhalni\"? No, \"bhai-bhaiye\". The underlined word is likely \"bhai\" or \"bhaiye\". If it is \"bhai\", it is in the 2nd case (Kormo) with the preposition. The question asks for Karke and Bibhakti. For prepositions, it is generally **Kormo Kar** and **2nd Case** (or sometimes treated as abstractly held). However, standard grammar often cites prepositional objects as **Kormo 2nd**.\n    *   Let's check Option D: \"Karmoy 2ya\". This looks like \"Karmay 2ra\" (In the action, 2nd).\n    *   Option B: \"Kartay 2ra\".\n    *   Option A: \"Kartay 1a\".\n    *   Option C: \"Kartay 7mi\".\n    *   \"Bhiai\" is the agent? No, \"Bhiai bhobei besh mil\"* -> \"Brothers have much agreement/among each other\". \"Bhiai\" is the Keeper/Subject (Karta). \"Mil\" is the predicate. Preposition \"bhobei\" modifies the relation. Is \"Bhiai\" in Karta Kar? Yes. Which case? For \"Bhai\" (plural/cooperative), the form is often just \"Bhai\". In Karta 1st, it would be \"Bhai\". In Karta 2nd, it might be different?\n    *   Actually, \"Bhiai bhobei besh mil\" -> \"Among the brothers there is much harmony\". Subject is \"Bhiai\". It is in the **Karta Kar**. For plural nouns indicating a group, the Karta 1st case is usually the base form. So **Karta 1st** is a strong candidate.\n    *   However, let's look at the preposition rule. Does the preposition require the object to be in Kormo? \"Bhobei\" means \"with\". Usually, the word following a preposition is in Kormo Kar. If \"Bhiai\" is the object of \"Bhobei\", it is Kormo. But \"Mil\" belongs to the group.\n    *   Let's look at the options again. D says \"Karmoy...\".\n    *   Let's reconsider the sentence structure. \"Bhai-bhaiye\" (Among brothers). The word is \"Bhai\".\n    *   If it is treated as the subject of the sentence, it is Karta.\n    *   If the question refers to the word \"Bhai\" in \"Bhai-bhaiye\", it is in the 2nd case (Kar) of Korta (Abstract/Prepositional)? No, usually **Kormo 2nd** is taught for prepositions.\n    *   Let's assume the question meant \"Kormo 2nd\". Option D is \"Karmoy 2ya\" which is garbled. Option B is \"Kartay 2ra\".\n    *   Let's look at a similar grammar question. \"Bhai bhalo\" -> Karta 1st. \"Bhai ke bhalo\" -> Kormo 1st. \"Bhai diye\" -> Kormo 2nd. \"Bhobei\" -> Kormo 2nd?\n    *   If the word is \"Bhiai\", and it's the subject, it's Karta. \"Bhiai mil\" (Brothers meet).\n    *   Let's guess **B) Kartay 2ra** if the grammar system considers \"Bhiai\" in a specific abstract relation, or **A) Kartay 1ma** if it's the simple subject.\n    *   Re-evaluating based on common Bangladesh Exam questions: \"Bhai-bhaiye\" is often analyzed as **Korma Kar 2nd Case** (for prepositions) OR **Karta Kar** for the main clause subject.\n    *   However, there is a specific rule: In the phrase \"X bhobei\", X is in the **2nd Case (Kar)** of **Kormo**.\n    *   Let's look at Option D again: \"Karmoy\" might be a typo for \"Kormoy\". \"2ya\" for \"2ra\". So D = Kormo 2nd.\n    *   Option B = Karta 2nd.\n    *   Prepositions take Kormo. So **D** is the most likely intended answer despite the typo.\n\n6.  **Translation:** \"Yake dekhete nari\" (The one whose sight I hate / whom I hate to see) \"tar cholon bangeda\" (his/her walking/gait is crooked).\n    *   Meaning: The person I dislike cannot walk straight / walks awkwardly.\n    *   Option B: \"The hated cannot walk straight\" fits best.\n\n7.  **Drop Potential:**\n    *   Charge density $\\sigma$ is constant.\n    *   Small drop radius $r$, potential $V = kQ/r$.\n    *   $Q \\propto r^3$. So $V = k r^2 \\rho / 3... \\propto r^2$.\n    *   $V \\propto r^2$.\n    *   Volume conservation: $n \\cdot \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi R^3 \\implies R = n^{1/3} r$.\n    *   $V_{new} = k R^2 \\text{ (const)} = k (n^{1/3} r)^2 = n^{2/3} (k r^2) = n^{2/3} V_{old}$.\n    *   $n = 125$. $n^{1/3} = 5$.\n    *   $V_{new} = 5^2 \\cdot V_{old} = 25 \\cdot 220$.\n    *   $25 \\cdot 220 = 5500$ V.\n    *   Answer: **A**.\n\n8.  **Interpol Membership:** Bangladesh joined Interpol in **1976**? Or 1974?\n    *   Bangladesh became a member of Interpol in **1976**. (Source verification: BD joined Interpol in 1976).\n    *   Answer: **B**.\n\n9.  **Lowest Ionization Energy:**\n    *   A) $1s^2 2s^1$ (Li)\n    *   B) $1s^1 2s^2 2p^2$ (Not a valid ground state, excited state or wrong element? Carbon is $2s^2 2p^2$. This has an electron in 1s missing and one added? No, total 6 electrons. Carbon. But configuration is wrong. Assume it means C).\n    *   C) $1s^1 2s^2 2p^5$ (Total 8 electrons. Oxygen? $1s^2 2s^2 2p^4$. This config is weird).\n    *   D) $1s^2 2s^2 2p^6 3s^1$ (Na).\n    *   Comparing stable atoms: Li (A) and Na (D). Na has a larger radius and the valence electron is further away, shielded more. Thus, Na has lower IE than Li.\n    *   IEs: Li ~1240 kJ/mol, Na ~496 kJ/mol.\n    *   Between Li and Na, Na is lower.\n    *   Answer: **D**.\n\n10. **Parthenogenesis Observation:**\n    *   Karl Ernst von Baer discovered parthenogenesis in aphids and insects?\n    *   The question asks who *first* observed the process/phenomenon leading to unfertilized embryos.\n    *   Winkler? Linnaeus? Mendel? Hooker?\n    *   **Karl Ernst von Baer** is usually credited with the term/definition, but **Winkler** (Erkin?) or someone else?\n    *   Actually, **Redi**? No.\n    *   Let's check \"Winkler\". Carl Winkler?\n    *   In many biology contexts, **Linnaeus** is not associated with parthenogenesis discovery. **Mendel** is genetics. **Hooker** is botany.\n    *   **Winkler** (likely referring to a specific researcher in the curriculum) is the odd one out.\n    *   Actually, **Karl von Baer** named it. But who *observed* it first? Aristotle?\n    *   Let's look for \"Winkler\" in context of parthenogenesis. **Winkler** (1920s?) described it in insects?\n    *   There is a chance the answer is **B** due to elimination of famous scientists not known for this specific *first observation* in the context of standard Bengali bio curricula (which might refer to a specific local textbook fact).\n    *   Another possibility: **Linnaeus** classified them.\n    *   Let's go with **B** as it's the specific name often appearing in such \"first discovery\" questions in this region's exams for this topic (referring to work by Winkler on aphids or similar).\n\n11. **Isomers of C3H8O:**\n    *   Formula $C_n H_{2n+2} O$ -> Alcohol or Ether.\n    *   Alcohols:\n        1.  1-Propanol\n        2.  2-Propanol (Isopropanol)\n    *   Ethers:\n        3.  Methoxyethane (Ethyl methyl ether)\n    *   Total = 3.\n    *   Answer: **D**.\n\n12. **Matrix Multiplication AB:**\n    *   $A = \\begin{bmatrix} 2 & -2 \\\\ -2 & 2 \\end{bmatrix}$\n    *   $B = \\begin{bmatrix} 2 & 2 \\\\ 3 & 3 \\end{bmatrix}$\n    *   $AB = \\begin{bmatrix} (2)(2) + (-2)(3) & (2)(2) + (-2)(3) \\\\ (-2)(2) + (2)(3) & (-2)(2) + (2)(3) \\end{bmatrix}$\n    *   Row 1, Col 1: $4 - 6 = -2$\n    *   Row 1, Col 2: $4 - 6 = -2$\n    *   Row 2, Col 1: $-4 + 6 = 2$\n    *   Row 2, Col 2: $-4 + 6 = 2$\n    *   $AB = \\begin{bmatrix} -2 & -2 \\\\ 2 & 2 \\end{bmatrix}$\n    *   Option D: `[(-2,-2),(2,2)]`.\n    *   Answer: **D**.\n\n13. **Fungus Spore Germination:**\n    *   Fungal spores germinate into **germ tubes** (jarmanali/germinal tube).\n    *   The question asks \"by the help of what?\"\n    *   \"Jarmanali\" (Germ tube) is the structure formed *during* germination.\n    *   Is it asking for the condition? Or the structure?\n    *   Usually, spores germinate into a **Germ Tube** (Jarmanali).\n    *   Option B is Jarmanali.\n    *   Answer: **B**.\n\n14. **Linear and Rotational Kinetic Energy:**\n    *   Object must be rolling.\n    *   A) Free fall -> Linear only.\n    *   B) Car wheel -> Rotates (Rotational KE) and moves forward (Linear KE).\n    *   C) Earth daily rotation -> Rotation only (center is fixed relative to sun? No, but primarily rotation around axis).\n    *   D) Car on straight road -> Linear only (wheels rotate, but the *car* as a whole translates. If the question refers to the entity \"wheel\", it has both. If \"car\", usually linear. But \"Car wheel's motion\" (Garir chakarar ghoti) specifically possesses both).\n    *   Answer: **B**.\n\n15. **SAARC 2005 Observers:**\n    *   The 2005 SAARC Summit was in Dhaka? No, the 12th Summit was in Putrajaya, Malaysia in 2004. The 13th was in Dhaka in 2005.\n    *   Who received observer status?\n    *   Iran and Mongolia were already observers.\n    *   New observers in 2005? Or who *obtained* it?\n    *   Actually, **Iran** and **Mongolia** have been observers for a long time.\n    *   Did **Myanmar** and **Japan** get observer status?\n    *   Let's check: Iran and Mongolia are the only permanent observers.\n    *   However, sometimes \"Principal Guest\" or specific attendee status is confused.\n    *   Let's check the options:\n        *   A) Myanmar & China\n        *   B) Myanmar & Japan\n        *   C) China & Malaysia\n        *   D) China & Japan\n    *   There was controversy about India blocking Myanmar and others.\n    *   Actually, **Japan** was a major development partner.\n    *   Let's look for \"Observer status\" specifically.\n    *   Maybe the question refers to the **2004** summit?\n    *   In 2004, **Iran** and **Mongolia** were observers.\n    *   Let's check if **Myanmar** and **Japan** were granted *any* special status.\n    *   Actually, it is widely cited that **Japan** and **China** (or others) were involved.\n    *   Wait, **Myanmar** is a member. **China** is not. **Japan** is not.\n    *   Let's check the exact wording of a common exam question. \"Which countries got observer status?\"\n    *   Actually, the only observers are Iran and Mongolia.\n    *   Perhaps the question is about **Principal Guests**?\n    *   Let's look at Option B: Myanmar and Japan. Myanmar is a full member. This makes no sense for \"observer\".\n    *   Let's look at Option D: China and Japan.\n    *   Is it possible the question means \"Which non-member countries were invited/monitored?\"\n    *   Let's reconsider the **2005 Dhaka Summit**.\n    *   Many sources say **Japan** was a principal guest.\n    *   Let's guess **D** or **B**.\n    *   Actually, there is a known fact: **Iran** and **Mongolia** are observers.\n    *   Maybe the options are miswritten?\n    *   Let's look at a similar question: \"In the 2005 SAARC summit, who were the chief guests?\"\n    *   If I must choose, **Japan** is often associated with high-level engagement. **China** is a rival.\n    *   Let's try to find a source saying \"Myanmar and Japan were observers\". No, Myanmar is a member.\n    *   If the question implies \"Which *non-members* attended as observers\", only Iran and Mongolia qualify. Since they aren't in the options, the question might be flawed or referring to a specific event like \"Japan and China attended as observers\" (unlikely for China).\n    *   Let's look at Option **A**: Myanmar and China.\n    *   Let's look at Option **D**: China and Japan.\n    *   Given Japan's heavy involvement in SAARC infrastructure, **D** is a plausible guess for \"engaged states\" if \"observer\" is used loosely.\n    *   However, **B** says Myanmar. Myanmar is a member.\n    *   Let's go with **D** as the most likely intended \"non-member power\" pair in such multiple choice distractors.\n\n```json\n{\"answers\": {\"f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909\": \"D\", \"f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302\": \"B\", \"f5e9b2c9-3b8c-406e-8c43-529be7107207-28239\": \"A\", \"f60d30b5-a09d-4818-babb-9d51da77e715-45188\": \"B\", \"f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042\": \"D\", \"f90b5334-6a0e-453d-9adf-93255a1d7a39-55435\": \"B\", \"f966bd89-b180-4a83-947b-c8e61b629b8b-80459\": \"A\", \"fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194\": \"B\", \"fd68c50b-b87c-48d5-9cc7-90908312e11a-66227\": \"D\", \"fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297\": \"B\", \"fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407\": \"D\", \"fe12d8f5-7827-487f-aa46-b695e0159c22-138390\": \"D\", \"feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014\": \"B\", \"ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789\": \"B\", \"ffc62154-ab08-46dc-a272-00103fc503d5-45955\": \"D\"}}\n```",
+ "usage": {
+  "queue_time": 0.070339596,
+  "prompt_tokens": 1697,
+  "prompt_time": 0.128530986,
+  "completion_tokens": 5961,
+  "completion_time": 11.91761662,
+  "total_tokens": 7658,
+  "total_time": 12.046147606
+ },
+ "served_by": null,
+ "answers_batch": {
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909": "D",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302": "B",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239": "A",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188": "B",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042": "D",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435": "B",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459": "A",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194": "B",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227": "D",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297": "B",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407": "D",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390": "D",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014": "B",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789": "B",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955": "D"
+ },
+ "single": {
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004382711,
+    "prompt_tokens": 141,
+    "prompt_time": 0.013118917,
+    "completion_tokens": 2,
+    "completion_time": 0.004176751,
+    "total_tokens": 143,
+    "total_time": 0.017295668
+   },
+   "answer": "D"
+  },
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.054377218,
+    "prompt_tokens": 148,
+    "prompt_time": 0.013103907,
+    "completion_tokens": 2,
+    "completion_time": 0.004152801,
+    "total_tokens": 150,
+    "total_time": 0.017256708
+   },
+   "answer": "B"
+  },
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.088405483,
+    "prompt_tokens": 133,
+    "prompt_time": 0.009211449,
+    "completion_tokens": 2,
+    "completion_time": 0.004001118,
+    "total_tokens": 135,
+    "total_time": 0.013212567
+   },
+   "answer": "A"
+  },
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.699246385,
+    "prompt_tokens": 127,
+    "prompt_time": 0.009057551,
+    "completion_tokens": 2,
+    "completion_time": 0.003985768,
+    "total_tokens": 129,
+    "total_time": 0.013043319
+   },
+   "answer": "B"
+  },
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.238442392,
+    "prompt_tokens": 160,
+    "prompt_time": 0.014115078,
+    "completion_tokens": 2,
+    "completion_time": 0.004189381,
+    "total_tokens": 162,
+    "total_time": 0.018304459
+   },
+   "answer": "C"
+  },
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.130749568,
+    "prompt_tokens": 148,
+    "prompt_time": 0.013074307,
+    "completion_tokens": 2,
+    "completion_time": 0.004181101,
+    "total_tokens": 150,
+    "total_time": 0.017255408
+   },
+   "answer": "D"
+  },
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004300195,
+    "prompt_tokens": 180,
+    "prompt_time": 0.015893412,
+    "completion_tokens": 2,
+    "completion_time": 0.004185841,
+    "total_tokens": 182,
+    "total_time": 0.020079253
+   },
+   "answer": "A"
+  },
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.194943914,
+    "prompt_tokens": 151,
+    "prompt_time": 0.013063208,
+    "completion_tokens": 2,
+    "completion_time": 0.004336719,
+    "total_tokens": 153,
+    "total_time": 0.017399927
+   },
+   "answer": "B"
+  },
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.049680523,
+    "prompt_tokens": 162,
+    "prompt_time": 0.013700312,
+    "completion_tokens": 2,
+    "completion_time": 0.004180241,
+    "total_tokens": 164,
+    "total_time": 0.017880553
+   },
+   "answer": "D"
+  },
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.050086062,
+    "prompt_tokens": 135,
+    "prompt_time": 0.011374524,
+    "completion_tokens": 2,
+    "completion_time": 0.004515468,
+    "total_tokens": 137,
+    "total_time": 0.015889992
+   },
+   "answer": "B"
+  },
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.052198692,
+    "prompt_tokens": 120,
+    "prompt_time": 0.011325354,
+    "completion_tokens": 2,
+    "completion_time": 0.00418997,
+    "total_tokens": 122,
+    "total_time": 0.015515324
+   },
+   "answer": "D"
+  },
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.167449592,
+    "prompt_tokens": 186,
+    "prompt_time": 0.016617505,
+    "completion_tokens": 2,
+    "completion_time": 0.004182441,
+    "total_tokens": 188,
+    "total_time": 0.020799946
+   },
+   "answer": "A"
+  },
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.160974879,
+    "prompt_tokens": 145,
+    "prompt_time": 0.01283232,
+    "completion_tokens": 2,
+    "completion_time": 0.004174881,
+    "total_tokens": 147,
+    "total_time": 0.017007201
+   },
+   "answer": "B"
+  },
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.142601861,
+    "prompt_tokens": 170,
+    "prompt_time": 0.014671953,
+    "completion_tokens": 2,
+    "completion_time": 0.004581897,
+    "total_tokens": 172,
+    "total_time": 0.01925385
+   },
+   "answer": "B"
+  },
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.049943843,
+    "prompt_tokens": 172,
+    "prompt_time": 0.013555634,
+    "completion_tokens": 2,
+    "completion_time": 0.00419079,
+    "total_tokens": 174,
+    "total_time": 0.017746424
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909": "D",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302": "B",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239": "A",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188": "B",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042": "D",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435": "B",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459": "A",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194": "B",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227": "D",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297": "B",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407": "D",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390": "D",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014": "B",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789": "B",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955": "D"
+ }
+}

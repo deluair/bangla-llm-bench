@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637"
+ ],
+ "seconds": 100.2,
+ "text": "Looking at each question carefully:\n\n**1. Plant virus with DNA:** Cauliflower Mosaic Virus (ফুলকপি মোজাইক) is unique among common plant viruses as a pararetrovirus with a DNA genome.\n\n**2. X-ray wavelength:** X-rays have wavelengths in the range 0.01-10 nm, which equals 1.0×10⁻² nm to 10 nm.\n\n**3. Mangrove plant:** নাগেস্বর (Excoecaria agallocha) is a characteristic mangrove species found in Bangladesh's coastal regions.\n\n**4. ETP ions:** In electroplating/treatment processes, Fe²⁺, Fe³⁺, and Al³⁺ serve as sacrificial ions, but Na⁺ does not.\n\n**5. Hydra buds:** Hydra reproduces via budding, which is a form of asexual reproduction.\n\n**6. Grid squares:** In a 5×5 grid: 5² + 4² + 3² + 2² + 1² = 25 + 16 + 9 + 4 + 1 = 55\n\n**7. AI program:** ChatGPT is an artificial intelligence program.\n\n**8. Thylakoids:** Thylakoids are membrane structures found in chloroplasts for photosynthesis.\n\n**9. PERMUTATION arrangements:** The word has 5 vowels (E,U,A,I,O) and 6 consonants (P,R,M,T,T,N). Keeping vowels fixed, consonants can be arranged: 6!/2! = 360 ways.\n\n**10. Great Hall:** Westminster Hall in London, Britain (historically most significant, traditionally referred to as \"The Great Hall\").\n\n**11. Wavelength in glass:** λ_glass = λ_air/n = 4800Å/1.5 = 3200Å\n\n**12. Non-protein amino acid:** Ornithine (অরনিথিন) is found in the urea cycle, not in proteins.\n\n**13. Bangladesh Bank head:** Called the Governor.\n\n**14. Waterfall temperature:** ΔT = gh/c = (9.8 × 100)/4186 ≈ 0.234°C\n\n**15. Zero slope:** For y = x + 1/x, dy/dx = 1 - 1/x² = 0 gives x = 1\n\n```json\n{\"answers\": {\"14b057ae-8f27-4763-8db0-d989fe3f683d-135402\": \"C\", \"14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190\": \"B\", \"1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020\": \"D\", \"1642de87-da58-43b2-9d7c-f894c999c20a-79520\": \"D\", \"1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787\": \"A\", \"172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626\": \"C\", \"17ca40af-18e3-4a50-ac99-df4408196959-135284\": \"B\", \"18e642f4-3c84-4119-898d-730dba46b516-61284\": \"A\", \"1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932\": \"A\", \"1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005\": \"A\", \"1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579\": \"C\", \"1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938\": \"C\", \"1d54b344-6736-47ef-b860-451dad6be1d3-105153\": \"C\", \"1d9b0927-6091-4f8d-90a3-d2537d257e81-128363\": \"B\", \"1dfbb554-5de1-491d-adad-b94e92f3bd96-24637\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2176,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9872,
+  "output_tokens_details": {
+   "thinking_tokens": 8780
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2176,
+    "output_tokens": 9872,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.051536,
+ "answers_batch": {
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402": "C",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190": "B",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020": "D",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520": "D",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787": "A",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626": "C",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284": "B",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284": "A",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932": "A",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005": "A",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579": "C",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938": "C",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153": "C",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363": "B",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637": "B"
+ },
+ "single": {},
+ "answers": {
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402": "C",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190": "B",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020": "D",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520": "D",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787": "A",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626": "C",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284": "B",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284": "A",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932": "A",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005": "A",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579": "C",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938": "C",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153": "C",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363": "B",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637": "B"
+ }
+}

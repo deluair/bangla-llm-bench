@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 5.6,
+ "text": "Here are the answers based on the reasoning from each passage:\n\n- **[id 224]** The airport was closed due to **A) বাণিজ্যিক বিমান** (commercial flights) after the JAS 39C Gripen crash.\n- **[id 225]** **A) ব্রজেজিনস্কি** served as National Security Advisor until 1981.\n- **[id 226]** The false statement is **B) ভেঙ্গে পড়ার সময় জাহাজটিতে 100 মিটার জ্বালানি তেল ছিল** (the fuel was 120-160 cubic meters, not 100 meters).\n- **[id 227]** Algeria gained independence in the **C) 1960-এর দশক** (1960s).\n- **[id 228]** The gas leak was reported by **A) বিল্ডিং-এর একজন প্রতিবেশী** (a neighbor).\n- **[id 230]** Fred was moving in the direction of **D) উত্তর-পশ্চিম** (northwest).\n- **[id 229]** The last confirmed location of H5N1 was in **A) ফ্রান্স** (France).\n- **[id 231]** The period change occurred on **C) 10 মার্চে** (March 10).\n\n```json\n{\n  \"answers\": {\n    \"224\": \"A\",\n    \"225\": \"A\",\n    \"226\": \"B\",\n    \"227\": \"C\",\n    \"228\": \"A\",\n    \"229\": \"A\",\n    \"230\": \"D\",\n    \"231\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2327,
+  "completion_tokens": 388,
+  "total_tokens": 2715,
+  "cost": 0.00040725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040725,
+   "upstream_inference_prompt_cost": 0.00034905,
+   "upstream_inference_completions_cost": 5.82e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "224": "A",
+  "225": "A",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "A",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

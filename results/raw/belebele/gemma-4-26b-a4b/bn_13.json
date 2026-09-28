@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 29.5,
+ "text": "104: The passage states that fossils do not provide detailed info like color, but scientists *suggest*/predict it (brown top, pale inside). However, option D is explicitly addressed: \"it does not necessarily confirm that at least some dinosaurs had feathers... rather a theory gained popularity.\" Therefore, D is not a result/confirmation.\n105: The passage says these parts were found \"all over the moon\" (সমস্ত চাঁদ জুড়ে পাওয়া গিয়েছিল), so D is false.\n106: The text mentions bad weather, amount of ice, and density of ice as problems. Melting ice is not mentioned.\n107: The text explicitly states \"দুটি আলোকরশ্মি আকাশের দিকে তাক করে কার্যপযোগী করা হয়েছে\" (two beams of light were made functional pointing towards the sky).\n108: The text says the suspect was caught \"জখম অবস্থায়\" (in an injured state), so D is false.\n109: The passage says the case was run in Virginia *because* it was the location of the AOL building, but it doesn't explicitly state that the city where the HQ is located was where the trial took place (though implied, the most direct \"not true\" or uncertain statement depends on strict reading; however, looking at the options, D is actually the logical focus: the law was used to stop spam, and the case was \"driven\" by AOL's building. Actually, looking closely: A says the trial happened in the city where AOL's HQ is. The text says the case was run in Virginia because of the AOL building. It doesn't confirm the city. But looking at D: The text says the case was \"driven\" by the building/AOL, but it doesn't explicitly say AOL was the one being accused of wrongdoing, rather the case was *about* the law. Wait, re-reading: \"AOL এর ভবন যা অভিযোগ প্ররোচিত করেছিল\" (AOL building which provoked the complaint). This is a tricky translation. Let's look at A again. If the trial is in Virginia, and the building is in Virginia, A is likely true. Option D: \"AOL-এর বিরুদ্ধে অভিযোগ করা হয়েছিল\". The text says the building *provoked* the complaint, not necessarily that AOL was the defendant. However, in standard reading of such logic puzzles, usually one is clearly wrong. Let's re-examine. Actually, the passage says the law was used to stop spam. It doesn't say the trial was *against* AOL, but that the AOL building was the *location/trigger*.\n110: The text explicitly says \"ASUS... ভূষিত হওয়ার পরে\".\n111: The text says the flight \"already once cancelled\" (একবার বাতিল হয়ে গেছে) and then \"second attempt\" (দ্বিতীয় পন্থা). This means it attempted twice, not three times.\n\nFinal check:\n104: D\n105: D\n106: D\n107: A\n108: D\n109: D (The text says the building provoked the complaint, implying the case was about spam, not necessarily a suit against AOL itself).\n110: C\n111: C\n\n```json\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1509,
+  "completion_tokens": 752,
+  "total_tokens": 2261,
+  "cost": 0.00023934,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023934,
+   "upstream_inference_prompt_cost": 8.894e-05,
+   "upstream_inference_completions_cost": 0.0001504
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

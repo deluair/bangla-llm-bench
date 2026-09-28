@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 6.0,
+ "text": "Here are my answers with brief reasoning:\n\n- **248**: The passage states Simon \"was responsible for hiring the show's first writing team\" → B\n- **249**: Roberts refused to comment on \"the specifics of likely cases\" as it would be unethical → D\n- **250**: \"The luminosity and rotation are used together to determine a star's Rossby number\" → A\n- **251**: \"Murray lost the first set in a tie break\" — the first tie break was lost by Murray → A\n- **252**: \"he is skeptical about whether diabetes can be cured\" → B\n- **253**: The aborted landing was caused by bad weather → D\n- **254**: The new announcement added 300 more carriages (extending the prior commitment) → A\n- **255**: \"Turkey would also take over guarding captured ISIS fighters\" → D\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 474,
+  "completion_tokens_details": {
+   "reasoning_tokens": 227
+  },
+  "prompt_tokens": 1191,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1665
+ },
+ "served_by": null,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

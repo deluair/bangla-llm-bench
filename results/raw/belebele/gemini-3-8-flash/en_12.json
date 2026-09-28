@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 9.0,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 96]**: The passage states that \"[f]our skiers in the women's sitting group failed to finish their runs\", making **C** (4) the correct answer.\n- **[id 97]**: Northern Rock required government support due to exposure during the subprime mortgage crisis in 2007 (**D**).\n- **[id 98]**: The passage begins with \"[b]ased on this fossil, that means the split is much earlier...\", pointing to **B**.\n- **[id 99]**: The plane was denied landing in Ürümqi, so stating it landed in Ürümqi was not in the report (**B**).\n- **[id 100]**: Bush spokesman Gordon Johndroe made the comment describing the pledge as \"a major step\" (**C**).\n- **[id 101]**: The Ninth Ward is described as currently in \"waist-high water\" (**C**).\n- **[id 102]**: Police were on hand to \"direct motorists to detours\" (other routes) (**C**).\n- **[id 103]**: The cyclone was expected to keep weakening when winds were around 83 km/h (**B**).\n\n{\"answers\": {\"96\": \"C\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25085,
+  "output_tokens": 2062,
+  "thinking_tokens": 1712,
+  "cache_read_tokens": 0,
+  "total_tokens": 27147
+ },
+ "answers_batch": {
+  "96": "C",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "C",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

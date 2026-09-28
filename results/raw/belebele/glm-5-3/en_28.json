@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 6.5,
+ "text": "Here are my answers with brief reasoning:\n\n- **224**: The passage states the crash closed the airport to \"commercial flights\" — **A**\n- **225**: Brzezinski served as NSA from 1977, \"succeeding Henry Kissinger,\" so Kissinger held the position until 1977 — **B**\n- **226**: The ship had 120–160 cubic metres of fuel; the \"100-metre\" figure refers to the ship's length, not fuel — **B**\n- **227**: The passage mentions \"newly-independent Algeria\" in the context of the 1960s — **C**\n- **228**: \"a neighbor called about a gas leak\" — **A**\n- **229**: The latest confirmed case was the dead wild duck found near Lyon in France — **A**\n- **230**: The passage states Fred \"is moving towards the northwest\" — **D**\n- **231**: The earthquake activity resulting in the phase change \"took place on March 10\" — **C**\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 541,
+  "completion_tokens_details": {
+   "reasoning_tokens": 266
+  },
+  "prompt_tokens": 1221,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1762
+ },
+ "served_by": null,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

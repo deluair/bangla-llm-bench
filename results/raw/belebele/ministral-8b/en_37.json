@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 3.1,
+ "text": "[id 296]\nThe passage states that 35 mm film gives resolution roughly comparable to a current DSLR, while medium-format film (6 x 6 cm or 56 x 56 mm) offers significantly higher resolution. The correct answer is **A**.\n\n[id 297]\nThe passage explicitly states that park-hopper tickets are non-transferable, making option **A** the false statement.\n\n[id 298]\nThe passage advises that once you get out of the current, swimming back is no more difficult than normally, and suggests aiming in another direction to escape the current. Thus, the correct answer is **A**.\n\n[id 299]\nThe passage mentions feeding wildlife, failure to maintain distance, and strong smells as causes of wildlife attacks, but it does not mention animals being unfamiliar with humans. Thus, the correct answer is **D**.\n\n---\n```json\n{\n  \"answers\": {\n    \"296\": \"A\",\n    \"297\": \"A\",\n    \"298\": \"A\",\n    \"299\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 851,
+  "completion_tokens": 231,
+  "total_tokens": 1082,
+  "cost": 0.0001623,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001623,
+   "upstream_inference_prompt_cost": 0.00012765,
+   "upstream_inference_completions_cost": 3.465e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

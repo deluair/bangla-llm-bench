@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 44.7,
+ "text": "[id 200] Morning: 5 buckets, Afternoon: 6 buckets. Total buckets/day = 11. Liters/bucket = 5. Total liters = 11 * 5 = 55.\n\n[id 201] Weekly salary = 2000. Annual salary (base) = 2000 * 52 = 104000. 5% raise = 0.05 * 104000 = 5200. One-time prize = 5000. Total = 104000 + 5200 + 5000 = 114200.\n\n[id 202] 10 acres * 5 tons/acre = 50 tons. 50 tons * 2 barrels/ton = 100 barrels.\n\n[id 203] Lunch: 7 days * 2 slices/day = 14. Breakfast (Omelette): 3 days * (2+1) slices/day = 9. Dinner (Macaroni): 8 slices. Total = 14 + 9 + 8 = 31.\n\n[id 204] Green: 22, Yellow: 10. Blue: 6 bags * 9/bag = 54. Red: 2 bags * 6/bag = 12. Total = 22 + 10 + 54 + 12 = 98.\n\n[id 205] Average of 5 tests = (89+71+92+100+86)/5 = 438/5 = 87.6.\nTo get an average of 93 for 5 tests (after removing the lowest, which is 71), the sum of the top 5 must be 93 * 5 = 465.\nThe current scores excluding 71 are 89, 92, 100, 86. Sum = 367.\nRequired score X: 367 + X = 465 => X = 98.\nWait, if X is lower than 71, 71 is removed. If X is higher than 71, 71 is removed.\nLet's re-evaluate: Six scores are 89, 71, 92, 100, 86, X.\nThe lowest is removed. If X >= 71, the lowest is 71.\nThe remaining 5 scores must average 93. Sum = 5 * 93 = 465.\nSum of 89, 92, 100, 86 = 367.\nX = 465 - 367 = 98. Since 98 > 71, our assumption holds.\n\n[id 206] Phase 1: 4 weeks * 5 times/week * 25 km/time = 500 km.\nPhase 2: 3 weeks * 2 times/week * 60 km/time = 360 km.\nTotal = 500 + 360 = 860 km.\n\n[id 207] Chocolate weight = 40g. Candy Apple weight = 40 / 2 = 20g.\nTotal weight = (25 * 40) + (80 * 20) = 1000 + 1600 = 2600g.\n\n[id 208] Monday: 4. Tuesday: 4 * 3 = 12. Wednesday: 12 * 5 = 60.\nTotal = 4 + 12 + 60 = 76.\n\n[id 209] Half a dozen plates = 6 plates.\nTotal cost of 6 plates = 6000 * 6 = 36000.\nCost of 20 dozen cups = 36000 - 1200 = 34800.\nTotal cups = 20 * 12 = 240.\nCost per cup = 34800 / 240 = 3480 / 24 = 145.\n\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}",
+ "usage": {
+  "prompt_tokens": 918,
+  "completion_tokens": 1091,
+  "total_tokens": 2009,
+  "cost": 0.00027328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027328,
+   "upstream_inference_prompt_cost": 5.508e-05,
+   "upstream_inference_completions_cost": 0.0002182
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

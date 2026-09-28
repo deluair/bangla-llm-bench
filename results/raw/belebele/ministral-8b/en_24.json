@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 3.0,
+ "text": "1. The ocelot's sense of smell is described as strong, not weak.\n2. The difference between tigers and lions is the sound of their roar.\n3. The smallest tubes in the circulatory system are capillaries.\n4. The life span of insects is not mentioned as affected by their flying ability.\n5. The ability to fly is not commonly considered a shared characteristic of birds and dinosaurs in the context of the passage.\n6. A Triceratops would be most likely to eat a plant with tough branches.\n7. German occupation affected Luxembourg’s neutrality.\n8. The hollow on the blade of a modern ice skate is concave.\n\n```json\n{\n  \"answers\": {\n    \"192\": \"C\",\n    \"193\": \"B\",\n    \"194\": \"A\",\n    \"195\": \"B\",\n    \"196\": \"C\",\n    \"197\": \"B\",\n    \"198\": \"A\",\n    \"199\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1267,
+  "completion_tokens": 219,
+  "total_tokens": 1486,
+  "cost": 0.0002229,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002229,
+   "upstream_inference_prompt_cost": 0.00019005,
+   "upstream_inference_completions_cost": 3.285e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

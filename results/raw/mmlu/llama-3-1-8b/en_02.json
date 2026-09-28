@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  899,
+  908,
+  951,
+  981,
+  987,
+  1004,
+  1011,
+  1019,
+  1030,
+  1045,
+  1100,
+  1116,
+  1125,
+  1141,
+  1158
+ ],
+ "seconds": 35.6,
+ "text": "Here are the answers to each question:\n\n{id 899}\nThe correct answer is C) The MnO4- : Mn2+ ratio is 3:1.\n{id 908}\nThe correct answer is A) 4.6 mT.\n{id 951}\nThe correct answer is C) number of photons emitted, divided by the number of photons absorbed\n{id 981}\nThe correct answer is C) Bres for mI = -½ = 333.5 mT; Bres for mI = +½ = 343.5 mT.\n{id 987}\nThe correct answer is D) The total entropy of the system plus surroundings increases.\n{id 1004}\nThe correct answer is C) Associativity can be achieved with appropriate roundoff conventions.\n{id 1011}\nThe correct answer is D) None of the above\n{id 1019}\nThe correct answer is C) log_10 (1/N)\n{id 1030}\nThe correct answer is B) A heap area\n{id 1045}\nThe correct answer is C) I, II, and III\n{id 1100}\nThe correct answer is A) 2/69\n{id 1116}\nThe correct answer is D) I, II, and III\n{id 1125}\nThe correct answer is B) 6\n{id 1141}\nThe correct answer is A) True, True\n{id 1158}\nThe correct answer is A) It is possible to place a linear order relation ≤ on the complex numbers C which make (C, +, ×, ≤) an ordered field.\n\n{\"answers\": {\"899\": \"C\", \"908\": \"A\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"C\", \"1011\": \"D\", \"1019\": \"C\", \"1030\": \"B\", \"1045\": \"C\", \"1100\": \"A\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1381,
+  "completion_tokens": 433,
+  "total_tokens": 1814,
+  "cost": 4.494e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.494e-05,
+   "upstream_inference_prompt_cost": 2.762e-05,
+   "upstream_inference_completions_cost": 1.732e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "899": "C",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "C",
+  "1030": "B",
+  "1045": "C",
+  "1100": "A",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "B"
+ },
+ "answers_batch": {
+  "899": "C",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "C",
+  "1030": "B",
+  "1045": "C",
+  "1100": "A",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "B"
+ },
+ "single": {}
+}

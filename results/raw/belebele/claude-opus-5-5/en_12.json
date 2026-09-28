@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 6.0,
+ "text": "- **96: D.** The passage says 45 of the 117 Giant Slalom skiers failed to rank. The figure of 4 applies only to the women's sitting group.\n- **97: D.** Northern Rock needed support because of its exposure during the 2007 subprime mortgage crisis. Nationalisation came afterwards.\n- **98: B.** The split was inferred \"based on this fossil.\"\n- **99: B.** The later reports mention the bomb threat, the diversion to Afghanistan and the landing in Kandahar. The plane was denied a landing in Ürümqi, so it never landed there.\n- **100: C.** Spokesman Gordon Johndroe called the pledge \"a major step.\"\n- **101: C.** The Ninth Ward is currently in waist-high water. The 20 feet refers to flooding during Hurricane Katrina.\n- **102: C.** The 80 police directed motorists to detours. The FBI urged the closure, and the Maryland Transportation Authority made it.\n- **103: B.** By early today winds had dropped to about 83 km/h, and the storm was expected to keep weakening from there.\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2202,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 537,
+  "output_tokens_details": {
+   "thinking_tokens": 112
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2202,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 537,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2202,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2202
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028364,
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

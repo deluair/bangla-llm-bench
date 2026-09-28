@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  10,
+  36,
+  63,
+  65,
+  86,
+  108,
+  127,
+  150,
+  159,
+  234,
+  237,
+  255,
+  264,
+  295,
+  300
+ ],
+ "seconds": 21.7,
+ "text": "Here are the answers to each question:\n\n[id 10]\nStatement 1 | If H is a subgroup of G and a belongs to G then |aH| = |Ha|. Statement 2 | If H is a subgroup of G and a and b belong to G, then aH and Hb are identical or disjoint.\nA) True, True\n\n[id 36]\nCompute the product in the given ring. (20)(-8) in Z_26\nC) 11\n\n[id 63]\nIf A = (1, 2, 3, 4). Let ~= {(1, 2), (1, 3), (4, 2)}. Then ~ is\nB) transitive\n\n[id 65]\nStatement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity.\nC) True, False\n\n[id 86]\nStatement 1 | If H and K are subgroups of a group G, then |HK| = |H||K|/|H intersection K|. Statement 2 | A group of order 2p where p is an odd prime is cyclic or isomorphic to D_p.\nD) False, True\n\n[id 108]\nThe palatine processes begin to fuse at\nB) eight weeks post-fertilization.\n\n[id 127]\nA pulse may be felt on a patient's face where the\nD) superficial temporal artery crosses the orbital rim.\n\n[id 150]\nWhich of the following bony structures may be palpated in a live patient?\nD) All of the above\n\n[id 159]\nWhich of the following muscles initiates elevation of the mandible?\nA) Masseter\n\n[id 234]\nWhich of the following structures should be visible on a dental panoramic radiograph?\nD) The mandibular canal, maxillary sinus, hard palate and zygomatic arch\n\n[id 237]\nWhy is the sky blue?\nC) Because the atmosphere preferentially scatters short wavelengths.\n\n[id 255]\nThe lithosphere of a planet is the layer that consists of\nD) the rigid rocky material of the crust and uppermost portion of the mantle.\n\n[id 264]\nThe terrestrial planet cores contain mostly metal because\nC) metals sank to the center during a time when the interiors were molten throughout.\n\n[id 295]\nWhat about asteroids makes them stand out in sky surveys searching for them?\nC) They reflect enough of the sun's light to make them brighter than most background stars\n\n[id 300]\nWhich is not a similarity between Saturn and Jupiter's atmospheres?\nD) significant \"shear\" between bands of circulation at different latitudes\n\nHere is the JSON response:\n{\"answers\": {\"10\": \"A\", \"36\": \"C\", \"63\": \"B\", \"65\": \"C\", \"86\": \"D\", \"108\": \"B\", \"127\": \"D\", \"150\": \"D\", \"159\": \"A\", \"234\": \"D\", \"237\": \"C\", \"255\": \"D\", \"264\": \"C\", \"295\": \"C\", \"300\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1041,
+  "completion_tokens": 644,
+  "total_tokens": 1685,
+  "cost": 4.658e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.658e-05,
+   "upstream_inference_prompt_cost": 2.082e-05,
+   "upstream_inference_completions_cost": 2.576e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10": "A",
+  "36": "C",
+  "63": "B",
+  "65": "C",
+  "86": "D",
+  "108": "B",
+  "127": "D",
+  "150": "D",
+  "159": "A",
+  "234": "D",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "C",
+  "300": "D"
+ },
+ "answers_batch": {
+  "10": "A",
+  "36": "C",
+  "63": "B",
+  "65": "C",
+  "86": "D",
+  "108": "B",
+  "127": "D",
+  "150": "D",
+  "159": "A",
+  "234": "D",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "C",
+  "300": "D"
+ },
+ "single": {}
+}

@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024"
+ ],
+ "seconds": 18.8,
+ "text": "1. Pollen germination requires sugar (carbohydrates) as an energy source. (B)\n2. Bacteriophage is a virus that infects and destroys bacteria. (C)\n3. 'Tel Nun Lokri' is a work by Pramatha Chowdhury. (C)\n4. Checking the options for a valid mathematical expression: (4+3) × 10⁻⁶ ÷ 2 = 7 × 10⁻⁶ ÷ 2 = 3.5 × 10⁻⁶. None of the results equal 14 exactly unless there's a typo in the problem, but looking for valid parenthesis usage, C follows standard form. (C)\n5. The term for the younger sister's marriage to the unmarried elder brother is 'Agrodani'. (D)\n6. US proposal regarding Palestinian land exchange is roughly 13%. (C)\n7. G-8 is composed of Canada, France, Germany, Italy, Japan, Russia, UK, and USA. Japan is the only Asian country listed. (B)\n8. In photosynthesis, oxygen is derived from water (H2O). (B)\n9. 'Pukure' (in the pond) indicates location/place, which is 'Oikodeshik' (adverbial of place). (C)\n10. The determinant of the 3x3 matrix:\n|2! 3! 2!| = |2 6 2|\n|3! 2! 4!| = |6 2 24|\n|0! 3! 2!| = |1 6 2|\n= 2(4 - 144) - 6(12 - 24) + 2(36 - 2)\n= 2(-140) - 6(-12) + 2(34)\n= -280 + 72 + 68 = -280 + 140 = -140. (B)\n11. Total numbers from 100 to 999 = 900. The question asks for the probability of a single number being odd? Or all three digits? If it means a 3-digit number where all digits are odd:\nDigits available: 1, 3, 5, 7, 9 (5 options).\nTotal 3-digit numbers with all odd digits = 5 * 5 * 5 = 125.\nProbability = 125 / 900 = 5 / 36. (B)\n12. 'Oshthyo' (Labial) consonants are p, ph, b, bh, m. (B)\n13. \"Justice delayed is justice denied\" is attributed to William Gladstone. (C)\n14. 'Swornolota' (Cuscuta) is a parasitic plant (often categorized under dead/non-photosynthetic dependency). (A)\n15. Tagore won the Nobel Prize in 1913. He was born in 1861. 1913 - 1861 = 52. (B)\n\n{\"answers\": {\"786939d8-d543-41d1-a19d-b40c04941a24-76149\": \"B\", \"7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695\": \"C\", \"79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604\": \"C\", \"79f100d6-e2fa-4ead-b4ee-7939892b334a-108775\": \"C\", \"79f1a5d5-c281-4201-86f6-679badb71b2c-64213\": \"D\", \"7a168d29-47e7-422f-9839-d6c5a407102c-119661\": \"C\", \"7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150\": \"B\", \"7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734\": \"B\", \"7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134\": \"C\", \"7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384\": \"B\", \"7c251935-e4bc-4d23-82b4-d4046d038e9f-29154\": \"B\", \"7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739\": \"B\", \"7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739\": \"B\", \"7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942\": \"C\", \"7e71b668-8f64-4653-8af0-8e921845690d-2657\": \"A\", \"7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1492,
+  "completion_tokens": 1408,
+  "total_tokens": 2900,
+  "cost": 0.00055416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00055416,
+   "upstream_inference_prompt_cost": 8.952e-05,
+   "upstream_inference_completions_cost": 0.00046464
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149": "B",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695": "C",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604": "C",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775": "C",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213": "D",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661": "C",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150": "B",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734": "B",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134": "C",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384": "B",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154": "B",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739": "B",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942": "C",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657": "A",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024": "B"
+ },
+ "single": {
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 1.165e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.165e-05,
+     "upstream_inference_prompt_cost": 1.105e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 8.58e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.58e-06,
+     "upstream_inference_prompt_cost": 7.92e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 2,
+    "total_tokens": 137,
+    "cost": 6.11e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.11e-06,
+     "upstream_inference_prompt_cost": 5.67e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 173,
+    "completion_tokens": 2,
+    "total_tokens": 175,
+    "cost": 9.98e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.98e-06,
+     "upstream_inference_prompt_cost": 9.58e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 2,
+    "total_tokens": 138,
+    "cost": 1.42e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.42e-05,
+     "upstream_inference_prompt_cost": 1.36e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 2,
+    "total_tokens": 138,
+    "cost": 1.156e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.156e-05,
+     "upstream_inference_prompt_cost": 1.096e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 2,
+    "total_tokens": 124,
+    "cost": 1.28e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.28e-05,
+     "upstream_inference_prompt_cost": 1.22e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 2,
+    "total_tokens": 136,
+    "cost": 8.7e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.7e-06,
+     "upstream_inference_prompt_cost": 8.04e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 1.44e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.44e-05,
+     "upstream_inference_prompt_cost": 1.38e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 2,
+    "total_tokens": 174,
+    "cost": 7.664e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.664e-06,
+     "upstream_inference_prompt_cost": 7.224e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 164,
+    "completion_tokens": 2,
+    "total_tokens": 166,
+    "cost": 1.7e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.7e-05,
+     "upstream_inference_prompt_cost": 1.64e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 2,
+    "total_tokens": 151,
+    "cost": 9.6e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.6e-06,
+     "upstream_inference_prompt_cost": 8.94e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 2,
+    "total_tokens": 136,
+    "cost": 6.068e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.068e-06,
+     "upstream_inference_prompt_cost": 5.628e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 2,
+    "total_tokens": 129,
+    "cost": 7.22e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.22e-06,
+     "upstream_inference_prompt_cost": 6.82e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 2,
+    "total_tokens": 136,
+    "cost": 1.822e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.822e-05,
+     "upstream_inference_prompt_cost": 1.742e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149": "B",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695": "C",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604": "C",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775": "C",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213": "D",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661": "C",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150": "B",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734": "B",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134": "C",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384": "B",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154": "B",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739": "B",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942": "C",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657": "A",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024": "B"
+ }
+}

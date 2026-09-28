@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 29.9,
+ "text": "{\"answers\":{\"32\":\"B\",\"33\":\"A\",\"34\":\"C\",\"35\":\"B\",\"36\":\"B\",\"37\":\"B\",\"38\":\"C\",\"39\":\"C\"}}",
+ "usage": {
+  "prompt_tokens": 1452,
+  "completion_tokens": 742,
+  "total_tokens": 2194,
+  "cost": 0.000145988,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000145988,
+   "upstream_inference_prompt_cost": 4.2108e-05,
+   "upstream_inference_completions_cost": 0.00010388
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 701,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "B",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "B",
+  "38": "C",
+  "39": "C"
+ }
+}

@@ -1,0 +1,249 @@
+{
+ "task": "mmlu",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 253.2,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 10412,
+  "completion_tokens": 16000,
+  "total_tokens": 26412,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15999
+  }
+ },
+ "served_by": null,
+ "answers_batch": {},
+ "single": {
+  "5669": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 3662,
+    "total_tokens": 4837,
+    "completion_tokens_details": {
+     "reasoning_tokens": 3659
+    }
+   },
+   "answer": "C"
+  },
+  "5751": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 14147,
+    "total_tokens": 15214,
+    "completion_tokens_details": {
+     "reasoning_tokens": 14144
+    }
+   },
+   "answer": "A"
+  },
+  "5807": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1011,
+    "completion_tokens": 2245,
+    "total_tokens": 3256,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2242
+    }
+   },
+   "answer": "B"
+  },
+  "5817": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 646,
+    "completion_tokens": 1170,
+    "total_tokens": 1816,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1167
+    }
+   },
+   "answer": "C"
+  },
+  "5849": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 1158,
+    "total_tokens": 2324,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1155
+    }
+   },
+   "answer": "B"
+  },
+  "5924": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 843,
+    "completion_tokens": 2816,
+    "total_tokens": 3659,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2813
+    }
+   },
+   "answer": "D"
+  },
+  "5973": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 9439,
+    "total_tokens": 10466,
+    "completion_tokens_details": {
+     "reasoning_tokens": 9436
+    }
+   },
+   "answer": "B"
+  },
+  "6006": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 852,
+    "total_tokens": 2255,
+    "completion_tokens_details": {
+     "reasoning_tokens": 849
+    }
+   },
+   "answer": "C"
+  },
+  "6073": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 966,
+    "completion_tokens": 1445,
+    "total_tokens": 2411,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1442
+    }
+   },
+   "answer": "C"
+  },
+  "6083": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 696,
+    "completion_tokens": 1139,
+    "total_tokens": 1835,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1136
+    }
+   },
+   "answer": "A"
+  },
+  "6118": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 177,
+    "completion_tokens": 3950,
+    "total_tokens": 4127,
+    "completion_tokens_details": {
+     "reasoning_tokens": 3947
+    }
+   },
+   "answer": "D"
+  },
+  "6123": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 184,
+    "completion_tokens": 298,
+    "total_tokens": 482,
+    "completion_tokens_details": {
+     "reasoning_tokens": 295
+    }
+   },
+   "answer": "D"
+  },
+  "6199": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 355,
+    "total_tokens": 514,
+    "completion_tokens_details": {
+     "reasoning_tokens": 352
+    }
+   },
+   "answer": "A"
+  },
+  "6202": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 1879,
+    "total_tokens": 2059,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1876
+    }
+   },
+   "answer": "D"
+  },
+  "6212": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 220,
+    "total_tokens": 436,
+    "completion_tokens_details": {
+     "reasoning_tokens": 217
+    }
+   },
+   "answer": "D"
+  }
+ },
+ "answers": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "B",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "D"
+ }
+}

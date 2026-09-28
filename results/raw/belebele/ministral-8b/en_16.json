@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 5.3,
+ "text": "1. **id 128**: A contagious disease is spread by being in the vicinity of an infected person, so the correct answer is **A) Infected people**.\n\n2. **id 129**: The passage states that calls are routed over the Internet, allowing someone to use a phone company outside of their immediate area. So the answer is **A) Internet routed calls**.\n\n3. **id 130**: The passage states that most words are pronounced how they are written, but the pronunciation of words with c and g can vary based on the following vowel. The incorrect statement is that the pronunciation of most words varies depending on the following vowel. So the answer is **D) The pronunciation of most words vary depending on the following vowel**.\n\n4. **id 131**: The status as Israel’s capital city is not emphasized as a tourist attraction, as the focus is on religious significance, cultural offerings, and historic sites. So the answer is **B) Its status as Israel’s capital city**.\n\n5. **id 132**: Wet conditions are mentioned as potentially dangerous, especially in steeper portions. So the answer is **A) Wet conditions**.\n\n6. **id 133**: The conflict leading to the creation of the Transnistria Republic is due to ethnic issues. So the answer is **B) Ethnicity**.\n\n7. **id 134**: Visitors should avoid small-town bars due to the high concentration of intoxicated drivers. So the answer is **B) Small-town bars**.\n\n8. **id 135**: Fruit juices are described as pricey, making them less suitable for budget-conscious travelers. So the answer is **D) Fruit juice**.\n\n```json\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1409,
+  "completion_tokens": 429,
+  "total_tokens": 1838,
+  "cost": 0.0002757,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002757,
+   "upstream_inference_prompt_cost": 0.00021135,
+   "upstream_inference_completions_cost": 6.435e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

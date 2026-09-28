@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 8.4,
+ "text": "Here are the evaluations for each question:\n\n- **[id 184]**: The passage contrasts scaffolding with project-based learning, stating scaffolding is an aid rather than a learning method itself. Thus, **C** does not accurately describe scaffolding.\n- **[id 185]**: The passage states that pages can be \"customized to make it easy to read\", which corresponds to **A**.\n- **[id 186]**: The text notes that \"after Alexander died, the temple was rebuilt in 323 BCE\", meaning it occurred after his reign, making **B** correct.\n- **[id 187]**: The text indicates that humans began walking upright habitually with *Homo Erectus*, whereas *Australopithecus* did not walk upright as habitually, so the answer is **B**.\n- **[id 188]**: The Allied forces (the British and the Americans) succeeded in keeping sea lanes open and preventing Britain from being conquered, making **A** correct.\n- **[id 189]**: The passage explicitly states that temples had \"an inner sanctuary that only the priests could enter\", corresponding to **B**.\n- **[id 190]**: The passage explicitly notes that \"no ancient Roman ever tasted a turkey\", making **D** correct.\n- **[id 191]**: The text explains that hydrogen ions \"had their electrons stripped off them\", so the answer is **D**.\n\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25334,
+  "output_tokens": 1854,
+  "thinking_tokens": 1473,
+  "cache_read_tokens": 0,
+  "total_tokens": 27188
+ },
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

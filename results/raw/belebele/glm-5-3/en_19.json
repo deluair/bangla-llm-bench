@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 128.0,
+ "text": "Here are my answers with brief reasoning:\n\n- **152:** Whistler is explicitly described as \"expensive,\" making it least appealing to price-conscious travelers. → D\n- **153:** The passage states flying a drone \"over a crowd is almost always a bad idea.\" → D\n- **154:** The passage says registration is required in \"some countries,\" not all countries. → B\n- **155:** The professional training class is a hostile environment (war zone) course covering role play, first aid, and war zone issues; wilderness survival is a separate domain outside the course's scope. → A\n- **156:** \"Most deaths happen as result of fatigue trying to swim back against the current, which may be impossible.\" → C\n- **157:** The passage notes \"a tiny creature need other lenses\" besides a long telephoto. → A\n- **158:** Low friction, condensation, and reduced visibility are all cited hazards; heavy traffic is not (traffic \"goes on mostly uninterrupted\"). → A\n- **159:** If subtitles are too close to the bottom, \"they won't be fully shown\" — i.e., partially cut subtitles. → B\n\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"A\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 9151,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8855
+  },
+  "prompt_tokens": 1460,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 10611
+ },
+ "served_by": null,
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

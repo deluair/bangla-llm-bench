@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 4.4,
+ "text": "[id 88] The passage mentions that **লো পিকোলো** was considered Provenzano's right-hand man in Palermo.\n**Answer: B**\n\n[id 89] The passage states that Hitoshi Saito was a two-time Olympic gold medalist and a former Olympic and world champion, but it does not mention him being a \"জুডো এক্সপার্ট\" (which is vague and not explicitly mentioned).\n**Answer: D**\n\n[id 90] The passage states that Iwazaki escaped marriage in Nepal.\n**Answer: B**\n\n[id 91] The passage mentions that Alonso ended his race due to a right front wheel issue, but it does not specify the exact cause of Schumacher's race ending. Alonso ended his race before Schumacher, but the question is about Alonso's race ending, which happened before he was first.\n**Answer: D**\n\n[id 92] The passage states that Emma Stone was nominated for **সেরা অভিনেত্রী**.\n**Answer: C**\n\n[id 93] The passage mentions that Carol Wilson worked for **OHA (Oakland Housing Authority)** before fleeing the city.\n**Answer: C**\n\n[id 94] The passage states that only about **34** Martian-origin meteorites have been confirmed out of the known 24,000 meteorites that fell to Earth.\n**Answer: D**\n\n[id 95] Schumacher retired after winning his **seventh championship in 2006**.\n**Answer: B**\n\n---\n```json\n{\n  \"answers\": {\n    \"88\": \"B\",\n    \"89\": \"D\",\n    \"90\": \"B\",\n    \"91\": \"D\",\n    \"92\": \"C\",\n    \"93\": \"C\",\n    \"94\": \"D\",\n    \"95\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2282,
+  "completion_tokens": 391,
+  "total_tokens": 2673,
+  "cost": 0.00040095,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040095,
+   "upstream_inference_prompt_cost": 0.0003423,
+   "upstream_inference_completions_cost": 5.865e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "D",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "D",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ }
+}

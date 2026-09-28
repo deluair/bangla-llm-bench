@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 141.9,
+ "text": "**Problem 160:**\nMonday depth = 17 ft.\nTuesday depth = 17 + 7 = 24 ft.\nWednesday depth = (2/3) * 24 = 16 ft.\nAnswer: 16\n\n**Problem 161:**\nAnakin total: 10 + 6 + 3 = 19.\nLocsin:\nStarfish: 10 - 5 = 5\nSea Horses: 6 - 3 = 3\nClownfish: 3 + 2 = 5\nLocsin total: 5 + 3 + 5 = 13.\nGrand total: 19 + 13 = 32.\nAnswer: 32\n\n**Problem 162:**\nOriginal price = $20.\nIncrease per period (every 2 months) = 20% of $20 = $4.\nTotal months = 36.\nNumber of periods = 36 / 2 = 18.\nTotal increase = 18 * $4 = $72.\nFinal price = $20 + $72 = $92.\nAnswer: 92\n\n**Problem 163:**\nRed car = $4.\nAction figure = $5.\nDoll cost = (3 * Action figure) + 1 Red car = (3 * 5) + 4 = 19.\nTotal toys:\n5 Red cars: 5 * 4 = 20.\n3 Action figures: 3 * 5 = 15.\n1 Doll: 19.\nTotal value = 20 + 15 + 19 = 54.\nAnswer: 54\n\n**Problem 164:**\nCost of doing taxes herself: 3 hours * $35/hour = $105 in lost income.\nCost of hiring accountant: $90.\nSavings (avoided cost) = $105.\nExtra money gained = Savings - Hiring Fee = $105 - $90 = $15.\nAnswer: 15\n\n**Problem 165:**\nBudget = €1500.\nExpenses:\nComputer + accessories: €1090.\nScanner: €157.\nCD burner: €74.\nPrinter: €102.\nTotal Expenses = 1090 + 157 + 74 + 102 = 1423.\nRemaining = 1500 - 1423 = 77.\nAnswer: 77\n\n**Problem 166:**\nEggs needed per flan = 3.\nTotal flans = 15.\nTotal eggs needed = 15 * 3 = 45.\nEggs provided per babysit = 9.\nBabysits needed = 45 / 9 = 5.\nAnswer: 5\n\n**Problem 167:**\nLet S = Seth, B = Brooke.\nS = 2B.\nIn 2 years: (S + 2) + (B + 2) = 28.\nS + B + 4 = 28 => S + B = 24.\nSubstitute S: 2B + B = 24 => 3B = 24 => B = 8.\nSeth (S) = 2 * 8 = 16.\nAnswer: 16\n\n**Problem 168:**\nEthel (E) = $8.\nJimmy (J) = 2 + 2 * E.\nJ = 2 + 2 * 8 = 18.\nAnswer: 18\n\n**Problem 169:**\nWeekdays (5 days) * 20 miles = 100 miles.\nWeekends (2 days) * 10 miles = 20 miles.\nTotal miles = 100 + 20 = 120.\nAnswer: 120\n\n```json\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 54, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}\n```",
+ "usage": {
+  "prompt_tokens": 728,
+  "completion_tokens": 6546,
+  "total_tokens": 7274,
+  "cost": 0.0017093,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017093,
+   "upstream_inference_prompt_cost": 7.28e-05,
+   "upstream_inference_completions_cost": 0.0016365
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3953,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Parasail",
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 54.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 54.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

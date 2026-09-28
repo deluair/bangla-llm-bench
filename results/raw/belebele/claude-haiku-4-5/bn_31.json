@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 32.9,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 248]** The passage states: \"শোয়ের প্রথম লেখক দলের নিয়োগের জন্য দায়িত্বপ্রাপ্ত হয়েছিলেন\" - Simon was responsible for hiring the first writer's team.\n**Answer: B**\n\n**[id 249]** The passage clearly states: \"সম্ভাব্য মামলার সুনির্দিষ্ট বিষয়ে মন্তব্য করা অনৈতিক হবে\" - Roberts refused to comment on the specific subject matter of potential cases, calling it unethical.\n**Answer: D**\n\n**[id 250]** The passage explicitly states: \"আলোকরশ্বি এবং ঘূর্ণন একসাথে ব্যবহৃত হয় তারার রসবি নাম্বার নির্ধারণ করতে\" - Luminosity (brightness) and rotation are used together to determine a star's Rossby number.\n**Answer: A**\n\n**[id 251]** The passage states: \"প্রথম সেটে দুজন খেলোয়াড়ের প্রতিটি সার্ভের পরেই ম্যুরে টাই ব্রেকে হেরে যায়\" - Murray lost the tiebreak in the first set.\n**Answer: A**\n\n**[id 252]** The passage states: \"বহুমূত্র নিরাময়যোগ্য কিনা তা নিয়ে অন্যান্য বিশেষজ্ঞদের মতো তিনিও সংশয়ে আছেন\" - Dr. R is skeptical about whether a cure for diabetes is possible.\n**Answer: B**\n\n**[id 253]** The passage explicitly states: \"খারাপ আবহাওয়ার কারণে অবতরণ বাতিল হয়েছিল\" - The landing was cancelled due to bad weather.\n**Answer: D**\n\n**[id 254]** The passage mentions \"অতিরিক্ত 300 নিয়ে এসে সর্বমোট 1,300 টি বগি\" - the announcement extended the government's promise about funding for an additional 300 bogies.\n**Answer: A**\n\n**[id 255]** The passage clearly states: \"ধৃত আইসিস যোদ্ধাদের প্রহরা দেওয়ার দায়িত্ব নিয়েছে তুরস্ক\" - Turkey took responsibility for guarding detained ISIS fighters.\n**Answer: D**\n\n```json\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4659,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3879,
+  "output_tokens_details": {
+   "thinking_tokens": 3089
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4659,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3879,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4659,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4659
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028721999999999998,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 20.5,
+ "text": "{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1301,
+  "completion_tokens": 1502,
+  "total_tokens": 2803,
+  "cost": 0.000158598,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000158598,
+   "upstream_inference_prompt_cost": 2.3418e-05,
+   "upstream_inference_completions_cost": 0.00013518
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1441,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "2143",
+  "2159",
+  "2319",
+  "2348",
+  "2355",
+  "2448",
+  "2457",
+  "2459",
+  "2557",
+  "2567",
+  "2573",
+  "2582",
+  "2628",
+  "2632",
+  "2636"
+ ],
+ "seconds": 5.1,
+ "text": "{\"answers\": {\"[id 2143]\": \"B\", \"[id 2159]\": \"A\", \"[id 2319]\": \"A\", \"[id 2348]\": \"B\", \"[id 2355]\": \"A\", \"[id 2448]\": \"D\", \"[id 2457]\": \"D\", \"[id 2459]\": \"A\", \"[id 2557]\": \"A\", \"[id 2567]\": \"A\", \"[id 2573]\": \"B\", \"[id 2582]\": \"D\", \"[id 2628]\": \"D\", \"[id 2632]\": \"B\", \"[id 2636]\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1422,
+  "completion_tokens": 185,
+  "total_tokens": 1607,
+  "cost": 8.96e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.96e-05,
+   "upstream_inference_prompt_cost": 7.11e-05,
+   "upstream_inference_completions_cost": 1.85e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "2143": "B",
+  "2159": "A",
+  "2319": "A",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "A",
+  "2557": "A",
+  "2567": "A",
+  "2573": "B",
+  "2582": "D",
+  "2628": "D",
+  "2632": "B",
+  "2636": "B"
+ },
+ "single": {},
+ "answers": {
+  "2143": "B",
+  "2159": "A",
+  "2319": "A",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "A",
+  "2557": "A",
+  "2567": "A",
+  "2573": "B",
+  "2582": "D",
+  "2628": "D",
+  "2632": "B",
+  "2636": "B"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 25.1,
+ "text": "Here are the step-by-step solutions to your math problems:\n\n**[id 50]**\nLloyd's chickens lay 252 eggs a day, so in a week (7 days) they lay 252 * 7 = 1,764 eggs. \nSince 1 dozen is 12 eggs, that means there are 1,764 / 12 = 147 dozen eggs. \nAt $2 per dozen, he earns 147 * $2 = $294.\n\n**[id 51]**\nTom sails from 1 PM to 4 PM, which is 3 hours. \nAt 10 miles per hour, he travels 3 * 10 = 30 miles. \nTo return that same 30 miles at a speed of 6 miles per hour, it takes him 30 / 6 = 5 hours.\n\n**[id 52]**\nUriah needs to remove 15 pounds. \nRemoving 30 comic books, which weigh 1/4 pound each, takes out 30 * 1/4 = 7.5 pounds. \nHe still needs to remove 15 - 7.5 = 7.5 pounds. \nSince each toy weighs 1/2 pound, he must remove 7.5 / 0.5 = 15 toys.\n\n**[id 53]**\nOn Thursday, the mechanic earned (6 * $60) + (4 * $40) = $360 + $160 = $520. \nOn Friday, he earned 12 * $40 = $480. \nHe earned more on Thursday, and the difference is $520 - $480 = $40.\n\n**[id 54]**\nThe adopted kittens equal 7. \nPatchy had 3 times that amount: 3 * 7 = 21 kittens. \nTrixie had 12 kittens. \nIn total, there are 7 + 21 + 12 = 40 kittens.\n\n**[id 55]**\nGene starts with 30 lollipops and eats 2, leaving 30 - 2 = 28 lollipops. \nIf he puts 2 in each bag, he will fill 28 / 2 = 14 bags.\n\n**[id 56]**\nEach trip to the movies costs Peter $7 (ticket) + $7 (popcorn) = $14. \nWith $42 available, he can go to the movies $42 / $14 = 3 times.\n\n**[id 57]**\nThe bridge can hold 5,000 pounds. The driver and empty truck weigh 3,755 pounds. \nThis leaves 5,000 - 3,755 = 1,245 pounds for the boxes. \nSince each box is 15 pounds, the truck can hold at most 1,245 / 15 = 83 boxes.\n\n**[id 58]**\nThe original bill is $40.00. \nThe vendor added a 25% fee: $40.00 * 0.25 = $10.00. \nHe also pays a $3.00 delivery fee and a $4.00 tip. \nHis final price is $40.00 + $10.00 + $3.00 + $4.00 = $57.\n\n**[id 59]**\nThere are 6 clusters of 20 raspberries each, totaling 6 * 20 = 120 raspberries. \nAlong with the 67 scattered raspberries, there are 120 + 67 = 187 raspberries.\n\n```json\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}\n```\n",
+ "usage": {
+  "input_tokens": 16882,
+  "output_tokens": 3345,
+  "thinking_tokens": 2380,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20227
+ },
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

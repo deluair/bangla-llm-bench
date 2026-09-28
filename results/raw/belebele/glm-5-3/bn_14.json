@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 23.5,
+ "text": "Here are my answers with brief reasoning:\n\n**112:** The passage explicitly states studies suggest the disease must become less lethal (কম প্রাণঘাতী) before becoming a pandemic. → **A**\n\n**113:** The passage mentions downgrading the threat level (হুমকির মাত্রা হ্রাস) from critical, meaning the threat level was reduced, though the overall threat remains. → **A**\n\n**114:** The passage clearly states India lost 7 wickets for 36 runs after the captain's wicket fell. → **B**\n\n**115:** The passage advises being aware that a different airline in the same alliance may offer more frequent flyer points, so prioritize the airline offering the most points. → **A**\n\n**116:** The passage states conductors on night sleeper trains (রাতের স্লিপার ট্রেন) may collect passports to avoid disturbing sleep. → **B**\n\n**117:** The Portuguese rebuilt it first (as Casa Branca); the second rebuilding was by the Moroccan sultan as Daru el-Badya. → **D**\n\n**118:** Roads, trains, and waterways connect the villages, but outside cars cannot reach them—so access is by train or boat. → **C**\n\n**119:** The passage says boots with studs and accompanying equipment are suitable for slippery conditions. → **B**\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 2024,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1553
+  },
+  "prompt_tokens": 5046,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 7070
+ },
+ "served_by": null,
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

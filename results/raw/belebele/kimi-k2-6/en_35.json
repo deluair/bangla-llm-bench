@@ -1,0 +1,128 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 90.9,
+ "text": "",
+ "error": "<HTTPError 429: 'Too Many Requests'>",
+ "answers_batch": {},
+ "single": {
+  "280": {
+   "text": "",
+   "error": "<HTTPError 429: 'Too Many Requests'>",
+   "usage": null,
+   "answer": null
+  },
+  "281": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 242,
+    "total_tokens": 410,
+    "completion_tokens_details": {
+     "reasoning_tokens": 239
+    }
+   },
+   "answer": "B"
+  },
+  "282": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 257,
+    "total_tokens": 398,
+    "completion_tokens_details": {
+     "reasoning_tokens": 254
+    }
+   },
+   "answer": "C"
+  },
+  "283": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 283,
+    "total_tokens": 507,
+    "completion_tokens_details": {
+     "reasoning_tokens": 280
+    }
+   },
+   "answer": "D"
+  },
+  "284": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 282,
+    "total_tokens": 465,
+    "completion_tokens_details": {
+     "reasoning_tokens": 279
+    }
+   },
+   "answer": "D"
+  },
+  "285": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 307,
+    "total_tokens": 509,
+    "completion_tokens_details": {
+     "reasoning_tokens": 304
+    }
+   },
+   "answer": "A"
+  },
+  "286": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 312,
+    "total_tokens": 529,
+    "completion_tokens_details": {
+     "reasoning_tokens": 309
+    }
+   },
+   "answer": "B"
+  },
+  "287": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1125,
+    "total_tokens": 1330,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1122
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

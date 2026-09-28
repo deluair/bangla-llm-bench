@@ -1,0 +1,253 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 34.2,
+ "text": "Here are the answers to each question:\n\n[id 24]\nThe rule of thirds is a guideline that helps create dynamism and order in an image. It suggests that the most effective place for the main subject is at the intersection of lines dividing the image into thirds vertically and horizontally. Among the options, \"A) Creating a baseline for where the subject might be placed\" is not an accurate description of the rule of thirds. The rule of thirds is more about creating life and energy within a photo, keeping the subject in an effective place, and establishing order within a photo.\n\n{\"answers\": {\"24\": \"B\"}} \n\n[id 25]\nThe 35mm format has an aspect ratio of 3:2, which is the same as many common formats. The passage states that many common formats, such as the APS family of formats, are equal to or closely approximate this aspect ratio. Therefore, \"C) It has a different aspect ratio than many common formats\" is not an accurate description of the 35mm format.\n\n{\"answers\": {\"25\": \"C\"}} \n\n[id 26]\nMysticism is the pursuit of communion with an ultimate reality, divinity, or spiritual truth. It emphasizes direct personal experience of a unique state of consciousness, particularly those of a peaceful, insightful, blissful, or ecstatic character. The passage does not state that the emphasis on seeking a direct personal experience is comparable to many other forms of religious belief and worship. Therefore, \"D) The emphasis on seeking a direct personal experience is comparable to many other forms of religious belief and worship\" is not an accurate description of Mysticism.\n\n{\"answers\": {\"26\": \"D\"}} \n\n[id 27]\nThe Indus Valley Civilization flourished in the basins of the Indus River, and its name derives from this location. The passage does not mention that the civilization existed in all regions in northeast Afghanistan. Therefore, \"C) All regions in northeast Afghanistan\" is not associated with the Indus Valley Civilization.\n\n{\"answers\": {\"27\": \"C\"}} \n\n[id 28]\nThe Filipino people were compelled to pay taxes to the U.S. colonial regime to defray a major part of the war expenditures and the interest on bonds floated in the name of the Philippine government. Therefore, \"D) The Filipino people\" covered a significant portion of the war expenses.\n\n{\"answers\": {\"28\": \"D\"}} \n\n[id 29]\nDuring the Roman Empire, doctors and surgeons developed various medical treatments and procedures, including using extracts of poppy seeds for morphine and herbane seeds for scopolamine. They also became proficient at amputation to save patients from gangrene and using tourniquets and arterial clamps to stem blood flow. The passage does not mention treating post-traumatic stress disorder with various sedatives. Therefore, \"A) Treating post-traumatic stress disorder with various sedatives\" is not a medical treatment or procedure mentioned as being used by doctors and surgeons during the Roman Empire.\n\n{\"answers\": {\"29\": \"A\"}} \n\n[id 30]\nThe ability to see depends on visual system sensory organs or eyes. The different constructions of eyes have different capabilities, are sensitive to different wave-lengths, and have differing degrees of acuity. The passage states that the ability to see depends on visual system sensory organs, but \"D) Varying degrees of acuity\" is not the correct answer, as the passage states that the different constructions of eyes have differing degrees of acuity. However, the passage does state that the ability to see depends on visual system sensory organs. Therefore, the correct answer is \"A) Visual system sensory organs\".\n\n{\"answers\": {\"30\": \"A\"}} \n\n[id 31]\nSikhism is a separate religion from Hinduism, though it acknowledges its Hindu roots and traditions. The guru is a fundamental aspect of Sikhism, and the religion was founded in the 15th century by Guru Nanak. The passage states that nine gurus followed after the founder of the religion, Guru Nanak, but it does not mention that the guru is unique to Sikhism. Therefore, \"B) The guru is a fundamental aspect unique to Sikhism\" is not an accurate portrayal of the religion.\n\n{\"answers\": {\"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1486,
+  "completion_tokens": 866,
+  "total_tokens": 2352,
+  "cost": 6.436e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.436e-05,
+   "upstream_inference_prompt_cost": 2.972e-05,
+   "upstream_inference_completions_cost": 3.464e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "31": "B"
+ },
+ "single": {
+  "24": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 2,
+    "total_tokens": 170,
+    "cost": 3.44e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.44e-06,
+     "upstream_inference_prompt_cost": 3.36e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "25": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 2,
+    "total_tokens": 240,
+    "cost": 4.84e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.84e-06,
+     "upstream_inference_prompt_cost": 4.76e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "26": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 248,
+    "completion_tokens": 2,
+    "total_tokens": 250,
+    "cost": 5.04e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.04e-06,
+     "upstream_inference_prompt_cost": 4.96e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "27": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 2,
+    "total_tokens": 224,
+    "cost": 4.54e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.54e-06,
+     "upstream_inference_prompt_cost": 4.44e-06,
+     "upstream_inference_completions_cost": 1e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "28": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 3,
+    "total_tokens": 189,
+    "cost": 3.87e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.87e-06,
+     "upstream_inference_prompt_cost": 3.72e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "29": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 3,
+    "total_tokens": 245,
+    "cost": 4.99e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.99e-06,
+     "upstream_inference_prompt_cost": 4.84e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "30": {
+   "text": "A)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 172,
+    "completion_tokens": 3,
+    "total_tokens": 175,
+    "cost": 3.59e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.59e-06,
+     "upstream_inference_prompt_cost": 3.44e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "24": "B",
+  "25": "C",
+  "26": "A",
+  "27": "D",
+  "28": "D",
+  "29": "D",
+  "30": "A",
+  "31": "B"
+ }
+}

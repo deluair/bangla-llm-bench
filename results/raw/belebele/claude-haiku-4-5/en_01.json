@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 17.8,
+ "text": "Looking at each question:\n\n**[id 8]**: Micro-expressions are defined as \"facial movements which last a few milliseconds.\" A thumb's up is a hand gesture, not a facial movement. **Answer: D**\n\n**[id 9]**: The passage identifies motivations for internet use including \"learning,\" \"socialization,\" \"personal involvement,\" and \"continuing relationships.\" Researching travel relates to learning/information gathering, not maintaining continuing relationships. **Answer: C**\n\n**[id 10]**: The passage discusses scrutiny of wealth allocation, power concentration, and whether tenets are being met. It doesn't mention questioning whether the main tenets themselves should be amended—only whether they're being followed. **Answer: B**\n\n**[id 11]**: The passage mentions Germany wanting similar tactics (A), danger to neutral ships (B), and cutting off supplies (D). However, it states the blockade \"violated generally accepted international law\" but doesn't state that changes were subsequently made to international law. **Answer: C**\n\n**[id 12]**: MS affects \"younger and middle-aged adults\" primarily, and \"females are two times more likely to have MS than males.\" A 32-year-old female fits both criteria best. **Answer: A**\n\n**[id 13]**: The passage explicitly states fencing is \"primarily played in a duel format, one fencer dueling another.\" **Answer: D**\n\n**[id 14]**: The passage notes occupations were \"open to all male applicants\" based on ambition/success, and military rankings moved from class-based to competence-based (\"cailaber\"). This shift from class to merit directly benefits working class citizens. **Answer: B**\n\n**[id 15]**: The passage states \"In developed countries you seldom hear similar levels of complaints about water quality or bridges falling down,\" implying transportation systems receive more complaints. **Answer: C**\n\n```json\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1738,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1974,
+  "output_tokens_details": {
+   "thinking_tokens": 1493
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1738,
+    "output_tokens": 1974,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011608,
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

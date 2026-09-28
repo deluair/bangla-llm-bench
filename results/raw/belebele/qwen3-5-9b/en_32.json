@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 67.4,
+ "text": "\n\n[Answer]\n\n[Reasoning]\nFor id 256, the text states the crash occurred in \"mountainous terrain\". Thus, D is correct.\nFor id 257, the text states Amir Khan will be \"supporting the British competitors at the 2012 Olympics\". Among the options, C (\"The 2012 Olympics\") is the best fit for the event associated with his support, whereas B and D cite incorrect years or groups.\nFor id 258, the text identifies Xavier Zayat as a \"fellow racer\". Thus, B is correct.\nFor id 259, the text attributes the designation to \"unique cultural and historical value\". Thus, A is correct.\nFor id 260, the text defines Auxiliary languages as \"artificial or constructed\" and \"separate from lingua francas, which are natural or organic\". Option A claims they are \"organic languages\", which directly contradicts the text.\nFor id 261, the text states \"Regular announcements in the Metro are made only in Catalan\". Thus, B is correct.\nFor id 262, the text says B&Bs \"compete mainly on two main things: bedding and breakfast\". \"Contemporary decor\" (A) is not listed as a main competition point; the text mentions \"antique furnishings\" instead.\nFor id 263, the text states Beijing will be the \"host city of the Olympic Winter Games in 2022\". While it mentions that some skiing events are in Zhangjiakou, the overarching role and event hosted by Beijing is identified as the \"Olympic Winter Games\". Option C captures the main event held.\n\n{\"answers\": {\"256\": \"D\", \"257\": \"C\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1183,
+  "completion_tokens": 10225,
+  "total_tokens": 11408,
+  "cost": 0.00165205,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00165205,
+   "upstream_inference_prompt_cost": 0.0001183,
+   "upstream_inference_completions_cost": 0.00153375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9794,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

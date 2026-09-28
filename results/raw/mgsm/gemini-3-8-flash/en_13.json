@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 10.2,
+ "text": "### Brief Solutions\n\n- **[id 130]**: $60 - (60 / 3) = 40$ elves remaining after the first wave; $40 - 10 = 30$ elves left.\n- **[id 131]**: June expenditure was $500 - 60 = 440$. Total expenditure for both months was $500 + 440 = 940$.\n- **[id 132]**: Total rides taken = $(2 + 4) \\text{ coaster} + (2 + 2) \\text{ luge} = 10$ rides. Total tickets = $10 \\times 6 = 60$.\n- **[id 133]**: Tuesday miles = $4 \\times 6 = 24$. Wednesday miles = $41 - (4 + 24) = 13$.\n- **[id 134]**: Monthly cost = $4 \\times 15 = 60$. Yearly cost = $60 \\times 12 = 720$.\n- **[id 135]**: Brian has $20 - 5 = 15$ games. Bobby has $3 \\times 15 - 5 = 40$ games.\n- **[id 136]**: Scottish unicorns = $27 / 3 = 9$. Female Scottish unicorns = $(2/3) \\times 9 = 6$.\n- **[id 137]**: Food subtotal = $(2 \\times 7.50) + (2 \\times 1.50) + (2 \\times 1.00) = 15 + 3 + 2 = 20$. With a 20% fee ($4.00) and $5 tip: $20 + 4 + 5 = 29$.\n- **[id 138]**: Test 1 completed = $5 \\times 8 = 40$ ($35$ incomplete). Test 2 completed = $5 \\times 6 = 30$ ($70$ incomplete). Total incomplete = $35 + 70 = 105$.\n- **[id 139]**: Number of pink gumballs = $(4 \\times 12) + 22 = 48 + 22 = 70$.\n\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}\n",
+ "usage": {
+  "input_tokens": 24528,
+  "output_tokens": 2218,
+  "thinking_tokens": 1579,
+  "cache_read_tokens": 0,
+  "total_tokens": 26746
+ },
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

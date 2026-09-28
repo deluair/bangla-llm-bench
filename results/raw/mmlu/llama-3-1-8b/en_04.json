@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 26.8,
+ "text": "Here are the answers to each question:\n\n[id 1680]\nB) lower order to higher order\n\n[id 1726]\nA) zero\n\n[id 1753]\nB) frequency\n\n[id 1772]\nB) second law\n\n[id 1773]\nA) heats water\n\n[id 1820]\nA) A cyclical pattern in the residuals\n\n[id 1850]\nD) An acf that is zero after p lags and a pacf that is zero after q lags\n\n[id 1873]\nD) (i), (ii), (iii), and (iv)\n\n[id 1892]\nC) The difference between the actual value, y, and the fitted value, y-hat\n\n[id 1895]\nA) A logit model\n\n[id 1929]\nC) 1 KHz to 1 MHz\n\n[id 1995]\nD) all of above.\n\n[id 1998]\nD) All of these.\n\n[id 2004]\nA) 160 µF\n\n[id 2043]\nA) LC network.\n\n{\"answers\": {\"1680\": \"B\", \"1726\": \"A\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"A\", \"1850\": \"D\", \"1873\": \"D\", \"1892\": \"C\", \"1895\": \"A\", \"1929\": \"C\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1083,
+  "completion_tokens": 329,
+  "total_tokens": 1412,
+  "cost": 3.482e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.482e-05,
+   "upstream_inference_prompt_cost": 2.166e-05,
+   "upstream_inference_completions_cost": 1.316e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "1680": "B",
+  "1726": "A",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "A",
+  "1850": "D",
+  "1873": "D",
+  "1892": "C",
+  "1895": "A",
+  "1929": "C",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "A"
+ },
+ "answers_batch": {
+  "1680": "B",
+  "1726": "A",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "A",
+  "1850": "D",
+  "1873": "D",
+  "1892": "C",
+  "1895": "A",
+  "1929": "C",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "A"
+ },
+ "single": {}
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 3.9,
+ "text": "192: The passage states ocelots find prey by smell, so C is incorrect.\n193: The passage compares the sound of their roars (B).\n194: The passage states capillaries are the smallest tubes (A).\n195: The passage mentions evading enemies (predators), finding food, and finding mates (reproduction), but not life span (B).\n196: The passage says people don't think of birds as dinosaurs *because* they fly, implying flight is a difference, not a shared characteristic (C).\n197: The passage states their teeth could crush tough branches and roots (B).\n198: The passage states they tried to be neutral but were occupied by Germany (A).\n199: The passage explicitly describes the hollow as \"concave\" (C).\n\n{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1276,
+  "completion_tokens": 249,
+  "total_tokens": 1525,
+  "cost": 0.00018176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00018176,
+   "upstream_inference_prompt_cost": 0.00010208,
+   "upstream_inference_completions_cost": 7.968e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Makora",
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

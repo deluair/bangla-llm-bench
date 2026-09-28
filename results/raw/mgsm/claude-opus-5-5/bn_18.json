@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 11.4,
+ "text": "**[id 180]** The winner got 3/4 of the votes, so the loser got 1/4 × 80 = **20**.\n\n**[id 181]** The 200 calla lilies are five times the white carnations, so there are 200 ÷ 5 = 40 carnations. The red roses are four times the carnations, so 4 × 40 = **160** red roses must be delivered.\n\n**[id 182]** Half of Jan's age is 15, so two years ago Mark was 15 + 5 = 20. Mark is 22 now, and Jean is two years older at **24**.\n\n**[id 183]**\n- The fast team takes 4 × 55 = 220 seconds.\n- The other team takes 60 + 57 + 54 + 51 = 222 seconds.\n- The fast team wins by **2** seconds.\n\n**[id 184]**\n- The chance of rolling a number greater than 3 is 3/6 = 50%.\n- The chance of two even numbers in a row is 1/2 × 1/2 = 25%.\n- The first is **25** percentage points more likely.\n\n**[id 185]** The Bengali wording is ambiguous. I read it as Jenna picking half as many apples as her mother, which is 10. Together they picked 20 + 10 = **30**.\n\n**[id 186]**\n- Hamsters use 10 × 5 = 50 pieces of straw.\n- Rabbits use 20 pieces.\n- That leaves 160 − 70 = 90 pieces for the mice.\n- At 6 pieces each, there are 90 ÷ 6 = 15 mice, so each cage has 15 ÷ 3 = **5** mice.\n\n**[id 187]** I assumed simple interest, which is not stated in the problem. That gives 2% × 3 months = 6%, so Mandy owes 100 + 6 = **$106**.\n\n**[id 188]** Profit per bag is 30 − 20 − 2 = $8, so he sold 400 ÷ 8 = **50** bags.\n\n**[id 189]**\n- Tickets cost $20.25.\n- Food cost 20.25 − 4.50 = $15.75.\n- Rides cost 2 × 33 = $66.\n- The total is $102, so each friend pays 102 ÷ 3 = **$34**.\n\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 24, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3086,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1246,
+  "output_tokens_details": {
+   "thinking_tokens": 438
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3086,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1246,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3086,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3086
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.049616,
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

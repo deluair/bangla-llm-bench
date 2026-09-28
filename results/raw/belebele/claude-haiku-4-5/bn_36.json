@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 69.9,
+ "text": "# Analysis of Bengali Reading Comprehension Questions\n\n**[id 288]** - Satellite phone usage\nThe passage states satellite phones are used \"যাদের দূরবর্তী ডেটা এবং ভয়েসের প্রয়োজন আছে\" (when remote data/voice communication is needed) in transportation and expeditions. Boat travel occurs in remote areas without cellular coverage.\n**Answer: B**\n\n**[id 289]** - Montevideo's climate seasons\nThe passage explains Montevideo is south of the equator, so seasons are reversed. Summer in Montevideo has temperatures over +30°C. Winter can feel cold. For cold weather, visit during Montevideo's winter = Northern Hemisphere's summer.\n**Answer: B**\n\n**[id 290]** - Airline alliance coverage\nThe passage states SkyTeam \"এগুলোর কোন মোড়েই যায় না\" (doesn't cover any of these maritime routes), while Star Alliance covers almost everything except one route.\n**Answer: D**\n\n**[id 291]** - San Francisco economy\nOptions A, B, C are all supported: films/literature mentions, Asian cuisines, and hotels/conventions. Option D claims the economy \"সম্পূর্ণভাবে পর্যটনের উপর নির্ভরশীল\" (completely depends on tourism), but the passage states the economy is \"বিচিত্র\" (diverse) with multiple sectors.\n**Answer: D**\n\n**[id 292]** - South Africa driving advice\nThe passage states \"অনেক স্থানা কেবল 4x4 বেসের উঁচু চাকা দিয়েই প্রবেশযোগ্য\" (many areas only accessible with 4x4). Option B incorrectly suggests most areas are accessible with regular cars.\n**Answer: B**\n\n**[id 293]** - City with drink culture\nThe passage advises: \"আপনার আশেপাশের বার বা পাবগুলিতে ঘন ঘন যান\" (frequently visit bars/pubs around you). Option C about visiting pubs you don't frequently visit aligns with exploring the drink culture by visiting new establishments.\n**Answer: C**\n\n**[id 294]** - Timbuktu facts\nThe passage clearly states \"এর একটি বিমানবন্দরও রয়েছে\" (it also has an airport), confirming travel by plane is possible.\n**Answer: A**\n\n**[id 295]** - Travel agent benefits\nThe passage indicates agents are most helpful \"যা ভ্রমণকারীর স্বভাব, সংস্কৃতি, ভাষা বা স্বল্প-আয়ের দেশগুলির পূর্ববর্তী অভিজ্ঞতার বাইরে\" (beyond the traveler's experience/culture/language). First-time special travel needs specialist expertise.\n**Answer: B**\n\n```json\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 6129,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6090,
+  "output_tokens_details": {
+   "thinking_tokens": 5281
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6129,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 6090,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 6129,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6129
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.042717,
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

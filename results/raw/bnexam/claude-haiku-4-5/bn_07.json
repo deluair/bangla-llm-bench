@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213"
+ ],
+ "seconds": 67.0,
+ "text": "Looking at each question systematically:\n\n**Q1 (Binary to Decimal):** 101110₂ = 1×32 + 0×16 + 1×8 + 1×4 + 1×2 + 0×1 = 46 ✓\n\n**Q2 (Geography):** ব্রহ্মদেশ (Burma) is now Myanmar ✓\n\n**Q3 (Air Density at STP):** At 0°C and 1 atm, air density ≈ 1.293 kg/m³ ✓\n\n**Q4 (Precocious Puberty):** Parabens are known endocrine disruptors that mimic estrogen and link to early puberty ✓\n\n**Q5 (Spring-Mass Period):** T = 2π√(m/k). When m→4m: T_new = 2π√(4m/k) = 2T ✓\n\n**Q6 (Poet's Death):** Bharatchandra Raygunakar died in 1760 ✓\n\n**Q7 (Lalsalu Publication):** The novel Lalsalu was published in 1952 ✓\n\n**Q8 (Bir Uttam Awards):** 68 people received Bir Uttam in Bangladesh's War of Independence ✓\n\n**Q9 (GCD/LCM):** Numbers in ratio 7:8 are 7k and 8k. LCM = 56k = 280 → k = 5. GCD(35,40) = 5 ✓\n\n**Q10 (Middle Term):** (a-x)²⁰ has 21 terms (0 to 20). Middle term is the 11th ✓\n\n**Q11 (Adam's Apple):** Located in the larynx (স্বরযন্ত্র) ✓\n\n**Q12 (Aldehyde Group):** The functional group is -CHO ✓\n\n**Q13 (Democracy Quote):** This quote is attributed to Ivor Jennings ✓\n\n**Q14 (Durva Grass):** Scientific name is Cynodon dactylon ✓\n\n**Q15 (Line Equation):** Check 4x+3y-30=0: Distance = 30/√25 = 6 ✓ and passes through (3,6): 12+18-30=0 ✓\n\n```json\n{\"answers\": {\"5180e158-98d6-404f-8650-02f3ede675f6-141782\": \"A\", \"51e41a2d-4394-4383-94cc-5cbc8b388046-40205\": \"C\", \"526fe4b4-110c-421c-97de-2ee962d29f6c-22915\": \"D\", \"5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704\": \"C\", \"559babbb-1a53-4c7c-8149-72be468bab7a-89256\": \"A\", \"57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498\": \"C\", \"57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040\": \"C\", \"5877834c-b7a2-479e-96e2-cd6605538cf9-14494\": \"D\", \"5bd76b77-9209-4602-8460-29b6d46f1387-94903\": \"A\", \"5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550\": \"B\", \"61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214\": \"A\", \"63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057\": \"A\", \"64d3b462-8719-429a-9405-95bee8a76cbd-15523\": \"B\", \"64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922\": \"D\", \"658d8db2-8adf-4607-9086-1c98fdc53143-36213\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2330,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6509,
+  "output_tokens_details": {
+   "thinking_tokens": 5416
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2330,
+    "output_tokens": 6509,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.034874999999999996,
+ "answers_batch": {
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782": "A",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205": "C",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915": "D",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704": "C",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256": "A",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498": "C",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040": "C",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494": "D",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903": "A",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550": "B",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214": "A",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057": "A",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523": "B",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922": "D",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213": "B"
+ },
+ "single": {},
+ "answers": {
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782": "A",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205": "C",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915": "D",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704": "C",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256": "A",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498": "C",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040": "C",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494": "D",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903": "A",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550": "B",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214": "A",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057": "A",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523": "B",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922": "D",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213": "B"
+ }
+}

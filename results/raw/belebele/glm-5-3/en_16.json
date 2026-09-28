@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 6.8,
+ "text": "Here are my answers with brief reasoning:\n\n- **128**: A contagious disease is \"easily transmitted by being in the vicinity of an infected person\" — so it spreads via infected people → **A**\n- **129**: \"Because calls are routed over the Internet, you do not need to use a phone company located where you live\" → **A**\n- **130**: The passage says only *c* and *g* vary based on the following vowel, not most words → **D**\n- **131**: Tourism is attributed to religious significance, historic sites, and cultural offerings — not its political status as capital → **B**\n- **132**: \"take care in the steeper portions, especially when wet, as it can become dangerous quickly\" → **A**\n- **133**: \"Moldova is a multi-ethnic republic that has suffered from ethnic conflict. In 1994, this conflict led to the creation of... Transnistria Republic\" → **B**\n- **134**: \"Beware: small-town bars here are not always good places for the out-of-state visitor\" → **B**\n- **135**: \"Fruit juices are pricey but excellent\" — budget travelers would avoid pricey items → **D**\n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 497,
+  "completion_tokens_details": {
+   "reasoning_tokens": 192
+  },
+  "prompt_tokens": 1390,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1887
+ },
+ "served_by": null,
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 5.7,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 280]\nA) Garden-facing restaurants \n\n[id 281]\nD) Moorlands\n\n[id 282]\nC) During Indian summer\n\n[id 283]\nD) The Kowloon waterfront\n\n[id 284]\nD) VPNs can only reroute http traffic\n\n[id 285]\nA) Purchase a global number\n\n[id 286]\nB) Political influence\n\n[id 287]\nB) Shorts\n\n{\"answers\": {\"280\": \"A\", \"281\": \"D\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1379,
+  "completion_tokens": 196,
+  "total_tokens": 1575,
+  "cost": 8.855e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.855e-05,
+   "upstream_inference_prompt_cost": 6.895e-05,
+   "upstream_inference_completions_cost": 1.96e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "280": "A",
+  "281": "D",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "A",
+  "281": "D",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

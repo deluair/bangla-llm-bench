@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 12.5,
+ "text": "### Solutions\n\n- **[id 200]**: Baldur fetches $5 + 6 = 11$ pails per day. At $5\\text{ liters/pail}$, total liters per day $= 11 \\times 5 = 55$.\n- **[id 201]**: A $5\\%$ raise on $\\$2000/\\text{week}$ gives $\\$2100/\\text{week}$. Over 52 weeks, earnings are $52 \\times 2100 = \\$109,200$. Adding the $\\$5000$ award gives $109200 + 5000 = 114200$.\n- **[id 202]**: $10\\text{ acres} \\times 5\\text{ tons/acre} = 50\\text{ tons}$. At $2\\text{ barrels/ton}$, total wine $= 50 \\times 2 = 100\\text{ barrels}$.\n- **[id 203]**: Lunch sandwiches: $7 \\times 2 = 14\\text{ slices}$. Breakfast omelets: $3 \\times (2 + 1) = 9\\text{ slices}$. Macaroni and cheese: $8\\text{ slices}$. Total slices $= 14 + 9 + 8 = 31$.\n- **[id 204]**: Initial pens: $22 + 10 = 32$. Blue pens: $6 \\times 9 = 54$. Red pens: $2 \\times 6 = 12$. Total pens $= 32 + 54 + 12 = 98$.\n- **[id 205]**: To average $93$ across the top 5 scores, the required sum is $5 \\times 93 = 465$. The top four scores from the first five tests are $86, 89, 92, 100$ (sum $= 367$), dropping the lowest score ($71$). The required score on the sixth test is $465 - 367 = 98$.\n- **[id 206]**: First period: $4\\text{ weeks} \\times 5\\text{ rides/week} \\times 25\\text{ km} = 500\\text{ km}$. Second period: $3\\text{ weeks} \\times 2\\text{ rides/week} \\times 60\\text{ km} = 360\\text{ km}$. Total distance $= 500 + 360 = 860\\text{ km}$.\n- **[id 207]**: Each chocolate bar is $40\\text{ g}$, so each candied apple is $40 / 2 = 20\\text{ g}$. Total weight $= (25 \\times 40) + (80 \\times 20) = 1000 + 1600 = 2600\\text{ g}$.\n- **[id 208]**: Monday: $4\\text{ cakes}$. Tuesday: $3 \\times 4 = 12\\text{ cakes}$. Wednesday: $5 \\times 12 = 60\\text{ cakes}$. Total cakes $= 4 + 12 + 60 = 76$.\n- **[id 209]**: Half a dozen plates cost $6 \\times 6000 = \\$36,000$. 20 dozen cups cost $36000 - 1200 = \\$34,800$. Total cups $= 20 \\times 12 = 240$. Cost per cup $= 34800 / 240 = 145$.\n\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}\n",
+ "usage": {
+  "input_tokens": 24668,
+  "output_tokens": 3531,
+  "thinking_tokens": 2569,
+  "cache_read_tokens": 0,
+  "total_tokens": 28199
+ },
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

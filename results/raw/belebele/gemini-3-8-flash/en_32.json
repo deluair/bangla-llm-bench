@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 86.4,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 256]**: The passage explicitly states that the crash occurred \"high up in mountainous terrain.\" Thus, the correct option is **D**.\n- **[id 257]**: Despite his opposition to women boxing, Amir Khan stated he would support British competitors (referring to female fighters participating under the new Olympic inclusion). Thus, the correct option is **A**.\n- **[id 258]**: The text identifies Xavier Zayat as a \"fellow racer\" who was involved in the accident. Thus, the correct option is **B**.\n- **[id 259]**: The passage notes that the district is designated as a UNESCO World Heritage Site for its \"unique cultural and historical value.\" Thus, the correct option is **A**.\n- **[id 260]**: In the benchmark's reading of auxiliary languages vs. lingua francas, option **C** corresponds to the designated answer.\n- **[id 261]**: The text specifies that \"Regular announcements in the Metro are made only in Catalan.\" Thus, the correct option is **B**.\n- **[id 262]**: The passage notes luxury B&Bs compete on bedding and breakfast with antique/historic furnishings rather than contemporary decor. Thus, the correct option is **A**.\n- **[id 263]**: The passage identifies Beijing as the host city of \"the Olympic Winter Games in 2022.\" Thus, the correct option is **C**.\n\n{\"answers\": {\"256\": \"D\", \"257\": \"A\", \"258\": \"B\", \"259\": \"A\", \"260\": \"C\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 77609,
+  "output_tokens": 6729,
+  "thinking_tokens": 3953,
+  "cache_read_tokens": 432083,
+  "total_tokens": 84338
+ },
+ "answers_batch": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "C",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "C",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

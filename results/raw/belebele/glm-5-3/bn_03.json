@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 138.2,
+ "text": "**[id 24]** The passage describes the rule of thirds as creating dynamism (B), placing the subject at the most effective position (C), and maintaining control of order (D). \"Creating a base line\" (A) is not mentioned. → **A**\n\n**[id 25]** The passage states 35mm is still made (A), inherited by digital formats (B), and is the most common format (D). It says other common formats have the *same or similar* aspect ratio, so C's claim of a *different* ratio is wrong. → **C**\n\n**[id 26]** The passage supports emphasis on peaceful/blissful consciousness states (A), awareness of spiritual truth (B), and practices cultivating divine experience (C). The passage says mysticism is *distinguished from* other religions by this emphasis — not that the emphasis is \"compared with\" other forms. → **D**\n\n**[id 27]** The passage says the civilization covered \"some regions\" (কিছু অঞ্চল) of northeast Afghanistan, not *all* regions. Harappa, the Saraswati river, and most of Pakistan are all mentioned. → **C**\n\n**[id 28]** The passage explicitly states \"the Filipino people themselves\" paid the war costs. → **D**\n\n**[id 29]** The passage mentions painkillers from poppy/herbal seeds, dissection against putrefaction, and arterial ligatures — but nothing about treating PTSD with sleeping drugs. → **A**\n\n**[id 30]** The passage's first sentence says the ability to see depends on the sensory organ, i.e., the eyes. Options B, C, D describe features of different eye structures, not what eyesight depends on. → **A**\n\n**[id 31]** The passage supports origin from sectarian division of Hinduism (A), the guru as central core (B), and nine gurus after Nanak (C). It says Sikhs acknowledge Hindu *roots and traditions* of the religion — it never states that rituals specifically are rooted in Hinduism. → **D**\n\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 11307,
+  "completion_tokens_details": {
+   "reasoning_tokens": 10202
+  },
+  "prompt_tokens": 6189,
+  "prompt_tokens_details": {
+   "cached_tokens": 6144
+  },
+  "total_tokens": 17496
+ },
+ "served_by": null,
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ }
+}

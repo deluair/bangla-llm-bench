@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 4.1,
+ "text": "232: A) Mosquitoes\n233: B) Pirates\n234: D) A hearing\n235: B) Best Visual Effects\n236: B) Two reactors at the Shika plant\n237: B) Ongoing military presence in the Jordan Valley\n238: A) During a Grand Prix\n239: A) Police\n\n{\"answers\": {\"232\": \"A\", \"233\": \"B\", \"234\": \"D\", \"235\": \"B\", \"236\": \"B\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1188,
+  "completion_tokens": 121,
+  "total_tokens": 1309,
+  "cost": 2.86e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 2.86e-05,
+   "upstream_inference_prompt_cost": 2.376e-05,
+   "upstream_inference_completions_cost": 4.84e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "232": "A",
+  "233": "B",
+  "234": "D",
+  "235": "B",
+  "236": "B",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "B",
+  "234": "D",
+  "235": "B",
+  "236": "B",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

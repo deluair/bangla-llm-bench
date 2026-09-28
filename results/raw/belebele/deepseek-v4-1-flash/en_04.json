@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 4.7,
+ "text": "{\"answers\": {\"32\": \"B\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1396,
+  "completion_tokens": 771,
+  "total_tokens": 2167,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 718
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1396
+ },
+ "served_by": null,
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}

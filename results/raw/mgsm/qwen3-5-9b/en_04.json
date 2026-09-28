@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 37.2,
+ "text": "\n\n**Problem [id 40]:**\n1. Suzy's iPhone is 1 year old.\n2. Ben's iPhone is two times older than Suzy's: $1 \\times 2 = 2$ years.\n3. Brandon's iPhone is four times as old as Ben's: $2 \\times 4 = 8$ years.\nAnswer: 8\n\n**Problem [id 41]:**\n1. Dragon's flame reach: 1000 feet.\n2. Normal javelin throw distance: 400 feet.\n3. With gemstone, throw distance is $400 \\times 3 = 1200$ feet.\n4. To hit the dragon, Polly must throw at least as far as the distance to the dragon. To be outside the flames, the distance to the dragon must be greater than 1000 feet.\n5. Maximum distance outside reach = Throw Distance - Reach = $1200 - 1000 = 200$ feet.\nAnswer: 200\n\n**Problem [id 42]:**\n1. Total pieces initially: $5 \\text{ pies} \\times 8 \\text{ pieces/pie} = 40$ pieces.\n2. Pieces remaining: 14.\n3. Pieces taken: $40 - 14 = 26$.\nAnswer: 26\n\n**Problem [id 43]:**\n1. Total calories in bag: $5 \\text{ servings} \\times 250 \\text{ cal/serving} = 1250$ calories.\n2. Total weight of bag: 300 grams.\n3. Calories remaining in allowance: $2000 - 1800 = 200$ calories.\n4. Calories per gram: $1250 / 300 = 25/6$ cal/gram.\n5. Grams for 200 calories: $200 / (25/6) = 200 \\times 6 / 25 = 8 \\times 6 = 48$ grams.\nAnswer: 48\n\n**Problem [id 44]:**\n1. Cost to make 10 candles (1 lb beeswax + wicks) = $10.\n2. Cost per candle = $10 / 10 = $1.\n3. Selling price per candle = $2.\n4. Profit per candle = $2 - $1 = $1.\n5. Total profit for 20 candles = $20 \\times 1 = $20.\nAnswer: 20\n\n**Problem [id 45]:**\n1. Monday articles: 5.\n2. Tuesday articles: \"2/5 times more than Monday\". Increase = $5 \\times 0.4 = 2$. Tuesday = $5 + 2 = 7$.\n3. Wednesday articles: Twice Tuesday = $7 \\times 2 = 14$.\n4. Total articles: $5 + 7 + 14 = 26$.\n5. Total hours: $26 \\times 4 \\text{ hours/article} = 104$ hours.\nAnswer: 104\n\n**Problem [id 46]:**\n1. Initial notes: 80.\n2. Purchased notes: $P$.\n3. Used notes: 220.\n4. Remaining notes: 23.\n5. Equation: $80 + P - 220 = 23$.\n6. $P - 140 = 23 \\Rightarrow P = 163$.\nAnswer: 163\n\n**Problem [id 47]:**\n1. Blue ties cost: $40 each.\n2. Blue ties purchased: $200 / 40 = 5$.\n3. Red ties purchased: $2 \\times 5 = 10$.\n4. Red tie cost: Blue cost + 50% = $40 + 20 = 60$.\n5. Spent on Red ties: $10 \\times 60 = 600$.\n6. Total spent: $200 (\\text{Blue}) + 600 (\\text{Red}) = 800$.\nAnswer: 800\n\n**Problem [id 48]:**\n1. Wire length: 4 feet = $4 \\times 12 = 48$ inches.\n2. Piece length: 6 inches.\n3. Number of pieces: $48 / 6 = 8$.\nAnswer: 8\n\n**Problem [id 49]:**\n1. Total units: $15 \\text{ floors} \\times 8 \\text{ units/floor} = 120$ units.\n2. Occupied: $3/4$. Unoccupied: $1/4$.\n3. Unoccupied units: $120 \\times 0.25 = 30$.\nAnswer: 30\n\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}",
+ "usage": {
+  "prompt_tokens": 869,
+  "completion_tokens": 5905,
+  "total_tokens": 6774,
+  "cost": 0.00097265,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00097265,
+   "upstream_inference_prompt_cost": 8.69e-05,
+   "upstream_inference_completions_cost": 0.00088575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4690,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

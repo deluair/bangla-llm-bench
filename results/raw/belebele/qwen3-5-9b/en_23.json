@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 60.0,
+ "text": "1. **Question 184:** The passage distinguishes scaffolding from project-based learning, stating the latter makes learning easier while scaffolding \"goes a step beyond\" as an aid. It explicitly states scaffolds can be virtual (A), are an aid not a method (B), and support new experiences (D). It does not say they are known as project-based learning.\n   **Answer: C**\n\n2. **Question 185:** The passage mentions the page can be \"customized to make it easy to read\". Other options relate to setup ease, typing ease, or statistics.\n   **Answer: A**\n\n3. **Question 186:** The passage states Alexander offered to rebuild but it was denied. It says it was rebuilt \"after Alexander died\" in 323 BCE. Option D cites 320 BCE, which is incorrect. Option B accurately reflects the timeline relative to Alexander's death and reign.\n   **Answer: B**\n\n4. **Question 187:** The passage states \"humans began walking upright... with the emergence of Homo Erectus.\" It notes Australopithecus did not walk upright habitually and Sahelanthropus \"may have\" walked.\n   **Answer: B**\n\n5. **Question 188:** The passage contrasts the goal of the Allies (moving men/goods) vs Germany (stopping traffic). It suggests \"Had the Allies failed...\" implying they did not fail in the historical outcome described, meaning the Allies (British and Americans) were successful in the campaign's primary objective.\n   **Answer: A**\n\n6. **Question 189:** The passage states there was an \"inner sanctuary that only the priests could enter.\"\n   **Answer: B**\n\n7. **Question 190:** The passage lists turkey among foods ancient Romans never tasted or enjoyed, specifically saying \"no ancient Roman ever tasted a turkey.\"\n   **Answer: D**\n\n8. **Question 191:** The passage explains Hydrogen ions are protons \"that had their electrons stripped off them.\"\n   **Answer: D**\n\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1511,
+  "completion_tokens": 3153,
+  "total_tokens": 4664,
+  "cost": 0.00062405,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00062405,
+   "upstream_inference_prompt_cost": 0.0001511,
+   "upstream_inference_completions_cost": 0.00047295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2635,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

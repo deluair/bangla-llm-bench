@@ -1,0 +1,59 @@
+{
+ "task": "mgsm",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 8.4,
+ "text": "{\"answers\":{\"30\":109,\"31\":80,\"32\":35,\"33\":70,\"34\":23,\"35\":9,\"36\":75,\"37\":2,\"38\":10,\"39\":18}}",
+ "usage": {
+  "prompt_tokens": 612,
+  "completion_tokens": 2014,
+  "total_tokens": 2626,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1970
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 612
+ },
+ "served_by": null,
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ }
+}

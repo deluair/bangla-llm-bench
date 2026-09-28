@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 10.3,
+ "text": "[id 230]\nCost of cars: 12 * $20,000 = $240,000\nTax: 10% of $240,000 = $24,000\nRegistration: 12 * $1,000 = $12,000\nTotal: $240,000 + $24,000 + $12,000 = **$276,000**\n\n[id 231]\nRobert collects 20 shells on Monday.\nKylie collects 5 more shells than Robert: 20 + 5 = 25 shells on Monday.\nOn Tuesday, Kylie collects 2 times more shells than Monday: 25 * 2 = **50 shells**\n\n[id 232]\nNumber of ants = 50\nNumber of bugs = half as many as ants = 50 / 2 = 25\nTotal insects = ants + bugs = 50 + 25 = **75**\n\n[id 233]\nTotal penguins = 36\nOne-third swim in the ocean: 36 / 3 = 12\nOne-third go inside the cave: 36 / 3 = 12\nPenguins left sunbathing: 36 - 12 - 12 = **12**\n\n[id 234]\nSteve eats 6 tomatoes per day, twice as much as his girlfriend, so girlfriend eats 3 tomatoes per day.\nTotal tomatoes per day: 6 + 3 = 9\nTomatoes per vine per week: 3\nTomatoes needed per week: 9 * 7 = 63\nNumber of vines needed: 63 / 3 = **21**\n\n[id 235]\nTotal people including John: 20 friends + 1 (John) = 21 people\nSlices needed: 21 * 4 = 84 slices\nSlices per pizza: 8\nNumber of pizzas needed: 84 / 8 = **11**\n\n[id 236]\nRam buys 25 pens.\nHe can make 1 new pen from 5 empty pens.\nNumber of new pens: 25 / 5 = 5\nTotal pens: 25 (original) - 25 (used) + 5 (new) = **5**\n\n*Note: The question implies he uses the pens until the ink runs out, so he effectively uses all 25 pens and gets 5 new pens from the ink. So total pens he gets to use is 25 (original) + 5 (new) = 30.*\n\n[id 237]\nJohnny's initial sum: $20 + $10 = $30\nMoney triples in a year: $30 * 3 = **$90**\n\n[id 238]\nJessa's age: 20\nJoan is 5 years older than Jessa: 20 + 5 = 25\nMary is 2 years younger than Joan: 25 - 2 = 23\nSum of ages: 20 + 25 + 23 = **68**\n\n[id 239]\nInitial number of students: 1000\nStudents leaving through exit A: 30% of 1000 = 0.30 * 1000 = 300\nRemaining students: 1000 - 300 = 700\nStudents leaving through exit B: 3/5 of 700 = 0.6 * 700 = 420\nStudents leaving through exit C: 700 - 420 = **280**\n\n```json\n{\n  \"answers\": {\n    \"230\": 276000,\n    \"231\": 50,\n    \"232\": 75,\n    \"233\": 12,\n    \"234\": 21,\n    \"235\": 11,\n    \"236\": 30,\n    \"237\": 90,\n    \"238\": 68,\n    \"239\": 280\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 701,
+  "completion_tokens": 950,
+  "total_tokens": 1651,
+  "cost": 0.00024765,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024765,
+   "upstream_inference_prompt_cost": 0.00010515,
+   "upstream_inference_completions_cost": 0.0001425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 11.0,
+  "236": 30.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 11.0,
+  "236": 30.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

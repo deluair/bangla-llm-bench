@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 11.1,
+ "text": "- **110:** Beatrice ate 2 × 24 = 48 and Marcell ate 3 × 14 = 42. The total is 90, so the average is **45**.\n- **111:** Julia rows 20 ft every 16 s, so in 64 s she rows 80 ft. At 2 L per 10 ft, the boat takes on **16 L**.\n- **112:** 4 teachers × 2 lessons × 3 cleanings = **24**.\n- **113:** 2 flowers × 15 days = 30 planted. Minus 5 that did not grow gives **25**.\n- **114:** Brittany's phone holds 1800 ÷ 6 = 300 photos. 300 ÷ 50 = **6 ducks**.\n- **115:**\n  - Her cost was 10 × $10 + 5 × $16 = $180.\n  - A 50% price rise gives a profit of **$90**.\n- **116:** Sugar is 7 of every 20 parts, so 7/20 × 120 = **42**.\n- **117:** 2 × 3 = 6 pairs × $60 = **$360**.\n- **118:** There were already 2 × 5 = 10 vehicles. 30 − 10 = 20 more vehicles, which fill 20 ÷ 5 = **4 containers**.\n- **119:** This answer relies on an assumed reading, not a strict one.\n  - Adrien's salary four years later is 40000 × 1.4 = 56000.\n  - Strictly, \"30% higher than Lylah's\" means Lylah earned 40000 ÷ 1.3 ≈ 30,769, which is not a whole number.\n  - I used the common textbook reading instead: Lylah earned 30% less than Adrien, so 28000.\n  - Her salary also rose 40%, to 39200. The total is 56000 + 39200 = **95200**.\n\n{\"answers\": {\"110\": 45, \"111\": 16, \"112\": 24, \"113\": 25, \"114\": 6, \"115\": 90, \"116\": 42, \"117\": 360, \"118\": 4, \"119\": 95200}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1555,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1133,
+  "output_tokens_details": {
+   "thinking_tokens": 453
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1555,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1133,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1555,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1555
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.035108,
+ "answers_batch": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ }
+}

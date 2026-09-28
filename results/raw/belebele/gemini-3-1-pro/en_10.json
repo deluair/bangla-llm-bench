@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 16.0,
+ "text": "Here is the reasoning for each question based on the provided passages:\n\n*   **[id 80]:** The passage states, \"No major injuries were reported...\" meaning no one was treated for serious injuries. Therefore, the answer is **B**.\n*   **[id 81]:** The passage explicitly mentions \"baseball and softball, which were voted out of the Olympic Games in 2005.\" Therefore, the answer is **C**.\n*   **[id 82]:** The passage says, \"Prior to the arrival of troops, Haiti had not encountered problems related to the disease since the 1800s.\" Therefore, the answer is **A**.\n*   **[id 83]:** A police spokesperson states that the \"suspected male offender is being investigated for trespassing rather than vandalism.\" Therefore, the answer is **A**.\n*   **[id 84]:** The text notes that \"The speeds of 802.11n are substantially faster than that of its predecessors...\" Therefore, the answer is **A**.\n*   **[id 85]:** While pig catchers, mosquito curtains, and pesticides are being deployed currently, the passage notes that plans for vaccines this year were delayed and will help prepare agencies \"for next year.\" Therefore, the answer is **C**.\n*   **[id 86]:** The passage explains that the failure of the second sentence \"could possibly open the door for civil unions in the future.\" Therefore, the answer is **B**.\n*   **[id 87]:** The text defines the \"Panama Papers\" as documents \"leaked to the press in spring 2016.\" Therefore, the answer is **B**.\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 17361,
+  "output_tokens": 1736,
+  "thinking_tokens": 1308,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19097
+ },
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

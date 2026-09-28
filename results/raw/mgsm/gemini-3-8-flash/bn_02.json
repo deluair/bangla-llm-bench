@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 10.3,
+ "text": "**Brief Solutions:**\n\n- **[id 20]** 1 liter of orange drink is spilled, leaving 9 liters of orange drink containing $9 \\times \\frac{2}{3} = 6$ liters of water. 15 liters of pineapple drink contains $15 \\times \\frac{3}{5} = 9$ liters of water. Total water = $6 + 9 = 15$ liters.\n- **[id 21]** Raymond's current age is $31 + 6 = 37$ years. He had his son at age 23, so his son was born $37 - 23 = 14$ years ago.\n- **[id 22]** Total DVDs sold = $(3 \\times 1) + (2 \\times 2) + (3 \\times 0) = 3 + 4 + 0 = 7$.\n- **[id 23]** Time elapsed from 1:00 PM to 5:00 PM is 4 hours. Total melted = $4 \\times 2 = 8$ cm.\n- **[id 24]** The discounted price represents $75\\%$ of the original price: $\\frac{19.50}{0.75} = 26$.\n- **[id 25]** Non-pizza items cost $12 + (5 \\times 3) + (4 \\times 1.50) = 12 + 15 + 6 = \\$33$. The remainder for pizza is $50 - 33 = \\$17$. Boxes of pizza = $\\frac{17}{8.50} = 2$.\n- **[id 26]** Total cost = $3 \\times (16.50 + 22.50 + 42) = 3 \\times 81 = 243$.\n- **[id 27]** Over 60 days, 60 servings are consumed. Cartons needed = $\\frac{60}{15} = 4$. Total cost = $4 \\times 4 = 16$.\n- **[id 28]** First stop is at 20 miles; second stop is at $60 - 15 = 45$ miles. Distance traveled between stops = $45 - 20 = 25$ miles.\n- **[id 29]** The two pairs of heels cost $33 + (2 \\times 33) = 33 + 66 = \\$99$. Since this is $\\$5$ less than the boots, the boots cost $99 + 5 = 104$.\n\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}\n",
+ "usage": {
+  "input_tokens": 24701,
+  "output_tokens": 2392,
+  "thinking_tokens": 1704,
+  "cache_read_tokens": 0,
+  "total_tokens": 27093
+ },
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

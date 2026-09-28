@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 15.0,
+ "text": "**[id 10]** In month 1 there were 60 downloads. Month 2 had 3 × 60 = 180. Month 3 was 30% lower: 180 × 0.7 = 126. The total is 60 + 180 + 126 = **366**.\n\n**[id 11]** The doughnuts cost 3 × 68 = 204. The cupcakes cost 2 × 80 = 160. The cheesecakes cost 6 × 55 = 330. The total is **694**.\n\n**[id 12]** Each year brings in 7 × 1.5 = 10.5 and costs 3, so the net gain is 7.5 per year. It takes 90 / 7.5 = 12 years to break even. He starts earning money in year **13**.\n\n**[id 13]** Let x be the starting number. After selling one-third and then 2 more, x − x/3 − 2 remain. Half of those were sold and 5 are left, so the remainder before the orange house was 10. That gives 2x/3 = 12, so x = **18**.\n\n**[id 14]** Contemporary is 20% of 20, which is 4 students. The Bengali text says only \"25% jazz.\" I read it as 25% of the remaining 16, as in the original English version of this problem, giving 4 students. Hip-hop then has 12 students, which is **60%**. If the 25% is taken of all 20 students, the answer would be 55%.\n\n**[id 15]** Jewellery gains 5000 × 2.5% = 125. Gadgets gain 8000 × 1.2% = 96. The maximum profit is **125**.\n\n**[id 16]** Each train travels 80 + 150 = **230** miles.\n\n**[id 17]** Weekly pay is 35 × 20 + 15 × 30 = 1150. For 50 weeks this is **57500**.\n\n**[id 18]** Over 28 days she eats 3 × 28 = 84 eggs, which is **7** dozen.\n\n**[id 19]** To average 4 mph over 12 miles she needs 3 hours in total. She has used 2 hours for 6 miles. The remaining 6 miles must take 1 hour, so she must walk at **6** mph.\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 13, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2658,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1254,
+  "output_tokens_details": {
+   "thinking_tokens": 481
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2658,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1254,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2658,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2658
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.046352000000000004,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

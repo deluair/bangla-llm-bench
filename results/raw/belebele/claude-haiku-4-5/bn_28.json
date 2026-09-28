@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 58.3,
+ "text": "Looking at each question:\n\n**[id 224]** The passage states: \"ফলে বিমানবন্দরটি বাণিজ্যিক ফ্লাইট বন্ধ করে দেয়\" (the airport closed commercial flights). \nAnswer: **A**\n\n**[id 225]** The passage says Brzezinski worked from 1977-1981 as NSA, as the successor to Henry Kissinger. The question asks who held the position \"up to 1977,\" which would be Kissinger.\nAnswer: **B**\n\n**[id 226]** Checking each statement:\n- A) Breaking happened before loading - TRUE (passage implies cargo was \"going to be lifted\")\n- B) \"100 মিটার জ্বালানি তেল\" - FALSE (passage says \"120-160 কিউবিক মিটার জ্বালানি তেল\", not 100 meter fuel)\n- C) One crew member injured - TRUE (broken nose mentioned)\n- D) Ship sank - TRUE (passage confirms this)\nAnswer: **B**\n\n**[id 227]** The passage states: \"1960 এর দশকে চলচ্চিত্র পরিচালনা শেখানোর জন্য তিনি সদ্য স্বাধীন আলজেরিয়াতে ফিরে আসেন\" (in the 1960s he returned to newly independent Algeria). This indicates Algeria gained independence in the 1960s.\nAnswer: **C**\n\n**[id 228]** The passage clearly states: \"একজন প্রতিবেশী গ্যাস লিক হওয়ার কথা জানানোর পরেই\" (after a neighbor informed about the gas leak).\nAnswer: **A**\n\n**[id 229]** The passage lists confirmed cases in order: Austria, Germany, Slovenia, Bulgaria, Greece, Italy, then France (with the confirmed dead duck in Lyon). France is the last confirmed country mentioned.\nAnswer: **A**\n\n**[id 230]** The passage explicitly states: \"ফ্রেড এখন... উত্তর-পশ্চিম দিকে এগিয়ে যাচ্ছে\" (Fred is now moving northwest).\nAnswer: **D**\n\n**[id 231]** The passage directly states: \"ভূমিকম্পের গুরুত্বপূর্ণ কার্যকলাপের পর্যায় পরিবর্তন স্থান নিয়েছিল মার্চের ১০ তারিখে\" (the phase change occurred on March 10th).\nAnswer: **C**\n\n```json\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4731,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5165,
+  "output_tokens_details": {
+   "thinking_tokens": 4413
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4731,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 5165,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4731,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4731
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.035296,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

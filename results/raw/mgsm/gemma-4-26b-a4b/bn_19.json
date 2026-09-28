@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 10.3,
+ "text": "[id 190] 3 hours = 180 minutes. 180 minutes * 2 peaches/minute = 360.\n\n[id 191] 10 ducks * 3.5 lbs/week = 35 lbs/week. 35 lbs/7 days = 5 lbs/day.\n\n[id 192] Starting: 50. Net growth per year: 10 - 2 = 8. After 10 years: 50 + (8 * 10) = 130. 30% die: 130 * 0.7 = 91.\n\n[id 193] Friday: 18 pink. Saturday: 1/3 of 18 = 6 are taken, turned white, and returned. So, 12 pink, 6 white. Sunday: +18 pink. Total Pink = 12 + 18 = 30. Total White = 6. Difference = 30 - 6 = 24.\n\n[id 194] 5 colors * $2 = $10. $20 - $10 = $10.\n\n[id 195] Pencil + Eraser = $1.20 + $0.30 = $1.50. Pen = $1.50. 8 pens * $1.50 = $12.\n\n[id 196] 40 restaurants * 2 lbs = 80 lbs. Total distributed = 200 lbs. Unused = 200 - 80 = 120.\n\n[id 197] Total = 23786. Men + Women = 8417 + 9092 = 17509. Children = 23786 - 17509 = 6277.\n\n[id 198] Initial: 20. Month 1: 20 * 3 = 60 new cards. Total: 20 + 60 = 80. Month 2: 60 - 20 = 40 new cards. Total: 80 + 40 = 120. Month 3: 2 * (60 + 40) = 200 new cards. Total: 120 + 200 = 320.\n\n[id 199] 1000 sentences / 2 = 500 sentences per publisher. Publisher A pays 5 cents. Publisher B pays 2 * 5 = 10 cents. Total income = (500 * 5) + (500 * 10) = 2500 + 5000 = 7500.\n\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "prompt_tokens": 848,
+  "completion_tokens": 737,
+  "total_tokens": 1585,
+  "cost": 0.0003027,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003027,
+   "upstream_inference_prompt_cost": 8.16e-05,
+   "upstream_inference_completions_cost": 0.0002211
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

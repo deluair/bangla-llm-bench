@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 2.4,
+ "text": "{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"C\", \"212\": \"D\", \"213\": \"D\", \"214\": \"D\", \"215\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5825,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 58,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5825,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 58,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5825,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5825
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.023884000000000002,
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "C",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "C",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ }
+}

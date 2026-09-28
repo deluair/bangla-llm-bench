@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 187.0,
+ "text": "[id 200] Baldur gets 5 + 6 = 11 pails per day. 11 × 5 = 55 liters.\n[id 201] Weekly salary becomes 2000 × 1.05 = 2100. Yearly salary = 2100 × 52 = 109200. Add the 5000 award: 114200.\n[id 202] 10 acres × 5 tons/acre = 50 tons. 50 tons × 2 barrels/ton = 100 barrels.\n[id 203] Sandwiches: 7 days × 2 slices = 14. Omelets: 3 days × 3 slices = 9. Macaroni: 8. Total = 14 + 9 + 8 = 31.\n[id 204] Starting pens: 22 + 10 = 32. Blue: 6 × 9 = 54. Red: 2 × 6 = 12. Total = 32 + 54 + 12 = 98.\n[id 205] To average 93 after dropping the lowest of 6 scores, the sum of the top 5 must be 93 × 5 = 465. Current best five without the sixth: 89 + 92 + 100 + 86 = 367. Needed sixth score: 465 − 367 = 98 (which is above 71, so 71 is dropped).\n[id 206] First part: 5 × 25 × 4 = 500 km. Second part: 2 × 60 × 3 = 360 km. Total = 500 + 360 = 860 km.\n[id 207] Chocolate: 25 × 40 = 1000 g. Each apple = 40 / 2 = 20 g. Apples: 80 × 20 = 1600 g. Total = 1000 + 1600 = 2600 g.\n[id 208] Monday: 4. Tuesday: 3 × 4 = 12. Wednesday: 5 × 12 = 60. Total = 4 + 12 + 60 = 76.\n[id 209] Plates: 6 × 6000 = 36000. Cups total: 36000 − 1200 = 34800. Number of cups: 20 × 12 = 240. Cost per cup: 34800 / 240 = 145.\n\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}",
+ "usage": {
+  "prompt_tokens": 744,
+  "completion_tokens": 7045,
+  "total_tokens": 7789,
+  "completion_tokens_details": {
+   "reasoning_tokens": 6469
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

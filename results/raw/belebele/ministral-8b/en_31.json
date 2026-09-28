@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 4.7,
+ "text": "Here are the answers based on the reasoning from the passages:\n\n- **248**: Simon was responsible for hiring the show's first writing team for *The Simpsons*. Answer: **B) Simon**\n- **249**: Roberts felt it was unethical to discuss the specifics of cases. Answer: **D) The specifics of cases**\n- **250**: The Rossby number is determined by luminosity and rotation. Answer: **A) Luminosity and rotation**\n- **251**: The first tie break was lost by Murray in the first set. Answer: **A) It was lost by Murray in the first set**\n- **252**: Dr. Ur is skeptical about whether diabetes can be cured, specifically noting no relevance to Type 1 diabetes. Answer: **B) If a cure is possible**\n- **253**: The weather conditions were poor, causing the aborted landing. Answer: **D) The weather conditions were poor**\n- **254**: The government announced they plan to fund an additional 300 carriages. Answer: **A) They plan to fund an additional 300 carriages**\n- **255**: Turkey assumed responsibility for guarding captured ISIS fighters. Answer: **D) Turkey**\n\n```json\n{\n  \"answers\": {\n    \"248\": \"B\",\n    \"249\": \"D\",\n    \"250\": \"A\",\n    \"251\": \"A\",\n    \"252\": \"B\",\n    \"253\": \"D\",\n    \"254\": \"A\",\n    \"255\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1234,
+  "completion_tokens": 352,
+  "total_tokens": 1586,
+  "cost": 0.0002379,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002379,
+   "upstream_inference_prompt_cost": 0.0001851,
+   "upstream_inference_completions_cost": 5.28e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

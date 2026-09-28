@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 8.8,
+ "text": "**Brief Reasoning:**\n\n- **[id 170]**: Hat = $25. Jacket = 3 × 25 = $75. Pants = (25 + 75) / 2 = $50. Total = 25 + 75 + 50 = $150.\n- **[id 171]**: Spiders: 80 × 8 = 640 legs. Insects: 90 × 6 = 540 legs. Mutants: 3 × 10 = 30 legs. Total = 640 + 540 + 30 = 1,210 legs.\n- **[id 172]**: Sally Thirtytwo = 8. Sally Four = 8. Granny Red = 2 × 8 = 16. Sally Two = 16 + 3 = 19. Total = 8 + 8 + 16 + 19 = 51 years.\n- **[id 173]**: Monthly minimum = 300 + 200 + 500 = $1,000. Monthly payment = 1,000 × 1.5 = $1,500. Annual total = 1,500 × 12 = $18,000.\n- **[id 174]**: Peeling = 60 × 1.5 min = 90 min. Cutting = 60 × 5 sec = 300 sec = 5 min. Total = 90 + 5 = 95 minutes.\n- **[id 175]**: Per gallon: cost = $3 + $2 = $5; revenue = 20 × $0.50 = $10; profit = $10 - $5 = $5. For $25 profit, they made 25 / 5 = 5 gallons. Lemon cost = 5 × $3 = $15.\n- **[id 176]**: Chinese racers = 240 - 80 = 160. Chinese girls = 160 - 60 = 100.\n- **[id 177]**: Rent = 6,000 / 4 = $1,500. Fuel = 6,000 / 3 = $2,000. Remaining = 6,000 - 3,500 = $2,500. Charity = 2,500 / 2 = $1,250, leaving $1,250. Final remaining = 1,250 - 200 - 700 = $350.\n- **[id 178]**: Bo = 40. Monic = 40 - 4 = 36. Rani = 36 + 10 = 46. Total = 40 + 36 + 46 = 122 crabs.\n- **[id 179]**: Total hours = 5 + 8 = 13 hours. Total earnings = 13 × $10 = $130.\n\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}\n",
+ "usage": {
+  "input_tokens": 16487,
+  "output_tokens": 2915,
+  "thinking_tokens": 2084,
+  "cache_read_tokens": 8161,
+  "total_tokens": 19402
+ },
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

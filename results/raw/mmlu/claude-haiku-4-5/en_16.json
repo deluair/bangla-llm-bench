@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "10694",
+  "11167",
+  "11431",
+  "11486",
+  "11690",
+  "12239",
+  "12247",
+  "12303",
+  "12421",
+  "12423",
+  "12582",
+  "12609",
+  "12674",
+  "12915",
+  "13027"
+ ],
+ "seconds": 90.7,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through these questions systematically:\n\n**[10694]** - Intentional infliction of emotional distress: The friend knew the woman was easily excitable and present when threatening the husband. This extreme and outrageous conduct, with knowledge it would cause severe emotional distress to this vulnerable bystander, supports recovery. **C**\n\n**[11167]** - Contract delegation: The carpeting company engaged the workman to perform the job. The workman's contractual relationship is with the company that hired him, making the company his source of recovery. **B**\n\n**[11431]** - Assumption of risk defense: The sign merely stated the elevator was \"not available,\" not that there was a dangerous shaft below. The plaintiff couldn't have appreciated the actual risk without understanding what danger existed. **C**\n\n**[11486]** - Double jeopardy/dual sovereignty: Under the well-established dual sovereignty doctrine, each state is a separate sovereign and may prosecute conduct that violates its own laws, even if another state has already prosecuted the same conduct. **B**\n\n**[11690]** - Search warrant scope: The warrant was issued for \"the man's\" residence. Once police determined the defendant occupied separate quarters on the second floor, the search exceeded the warrant's scope and violated the defendant's 4th Amendment rights. **A**\n\n**[12239]** - Mechanical ventilation complication: The patient's restlessness, combative behavior, diminished breath sounds, and tachycardia suggest the chest tube may be kinked, obstructed, or mispositioned despite the air leak stopping. Repositioning is the appropriate next step. **D**\n\n**[12247]** - Mood disorder diagnosis: The patient shows cyclic mood changes tied to menstrual cycle—hyperactivity/anxiety before menses, then depression/lethargy with onset. This pattern of mixed mood symptoms with alternating presentations fits a bipolar presentation. **B**\n\n**[12303]** - Penile lesions: 10mm flesh-colored sessile lesions that turn white with acetic acid are classic for condyloma acuminata (genital warts). Cryotherapy is standard first-line treatment. **D**\n\n**[12421]** - Acute urticaria management: First-episode acute urticaria with normal history/exam and spontaneous resolution typically requires only symptomatic treatment with antihistamines. Extensive workup isn't indicated. **D**\n\n**[12423]** - Post-otitis findings: A brown/irregular mass behind an intact tympanum in a child recovering from otitis media represents middle ear effusion—the typical residual finding as fluid remains in the middle ear space. **C**\n\n**[12582]** - Competence to stand trial: Competence focuses on current mental state and ability to comprehend charges and assist in one's defense—not ability to distinguish right from wrong (insanity) or mental state at time of crime. **B**\n\n**[12609]** - Maternal memory accuracy: Mothers' memories are most accurate about objective, documented milestones like motor development and weight gain, which are recorded by healthcare providers, compared to subjective social/relational memories. **D**\n\n**[12674]** - WAIS-III interpretation: Significantly higher Verbal IQ than Performance IQ suggests a nonverbal learning disability or weakness in perceptual/spatial processing. **A**\n\n**[12915]** - Privilege holder: Psychotherapist-patient privilege is held by the CLIENT/PATIENT, allowing them to control disclosure and waive privilege. **B**\n\n**[13027]** - Research ethics: When discovering an ethical violation, the appropriate first step is to discuss it with the supervisor through proper channels before considering more drastic action. **C**\n\n```json\n{\n  \"answers\": {\n    \"10694\": \"C\",\n    \"11167\": \"B\",\n    \"11431\": \"C\",\n    \"11486\": \"B\",\n    \"11690\": \"A\",\n    \"12239\": \"D\",\n    \"12247\": \"B\",\n    \"12303\": \"D\",\n    \"12421\": \"D\",\n    \"12423\": \"C\",\n    \"12582\": \"B\",\n    \"12609\": \"D\",\n    \"12674\": \"A\",\n    \"12915\": \"B\",\n    \"13027\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 3065,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8925,
+  "output_tokens_details": {
+   "thinking_tokens": 7918
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3065,
+    "output_tokens": 8925,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.04769,
+ "answers_batch": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "A",
+  "12239": "D",
+  "12247": "B",
+  "12303": "D",
+  "12421": "D",
+  "12423": "C",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "single": {},
+ "answers": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "A",
+  "12239": "D",
+  "12247": "B",
+  "12303": "D",
+  "12421": "D",
+  "12423": "C",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ }
+}

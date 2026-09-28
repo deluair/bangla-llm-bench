@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 45.9,
+ "text": "Based on the passages provided, here is the reasoning for each question:\n\n**[id 96]** The passage states that 45 of the 117 total skiers in the Giant Slalom failed to rank in the race (which is the metric used here for not completing/placing in the overall event).\n**[id 97]** The passage explicitly notes: \"Northern Rock had required support due to its exposure during the subprime mortgage crisis in 2007.\"\n**[id 98]** The researcher states the new timeline for the split is \"Based on this fossil\". While the previous timeline was anticipated by molecular evidence, the new finding regarding the split's timeline was found on/based on the fossil. \n**[id 99]** The early reports stated the plane was denied an emergency landing in Ürümqi, meaning it never landed there. The later reports also do not state it landed there (they say it landed in Kandahar).\n**[id 100]** The passage states: \"Bush spokesman Gordon Johndroe called North Korea's pledge 'a major step...'\"\n**[id 101]** The text explicitly says: \"The Ninth Ward... is currently in waist-high water...\"\n**[id 102]** The passage states that \"assistance of 80 police were on hand to direct motorists to detours.\"\n**[id 103]** The text says: \"By early today, winds were around 83 km/h, and it was expect to keep weakening.\"\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 17211,
+  "output_tokens": 5618,
+  "thinking_tokens": 5216,
+  "cache_read_tokens": 8141,
+  "total_tokens": 22829
+ },
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

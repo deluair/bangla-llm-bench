@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 8.6,
+ "text": "Brief reasoning for each:\n\n- **280**: The love legend belongs to Callejón del Beso, a separate attraction, not Jardín de la Unión. **B**\n- **281**: Norwegian plateaus (\"vidde\"/\"hei\") are described as treeless, so forested plateaus would not be typical. **B**\n- **282**: The tourist season peaks during the Indian summer. **C**\n- **283**: The passage says the best views are from the Kowloon waterfront opposite the island. **D**\n- **284**: VPNs reroute *all* Internet traffic, not only http — so option D is not true. **D**\n- **285**: A global number must often be bought separately to allow PSTN phones to call you. **A**\n- **286**: Political influence is not mentioned; history, religious significance, and cultural sites are. **B**\n- **287**: Wraps/skirts (for women) and trousers (for men) are borrowable; shorts are not available. **B**\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 667,
+  "completion_tokens_details": {
+   "reasoning_tokens": 386
+  },
+  "prompt_tokens": 1356,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2023
+ },
+ "served_by": null,
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

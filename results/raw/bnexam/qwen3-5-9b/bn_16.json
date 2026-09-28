@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "c4490735-fcf6-4470-9612-b340d898523a-73076",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175"
+ ],
+ "seconds": 77.5,
+ "text": "\n\n1.  **Question 1 (c4490735-...):** Who first abolished the practice of Sati? Lord William Bentinck passed the ban in 1829. **Answer: D**\n2.  **Question 2 (c4fff258-...):** Origin of Bengali script. It evolved from the Brahmi script. **Answer: C**\n3.  **Question 3 (c66ad5ed-...):** Which nerve carries olfactory stimuli? Olfactory nerve. **Answer: A**\n4.  **Question 4 (c6977869-...):** Which is a Lead Storage Cell? Lead, Lead Dioxide, H2SO4. Option B describes this. **Answer: B**\n5.  **Question 5 (c7a360bb-...):** Start year of Hijri calendar. Hijra year 622 AD. **Answer: B**\n6.  **Question 6 (c80dafc0-...):** Total bones in axial skeleton. 80. **Answer: B**\n7.  **Question 7 (c82168c2-...):** Chief Election Commissioner in 1970 Election. Justice Abu Said Chowdhury is the associated name in this context. **Answer: D**\n8.  **Question 8 (ca6458d7-...):** Mineral symbol for Chrysocolla. CuSiO3.2H2O. **Answer: A**\n9.  **Question 9 (cad30017-...):** Which meaning is inconsistent. 'Shab' (Word) is not 'Strong'. **Answer: B**\n10. **Question 10 (cb020ef5-...):** Missing number. Based on options (powers of 7), 343 is a common fill for cubic sequence. **Answer: B**\n11. **Question 11 (cba752a1-...):** Where Krebs cycle occurs? Mitochondria. **Answer: C**\n12. **Question 12 (cc4593ae-...):** Country giving Bengali second official language status. Nepal (recently). **Answer: B**\n13. **Question 13 (ce3106e5-...):** Focal length calculation. $f=100$ cm. **Answer: B**\n14. **Question 14 (cff69f66-...):** Domain of sqrt(49-x^2). $[-7, 7]$. **Answer: C**\n15. **Question 15 (d044497d-...):** Synonym of 'অক্ষির সমীপে'. Pratyaksh (Direct). **Answer: C**\n\n{\"answers\": {\"c4490735-fcf6-4470-9612-b340d898523a-73076\": \"D\", \"c4fff258-98e8-4a51-adfd-41dc285290b0-73931\": \"C\", \"c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508\": \"A\", \"c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825\": \"B\", \"c7a360bb-53a7-40fd-a265-c6d039e95c89-127617\": \"B\", \"c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959\": \"B\", \"c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643\": \"D\", \"ca6458d7-bb88-4f70-b2be-00904d41ac19-116217\": \"A\", \"cad30017-bd5f-4431-a070-0dae70ee02b3-65981\": \"B\", \"cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680\": \"B\", \"cba752a1-878f-4829-9c26-076a80413eea-4910\": \"C\", \"cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477\": \"B\", \"ce3106e5-4aab-4829-be32-af5107481c53-124527\": \"B\", \"cff69f66-a30d-49c4-8854-3f3d4e538b69-123786\": \"C\", \"d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1804,
+  "completion_tokens": 12553,
+  "total_tokens": 14357,
+  "cost": 0.00206335,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00206335,
+   "upstream_inference_prompt_cost": 0.0001804,
+   "upstream_inference_completions_cost": 0.00188295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 11283,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "c4490735-fcf6-4470-9612-b340d898523a-73076": "D",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931": "C",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508": "A",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825": "B",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617": "B",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959": "B",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643": "D",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217": "A",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981": "B",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680": "B",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910": "C",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477": "B",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527": "B",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786": "C",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175": "C"
+ },
+ "single": {},
+ "answers": {
+  "c4490735-fcf6-4470-9612-b340d898523a-73076": "D",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931": "C",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508": "A",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825": "B",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617": "B",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959": "B",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643": "D",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217": "A",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981": "B",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680": "B",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910": "C",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477": "B",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527": "B",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786": "C",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175": "C"
+ }
+}

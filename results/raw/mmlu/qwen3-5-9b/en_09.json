@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 168.5,
+ "text": "1.  **Torque and Angular Acceleration:**\n    $\\tau = rF = 0.30 \\, \\text{m} \\times 2.0 \\, \\text{N} = 0.60 \\, \\text{N}\\cdot\\text{m}$.\n    $\\tau = I\\alpha \\Rightarrow \\alpha = \\tau/I = 0.60 / 0.06 = 10 \\, \\text{rad/s}^2$.\n    $t = \\Delta\\omega / \\alpha = 20 / 10 = 2 \\, \\text{s}$. (Option B)\n\n2.  **Electromagnetic Spectrum:**\n    Ordered by wavelength (short to long): Gamma < X-ray < UV < Visible (Violet to Red) < Infrared...\n    Among choices: Gamma (shortest) < UV < Blue < Orange (longest visible). Orange is the longest. (Option D)\n\n3.  **Toy and Energy Transfer:**\n    The rubber band acts as a spring. Its initial winding state affects the potential energy available or absorbed during motion. If the initial load differs, the energy conversion to kinetic motion varies, affecting the distance climbed. (Option A)\n\n4.  **Capacitors in Series:**\n    $V = Q/C = 600/2 = 300 \\, \\text{V}$.\n    $C_{eq} = \\frac{18}{3} = 6 \\, \\mu\\text{F}$ (1/18 + 1/18 + 1/18 = 3/18 = 1/6).\n    $Q = C_{eq}V = 6 \\times 300 = 1800 \\, \\mu\\text{C}$. (Option D)\n\n5.  **Standing Waves:**\n    Standing waves form only when the string length $L$ matches integer multiples of half-wavelengths ($L = n\\lambda/2$). If $L$ is not a multiple of half-wavelength, resonance does not occur. (Option A)\n\n6.  **Visible Light Color:**\n    Violet light has the shortest wavelength of visible light. (Option B)\n\n7.  **Behavioral Conditioning:**\n    The Jacob's crying leads to getting candy (reward). This increases the likelihood of the behavior recurring in the future (Reinforcement). (Option C)\n\n8.  **Physiology of Stress:**\n    Increased blood pressure and breathing rate are \"fight or flight\" responses regulated by the Sympathetic Nervous System. (Option C)\n\n9.  **Phineas Gage:**\n    Gage's frontal lobe injury highlighted the link between specific brain areas and personality/behavior changes. (Option B)\n\n10. **Mental/Physical State:**\n    The mind-body problem refers to the relationship between mental states and physical states. (Option B)\n\n11. **Survey Bias:**\n    Stratified random sampling primarily reduces *sampling error* (variance) rather than systematic *bias* compared to simple random sampling (which is inherently unbiased if random). Following up, neutral wording, and random selection directly target bias sources. (Option C)\n\n12. **Conditional Probability (Normal):**\n    $P(80 < X < 100) / P(X > 80)$.\n    $Z_1 \\approx 0.42$, $Z_2 \\approx 2.08$.\n    $P(Z > 0.42) \\approx 0.34$.\n    $P(0.42 < Z < 2.08) \\approx 0.98 - 0.66 = 0.32$.\n    Ratio $\\approx 0.94$. (Option D)\n\n13. **t-distribution Properties:**\n    The 68-95-99.7 rule applies to Normal. T-distributions have heavier tails. As df decreases, the T-distribution deviates *more* from Normal, so the rule works *worse*. (Option D)\n\n14. **Hypothesis Testing:**\n    Population SD unknown -> use t-test.\n    $df = n - 1 = 15$.\n    $t = (4.3 - 4.0) / (0.6 / \\sqrt{16}) = 2.0$.\n    Ha: $\\mu > 4$ -> P-value is $P(t > 2)$. (Option C)\n\n15. **Correlation and $R^2$:**\n    Explained variation is $r^2$.\n    $r=0.6 \\Rightarrow r^2 = 0.36$.\n    $r=0.3 \\Rightarrow r^2 = 0.09$.\n    $0.36 / 0.09 = 4$. (Option C)\n\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"C\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1699,
+  "completion_tokens": 11620,
+  "total_tokens": 13319,
+  "cost": 0.00319383,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00319383,
+   "upstream_inference_prompt_cost": 0.00028883,
+   "upstream_inference_completions_cost": 0.002905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9001,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Together",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

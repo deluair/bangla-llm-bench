@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "1196",
+  "1258",
+  "1322",
+  "1326",
+  "1357",
+  "1374",
+  "1381",
+  "1384",
+  "1395",
+  "1452",
+  "1476",
+  "1492",
+  "1523",
+  "1534",
+  "1570"
+ ],
+ "seconds": 36.6,
+ "text": "Looking at these questions across multiple domains, here are my answers:\n\n**1196**: Psychoanalytic theory directly addresses unconscious motivations/biases stemming from childhood experiences (B).\n\n**1258**: Marathon running is primarily about endurance/stamina, not short bursts of power (D).\n\n**1322**: Water is produced directly in oxidative phosphorylation by combining O2 with electrons/protons - stops immediately without O2 (C).\n\n**1326**: SDS denatures proteins (breaking non-covalent bonds maintaining tertiary structure) and linearizes them for size-based separation (D).\n\n**1357**: Using standard Aufbau filling order, gold's d-electron count (3d10+4d10+5d9) = 29 (C).\n\n**1374**: N has 2p3 configuration; by Hund's rule, 3 unpaired electrons all spin-aligned gives S=3/2 (C).\n\n**1381**: Hall effect directly reveals charge carrier sign via Hall coefficient sign (D).\n\n**1384**: Fermions have antisymmetric wavefunctions and obey Pauli exclusion (D).\n\n**1395**: Moon's own mass doesn't affect its orbital parameters (test mass approximation); can't be determined (A).\n\n**1452**: Double Doppler shift (moving source then moving observer) gives ~612 Hz (D).\n\n**1476**: Buffer-overrun is the classic exploitable coding mistake (B).\n\n**1492**: Blinding randomizes input via r, adding timing noise from the extra multiplication/division that masks correlation (D).\n\n**1523**: IM-Trojans specifically target instant messaging credentials (A).\n\n**1534**: UNIX and NT-based systems are classically cited together for buffer-overflow vulnerabilities (D).\n\n**1570**: Correctness is a software quality attribute, not a classic CIA security property (C).\n\n```json\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"D\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"D\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"D\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2402,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3665,
+  "output_tokens_details": {
+   "thinking_tokens": 2919
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2402,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3665,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2402,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2402
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.046262,
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "D",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {},
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "D",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ }
+}

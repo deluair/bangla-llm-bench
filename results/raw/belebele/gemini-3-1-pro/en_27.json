@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 17.1,
+ "text": "Here is the brief reasoning for each question:\n\n*   **[id 216]** The passage states that the \"composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy\", pointing to B.\n*   **[id 217]** The passage notes that South Africa \"steadily improved as the tournament progressed\", matching option D.\n*   **[id 218]** The passage explicitly states that Hu \"did not set a figure for the cuts\", making D the correct answer.\n*   **[id 219]** The text says \"Norman Lamb MP is expected to take the Business Minister job Davey is vacating\", leading to A.\n*   **[id 220]** The passage explicitly mentions \"he led the Soviet part of the Apollo–Soyuz mission\", which makes B correct.\n*   **[id 221]** The team was looking at forces between the \"Sagittarius galaxy's dark matter and the Milky Way's dark matter\", matching D.\n*   **[id 222]** The passage indicates \"Liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts\", pointing to B.\n*   **[id 223]** The text says the company hopes to \"gain popularity in areas... such as China, Eastern Europe, and Brazil\", which signifies expanding into new territories (B).\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 17231,
+  "output_tokens": 1984,
+  "thinking_tokens": 1611,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19215
+ },
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

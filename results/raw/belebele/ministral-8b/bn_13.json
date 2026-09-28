@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 2.8,
+ "text": "1. The discovery that **most dinosaurs had feathers** is not confirmed by these findings.\n2. The statement that **the lobate scarps indicate a complete absence of geological activity on the Moon** is not true.\n3. The current problem for seals is **not the melting of ice**.\n4. The two beams of light were emitted **towards the sky**.\n5. The statement that **the suspect was not injured** is not true.\n6. The statement that **the case was not filed against AOL** is not true.\n7. The company awarded the Taiwan Sustainable Award in 2007 was **ASUS**.\n8. The statement that **the flight attempted to land three times before crashing** is not accurate.\n\n```json\n{\n  \"answers\": {\n    \"104\": \"D\",\n    \"105\": \"D\",\n    \"106\": \"D\",\n    \"107\": \"A\",\n    \"108\": \"D\",\n    \"109\": \"D\",\n    \"110\": \"C\",\n    \"111\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2367,
+  "completion_tokens": 237,
+  "total_tokens": 2604,
+  "cost": 0.0003906,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003906,
+   "upstream_inference_prompt_cost": 0.00035505,
+   "upstream_inference_completions_cost": 3.555e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

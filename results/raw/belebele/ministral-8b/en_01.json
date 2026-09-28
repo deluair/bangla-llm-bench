@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 4.0,
+ "text": "[id 8] **D** (A thumb’s up is not a micro-expression; it is a deliberate gesture.)\n[id 9] **C** (Researching travel is not related to continuing relationships.)\n[id 10] **B** (The passage does not mention amending the main tenets of the religion.)\n[id 11] **C** (The passage does not mention changes to international law as a result of Britain’s naval blockade.)\n[id 12] **A** (Females are twice as likely to have MS, and MS affects younger/middle-aged adults.)\n[id 13] **D** (The passage states fencing is primarily played in a duel format.)\n[id 14] **B** (The shift from class-based rankings to competence-based promotions in military and occupations had a significant impact on working-class citizens.)\n[id 15] **C** (The passage highlights transportation systems as the public service causing the most discontent.)\n\n```json\n{\n  \"answers\": {\n    \"8\": \"D\",\n    \"9\": \"C\",\n    \"10\": \"B\",\n    \"11\": \"C\",\n    \"12\": \"A\",\n    \"13\": \"D\",\n    \"14\": \"B\",\n    \"15\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1279,
+  "completion_tokens": 276,
+  "total_tokens": 1555,
+  "cost": 0.00023325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023325,
+   "upstream_inference_prompt_cost": 0.00019185,
+   "upstream_inference_completions_cost": 4.14e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

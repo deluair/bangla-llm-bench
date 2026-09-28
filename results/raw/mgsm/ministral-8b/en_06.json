@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 11.2,
+ "text": "[id 60]\nTotal oranges = 25\nBad oranges = 1\nUnripe oranges = 20% of 25 = 5\nSour oranges = 2\nGood oranges = 25 - (1 + 5 + 2) = 17\n\n[id 61]\nCost of material = $500\nCost of construction = $800\nTotal cost before insurance = $500 + $800 = $1300\nInsurance cost = 10% of $1300 = $130\nTotal amount paid = $1300 + $130 = $1430\n\n[id 62]\nAnnual pension after 40 years = $50,000\nAdditional pension after 20 years = 5% of $50,000 = $2,500 per year\nMarcy quits after 30 years, so she gets the additional pension for 10 years.\nTotal annual pension = $50,000 + $2,500 = $52,500\n\n[id 63]\nFirst half of the year (6 months): $140/month * 6 = $840\nSecond half of the year (6 months): 10% less than $140 = $126/month * 6 = $756\nTotal amount paid = $840 + $756 = $1596\n\n[id 64]\n100 miles traveled with 4 gallons of gas used to fill the tank.\nTotal tank capacity = 12 gallons\nMiles per gallon = 100 miles / 4 gallons = 25 miles/gallon\nMiles on a full tank = 25 miles/gallon * 12 gallons = 300 miles\n\n[id 65]\nTime spent watching TV per session = 2 hours\nTime spent reading per session = 2 hours / 2 = 1 hour\nTotal time per session = 2 + 1 = 3 hours\nSessions per week = 3\nTotal time per week = 3 hours/session * 3 sessions = 9 hours\nTotal time in 4 weeks = 9 hours/week * 4 weeks = 36 hours\n\n[id 66]\nEach school has:\n- Girls' team: 5 players\n- Boys' team: 5 players\n- 2 coaches (one for each team)\nTotal per school = 5 + 5 + 2 = 12 people\nTotal for 4 schools = 12 people/school * 4 schools = 48 people\n\n[id 67]\nDiamonds = 175\nRubies = Diamonds - 35 = 175 - 35 = 140\nEmeralds = 2 * Rubies = 2 * 140 = 280\nTotal gems = Diamonds + Rubies + Emeralds = 175 + 140 + 280 = 595\n\n[id 68]\nNumber of girls = 60\nNumber of boys = 2 * Number of girls = 2 * 60 = 120\nTotal students = 60 + 120 = 180\nNumber of teachers = Total students / 5 = 180 / 5 = 36\n\n[id 69]\nTotal money after 8 weeks = $100\nWeekly allowance = $5\nTotal allowance over 8 weeks = $5 * 8 = $40\nInitial amount = Total money - Total allowance = $100 - $40 = $60\n\n```json\n{\n\"answers\": {\n\"60\": 17,\n\"61\": 1430,\n\"62\": 52500,\n\"63\": 1596,\n\"64\": 300,\n\"65\": 36,\n\"66\": 48,\n\"67\": 595,\n\"68\": 36,\n\"69\": 60\n}\n}\n```",
+ "usage": {
+  "prompt_tokens": 714,
+  "completion_tokens": 924,
+  "total_tokens": 1638,
+  "cost": 0.0002457,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002457,
+   "upstream_inference_prompt_cost": 0.0001071,
+   "upstream_inference_completions_cost": 0.0001386
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 52500.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 52500.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

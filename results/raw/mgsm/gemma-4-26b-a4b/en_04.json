@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 2.1,
+ "text": "[id 40] Suzy's iPhone = 1. Ben's iPhone = 2 * 1 = 2. Brandon's iPhone = 4 * 2 = 8.\n\n[id 41] Dragon reach = 1000 ft. Javelin distance without gemstone = 400 ft. Javelin distance with gemstone = 400 * 3 = 1200 ft. Distance outside dragon's reach = 1200 - 1000 = 200.\n\n[id 42] Total pieces = 5 pies * 8 pieces/pie = 40 pieces. Remaining pieces = 14. Pieces taken = 40 - 14 = 26.\n\n[id 43] Calories remaining = 2000 - 1800 = 200. Calories per serving = 250. Servings allowed = 200 / 250 = 0.8 servings. Total bag = 300g for 5 servings. Grams per serving = 300 / 5 = 60g. Grams allowed = 0.8 * 60 = 48.\n\n[id 44] 20 candles require 2 lbs of beeswax. Cost of supplies for 20 candles = 2 * $10 = $20. Revenue = 20 * $2 = $40. Profit = $40 - $20 = $20.\n\n[id 45] Monday: 5 articles. Tuesday: 5 + (2/5 * 5) = 5 + 2 = 7 articles. Wednesday: 2 * 7 = 14 articles. Total articles = 5 + 7 + 14 = 26. Total hours = 26 * 4 = 104.\n\n[id 46] Let P be the number of notes in the package. Total notes = 80 + P. Used = 220. Remaining = 23. (80 + P) - 220 = 23 => P - 140 = 23 => P = 163.\n\n[id 47] Blue ties cost = $40. Total spent on blue ties = $200. Number of blue ties = 200 / 40 = 5. Red ties = 2 * 5 = 10. Cost per red tie = 40 * 1.5 = $60. Total spent on red ties = 10 * 60 = $600. Total spent = 200 + 600 = 800.\n\n[id 48] 4 feet = 4 * 12 inches = 48 inches. Piece length = 6 inches. Number of pieces = 48 / 6 = 8.\n\n[id 49] Total units = 15 floors * 8 units/floor = 120 units. Occupied = 3/4 * 120 = 90 units. Unoccupied = 120 - 90 = 30.\n\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}",
+ "usage": {
+  "prompt_tokens": 879,
+  "completion_tokens": 792,
+  "total_tokens": 1671,
+  "cost": 0.00032376,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00032376,
+   "upstream_inference_prompt_cost": 7.032e-05,
+   "upstream_inference_completions_cost": 0.00025344
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Makora",
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

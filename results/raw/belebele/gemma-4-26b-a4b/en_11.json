@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 32.2,
+ "text": "88: The passage states \"Lo Piccolo had the upper hand because he had been Provenzano's right-hand man\".\n89: The passage states he was a two-time Olympic gold medalist and a former World champion. It also mentions he was the All Japan Judo Federation training committee chairman. While he is a judoka, the specific accolade \"Two time World Champion\" is not stated (it says \"former Olympic and World champion\", not two-time). Wait, let me re-read. \"As well as a former Olympic and World champion...\" implies he won the title, but it doesn't say \"two-time World champion\". However, B is explicitly mentioned. C is explicitly mentioned. D is an inference. Let's look at A: \"Two time World Champion\". The text says \"former... World champion\". It does not specify \"two time\". Thus A is the most likely intended answer for \"not one of the accolades\" if we are being pedantic.\n90: \"escaped marriage in Nepal\" is synonymous with avoiding taking vows.\n91: The text says Alonso \"ended it right after his pit-stop\". Schumacher ended his race \"not long after Alonso\". Thus, Alonso ended before Schumacher.\n92: \"Gosling and Stone received nominations for Best Actor and Actress respectively.\"\n93: The text says \"...Carolyn Wilson of the OHA had stolen their security deposits...\"\n94: \"This is believed to be the fifth time in history that people have observed what turned out to be chemically confirmed martian material falling to Earth.\"\n95: \"Schumacher who retired in 2006 after winning the Formula 1 championship seven times...\"\n\nRegarding 89: The text says \"As well as a former Olympic and World champion...\". This means he was an Olympic champion and a World champion. It does *not* say he was a two-time World champion. Therefore, A is the correct answer.\n\n{\"answers\": {\"88\": \"B\", \"89\": \"A\", \"90\": \"B\", \"91\": \"C\", \"92\": \"C\", \"93\": \"C\", \"94\": \"B\", \"95\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1269,
+  "completion_tokens": 472,
+  "total_tokens": 1741,
+  "cost": 0.00024931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024931,
+   "upstream_inference_prompt_cost": 8.883e-05,
+   "upstream_inference_completions_cost": 0.00016048
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "88": "B",
+  "89": "A",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "A",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 4.5,
+ "text": "1. The last religious war is identified as the **Thirty Years' War** based on the passage, which mentions it as the final religious conflict before the shift to power balance wars like the War of Spanish Succession.\n\n2. The people did not force the king and queen to **watch the beheaded guard's head** (Option C) as it was shown to them, but they were not explicitly made to \"man\" or \"accept\" this gruesome sight as a demand.\n\n3. The statement that **niche vessels would be safe** (Option D) does not correctly describe Britain's naval blockade, as it was known to endanger neutral ships.\n\n4. The incorrect procedure for examining an injured person is **not being concerned about your own injuries** (Option A), as the passage emphasizes the need to focus on the victim's condition and not get distracted by your own safety issues.\n\n5. The passage states that **those who use public transportation have many complaints** about it (Option C).\n\n6. The effects of mutations are not dependent on **whether the affected cells are germ-line cells or not** (Option B), but rather on the type of mutation, the significance of the affected genetic material, and the extent of damage.\n\n7. The statement that **most tornadoes last more than three hours** (Option A) is not generally true, as the passage mentions that only the most violent 2% last longer than three hours.\n\n8. The passage states that **iron wheels were used because they were more effective** (Option B) compared to wooden wheels.\n\n```json\n{\n  \"answers\": {\n    \"168\": \"A\",\n    \"169\": \"C\",\n    \"170\": \"D\",\n    \"171\": \"A\",\n    \"172\": \"C\",\n    \"173\": \"B\",\n    \"174\": \"D\",\n    \"175\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2697,
+  "completion_tokens": 405,
+  "total_tokens": 3102,
+  "cost": 0.0004653,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004653,
+   "upstream_inference_prompt_cost": 0.00040455,
+   "upstream_inference_completions_cost": 6.075e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "B",
+  "174": "D",
+  "175": "B"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "B",
+  "174": "D",
+  "175": "B"
+ }
+}

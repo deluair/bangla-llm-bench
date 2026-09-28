@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 10.5,
+ "text": "136: The passage states \"The Spaniards started the colonization period...\". (D)\n137: The passage says acting \"bien élevé\" (well brought up) and displaying \"basic courtesies\" is the best way. (C)\n138: MetroPlus is \"less crowded\" than Metro. (B)\n139: The passage says \"immigration check is usually absent or a formality\". (A)\n140: The passage says \"The Global Running Tours successor, Go Running Tours...\". (B)\n141: The passage suggests forming a \"group of four to six for a better per-person rate\". Option B (finding a group of four) is the most accurate. (B)\n142: The passage says its \"frequent portrayal in music, films, literature and popular culture has helped make the city... known throughout the world.\" (A)\n143: The passage lists sun, snowfall, and humans as triggers. It says \"the problem is that snow is sticky, so it needs some triggering\", meaning stickiness is the reason they *don't* come down easily, not the trigger itself. (A)\n\n{\"answers\": {\"136\": \"D\", \"137\": \"C\", \"138\": \"B\", \"139\": \"A\", \"140\": \"B\", \"141\": \"B\", \"142\": \"A\", \"143\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1260,
+  "completion_tokens": 318,
+  "total_tokens": 1578,
+  "cost": 0.0001392,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001392,
+   "upstream_inference_prompt_cost": 7.56e-05,
+   "upstream_inference_completions_cost": 6.36e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ }
+}

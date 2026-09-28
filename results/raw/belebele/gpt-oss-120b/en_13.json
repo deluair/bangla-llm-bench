@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 3.0,
+ "text": "{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "queue_time": 0.194739273,
+  "prompt_tokens": 1301,
+  "prompt_time": 0.223523591,
+  "completion_tokens": 1184,
+  "completion_time": 2.479960692,
+  "total_tokens": 2485,
+  "total_time": 2.703484283,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1124
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

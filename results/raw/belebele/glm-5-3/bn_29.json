@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 13.4,
+ "text": "**232:** The passage says the disease was carried by pigs and later transferred to humans through mosquitoes. → A\n\n**233:** The passage mentions pirates robbed him, fierce dogs attacked him in Tibet, he fled a marriage, and was arrested in India. The question asks who *attacked* him — the fierce dogs. → C\n\n**234:** Judge Glenn's temporary restraining order concerned detainees held over 24 hours without receiving a hearing from the court commissioner — so a hearing is required. → D\n\n**235:** The nominations listed include best picture, sound mixing, and original song, but visual effects is not mentioned. → B\n\n**236:** The passage explicitly states that some roads were damaged (\"কিছু রাস্তা নষ্ট হয়েছে\"). The reactors were shut down with no effect reported, and homes were without water/power, not stated as damaged. → C\n\n**237:** Keeping the current military presence in the Jordan Valley for ten years was Israel's demand, not part of the Palestinian claims. → B\n\n**238:** Massa was injured in an accident at the 2009 Hungarian Grand Prix. → A\n\n**239:** The passage states the police reported suspecting the ISIL militant for the attack. → A\n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 890,
+  "completion_tokens_details": {
+   "reasoning_tokens": 554
+  },
+  "prompt_tokens": 4806,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5696
+ },
+ "served_by": null,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

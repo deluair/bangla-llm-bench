@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 19.5,
+ "text": "I'll work through each question systematically:\n\n**[id 120]** - The passage explicitly states \"Sirena is the only ranger station that offers dormitory lodging and hot meals in addition to camping.\" So Sirena offers dormitory lodging AND camping—two types of lodging. The other stations offer only camping.\n**Answer: A**\n\n**[id 121]** - The passage states: \"in 1861 the first recreational ski club was opened by Norwegians in Australia.\" This credits Norwegians with opening the first recreational ski club, thus popularizing skiing as a recreational activity.\n**Answer: B**\n\n**[id 122]** - Madagascar is identified as \"by far the biggest\" island, and is described as \"a continent on its own when it comes to wildlife.\" Wildlife is the key characteristic mentioned.\n**Answer: C**\n\n**[id 123]** - The passage states: \"Eyeglasses can be cheaper in a foreign country\" but also notes that \"real imported ones [high-end brand-name frames] may be more expensive than at home.\"\n**Answer: B**\n\n**[id 124]** - The passage says \"there is no point in even looking for discounts for business or first-class seats on direct flights from A to B.\" The qualifier \"on direct flights\" suggests the possibility of discounts existing on non-direct routes.\n**Answer: C**\n\n**[id 125]** - The passage states: \"All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.\"\n**Answer: B**\n\n**[id 126]** - The passage explicitly states: \"Families with small children may need more preparations, but a day outdoors is easily possible even with babies and pre-school children.\" Therefore, saying day hiking is NOT suitable for families with babies contradicts and is inaccurate to the passage.\n**Answer: D**\n\n**[id 127]** - The passage states about the northern shore: \"This is the place the British colonisers took as their own and so if you are looking for evidence of the territory's colonial past, this is a good place to start.\"\n**Answer: A**\n\n```json\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"C\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 1920,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2017,
+  "output_tokens_details": {
+   "thinking_tokens": 1466
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1920,
+    "output_tokens": 2017,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012005,
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "C",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "C",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

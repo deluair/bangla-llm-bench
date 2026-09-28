@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 12.5,
+ "text": "To solve the math word problems:\n\n[id 140]\nTotal cars = 20. Automatic = 12. Manual = 4. Semi-automatic = 20 - (12 + 4) = 4.\nPercentage = (4/20) * 100 = 20%.\nAnswer: 20\n\n[id 141]\nLet q = queens. Baby bees = 2q. Worker bees = 2(2q) = 4q.\nTotal = q + 2q + 4q = 7q.\n7q = 700 => q = 100.\nWorker bees = 4 * 100 = 400.\nAnswer: 400\n\n[id 142]\nVideo game time = 2 hours/day.\nTotal hours in a week = 2 * 7 = 14 hours.\nEarnings = 14 * $10 = $140.\nAnswer: 140\n\n[id 143]\nFood items: Milk ($2), Eggs ($3) = $5.\nNon-food items: Light bulbs ($3), Cups ($3), Roach traps ($4) = $10.\nTax on non-food = 10% of $10 = $1.\nTotal cost = $5 (food) + $10 (non-food) + $1 (tax) = $16.\nAnswer: 16\n\n[id 144]\nTotal clients = 3 + 5 = 8.\nExpenses per client = (2 * $2) + $5 = $4 + $5 = $9.\nTotal expenses = 8 * $9 = $72.\nTotal income = $92.\nProfit = $92 - $72 = $20.\nAnswer: 20\n\n[id 145]\nTotal pineapples per harvest = 10 hectares * 100 pineapples/hectare = 1,000.\nHarvests per year = 12 months / 3 months = 4.\nTotal pineapples = 1,000 * 4 = 4,000.\nAnswer: 4000\n\n[id 146]\nSet 1 = 500.\nSet 2 = 3 * 500 = 1,500.\nSet 3 = 1/4 * 500 = 125.\nTotal = 500 + 1,500 + 125 = 2,125.\nAnswer: 2125\n\n[id 147]\n1st 6h: 30 leave.\n2nd 6h: 15 return (30/2). Net leaving = 15.\n3rd 6h: 60 leave (30 * 2). Net leaving = 75.\n4th 6h: Every bee that left previously that hadn't returned returns.\nBees that left: 30 (1st) + 60 (3rd) = 90 total left.\nBees that returned: 15 (2nd).\nRemaining bees to return: 90 - 15 = 75.\nAnswer: 75\n\n[id 148]\nAdmission = $10 (child) + $12 (adult) = $22.\nChange = $8.\nTotal given = $22 + $8 = $30.\nAnswer: 30\n\n[id 149]\nCharlie = 3 * Dorothy.\n12 = 3 * Dorothy => Dorothy = 4.\nJames = 4 * Dorothy.\nJames = 4 * 4 = 16.\nAnswer: 16\n\n```json\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}\n```",
+ "usage": {
+  "prompt_tokens": 856,
+  "completion_tokens": 971,
+  "total_tokens": 1827,
+  "cost": 0.000249572,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000249572,
+   "upstream_inference_prompt_cost": 3.5952e-05,
+   "upstream_inference_completions_cost": 0.00021362
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

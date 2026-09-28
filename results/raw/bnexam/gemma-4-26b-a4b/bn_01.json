@@ -1,0 +1,506 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363",
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457"
+ ],
+ "seconds": 9.7,
+ "text": "1. For a titration of a weak acid with a strong base, the equivalence point is in the basic range. Phenolphthalein is the standard indicator for this. (C)\n2. In the context of the collapse of Yugoslavia, the political transitions were largely driven by ethnic conflicts, independence movements, and wars (Liberation movements/struggles). Looking at the options, \"D\" fits the context of disintegration/liberation-style movements. (D)\n3. Digits: 2, 4, 7, 9, 3, 8. Total numbers possible = 6 * 5 = 30. Even numbers end in 2, 4, 8. If the last digit is 2, 4, or 8 (3 choices), the first digit can be any of the remaining 5. So, 3 * 5 = 15. Probability = 15/30 = 0.50. (B)\n4. 'মরিচ' (Chili) is not indigenous to Bengal. 'আচার' (Pickle), 'ঝোল' (Gravy/Curry), 'হালুয়া' (Halwa) are culturally local terms, but \"ঝোল\" is a very quintessential Bengali word. However, looking for \"Deshi\" (indigenous) words in linguistics, \"ঝোল\" or \"হালুয়া\" are used, but \"মরিচ\" is definitely foreign. Let's re-evaluate. Usually, \"মরিচ\" is the example of a foreign word. \"ঝোল\" is a very native-sounding term. (C)\n5. In a hydraulic press, the work done is conserved (Law of conservation of energy). Option A is misleading; force increases but distance decreases. Option B is correct. Option C is correct. Option D describes a common application. However, the question asks for \"not correct\". Often, in these physics questions, \"force increases in a sequence\" is a poorly phrased way to say mechanical advantage, but the question likely targets the concept of energy. Actually, \"A\" is the most scientifically questionable statement. (A)\n6. 'হাতে কলমে' (By hand/Practical experience) is an 'Aluk Tatpurush' samas (the 'e' suffix is retained). (C)\n7. Points (a², 2), (a, 1), and (0, 0) are collinear if the slope between (0,0) and (a,1) is the same as (a,1) and (a²,2). Slope 1: 1/a. Slope 2: (2-1)/(a²-a) = 1/(a²-a). So, 1/a = 1/(a²-a) => a² - a = a => a² - 2a = 0 => a(a-2) = 0. Since a=0 would make the points (0,2), (0,1), (0,0) which are collinear, and a=2 makes (4,2), (2,1), (0,0) which are also collinear. The options are 0, -1; 2, 2; 0, 2; 0, -2. Option C (0, 2) is a bit confusingly formatted, but if 'a' can be 0 or 2, then 0 or 2 are the values. Looking at choice C, it says 0, 2. (C)\n8. The song 'Dhanadhanye Pushpe Bhora' was written by Rabindranath Tagore. (B)\n9. According to various climate risk indexes, Bangladesh often ranks very high. The Global Climate Risk Index 2023/recent reports place Bangladesh in the top 10. Specifically, it is often cited as 7th. (A)\n10. A 6-line decoder (meaning 6 inputs) usually implies a decoder that expands to $2^n$ outputs. If it's a 6-to-64 decoder, the output lines are 64. (D)\n11. BASS (Bureau of Asian Studies/various) or in journalism context, it is often associated with news agencies. However, in some contexts, \"BASS\" refers to a specific news agency. Actually, \"BASS\" isn't a standard famous one. Let's look at the options. If it's \"Reuters\" or \"AP\", it's an agency. (A)\n12. Botanically, a banana is a berry. (C)\n13. The first electronic book in Bangladesh is widely considered to be 'Ekush E-book'. (A)\n14. Louis Braille invented the Braille system for the visually impaired. (B)\n15. Musa Ibrahim's expedition to Everest is a famous mountaineering feat. He took 53 days. (B)\n\n*Self-Correction on 4:* 'ঝোল' is a very common Bengali word. 'মরিচ' is definitely not. 'হালুয়া' is of Persian origin. 'আচার' is also used broadly. 'ঝোল' is the most \"Deshi\" word.\n\n*Self-Correction on 7:* If $a=0$, points are (0,2), (0,1), (0,0). Collinear? Yes. If $a=2$, points are (4,2), (2,1), (0,0). Collinear? Yes. So $a=0$ or $a=2$. Option C lists \"0,2\".\n\n*Self-Correction on 9:* Global Climate Risk Index (Germanwatch) 2021/2023. Bangladesh is consistently in the top. Let's assume 7th as per standard knowledge.\n\n*Self-Correction on 11:* \"BASS\" could refer to a news agency.\n\n*Self-Correction on 15:* Musa Ibrahim took 53 days to reach the summit of Everest.\n\n```json\n{\"answers\": {\"0aa4a6be-f222-489c-be67-ec2b1917d17b-38821\": \"C\", \"0aa9b680-2c74-41b4-9f4c-842566f245b6-141609\": \"D\", \"0b04c2c5-f15a-4390-848c-bb47bde107e1-58888\": \"B\", \"0b0bff76-6aa7-4791-add0-f758fec8857d-85977\": \"C\", \"0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181\": \"A\", \"0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404\": \"C\", \"109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017\": \"C\", \"11728910-7f1e-468e-af7e-7f6906a6b777-94278\": \"B\", \"11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223\": \"A\", \"11d58245-57bb-4705-8a83-1f6beb10cbe7-14332\": \"D\", \"12013b38-ad00-4657-9fd3-9ce4c5760ece-81363\": \"A\", \"12127d43-cd1f-4be2-87f6-3441b5ebd513-75429\": \"C\", \"12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249\": \"A\", \"13832a30-e79f-4432-8ed0-2e0313e1160c-63779\": \"B\", \"14244d04-aa64-47ec-ae4d-30686abac912-11457\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1421,
+  "completion_tokens": 1974,
+  "total_tokens": 3395,
+  "cost": 0.00074536,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00074536,
+   "upstream_inference_prompt_cost": 0.00011368,
+   "upstream_inference_completions_cost": 0.00063168
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Makora",
+ "answers_batch": {
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821": "C",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609": "D",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888": "B",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977": "C",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181": "A",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404": "C",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017": "C",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278": "B",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223": "A",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332": "D",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363": "A",
+  "12127d43-cd1f-4be2-87f6-3441b5ebd513-75429": "C",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249": "A",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779": "B",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457": "B"
+ },
+ "single": {
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 2,
+    "total_tokens": 141,
+    "cost": 6.278e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.278e-06,
+     "upstream_inference_prompt_cost": 5.838e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 6.194e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.194e-06,
+     "upstream_inference_prompt_cost": 5.754e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 169,
+    "completion_tokens": 2,
+    "total_tokens": 171,
+    "cost": 1.054e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.054e-05,
+     "upstream_inference_prompt_cost": 1.014e-05,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 114,
+    "completion_tokens": 2,
+    "total_tokens": 116,
+    "cost": 5.228e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.228e-06,
+     "upstream_inference_prompt_cost": 4.788e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 166,
+    "completion_tokens": 2,
+    "total_tokens": 168,
+    "cost": 1.062e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.062e-05,
+     "upstream_inference_prompt_cost": 9.96e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 2,
+    "total_tokens": 137,
+    "cost": 1.41e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.41e-05,
+     "upstream_inference_prompt_cost": 1.35e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 151,
+    "completion_tokens": 2,
+    "total_tokens": 153,
+    "cost": 9.72e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.72e-06,
+     "upstream_inference_prompt_cost": 9.06e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 6.236e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.236e-06,
+     "upstream_inference_prompt_cost": 5.796e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 2,
+    "total_tokens": 133,
+    "cost": 5.942e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.942e-06,
+     "upstream_inference_prompt_cost": 5.502e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 2,
+    "total_tokens": 130,
+    "cost": 5.816e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.816e-06,
+     "upstream_inference_prompt_cost": 5.376e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 2,
+    "total_tokens": 128,
+    "cost": 1.072e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.072e-05,
+     "upstream_inference_prompt_cost": 1.008e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 2,
+    "total_tokens": 121,
+    "cost": 7.8e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.8e-06,
+     "upstream_inference_prompt_cost": 7.14e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 2,
+    "total_tokens": 132,
+    "cost": 5.9e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.9e-06,
+     "upstream_inference_prompt_cost": 5.46e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 2,
+    "total_tokens": 135,
+    "cost": 1.23e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.23e-05,
+     "upstream_inference_prompt_cost": 1.17e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 1.38e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.38e-05,
+     "upstream_inference_prompt_cost": 1.32e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821": "C",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609": "D",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888": "B",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977": "C",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181": "A",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404": "C",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017": "C",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278": "B",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223": "A",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332": "D",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363": "A",
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429": "C",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249": "A",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779": "B",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457": "B",
+  "12127d43-cd1f-4be2-87f6-3441b5ebd513-75429": "C"
+ }
+}

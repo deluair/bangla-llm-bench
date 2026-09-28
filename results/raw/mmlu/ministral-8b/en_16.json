@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 15.2,
+ "text": "Here are the answers based on legal, medical, and psychological reasoning:\n\n---\n**[id 10694]**\nThe case involves **intentional infliction of emotional distress (IIED)**. The friend’s conduct was extreme and outrageous, and the woman suffered severe emotional distress leading to a miscarriage. Under IIED law, the defendant’s intent is to cause emotional distress, not necessarily the specific outcome (e.g., miscarriage). The correct answer is:\n**C) win, because it was highly probable that the friend's extreme and outrageous conduct would cause emotional distress to the woman.**\n\n---\n**[id 11167]**\nThe workman performed services under the **carpeting company’s direction** and was paid by the company. The husband and wife are not in privity of contract with the workman, but the company is. The workman can recover from the company, which deposited the check. The correct answer is:\n**B) recover against the carpeting company only.**\n\n---\n**[id 11431]**\nThe passenger saw the sign warning of the elevator’s unavailability but proceeded anyway. **Assumption of risk** requires knowledge of the danger, but the sign did not explain the specific danger (e.g., open shaft). The city’s defense fails because the passenger did not fully appreciate the risk. The correct answer is:\n**C) No, because the sign did not explain the danger and only told her that it was not available, and she therefore did not know what she was encountering.**\n\n---\n**[id 11486]**\nDouble jeopardy prohibits **multiple prosecutions for the same offense** in the same jurisdiction. Here, the man was convicted in **State A** for kidnapping, and State B is attempting to prosecute him again for the same act. The correct answer is:\n**C) Yes, because the double jeopardy protection prohibits a second prosecution following a conviction for the same offense.**\n\n---\n**[id 11690]**\nThe warrant was valid, but the police entered the **wrong apartment** (defendant’s vs. the man’s). The **plain view doctrine** does not apply here because the officers did not have a right to be in the defendant’s bedroom. The correct answer is:\n**C) denied, because the police reasonably believed they were searching the man's residence when they entered the defendant's living quarters.**\n\n---\n**[id 12239]**\nThe patient has signs of **tension pneumothorax** (diminished breath sounds, tachycardia, and air leak history). The most urgent step is to **reposition the chest tube** to relieve the trapped air. The correct answer is:\n**D) Reposition the chest tube.**\n\n---\n**[id 12247]**\nThe patient’s symptoms align with **premenstrual dysphoric disorder (PMDD)**, which is characterized by severe mood swings tied to the menstrual cycle. The correct answer is:\n**A) adjustment disorder with depressed mood** *(Note: This is not PMDD, but the closest option. The best clinical answer would be \"premenstrual dysphoric disorder,\" but since it’s not listed, **A** is the closest match. If forced to choose, **A** is the least incorrect.)*\n*(Correction: This is likely **premenstrual dysphoric disorder**, but since it’s not an option, **A** is the best available. Alternatively, if the question expects a different answer, **A** is the most plausible among the given choices.)*\n*(Revised reasoning: The symptoms are classic for **premenstrual dysphoric disorder**, but since it’s not listed, **A) adjustment disorder with depressed mood** is the closest. If this is a clinical question, the answer may be **A**.)*\n\n---\n**[id 12303]**\nThe lesions are **flesh-colored, sessile, and turn white with acetic acid**, which is characteristic of **condyloma acuminata (HPV)**. The next step is **cryotherapy** (or other local treatments). The correct answer is:\n**D) Cryotherapy.**\n\n---\n**[id 12421]**\nUrticaria is typically treated symptomatically (antihistamines) unless there is a clear cause (e.g., allergy). Since no abnormalities are found, **treating symptoms** is the most appropriate next step. The correct answer is:\n**D) Treat the symptoms.**\n\n---\n**[id 12423]**\nA **brown, irregular mass behind the tympanic membrane** is highly suggestive of **cholesteatoma** (epithelial tissue proliferation in the middle ear). The correct answer is:\n**A) Epithelial tissue proliferation.**\n\n---\n**[id 12582]**\nCompetence to stand trial focuses on the defendant’s **ability to understand the charges and assist in their defense**. The correct answer is:\n**B) ability to comprehend the charges against him/her.**\n\n---\n**[id 12609]**\nMothers’ memories are most accurate about **motor development and weight gain** (objective, observable milestones). The correct answer is:\n**D) motor development and weight gain.**\n\n---\n**[id 12674]**\nA **higher Verbal IQ than Performance IQ** on the WAIS-III is often seen in individuals with **learning disabilities** (e.g., dyslexia) or **depression** (due to cognitive slowing). However, **learning disabilities** are more strongly associated with this pattern. The correct answer is:\n**A) a learning disability.**\n\n---\n**[id 12915]**\nThe **holder of the privilege** in psychotherapy is typically the **client** (patient), though the therapist may also assert it. The correct answer is:\n**B) the client.**\n\n---\n**[id 13027]**\nYour ethical duty is to **inform participants of their right to withdraw** if the supervisor is not doing so. The correct course of action is:\n**B) inform the participants yourself of their right to withdraw.**\n\n---\n```json\n{\n  \"answers\": {\n    \"10694\": \"C\",\n    \"11167\": \"B\",\n    \"11431\": \"C\",\n    \"11486\": \"C\",\n    \"11690\": \"C\",\n    \"12239\": \"D\",\n    \"12247\": \"A\",\n    \"12303\": \"D\",\n    \"12421\": \"D\",\n    \"12423\": \"A\",\n    \"12582\": \"B\",\n    \"12609\": \"D\",\n    \"12674\": \"A\",\n    \"12915\": \"B\",\n    \"13027\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2493,
+  "completion_tokens": 1461,
+  "total_tokens": 3954,
+  "cost": 0.0005931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005931,
+   "upstream_inference_prompt_cost": 0.00037395,
+   "upstream_inference_completions_cost": 0.00021915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "C",
+  "11690": "C",
+  "12239": "D",
+  "12247": "A",
+  "12303": "D",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "B"
+ },
+ "answers_batch": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "C",
+  "11690": "C",
+  "12239": "D",
+  "12247": "A",
+  "12303": "D",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "B"
+ },
+ "single": {}
+}

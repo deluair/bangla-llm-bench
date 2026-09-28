@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 81.5,
+ "text": "[id 160] Tuesday: 17 + 7 = 24 feet. Wednesday: (2/3) × 24 = 16 feet.\n[id 161] Anakin caught 10 + 6 + 3 = 19. Locsin caught (10−5) + (6−3) + (3+2) = 5 + 3 + 5 = 13. Total = 19 + 13 = 32.\n[id 162] 20% of $20 is $4. Over 36 months there are 18 two‑month periods. Cost = 20 + 18×4 = 92.\n[id 163] Cars: 5 × 4 = 20. Action figures: 3 × 5 = 15. Doll = 3 action figures = 15. Total = 20 + 15 + 15 = 50.\n[id 164] Missed income doing taxes herself: 3 × 35 = 105. Accountant charge: 90. She keeps 105 − 90 = 15 more.\n[id 165] Total spent: 1090 + 157 + 74 + 102 = 1423. Leftover: 1500 − 1423 = 77.\n[id 166] Eggs needed: 15 × 3 = 45. Babysitting sessions: 45 ÷ 9 = 5.\n[id 167] Let Brooke’s age be x. Seth is 2x. In 2 years: (2x+2)+(x+2)=28 → 3x+4=28 → x=8. Seth is 2×8=16.\n[id 168] Twice Ethel’s money: 2×8 = 16. Jimmy has $2 more: 16 + 2 = 18.\n[id 169] 5 weekdays × 20 + 2 weekend days × 10 = 100 + 20 = 120.\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}",
+ "usage": {
+  "prompt_tokens": 664,
+  "completion_tokens": 3113,
+  "total_tokens": 3777,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2638
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

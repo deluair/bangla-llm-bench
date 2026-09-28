@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 2.0,
+ "text": "{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "queue_time": 0.065166117,
+  "prompt_tokens": 1241,
+  "prompt_time": 0.063063472,
+  "completion_tokens": 823,
+  "completion_time": 1.7422791979999999,
+  "total_tokens": 2064,
+  "total_time": 1.80534267,
+  "completion_tokens_details": {
+   "reasoning_tokens": 763
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

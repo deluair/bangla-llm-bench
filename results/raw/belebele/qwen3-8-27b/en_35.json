@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 2.5,
+ "text": "To determine the correct answers, let's analyze each question based on the provided passages.\n\n**[id 280]**\n*   **Analysis:** The passage states that in Jardín de la Unión, there is a \"central gazebo\" where \"free concerts are often given\" (matches A). It mentions \"Templo de San Diego is the sole surviving building\" of a 17th-century convent, implying old convent building parts exist (matches D). It says there are \"restaurants surrounding the garden\" (matches C). The \"home of an old love legend\" (B) is attributed to \"Callejon del Beso (Alley of the Kiss),\" which is introduced as a separate item/section after the description of the Jardín. Therefore, the old love story is not found *in* the Jardín de la Unión itself, but in the adjacent alley.\n*   **Answer:** B\n\n**[id 281]**\n*   **Analysis:** The passage describes typical Norwegian landscapes as having \"steep fjords\" (matches C) and \"high, more or less even plateau[s]\" referred to as \"vidde\" meaning a \"wide, open treeless space\" (matches A \"Open expanses\" and D \"Moorlands\" as hei). The text explicitly defines these plateaus as \"treeless.\" Therefore, \"Forested plateaus\" are not described as typical; rather, the typical plateaus are treeless.\n*   **Answer:** B\n\n**[id 282]**\n*   **Analysis:** The first sentence states: \"The tourist season for the hill stations generally peaks during the Indian summer.\" This directly answers the question about when there are usually the most tourists.\n*   **Answer:** C\n\n**[id 283]**\n*   **Analysis:** The passage states: \"To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.\" Therefore, the location that appeals to a tourist prioritizing stunning views is the Kowloon waterfront.\n*   **Answer:** D\n\n**[id 284]**\n*   **Analysis:** The passage states that VPNs \"re-route all Internet traffic, not only http.\" This directly contradicts option D, which claims \"VPNs can only reroute http traffic.\" Options A, B, and C are supported by the text (\"superior to web proxies... higher bandwidth,\" \"re-route all Internet traffic, not only http\" implies proxies might not, and \"better quality of service\"). Option D is the statement that is *not* true.\n*   **Answer:** D\n\n**[id 285]**\n*   **Analysis:** The passage states: \"Often, you have to buy a global number separately that allows PSTN phones to call you.\" This indicates that purchasing a global number is required to receive certain calls (those from PSTN phones).\n*   **Answer:** A\n\n**[id 286]**\n*   **Analysis:** The passage mentions Jerusalem's \"fascinating history\" (A), its status as a spiritual/religious center (C), and its cultural sites (D). It discusses how most countries do not recognize it as the capital, but it does not claim Jerusalem is known for \"Political influence\" as a positive trait or a feature of the city itself in the same way it highlights history, religion, and culture. In the context of \"what the city is known for\" (tourist/characteristics), political influence is the outlier not listed as a defining feature of the city's character or attractions.\n*   **Answer:** B\n\n**[id 287]**\n*   **Analysis:** The passage mentions that monasteries provide \"wraps\" (D) for women and that men can borrow \"trousers\" (C). It also mentions women wearing \"skirts\" (A) and later says you may not feel comfortable wearing \"these skirts\" (referring to the borrowed items, though the grammar is slightly clunky, it implies skirts are the item women borrow if unprepared, or at least that skirts are the garment standard). However, \"Shorts\" (B) are never mentioned. The rule is that knees must be covered, so shorts would be inappropriate, and there is no mention of lending out shorts.\n*   **Answer:** B\n\n```json\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}\n```",
+ "usage": {
+  "queue_time": 0.095035755,
+  "prompt_tokens": 1393,
+  "prompt_time": 0.095647069,
+  "completion_tokens": 985,
+  "completion_time": 2.015541038,
+  "total_tokens": 2378,
+  "total_time": 2.111188107
+ },
+ "served_by": null,
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

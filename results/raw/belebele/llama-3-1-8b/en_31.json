@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 6.2,
+ "text": "Here are my answers:\n\n[id 248] B) Simon\n[id 249] D) The specifics of cases\n[id 250] A) Luminosity and rotation\n[id 251] A) It was lost by Murray in the first set\n[id 252] A) If the findings are relevant for people with Type 1 diabetes\n[id 253] D) The weather conditions were poor\n[id 254] A) They plan to fund an additional 300 carriages\n[id 255] D) Turkey\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"A\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1182,
+  "completion_tokens": 160,
+  "total_tokens": 1342,
+  "cost": 3.004e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.004e-05,
+   "upstream_inference_prompt_cost": 2.364e-05,
+   "upstream_inference_completions_cost": 6.4e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "A",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "A",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

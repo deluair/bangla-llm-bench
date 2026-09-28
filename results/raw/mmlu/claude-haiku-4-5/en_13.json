@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "7112",
+  "7194",
+  "7212",
+  "7229",
+  "7264",
+  "7298",
+  "7302",
+  "7335",
+  "7351",
+  "7371",
+  "7453",
+  "7567",
+  "7825",
+  "8124",
+  "8144"
+ ],
+ "seconds": 47.7,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through each question:\n\n**[id 7112]** Little/no personal contact = low-contact service\n**Answer: A**\n\n**[id 7194]** Using TV and radio to educate large audiences is a public relations approach\n**Answer: C**\n\n**[id 7212]** Marketing proposition is a broad concept encompassing all elements (not just tangible goods)\n**Answer: B**\n\n**[id 7229]** Improving website structure/content for organic search results = SEO\n**Answer: B**\n\n**[id 7264]** Understanding need but failing to specify service quality standards = GAP 2 (perception vs. specification)\n**Answer: A**\n\n**[id 7298]** Monosomy = 2n-1; 45,X is Turner syndrome (one X chromosome only)\n**Answer: D**\n\n**[id 7302]** A sibling (sister) has the highest probability of HLA matching among relatives listed, including possibility of being HLA-identical\n**Answer: C**\n\n**[id 7335]** 4-base sequence occurs once per 4^4=256 bp; 5000/256 ≈ 20 fragments\n**Answer: C**\n\n**[id 7351]** Tay-Sachs is autosomal recessive (chromosome 15); others are X-linked\n**Answer: B**\n\n**[id 7371]** Achondroplasia mutations cause gain-of-function (abnormal protein activity)\n**Answer: B**\n\n**[id 7453]** Classic M&M's characters are Red and Yellow\n**Answer: B**\n\n**[id 7567]** A monopoly must lower price on all units to increase sales (downward-sloping demand)\n**Answer: B**\n\n**[id 7825]** Burt Reynolds drove a Pontiac Trans Am in Smokey and the Bandit\n**Answer: D**\n\n**[id 8124]** Soil structure = how particles are arranged/organized\n**Answer: A**\n\n**[id 8144]** Spinning class uses stationary bicycles\n**Answer: A**\n\n```json\n{\"answers\": {\"7112\": \"A\", \"7194\": \"C\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"A\", \"7298\": \"D\", \"7302\": \"C\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"B\", \"7453\": \"B\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"A\", \"8144\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 1470,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4357,
+  "output_tokens_details": {
+   "thinking_tokens": 3730
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1470,
+    "output_tokens": 4357,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.023254999999999998,
+ "answers_batch": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ },
+ "single": {},
+ "answers": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ }
+}

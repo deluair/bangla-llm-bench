@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 5.9,
+ "text": "Here are the answers based on the reasoning from the passages:\n\n- **id 200**: The passage mentions that Hindi and Urdu share a similar vocabulary but have different scripts. So, the correct answer is **B**.\n- **id 201**: The passage states that the original name of the alphabet was Hunmin Jeong'eum, which was later changed to Hangul. So, the correct answer is **B**.\n- **id 202**: The passage states that the use of Sanskrit declined due to the influence of Brahminical traditions (yajnavalkya). So, the correct answer is **D** (though it is not explicitly stated, the closest logical inference is the \"sequential rules\" or traditions).\n  *Correction*: The correct answer should be **D** (অনুক্রমের নিয়মে) as the passage mentions that after the compilation of Upanishads, the influence of Brahminical traditions caused Sanskrit to decline.\n\n- **id 203**: The passage mentions that the crust is thicker on the far side (100 km) compared to the near side (70 km), and thicker in highlands. So, the correct answer is **C**.\n- **id 204**: The passage states that the Amazon is the second longest and largest river, but it is not the longest. So, the correct answer is **C**.\n- **id 205**: The passage states that two-thirds of the Venezuelan workforce are in the service sector, which is the highest proportion. So, the correct answer is **A**.\n- **id 206**: The passage mentions that the fusion reactor will create energy. So, the correct answer is **D**.\n- **id 207**: The passage states that Italy's main objective was to conquer African countries. So, the correct answer is **A**.\n\n```json\n{\n  \"answers\": {\n    \"200\": \"B\",\n    \"201\": \"B\",\n    \"202\": \"D\",\n    \"203\": \"C\",\n    \"204\": \"C\",\n    \"205\": \"A\",\n    \"206\": \"D\",\n    \"207\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2119,
+  "completion_tokens": 477,
+  "total_tokens": 2596,
+  "cost": 0.0003894,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003894,
+   "upstream_inference_prompt_cost": 0.00031785,
+   "upstream_inference_completions_cost": 7.155e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

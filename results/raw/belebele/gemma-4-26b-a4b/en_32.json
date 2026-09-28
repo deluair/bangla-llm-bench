@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 14.9,
+ "text": "256: The passage states \"The crash occurred high up in mountainous terrain\". Option D is the most direct answer.\n257: The passage says \"he said he will be supporting the British competitors at the 2012 Olympics\". While the text doesn't explicitly say \"female fighters\", it implies he is supporting the competitors (which includes women) at the Olympics despite his opinion on women fighting. However, looking at the options, \"The 2012 Olympics\" (C) is the event he is supporting. Let's re-read. \"he will be supporting the British competitors at the 2012 Olympics\". Option C is the most accurate representation of the event/group mentioned.\n258: The passage states Lenz \"was then struck by fellow racer Xavier Zayat\". Option B is correct.\n259: The passage states \"The whole district is designated as a UNESCO World Heritage Site for its unique cultural and historical value\". Option A is correct.\n260: Auxiliary languages are defined as \"artificial or constructed\", whereas lingua francas are \"natural or organic\". Option A claims they are \"organic\", which contradicts the text. Option B is also problematic as they are \"artificial or constructed\", not both. However, Option A is a direct negation of the definition. Let's look at B: \"both natural and constructed\" is a contradiction. The question asks which does *not* accurately describe. A describes them as organic (False). B describes them as both natural and constructed (False). C is accurate. D is a bit vague but relates to the intent. Usually, in these tests, the first blatant falsehood is the key. A is definitely false.\n261: The passage states \"Regular announcements in the Metro are made only in Catalan\". Option B is correct.\n262: The text says they compete on \"bedding and breakfast\". Options B, C, and D relate to those. Option A (Contemporary decor) is not mentioned; instead, it mentions \"antique furnishings\".\n263: The passage says Beijing \"will be the host city of the Olympic Winter Games in 2022\". It also says it will host \"the opening and closing ceremonies and the indoor ice events\". Options B, C, and D are all technically correct based on the text. However, the most comprehensive answer for \"what will be hosted\" is the event itself: The Winter Olympics (C). Wait, looking closer: B and D are subsets. C is the main event. In multiple choice, if multiple are correct, usually the most encompassing one is chosen, but let's check if there's a nuance. Beijing hosts the opening/closing/indoor ice events. It also hosts the Winter Olympics. C is the most direct.\n\nWait, re-evaluating 260: \"Which statement does not accurately describe auxiliary languages?\" \nA: \"They are organic...\" (False, they are artificial).\nB: \"They are both natural and constructed\" (False, they are one or the other).\nActually, looking at the options for 260, B is the most logically impossible. But A is the direct opposite of the text. Let's look at A again. If the question asks for what is *not* accurate, A is definitely not accurate.\n\nRe-evaluating 263:\n\"Beijing will host the opening and closing ceremonies and the indoor ice events.\" \nB) The ice events taking place indoors.\nC) The winter Olympics.\nD) The closing ceremonies.\nAll are mentioned. Usually, these questions are poorly constructed or there is a single \"best\" answer. The prompt says \"exactly one correct option\". \nIf Beijing hosts the Winter Olympics, it *by definition* hosts the opening/closing/ice events. However, the question asks \"which of the following will be hosted by Beijing\". Since B, C, and D are all in the text, there might be a subtle distinction. \nLooking at the text: \"Beijing... will be the host city of the Olympic Winter Games in 2022... Beijing will host the opening and closing ceremonies and the indoor ice events.\"\nThis means B, C, and D are all correct. This is common in flawed datasets. I will select C as it is the primary subject.\n\nRe-evaluating 257: \n\"he will be supporting the British competitors at the 2012 Olympics\"\nC) The 2012 Olympics. This is the most direct object of his support.\n\nRe-evaluating 260:\nA: \"They are organic...\" (False)\nB: \"They are both natural and constructed\" (False)\nThis is a bad question. Let's look at the text: \"Auxiliary languages are artificial or constructed... They are separate from lingua francas, which are natural or organic\".\nOption A is the negation of the definition.\n\nFinal check:\n256: D\n257: C\n258: B\n259: A\n260: A\n261: B\n262: A\n263: C (Most encompassing)\n\nActually, for 263, if B, C, and D are all in the text, I will check if I missed a \"not\". \"which of the following will be hosted by Beijing\". No. I'll go with C.\n\nFor 260, B is also very wrong. \"They are both natural and constructed\". But A is a direct contradiction of \"artificial or constructed\".\n\n{\"answers\": {\"256\": \"D\", \"257\": \"C\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1206,
+  "completion_tokens": 1252,
+  "total_tokens": 2458,
+  "cost": 0.0004962,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004962,
+   "upstream_inference_prompt_cost": 0.0001206,
+   "upstream_inference_completions_cost": 0.0003756
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

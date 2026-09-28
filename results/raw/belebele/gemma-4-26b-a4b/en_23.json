@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 11.0,
+ "text": "184: The passage states scaffolding is *not* a method of learning, but an aid. C is therefore incorrect.\n185: The passage says it can be \"customized to make it easy to read.\" A is correct.\n186: The text says Alexander's offer was denied and the temple was rebuilt in 323 BCE, which is after he died. B is correct.\n187: The passage states humans began walking upright with the emergence of Homo Erectus. B is correct.\n188: The passage states that \"The Americans were trying to move men and materials... to help Britain\" and that \"Had the Allies failed, Germany probably would have been able to conquer Britain.\" This implies the Allies (Americans and British) were successful. A is correct.\n189: The passage states \"an inner sanctuary that only the priests could enter.\" B is correct.\n190: The passage explicitly states \"no ancient Roman ever tasted a turkey.\" D is the correct answer.\n191: The passage states \"Hydrogen ions are protons that had their electrons stripped off them.\" D is correct.\n\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1494,
+  "completion_tokens": 310,
+  "total_tokens": 1804,
+  "cost": 0.00015124,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 16,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015124,
+   "upstream_inference_prompt_cost": 8.924e-05,
+   "upstream_inference_completions_cost": 6.2e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

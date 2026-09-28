@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 8.3,
+ "text": "**[60]** 20% of 25 = 5 unripe. Good = 25 − 1 − 5 − 2 = **17**\n\n**[61]** 500 + 800 = 1300. Insurance = 10% × 1300 = 130. Total = **1430**\n\n**[62]** Vesting starts after 20 years, so quitting at 30 gives 10 years × 5% = 50%. 50% × 50,000 = **25000**\n\n**[63]** First half: 6 × 140 = 840. Second half: 6 × 126 = 756. Total = **1596**\n\n**[64]** 100 miles ÷ 4 gallons = 25 mpg. 25 × 12 = **300**\n\n**[65]** Each session is 2 + 1 = 3 hours. 3 × 3 per week × 4 weeks = **36**\n\n**[66]** Each school sends 10 players + 2 coaches = 12 people. 4 × 12 = **48**\n\n**[67]** Rubies = 175 − 35 = 140. Emeralds = 2 × 140 = 280. Total = 175 + 140 + 280 = **595**\n\n**[68]** Boys = 120, so students = 180. 180 ÷ 5 = **36**\n\n**[69]** Allowance = 5 × 8 = 40. Start = 100 − 40 = **60**\n\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1351,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 742,
+  "output_tokens_details": {
+   "thinking_tokens": 239
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1351,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 742,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1351,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1351
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.025655999999999998,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

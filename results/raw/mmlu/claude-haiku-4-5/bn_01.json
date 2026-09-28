@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "414",
+  "434",
+  "441",
+  "446",
+  "460",
+  "489",
+  "530",
+  "555",
+  "570",
+  "742",
+  "767",
+  "784",
+  "794",
+  "806",
+  "869"
+ ],
+ "seconds": 36.6,
+ "text": "# Analysis of Multiple-Choice Questions\n\nI'll work through each question systematically:\n\n**[id 414]** - Environmental Management Systems question. ISO14001 and EMAS are both environmental management standards (not SA8000, which is social accountability). **Answer: C**\n\n**[id 434]** - The description clearly refers to the \"social contract\" - a foundational concept in political philosophy about relationships between society and rulers. **Answer: A**\n\n**[id 441]** - Both Duty Ethics and Rights/Justice Ethics are principle-based (deontological) theories grounded in universal principles. **Answer: A**\n\n**[id 446]** - Core corporate governance principles include transparency (openness), integrity (honesty), and accountability. \"Acceptability\" is not a standard principle. **Answer: D**\n\n**[id 460]** - Virtue ethics emphasizes character development and includes emotional/relational aspects like emotional sense of justice. **Answer: A**\n\n**[id 489]** - Alzheimer's disease is the most common cause of dementia in the UK and most developed countries. **Answer: A**\n\n**[id 530]** - Standard dental recommendation is a pea-sized amount of toothpaste. **Answer: B**\n\n**[id 555]** - During ventricular contraction, blood continues flowing due to elastic recoil of arterial walls (elastic fibers). **Answer: D**\n\n**[id 570]** - Calculation: 4 μg/kg/min × 65 kg × 60 min = 15,600 μg = 15.6 mg. **Answer: B**\n\n**[id 742]** - Difficulty rising from a chair is a classic sign of polymyalgia rheumatica. **Answer: C**\n\n**[id 767]** - Calcium-induced enzyme secretion in oocytes describes the cortical reaction (prevents polyspermy). **Answer: C**\n\n**[id 784]** - Birds excluded from rocky cliffs by competition are using their realized niche (where they actually live due to competitive constraints). **Answer: B**\n\n**[id 794]** - Fick's law: diffusion rate increases with surface area. Increased alveolar surface area increases gas exchange. **Answer: C**\n\n**[id 806]** - Epistasis describes gene interaction in phenotype expression, not linkage patterns. Linkage disequilibrium relates to allele associations, not epistatic interactions. **Answer: C**\n\n**[id 869]** - Tropical regions have high productivity due to abundant solar radiation, warm temperatures, and water availability promoting photosynthesis. **Answer: C**\n\n```json\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"A\", \"446\": \"D\", \"460\": \"A\", \"489\": \"A\", \"530\": \"B\", \"555\": \"D\", \"570\": \"B\", \"742\": \"C\", \"767\": \"C\", \"784\": \"B\", \"794\": \"C\", \"806\": \"C\", \"869\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4122,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3780,
+  "output_tokens_details": {
+   "thinking_tokens": 3071
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4122,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3780,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4122,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4122
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.027152999999999997,
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "D",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "C",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "C",
+  "869": "C"
+ },
+ "single": {},
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "D",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "C",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "C",
+  "869": "C"
+ }
+}

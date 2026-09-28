@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  13615,
+  13645,
+  13695,
+  13697,
+  13703,
+  13705,
+  13716,
+  13757,
+  13806,
+  13841,
+  13890,
+  13921,
+  13930,
+  14006,
+  14019
+ ],
+ "seconds": 12.3,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 13615]\nB) Local developments were viewed through a geopolitical lens. The Cold War shaped US foreign policy, leading to an analysis of countries based on their strategic importance in relation to the Soviet Union.\n\n[id 13645]\nB) Anarchy. Realists argue that the international system lacks a central authority, unlike domestic systems which have a state enforcing laws.\n\n[id 13695]\nB) Increased spending during wars, with demobilization bringing spending down but not back to prewar levels.  The US has historically surged spending during times of conflict, then reduced it significantly afterwards, though rarely returning to pre-conflict levels.\n\n[id 13697]\nC) The idea that the fall of one state to communism would inexorably lead to the fall of its neighbors. This theory heavily influenced US policy in Southeast Asia.\n\n[id 13703]\nA) It criticized international organizations, rather than trying to strengthen them. The Bush administration was notably skeptical of international institutions like the UN.\n\n[id 13705]\nD) unknown.  The number of known human polyomaviruses is still being actively researched and is not definitively known.\n\n[id 13716]\nA) In chickens as Rous sarcoma. This discovery was crucial in establishing the link between viruses and cancer.\n\n[id 13757]\nB) Vaccination. Vaccination remains the most effective tool for controlling influenza, particularly in high-risk groups.\n\n[id 13806]\nA) All donors for factor VIII are screened. Rigorous screening processes have significantly reduced the risk of HIV transmission through blood products.\n\n[id 13841]\nB) Originating in bats. Nipah virus is strongly associated with bat populations.\n\n[id 13890]\nA) The Shema. This is the central prayer of Judaism, recited daily.\n\n[id 13921]\nA) Community.  Guru-Panth translates roughly to \"Path of the Community,\" reflecting the core Sikh emphasis on communal living and practice.\n\n[id 13930]\nB) Humans can align themselves with life energy through worship of kami. Shinto beliefs emphasize connection with *kami*, spirits inhabiting all things, and a harmonious relationship with nature.\n\n[id 14006]\nA) 1545. The Continental Reformation began with the Council of Trent in 1545.\n\n[id 14019]\nD) The Classic of Changes. The Yijing (also known as the I Ching) is the English title for this important divination text.\n\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"D\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"A\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"A\", \"14019\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1016,
+  "completion_tokens": 748,
+  "total_tokens": 1764,
+  "cost": 0.0001256,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001256,
+   "upstream_inference_prompt_cost": 5.08e-05,
+   "upstream_inference_completions_cost": 7.48e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "D",
+  "13716": "A",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "A",
+  "14019": "D"
+ },
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "D",
+  "13716": "A",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "A",
+  "14019": "D"
+ },
+ "single": {}
+}

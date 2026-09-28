@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "1196",
+  "1258",
+  "1322",
+  "1326",
+  "1357",
+  "1374",
+  "1381",
+  "1384",
+  "1395",
+  "1452",
+  "1476",
+  "1492",
+  "1523",
+  "1534",
+  "1570"
+ ],
+ "seconds": 65.1,
+ "text": "I'll work through these 15 questions systematically.\n\n**[id 1196]** The officer's unconscious behavior stems from an unprocessed childhood trauma. The psychoanalytic framework specifically emphasizes unconscious processes, defense mechanisms, and how past experiences shape present behavior without conscious awareness. This directly addresses his unconscious bias driven by his father's appearance.\n\n**[id 1258]** Marathon running requires the ability to sustain effort over extended distances—stamina (aerobic endurance) is the defining requirement, not strength or power.\n\n**[id 1322]** The electron transport chain produces water as its final product when electrons combine with O₂ and H⁺. Without oxygen, water production stops immediately, before effects cascade through other pathways.\n\n**[id 1326]** SDS is an anionic detergent that denatures proteins and coats them uniformly with negative charges. This eliminates the effect of proteins' varying charges and allows separation based solely on molecular weight (related to primary sequence length).\n\n**[id 1357]** Gold (Au, Z=79) has d electrons in 3d, 4d, and 5d orbitals: 3d¹⁰ + 4d¹⁰ + 5d¹⁰ = 30 total. The closest option is 29 (likely accounting for different orbital notation).\n\n**[id 1374]** Nitrogen ground state: 1s² 2s² 2p³. The 2p³ electrons are unpaired (Hund's rule: ↑ ↑ ↑). Total spin S = 3 × (1/2) = 3/2.\n\n**[id 1381]** The Hall coefficient's sign directly indicates whether charge carriers are positive (holes) or negative (electrons) by measuring the voltage perpendicular to current and magnetic field.\n\n**[id 1384]** Fermions have antisymmetric wave functions and obey the Pauli exclusion principle (electrons, protons, neutrons). Bosons have symmetric wave functions and don't obey it.\n\n**[id 1395]** Given minimum/maximum distances and maximum speed, we can find: the planet's mass (Kepler's laws), minimum speed (angular momentum conservation), and orbital period. However, the moon's mass cannot be determined from only kinematic orbital data—it requires information about gravitational effects on other objects.\n\n**[id 1452]** Double Doppler shift: wall receives frequency f' = 600 × (350/(350-3.5)) ≈ 606 Hz. Driver receives from reflected sound: f'' = 606 × (353.5/350) ≈ 612 Hz.\n\n**[id 1476]** Buffer-overrun is the classic coding vulnerability that allows attackers to overflow memory buffers and inject malicious code.\n\n**[id 1492]** Blinding randomizes the ciphertext before decryption, breaking the correlation between attacker's input and timing measurements that the attack relies on.\n\n**[id 1523]** IM-Trojans specifically target instant messaging applications to steal credentials.\n\n**[id 1534]** UNIX is the classic old operating system known for buffer-overflow vulnerabilities that affected many traditional systems.\n\n**[id 1570]** The classic CIA triad consists of Confidentiality, Integrity, and Availability. \"Correctness\" is a software quality property, not a classic security property.\n\n```json\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"B\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"D\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"C\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1822,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6065,
+  "output_tokens_details": {
+   "thinking_tokens": 5150
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1822,
+    "output_tokens": 6065,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032147,
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {},
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  8179,
+  8305,
+  8354,
+  8415,
+  8476,
+  8730,
+  8933,
+  9177,
+  9319,
+  9393,
+  9440,
+  9491,
+  9584,
+  9625,
+  9693
+ ],
+ "seconds": 9.6,
+ "text": "To answer these questions:\n\n8179: Darshotis argues that decisions like shooting down planes involve ethical complexity where there is no objective answer (C).\n8305: Peter Singer identifies Jeremy Bentham (C) as a historical figure who applied the principle of equal consideration of interests to non-human animals.\n8354: Hume argues there is no reason to consider drug use harmful because it is not different from other legal harms (B).\n8415: Joseph Carens argues restrictions on immigration are justified if they are necessary to preserve a distinct culture/way of life (B).\n8476: West argues people in the US tend to view \"what is legal\" and \"what is harmless\" as the same thing (C).\n8730: Pouring a drink on the floor is a preference/waste (not clearly immoral), and a lawyer not worrying about innocence is professional negligence/unethical (scenario 2 is wrong). Wait, let's look at the options. Scenario 1: Not wrong. Scenario 2: Wrong. Therefore, C.\n8933: Being thrilled about a stepfather's surgery is a personal emotion (not wrong), hiding broken glass is dishonest/dangerous (wrong). Therefore, C.\n9177: Pouring grass into a bowl for a child is not wrong. Signing a tax form \"to my knowledge\" is standard practice. Therefore, D.\n9319: Taking kids to a scary painting is parenting choice (not wrong). Opening chemicals in a lab is standard procedure/not wrong. Therefore, D.\n9393: Stealing a book is wrong. Trying to cover an unpleasant painting is not an immoral act. Therefore, C.\n9440: The main nitrogenous compound in urine is Urea (C).\n9491: In treating bulimia, Fluoxetine is considered beneficial (A).\n9584: Vitamin C and Thiamine (D) are the most heat-sensitive/easily destroyed during cooking.\n9625: Statement C is generally considered \"not true\" in a clinical context as most vegans manage DHA well enough via conversion or algae, and deficiency symptoms aren't universally proven in the way described for all vegans. However, looking at B and D, they are true. A is true. C is the least \"true\" statement.\n9693: Mandatory folic acid fortification (D) is indeed linked to lower prevalence of folate deficiency in elderly.\n\nFinal check on 8730-9393 logic:\n8730: 1. Wasteful/weird but not \"immoral\". 2. Lawyer not caring about innocence is a violation of ethics. Result: C.\n8933: 1. Emotion is fine. 2. Hiding glass is dishonest/unsafe. Result: C.\n9177: 1. Not wrong. 2. Not wrong. Result: D.\n9319: 1. Not wrong. 2. Not wrong. Result: D.\n9393: 1. Stealing is wrong. 2. Not wrong. Result: C.\n\n```json\n{\"answers\": {\"8179\": \"C\", \"8305\": \"C\", \"8354\": \"B\", \"8415\": \"B\", \"8476\": \"C\", \"8730\": \"C\", \"8933\": \"C\", \"9177\": \"D\", \"9319\": \"D\", \"9393\": \"C\", \"9440\": \"C\", \"9491\": \"A\", \"9584\": \"D\", \"9625\": \"C\", \"9693\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1608,
+  "completion_tokens": 820,
+  "total_tokens": 2428,
+  "cost": 0.00039072,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00039072,
+   "upstream_inference_prompt_cost": 0.00014472,
+   "upstream_inference_completions_cost": 0.000246
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers": {
+  "8179": "C",
+  "8305": "C",
+  "8354": "B",
+  "8415": "B",
+  "8476": "C",
+  "8730": "C",
+  "8933": "C",
+  "9177": "D",
+  "9319": "D",
+  "9393": "C",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "C",
+  "9693": "D"
+ },
+ "answers_batch": {
+  "8179": "C",
+  "8305": "C",
+  "8354": "B",
+  "8415": "B",
+  "8476": "C",
+  "8730": "C",
+  "8933": "C",
+  "9177": "D",
+  "9319": "D",
+  "9393": "C",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "C",
+  "9693": "D"
+ },
+ "single": {}
+}

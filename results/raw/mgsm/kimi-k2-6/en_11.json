@@ -1,0 +1,174 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 425.9,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 769,
+  "completion_tokens": 16000,
+  "total_tokens": 16769,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15999
+  }
+ },
+ "served_by": null,
+ "answers_batch": {},
+ "single": {
+  "110": {
+   "text": "Beatrice ate \\(2 \\times 24 = 48\\) roll-ups.  \nMarcell ate \\(3 \\times 14 = 42\\) roll-ups.  \n\nTogether they ate \\(48 + 42 = 90\\) roll-ups, so on average they ate  \n\\(\\frac{90}{2} = 45\\) roll-ups each.\n\nANSWER: 45",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 374,
+    "total_tokens": 509,
+    "completion_tokens_details": {
+     "reasoning_tokens": 296
+    }
+   },
+   "answer": 45.0
+  },
+  "111": {
+   "text": "First, find Julia’s rowing speed. She rows 20 feet in 16 seconds, so in 64 seconds she rows:\n\n\\[\n\\frac{20\\text{ ft}}{16\\text{ s}} \\times 64\\text{ s} = 80\\text{ feet}\n\\]\n\nThe boat takes on 2 liters of water for every 10 feet rowed. For 80 feet, the number of 10‑foot intervals is:\n\n\\[\n\\frac{80}{10} = 8\n\\]\n\nSo the total water taken on is:\n\n\\[\n8 \\times 2 = 16\\text{ liters}\n\\]\n\nANSWER: 16",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 621,
+    "total_tokens": 740,
+    "completion_tokens_details": {
+     "reasoning_tokens": 487
+    }
+   },
+   "answer": 16.0
+  },
+  "112": {
+   "text": "There are 4 teachers and each has 2 lessons per day, so the total number of lessons per day is:\n\n4 × 2 = 8 lessons\n\nThe whiteboard is cleaned 3 times per lesson, so the total number of cleanings per day is:\n\n8 × 3 = 24\n\nANSWER: 24",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 112,
+    "completion_tokens": 351,
+    "total_tokens": 463,
+    "completion_tokens_details": {
+     "reasoning_tokens": 281
+    }
+   },
+   "answer": 24.0
+  },
+  "113": {
+   "text": "Ryan plants 2 flowers per day for 15 days.\n\nTotal flowers planted: 2 × 15 = 30 flowers\n\nSince 5 did not grow: 30 − 5 = 25 flowers\n\nANSWER: 25",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 263,
+    "total_tokens": 342,
+    "completion_tokens_details": {
+     "reasoning_tokens": 213
+    }
+   },
+   "answer": 25.0
+  },
+  "114": {
+   "text": "Let $J$ be the number of photographs Jamal's phone can hold, $B$ be the number Brittany's phone can hold, and $D$ be the number of ducks in the photograph.\n\nFrom the problem:\n- Jamal's phone holds 6 times as many photos as Brittany's: $J = 6B$\n- Brittany's phone holds 50 times the number of ducks in the photo: $B = 50D$\n- Jamal's phone holds 1800 photos: $J = 1800$\n\nFirst, find Brittany's capacity:\n$$1800 = 6B$$\n$$B = \\frac{1800}{6} = 300$$\n\nNow find the number of ducks:\n$$300 = 50D$$\n$$D = \\frac{300}{50} = 6$$\n\nANSWER: 6",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 578,
+    "total_tokens": 709,
+    "completion_tokens_details": {
+     "reasoning_tokens": 404
+    }
+   },
+   "answer": 6.0
+  },
+  "115": {
+   "text": "To find Sasha's profit, first calculate her total cost:\n\n- **10 boards** at **$10** each: \\(10 \\times 10 = \\$100\\)\n- **5 boards** at **$16** each: \\(5 \\times 16 = \\$80\\)\n- **Total cost:** \\(\\$100 + \\$80 = \\$180\\)\n\nSince lumber prices have gone up 50%, she sells each board at 1.5 times her original cost:\n\n- **Selling price** of the $10 boards: \\(10 \\times 1.5 = \\$15\\) each\n- **Selling price** of the $16 boards: \\(16 \\times 1.5 = \\$24\\) each\n\nNow calculate her total revenue:\n\n- Revenue from 10 boards: \\(10 \\times 15 = \\$150\\)\n- Revenue from 5 boards: \\(5 \\times 24 = \\$120\\)\n- **Total revenue:** \\(\\$150 + \\$120 = \\$270\\)\n\nFinally, subtract cost from revenue:\n\n\\[\n\\$270 - \\$180 = \\$90\n\\]\n\nANSWER: 90",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 836,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+     "reasoning_tokens": 603
+    }
+   },
+   "answer": 90.0
+  },
+  "116": {
+   "text": "The ratio of sugar to water is $7:13$.\n\nLet the common multiplier be $x$. Then:\n$$7x + 13x = 120$$\n$$20x = 120$$\n$$x = 6$$\n\nThe number of teaspoonfuls of sugar is:\n$$7x = 7 \\times 6 = 42$$\n\nANSWER: 42",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 304,
+    "total_tokens": 407,
+    "completion_tokens_details": {
+     "reasoning_tokens": 226
+    }
+   },
+   "answer": 42.0
+  },
+  "117": {
+   "text": "John has 3 children and buys 2 pairs of shoes for each child, so he buys a total of:\n\n3 children × 2 pairs/child = 6 pairs of shoes\n\nEach pair costs $60, so the total amount he paid is:\n\n6 pairs × $60/pair = $360\n\nANSWER: 360",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 79,
+    "completion_tokens": 229,
+    "total_tokens": 308,
+    "completion_tokens_details": {
+     "reasoning_tokens": 159
+    }
+   },
+   "answer": 360.0
+  },
+  "118": {
+   "text": "On the first day, the officer counted 2 containers × 5 vehicles = 10 vehicles.\n\nThe total number of vehicles after the second day is 30, so the vehicles brought in on the second day are 30 − 10 = 20 vehicles.\n\nSince each container holds 5 vehicles, the number of containers imported on the second day is 20 ÷ 5 = 4.\n\nANSWER: 4",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 293,
+    "total_tokens": 415,
+    "completion_tokens_details": {
+     "reasoning_tokens": 205
+    }
+   },
+   "answer": 4.0
+  },
+  "119": {
+   "text": "Four years ago Adrien earned \\$40,000 and this was 30% more than Lylah’s salary.\n\n1. **Lylah’s salary four years ago**  \n   \\[\n   \\text{Lylah}_{\\text{old}} = \\frac{40{,}000}{1.30} = \\frac{400{,}000}{13}\\approx 30{,}769.23\n   \\]\n\n2. **Adrien’s salary four years later**  \n   He earns 40% more than before:  \n   \\[\n   \\text{Adrien}_{\\text{new}} = 40{,}000 \\times 1.40 = 56{,}000\n   \\]\n\n3. **Lylah’s salary four years later**  \n   Since their salaries increased simultaneously (at the same rate), Lylah’s salary also grew by 40%:  \n   \\[\n   \\text{Lylah}_{\\text{new}} = \\frac{400{,}000}{13}\\times 1.40 = \\frac{560{,}000}{13}\\approx 43{,}076.92\n   \\]\n\n4. **Total salary four years later**  \n   \\[\n   56{,}000 + 43{,}076.92 = 99{,}076.92\n   \\]\n\nANSWER: 99076.92",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 14069,
+    "total_tokens": 14197,
+    "completion_tokens_details": {
+     "reasoning_tokens": 13769
+    }
+   },
+   "answer": 99076.92
+  }
+ },
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 99076.92
+ }
+}

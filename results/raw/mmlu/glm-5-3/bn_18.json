@@ -1,0 +1,72 @@
+{
+ "task": "mmlu",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "13615",
+  "13645",
+  "13695",
+  "13697",
+  "13703",
+  "13705",
+  "13716",
+  "13757",
+  "13806",
+  "13841",
+  "13890",
+  "13921",
+  "13930",
+  "14006",
+  "14019"
+ ],
+ "seconds": 16.5,
+ "text": "**Brief reasoning:**\n\n1. **13615 – B:** Cold War made the US view Third World development through a geopolitical/containment lens.\n2. **13645 – B:** Realists hold that the international system is anarchic, unlike ordered domestic systems.\n3. **13695 – B:** US defense spending spikes in wars and falls with demobilization, but never back to pre-war levels (a ratchet effect).\n4. **13697 – C:** Domino theory = one state falling to communism leads its neighbors to fall too.\n5. **13703 – A:** The George W. Bush administration was critical/skeptical of international organizations rather than strengthening them.\n6. **13705 – C:** About ten human polyomaviruses are recognized (BK, JC, KI, WU, MCPyV, etc.).\n7. **13716 – A:** Retroviruses were first discovered by Peyton Rous in chickens (Rous sarcoma virus).\n8. **13757 – B:** Influenza in high-risk groups is controlled primarily by vaccination.\n9. **13806 – C:** Factor VIII is now recombinant (artificially produced), eliminating HIV risk.\n10. **13841 – B:** Nipah virus originates in fruit bats (flying foxes).\n11. **13890 – A:** The Shema is the most important prayer in Judaism.\n12. **13921 – A:** \"Panth\" refers to the Sikh community/path; Guru Panth means the community as Guru.\n13. **13930 – B:** Shinto holds that through kami worship humans align with life force (kami).\n14. **14006 – B:** The Reformation began in 1517 with Luther's 95 Theses.\n15. **14019 – D:** The Yijing (I Ching) is the divination text titled \"The Classic of Changes.\"\n\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"C\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"C\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"B\", \"14019\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 1332,
+  "completion_tokens_details": {
+   "reasoning_tokens": 827
+  },
+  "prompt_tokens": 3394,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 4726
+ },
+ "served_by": null,
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {},
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ }
+}

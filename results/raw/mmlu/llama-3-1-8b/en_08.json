@@ -1,0 +1,111 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  3871,
+  3896,
+  4028,
+  4079,
+  4155,
+  4314,
+  4344,
+  4393,
+  4449,
+  4479,
+  4517,
+  4603,
+  4622,
+  4638,
+  4698
+ ],
+ "seconds": 102.0,
+ "text": "Here are the answers to each question:\n\n[id 3871]\nAccording to Say's law\nA) when price goes up supply goes up\nB) it is better to give than receive\nC) demand creates its own supply\nD) supply creates its own demand\n\nAnswer: D) supply creates its own demand\n\n[id 3896]\nStagflation most likely results from\nA) increasing AD with constant SRAS.\nB) decreasing SRAS with constant AD.\nC) decreasing AD with constant SRAS.\nD) a decrease in both AD and SRAS.\n\nAnswer: C) decreasing AD with constant SRAS.\n\n[id 4028]\nExpansionary fiscal policy would best be prescribed to\nA) eliminate a recessionary gap\nB) reduce inflation\nC) reduce the interest rate\nD) eliminate an inflationary gap\n\nAnswer: A) eliminate a recessionary gap\n\n[id 4079]\nThe \"crowding-out\" effect is the result of\nA) decreasing interest rates from contractionary fiscal policy.\nB) increasing interest rates from expansionary fiscal policy.\nC) increasing interest rates from expansionary monetary policy.\nD) increasing unemployment rates from expansionary monetary policy.\n\nAnswer: B) increasing interest rates from expansionary fiscal policy.\n\n[id 4155]\nWhich of the following is a tool used by the Fed to increase the money supply?\nA) A lower discount rate.\nB) Selling Treasury securities to commercial banks.\nC) A higher reserve ratio.\nD) A lower personal income tax rate.\n\nAnswer: A) A lower discount rate.\n\n[id 4314]\nIf a clock chimes every hour the same number of times as the hour it is (e.g., at 3 P.M. it chimes 3 times) and once for every 15-minute increment between hours (e.g., at 3:15, 3:30, and 3:45), what will the total number of chimes be between 5:10 and 7:35 P.M.?\nA) 3\nB) 15\nC) 18\nD) 21\n\nAnswer: D) 21\n\n[id 4344]\nEvaluate the sum\\[\\frac{1}{2^1} + \\frac{2}{2^2} + \\frac{3}{2^3} + \\cdots + \\frac{k}{2^k} + \\cdots \\]\nA) \\infty\nB) 1\nC) 2\nD) 4\n\nAnswer: B) 1\n\n[id 4393]\nAn amoeba is placed in a puddle one day, and on that same day it splits into two amoebas. The next day, each new amoeba splits into two new amoebas, and so on, so that each day every living amoeba splits into two new amoebas. After one week, how many amoebas are in the puddle?\nA) 256\nB) 1024\nC) 64\nD) 128\n\nAnswer: B) 1024\n\n[id 4449]\nFive years ago, a computer that worked half as fast as a current computer cost twice as much money. The current computer's speed to price ratio is what percent of the older computer's speed to price ratio?\nA) 20\nB) 400\nC) 32\nD) \\frac{2}{5}\n\nAnswer: B) 400\n\n[id 4479]\nWhat is the greatest common divisor of $2^{1001}-1$ and $2^{1012}-1$?\nA) 1\nB) 2049\nC) 2048\nD) 2047\n\nAnswer: B) 2049\n\n[id 4517]\nMarginal cost (MC) is equal to average variable cost (AVC) and average total cost (ATC) when:\nA) marginal cost (MC) intersects AVC and ATC at their maximum points.\nB) AVC and ATC intersect MC at its maximum point.\nC) MC intersects AVC and ATC at their minimum points.\nD) AVC and ATC intersect MC at its minimum point.\n\nAnswer: C) MC intersects AVC and ATC at their minimum points.\n\n[id 4603]\nMarginal cost always intersects average variable cost at\nA) the profit-maximizing quantity\nB) the minimum of marginal cost\nC) the maximum of average variable cost\nD) the minimum of average variable cost\n\nAnswer: D) the minimum of average variable cost\n\n[id 4622]\nConsider a profit-maximizing firm in a perfectly competitive market with several sellers and several buyers (i.e., the firm is a \"price taker\" of the goods it sells and a \"price taker\" of the hourly wages it pays its workers). If a technological innovation made by someone in this firm were to significantly raise the firm's marginal physical product (but not that of any other firm's), then this innovation would\nA) reduce the firm’s employment level, because fewer workers are now needed\nB) raise the workers’ hourly wage as they now contribute more marginal revenue\nC) lead the firm to hire more workers but not to raise their wages\nD) lead the firm to hire more workers and to pay them higher wages\n\nAnswer: D) lead the firm to hire more workers and to pay them higher wages\n\n[id 4638]\nWhich of the following is the best example of the free-rider effect?\nA) You and a friend take a road trip to Florida in your friend's car. You pay for the gas.\nB) In exchange for tutoring your friend in economics, she helps you with your geometry assignment.\nC) You have ordered a big college football game on pay-per-view, and several of your buddies show up unannounced to watch it at your place.\nD) You buy your date dinner, but your date insists on leaving a tip for the server.\n\nAnswer: C) You have ordered a big college football game on pay-per-view, and several of your buddies show up unannounced to watch it at your place.\n\n{\"answers\": {\"3871\": \"D\", \"3896\": \"C\", \"4028\": \"A\", \"4079\": \"B\", \"4155\": \"A\", \"4314\": \"D\", \"4344\": \"B\", \"4393\": \"B\", \"4449\": \"B\", \"4479\": \"B\", \"4517\": \"C\", \"4603\": \"D\", \"4622\": \"D\", \"4638\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1240,
+  "completion_tokens": 1359,
+  "total_tokens": 2599,
+  "cost": 7.916e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.916e-05,
+   "upstream_inference_prompt_cost": 2.48e-05,
+   "upstream_inference_completions_cost": 5.436e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "4698": "B",
+  "3871": "D",
+  "3896": "C",
+  "4028": "A",
+  "4079": "B",
+  "4155": "A",
+  "4314": "D",
+  "4344": "B",
+  "4393": "B",
+  "4449": "B",
+  "4479": "B",
+  "4517": "C",
+  "4603": "D",
+  "4622": "D",
+  "4638": "C"
+ },
+ "answers_batch": {
+  "3871": "D",
+  "3896": "C",
+  "4028": "A",
+  "4079": "B",
+  "4155": "A",
+  "4314": "D",
+  "4344": "B",
+  "4393": "B",
+  "4449": "B",
+  "4479": "B",
+  "4517": "C",
+  "4603": "D",
+  "4622": "D",
+  "4638": "C"
+ },
+ "single": {
+  "4698": {
+   "text": "B)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 3,
+    "total_tokens": 94,
+    "cost": 1.97e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.97e-06,
+     "upstream_inference_prompt_cost": 1.82e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ }
+}

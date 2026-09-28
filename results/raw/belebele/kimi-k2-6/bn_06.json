@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 54.6,
+ "text": "[id 48]: The passage states that Olaf Tryggvason was Norwegian (নরওয়েবাসী) and led the fleet, implying it was a Norwegian force.\n[id 49]: The passage mentions \"পনেরো শতাব্দীর আশেপাশে\" (around the 15th century). From the current era, that is roughly 600 years ago.\n[id 50]: The passage says the crust is thick in highlands (উচ্চভূমিতে মোটা) and thin in maria, and because it is thin there can be more maria near the crust; conversely, under highlands there may be less maria.\n[id 51]: The passage explicitly states that many people believe aliens or other creatures may live on other worlds (অন্য পৃথিবীতে এলিয়েন বা অন্য কোন জীব বাস করতে পারে).\n[id 52]: The passage lists employment as roughly two-thirds in services, one-fourth in industry, one-fifth in agriculture, and only one percent in oil, making oil the sector with the least employment.\n[id 53]: The passage says that because of the energy produced during fusion, stars emit light and heat (তারাদের থেকে আলো এবং তাপ নির্গত হয়).\n[id 54]: The passage clearly states water is composed of 2 hydrogen atoms and 1 oxygen atom.\n[id 55]: The passage describes Singapore’s transformation into a tropical garden city and mentions its national flower, indicating fame for its greenery.\n\n{\"answers\": {\"48\": \"D\", \"49\": \"C\", \"50\": \"D\", \"51\": \"C\", \"52\": \"C\", \"53\": \"C\", \"54\": \"D\", \"55\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 2843,
+  "completion_tokens": 3747,
+  "total_tokens": 6590,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3359
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "48": "D",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "D",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

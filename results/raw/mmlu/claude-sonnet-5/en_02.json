@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "899",
+  "908",
+  "951",
+  "981",
+  "987",
+  "1004",
+  "1011",
+  "1019",
+  "1030",
+  "1045",
+  "1100",
+  "1116",
+  "1125",
+  "1141",
+  "1158"
+ ],
+ "seconds": 168.8,
+ "text": "Looking at each question, I'll work through the key calculations and reasoning.\n\n**899**: Balancing gives 6MnO4⁻ + 5I⁻ + 18H⁺ → 6Mn2⁺ + 5IO3⁻ + 9H2O. MnO4⁻:I⁻ = 6:5 → **B**\n\n**908**: Using tetrahedral geometry with HCH=115° and Heller-McConnell dihedral analysis (B₂≈58G), cos²θ≈0.80, giving a≈46G≈4.6mT → **A**\n\n**951**: Standard definition of fluorescence quantum yield → **C**\n\n**981**: B_center = hν/(gβ) ≈ 338.6 mT; ΔB = hΔν/(gβ) ≈ 10.0 mT → lines at ~333.5 and 343.5 mT → **C**\n\n**987**: Second law of thermodynamics - total entropy always increases for spontaneous processes → **D**\n\n**1004**: Nonassociativity stems from rounding/representation limits, not from range bounds → **B**\n\n**1011**: Recursive definition gives x^M = x·reverse(x). Testing all options shows none hold generally → **D**\n\n**1019**: Nonterminal/total ratio → 1 - K^N(K-1)/K^(N+1) = 1/K → **A**\n\n**1030**: Heap is a separate memory area, not part of the activation record → **B**\n\n**1045**: 109 + (-42) = 67, and both operands and result fit within 8-bit range for all three representations → **D**\n\n**1100**: P = C(5,2)·C(20,1)/C(25,3) = 200/2300 = 2/23 → **C**\n\n**1116**: All three properties hold for eigenvectors under scalar multiples, powers, and inverses → **D**\n\n**1125**: Max element order in S5 comes from cycle type 3+2, lcm(3,2)=6 → **B**\n\n**1141**: Both are standard true theorems (compact continuity→uniform continuity; chain rule for differentiability) → **A**\n\n**1158**: C cannot be an ordered field (i²=-1 contradicts positivity of squares), but arbitrary linear orders (not respecting field structure) can trivially be placed → **A**\n\n```json\n{\"answers\": {\"899\": \"B\", \"908\": \"A\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"B\", \"1011\": \"D\", \"1019\": \"A\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"C\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2338,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 17331,
+  "output_tokens_details": {
+   "thinking_tokens": 16464
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2338,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 17331,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2338,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2338
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.182666,
+ "answers_batch": {
+  "899": "B",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "B",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {},
+ "answers": {
+  "899": "B",
+  "908": "A",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "B",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ }
+}

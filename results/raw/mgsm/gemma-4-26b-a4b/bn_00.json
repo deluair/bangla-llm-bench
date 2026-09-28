@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 10.3,
+ "text": "[id 0]\nDaily eggs: 16.\nUsed: 3 (breakfast) + 4 (muffins) = 7.\nRemaining: 16 - 7 = 9.\nEarnings: 9 * $2 = $18.\n\n[id 1]\nBlue: 2 reels.\nWhite: half of blue = 1 reel.\nTotal: 2 + 1 = 3 reels.\n\n[id 2]\nTotal cost: $80,000 + $50,000 = $130,000.\nValue increase: 150% of original cost? Or 150% increase on the total cost? Usually, a house's value increases based on the purchase/renovation cost. Let's assume the final value is (Original + Renovated) + 150% of (Original + Renovated) OR simply the final value is 250% of the total investment.\nWait, \"Value increased by 150%\".\nOriginal cost = $80,000 + $50,000 = $130,000.\nIncrease = 1.5 * $130,000 = $195,000.\nProfit is the increase in value: $195,000.\n(Alternatively, if value becomes 150% of the cost: Profit = 0.5 * 130,000 = 65,000. But \"increased by 150%\" means New Value = Cost + 1.5*Cost).\nLet's re-read: \"He bought for 80k, renovated for 50k. Resulting value increased by 150%\". This usually means the value is now 2.5x the cost. Profit = $195,000.\n\n[id 3]\n3 times/week * 3 sprints/time * 60 meters/sprint = 3 * 3 * 60 = 540 meters.\n\n[id 4]\nTotal food needed per day for 20 chickens: 20 * 3 = 60 cups.\nFood given in morning: 15 cups.\nFood given in afternoon: 25 cups.\nFood remaining for evening: 60 - 15 - 25 = 20 cups.\n\n[id 5]\n16 glasses total.\n8 glasses at full price ($5): 8 * 5 = $40.\n8 glasses at 60% price ($3): 8 * 3 = $24.\nTotal: 40 + 24 = $64.\n\n[id 6]\nSeattle: 20.\nCharleston: 4 * 20 = 80.\nTulouse: 2 * 80 = 160.\nTotal: 160 + 80 + 20 = 260.\n\n[id 7]\nTotal: 200 GB.\nDownload speed: 2 GB/min.\nTime taken (excluding restart): 200 / 2 = 100 minutes.\nRestart takes 20 minutes.\nTotal time: 100 + 20 = 120 minutes.\n\n[id 8]\nDistance to home: 60 mph * 3 hours = 180 miles.\nProgress home:\nFirst 2 hours: 0 miles (traffic).\nNext 0.5 hours: 30 mph * 0.5 = 15 miles.\nRemaining time in the 4-hour period: 4 - 2 - 0.5 = 1.5 hours.\nDistance in remaining time: 80 mph * 1.5 = 120 miles.\nTotal distance covered towards home: 0 + 15 + 120 = 135 miles.\nDistance remaining from home: 180 - 135 = 45 miles.\n\n[id 9]\nRegular pay: 40 hours * $10 = $400.\nOvertime hours: 5 hours.\nOvertime rate: $10 * 1.2 = $12.\nOvertime pay: 5 * $12 = $60.\nTotal pay: 400 + 60 = $460.\n\n{\"answers\": {\"0\": 18, \"1\": 3, \"2\": 195000, \"3\": 540, \"4\": 20, \"5\": 64, \"6\": 260, \"7\": 120, \"8\": 45, \"9\": 460}}",
+ "usage": {
+  "prompt_tokens": 854,
+  "completion_tokens": 1075,
+  "total_tokens": 1929,
+  "cost": 0.0004079,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004079,
+   "upstream_inference_prompt_cost": 8.54e-05,
+   "upstream_inference_completions_cost": 0.0003225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 195000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 120.0,
+  "8": 45.0,
+  "9": 460.0
+ },
+ "single": {},
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 195000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 120.0,
+  "8": 45.0,
+  "9": 460.0
+ }
+}

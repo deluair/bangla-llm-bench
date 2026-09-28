@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 82.9,
+ "text": "\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"D\", \"100\": \"C\", \"101\": \"C\", \"102\": \"D\", \"103\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 3196,
+  "completion_tokens": 11539,
+  "total_tokens": 14735,
+  "cost": 0.00205045,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00205045,
+   "upstream_inference_prompt_cost": 0.0003196,
+   "upstream_inference_completions_cost": 0.00173085
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 11457,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "D",
+  "100": "C",
+  "101": "C",
+  "102": "D",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "D",
+  "100": "C",
+  "101": "C",
+  "102": "D",
+  "103": "B"
+ }
+}

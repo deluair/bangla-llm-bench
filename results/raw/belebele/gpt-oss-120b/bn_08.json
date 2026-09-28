@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 4.2,
+ "text": "{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"A\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.051924718,
+  "prompt_tokens": 2049,
+  "prompt_time": 0.113084735,
+  "completion_tokens": 1750,
+  "completion_time": 3.697045387,
+  "total_tokens": 3799,
+  "total_time": 3.810130122,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1690
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 90.6,
+ "text": "1.  **id 104**: The passage confirms \"at least some\" dinosaurs had feathers, not \"most\". Therefore, D is the statement not supported.\n2.  **id 105**: The passage states the scarps were \"found all over the moon\", contradicting the claim that \"not many\" were found.\n3.  **id 106**: The passage lists weather, amount of ice, and thickness of ice as problems. It does not mention \"melting ice\".\n4.  **id 107**: The passage explicitly states the beams are rigged up to \"point skywards\".\n5.  **id 108**: The passage states the suspect suffered \"injuries from the blast\", making the claim that he was uninjured false.\n6.  **id 109**: The passage says AOL \"instigated the charges\", meaning they were the accuser, not the one being charged.\n7.  **id 110**: The passage explicitly states that \"ASUS was awarded\" the award.\n8.  **id 111**: The passage mentions an aborted landing (\"once already\") and a \"second approach\" where it disappeared. This totals two times, not three.\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1299,
+  "completion_tokens": 5053,
+  "total_tokens": 6352,
+  "cost": 0.00088785,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00088785,
+   "upstream_inference_prompt_cost": 0.0001299,
+   "upstream_inference_completions_cost": 0.00075795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4718,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

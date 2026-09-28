@@ -1,0 +1,68 @@
+{
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  6675,
+  6681,
+  6750,
+  6778,
+  6813,
+  6838,
+  6869,
+  6871,
+  6890,
+  6903,
+  7005,
+  7011,
+  7014,
+  7018,
+  7041
+ ],
+ "seconds": 113.5,
+ "text": "[id 6675] False analogy draws a conclusion from an insufficient or dissimilar comparison. → D\n[id 6681] Inferring a person’s trait from the traits of their associates is an association fallacy. → B\n[id 6750] Appeal to emotion seeks agreement by arousing feelings rather than using evidence. → D\n[id 6778] Hasty conclusion (hasty generalization) leaps to a conclusion with insufficient evidence. → B\n[id 6813] The fallacy of accident is also known as dicto simpliciter. → D\n[id 6838] Total distinct labeled examples = 3 × 2 × 2 × 2 × 3 = 72. → D\n[id 6869] Predicting a continuous target (rainfall) from input cues is a supervised learning task. → A\n[id 6871] Pruning primarily reduces overfitting by limiting the tree’s complexity. → D\n[id 6890] Partitioning, K-means, and grid-based methods are all categories/algorithms used in spatial clustering. → D\n[id 6903] Margin values across different kernels are not directly comparable for test performance, and BERT uses GELU activation. → A\n[id 7005] Robert Merton examined how workers react to bureaucratic structures and rules. → A\n[id 7011] Virtual teams are defined by their remote, distributed locations. → D\n[id 7014] Analyzing the situation and developing plans to achieve mission and goals is strategy formulation. → B\n[id 7018] The Job Characteristics Model core dimensions are skill variety, task identity, task significance, autonomy, and feedback; reward is not one of them. → C\n[id 7041] Giving workers autonomy in decision making is a key aspect of worker empowerment. → C\n\n{\"answers\": {\"6675\": \"D\", \"6681\": \"B\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"D\", \"6903\": \"A\", \"7005\": \"A\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"C\", \"7041\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 967,
+  "completion_tokens": 10233,
+  "total_tokens": 11200,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9744
+  }
+ },
+ "served_by": null,
+ "answers": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "A",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ },
+ "answers_batch": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "A",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 81.4,
+ "text": "Looking at each problem:\n\n**[id 230]**\n- 12 cars × $20,000 = $240,000\n- Tax: 10% × $240,000 = $24,000\n- Registration: $1,000 × 12 = $12,000\n- Total: $240,000 + $24,000 + $12,000 = $276,000\n\n**[id 231]**\n- Robert: 20 shells\n- Kylie on Monday: 20 + 5 = 25 shells\n- Kylie on Tuesday: \"2 times more\" = 2 × 25 = 50 shells\n\n**[id 232]**\n- Ants: 50\n- Bugs: half as many = 50 ÷ 2 = 25\n- Total insects: 50 + 25 = 75\n\n**[id 233]**\n- Total: 36 penguins\n- Jump in: 36 ÷ 3 = 12\n- Go inside: 36 ÷ 3 = 12\n- Remaining: 36 - 12 - 12 = 12\n\n**[id 234]**\n- Steve eats: 6 per day\n- Girlfriend eats: 6 ÷ 2 = 3 per day\n- Combined: 9 per day = 63 per week\n- Vines needed: 63 ÷ 3 = 21\n\n**[id 235]**\n- Total slices needed: 20 friends × 4 slices = 80 slices\n- Pizzas needed: 80 ÷ 8 = 10\n\n**[id 236]**\n- Start: 25 pens → 25 empty pens\n- Round 1: 25 ÷ 5 = 5 new pens → 5 empty pens\n- Round 2: 5 ÷ 5 = 1 new pen → 1 empty pen\n- Total pens obtained: 25 + 5 + 1 = 31\n\n**[id 237]**\n- Initial: $20 + $10 = $30\n- After tripling: $30 × 3 = $90\n\n**[id 238]**\n- Jessa: 20 years\n- Joan: 20 + 5 = 25 years\n- Mary: 25 - 2 = 23 years\n- Sum: 20 + 25 + 23 = 68\n\n**[id 239]**\n- Exit A: 30% × 1000 = 300 students\n- Remaining: 1000 - 300 = 700\n- Exit B: 3/5 × 700 = 420 students\n- Exit C: 700 - 420 = 280\n\n```json\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}\n```",
+ "usage": {
+  "input_tokens": 1136,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10756,
+  "output_tokens_details": {
+   "thinking_tokens": 9987
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1136,
+    "output_tokens": 10756,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.054916,
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

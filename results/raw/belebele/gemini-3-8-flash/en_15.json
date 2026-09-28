@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 53.7,
+ "text": "An analysis of each question based on the provided passages:\n\n- **[id 120]**: **A** — The passage specifies that \"Sirena is the only ranger station that offers dormitory lodging and hot meals in addition to camping,\" providing two lodging types (dormitory and camping).\n- **[id 121]**: **B** — The passage notes that \"in 1861 the first recreational ski club was opened by Norwegians in Australia.\"\n- **[id 122]**: **C** — The passage states that Madagascar is the biggest island and \"a continent on its own when it comes to wildlife.\"\n- **[id 123]**: **B** — The text indicates that for high-end brand-name frames, \"the real imported ones may be more expensive than at home.\"\n- **[id 124]**: **C** — The passage states there is \"no point in even looking for discounts for business or first-class seats on direct flights\" because flyers pay top dollar to get somewhere fast, implying that booking a non-direct flight is where savings/discounts may be found.\n- **[id 125]**: **B** — The text explicitly states that \"All nouns, alongside the word Sie for you, always begin with a capital letter, even in the middle of a sentence.\"\n- **[id 126]**: **D** — The passage mentions that \"a day outdoors is easily possible even with babies and pre-school children,\" making the claim that it is unsuitable inaccurate.\n- **[id 127]**: **A** — The passage states that the northern shore \"is the place the British colonisers took as their own and so if you are looking for evidence of the territory's colonial past, this is a good place to start.\"\n\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"C\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}\n",
+ "usage": {
+  "input_tokens": 66884,
+  "output_tokens": 6977,
+  "thinking_tokens": 5191,
+  "cache_read_tokens": 252684,
+  "total_tokens": 73861
+ },
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "C",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "C",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

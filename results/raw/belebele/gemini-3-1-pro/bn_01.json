@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 42.9,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n*   **[id 8]** The passage describes micro-expressions as \"স্থায়ী ছোটো ছোটো অভিব্যক্তি, মুখের গতিবিধির ব্যাখ্যা\" (subtle facial expressions and facial movements). Showing a thumbs up (বুড়ো আঙুল দেখানো) is a hand gesture, not a facial micro-expression. (Answer: D)\n*   **[id 9]** The passage mentions socialization and \"অব্যাহত সম্পর্ক\" (continuing relationships) as motivations for using the internet. Researching travel (ভ্রমণ সম্পর্কে গবেষণা) does not relate to interpersonal relationships. (Answer: C)\n*   **[id 10]** The passage states that the Catholic Church was scrutinized for its centralization of power and wealth, and whether it was fulfilling the core doctrine of using its wealth to alleviate poverty. It was judged *against* its core principles; the passage does not suggest that modifying the core doctrines themselves was under scrutiny. (Answer: B)\n*   **[id 11]** The passage explicitly states that Britain's blockade \"লঙ্ঘন করেছে\" (violated) accepted international rules, but it does not state that international law was actually changed as a result. (Answer: C)\n*   **[id 12]** The passage indicates that MS primarily affects young and middle-aged adults, and women are twice as likely to develop it as men. A 32-year-old female fits both the age and gender demographics perfectly. (Answer: A)\n*   **[id 13]** The passage states that fencing is mainly played by two people, where one fencer is the opponent of the other (\"দুজনে খেলা হয়, একজন ফেন্সার অন্যজনের প্রতিদ্বন্দ্বী\"), which defines a duel format. (Answer: D)\n*   **[id 14]** The passage explains that professional opportunities and military rankings shifted from being class-based to being based on caliber and merit (\"ক্লাসের ভিত্তির পরিবর্তে এখন তারা কাইলাবারের ভিত্তিতে রয়েছে\"), which had a profound impact on the working-class people by opening up new opportunities for them. (Answer: B)\n*   **[id 15]** The passage specifically contrasts complaints about public transport (\"পরিবহন ব্যবস্থা\") with other services like water quality or bridges in developed countries, pointing out that transport receives the most complaints. (Answer: C)\n\n```json\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17446,
+  "output_tokens": 4981,
+  "thinking_tokens": 4407,
+  "cache_read_tokens": 8141,
+  "total_tokens": 22427
+ },
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

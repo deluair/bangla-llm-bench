@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 7.2,
+ "text": "- **130:** One-third of 60 is 20, so 60 − 20 = 40 elves remain. Then 10 more leave, so 40 − 10 = 30.\n- **131:** June spending was 500 − 60 = 440. Total is 500 + 440 = 940.\n- **132:** Rides are 2 + 4 + 2 + 2 = 10. Tickets are 10 × 6 = 60.\n- **133:** Monday is 4 miles and Tuesday is 4 × 6 = 24 miles. Wednesday is 41 − 28 = 13.\n- **134:** Cost is 4 × 15 × 12 = 720.\n- **135:** Brian has 20 − 5 = 15 games. Bobby has 3 × 15 − 5 = 40.\n- **136:** One-third of 27 is 9. Two-thirds of 9 is 6.\n- **137:** Food is 15 + 3 + 2 = 20. The 20% fee is 4 and the tip is 5, so the total is 20 + 4 + 5 = 29.\n- **138:** Test 1: he answered 8 × 5 = 40 questions, leaving 75 − 40 = 35. Test 2: he answered 6 × 5 = 30, leaving 100 − 30 = 70. Total unanswered is 35 + 70 = 105.\n- **139:** Pink gumballs are 4 × 12 + 22 = 70.\n\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2262,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 761,
+  "output_tokens_details": {
+   "thinking_tokens": 222
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2262,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 761,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2262,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2262
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.033324,
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

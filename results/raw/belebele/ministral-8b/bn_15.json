@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 4.6,
+ "text": "Here are the answers based on the reasoning:\n\n- **[120]**: The passage mentions that **সিরেনা** provides both camping and temporary accommodation along with hot meals, which is the only travel station with two types of lodging.\n- **[121]**: The passage states that the first recreational ski club was established by **নরওয়েজীয়ান** in Australia in 1861.\n- **[122]**: The passage highlights that **মাদাগাস্কার** is the largest island in terms of wildlife, and it is located off the eastern coast of Africa.\n- **[123]**: The passage indicates that **বেশী দামের ফ্রেম** (expensive frames) are more expensive in the country than abroad.\n- **[124]**: The passage suggests that **আপনার কম্পানির মাধ্যমে খরচ প্রদান** (paying through your company) is the best way to avoid costs for business or first-class flights.\n- **[125]**: The passage specifies that the pronoun **\"সি\"** (tumi) is always capitalized, even in the middle of a sentence.\n- **[126]**: The incorrect statement is **D**, as the passage mentions that even families with small children can go on a day hike.\n- **[127]**: The passage indicates that the **উত্তরের সমুদ্রতীর** (northern shore) is where the majority of Hong Kong Island's urban development is located, and it is a good place to explore colonial history.\n\n```json\n{\n  \"answers\": {\n    \"120\": \"A\",\n    \"121\": \"B\",\n    \"122\": \"C\",\n    \"123\": \"B\",\n    \"124\": \"A\",\n    \"125\": \"D\",\n    \"126\": \"D\",\n    \"127\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2717,
+  "completion_tokens": 415,
+  "total_tokens": 3132,
+  "cost": 0.0004698,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004698,
+   "upstream_inference_prompt_cost": 0.00040755,
+   "upstream_inference_completions_cost": 6.225e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "D",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "D",
+  "126": "D",
+  "127": "A"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637"
+ ],
+ "seconds": 40.1,
+ "text": "\n\n{\"answers\": {\"id 14b057ae-8f27-4763-8db0-d989fe3f683d-135402\": \"C\", \"id 14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190\": \"B\", \"id 1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020\": \"D\", \"id 1642de87-da58-43b2-9d7c-f894c999c20a-79520\": \"D\", \"id 1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787\": \"A\", \"id 172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626\": \"C\", \"id 17ca40af-18e3-4a50-ac99-df4408196959-135284\": \"B\", \"id 18e642f4-3c84-4119-898d-730dba46b516-61284\": \"A\", \"id 1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932\": \"A\", \"id 1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005\": \"A\", \"id 1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579\": \"C\", \"id 1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938\": \"C\", \"id 1d54b344-6736-47ef-b860-451dad6be1d3-105153\": \"C\", \"id 1d9b0927-6091-4f8d-90a3-d2537d257e81-128363\": \"B\", \"id 1dfbb554-5de1-491d-adad-b94e92f3bd96-24637\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1730,
+  "completion_tokens": 6391,
+  "total_tokens": 8121,
+  "cost": 0.00113165,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00113165,
+   "upstream_inference_prompt_cost": 0.000173,
+   "upstream_inference_completions_cost": 0.00095865
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5705,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402": "C",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190": "B",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020": "D",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520": "D",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787": "A",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626": "C",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284": "B",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284": "A",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932": "A",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005": "A",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579": "C",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938": "C",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153": "C",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363": "B",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637": "B"
+ },
+ "single": {},
+ "answers": {
+  "14b057ae-8f27-4763-8db0-d989fe3f683d-135402": "C",
+  "14bf14c2-db1d-4023-87e2-550b8dfd1ef4-141190": "B",
+  "1530071b-4e4c-4c1a-8278-1bc0d71a923b-146020": "D",
+  "1642de87-da58-43b2-9d7c-f894c999c20a-79520": "D",
+  "1695f409-3a9b-4aa8-ba84-9a297cd1ffbe-787": "A",
+  "172e8bfc-c8fd-43c9-8be7-ebcfcf826857-129626": "C",
+  "17ca40af-18e3-4a50-ac99-df4408196959-135284": "B",
+  "18e642f4-3c84-4119-898d-730dba46b516-61284": "A",
+  "1acba9c4-cc34-47c9-8a9e-4c61d6fdb8f3-129932": "A",
+  "1b54ae2f-5d16-467a-b37d-8ce01a6f98cb-113005": "A",
+  "1b5eb72d-64dc-4c86-bf00-2b2429923ed3-23579": "C",
+  "1b6ae479-484b-4ac3-92ee-38d2b53163f7-65938": "C",
+  "1d54b344-6736-47ef-b860-451dad6be1d3-105153": "C",
+  "1d9b0927-6091-4f8d-90a3-d2537d257e81-128363": "B",
+  "1dfbb554-5de1-491d-adad-b94e92f3bd96-24637": "B"
+ }
+}

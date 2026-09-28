@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 28.2,
+ "text": "[id 248]: The passage states that Simon \"was responsible for hiring the show's first writing team.\"  \n[id 249]: Roberts said it would be unethical \"to comment on the specifics of likely cases.\"  \n[id 250]: The passage says luminosity and rotation are used together to determine a star's Rossby number.  \n[id 251]: The passage explicitly says \"Murray lost the first set in a tie break.\"  \n[id 252]: Dr. Ur is described as \"skeptical about whether diabetes can be cured.\"  \n[id 253]: The aborted landing was caused by \"the same bad weather\" that hampered the search.  \n[id 254]: The announcement added an additional 300 carriages, bringing the total to 1,300.  \n[id 255]: The statement says Turkey would take over guarding captured ISIS fighters.  \n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1189,
+  "completion_tokens": 1289,
+  "total_tokens": 2478,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1061
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

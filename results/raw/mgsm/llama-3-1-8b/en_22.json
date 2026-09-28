@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 27.4,
+ "text": "Here are the answers to the math word problems:\n\n[id 220]\nCarmen spent 10 * 3 + 5 * 8 = 30 + 40 = 70 minutes playing these games.\n\n[id 221]\nCeline used 90 liters of water. The remaining water is 120 - 90 = 30 liters. She collected 2 * 30 = 60 liters of rainwater. The total water in the tank now is 30 + 60 = 90 liters.\n\n[id 222]\nAndy plants 90 + 40 = 130 flowers.\n\n[id 223]\nThe company spent $15000 + (1/3) * $15000 = $15000 + $5000 = $20000 on advertising for the two years.\n\n[id 224]\nCarlos and Benji will pay $30 * 3 + $18 * 5 = $90 + $90 = $180 for their rentals.\n\n[id 225]\nAndrew will travel for 6 + (1/2) * 6 = 6 + 3 = 9 days.\n\n[id 226]\nJames has 30 - 8 = 22 water type cards left. He has 14 grass type cards. The total number of cards is 30 + 20 + 40 = 90. The percentage chance of a water type card is (22 / 90) * 100 = 24.44... which rounds to 24.\n\n[id 227]\nChad owes $6.50 + $2.00 + $1.00 + $1.00 + $0.25 + $0.25 - $5.00 = $2.75.\n\n[id 228]\nKalinda can add 4 pieces per minute, so she adds 4 * 360 = 1440 pieces in an hour. Her mom adds half as many pieces per minute, so she adds 2 * 360 = 720 pieces in an hour. Together, they add 1440 + 720 = 2160 pieces in an hour. The total number of pieces is 360. The time it takes them to complete the puzzle is 360 / 2160 = 1/6 hours. Converting this to hours, we get 1/6 = 0.166... hours. Converting this to minutes, we get 0.166... * 60 = 10 minutes.\n\n{id 229]\n30% of 120 watermelons is 120 * 0.3 = 36 watermelons. 36 watermelons were harvested. The remaining watermelons are 120 - 36 = 84. 3/4 of the remaining melons are 84 * (3/4) = 63 watermelons. 63 watermelons were harvested. The remaining watermelons are 84 - 63 = 21. \n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 130, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 24, \"227\": 2.75, \"228\": 10, \"229\": 21}}",
+ "usage": {
+  "prompt_tokens": 732,
+  "completion_tokens": 659,
+  "total_tokens": 1391,
+  "cost": 4.1e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.1e-05,
+   "upstream_inference_prompt_cost": 1.464e-05,
+   "upstream_inference_completions_cost": 2.636e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 130.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 24.0,
+  "227": 2.75,
+  "228": 10.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 130.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 24.0,
+  "227": 2.75,
+  "228": 10.0,
+  "229": 21.0
+ }
+}

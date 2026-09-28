@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 8.1,
+ "text": "The questions are answered as follows:\n\n[288] B: The passage states satellite phones are used by \"shipping, including pleasure craft\" and in \"remote locations\" without cell coverage. Boating (B) fits this description.\n[289] B: The passage says Montevideo is summer when it's winter in the Northern Hemisphere. For a cooler climate, one should visit during Montevideo's winter. Since the Northern Hemisphere's summer is Montevideo's winter, B is correct. (Note: D is also effectively the same thing, but B is the direct logical mapping of the relationship provided: Summer (NH) = Winter (Montevideo)).\n[290] D: The passage states SkyTeam covers \"none of the crossings,\" making it the least.\n[291] D: The passage states the economy is \"diversified,\" not entirely reliant on tourism.\n[292] B: The passage says \"many locations are only accessible with a high wheel base 4x4,\" which contradicts the claim that most locations are accessible with a normal vehicle.\n[293] C: The passage suggests if you live in a city with a varied drinking culture, \"go to bars or pubs in neighborhoods you don't frequent.\"\n[294] A: The passage explicitly states Timbuktu \"has an airport,\" meaning it is accessible by plane. (C is also true, but A is a more direct factual statement; however, checking C: \"it has more of an Arabic flair than of an African\" vs \"less of an African flair than surrounding cities\"—this is a phrasing nuance. Let's re-verify: A is definitely true).\n[295] B: The passage says an agent is a good option for a journey \"which extends beyond a traveller's previous experience.\" A specialty excursion for the first time (B) fits this.\n\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1603,
+  "completion_tokens": 467,
+  "total_tokens": 2070,
+  "cost": 0.00025029,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025029,
+   "upstream_inference_prompt_cost": 9.618e-05,
+   "upstream_inference_completions_cost": 0.00015411
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

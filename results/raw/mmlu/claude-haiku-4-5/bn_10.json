@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 36.5,
+ "text": "# Analysis of Multiple-Choice Questions\n\nLet me work through these questions systematically:\n\n**[5669]** - Hamilton's Federalist #15 argued that the weak central government under the Articles of Confederation couldn't solve national problems. The passage discusses how lack of protection for Black people's rights went unchecked. **Answer: C**\n\n**[5751]** - The passage emphasizes Lincoln's overwhelming electoral victory (212-21), support from Union soldiers (78%), Republicans' Congressional dominance, and regional patterns. Military support during wartime was crucial. **Answer: B**\n\n**[5807]** - Calhoun protested federal overreach regarding tariffs and state sovereignty. The New England Federalists similarly protested federal overreach during the War of 1812, using similar states' rights language. **Answer: B**\n\n**[5817]** - Jefferson argues institutions must evolve with progress. The 19th Amendment directly reflects this—extending suffrage to women was a constitutional adaptation to new understandings of rights. **Answer: C**\n\n**[5849]** - An unintended consequence of liberal Great Society policies was conservative backlash. Conservatives rallied to defend traditional values against expanded government authority. **Answer: B**\n\n**[5924]** - Halima Ghomri's disappointment shows national liberation was achieved but social reforms (education, women's rights) didn't follow. National liberation was prioritized over social reform. **Answer: D**\n\n**[5973]** - The boycott gained momentum when World War II weakened Britain's ability to maintain colonial control, making independence movements more successful. **Answer: D**\n\n**[6006]** - English colonists maintained racial separation and discouraged intermarriage (racial purity ideology), unlike Spanish colonization which created more mestizo populations. **Answer: C**\n\n**[6073]** - Both quotes show revolutions delivered political freedom but distributed benefits unevenly—women and poor people didn't gain proportional benefits. **Answer: C**\n\n**[6083]** - Nkrumah discusses non-aligned countries cooperating with both capitalist and socialist systems—this refers to competing Cold War ideologies. **Answer: A**\n\n**[6118]** - Age-based class differences primarily reflect cognitive changes, particularly memory loss rates, which vary significantly by age group. **Answer: C**\n\n**[6123]** - This describes hospice care: end-of-life care focusing on comfort, home-based when possible, pain relief, and foregoing life-prolonging interventions. **Answer: D**\n\n**[6199]** - A living will is the document where individuals specify desired/undesired medical treatments. **Answer: A**\n\n**[6202]** - Without hobbies/interests, retirement can be problematic for psychological well-being. **Answer: D**\n\n**[6212]** - The Eden Alternative is a specific model incorporating plants, animals, and intergenerational contact into senior care facilities. **Answer: D**\n\n```json\n{\"answers\": {\"5669\": \"C\", \"5751\": \"B\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"D\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"C\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"D\", \"6212\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 15054,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2970,
+  "output_tokens_details": {
+   "thinking_tokens": 2186
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15054,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 2970,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 15054,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15054
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.044967,
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "C",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "C",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "D"
+ }
+}

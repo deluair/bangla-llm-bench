@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "13079",
+  "13080",
+  "13082",
+  "13109",
+  "13123",
+  "13159",
+  "13190",
+  "13216",
+  "13256",
+  "13268",
+  "13432",
+  "13443",
+  "13519",
+  "13522",
+  "13570"
+ ],
+ "seconds": 84.1,
+ "text": "\n\n1. **[id 13079]**: The question asks about a Guerrilla Marketing technique involving spreading messages through communication among collaborators/network. \"Viral Campaign\" (ভাইরাল অভিযান) relies on the rapid spread of information through connected channels (collaborators/audience network).\n2. **[id 13080]**: The definition provided describes an issue with deep conviction affecting life, often termed in social PR theory as a \"Universal Problem\" or \"Universal Appeal\" which can be widespread. Among options, \"Universal Problem\" fits the specific terminology of a high-stakes ideological campaign.\n3. **[id 13082]**: The primary driver of internet traffic growth over the last decade and projected into near future is Video content (streaming, video calls), not just reading or text.\n4. **[id 13109]**: Public Affairs deals with the relationship between an organization and the government/society at large, and is primarily concerned with \"National Interest\" and policy advocacy.\n5. **[id 13123]**: To measure the change in *attitude* (mental state/opinion), a Pre-test and Post-test survey (analyzing voter opinions) is the most effective method compared to sales or media analysis.\n6. **[id 13159]**: In the context of state defense responsibilities, \"Reconstruction\" is not a core component of *defense* (A, B, C are strategic elements of defense/security; D is post-conflict or civic duty).\n7. **[id 13190]**: Securitization is often based on the \"Copenhagen School\" theory. It fails when the audience is not convinced or the authority refuses to implement measures (D). The question asks when it is *not* established/security-ized.\n8. **[id 13216]**: Postcolonial analysis examines how space is constituted by power relations (political, economic, cultural). Option A describes the complex structure of international relations where these spatial dynamics play out.\n9. **[id 13256]**: Transnational Crime (TNC) acts as a threat through economic exploitation (A), democratic instability (B), and sovereignty infringement (C). Thus, D (All of the above) is correct.\n10. **[id 13268]**: Option D discusses the historical outcome/evaluation (\"Even if succeeded...\") rather than defining a \"strategic policy's function or principle\" directly in the same way as A, B, C, making it the option that \"does not describe a policy\" in the strategic sense.\n11. **[id 13432]**: The \"Third Stage\" of the Life Course typically refers to old age/retirement. Option A (\"Freedom after retirement... not work\") best fits this socio-economic stage.\n12. **[id 13443]**: Max Weber's \"Spirit of Capitalism\" is famously linked to the \"Protestant Ethic\" and specifically the Calvinist work ethic and asceticism.\n13. **[id 13519]**: \"Feminist Perspective\" (Naribadi Drishtikonon) essentially means analyzing society from the women's experience and viewpoint.\n14. **[id 13522]**: Globalization generally challenges or rather \"erodes\" the traditional state capacity/sovereignty (Option B claims expansion), whereas it does facilitate global consciousness, IT distance elimination, and trans-border social relations (A, C, D).\n15. **[id 13570]**: The \"Extreme Poverty Line\" (Daridra Seema) is scientifically set to represent the \"Minimum estimated level of earnings necessary to subsistence\" (B).\n\n```json\n{\"answers\": {\"13079\": \"D\", \"13080\": \"B\", \"13082\": \"B\", \"13109\": \"C\", \"13123\": \"D\", \"13159\": \"D\", \"13190\": \"D\", \"13216\": \"A\", \"13256\": \"D\", \"13268\": \"D\", \"13432\": \"A\", \"13443\": \"D\", \"13519\": \"B\", \"13522\": \"B\", \"13570\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 3864,
+  "completion_tokens": 10929,
+  "total_tokens": 14793,
+  "cost": 0.00202575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00202575,
+   "upstream_inference_prompt_cost": 0.0003864,
+   "upstream_inference_completions_cost": 0.00163935
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9963,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "C",
+  "13123": "D",
+  "13159": "D",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {},
+ "answers": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "C",
+  "13123": "D",
+  "13159": "D",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ }
+}

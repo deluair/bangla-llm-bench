@@ -1,0 +1,34 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 26.0,
+ "text": "Here is the brief reasoning for each question:\n\n**[id 296]**\nThe passage clearly states that 35 mm film (36 by 24 mm negative) produces a clear picture similar to a current DSLR (\"তাতে বর্তমান ডিসিএলএর-এর মতোই স্বচ্ছ ছবি উঠবে\"). Therefore, the correct option is A.\n\n**[id 297]**\nThe passage explicitly states that tickets are non-transferable and reselling/sharing them is prohibited by Disney (\"ডিজনি দ্বারা এটি নিষিদ্ধঃ টিকিটগুলি অফেরৎযোগ্য\"). Thus, the statement that park-hopper tickets can be given to other travelers is false. Therefore, the correct option is A.\n\n**[id 298]**\nThe passage warns against swimming against the current because it causes exhaustion and can be fatal. Instead, it advises getting out of the current as soon as possible, after which swimming back is usually not difficult. This matches attempting to exit the current by swimming in another direction, then swimming to shore normally. Therefore, the correct option is A.\n\n**[id 299]**\nThe passage mentions that strong smells, failing to keep a safe distance, and feeding or bothering wild animals are risky behaviors that can lead to encounters. However, it explicitly states that the animals in the park are already accustomed to seeing humans (\"পার্কের সব জীবজন্তু মানুষ দেখেই অভ্যস্থ\"), so \"animals that have never seen humans\" is not a cause mentioned in the text. Therefore, the correct option is D.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 16972,
+  "output_tokens": 2951,
+  "thinking_tokens": 2595,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19923
+ },
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

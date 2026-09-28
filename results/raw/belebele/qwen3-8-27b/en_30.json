@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 3.0,
+ "text": "Here are the step-by-step deductions for each question:\n\n**[id 240]**\n*   **Passage Analysis:** The passage states, \"Former U.S. Speaker of the House Newt Gingrich came in second with **32 percent**.\"\n*   **Question:** What percent of the vote did Gingrich have?\n*   **Evaluation:**\n    *   A) 50 percent (Refers to delegates)\n    *   B) 32 percent (Matches passage)\n    *   C) 46 percent (Romney's vote)\n    *   D) 35 percent (Incorrect)\n*   **Conclusion:** B is correct.\n\n**[id 241]**\n*   **Passage Analysis:** The passage states, \"After the results came in, **Gingrich lauded Santorum**...\"\n*   **Question:** Who spoke highly of another candidate?\n*   **Evaluation:**\n    *   A) Bachmann (Ended campaign)\n    *   B) Gingrich (Lauded Santorum)\n    *   C) Romney (Gingrich had tough words for him)\n    *   D) Perry (Assessing results)\n*   **Conclusion:** B is correct.\n\n**[id 242]**\n*   **Passage Analysis:** The passage states, \"Nadal bagged 88% net points in the match winning **76 points in the first serve**.\"\n*   **Question:** What was the standing after the first serve?\n*   **Evaluation:**\n    *   A) Raonic had 88% (False, Nadal did)\n    *   B) Nadal won 76 points (True, specifies first serve)\n    *   C) Score was 7-2 (This is the head-to-head record, not the specific match stats mentioned regarding first serve)\n    *   D) Raonic beat Nadal (False, Nadal implied he was in the final and won points; also context implies Nadal's performance)\n*   **Conclusion:** B is correct.\n\n**[id 243]**\n*   **Passage Analysis:** The passage states: \"...refused to ratify Kyoto, saying it would **damage the economy**...\"\n*   **Question:** What did the former government think would be harmed?\n*   **Evaluation:**\n    *   A) The United States\n    *   B) The country’s economy (Matches \"damage the economy\")\n    *   C) Coal exports (Coal exports were cited as the reason the economy would be damaged, but the direct harm cited was to the economy)\n    *   D) The country’s emission targets\n*   **Conclusion:** B is correct.\n\n**[id 244]**\n*   **Passage Analysis:** The passage states: \"Resembling a **television remote**, the **controller** uses two sensors...\"\n*   **Question:** What was designed to look like a television remote?\n*   **Evaluation:**\n    *   A) The controller’s two sensors\n    *   B) The Nintendo Revolution controller\n    *   C) The keynote presentation\n    *   D) The Nintendo Revolution console\n*   **Conclusion:** B is correct.\n\n**[id 245]**\n*   **Passage Analysis:**\n    *   Passage: \"Felicia, once a **Category 4 storm**... weakened to a **tropical depression**...\"\n    *   Option B: \"It was first categorized as a **tropical depression** before turning into a **Category 4 storm**\"\n*   **Question:** Which statement is **false**?\n*   **Evaluation:**\n    *   A) True (Precipitation described as beneficial)\n    *   B) False (It started as Cat 4 and weakened to depression, not the other way around)\n    *   C) True (Showers across most islands)\n    *   D) True (Thunderstorms and lightning)\n*   **Conclusion:** B is correct.\n\n**[id 246]**\n*   **Passage Analysis:** The passage mentions:\n    *   \"formation of a new bird species\" (Where: Galápagos Islands) -> A is reported.\n    *   \"evolved in just two generations\" (Length of process) -> B is reported.\n    *   \"breeding between an endemic Darwin finch... and the immigrant cactus finch...\" (Birds involved) -> D is reported.\n    *   The passage does **not** give a specific name to the *new* species (only mentions the parent species names *Geospiza fortes* and *Geospiza conirostris*).\n*   **Question:** Which was **not** reported?\n*   **Evaluation:**\n    *   A) Where (Reported)\n    *   B) Length (Reported)\n    *   C) The name of the new species (Not explicitly named in the text, only the parents are named)\n    *   D) Birds involved (Reported)\n*   **Conclusion:** C is correct.\n\n**[id 247]**\n*   **Passage Analysis:** The passage states: \"host CowParade, the **world's largest public art event**...\"\n*   **Question:** Which statement accurately describes CowParade?\n*   **Evaluation:**\n    *   A) Only in creative cities (Not stated)\n    *   B) Created by Bucharest City Hall (No, it's part of a campaign *by* them to host it)\n    *   C) Held throughout southeastern Europe (No, it is *in* Bucharest, which is *in* southeastern Europe, not spread throughout it)\n    *   D) It’s the largest public art event in the world (Matches \"world's largest public art event\")\n*   **Conclusion:** D is correct.\n\n```json\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n```",
+ "usage": {
+  "queue_time": 0.102772873,
+  "prompt_tokens": 1290,
+  "prompt_time": 0.088601186,
+  "completion_tokens": 1341,
+  "completion_time": 2.678223004,
+  "total_tokens": 2631,
+  "total_time": 2.76682419
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

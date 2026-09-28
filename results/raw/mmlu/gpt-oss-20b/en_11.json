@@ -1,0 +1,83 @@
+{
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  6313,
+  6315,
+  6351,
+  6428,
+  6438,
+  6488,
+  6497,
+  6499,
+  6514,
+  6534,
+  6576,
+  6584,
+  6644,
+  6652,
+  6657
+ ],
+ "seconds": 48.9,
+ "text": "{\"answers\":{\"6313\":\"D\",\"6315\":\"A\",\"6351\":\"D\",\"6428\":\"D\",\"6438\":\"C\",\"6488\":\"D\",\"6497\":\"D\",\"6499\":\"B\",\"6514\":\"C\",\"6534\":\"A\",\"6576\":\"D\",\"6584\":\"A\",\"6644\":\"A\",\"6652\":\"C\",\"6657\":\"B\"}}",
+ "usage": {
+  "prompt_tokens": 1110,
+  "completion_tokens": 1022,
+  "total_tokens": 2132,
+  "cost": 0.00017527,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017527,
+   "upstream_inference_prompt_cost": 3.219e-05,
+   "upstream_inference_completions_cost": 0.00014308
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 938,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "D",
+  "6497": "D",
+  "6499": "B",
+  "6514": "C",
+  "6534": "A",
+  "6576": "D",
+  "6584": "A",
+  "6644": "A",
+  "6652": "C",
+  "6657": "B"
+ },
+ "answers_batch": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "D",
+  "6497": "D",
+  "6499": "B",
+  "6514": "C",
+  "6534": "A",
+  "6576": "D",
+  "6584": "A",
+  "6644": "A",
+  "6652": "C",
+  "6657": "B"
+ },
+ "single": {}
+}

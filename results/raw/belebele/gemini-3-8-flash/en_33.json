@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 7.4,
+ "text": "Brief reasoning:\n\n- **[id 264]**: Canyoning incorporates elements of swimming, climbing, and jumping, making **D** (Swimming ability) potentially necessary.\n- **[id 265]**: Decisive victory over the Spanish was not achieved until 1818, so **B** did not occur in 1810.\n- **[id 266]**: The passage lists sand, gravel, and salt to improve traction, while water freezes/causes ice, making **D** the correct answer.\n- **[id 267]**: The text explicitly states that the Cook Islands \"do not have any cities\", making **C** inaccurate.\n- **[id 268]**: The text notes that travelers who had an easy time adjusting to the new culture often struggle most with re-entry shock, matching **B**.\n- **[id 269]**: The text states moose \"aren't inherently aggressive\", which directly contradicts **A**.\n- **[id 270]**: Being a \"continent on its own when it comes to wildlife\" is attributed to Madagascar rather than the smaller islands, so **C** is not an attribute of the smaller islands.\n- **[id 271]**: Brand-name frames may be \"knock-offs\" (counterfeits/fakes), making **C** the risk.\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 25249,
+  "output_tokens": 1495,
+  "thinking_tokens": 1126,
+  "cache_read_tokens": 0,
+  "total_tokens": 26744
+ },
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

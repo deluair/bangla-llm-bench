@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 26.5,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n**[id 70]**\nJudy teaches 5 classes/day × 5 weekdays = 25 classes.\nPlus 8 classes on Saturday = 33 classes a week.\nTotal students = 33 classes × 15 students/class = 495 students.\nTotal money = 495 students × $15.00 = $7,425.\n\n**[id 71]**\nFirst recipe = 20 instructions.\nSecond recipe = 20 × 2 = 40 instructions.\nTotal instructions = 20 + 40 = 60 instructions.\n\n**[id 72]**\nBrownies = 43 slices × $3 = $129.\nCheesecakes = 23 slices × $4 = $92.\nTotal money = $129 + $92 = $221.\n\n**[id 73]**\nPrice per unit = $150.\n2% interest per unit = $150 × 0.02 = $3.\nCost per unit = $153.\nTotal for 5 cell phones = $153 × 5 = $765.\nMonthly payment for 3 months = $765 ÷ 3 = $255.\n\n**[id 74]**\nMarigolds: $2.74 rounds to $3.00. 12 pots × $3 = $36.\nPetunias: $1.87 rounds to $2.00. 9 pots × $2 = $18.\nBegonias: $2.12 rounds to $2.00. 17 pots × $2 = $34.\nTotal money = $36 + $18 + $34 = $88.\n\n**[id 75]**\nTop level (Level 4) = 16 sq ft.\nLevel 3 = 16 × 2 = 32 sq ft.\nLevel 2 = 32 × 2 = 64 sq ft.\nBottom level (Level 1) = 64 × 2 = 128 sq ft.\nTotal square footage = 16 + 32 + 64 + 128 = 240 sq ft.\nAverage square footage = 240 ÷ 4 levels = 60 sq ft.\n\n**[id 76]**\nDays in a regular year = 365.\nFirst 180 days = 180 cups (1 cup/day).\nRemaining days (365 - 180) = 185 days.\nNext 185 days = 370 cups (2 cups/day).\nTotal cups for the year = 180 + 370 = 550 cups.\nBags needed = 550 cups ÷ 110 cups/bag = 5 bags.\n\n**[id 77]**\nSarah = 400 pounds of laundry.\nDavid = 400 ÷ 4 = 100 pounds.\nRaymond = 400 ÷ 2 = 200 pounds.\nDifference between Raymond and David = 200 - 100 = 100 pounds.\n\n**[id 78]**\nPackage of 3 for $2.50: To get 18 flowers, 6 packages × $2.50 = $15.00.\nPackage of 2 for $1.00: To get 18 flowers, 9 packages × $1.00 = $9.00.\nAmount saved = $15.00 - $9.00 = $6.00.\n\n**[id 79]**\nBase cost = $100.\nDiscount = 30% of $100 = $30.\nFinal cost = $100 - $30 = $70.\n\n```json\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}\n```\n",
+ "usage": {
+  "input_tokens": 24869,
+  "output_tokens": 3379,
+  "thinking_tokens": 2374,
+  "cache_read_tokens": 0,
+  "total_tokens": 28248
+ },
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540",
+  "33c29299-13bd-4d46-98af-56924515044c-13811"
+ ],
+ "seconds": 178.2,
+ "text": "Here are the step-by-step reasons and answers for each question:\n\n1.  **Physics (Momentum and Kinetic Energy):** Kinetic Energy $K = P^2 / 2m$. If momentum $P$ increases by 50%, new momentum $P' = 1.5P$. New energy $K' = (1.5P)^2 / 2m = 2.25 K$. The increase is $(2.25 - 1) \\times 100\\% = 125\\%$.\n    Answer: C\n\n2.  **Physics (Optics/Power of Lens):** For myopia, the far point is at 75cm (0.75m). Power $P = -1 / \\text{Far Point (m)} = -1/0.75 = -1.33$ Diopters.\n    Answer: A\n\n3.  **English Grammar:** 'Truth' is an abstract concept, not a physical object or person.\n    Answer: D\n\n4.  **Biology (Conservation):** Ex-situ conservation is outside the natural habitat (e.g., Seed Banks). In-situ is inside (e.g., Safari, Sanctuary).\n    Answer: B\n\n5.  **Mathematics (Trigonometry):** The identity is $\\sin^{-1}(x) + \\cos^{-1}(x) = \\pi/2$.\n    Answer: D\n\n6.  **Chemistry (Primary Standard):** Sodium Carbonate ($Na_2CO_3$) is a classic primary standard. NaOH is hygroscopic (not primary).\n    Answer: C\n\n7.  **Physics (Nuclear):** Combining light nuclei is Fusion. Splitting is Fission.\n    Answer: B\n\n8.  **Computer Science (Bangladesh History):** 'Aiscite' (আইসাইট) is recognized in the context of early Bengali accessible software for the visually impaired in local exam contexts.\n    Answer: B\n\n9.  **Translation:** \"তোমার পশুত্ব দমন কর\" is best translated poetically as \"Check the beast in you\".\n    Answer: A\n\n10. **Mathematics (Ellipse):** $16x^2 + 9y^2 = 144 \\Rightarrow x^2/9 + y^2/16 = 1$. Here $a=3, b=4$ (vertical major axis). Latus Rectum $= 2a^2/b = 2(9)/4 = 9/2$.\n    Answer: B\n\n11. **Mathematics (Circle Condition):** In $(ax+y)^2 + 2xy + \\dots = 0$, the $xy$ coefficient becomes $2a + 2$. For a circle, $xy$ term must be 0, so $2a = -2 \\Rightarrow a = -1$.\n    Answer: C\n\n12. **Chemistry (Equilibrium):** $K_p = (p_{NO2})^2 / p_{N2O4} = (0.31)^2 / 0.96 = 0.0961 / 0.96 \\approx 0.1001$.\n    Answer: C\n\n13. **Administration:** Division is a state-level unit, not local government (District/Upazila/Union are local).\n    Answer: D\n\n14. **Physics (Moment of Inertia):** Depends on Mass and the position of the axis of rotation.\n    Answer: B\n\n15. **Physics (Moment of Inertia):** Depends on the distribution of mass with respect to the axis.\n    Answer: C\n\n{\"answers\": {\"27e195f4-617e-475f-9f6d-d4c98ba89f24-123070\": \"C\", \"28e6793d-8ec2-481a-818c-670b1c210c32-4715\": \"A\", \"2b64958b-0cc4-414f-bbce-724ef5ee150f-109668\": \"D\", \"2b94c828-59cf-4a27-baf0-845d57c5b076-26780\": \"B\", \"2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217\": \"D\", \"2ce86248-3043-4db5-81e2-c499a0b73dc9-55758\": \"C\", \"2d869d8d-429e-4620-82cb-0263d8c49367-97721\": \"B\", \"2dd69cbc-1d26-4a39-877a-afa049370034-113689\": \"B\", \"2e17e9b1-1b5c-497c-b577-aaef2590919a-93860\": \"A\", \"2ed7b022-a4db-418f-9cfd-54774ada45d9-117247\": \"B\", \"2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752\": \"C\", \"2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687\": \"C\", \"323ff80c-24b3-4571-a498-a31fcb345a97-93818\": \"D\", \"32fecb16-f656-48f7-900c-8708ace2f375-74540\": \"B\", \"33c29299-13bd-4d46-98af-56924515044c-13811\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1680,
+  "completion_tokens": 9672,
+  "total_tokens": 11352,
+  "cost": 0.0016188,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016188,
+   "upstream_inference_prompt_cost": 0.000168,
+   "upstream_inference_completions_cost": 0.0014508
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8216,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "B",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ },
+ "single": {},
+ "answers": {
+  "27e195f4-617e-475f-9f6d-d4c98ba89f24-123070": "C",
+  "28e6793d-8ec2-481a-818c-670b1c210c32-4715": "A",
+  "2b64958b-0cc4-414f-bbce-724ef5ee150f-109668": "D",
+  "2b94c828-59cf-4a27-baf0-845d57c5b076-26780": "B",
+  "2ca9ec0e-eee7-4e64-9647-5e7aef0124cb-81217": "D",
+  "2ce86248-3043-4db5-81e2-c499a0b73dc9-55758": "C",
+  "2d869d8d-429e-4620-82cb-0263d8c49367-97721": "B",
+  "2dd69cbc-1d26-4a39-877a-afa049370034-113689": "B",
+  "2e17e9b1-1b5c-497c-b577-aaef2590919a-93860": "A",
+  "2ed7b022-a4db-418f-9cfd-54774ada45d9-117247": "B",
+  "2fda34ee-2835-4a7d-ae3a-1388b29411d9-35752": "C",
+  "2ff2a82c-1f36-433e-86a2-3746fac11d7e-14687": "C",
+  "323ff80c-24b3-4571-a498-a31fcb345a97-93818": "D",
+  "32fecb16-f656-48f7-900c-8708ace2f375-74540": "B",
+  "33c29299-13bd-4d46-98af-56924515044c-13811": "C"
+ }
+}

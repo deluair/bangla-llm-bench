@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 11.5,
+ "text": "**Solutions:**\n\n- **230:** 12×$20,000=$240,000; tax 10%=$24,000 → $264,000; registration 12×$1,000=$12,000 → Total = $276,000\n- **231:** Monday: 20+5=25; Tuesday: 2×25=50\n- **232:** bugs = 50/2=25; total = 50+25=75\n- **233:** 36 − (12+12) = 12\n- **234:** Steve 6/day, girlfriend 3/day → 9/day×7=63/week; 63÷3=21 vines\n- **235:** 20×4=80 slices; 80÷8=10 pizzas\n- **236:** 25 pens → 5 new (using 25 empties) → 1 more new (using 5 empties) → total new=6; total pens = 25+6=31\n- **237:** ($20+$10)×3 = $90\n- **238:** Jessa=20, Joan=25, Mary=23 → sum=68\n- **239:** A: 300; remaining 700; B: 420; C = 700−420=280\n\n```json\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1398,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1161,
+  "output_tokens_details": {
+   "thinking_tokens": 741
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1398,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1161,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1398,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1398
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.017206,
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

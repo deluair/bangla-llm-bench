@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 35.9,
+ "text": "Looking at each question:\n\n**[id 216]**: The passage states that researchers \"observed crystals formed in cat urine by the addition of melamine and cyanuric acid\" and that \"The composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy (FTIR).\" The FTIR was used to compare crystal compositions. **Answer: B**\n\n**[id 217]**: The passage explicitly states: \"Looking decidedly rusty in the game against their southern sisters, South Africa however steadily improved as the tournament progressed.\" **Answer: D**\n\n**[id 218]**: What was Hu's statement about? He mentioned: (A) the basis for cuts - \"based on China's economic output,\" (B) advice to developing countries, (C) a date - 2020. What he did NOT mention was (D) \"He did not set a figure for the cuts.\" **Answer: D**\n\n**[id 219]**: The passage states: \"Norman Lamb MP is expected to take the Business Minister job Davey is vacating.\" **Answer: A**\n\n**[id 220]**: The passage directly states: \"Ten years later, he led the Soviet part of the Apollo–Soyuz mission.\" **Answer: B**\n\n**[id 221]**: The passage discusses observations of the Sagittarius galaxy and tidal forces between the Sagittarius galaxy's dark matter and the Milky Way's dark matter. Scientists were studying matter interactions between these two galaxies. **Answer: D**\n\n**[id 222]**: The passage clearly states: \"Liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts to perceived Washington insiders.\" **Answer: B**\n\n**[id 223]**: The passage states eBay \"hopes to diversify its profit sources and gain popularity in areas where Skype holds a strong position, such as China, Eastern Europe, and Brazil.\" These are new geographic markets. **Answer: B**\n\n```json\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1740,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3640,
+  "output_tokens_details": {
+   "thinking_tokens": 3136
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1740,
+    "output_tokens": 3640,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.01994,
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

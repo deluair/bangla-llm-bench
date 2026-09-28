@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 21.1,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 120]**\nMiguel uses 2 pads a week, and each pad has 30 sheets, so he uses 60 sheets a week. Assuming 4 weeks in a month, he uses 60 * 4 = 240 sheets every month.\n\n**[id 121]**\nMorisette brought 5 apples and 8 oranges (13 fruits). Kael brought twice the apples (10) and half the oranges (4), totaling 14 fruits. Together they have 13 + 14 = 27 fruits.\n\n**[id 122]**\nMonday: 8 hours. \nTuesday and Wednesday: 8 - 2 = 6 hours each (12 hours). \nRemaining 4 days of the week: 6 + 1 = 7 hours each (28 hours).\nTotal = 8 + 12 + 28 = 48 hours.\n\n**[id 123]**\nFirst 3 hours: 3 * 10 = 30 miles.\nRemaining 4 hours: 4 * 5 = 20 miles.\nTotal distance = 30 + 20 = 50 miles.\n\n**[id 124]**\nJennie stamps 1/3 of the 60 letters, which is 20 letters. If the stamped pile now has 30 letters, it originally had 30 - 20 = 10 letters.\n\n**[id 125]**\nLet X be the package Julia bought. \nX + 5 (from husband) - 3 (used) = 12 spoons left.\nX + 2 = 12\nX = 10 spoons.\n\n**[id 126]**\nChicken sausages: 38\nFish sausages: 38 + 6 = 44\nTotal sausages: 38 + 44 = 82\n\n**[id 127]**\nLily has 50 friends. Amy made 50 + 20 = 70 friends. Together they have 50 + 70 = 120 friends.\n\n**[id 128]**\nPepper = $15\nWatermelon = 3 * $15 = $45\nOrange = $45 - 5 = $40\nTotal spent = 4 watermelons ($180) + 20 peppers ($300) + 10 oranges ($400) = $880.\n\n**[id 129]**\n500 patients * 24 minutes = 12,000 minutes = 200 hours of doctor time per day.\nHospital profit per hour = $200 - $150 = $50.\nTotal profit = 200 hours * $50/hour = $10,000.\n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}\n",
+ "usage": {
+  "input_tokens": 16744,
+  "output_tokens": 2408,
+  "thinking_tokens": 1640,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19152
+ },
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 6.1,
+ "text": "The reasoning for each question is as follows:\n\n208: The passage states \"Tibetan meditation's focal point is deity yoga. Through the realization of deity energy, the channels are purified, chakras are activated, and consciousness energy is created.\" In deity yoga, \"realization of deity energy\" implies visualization of the deity. Option B is the most accurate interpretation of \"devatva yoga\" (deity yoga) context.\n209: The passage says \"Lakkha Singh also presented the Chappan Bhog bhajan\" (লক্ষা সিংও ছাপ্পান ভোগ ভজন উপস্থাপন করেছিলেন) during the offering. Therefore, Lakkha Singh sang. Option A.\n210: The passage explicitly states: \"some people... believe that both the funding shortage and the trend towards educational television on TV played a role in ending this series.\" Option A.\n211: The passage says \"due to the funerals of three out of nine victims... news spread of another student being arrested.\" Thus, three people's funerals were occurring. Option B.\n212: The passage states \"Latvia and Slovakia both delayed the process of joining ACTA.\" Option D.\n213: The passage states \"METI announced that Apple has provided information on 34 additional overheating incidents, which the agency [METI] called 'not serious'.\" Wait, checking the text again: \"METI announced that Apple has provided... 34 additional... incidents, which the agency [METI] called 'not serious'.\" Looking closer at the text: \"METI announced... Apple provided information... which the agency [referring to METI in the context of the sentence structure] called 'not serious'.\" Actually, looking at the English source context this is likely translated from, it's the agency (METI) that called Apple's report/incidents \"not serious\". However, re-reading the Bengali: \"...অ্যাপল এরকম 34 অতিরিক্ত উত্তেজিত ঘটনার তথ্য দিয়েছে, যাকে সংস্থা 'গুরুতর নয়' বলে অভিহিত করেছে।\" The \"সংস্থা\" (agency/organization) refers to METI. Option A.\n214: The passage says Costello supports it *if* it becomes economically successful (\"যদি এটা বাণিজ্যিক হয়ে যায়...\"). This implies that currently, it is not economically successful/viable. Among the choices, \"very expensive\" (costly/not commercially viable) is the closest logic, though the text doesn't explicitly state \"why\" it hasn't happened other than the condition of economic success. However, looking at the options, there isn't a direct \"it's not commercially successful\" option. Let's re-read. The text implies it needs to be \"commercially successful\". This usually relates to cost/economic viability. In multiple choice tests of this type, if the text implies a condition for existence, the absence of that condition is the reason. Option D is the most logical inference.\n215: Miller says, \"I was preparing, so I couldn't hear what he was saying.\" This means he was not paying attention/concentrating because he was preparing. Option B.\n\n{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"B\", \"212\": \"D\", \"213\": \"A\", \"214\": \"D\", \"215\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1796,
+  "completion_tokens": 721,
+  "total_tokens": 2517,
+  "cost": 0.00034569,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00034569,
+   "upstream_inference_prompt_cost": 0.00010776,
+   "upstream_inference_completions_cost": 0.00023793
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "A",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "A",
+  "214": "D",
+  "215": "B"
+ }
+}

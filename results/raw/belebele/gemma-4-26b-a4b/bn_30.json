@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 8.5,
+ "text": "The provided questions and their answers are:\n\n[240] The passage states: \"নিউ-জিঙ্গরিচ ৩২ শতাংশ ভোট নিয়ে দ্বিতীয় স্থানে এসেছেন\" (Newt Gingrich came in second place with 32 percent of the vote).\nAnswer: B\n\n[241] The passage states: \"ফলাফল প্রকাশের পরে গিংরিচ জনসমক্ষে স্যান্টোরামের প্রশংসা করেছিল\" (After the results were released, Gingrich publicly praised Santorum).\nAnswer: B\n\n[242] The passage states: \"নাদাল প্রথম সার্ভে ৭৬ পয়েন্ট নিয়ে ম্যাচটিতে ৮৮% নেট পয়েন্ট দখল করেছিল\" (Nadal won 76 points in the first serve and took 88% net points). However, looking at the choices, choice D states Nadal lost to Raonic, but the passage starts by saying \"The stats for Nadal against this player are 7-2\", implying he has a winning record. Looking closer at \"সম্প্রতি তিনি ব্রিসবেন ওপেনে রাওনিকের বিপক্ষে হেরেছেন\" (Recently he lost to Raonic in the Brisbane Open), choice D is correct.\nAnswer: D\n\n[243] The passage says Australia refused to support Kyoto because \"কয়লা রফতানির উপর তার অতিরিক্ত নির্ভরতার ফলে অর্থনীতিতে ক্ষতি হবে\" (it would cause damage to the economy due to its heavy reliance on coal exports).\nAnswer: B\n\n[244] The passage says \"টেলিভিশন রিমোটকে একত্র করে, কন্ট্রোলারটি ব্যবহারকারীর টেলিভিশনের নিকটে রাখা...\" (Combining a television remote, the controller...). It implies the controller is designed like a remote.\nAnswer: B\n\n[245] The passage says \"যদিও এখনো অবধি কোনো বন্যা বা ক্ষয়ক্ষতির রিপোর্ট নেই\" (though no reports of flooding or damage have been made yet). Choice B mentions a classification detail not explicitly stated in the text as a prerequisite/sequence, but let's look at the options: A (True), C (True), D (True). Choice B is not mentioned in the text.\nAnswer: B\n\n[246] The passage mentions the location (Galapagos), the evolution time (two generations), and the birds involved. It does **not** mention the specific name of the new species.\nAnswer: C\n\n[247] The passage states \"বিশ্বের বৃহত্তম পাবলিক আর্ট ইভেন্ট কাউপ্রেড\" (the world's largest public art event, Coup de)? Wait, it says \"বিশ্বের বৃহত্তম পাবলিক আর্ট ইভেন্ট কাউপ্রেড\" implying Coup de is the event. Let's re-read: \"বিশ্বের বৃহত্তম পাবলিক আর্ট ইভেন্ট কাউপ্রেড\". This suggests Coup de is the event. Choice D says \"It is the world's largest public art event\".\nAnswer: D\n\n```json\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"D\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1719,
+  "completion_tokens": 665,
+  "total_tokens": 2384,
+  "cost": 0.000218498,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000218498,
+   "upstream_inference_prompt_cost": 7.2198e-05,
+   "upstream_inference_completions_cost": 0.0001463
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "D",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "D",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

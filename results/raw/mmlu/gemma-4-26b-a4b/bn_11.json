@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  6313,
+  6315,
+  6351,
+  6428,
+  6438,
+  6488,
+  6497,
+  6499,
+  6514,
+  6534,
+  6576,
+  6584,
+  6644,
+  6652,
+  6657
+ ],
+ "seconds": 38.6,
+ "text": "The questions cover various topics including biology, psychology, law, and anthropology.\n\n[id 6313] All options (A, B, and C) are correct regarding erogenous zones.\n[id 6315] In Freudian terms, the 'Id' represents primal desires and instincts (the urge to go to the bar), while the 'Ego' mediates. Since the person gave in to the urge, the Id was dominant.\n[id 6351] The parasympathetic nervous system is responsible for the \"rest and digest\" functions, including arousal/erection, while the sympathetic is \"fight or flight\".\n[id 6428] \"Masturbation\" (হস্তমৈথুন) and \"Autoeroticism\" (স্বয়ং-কামোত্তেজকতা/স্ব-কামোত্তেজকতা) are terms used. Option D (a and b) refers to the most common terms. In Bengali, 'হস্তমৈথুন' is standard.\n[id 6438] Gonorrhea and Chlamydia typically infect the urethra (মূত্রনালী) in men.\n[id 6488] The \"Act of State\" doctrine holds that the courts will not sit in judgment on the validity of the acts of the government in the exercise of its sovereign powers.\n[id 6497] Under the ICCPR, the mechanism includes periodic reporting by states and, under the Optional Protocol, individual communications (petitions).\n[id 6499] An executive agreement is a pact made by the President/Executive that is self-executing (does not require legislative ratification to be effective).\n[id 6514] International tribunals operate under different principles (treaty-based) compared to national courts. Option D is the most accurate.\n[id 6534] The Human Rights Act 1998 incorporated the ECHR into UK law.\n[id 6576] Malinowski's study of the Trobriand Islanders focused heavily on the concept of reciprocity (Kula ring).\n[id 6584] Lon Fuller's \"internal morality of law\" is often associated with a purposive or aspirational view of legal procedural correctness.\n[id 6644] This specific definition is attributed to Salmond.\n[id 6652] John Austin is the primary figure associated with Legal Positivism.\n[id 6657] Jeremy Bentham is famous for this quote regarding legal vs. natural rights.\n\n*Note: Question 6428 analysis - 'হস্তমৈথুন' is masturbation. 'স্বয়ং-কামোত্তেজকতা' is autoeroticism. Usually, 'a and b' or 'a and c' are provided. Looking at the options, D is the most likely intended answer for synonymity.*\n\n*Note: Question 6499 - An executive agreement is often distinguished from a treaty by being \"self-executing\".*\n\n{\"answers\": {\"6313\": \"D\", \"6315\": \"A\", \"6351\": \"D\", \"6428\": \"D\", \"6438\": \"C\", \"6488\": \"B\", \"6497\": \"D\", \"6499\": \"B\", \"6514\": \"D\", \"6534\": \"A\", \"6576\": \"D\", \"6584\": \"B\", \"6644\": \"B\", \"6652\": \"D\", \"6657\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1285,
+  "completion_tokens": 784,
+  "total_tokens": 2069,
+  "cost": 0.0002339,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002339,
+   "upstream_inference_prompt_cost": 7.71e-05,
+   "upstream_inference_completions_cost": 0.0001568
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ },
+ "answers_batch": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ },
+ "single": {}
+}

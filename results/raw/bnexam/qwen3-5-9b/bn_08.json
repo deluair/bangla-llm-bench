@@ -1,0 +1,273 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 96.8,
+ "text": "\n\nThe questions cover various scientific and mathematical topics.\n1.  **Insulin Deficiency**: Causes Diabetes Mellitus. While \"বহুমূত্র\" (Polyuria) is a symptom, in many multiple-choice questions with limited options, it is often the intended answer to distinguish from Heart Disease or Jaundice. Option B is the most relevant link to insulin/diabetes among the choices. (Scientifically, the disease is Diabetes).\n2.  **Sclerenchyma**: Sclerenchyma cells are dead at maturity, have lignified walls, and lack chloroplasts (usually). The question asks for the statement that is **NOT** correct. \"Has Chloroplast\" is the incorrect statement for sclerenchyma.\n3.  **Determinant**: The matrix is parsed as a 3x3: $\\begin{vmatrix} 3 & -4 & 2 \\\\ -1 & 5 & 6 \\\\ 7 & -8 & 4 \\end{vmatrix}$. Element (1,2) is -4. Cofactor = $(-1)^{1+2} \\times \\begin{vmatrix} -1 & 6 \\\\ 7 & 4 \\end{vmatrix} = -1 \\times (-4 - 42) = 46$.\n4.  **ppm Conversion**: $0.015 \\text{ M} \\times 111 \\text{ g/mol} = 1.665 \\text{ g/L} = 1665 \\text{ mg/L} = 1665 \\text{ ppm}$.\n5.  **Distance from Line**: Line $4x+3y-7=0$, Point $(2,3)$. Distance $= \\frac{|4(2)+3(3)-7|}{\\sqrt{4^2+3^2}} = \\frac{|8+9-7|}{5} = \\frac{10}{5} = 2$.\n6.  **Painter**: \"Five Senses\" (Panchindriyo) is associated with **Leonardo da Vinci** in many Bengali GK contexts regarding anatomical art.\n7.  **Halogen Acids**: Acidity increases down the group: $\\text{HF} < \\text{HCl} < \\text{HBr} < \\text{HI}$. Strongest is **HI**.\n8.  **SHM Limit**: For a simple pendulum to act as a simple harmonic oscillator, the angle should typically be small. A common strict limit cited in basic physics is **5°**.\n9.  **Doppler Effect**: Source moving away at $15 \\text{ m/s}$, $v=320 \\text{ m/s}$, $f=120 \\text{ Hz}$. $f' = 120 \\times \\frac{320}{320+15} = 120 \\times \\frac{320}{335} \\approx 114.6 \\text{ Hz}$.\n10. **Simple Pendulum**: The period depends on the length of the pendulum (**দৈর্যর উপর নীভর করে**). Option A is technically $T \\propto 1/\\sqrt{g}$, which \"inverse\" matches, but Option C is the fundamental dependency. Option D is false. Option C is the most robust true statement.\n11. **Cardiac Cycle**: The systolic phase of the atrium is very short, typically around **0.1 s**.\n12. **Integer Solutions/Counting**: Based on the options (45-48) and context of counting combinations/or integer points in a (possibly modified) region, **48** is a likely answer for a combination/result count in this type of exam question.\n13. **Earth's Temperature**: Current average surface temperature is approximately **15 °C**.\n14. **Quantum Numbers**: Rule $l < n$. For $n=3$, $l$ can be $0,1,2$. $l=3$ is impossible. Option A.\n15. **Vascular Bundle**: Types are Conjoint, Collateral, Radial, Concentric. \"Symmetrical\" (প্রতিসম) is not a standard classification term for vascular bundles. Option D.\n\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"A\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"A\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"C\", \"752de91a-4a",
+ "usage": {
+  "prompt_tokens": 2058,
+  "completion_tokens": 16000,
+  "total_tokens": 18058,
+  "cost": 0.0026058,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0026058,
+   "upstream_inference_prompt_cost": 0.0002058,
+   "upstream_inference_completions_cost": 0.0024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 14678,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "A",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "A",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "C"
+ },
+ "single": {
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": {
+   "text": "",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 2599,
+    "total_tokens": 2817,
+    "cost": 0.00041165,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00041165,
+     "upstream_inference_prompt_cost": 2.18e-05,
+     "upstream_inference_completions_cost": 0.00038985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2599,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": null
+  },
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": {
+   "text": "\n\nC",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 2916,
+    "total_tokens": 3140,
+    "cost": 0.0004598,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0004598,
+     "upstream_inference_prompt_cost": 2.24e-05,
+     "upstream_inference_completions_cost": 0.0004374
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2912,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": {
+   "text": "\n\nC",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 1079,
+    "total_tokens": 1221,
+    "cost": 0.00017605,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00017605,
+     "upstream_inference_prompt_cost": 1.42e-05,
+     "upstream_inference_completions_cost": 0.00016185
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1075,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": {
+   "text": "\n\nD",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 10449,
+    "total_tokens": 10625,
+    "cost": 0.00158495,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00158495,
+     "upstream_inference_prompt_cost": 1.76e-05,
+     "upstream_inference_completions_cost": 0.00156735
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10445,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": {
+   "text": "\n\nC",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 166,
+    "completion_tokens": 1184,
+    "total_tokens": 1350,
+    "cost": 0.0001942,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0001942,
+     "upstream_inference_prompt_cost": 1.66e-05,
+     "upstream_inference_completions_cost": 0.0001776
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1326,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7690d276-0c68-4558-8bec-453730563cce-1991": {
+   "text": "\n\nA",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1084,
+    "total_tokens": 1311,
+    "cost": 0.0001853,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0001853,
+     "upstream_inference_prompt_cost": 2.27e-05,
+     "upstream_inference_completions_cost": 0.0001626
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1080,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": {
+   "text": "\n\nA",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 12399,
+    "total_tokens": 12561,
+    "cost": 0.00187605,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00187605,
+     "upstream_inference_prompt_cost": 1.62e-05,
+     "upstream_inference_completions_cost": 0.00185985
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12394,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "D",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "A",
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "A",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "A",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "C"
+ }
+}

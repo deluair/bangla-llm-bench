@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 9.3,
+ "text": "Here are the answers with reasoning:\n\n---\n**id 288**: **B) নৌকা যাত্রায় গেলে**\nReasoning: The passage mentions satellite phones are used for remote areas where cellular coverage is unavailable, such as during expeditions or voyages where voice/data connectivity is critical. Nautical voyages often occur in remote areas without cellular infrastructure.\n\n**id 289**: **D) উত্তর গোলার্ধে শীতকাল চলাকালীন**\nReasoning: Montevideo is in the southern hemisphere, so its seasons are opposite to the northern hemisphere. When it’s winter in the northern hemisphere, it’s summer in Montevideo. The passage states that winter in Montevideo can feel cold due to wind and humidity, but it’s not as harsh as northern hemisphere winters.\n\n**id 290**: **A) স্টার মৈত্রীসংগঠন**\nReasoning: The passage states that Star Alliance covers all major southern hemisphere routes *except* Santiago de Chile to Tahiti (a Latin American boundary). This means it crosses the least amount of oceanic gaps compared to other options.\n\n**id 291**: **D) অর্থনীতি সম্পূর্ণভাবে পর্যটনের উপর নির্ভরশীল**\nReasoning: The passage mentions tourism is one of many sectors (including professional services, government, finance, and trade) contributing to San Francisco’s economy, not the sole driver.\n\n**id 292**: **B) 4x4 গাড়ি ব্যবহার করা বাঞ্ছনীয় হলেও, বেশিরভাগ এলাকাতেই সাধারণ গাড়িতে চেপে যাওয়া যায়**\nReasoning: The passage explicitly states that many areas in South Africa are accessible *only* with a 4x4 vehicle, making this statement incorrect.\n\n**id 293**: **D) ক্যামোমাইল চা পাওয়া যায় এমন রেস্তোরাঁ**\nReasoning: The passage suggests visiting bars/pubs frequently if living in a diverse drink culture, not focusing on specific tea shops. The other options (A, B, C) are less relevant to the passage’s advice.\n\n**id 294**: **C) আশেপাশের শহরগুলির তুলনায় এটিতে আফ্রিকার প্রভাব কম রয়েছে**\nReasoning: The passage highlights that Timbuktu has more Arab influence than African, making this statement true. The other options are incorrect based on the passage.\n\n**id 295**: **B) যখন ভ্রমণকারী প্রথমবার বিশেষ ভ্রমণ বুকিং করতে আগ্রহী হন**\nReasoning: The passage emphasizes that travel agents specialize in helping first-time travelers or those unfamiliar with cultural/language barriers or budget constraints.\n\n---\n```json\n{\n  \"answers\": {\n    \"288\": \"B\",\n    \"289\": \"D\",\n    \"290\": \"A\",\n    \"291\": \"D\",\n    \"292\": \"B\",\n    \"293\": \"D\",\n    \"294\": \"C\",\n    \"295\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2922,
+  "completion_tokens": 664,
+  "total_tokens": 3586,
+  "cost": 0.0005379,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005379,
+   "upstream_inference_prompt_cost": 0.0004383,
+   "upstream_inference_completions_cost": 9.96e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "288": "B",
+  "289": "D",
+  "290": "A",
+  "291": "D",
+  "292": "B",
+  "293": "D",
+  "294": "C",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "D",
+  "290": "A",
+  "291": "D",
+  "292": "B",
+  "293": "D",
+  "294": "C",
+  "295": "B"
+ }
+}

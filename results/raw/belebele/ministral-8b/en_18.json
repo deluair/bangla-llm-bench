@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 5.6,
+ "text": "Here are the answers based on the reasoning for each question:\n\n1. **id 144**: The passage states that a curry is based on herbs and spices, together with either meat or vegetables. So, the correct answer is **B) Herbs and spices**.\n\n2. **id 145**: The passage mentions coffee, chamomile tea, juice, and smoothies as beverages to try making at home during a staycation. Beer is not mentioned. So, the correct answer is **C) Beer**.\n\n3. **id 146**: The passage specifies that a student visa generally requires proof of sufficient monetary support. So, the correct answer is **D) Student visa**.\n\n4. **id 147**: The passage emphasizes being mindful of mosquitoes especially in summer, particularly when hiking through the rainforest. So, the correct answer is **A) During summer months**.\n\n5. **id 148**: The passage states that Timbuktu has an airport, so it is not inaccessible by plane. So, the correct answer is **C) It’s inaccessible by plane**.\n\n6. **id 149**: According to the passage, a funnel becomes a tornado when it touches the ground. So, the correct answer is **D) After touching the ground**.\n\n7. **id 150**: The passage mentions that the standard 35 mm film (36 by 24 mm negative) is the most common. So, the correct answer is **D) 36 x 24 mm negative**.\n\n8. **id 151**: The passage states that the fabulous riches of the tomb have been removed to the Egyptian Museum in Cairo. So, the correct answer is **D) The riches**.\n\n```json\n{\n  \"answers\": {\n    \"144\": \"B\",\n    \"145\": \"C\",\n    \"146\": \"D\",\n    \"147\": \"A\",\n    \"148\": \"C\",\n    \"149\": \"D\",\n    \"150\": \"D\",\n    \"151\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1408,
+  "completion_tokens": 450,
+  "total_tokens": 1858,
+  "cost": 0.0002787,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002787,
+   "upstream_inference_prompt_cost": 0.0002112,
+   "upstream_inference_completions_cost": 6.75e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

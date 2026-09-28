@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 42.5,
+ "text": "### Solutions\n\n- **[id 110]**\n  - Beatrice ate: $2 \\times 24 = 48$ roll-ups.\n  - Marcell ate: $3 \\times 14 = 42$ roll-ups.\n  - Average: $(48 + 42) / 2 = 90 / 2 = 45$.\n\n- **[id 111]**\n  - Rowing rate: $20\\text{ feet} / 16\\text{ seconds} = 1.25\\text{ ft/s}$.\n  - Shore distance: $64\\text{ seconds} \\times 1.25\\text{ ft/s} = 80\\text{ feet}$.\n  - Water rate: $2\\text{ liters} / 10\\text{ feet} = 0.2\\text{ liters/ft}$.\n  - Total water taken on: $80 \\times 0.2 = 16\\text{ liters}$.\n\n- **[id 112]**\n  - Lessons per day: $4\\text{ teachers} \\times 2 = 8\\text{ lessons}$.\n  - Whiteboard cleanings: $8 \\times 3 = 24\\text{ times}$.\n\n- **[id 113]**\n  - Total flowers planted: $2 \\times 15 = 30$.\n  - Flowers remaining: $30 - 5 = 25$.\n\n- **[id 114]**\n  - Brittany's phone capacity: $1800 / 6 = 300\\text{ photographs}$.\n  - Number of ducks: $300 / 50 = 6\\text{ ducks}$.\n\n- **[id 115]**\n  - Cost of ten $2 \\times 4 \\times 10$ boards: $10 \\times \\$10 = \\$100$.\n  - Cost of five $4 \\times 4 \\times 10$ boards: $5 \\times \\$16 = \\$80$.\n  - Total original cost: $\\$100 + \\$80 = \\$180$.\n  - Profit from 50% price increase: $0.50 \\times \\$180 = \\$90$.\n\n- **[id 116]**\n  - Ratio parts: $7 + 13 = 20\\text{ parts}$.\n  - Size of each part: $120 / 20 = 6$.\n  - Teaspoons of sugar: $7 \\times 6 = 42$.\n\n- **[id 117]**\n  - Total pairs of shoes: $3\\text{ children} \\times 2\\text{ pairs} = 6\\text{ pairs}$.\n  - Total cost: $6 \\times \\$60 = \\$360$.\n\n- **[id 118]**\n  - Vehicles on day 1: $2 \\times 5 = 10\\text{ vehicles}$.\n  - Vehicles imported on day 2: $30 - 10 = 20\\text{ vehicles}$.\n  - Containers on day 2: $20 / 5 = 4\\text{ containers}$.\n\n- **[id 119]**\n  - Adrien's salary 4 years ago: $\\$40,000$.\n  - Adrien's raise (40%): $0.40 \\times \\$40,000 = \\$16,000 \\implies \\$56,000$.\n  - Lylah's salary 4 years ago: $\\$40,000 - (0.30 \\times \\$40,000) = \\$28,000$.\n  - Lylah's raise (40%): $0.40 \\times \\$28,000 = \\$11,200 \\implies \\$39,200$.\n  - Total combined salary 4 years later: $\\$56,000 + \\$39,200 = \\$95,200$.\n\n{\"answers\": {\"110\": 45, \"111\": 16, \"112\": 24, \"113\": 25, \"114\": 6, \"115\": 90, \"116\": 42, \"117\": 360, \"118\": 4, \"119\": 95200}}\n",
+ "usage": {
+  "input_tokens": 48729,
+  "output_tokens": 5378,
+  "thinking_tokens": 2986,
+  "cache_read_tokens": 154983,
+  "total_tokens": 54107
+ },
+ "answers_batch": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 6.3,
+ "text": "Here are the answers to each question in the format you requested:\n\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"D\", \"1357\": \"C\", \"1374\": \"A\", \"1381\": \"D\", \"1384\": \"D\", \"1395\": \"A\", \"1452\": \"C\", \"1476\": \"B\", \"1492\": \"D\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}\n\nLet me know if you'd like me to explain any of the answers!",
+ "usage": {
+  "prompt_tokens": 1257,
+  "completion_tokens": 138,
+  "total_tokens": 1395,
+  "cost": 3.066e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.066e-05,
+   "upstream_inference_prompt_cost": 2.514e-05,
+   "upstream_inference_completions_cost": 5.52e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "A",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "C",
+  "1476": "B",
+  "1492": "D",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "A",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "C",
+  "1476": "B",
+  "1492": "D",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {}
+}

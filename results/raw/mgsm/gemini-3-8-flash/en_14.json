@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 26.4,
+ "text": "### Brief Solutions\n\n- **[id 140]**: Semi-automatic cars = $20 - 12 - 4 = 4$. Percentage = $(4 / 20) \\times 100 = 20\\%$.\n- **[id 141]**: Let queens be $Q$. Baby bees $B = 2Q$, worker bees $W = 4Q$. Total bees = $7Q = 700 \\implies Q = 100$. Worker bees = $4 \\times 100 = 400$.\n- **[id 142]**: Total hours in a week = $2 \\times 7 = 14$ hours. Earnings = $14 \\times \\$10 = \\$140$.\n- **[id 143]**: Food items = $\\$2 + \\$3 = \\$5$. Nonfood items = $\\$3 + \\$3 + \\$4 = \\$10$. Tax on nonfood = $10\\% \\times \\$10 = \\$1$. Total cost = $\\$5 + \\$10 + \\$1 = \\$16$.\n- **[id 144]**: Total clients = $3 + 5 = 8$. Expense per client = $(2 \\times \\$2) + \\$5 = \\$9$. Total expenses = $8 \\times \\$9 = \\$72$. Profit = $\\$92 - \\$72 = \\$20$.\n- **[id 145]**: Pineapples per harvest = $10 \\times 100 = 1000$. Number of harvests per year = $12 / 3 = 4$. Total pineapples = $1000 \\times 4 = 4000$.\n- **[id 146]**: First set = $500$. Second set = $3 \\times 500 = 1500$. Third set = $500 / 4 = 125$. Total blocks = $500 + 1500 + 125 = 2125$.\n- **[id 147]**: First 6 hours: 30 bees leave. Next 6 hours: 15 return (15 outside). Next 6 hours: $2 \\times 30 = 60$ leave ($15 + 60 = 75$ outside). Last 6 hours: all remaining 75 return.\n- **[id 148]**: Cost of tickets = $\\$12 + \\$10 = \\$22$. Amount given = $\\$22 + \\$8 = \\$30$.\n- **[id 149]**: Dorothy has $12 / 3 = 4$ friends. James has $4 \\times 4 = 16$ friends.\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}\n",
+ "usage": {
+  "input_tokens": 57284,
+  "output_tokens": 4211,
+  "thinking_tokens": 3098,
+  "cache_read_tokens": 77487,
+  "total_tokens": 61495
+ },
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

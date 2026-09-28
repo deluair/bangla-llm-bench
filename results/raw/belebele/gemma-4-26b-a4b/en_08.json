@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 8.9,
+ "text": "64: The text states \"leaving four people with minor burns.\" -> A\n65: The text states \"We are going to reinvent the phone.\" -> B\n66: The text states \"John Howard as Liberal party leader.\" -> B\n67: The text states \"The presenter... denied the attack.\" Therefore, saying he admitted to the attack is inaccurate. -> B\n68: The text says the fund is for \"flood-proof houses, better water management, and crop diversification.\" It does not mention bringing technology to developing nations (that is listed as another agenda item, separate from the fund). -> B\n69: The text specifies the bill applies to \"the state of California.\" It does not ban sales outside of California. -> C\n70: The text says \"Layton had asked for changes to the conservatives' environmental bill.\" -> C\n71: The text says \"Tommy Dreamer said 'Luna was the first Queen of Extreme.'\" -> D\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1274,
+  "completion_tokens": 264,
+  "total_tokens": 1538,
+  "cost": 0.00027122,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027122,
+   "upstream_inference_prompt_cost": 0.00016562,
+   "upstream_inference_completions_cost": 0.0001056
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Novita",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

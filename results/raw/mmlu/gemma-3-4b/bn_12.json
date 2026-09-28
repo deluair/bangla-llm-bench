@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  6675,
+  6681,
+  6750,
+  6778,
+  6813,
+  6838,
+  6869,
+  6871,
+  6890,
+  6903,
+  7005,
+  7011,
+  7014,
+  7018,
+  7041
+ ],
+ "seconds": 4.6,
+ "text": "Here's the breakdown of the answers to the multiple-choice questions:\n\n[id 6675]\nA\n[id 6681]\nB\n[id 6750]\nD\n[id 6778]\nB\n[id 6813]\nD\n[id 6838]\nD\n[id 6869]\nD\n[id 6871]\nD\n[id 6890]\nD\n[id 6903]\nA\n[id 7005]\nB\n[id 7011]\nD\n[id 7014]\nB\n[id 7018]\nD\n[id 7041]\nA\n\n```json\n{\"answers\": {\"6675\": \"A\", \"6681\": \"B\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"D\", \"6871\": \"D\", \"6890\": \"D\", \"6903\": \"A\", \"7005\": \"B\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"D\", \"7041\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1244,
+  "completion_tokens": 325,
+  "total_tokens": 1569,
+  "cost": 9.47e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.47e-05,
+   "upstream_inference_prompt_cost": 6.22e-05,
+   "upstream_inference_completions_cost": 3.25e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "6675": "A",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "D",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "B",
+  "7011": "D",
+  "7014": "B",
+  "7018": "D",
+  "7041": "A"
+ },
+ "answers_batch": {
+  "6675": "A",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "D",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "B",
+  "7011": "D",
+  "7014": "B",
+  "7018": "D",
+  "7041": "A"
+ },
+ "single": {}
+}

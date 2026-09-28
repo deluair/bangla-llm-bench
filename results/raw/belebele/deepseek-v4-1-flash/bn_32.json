@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 79.1,
+ "text": "{\"answers\": {\"256\": \"D\", \"257\": \"C\", \"258\": \"B\", \"259\": \"A\", \"260\": \"D\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 2077,
+  "completion_tokens": 17652,
+  "total_tokens": 19729,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 17599
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2077
+ },
+ "served_by": null,
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "D",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "D",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

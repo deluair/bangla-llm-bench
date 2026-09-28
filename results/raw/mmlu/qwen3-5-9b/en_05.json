@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  2143,
+  2159,
+  2319,
+  2348,
+  2355,
+  2448,
+  2457,
+  2459,
+  2557,
+  2567,
+  2573,
+  2582,
+  2628,
+  2632,
+  2636
+ ],
+ "seconds": 54.9,
+ "text": "\n\n[Question 2143]\n1 quart = 4 cups. 3 quarts = 12 cups. Ratio 2:12 = 1:6.\nAnswer: D\n\n[Question 2159]\nGCF(42, 84). Since 84 = 2 * 42, 42 is the largest factor.\nAnswer: C\n\n[Question 2319]\n5/8 * m = 6 => 5m = 48 => m = 9.6 = 9 3/5.\nAnswer: D\n\n[Question 2348]\nRed: 5 * 36 = 180. Blue: 6 * 32 = 192. Total = 372. Closest to 380.\nAnswer: B\n\n[Question 2355]\n6 x 2 represents 2 instances of 6 (or 6 groups of 2 depending on phrasing). 6 miles * 2 days = 12 miles total. Matches A.\nAnswer: A\n\n[Question 2448]\n(∃x)[Hx • (∀y)(Ay ⊃ Bxy)] means \"There is something (x) which is a House, and for all things (y), if they are Apartments, then x is bigger than y\". i.e., Some houses are bigger than every apartment.\nAnswer: D\n\n[Question 2457]\nAssume Conclusion (~I) is False => I is True.\nTreat I=T, H=F, J=F.\nP1: H ≡ (~I ∨ J) => F ≡ (F ∨ F) => F ≡ F => True.\nP2: H ∨ ~J => F ∨ T => True.\nConclusion: False. Counterexample exists. Option D matches condition (I true, H/J false).\nAnswer: D\n\n[Question 2459]\nThe proposition is a biconditional (\"if, and only if\"). Biconditionals do not have a single antecedent in the strict conditional logic sense (they have two entailments). In multiple choice questions of this type, \"None of the above\" is the correct technical answer.\nAnswer: D\n\n[Question 2557]\nNecessary condition: Necessary is consequent direction. F happens if E happens? No, E is necessary for F means F ⊃ E. \"Given that S doesn't\" means ~S ⊃ C. Structure: (F ⊃ E) ∨ (~S ⊃ C).\nAnswer: D\n\n[Question 2567]\n\"Some CEO\" = ∃x Cx. \"Wealthier than everyone\" = ∀y (Py ⊃ Wxy). Conjunction with ∃.\nAnswer: C\n\n[Question 2573]\nJapan GDP per capita (PPP-adjusted) 1950-2016 increased roughly 20 times from very low post-war levels to high developed levels.\nAnswer: D\n\n[Question 2582]\nRedistribution with growth strategies typically focus on broad social policy like education, progressive tax, and structural reforms like land reform to boost productivity. Minimum wage legislation is often categorized separately or potentially limiting to the growth aspect in this specific theoretical context.\nAnswer: A\n\n[Question 2628]\nBottom 60% = Quintile 1 + Quintile 2 + Quintile 3.\n7.5% + 11.8% + 15.5% = 34.8%.\nAnswer: B\n\n[Question 2632]\nStatistical data from the specific UN/UNESCO context for India 2009 reports this figure at approximately 78%.\nAnswer: C\n\n[Question 2636]\nCanada has the highest CO2 per capita emissions among the choices provided (often near top 5 globally), significantly higher than Japan, Russia, or Iran.\nAnswer: B\n\n{\"answers\": {\"2143\": \"D\", \"2159\": \"C\", \"2319\": \"D\", \"2348\": \"B\", \"2355\": \"A\", \"2448\": \"D\", \"2457\": \"D\", \"2459\": \"D\", \"2557\": \"D\", \"2567\": \"C\", \"2573\": \"D\", \"2582\": \"A\", \"2628\": \"B\", \"2632\": \"C\", \"2636\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1422,
+  "completion_tokens": 8913,
+  "total_tokens": 10335,
+  "cost": 0.00147915,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00147915,
+   "upstream_inference_prompt_cost": 0.0001422,
+   "upstream_inference_completions_cost": 0.00133695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7821,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "D",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ },
+ "answers_batch": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "D",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ },
+ "single": {}
+}

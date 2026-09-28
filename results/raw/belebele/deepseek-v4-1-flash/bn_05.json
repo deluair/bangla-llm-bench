@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47"
+ ],
+ "seconds": 8.9,
+ "text": "{\"answers\": {\"40\": \"A\", \"41\": \"D\", \"42\": \"B\", \"43\": \"B\", \"44\": \"D\", \"45\": \"A\", \"46\": \"A\", \"47\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2306,
+  "completion_tokens": 1796,
+  "total_tokens": 4102,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1743
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2306
+ },
+ "served_by": null,
+ "answers_batch": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ },
+ "single": {},
+ "answers": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ }
+}

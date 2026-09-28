@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 22.7,
+ "text": "{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 4844,
+  "total_tokens": 6910,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4791
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2066
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

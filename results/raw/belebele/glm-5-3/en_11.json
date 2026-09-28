@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 11.4,
+ "text": "Brief reasoning:\n\n- **88**: The passage states \"Lo Piccolo had the upper hand because he had been Provenzano's right-hand man\" → B\n- **89**: \"Judo expert\" is a descriptor, not an accolade listed; the others are explicit achievements → D\n- **90**: \"escaped marriage in Nepal\" = avoided taking (marriage) vows → B\n- **91**: Alonso ended his race right after his pit-stop; Fisichella's crash at the start is the only listed event that occurred before Alonso's retirement (Schumacher retired after Alonso, and Alonso damaged his own wheel) → B\n- **92**: \"Gosling and Stone received nominations for Best Actor and Actress respectively\" → C\n- **93**: \"Carolyn Wilson of the OHA\" → C\n- **94**: \"fifth time in history\" → five times → B\n- **95**: \"retired in 2006 after winning the Formula 1 championship seven times\" → B\n\n{\"answers\": {\"88\": \"B\", \"89\": \"D\", \"90\": \"B\", \"91\": \"B\", \"92\": \"C\", \"93\": \"C\", \"94\": \"B\", \"95\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 882,
+  "completion_tokens_details": {
+   "reasoning_tokens": 617
+  },
+  "prompt_tokens": 1235,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2117
+ },
+ "served_by": null,
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ }
+}

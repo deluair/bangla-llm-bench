@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 18.7,
+ "text": "Here are the answers to each question:\n\n[id 0]\nThe correct answer is A) For additional volume, increase the force with which you hit the keys. This is because the passage states that to get extra volume, you use the bellows with more pressure or speed, not by increasing the force with which you hit the keys.\n\n[id 1]\nThe correct answer is A) To allow for subtitles. The passage states that the image is cut to fit the entire screen, not to allow for subtitles.\n\n[id 2]\nThe correct answer is A) They nest during the night. The passage states that army ants march at night, not nest during the night.\n\n[id 3]\nThe correct answer is C) Biological clocks. The passage states that biological clocks are self-sustaining oscillators that will continue a period of free-running cycling even in the absence of external cues.\n\n[id 4]\nThe correct answer is C) Visiting a science museum. The passage states that nature-based tourism involves activities such as visiting parks and studying information about the ecosystem, not visiting a science museum.\n\n[id 5]\nThe correct answer is A) 1010. A five-bit binary number is 10101, which is not among the options, but 1010 is a four-bit binary number.\n\n[id 6]\nThe correct answer is B) A decrease in criticism from peers. The passage states that students are often the most critical audience, but does not mention a decrease in criticism as a benefit of student blogging.\n\n[id 7]\nThe correct answer is D) Knights. The passage mentions jousts, but does not specifically mention knights as something one might associate with medieval castles.\n\n{\"answers\": {\"0\": \"A\", \"1\": \"A\", \"2\": \"A\", \"3\": \"C\", \"4\": \"C\", \"5\": \"A\", \"6\": \"B\", \"7\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1319,
+  "completion_tokens": 392,
+  "total_tokens": 1711,
+  "cost": 4.206e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.206e-05,
+   "upstream_inference_prompt_cost": 2.638e-05,
+   "upstream_inference_completions_cost": 1.568e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "0": "A",
+  "1": "A",
+  "2": "A",
+  "3": "C",
+  "4": "C",
+  "5": "A",
+  "6": "B",
+  "7": "D"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "A",
+  "2": "A",
+  "3": "C",
+  "4": "C",
+  "5": "A",
+  "6": "B",
+  "7": "D"
+ }
+}

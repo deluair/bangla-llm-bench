@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 2.4,
+ "text": "```json\n{\"answers\": {\"264\": \"D\", \"265\": \"A\", \"266\": \"D\", \"267\": \"D\", \"268\": \"D\", \"269\": \"A\", \"270\": \"D\", \"271\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1676,
+  "completion_tokens": 73,
+  "total_tokens": 1749,
+  "cost": 9.11e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.11e-05,
+   "upstream_inference_prompt_cost": 8.38e-05,
+   "upstream_inference_completions_cost": 7.3e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "264": "D",
+  "265": "A",
+  "266": "D",
+  "267": "D",
+  "268": "D",
+  "269": "A",
+  "270": "D",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "A",
+  "266": "D",
+  "267": "D",
+  "268": "D",
+  "269": "A",
+  "270": "D",
+  "271": "C"
+ }
+}

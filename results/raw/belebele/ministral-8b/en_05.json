@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47"
+ ],
+ "seconds": 4.7,
+ "text": "1. **id 40**: The passage describes speciation as a natural process where populations adapt to new environments and diverge over time. Hindering evolution would mean preventing this adaptation and divergence. The only option that does not align with the process of speciation is **A**, as failing to thrive would not promote adaptation or speciation.\n\n2. **id 41**: The passage states that veins bring blood back to the heart.\n\n3. **id 42**: The passage mentions that birds (a type of dinosaur) have feathers, which are not commonly associated with typical dinosaur depictions.\n\n4. **id 43**: The passage states that parts of Luxembourg became Belgian after the 1830s Belgian Revolution.\n\n5. **id 44**: The passage specifies that 23,764 square kilometers of Turkey’s total area are in Europe.\n\n6. **id 46**: The passage mentions that almost every house in Harappa and Mohenjo-daro had flush toilets, which is a more specific and detailed mention compared to other locations.\n\n7. **id 45**: The passage mentions that music is often recorded using sophisticated computers to process and mix sounds together.\n\n8. **id 47**: The passage describes the process as \"stimulated emission of radiation,\" which is the scientific term for the process allowing atoms to eliminate excess energy.\n\n```json\n{\n  \"answers\": {\n    \"40\": \"A\",\n    \"41\": \"D\",\n    \"42\": \"B\",\n    \"43\": \"B\",\n    \"44\": \"D\",\n    \"45\": \"A\",\n    \"46\": \"A\",\n    \"47\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1386,
+  "completion_tokens": 363,
+  "total_tokens": 1749,
+  "cost": 0.00026235,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00026235,
+   "upstream_inference_prompt_cost": 0.0002079,
+   "upstream_inference_completions_cost": 5.445e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ },
+ "single": {},
+ "answers": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ }
+}

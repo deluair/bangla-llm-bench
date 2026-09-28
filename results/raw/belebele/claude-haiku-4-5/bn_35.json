@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 30.7,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 280]** The passage describes Jardín de la Unión with concerts at the Central Gazebo, restaurants, and Templo de San Diego (ancient convent). However, Callejón del Beso (Alley of the Kiss) is described as a *separate* location, not part of the plaza itself. Therefore, the ancient legendary love story home is NOT in Jardín de la Unión.\n**Answer: B**\n\n**[id 281]** The passage states that Norwegian plateaus (\"Viddi\") are described as \"*open, treeless* space\" and wetlands are \"*treeless*.\" It does not mention plateaus surrounded by forests—in fact, it emphasizes they are treeless/open areas.\n**Answer: B**\n\n**[id 282]** The passage explicitly begins: \"Summer is generally the tourism season for Indian top hill centers.\" This directly answers the question.\n**Answer: C**\n\n**[id 283]** The passage recommends: \"For Hong Kong's best views...go from the peninsula towards Kowloon Waterfront Opposite direction.\" This identifies the best viewing location.\n**Answer: D**\n\n**[id 284]** The passage states VPNs reroute \"*all* internet traffic, not just http\" (making this an advantage over proxies). Option D falsely claims VPNs only reroute http traffic, which contradicts the passage.\n**Answer: D**\n\n**[id 285]** The passage states: \"Often, you need to separately buy a global number which allows PSTN phones to call you.\" This is necessary to receive calls from traditional phone networks.\n**Answer: A**\n\n**[id 286]** The passage mentions fascinating history, religious importance, and cultural sites as reasons for fame. However, \"political influence\" is not listed as a reason for Jerusalem's fame (the passage mentions political controversy about capital recognition, but not political influence as a fame factor).\n**Answer: B**\n\n**[id 287]** The passage mentions borrowable items: wraps/scarves (for women), and trousers (for men, from entrance storage). Shorts are never mentioned as an option anywhere in the passage.\n**Answer: B**\n\n```json\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5181,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2599,
+  "output_tokens_details": {
+   "thinking_tokens": 2032
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5181,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 2599,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5181,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5181
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.023366,
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

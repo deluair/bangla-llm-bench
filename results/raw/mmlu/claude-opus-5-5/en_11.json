@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "6313",
+  "6315",
+  "6351",
+  "6428",
+  "6438",
+  "6488",
+  "6497",
+  "6499",
+  "6514",
+  "6534",
+  "6576",
+  "6584",
+  "6644",
+  "6652",
+  "6657"
+ ],
+ "seconds": 11.0,
+ "text": "- **6313 (A):** The regions that are sexually exciting vary from person to person. Option C is false, so D (\"all of the above\") cannot be right.\n- **6315 (A):** Following impulse over studying reflects the id.\n- **6351 (D):** Erection is driven by the parasympathetic nervous system.\n- **6428 (D):** Both \"masturbation\" and \"autoeroticism\" name sexual self-stimulation.\n- **6438 (C):** In men, gonorrhea and chlamydia most often infect the urethra.\n- **6488 (D):** This one is less certain. The act of State doctrine stops courts from judging the sovereign acts of foreign States, which in effect shields those public acts.\n- **6497 (D):** The ICCPR uses State reporting, and its Optional Protocol adds individual petitions.\n- **6499 (B):** Self-executing treaties are precise enough to apply without further implementing measures.\n- **6514 (C):** International tribunals share some, but not all, jurisdictional principles with national courts.\n- **6534 (A):** This one is also less certain. Strictly, the Act \"gives further effect\" to the Convention, but A is the conventional answer. B is false because courts can only issue declarations of incompatibility. C is false because claimants must be victims. D is false.\n- **6576 (D):** Malinowski described Trobriand society as organised around reciprocity.\n- **6584 (B):** Fuller's inner morality of law is a morality of aspiration.\n- **6644 (B):** The definition is Salmond's.\n- **6652 (D):** Austin called jurisprudence the philosophy of positive law.\n- **6657 (B):** The quotation is Bentham's.\n\n{\"answers\": {\"6313\": \"A\", \"6315\": \"A\", \"6351\": \"D\", \"6428\": \"D\", \"6438\": \"C\", \"6488\": \"D\", \"6497\": \"D\", \"6499\": \"B\", \"6514\": \"C\", \"6534\": \"A\", \"6576\": \"D\", \"6584\": \"B\", \"6644\": \"B\", \"6652\": \"D\", \"6657\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1990,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1038,
+  "output_tokens_details": {
+   "thinking_tokens": 365
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1990,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1038,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1990,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1990
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.036688,
+ "answers_batch": {
+  "6313": "A",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "D",
+  "6497": "D",
+  "6499": "B",
+  "6514": "C",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ },
+ "single": {},
+ "answers": {
+  "6313": "A",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "D",
+  "6497": "D",
+  "6499": "B",
+  "6514": "C",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ }
+}

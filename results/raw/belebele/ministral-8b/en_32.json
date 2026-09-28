@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 3.3,
+ "text": "1. The crash occurred in mountainous terrain, as stated in the passage.\n2. Amir Khan will be supporting the British competitors at the 2012 Olympics despite his personal opinion.\n3. Xavier Zayat is another racer, as he was involved in the crash with Peter Lenz.\n4. The Canal District is designated as a UNESCO World Heritage Site for its unique cultural and historical value.\n5. The statement that does not accurately describe auxiliary languages is A, as auxiliary languages are constructed, not organic.\n6. Regular announcements in the Metro are made only in Catalan.\n7. Contemporary decor is not mentioned as a main point of competition between luxury B&Bs.\n8. Beijing will host the indoor ice events of the 2022 Winter Olympics.\n\n```json\n{\n  \"answers\": {\n    \"256\": \"D\",\n    \"257\": \"C\",\n    \"258\": \"B\",\n    \"259\": \"A\",\n    \"260\": \"A\",\n    \"261\": \"B\",\n    \"262\": \"A\",\n    \"263\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1173,
+  "completion_tokens": 243,
+  "total_tokens": 1416,
+  "cost": 0.0002124,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002124,
+   "upstream_inference_prompt_cost": 0.00017595,
+   "upstream_inference_completions_cost": 3.645e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ }
+}

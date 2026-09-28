@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "1680",
+  "1726",
+  "1753",
+  "1772",
+  "1773",
+  "1820",
+  "1850",
+  "1873",
+  "1892",
+  "1895",
+  "1929",
+  "1995",
+  "1998",
+  "2004",
+  "2043"
+ ],
+ "seconds": 262.4,
+ "text": "1. **Question 1680**: The direction of natural processes is towards maximum entropy, which is equilibrium. While disorder increases, the destination is the equilibrium state. \"From disorder to equilibrium\" is a valid description of the thermodynamic trend in some contexts, while \"Order to Disorder\" is more colloquial. Option D explicitly mentions the final state \"সাম্য স্থিতিতে\" (Equilibrium state).\n2. **Question 1726**: Two identical masses (assuming standard physics problem simplification) connected by a string over a pulley/edge. One falls, pulling the other. Tension T = ma. Gravity mg on the falling mass. Net force on system = mg. Total mass = 2m. Acceleration a = mg/2m = g/2.\n3. **Question 1753**: Pitch of sound is determined by frequency (কম্পাঙ্ক). Loudness is amplitude.\n4. **Question 1772**: Impulse-Momentum relation (Force x Time = Change in Momentum) is derived from Newton's Second Law (Force = rate of change of Momentum).\n5. **Question 1773**: Nuclear fission reactors generate heat to steam, which drives turbines. They primarily heat water (পানি গরম করে).\n6. **Question 1820**: Negative autocorrelation implies successive values move in opposite directions (high-low-high). This corresponds to an alternating pattern.\n7. **Question 1850**: An ARMA(p,q) process has both Moving Average (MA) and Autoregressive (AR) components. The ACF tails off geometrically (due to MA part), and the PACF tails off geometrically (due to AR part). Neither cuts off to zero immediately like pure AR/MA models.\n8. **Question 1873**: All four statements describe the Variance Decomposition in VAR analysis. (i) Measures impact on variance. (ii) Measures ratio of errors. (iv) Own shock variance dominates. (iii) While IMs are related, the statement says VR doesn't *require* IM calculation in a specific sense (or treats them as linked but valid). Option D covers all facts commonly taught.\n9. **Question 1892**: Residual = Observed Value (y) - Fitted Value (y-hat).\n10. **Question 1895**: Choosing between multiple unordered alternatives (Equity, Bond, Cash) requires a Multinomial Logit model.\n11. **Question 1929**: LC oscillators are used for Radio Frequencies, typically starting from around 100 kHz or 1 MHz. Option B covers the wider practical range (100 KHz to 500 MHz).\n12. **Question 1995**: Electrodes in electrolytic depositions handle current (Conductivity), heat (Thermal Conductivity), and physical conditions (Strength). All properties are desired.\n13. **Question 1998**: Heat Sinks require high thermal conductivity, high melting point (to avoid degradation), and are designed with large surface area (often made of materials with these traits). \"All of these\" is the standard answer for material/design requirements in this context.\n14. **Question 2004**: Parallel Capacitance Additive. 4 * 40 µF = 160 µF.\n15. **Question 2043**: Networks where poles and zeros alternate on the negative real axis are characteristic of lossy networks like RC and RL. Pure LC has poles/zeros on the imaginary axis. Thus, both RC and RL fit the description.\n\n```json\n{\"answers\": {\"1680\": \"D\", \"1726\": \"B\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"D\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1963,
+  "completion_tokens": 9425,
+  "total_tokens": 11388,
+  "cost": 0.00161005,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00161005,
+   "upstream_inference_prompt_cost": 0.0001963,
+   "upstream_inference_completions_cost": 0.00141375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8494,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "1680": "D",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {},
+ "answers": {
+  "1680": "D",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ }
+}

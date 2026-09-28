@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 12.2,
+ "text": "[id 70]\nJudy teaches 5 classes on weekdays (5 days) and 8 classes on Saturday, totaling 5*5 + 8 = 33 classes per week.\nEach class has 15 students, so total students per week = 33 * 15 = 495.\nShe charges $15 per student, so total money = 495 * 15 = 7425.\n\n[id 71]\nThe first recipe has 20 instructions, the second has twice as many, so 20 * 2 = 40 instructions.\nTotal instructions = 20 + 40 = 60.\n\n[id 72]\nTommy sells 43 brownies at $3 each and 23 cheesecakes at $4 each.\nTotal money from brownies = 43 * 3 = 129.\nTotal money from cheesecakes = 23 * 4 = 92.\nTotal money raised = 129 + 92 = 221.\n\n[id 73]\nCost of five cell phones = 5 * 150 = 750.\nInterest per unit = 2% of 150 = 3, so total interest for 5 units = 5 * 3 = 15.\nTotal amount to pay = 750 + 15 = 765.\nMonthly payment over 3 months = 765 / 3 = 255.\n\n[id 74]\nRounded prices:\nMarigolds: $2.74 → $3\nPetunias: $1.87 → $2\nBegonias: $2.12 → $2\nTotal money from marigolds = 12 * 3 = 36.\nTotal money from petunias = 9 * 2 = 18.\nTotal money from begonias = 17 * 2 = 34.\nTotal money = 36 + 18 + 34 = 88.\n\n[id 75]\nSquare footage of each level:\nLevel 4 (top) = 16\nLevel 3 = 16 * 2 = 32\nLevel 2 = 32 * 2 = 64\nLevel 1 = 64 * 2 = 128\nAverage square footage = (16 + 32 + 64 + 128) / 4 = 240 / 4 = 60.\n\n[id 76]\nFirst 180 days: 1 cup/day → 180 cups.\nRemaining days in the first year: 365 - 180 = 185 days → 185 * 2 = 370 cups.\nTotal cups in first year = 180 + 370 = 550 cups.\nNumber of bags = 550 / 110 = 5.\n\n[id 77]\nSarah does 400 pounds of laundry.\nRaymond does half as much as Sarah: 400 / 2 = 200 pounds.\nDavid does 1/4 as much as Sarah: 400 / 4 = 100 pounds.\nDifference between Raymond and David = 200 - 100 = 100.\n\n[id 78]\nCost for packages of 3: 18 flowers / 3 = 6 packages → 6 * $2.50 = $15.\nCost for packages of 2: 18 flowers / 2 = 9 packages → 9 * $1 = $9.\nSavings = $15 - $9 = 6.\n\n[id 79]\nOriginal cost of grooming = $100.\nDiscount = 30% of $100 = $30.\nDiscounted cost = $100 - $30 = 70.\n\n```json\n{\n  \"answers\": {\n    \"70\": 7425,\n    \"71\": 60,\n    \"72\": 221,\n    \"73\": 255,\n    \"74\": 88,\n    \"75\": 60,\n    \"76\": 5,\n    \"77\": 100,\n    \"78\": 6,\n    \"79\": 70\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 737,
+  "completion_tokens": 968,
+  "total_tokens": 1705,
+  "cost": 0.00025575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025575,
+   "upstream_inference_prompt_cost": 0.00011055,
+   "upstream_inference_completions_cost": 0.0001452
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

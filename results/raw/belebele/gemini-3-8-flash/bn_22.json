@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 54.0,
+ "text": "Here is the reasoning for each question based on the provided passages:\n\n- **[id 176]**: The passage states that chimpanzees use their hands for weight-bearing during knuckle-walking (\"গিঁট হাঁটার সময় ওজন বহন করার জন্য হাতের ব্যবহার প্রতিফলিত করে\"), corresponding to option **C**.\n- **[id 177]**: The passage directly notes that mutation adds new genetic variation (\"মিউটেশন নতুন জিনগত প্রকরণ যুক্ত করে\"), corresponding to option **C**.\n- **[id 178]**: The passage notes there is no single superior form of learning (\"শেখার মতো কেবল একটি ভাল জিনিস নেই\"); stating that some educational experiences must be prioritized over others contradicts this, so option **B** does not reflect postmodern learning.\n- **[id 179]**: Pureland origami was developed specifically for inexperienced folders or people with limited motor skills, not experienced folders, making option **A** the statement that does not accurately describe it.\n- **[id 180]**: The passage mentions the Indus Valley civilization (সিন্ধু সভ্যতা), Indo-Saraswati civilization (ইন্দো-সরস্বতী সভ্যতা), and Harappan civilization (হরপ্পান সভ্যতা), but does not mention \"সিন্ধু নদী কেন্দ্রিক সভ্যতা\", corresponding to option **C**.\n- **[id 181]**: The passage states that short-term gains can be achieved through selfish behavior (\"স্বার্থপর আচরণের দ্বারা স্বল্পমেয়াদে আরও বেশি লাভ করতে পারে\"), corresponding to option **D**.\n- **[id 182]**: While the text discusses medical corps, physician recruitment, and surgical advances, the construction of teaching hospitals is not mentioned, making option **C** correct.\n- **[id 183]**: The passage states that children with ADD engage in risky behaviors to stimulate their brains (\"মস্তিষ্ককে উদ্দীপ্ত করতে তারা ঝুঁকিপূর্ণ আচরণে জড়ায়\"), corresponding to option **D**.\n\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 60975,
+  "output_tokens": 5701,
+  "thinking_tokens": 3164,
+  "cache_read_tokens": 240543,
+  "total_tokens": 66676
+ },
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

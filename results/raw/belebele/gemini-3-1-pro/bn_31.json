@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 28.5,
+ "text": "Here is the brief reasoning for the answers based on the provided passages:\n\n- **248**: The passage states that Simon (\"তিনি\" referring back to Simon) was responsible for recruiting the first writers' team for the Simpsons. (**B**)\n- **249**: Roberts stated that commenting on the \"specifics of a potential case\" (সম্ভাব্য মামলার সুনির্দিষ্ট বিষয়ে) would be unethical. (**D**)\n- **250**: The Rossby number is determined by a star's brightness/light rays (উজ্জ্বলতা/আলোকরশ্বি) and its rotation (ঘূর্ণন). (**A**)\n- **251**: The text explicitly mentions that Murray lost the tie-break in the first set. (**A**)\n- **252**: Dr. R is skeptical about whether diabetes is curable (বহুমূত্র নিরাময়যোগ্য কিনা). (**B**)\n- **253**: The landing of the flight was cancelled due to bad weather conditions (খারাপ আবহাওয়ার কারণে). (**D**)\n- **254**: The government announced expanded funding for extra vehicles, which involved bringing in an additional 300 carriages (অতিরিক্ত 300). (**A**)\n- **255**: The statement mentions that Turkey (তুরস্ক/টার্কি) has taken the responsibility of guarding the captured ISIS fighters. (**D**)\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 17417,
+  "output_tokens": 3459,
+  "thinking_tokens": 3100,
+  "cache_read_tokens": 8141,
+  "total_tokens": 20876
+ },
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

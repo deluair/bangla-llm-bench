@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 4.9,
+ "text": "Here are the answers based on the reasoning:\n\n- **id 200**: Hindi and Urdu differ in script, so the correct answer is **B**.\n- **id 201**: The passage states that Hunmin Jeongeum was eventually changed to **Hangeul**, so the correct answer is **B**.\n- **id 202**: The passage mentions that Sanskrit faded due to **hierarchy**, so the correct answer is **D**.\n- **id 203**: The Moon’s crust is thickest **under the highlands**, so the correct answer is **C**.\n- **id 204**: The Amazon River is **not** the longest river, so the correct answer is **C**.\n- **id 205**: The **service sector** employs the largest number of Venezuelans, so the correct answer is **A**.\n- **id 206**: A useful fusion reactor would create **energy**, so the correct answer is **D**.\n- **id 207**: Italy’s primary objective was **capturing African countries**, so the correct answer is **A**.\n\n```json\n{\n  \"answers\": {\n    \"200\": \"B\",\n    \"201\": \"B\",\n    \"202\": \"D\",\n    \"203\": \"C\",\n    \"204\": \"C\",\n    \"205\": \"A\",\n    \"206\": \"D\",\n    \"207\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1282,
+  "completion_tokens": 320,
+  "total_tokens": 1602,
+  "cost": 0.0002403,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002403,
+   "upstream_inference_prompt_cost": 0.0001923,
+   "upstream_inference_completions_cost": 4.8e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

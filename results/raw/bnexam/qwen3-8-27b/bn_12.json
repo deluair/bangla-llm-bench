@@ -1,0 +1,280 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849",
+  "98128531-5358-4528-8082-537d39bc9e75-3746",
+  "9901d520-d787-402f-96ff-683966d32b79-143197",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406"
+ ],
+ "seconds": 3.4,
+ "text": "Let me analyze each question step by step.\n\n1. **Purine base**: Adenine (এডেনিন) is a purine base. Cytosine, Thymine, and Uracil are pyrimidine bases. → **A**\n\n2. **Projectile motion**: v₀ = 29.4 m/s, θ = 30°. Maximum height H = (v₀ sin θ)²/(2g) = (29.4 × 0.5)²/(2×9.8) = (14.7)²/19.6 = 216.09/19.6 = 11.025 m. → **B**\n\n3. **Global warming**: CO₂ is the main greenhouse gas responsible for greenhouse effect/global warming. → **A**\n\n4. **Stopping distance**: Stopping distance ∝ v². If speed doubles (×2), distance becomes ×4. → **A**\n\n5. **Biodiversity in forest biome**: Tropical rain forest has the highest plant diversity. → **B**\n\n6. **Gene for disease-resistant variety**: CMV (Cauliflower Mosaic Virus) coat protein gene is commonly used. Among the options, \"CP\" likely refers to Coat Protein which is used in transgenic crops for virus resistance. But looking more carefully, CRE-1 or Cp is often associated with resistance genes. Actually, Nif is for nitrogen fixation, PG for phosphoglycerate. CRT-1 could be a resistance gene designation. Let me reconsider - in Bangladeshi genetics context, Cp (Coat Protein) gene is used for viral resistance. → **A**\n\n7. **Area bounded by y=3x, x-axis, and x=2**: Area = ∫₀² 3x dx = [3x²/2]₀² = 3(4)/2 = 6. → **D**\n\n8. **Independence declaration medium**: Sheikh Mujibur Rahman declared independence via radio broadcast from Kalurghat. → **D**\n\n9. **Diagonal relationship with Boron in periodic table**: Boron (Group 13, Period 2) has diagonal relationship with Magnesium (Group 2, Period 3). → **B**\n\n10. **Lightest gas**: Hydrogen is the lightest gas (atomic mass 1). → **A**\n\n11. **Passive voice of \"Let me do the sum\"**: Correct passive form is \"Let the sum be done by me.\" → **C**\n\n12. **Shanti Bahini dissolved**: Shanti Bahini was officially dissolved on November 9, 1996. → **B**\n\n13. **Oxygen for combustion of acetylene**: C₂H₂ + (5/2)O₂ → 2CO₂ + H₂O. So 1 volume C₂H₂ needs 2.5 volumes O₂. 100 ml × 2.5 = 250 ml. → **D**\n\n14. **Giant molecules**: Giant molecules have very high molecular weight (molecular mass). → **C**\n\n15. **Circumscribed circle radius of right triangle**: For a right triangle, the circumradius = half the hypotenuse. Hypotenuse = √(8²+6²) = √100 = 10. Radius = 10/2 = 5. → **B**\n\n```json\n{\"answers\": {\"906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173\": \"A\", \"90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543\": \"B\", \"9122ae5d-a936-4516-8f49-ab251780dcc2-113224\": \"A\", \"9153ac5e-47de-4086-b971-be92a887b857-103947\": \"A\", \"939c4886-bccc-468d-9758-e738c3fba007-130745\": \"B\", \"957893bc-7177-435b-8a2f-22e56f6c8d81-41482\": \"A\", \"95c4bdea-8802-44ff-ae5b-1690fbf85769-39004\": \"D\", \"962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321\": \"D\", \"9698a244-753b-4144-91ea-dde0a7ab5302-127225\": \"B\", \"975edc8c-78bd-485b-94af-265b38beec84-67491\": \"A\", \"9794574e-702e-46e6-9aaa-14092809e414-122849\": \"C\", \"98128531-5358-4528-8082-537d39bc9e75-3746\": \"B\", \"9901d520-d787-402f-96ff-683966d32b79-143197\": \"D\", \"997465ad-58cd-4f94-9aff-d01a798b64c8-61569\": \"C\", \"99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406\": \"B\"}}\n```",
+ "usage": {
+  "queue_time": 0.00444867,
+  "prompt_tokens": 1764,
+  "prompt_time": 0.161358023,
+  "completion_tokens": 1403,
+  "completion_time": 3.135367182,
+  "total_tokens": 3167,
+  "total_time": 3.296725205
+ },
+ "served_by": null,
+ "answers_batch": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "D",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "B",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "B",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B"
+ },
+ "single": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.194741486,
+    "prompt_tokens": 125,
+    "prompt_time": 0.010296971,
+    "completion_tokens": 2,
+    "completion_time": 0.004196909,
+    "total_tokens": 127,
+    "total_time": 0.01449388
+   },
+   "answer": "A"
+  },
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": {
+   "text": "",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 185,
+    "prompt_time": 0.014929941,
+    "completion_tokens": 1,
+    "completion_time": 0.002255008,
+    "total_tokens": 186,
+    "total_time": 0.017184949
+   },
+   "answer": null
+  },
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.247113959,
+    "prompt_tokens": 136,
+    "prompt_time": 0.010390353,
+    "completion_tokens": 2,
+    "completion_time": 0.004041058,
+    "total_tokens": 138,
+    "total_time": 0.014431411
+   },
+   "answer": "C"
+  },
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.013160753,
+    "prompt_tokens": 195,
+    "prompt_time": 0.016523486,
+    "completion_tokens": 2,
+    "completion_time": 0.004191251,
+    "total_tokens": 197,
+    "total_time": 0.020714737
+   },
+   "answer": "A"
+  },
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.0505924,
+    "prompt_tokens": 171,
+    "prompt_time": 0.013476333,
+    "completion_tokens": 2,
+    "completion_time": 0.004193581,
+    "total_tokens": 173,
+    "total_time": 0.017669914
+   },
+   "answer": "B"
+  },
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.013573258,
+    "prompt_tokens": 135,
+    "prompt_time": 0.011141216,
+    "completion_tokens": 2,
+    "completion_time": 0.004198742,
+    "total_tokens": 137,
+    "total_time": 0.015339958
+   },
+   "answer": "B"
+  },
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.05611467,
+    "prompt_tokens": 142,
+    "prompt_time": 0.01185261,
+    "completion_tokens": 2,
+    "completion_time": 0.004514998,
+    "total_tokens": 144,
+    "total_time": 0.016367608
+   },
+   "answer": "D"
+  },
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.064127375,
+    "prompt_tokens": 156,
+    "prompt_time": 0.010476918,
+    "completion_tokens": 2,
+    "completion_time": 0.004013474,
+    "total_tokens": 158,
+    "total_time": 0.014490392
+   },
+   "answer": "C"
+  },
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.049760888,
+    "prompt_tokens": 138,
+    "prompt_time": 0.011448813,
+    "completion_tokens": 2,
+    "completion_time": 0.004499638,
+    "total_tokens": 140,
+    "total_time": 0.015948451
+   },
+   "answer": "A"
+  },
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087573566,
+    "prompt_tokens": 134,
+    "prompt_time": 0.009563927,
+    "completion_tokens": 2,
+    "completion_time": 0.003980358,
+    "total_tokens": 136,
+    "total_time": 0.013544285
+   },
+   "answer": "A"
+  },
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.051349886,
+    "prompt_tokens": 148,
+    "prompt_time": 0.011630731,
+    "completion_tokens": 2,
+    "completion_time": 0.004180451,
+    "total_tokens": 150,
+    "total_time": 0.015811182
+   },
+   "answer": "C"
+  },
+  "98128531-5358-4528-8082-537d39bc9e75-3746": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.11017502,
+    "prompt_tokens": 193,
+    "prompt_time": 0.01611073,
+    "completion_tokens": 2,
+    "completion_time": 0.00420126,
+    "total_tokens": 195,
+    "total_time": 0.02031199
+   },
+   "answer": "A"
+  },
+  "9901d520-d787-402f-96ff-683966d32b79-143197": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.050025272,
+    "prompt_tokens": 156,
+    "prompt_time": 0.012561272,
+    "completion_tokens": 2,
+    "completion_time": 0.004204941,
+    "total_tokens": 158,
+    "total_time": 0.016766213
+   },
+   "answer": "C"
+  },
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.455418056,
+    "prompt_tokens": 159,
+    "prompt_time": 0.013779161,
+    "completion_tokens": 2,
+    "completion_time": 0.004863505,
+    "total_tokens": 161,
+    "total_time": 0.018642666
+   },
+   "answer": "C"
+  },
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.091312431,
+    "prompt_tokens": 172,
+    "prompt_time": 0.013531688,
+    "completion_tokens": 2,
+    "completion_time": 0.004194634,
+    "total_tokens": 174,
+    "total_time": 0.017726322
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "D",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "B",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "B",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 4.0,
+ "text": "{\"answers\": {\"280\": \"D\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.13368637,
+  "prompt_tokens": 2147,
+  "prompt_time": 0.097266631,
+  "completion_tokens": 1768,
+  "completion_time": 3.677025591,
+  "total_tokens": 3915,
+  "total_time": 3.774292222,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1708
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

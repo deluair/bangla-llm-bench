@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 6.1,
+ "text": "To answer these questions, I will analyze the Bengali passages:\n\n[id 32] The passage states that conflicts over systems, processes, and culture (সিস্টেম, প্রক্রিয়া এবং সংস্কৃতি) caused disputes between allies, leading to the Cold War. It does not mention Germany's opinion as a factor affecting the relationship itself (though Germany was the enemy).\n**Answer: B**\n\n[id 33] The passage states the nervous system sends impulses to maintain homeostasis and protect the body from damage. It specifically mentions keeping blood flow \"সচল ও নির্বিঘ্ন\" (active and uninterrupted/smooth). Therefore, \"reducing the speed of blood circulation\" (A) is the incorrect description.\n**Answer: A**\n\n[id 34] The passage states: \"গ্রীক ইতিহাসবিদ স্ট্র্যাবো পরে নামটি উল্লেখ করেছিলেন, যার ফলে আমরা আজ এটা জানি\" (Greek historian Strabo later mentioned the name, which is how we know today).\n**Answer: C**\n\n[id 35] The passage states the German navy, using U-boats, tried to stop the \"traffic\" of British movement (supplies/people) to prevent the Allies from helping Britain. Option B (disrupting the transport of people and supplies to Britain) is the correct summary.\n**Answer: B**\n\n[id 36] The passage describes Homer as \"কিংবদন্তি অন্ধ কবি\" (legendary blind poet). Therefore, he could not see.\n**Answer: B**\n\n[id 37] The passage states the Dutch East India Company established a base in the southwest to transform native production and employ Chinese laborers. It does not say they wanted to surrender Taiwan to the Qing Empire (the Qing Empire captured it from elsewhere).\n**Answer: D**\n\n[id 38] The passage states: \"পরীক্ষিত রাসায়নিকে উপস্থিত হাইড্রোজেন (pH মধ্যে H) আয়নের পরিমাণ দ্বারা pH স্তরটি নির্দেশিত হয়\" (The pH level is indicated by the amount of hydrogen ions present in the tested chemical).\n**Answer: C**\n\n[id 39] The passage states females are closely related (\"বোন এবং কন্যার একটি বৃহৎ পরিবার হওয়ায় মহিলারা সাধারণত একে অপরেরসাথে ঘনিষ্ঠভাবে জড়িত থাকে\"), but it does not state that the males are closely related (they are adult males alongside females/cubs). It also notes they behave like wolves/dogs and are deadly. Option C is the most inaccurate because it implies *both* sexes are closely related, whereas the text only specifies the females.\n**Answer: C**\n\n{\"answers\": {\"32\": \"B\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1744,
+  "completion_tokens": 589,
+  "total_tokens": 2333,
+  "cost": 0.000202828,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000202828,
+   "upstream_inference_prompt_cost": 7.3248e-05,
+   "upstream_inference_completions_cost": 0.00012958
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}

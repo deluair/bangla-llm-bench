@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 3.6,
+ "text": "Here is the step-by-step solution for each problem:\n\n**[id 100]**\n*   Friend 1 rang 20 times.\n*   Friend 2 rang $20 \\times (1 + 1/4) = 20 \\times 1.25 = 25$ times. (Note: \"1/4 more than\" usually means $1 + 1/4$ times the original amount in this context of counting discrete items, or it could mean $1/4$ *of* the amount added. Let's re-read carefully: \"1/4 গুণ বেশি\" often implies the factor is $1/4$ more. Wait, standard math phrasing \"1/4 more than\" means $x + \\frac{1}{4}x = \\frac{5}{4}x$. Let's check the alternative interpretation: Maybe it means $20 + 20/4 = 25$. Let's assume Friend 2 = 25.)\n*   Friend 4 rang 60 times.\n*   Friend 3 rang 10 times more than Friend 4: $60 + 10 = 70$ times.\n*   Total rings = Friend 1 + Friend 2 + Friend 3 + Friend 4 = $20 + 25 + 70 + 60 = 175$.\n\n**[id 101]**\n*   Total pages to read = Science (4) + Social Studies (20) + History (7) + Geography (8) = $4 + 20 + 7 + 8 = 39$ pages.\n*   Pages already read = 15.\n*   Remaining pages = $39 - 15 = 24$ pages.\n*   Days remaining = 4.\n*   Average pages per day = $24 / 4 = 6$ pages.\n\n**[id 102]**\n*   John's daily routine: Breakfast (1), Lunch (1), Dinner (1), Before Bed (1) = 4 glasses per day.\n*   He does this every day: 7 days/week $\\times$ 4 glasses/day = 28 glasses.\n*   Exception: On Sunday (weekend rest day), he drinks soda instead of water at dinner. So he skips 1 glass that day.\n*   Total glasses = $28 - 1 = 27$.\n\n**[id 103]**\n*   Fog covers 3 miles in 10 minutes.\n*   Rate = $3 \\text{ miles} / 10 \\text{ min} = 0.3 \\text{ miles/min}$.\n*   Total distance = 42 miles.\n*   Time = $\\text{Distance} / \\text{Rate} = 42 / 0.3 = 420 / 3 = 140$ minutes.\n*   Alternatively: $42 / 3 = 14$ segments of 3 miles. Each segment takes 10 minutes. $14 \\times 10 = 140$ minutes.\n\n**[id 104]**\n*   Total pieces = 1000.\n*   Pipi places 1/4 of the pieces: $1000 \\times \\frac{1}{4} = 250$ pieces.\n*   Remaining pieces = $1000 - 250 = 750$ pieces.\n*   Mother places 1/3 of the *remaining* pieces: $750 \\times \\frac{1}{3} = 250$ pieces.\n*   Pieces placed total = $250 + 250 = 500$.\n*   Pieces left to place = $1000 - 500 = 500$.\n\n**[id 105]**\n*   Amir ate 5 cookies.\n*   Cody ate 3 times as many as Amir: $3 \\times 5 = 15$ cookies.\n*   Total cookies eaten = Amir + Cody = $5 + 15 = 20$.\n\n**[id 106]**\n*   Outer dimensions of one box: $5 \\times 6 \\times 4$ inches.\n*   Wall thickness: 1 inch on all sides. This reduces each dimension by $2 \\times \\text{thickness}$ (1 inch from each side).\n*   Inner length = $5 - 2(1) = 3$ inches.\n*   Inner width = $6 - 2(1) = 4$ inches.\n*   Inner height = $4 - 2(1) = 2$ inches.\n*   Inner volume of one box = $3 \\times 4 \\times 2 = 24$ cubic inches.\n*   Total inner volume of 3 boxes = $3 \\times 24 = 72$ cubic inches.\n\n**[id 107]**\n*   Total TV time = 7 hours = 420 minutes.\n*   Monday: 1 hour = 60 min.\n*   Tuesday: 1 hour = 60 min.\n*   Thursday: 1 hour (60 min) + 30 min = 90 min.\n*   Friday: 2 hours = 120 min.\n*   Known total without Wednesday: $60 + 60 + 90 + 120 = 330$ minutes.\n*   Wednesday's time = Total - Known = $420 - 330 = 90$ minutes.\n*   Wednesday shows are 30-minute episodes.\n*   Number of episodes = $90 / 30 = 3$.\n\n**[id 108]**\n*   Let $L$ be the number of cookies baked last year.\n*   Desired amount = $2L$.\n*   Actual baked = $(2L) + 15$.\n*   Dropped 5 cookies: Final count = $((2L) + 15) - 5 = 110$.\n*   $2L + 10 = 110$.\n*   $2L = 100$.\n*   $L = 50$.\n\n**[id 109]**\n*   Cost of gas per gallon = $3.00.\n*   Cashback per gallon = $0.20.\n*   Net cost per gallon = $3.00 - $0.20 = $2.80.\n*   Quantity = 10 gallons.\n*   Total cost after cashback = $10 \\times 2.80 = 28.00$.\n*   The question asks for the price/cost. The answer is 28.\n\n```json\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 27, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}\n```",
+ "usage": {
+  "queue_time": 0.099097728,
+  "prompt_tokens": 1482,
+  "prompt_time": 0.123254196,
+  "completion_tokens": 1620,
+  "completion_time": 3.284590984,
+  "total_tokens": 3102,
+  "total_time": 3.40784518
+ },
+ "served_by": null,
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

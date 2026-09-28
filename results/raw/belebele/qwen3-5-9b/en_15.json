@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 48.4,
+ "text": "\n\nBased on the passages provided, here are the answers to the multiple-choice questions:\n\n1.  **[id 120]** The passage states that \"Sirena is the only ranger station that offers dormitory lodging and hot meals in addition to camping.\" This implies two lodging options (dormitory and camping), whereas the others offer \"only camping.\" (Answer A)\n2.  **[id 121]** The passage notes that \"in 1861 the first recreational ski club was opened by Norwegians in Australia,\" linking the recreational aspect to the Norwegians. (Answer B)\n3.  **[id 122]** The text identifies Madagascar as the \"biggest\" island and states it is \"a continent on its own when it comes to wildlife.\" (Answer C)\n4.  **[id 123]** The passage explicitly mentions that \"real imported ones [for high-end brand-name frames] may be more expensive than at home.\" (Answer B)\n5.  **[id 124]** The passage suggests that getting your company to pay for the trip is the \"better yet\" alternative to paying a \"thick wad of money,\" presenting it as the strategy to manage the high cost. (Answer A)\n6.  **[id 125]** The text explicitly states, \"All nouns... always begin with a capital letter, even in the middle of a sentence.\" (Answer B)\n7.  **[id 126]** The passage says a day outdoors is \"easily possible even with babies,\" making the statement that it is not suitable for families with babies inaccurate. (Answer D)\n8.  **[id 127]** The passage identifies \"reclaimed land along the northern shore\" as the place where \"British colonisers took as their own\" and a \"good place to start\" for evidence of colonial past. (Answer A)\n\n```json\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1459,
+  "completion_tokens": 7024,
+  "total_tokens": 8483,
+  "cost": 0.0011995,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011995,
+   "upstream_inference_prompt_cost": 0.0001459,
+   "upstream_inference_completions_cost": 0.0010536
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6546,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

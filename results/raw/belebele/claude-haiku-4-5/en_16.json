@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 18.9,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 128]**: The passage defines contagious disease as \"a disease which is easily transmitted by being in the vicinity of an infected person.\" This directly indicates transmission through infected people.\n\n**[id 129]**: The passage states \"Because calls are routed over the Internet, you do not need to use a phone company located where you live or where you travel.\" Internet routing is the enabling factor.\n\n**[id 130]**: The passage specifies that c and g pronunciation varies based on the following vowel, but this is NOT said about \"most words\" generally. Option D overgeneralizes this rule.\n\n**[id 131]**: The passage emphasizes religious significance, historic sites, archaeological sites, and cultural offerings as tourist attractions, but only mentions the capital status as a factual statement without linking it to tourism appeal.\n\n**[id 132]**: The passage explicitly warns: \"take care in the steeper portions, especially when wet, as it can become dangerous quickly.\"\n\n**[id 133]**: The passage clearly states: \"Moldova is a multi-ethnic republic that has suffered from ethnic conflict. In 1994, this conflict led to the creation of the self-proclaimed Transnistria Republic.\"\n\n**[id 134]**: The passage explicitly warns: \"Beware: small-town bars here are not always good places for the out-of-state visitor to hang out.\"\n\n**[id 135]**: The passage states \"Fruit juices are pricey but excellent,\" making them the beverage most likely to concern budget-conscious travelers.\n\n```json\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1895,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1872,
+  "output_tokens_details": {
+   "thinking_tokens": 1461
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1895,
+    "output_tokens": 1872,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011255000000000001,
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

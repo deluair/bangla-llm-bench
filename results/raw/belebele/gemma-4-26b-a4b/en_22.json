@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 3.6,
+ "text": "To answer the questions based on the provided passages:\n\n[176] The passage states the chimpanzee's hand and foot are similar in size and length and used for bearing weight. Option C is explicitly supported (\"reflecting the hand's use for bearing weight in knuckle walking\").\n[177] The passage explicitly states \"Mutation adds new genetic variation.\" Option C.\n[178] Postmodernism \"offers the freedom from absolutes\" and \"There is no one good way to learn.\" Option B (\"Certain learning experiences should be prioritized\") contradicts the idea that there is no one good thing to learn or one good way to learn.\n[179] The passage says it was developed \"to help inexperienced folders or those with limited motor skills.\" Option A (\"It’s intended for experienced folders\") is the incorrect description.\n[180] The text mentions \"Indus Valley Civilization,\" \"Indus-Sarasvati Civilization,\" and \"Harappan Civilization.\" Option C (\"The Indus River Civilization\") is not mentioned as a name.\n[181] The passage states \"there will always be more to gain in the short term by acting selfishly.\" Option D.\n[182] The passage mentions recruitment by Augustus, the Medical Corps, and medical techniques (amputation, tourniquets). It does not mention the formation of \"learning hospitals.\" Option C.\n[183] The passage states they engage in risky behaviors \"in order to stimulate their brain.\" Option D.\n\n```json\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1416,
+  "completion_tokens": 391,
+  "total_tokens": 1807,
+  "cost": 0.000145492,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000145492,
+   "upstream_inference_prompt_cost": 5.9472e-05,
+   "upstream_inference_completions_cost": 8.602e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

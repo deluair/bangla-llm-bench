@@ -1,0 +1,83 @@
+{
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 16.9,
+ "text": "{\"answers\": {\"4749\":\"B\",\"4827\":\"D\",\"4852\":\"D\",\"4864\":\"D\",\"4873\":\"A\",\"4952\":\"B\",\"5102\":\"A\",\"5184\":\"C\",\"5312\":\"B\",\"5342\":\"B\",\"5454\":\"C\",\"5561\":\"D\",\"5573\":\"D\",\"5582\":\"C\",\"5641\":\"C\"}}",
+ "usage": {
+  "prompt_tokens": 1636,
+  "completion_tokens": 1932,
+  "total_tokens": 3568,
+  "cost": 0.00035524,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00035524,
+   "upstream_inference_prompt_cost": 6.544e-05,
+   "upstream_inference_completions_cost": 0.0002898
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Novita",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "D",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "A",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "D",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "A",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,111 @@
+{
+ "model": "qwen3-8b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  6675,
+  6681,
+  6750,
+  6778,
+  6813,
+  6838,
+  6869,
+  6871,
+  6890,
+  6903,
+  7005,
+  7011,
+  7014,
+  7018,
+  7041
+ ],
+ "seconds": 35.7,
+ "text": "{\"answers\": {\"6675\": \"D\", \"6681\": \"B\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"C\", \"6903\": \"C\", \"7005\": \"C\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 3774,
+  "completion_tokens": 1981,
+  "total_tokens": 5755,
+  "cost": 0.001342913,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001342913,
+   "upstream_inference_prompt_cost": 0.000441558,
+   "upstream_inference_completions_cost": 0.000901355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1847,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Alibaba",
+ "answers": {
+  "7041": "B",
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "C",
+  "6903": "C",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C"
+ },
+ "answers_batch": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "C",
+  "6903": "C",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C"
+ },
+ "single": {
+  "7041": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1098,
+    "total_tokens": 1306,
+    "cost": 0.000523926,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.000523926,
+     "upstream_inference_prompt_cost": 2.4336e-05,
+     "upstream_inference_completions_cost": 0.00049959
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1093,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ }
+}

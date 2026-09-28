@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 2.1,
+ "text": "The correct options are:\n- 120: Sirena offers both dormitory lodging and camping. → **A**\n- 121: The first recreational ski club was opened by Norwegians in Australia. → **B**\n- 122: Madagascar is noted for its wildlife. → **C**\n- 123: High‑end brand‑name frames may be pricier abroad. → **B**\n- 124: The passage suggests using a company expense to cover the cost. → **A**\n- 125: Nouns are capitalized even mid‑sentence. → **B**\n- 126: The passage says day hiking is possible with babies, so saying it’s not suitable is inaccurate. → **D**\n- 127: The northern shore shows British colonial development. → **A**\n\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}",
+ "usage": {
+  "queue_time": 0.033624194,
+  "prompt_tokens": 1465,
+  "prompt_time": 0.062954697,
+  "completion_tokens": 896,
+  "completion_time": 1.881434644,
+  "total_tokens": 2361,
+  "total_time": 1.944389341,
+  "completion_tokens_details": {
+   "reasoning_tokens": 673
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

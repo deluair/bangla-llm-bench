@@ -1,0 +1,665 @@
+{
+ "task": "bnexam",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 21.7,
+ "text": "Brief reasoning for each question:\n\n1. **B.** A lack of insulin causes diabetes (বহুমূত্র).\n2. **C.** Sclerenchyma cells are dead, have thick lignified walls, and contain no chloroplasts.\n3. **C.** Reading the garbled matrix as |3 −4 2; −1 5 6; 7 −8 4|, the (1,2) cofactor is −[(−1)(4) − (6)(7)] = 46.\n4. **A.** CaCl₂ has a molar mass of 111, so 0.015 × 111 = 1.665 g/L, which is 1665 ppm.\n5. **B.** The distance from (2,3) to the line is |8 + 9 − 7|/5 = 2. The image point is twice that distance away, so 4 units.\n6. **A.** This is a guess. I believe the painter of \"The Five Senses\" is Rembrandt, who is not among the options.\n7. **D.** HI is the strongest hydrohalic acid.\n8. **B.** Bangladeshi textbooks usually give 4° as the limit; some sources say 5°.\n9. **C.** For a receding source, f′ = 120 × 320 / (320 + 15) ≈ 114.6 Hz.\n10. **C.** The period depends on the effective length. I read \"দোলনকার\" as a typo for \"দোলনকাল\".\n11. **C.** Atrial systole lasts about 0.1 s.\n12. **B.** This is a guess, because the objective function is missing from the question. The feasible region's corners are (0,0), (5,0), (4,2) and (0,4). An objective like 9x + 5y would give a maximum of 46 at (4,2).\n13. **C.** The average temperature is about 15 °C.\n14. **A.** l must be less than n, so l = 3 is impossible when n = 3.\n15. **D.** Radial, concentric and collateral are vascular bundle types; \"symmetric\" is not.\n\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"B\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"A\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"B\", \"752de91a-4a2e-4c17-b275-f73ebde26e01-59185\": \"C\", \"753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591\": \"C\", \"75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886\": \"C\", \"7618488d-de61-4487-ada3-2eb2618165d7-84216\": \"B\", \"764f6eda-81b0-45a0-bb6d-44c26c53782e-7306\": \"C\", \"7690d276-0c68-4558-8bec-453730563cce-1991\": \"A\", \"76d2d03f-237f-4d28-82a5-1607191c62e2-121114\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2696,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2072,
+  "output_tokens_details": {
+   "thinking_tokens": 908
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2696,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2072,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2696,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2696
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.063016,
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "A",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "B",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "B",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ },
+ "single": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 581,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 581,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 581,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 581
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 616,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 616,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 616,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 616
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 593,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 74,
+    "output_tokens_details": {
+     "thinking_tokens": 71
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 593,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 74,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 593,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 593
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 566,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 44,
+    "output_tokens_details": {
+     "thinking_tokens": 41
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 566,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 44,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 566,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 566
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 604,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 46,
+    "output_tokens_details": {
+     "thinking_tokens": 43
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 604,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 46,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 604,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 604
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 625,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 330,
+    "output_tokens_details": {
+     "thinking_tokens": 327
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 625,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 330,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 625,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 625
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 561,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 561,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 561,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 561
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 613,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 120,
+    "output_tokens_details": {
+     "thinking_tokens": 117
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 613,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 613,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 613
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 676,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 21,
+    "output_tokens_details": {
+     "thinking_tokens": 18
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 676,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 21,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 676,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 676
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 696,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 62,
+    "output_tokens_details": {
+     "thinking_tokens": 59
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 696,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 62,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 696,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 696
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 569,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 569,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 569,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 569
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": {
+   "text": "**D**\n\nThe question is missing its objective function, so this is a best guess. The corner points of the feasible region are (0,0), (5,0), (4,2) and (0,4). One plausible objective, z = 8x + 8y, gives a maximum of 48 at (4,2).",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 624,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 783,
+    "output_tokens_details": {
+     "thinking_tokens": 694
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 624,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 783,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 624,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 624
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 602,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 602,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 602,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 602
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "7690d276-0c68-4558-8bec-453730563cce-1991": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 663,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 663,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 663,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 663
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 592,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 120,
+    "output_tokens_details": {
+     "thinking_tokens": 117
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 592,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 592,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 592
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  }
+ },
+ "answers": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "A",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "B",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "B",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ }
+}

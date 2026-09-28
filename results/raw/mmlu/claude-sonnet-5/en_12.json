@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "6675",
+  "6681",
+  "6750",
+  "6778",
+  "6813",
+  "6838",
+  "6869",
+  "6871",
+  "6890",
+  "6903",
+  "7005",
+  "7011",
+  "7014",
+  "7018",
+  "7041"
+ ],
+ "seconds": 6.1,
+ "text": "{\"answers\": {\"6675\": \"D\", \"6681\": \"B\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"D\", \"6903\": \"A\", \"7005\": \"C\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"C\", \"7041\": \"C\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1873,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 425,
+  "output_tokens_details": {
+   "thinking_tokens": 310
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1873,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 425,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1873,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1873
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011746,
+ "answers_batch": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ },
+ "single": {},
+ "answers": {
+  "6675": "D",
+  "6681": "B",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ }
+}

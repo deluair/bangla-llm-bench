@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 43.1,
+ "text": "Here are the answers:\n\n[id 288]\nPassage: In remote locations, without cell phone coverage, a satellite phone may be your only option. A satellite phone is not generally a replacement for a mobile phone, as you have to be outdoors with clear line of sight to the satellite to make a phone call. The service is frequently used by shipping, including pleasure craft, as well as expeditions who have remote data and voice needs. Your local telephone service provider should be able to give more information about connecting to this service.\nQuestion: When would a satellite phone be preferable to a cell phone?\nAnswer: B) During a boating trip\n\n[id 289]\nPassage: \"Since Montevideo is south of the Equator, it is summer there when it's winter in the Northern Hemisphere and vice versa. Montevideo is in the subtropics; in the summer months, temperatures above +30°C are common. The winter can be deceptively chilly: temperatures rarely go below freezing, but the wind and humidity combine to make it feel colder than what the thermometer says. There are no particular \"\"rainy\"\" and \"\"dry\"\" seasons: the amount of rain stays roughly the same throughout the year.\"\nQuestion: According to the passage, when should a traveler visit Montevideo if they are partial to a cooler climate?\nAnswer: D) When it’s winter in the Northern Hemisphere\n\n[id 290]\nPassage: If you want to fly around the world completely in the Southern Hemisphere, the choice of flights and destinations is limited due to the lack of transoceanic routes. No airline alliance covers all three ocean crossings in the Southern Hemisphere (and SkyTeam covers none of the crossings). However, Star Alliance covers everything except the eastern South Pacific from Santiago de Chile to Tahiti, which is a LATAM Oneworld flight. This flight is not the only option if you want to skip the South Pacific and the west coast of South America. (see below)\nQuestion: Which airline alliance covers the least amount of ocean crossings in the Southern Hemisphere?\nAnswer: D) SkyTeam\n\n[id 291]\nPassage: While San Francisco's economy is linked to it being a world-class tourist attraction, its economy is diversified. The largest employment sectors are professional services, government, finance, trade, and tourism. Its frequent portrayal in music, films, literature and popular culture has helped make the city and its landmarks known throughout the world. San Francisco has developed a large tourist infrastructure with numerous hotels, restaurants, and top-notch convention facilities. San Francisco is also one of the best places in the nation for other Asian cuisine: Korean, Thai, Indian, and Japanese.\nQuestion: According to the passage, which of the following statements about San Francisco is not true?\nAnswer: D) The economy is entirely reliant on tourism\n\n[id 292]\nPassage: Entering Southern Africa by car is an amazing way to see all the region's beauty as well as to get to places off the normal tourist routes. This can be done in a normal car with careful planning but a 4x4 is highly advised and many locations are only accessible with a high wheel base 4x4. Keep in mind while planning that although Southern Africa is stable not all neighboring countries are. Visa requirements and costs vary from nation to nation and are affected by the country you come from. Each country also has unique laws requiring what emergency items need to be in the car.\nQuestion: According to the passage, what would be considered bad advice for tourists looking to explore Southern Africa by car?\nAnswer: B) Though a 4x4 is recommended, most locations are accessible with a normal vehicle\n\n[id 293]\nPassage: Fill your home with a rich coffee in the morning and some relaxing chamomile tea at night. When you're on a staycation, you have the time to treat yourself and take a few extra minutes to brew up something special. If you're feeling more adventurous, take the opportunity to juice or blend up some smoothies: maybe you'll discover a simple beverage that you can make for breakfast when you're back to your daily routine. If you live in a city with a varied drinking culture, go to bars or pubs in neighborhoods you don't frequent.\nQuestion: Which of the following should you visit during a staycation if your city is known for its drinking culture?\nAnswer: C) Pubs you don’t normally frequent\n\n[id 294]\nPassage: \"Combined with its relative inaccessibility, \"\"Timbuktu\"\" has come to be used as a metaphor for exotic, distant lands. Today, Timbuktu is an impoverished town, although its reputation makes it a tourist attraction, and it has an airport. In 1990, it was added to the list of world heritage sites in danger, due to the threat of desert sands. It was one of the major stops during Henry Louis Gates' PBS special Wonders of the African World. The city is in stark contrast to the rest of the country's cities, because it has more of an Arabic flair than of an African.\"\nQuestion: Which of the following facts about Timbuktu is true?\nAnswer: A) The city is accessible by plane\n\n[id 295]\nPassage: Travel agencies have been around since the 19th century. A travel agent is usually a good option for a journey which extends beyond a traveller's previous experience of nature, culture, language or low-income countries. Although most agencies are willing to take on most regular bookings, many agents specialise in particular types of travel, budget ranges or destinations. It can be better to use an agent who frequently books similar trips to yours. Take a look at what trips the agent is promoting, whether on a website or in a shop window.\nQuestion: According to the passage, in which scenario would a traveler most benefit from the help of a travel agent?\nAnswer: B) When the traveler is interested in booking a speciality excursion for the first time\n\n{\"answers\": {\"288\": \"B\", \"289\": \"D\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1547,
+  "completion_tokens": 1268,
+  "total_tokens": 2815,
+  "cost": 8.166e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.166e-05,
+   "upstream_inference_prompt_cost": 3.094e-05,
+   "upstream_inference_completions_cost": 5.072e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "288": "B",
+  "289": "D",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "D",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

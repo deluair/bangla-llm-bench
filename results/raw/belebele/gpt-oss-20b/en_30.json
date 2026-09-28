@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 29.7,
+ "text": "{\"answers\": {\"240\":\"B\",\"241\":\"B\",\"242\":\"B\",\"243\":\"B\",\"244\":\"B\",\"245\":\"B\",\"246\":\"C\",\"247\":\"D\"}}",
+ "usage": {
+  "prompt_tokens": 1296,
+  "completion_tokens": 675,
+  "total_tokens": 1971,
+  "cost": 9.342e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.342e-05,
+   "upstream_inference_prompt_cost": 2.592e-05,
+   "upstream_inference_completions_cost": 6.75e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "AkashML",
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

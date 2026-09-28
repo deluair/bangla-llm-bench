@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 13.8,
+ "text": "Here are the answers with reasoning:\n\n---\n**id 24**: The \"Rule of Thirds\" is about dividing the image into thirds and placing the subject at the intersection of those lines to create balance and dynamism. Option **A** is incorrect because it describes a baseline, which is not part of the rule itself.\n\n**id 25**: The 35mm format is widely used, its aspect ratio (3:2) is inherited by digital cameras, and other formats have similar aspect ratios. Option **C** is incorrect because the 35mm format does **not** have a different aspect ratio compared to other common formats—it is the standard.\n\n**id 26**: Mysticism emphasizes direct personal experience of spiritual truth, often in a peaceful or enlightened state. Option **D** is misleading because mysticism is **not** compared to other religious practices—it is described as distinct from them.\n\n**id 27**: The passage mentions Harappa, the Indus/Saraswati region, and parts of modern-day Pakistan and Afghanistan. Option **C** is incorrect because it states \"all regions\" of northeast Afghanistan, which is not explicitly mentioned.\n\n**id 28**: The passage states that the Filipino people bore the cost of the war, not the Philippine government or Wall Street banks. Option **D** is correct.\n\n**id 29**: The passage mentions morphine (from poppy seeds), scopolamine (from herb seeds), clamping arteries, and amputating infected limbs. Option **A** is incorrect because there is no mention of treating PTSD with sleep-inducing drugs.\n\n**id 30**: The passage states that vision depends on the visual system (eyes) and the organism's needs, but it does not specify that it depends on a single factor like \"specific wavelength sensitivity\" or \"sharpness degrees.\" The correct answer is **A**, as the visual system itself is the primary dependency.\n\n**id 31**: The passage states that Sikhism emerged from Hindu sectarian divisions but is distinct, with Guru Nanak as its founder and 9 subsequent Gurus. Option **D** is incorrect because Sikhism does **not** have \"some rituals\" rooted in Hinduism—it is a separate tradition with its own practices.\n\n---\n```json\n{\n  \"answers\": {\n    \"24\": \"A\",\n    \"25\": \"C\",\n    \"26\": \"D\",\n    \"27\": \"C\",\n    \"28\": \"D\",\n    \"29\": \"A\",\n    \"30\": \"A\",\n    \"31\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2693,
+  "completion_tokens": 546,
+  "total_tokens": 3239,
+  "cost": 0.00048585,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00048585,
+   "upstream_inference_prompt_cost": 0.00040395,
+   "upstream_inference_completions_cost": 8.19e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ }
+}

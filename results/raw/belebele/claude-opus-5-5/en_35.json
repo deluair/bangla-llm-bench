@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 4.7,
+ "text": "**280:** B. The love legend belongs to Callejón del Beso, a separate site, not the Jardín de la Unión.\n\n**281:** B. The plateaus are described as treeless, so forested plateaus would not be typical.\n\n**282:** C. The tourist season peaks during the Indian summer.\n\n**283:** D. The passage says the best views are from the Kowloon waterfront.\n\n**284:** D. VPNs reroute all traffic, not only http, so this statement is false.\n\n**285:** A. You often need to buy a global number so that PSTN phones can call you.\n\n**286:** B. Political influence is not mentioned as something Jerusalem is known for.\n\n**287:** B. Wraps, skirts and trousers are lent out, but shorts are not.\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2429,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 53
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 352,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.02648,
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

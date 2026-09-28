@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 88.1,
+ "text": "Looking at each passage carefully:\n\n**[id 232]** - The passage explicitly states the disease \"মশার মাধ্যমে মানুষের দেহে স্থানান্তরিত হয়\" (is transferred to humans through mosquitoes).\n**Answer: A**\n\n**[id 233]** - The passage mentions multiple incidents: \"জলদস্যুরা তার থেকে লুট করেছিল, তিব্বতে হিংস্র কুকুর আক্রমণ করেছিল\" - a dog attacked him.\n**Answer: C**\n\n**[id 234]** - The passage states Judge Glen's temporary order was against \"কোর্ট কমিশনার কর্তৃক শুনানি না পেয়ে 24 ঘণ্টারও বেশি সময় ধরে আটক থাকা\" - holding without a hearing by the court commissioner. Therefore those detained over 24 hours must be given a hearing.\n**Answer: D**\n\n**[id 235]** - The passage lists all nominations including: best picture, director, cinematography, costume design, film editing, original score, production design, sound editing, sound mixing, and original screenplay. Visual effects are NOT mentioned.\n**Answer: B**\n\n**[id 236]** - The passage states \"কিছু রাস্তা নষ্ট হয়েছে\" (some roads were damaged), while it says the nuclear plants operated normally with reactors merely shut down as precaution, and the airport was closed (not damaged).\n**Answer: C**\n\n**[id 237]** - Palestinian demands mentioned are: (A) pre-1967 borders and (C) future Jerusalem status. Regarding military presence, the passage says Israel demanded 10 years while PA compromised at 5 years - this was not a Palestinian demand but rather something they resisted and negotiated down.\n**Answer: B**\n\n**[id 238]** - The passage clearly states \"2009 সালে হাঙ্গেরিয়ান গ্র্যান্ড প্রিক্সে দুর্ঘটনার পরে\" (during/after the Hungarian Grand Prix in 2009).\n**Answer: A**\n\n**[id 239]** - The passage states \"পুলিশ জানিয়েছে যে তারা হামলার জন্য অভিযুক্ত দায়েশ (ISIL) জঙ্গিকে সন্দেহ করেছে\" (Police reported they suspected ISIS militants).\n**Answer: A**\n\n```json\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4672,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8130,
+  "output_tokens_details": {
+   "thinking_tokens": 7408
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4672,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 8130,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4672,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4672
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.050003,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

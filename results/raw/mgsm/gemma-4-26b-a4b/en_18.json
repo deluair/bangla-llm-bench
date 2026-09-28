@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 23.2,
+ "text": "To solve these problems:\n\n[180] Total votes = 80. Winner got 3/4 of 80 = 60 votes. Loser got 80 - 60 = 20 votes.\n[181] Pink calla lilies = 200. White carnations = 200 / 5 = 40. Red roses = 4 * 40 = 160.\n[182] Jan = 30. Two years ago, Jan was 28. Half Jan's age two years ago was 14. Mark was 5 years older than that, so Mark was 14 + 5 = 19. If Mark was 19 two years ago, Mark is 21 now. Jean is 2 years older than Mark, so Jean is 23.\n[183] Team 1 time: 4 * 55 = 220 seconds. Team 2 times: 60, 57, 54, 51. Total Team 2 time: 60 + 57 + 54 + 51 = 222 seconds. Team 1 wins by 222 - 220 = 2 seconds.\n[184] P(number > 3) = P(4, 5, 6) = 3/6 = 1/2 (50%). P(two even numbers in a row) = (1/2) * (1/2) = 1/4 (25%). Difference = 50% - 25% = 25%.\n[185] Mom = 20. Jenna = 20 / 2 = 10. Total = 20 + 10 = 30.\n[186] Let $r$ be rats per cage. Rats = $3r$. Straw for rats = $3r \\times 6 = 18r$. Hamsters = 10 cages (assume 1 per cage) = 10 hamsters. Straw for hamsters = $10 \\times 5 = 50$. Rabbits straw = 20. Total straw = $18r + 50 + 20 = 160$. $18r + 70 = 160 \\implies 18r = 90 \\implies r = 5$.\n[187] Simple interest: $100 + (0.02 \\times 100 \\times 3) = 100 + 6 = 106$. (If compound: $100 \\times 1.02^3 = 106.12$. Standard practice for such math problems usually implies simple interest unless stated. $100 \\times 1.02 \\times 1.02 \\times 1.02 = 106.1208$. However, \"monthly interest of 2%\" usually implies simple monthly interest applied to the principal in basic word problems). Let's check $100(1.02)^3 \\approx 106.12$. Looking at the context, 106 is a cleaner answer.\n[188] Cost per bag = $20 + $2 = $22. Selling price per bag = $30. Profit per bag = $30 - $22 = $8. Total profit = $400. Number of bags = $400 / $8 = 50.\n[189] Tickets = $20.25. Food = $20.25 - $4.50 = $15.75. Rides = 2 * $33 = $66. Total cost = $20.25 + $15.75 + $66 = $102. Total people = 3. Each pays = $102 / 3 = $34.\n\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 23, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}",
+ "usage": {
+  "prompt_tokens": 871,
+  "completion_tokens": 980,
+  "total_tokens": 1851,
+  "cost": 0.0003811,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003811,
+   "upstream_inference_prompt_cost": 8.71e-05,
+   "upstream_inference_completions_cost": 0.000294
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

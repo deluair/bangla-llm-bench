@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201"
+ ],
+ "seconds": 67.2,
+ "text": "\n\n1. **Physics/Chemistry (Atomic):** When an electron is added to a neutral gaseous atom, the energy change is called **Electron Affinity**.\n2. **Mathematics:** $\\alpha = \\tan^{-1}(1/2) \\implies \\tan \\alpha = 1/2$. $\\beta = \\cot^{-1}(3) \\implies \\tan \\beta = 1/3$. $\\tan(\\alpha+\\beta) = \\frac{1/2+1/3}{1-(1/2)(1/3)} = \\frac{5/6}{5/6} = 1$. $\\alpha+\\beta = 45^\\circ$. $\\sin(45^\\circ) = 1/\\sqrt{2}$.\n3. **Electrochemistry:** $m = \\frac{Q \\times E}{F} = \\frac{2.5 \\times 1800 \\times 197 / 3}{96500} \\approx 3.06$ g.\n4. **Physics (Nobel):** 2020 Nobel Prize in Physics was awarded to Roger Penrose, Reinhard Genzel, and Andrea Ghez. Genzel is the correct option.\n5. **Chemistry:** Iron is not the standard lab choice (Zinc is), but among the given options, it is the only one referencing a metal for H2 production that isn't chemically impossible (like Cu+HCl). It highlights cost/availability, a common trade-off in industrial contexts or introductory texts. Options B and D are chemically incorrect (HNO3 with active metals gives oxides; Hg/Cu are passive).\n6. **Physics (Capillarity):** Mercury does not wet glass (contact angle > 90°), so it shows capillary depression. It goes down.\n7. **Chemistry (Organic):** Furan has a 6 $\\pi$ electron aromatic system (4 from double bonds + 2 lone pair from Oxygen).\n8. **Literature:** \"সভ্যতার সংকট\" (Crisis of Civilization) is an essay collection by Rabindranath Tagore.\n9. **Biology:** The nucleus is clearly visible during Interphase. During division (Prophase, Metaphase, Anaphase), the nuclear envelope dissolves.\n10. **Economics:** The Sveriges Riksbank Prize in Economic Sciences was first awarded in 1969.\n11. **Literature:** The specific technical difference isn't covered by A, B, or C accurately in standard terminology, so \"None of these\" is the safe choice.\n12. **Physics (Superconductivity):** Lead becomes superconducting at ~7.2 K which is approx $-266^\\circ$C.\n13. **Informatics:** In standard HTML tags for display of \"p2\" (squared), `<sup>` is used.\n14. **Biology (Genetics):** Duplicate Recessive Epistasis results in a modified dihybrid ratio of 9:7.\n15. **Chemistry (Chromatography):** Adsorption order on silica depends on polarity. Carboxyl (COOH) is more polar than Hydroxyl (OH), Amino (NH2), and Aldehyde (CHO).\n\n{\"answers\": {\"b38253e1-6890-442a-b951-96068e9d8b84-143692\": \"B\", \"b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867\": \"C\", \"b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362\": \"D\", \"b4d09688-21d6-4bca-9b5f-90230b1281c9-19616\": \"A\", \"b76637b1-ac57-4517-acb9-b393f55567c8-86394\": \"A\", \"b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235\": \"C\", \"b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566\": \"B\", \"b935c5f8-8023-45af-a6ff-b42de66f722e-76058\": \"A\", \"b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393\": \"C\", \"baf737d2-079d-47b5-a982-30aba341d89f-120791\": \"A\", \"bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626\": \"D\", \"be4a3522-18fa-465a-8700-c84222c180e2-41217\": \"C\", \"c087e32c-2993-4b42-a233-2355f664e5aa-64021\": \"B\", \"c1bffdc8-5816-47ae-98af-17f1e121dd03-35387\": \"B\", \"c412b5db-8301-4709-8b13-3128e6ad966d-25201\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 2060,
+  "completion_tokens": 10036,
+  "total_tokens": 12096,
+  "cost": 0.0017114,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017114,
+   "upstream_inference_prompt_cost": 0.000206,
+   "upstream_inference_completions_cost": 0.0015054
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8656,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692": "B",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867": "C",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362": "D",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616": "A",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394": "A",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235": "C",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566": "B",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058": "A",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393": "C",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791": "A",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626": "D",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217": "C",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021": "B",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387": "B",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201": "A"
+ },
+ "single": {},
+ "answers": {
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692": "B",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867": "C",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362": "D",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616": "A",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394": "A",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235": "C",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566": "B",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058": "A",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393": "C",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791": "A",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626": "D",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217": "C",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021": "B",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387": "B",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201": "A"
+ }
+}

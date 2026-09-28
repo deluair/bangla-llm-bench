@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "10694",
+  "11167",
+  "11431",
+  "11486",
+  "11690",
+  "12239",
+  "12247",
+  "12303",
+  "12421",
+  "12423",
+  "12582",
+  "12609",
+  "12674",
+  "12915",
+  "13027"
+ ],
+ "seconds": 81.2,
+ "text": "# Analysis of Multiple-Choice Questions\n\nLet me work through these systematically:\n\n**[10694] Emotional distress tort case:** The friend's conduct (pulling a gun, threatening to kill) was extreme and outrageous. The friend knew the woman was present and easily upset. This creates reasonable foreseeability of severe emotional distress. **Answer: C**\n\n**[11167] Contract/third-party beneficiary:** The worker contracted with the carpeting company, not the homeowners. The company received payment. The worker's contractual claim is against the company that hired them. **Answer: B**\n\n**[11431] Assumption of risk defense:** The sign only warned the lift was \"not available,\" not that there was a dangerous open shaft. Assumption of risk requires actual or constructive knowledge of the *specific danger*. The sign failed to adequately explain what hazard existed. **Answer: C**\n\n**[11486] Double jeopardy/separate sovereigns:** The separate sovereigns doctrine allows different states to prosecute for the same conduct because each is a distinct sovereign. State A and State B each have authority to enforce their own laws. **Answer: B**\n\n**[11690] Search warrant scope:** The warrant didn't adequately specify that a separate second-floor apartment would be searched. Once police discovered a separate residence with a different occupant, they exceeded the warrant's scope. **Answer: B**\n\n**[12239] COPD with pneumothorax:** Patient is agitated, hostile, tachycardic with nearly absent breath sounds on treated side. This suggests ventilation failure requiring immediate intervention—manual bag-valve mask ventilation ensures adequate oxygenation while awaiting imaging. **Answer: C**\n\n**[12247] Psychiatric diagnosis:** The menstrual cycle-dependent pattern (anxiety/insomnia premenstrually; depression/anorexia/fatigue during menses) is consistent with cyclothymic cycling mood pattern. This best fits among available options. **Answer: C**\n\n**[12303] Genital lesions:** Sessile, skin-colored, 10mm lesions that acetowhiten are consistent with genital warts (HPV). Cryotherapy is standard treatment for genital warts. **Answer: D**\n\n**[12421] Acute urticaria:** First episode of self-limited acute hives doesn't warrant extensive allergic workup or specialist referral. Symptomatic treatment with antihistamines is most appropriate. **Answer: D**\n\n**[12423] Pediatric otitis media finding:** Brown irregular mass behind intact tympanum in child with recurrent otitis media suggests middle ear effusion with fluid/debris accumulation. **Answer: C**\n\n**[12582] Competency to stand trial:** Competency evaluation focuses on whether the defendant understands the charges against them, understands legal proceedings, and can assist counsel—not on right/wrong distinction or mental state during crime. **Answer: B**\n\n**[12609] Maternal recall accuracy:** Mothers' memories are most accurate for concrete, objectively measurable milestones—motor development and weight gain—especially if recorded in pediatric charts. **Answer: D**\n\n**[12674] WAIS-III interpretation:** Significantly higher Verbal than Performance IQ often indicates learning disabilities affecting perceptual-motor or processing speed skills. **Answer: A**\n\n**[12915] Privileged person:** Physician-patient privilege is held by the *patient*, who may assert or waive it. **Answer: B**\n\n**[13027] Research ethics violation:** Non-disclosure of withdrawal rights violates informed consent. The appropriate action is to discuss this potential ethics violation with your supervisor through proper channels. **Answer: C**\n\n```json\n{\"answers\": {\"10694\": \"C\", \"11167\": \"B\", \"11431\": \"C\", \"11486\": \"B\", \"11690\": \"B\", \"12239\": \"C\", \"12247\": \"C\", \"12303\": \"D\", \"12421\": \"D\", \"12423\": \"C\", \"12582\": \"B\", \"12609\": \"D\", \"12674\": \"A\", \"12915\": \"B\", \"13027\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 9568,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6895,
+  "output_tokens_details": {
+   "thinking_tokens": 5953
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9568,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 6895,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9568,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9568
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.05362,
+ "answers_batch": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "B",
+  "12239": "C",
+  "12247": "C",
+  "12303": "D",
+  "12421": "D",
+  "12423": "C",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "single": {},
+ "answers": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "B",
+  "12239": "C",
+  "12247": "C",
+  "12303": "D",
+  "12421": "D",
+  "12423": "C",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ }
+}

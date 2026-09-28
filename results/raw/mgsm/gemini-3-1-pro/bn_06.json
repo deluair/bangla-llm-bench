@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 30.9,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n**[id 60]** \nOut of 25 oranges, 1 is bad, 20% of 25 (which is 5) are unripe, and 2 are sour. \nThe number of good oranges is: 25 - 1 - 5 - 2 = 17.\n\n**[id 61]** \nThe cost to make the brooch is $500 (materials) + $800 (jeweler) = $1,300. \nInsurance is 10% of $1,300 = $130. \nTotal money paid: $1,300 + $130 = $1,430.\n\n**[id 62]** \nShe is eligible for 5% of her pension for every year worked starting after 20 years. \nSince she worked for 30 years, she has accumulated 10 years of eligibility (30 - 20 = 10). \n10 years × 5% = 50% of the pension value. \n50% of $50,000 = $25,000.\n\n**[id 63]** \nIn the first half of the year (6 months), she paid $140/month: 6 × $140 = $840. \nIn the second half, the price was 10% less ($140 - $14 = $126). \nFor the next 6 months, she paid: 6 × $126 = $756. \nTotal paid = $840 + $756 = $1,596.\n\n**[id 64]** \nSophia drove 100 miles on 4 gallons, which means her car gets 100 / 4 = 25 miles per gallon. \nWith a full tank of 12 gallons, she can drive 12 × 25 = 300 miles.\n\n**[id 65]** \nEach time, Jim spends 2 hours watching TV and 1 hour reading (half of 2), totaling 3 hours. \nHe does this 3 times a week, meaning he spends 3 × 3 = 9 hours per week. \nIn 4 weeks, he spends 9 × 4 = 36 hours.\n\n**[id 66]** \nThere are 4 schools. \nEach school sent 2 teams (boys and girls), and each team has 5 players and 1 coach (6 people per team). \nPeople per school = 2 teams × 6 people/team = 12. \nTotal people sent by all 4 schools = 4 × 12 = 48.\n\n**[id 67]** \nDiamonds = 175. \nRubies = 175 - 35 = 140. \nEmeralds = 140 × 2 = 280. \nTotal gems = 175 + 140 + 280 = 595.\n\n**[id 68]** \nGirls = 60. \nBoys = 60 × 2 = 120. \nTotal students = 60 + 120 = 180. \nWith 5 students per teacher, the number of teachers is 180 / 5 = 36.\n\n**[id 69]** \nBailey received $5/week for 8 weeks, totaling $40 from her allowance. \nIf she ended up with $100, she must have started with $100 - $40 = $60.\n\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}\n",
+ "usage": {
+  "input_tokens": 16778,
+  "output_tokens": 4080,
+  "thinking_tokens": 3127,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20858
+ },
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

@@ -1,0 +1,253 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 6.6,
+ "text": "Here are the answers to the multiple-choice questions:\n\n{id 56}\nOperation Sealion was an invasion of Britain.\n\n{\"answers\": {\"56\": \"B\"}}\n\n{id 57}\nDestroying British bases is a necessary step in Italy’s plan to capture African countries.\n\n{\"answers\": {\"57\": \"D\"}}\n\n{id 58}\nThe Soviets violated an agreement.\n\n{\"answers\": {\"58\": \"D\"}}\n\n{id 59}\nThere was no fire in Santa Clara.\n\n{\"answers\": {\"59\": \"A\"}}\n\n{id 60}\nThe prison was set on fire.\n\n{\"answers\": {\"60\": \"D\"}}\n\n{id 61}\nEach Reading Rainbow episode offered kids recommendations for books.\n\n{\"answers\": {\"61\": \"D\"}}\n\n{id 62}\nThere was no argument made by officials that the tree should be preserved.\n\n{\"answers\": {\"62\": \"B\"}}\n\n{id 63}\nPoland did not move forward with their signed ACTA agreement.\n\n{\"answers\": {\"63\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1290,
+  "completion_tokens": 206,
+  "total_tokens": 1496,
+  "cost": 3.404e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.404e-05,
+   "upstream_inference_prompt_cost": 2.58e-05,
+   "upstream_inference_completions_cost": 8.24e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "63": "B"
+ },
+ "single": {
+  "56": {
+   "text": "B)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 3,
+    "total_tokens": 198,
+    "cost": 4.05e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.05e-06,
+     "upstream_inference_prompt_cost": 3.9e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "57": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 2,
+    "total_tokens": 234,
+    "cost": 4.72e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.72e-06,
+     "upstream_inference_prompt_cost": 4.64e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "58": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 190,
+    "completion_tokens": 3,
+    "total_tokens": 193,
+    "cost": 3.95e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.95e-06,
+     "upstream_inference_prompt_cost": 3.8e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "59": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 187,
+    "completion_tokens": 2,
+    "total_tokens": 189,
+    "cost": 3.82e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.82e-06,
+     "upstream_inference_prompt_cost": 3.74e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "60": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 3,
+    "total_tokens": 125,
+    "cost": 2.59e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.59e-06,
+     "upstream_inference_prompt_cost": 2.44e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "61": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 2,
+    "total_tokens": 228,
+    "cost": 4.6e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.6e-06,
+     "upstream_inference_prompt_cost": 4.52e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "62": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 2,
+    "total_tokens": 165,
+    "cost": 3.34e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.34e-06,
+     "upstream_inference_prompt_cost": 3.26e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "56": "B",
+  "57": "A",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

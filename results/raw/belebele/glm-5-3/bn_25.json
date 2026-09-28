@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 19.3,
+ "text": "Brief reasoning:\n\n- **200**: The passage states Hindi and Urdu share similar vocabulary but have different scripts (অক্ষর আলাদা). → **B**\n- **201**: The alphabet originally named Hunmin Jeongeum later became known as Hangul. → **B**\n- **202**: Sanskrit faded due to the priestly hierarchy (যাজকতন্ত্র), best matched by the option about hierarchical order. → **D**\n- **203**: The crust is thicker in the highlands (উচ্চভূমিতে মোটা). → **C**\n- **204**: The Amazon is the second-longest river, not the longest. → **C**\n- **205**: Two-thirds of workers are in the service sector, the largest share. → **A**\n- **206**: A fusion reactor would produce energy like stars do. → **D**\n- **207**: Italy's main goal was to conquer the African countries. → **A**\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 1032,
+  "completion_tokens_details": {
+   "reasoning_tokens": 727
+  },
+  "prompt_tokens": 4538,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5570
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

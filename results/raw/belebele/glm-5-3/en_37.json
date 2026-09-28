@@ -1,0 +1,39 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 5.3,
+ "text": "**296:** The passage states that standard 35 mm film \"gives resolution roughly comparable to a current DSLR,\" so the answer is A.\n\n**297:** The passage explicitly says the tickets are non-transferable, making statement A false, while B, C, and D are all supported by the passage.\n\n**298:** The passage advises getting out of the current first, then swimming back normally, and aiming where you won't be caught again — matching option A.\n\n**299:** The passage mentions strong odors, failure to maintain distance, and feeding wildlife as causes/contributors to attacks. It never mentions animals being unfamiliar with humans (in fact, it says many animals are used to seeing humans), so D is the answer.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 375,
+  "completion_tokens_details": {
+   "reasoning_tokens": 189
+  },
+  "prompt_tokens": 832,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 1207
+ },
+ "served_by": null,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

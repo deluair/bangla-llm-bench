@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 32.6,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n*   **[id 140]** Total cars = 20. Automatic = 12, Manual = 4. Semi-automatic = 20 - 12 - 4 = 4 cars. Percentage = (4/20) * 100 = 20%.\n*   **[id 141]** Let Queen bees = Q. Baby bees = 2Q. Worker bees = 2 * Baby bees = 4Q. Total bees = Q + 2Q + 4Q = 7Q = 700. So, Q = 100. Worker bees = 4 * 100 = 400.\n*   **[id 142]** Jordan plays 2 hours a day, which is 14 hours a week. If he worked those 14 hours at $10/hour, he would earn 14 * 10 = $140.\n*   **[id 143]** Non-food items: light bulbs ($3), cups ($3), roach traps ($4) = $10. 10% tax on $10 is $1. Food items: milk ($2), eggs ($3) = $5. Total cost = $10 + $1 + $5 = $16.\n*   **[id 144]** Total customers = 3 + 5 = 8. Cost per customer = (2 bottles * $2) + (1 packet * $5) = $4 + $5 = $9. Total weekly cost = 8 * $9 = $72. Profit = Income - Cost = $92 - $72 = $20.\n*   **[id 145]** Total pineapples per harvest = 10 hectares * 100 = 1000 pineapples. He harvests every 3 months (4 times a year). Total in a year = 1000 * 4 = 4000 pineapples.\n*   **[id 146]** First set = 500 pieces. Second set = 3 * 500 = 1500. Third set = 500 / 4 = 125. Total pieces = 500 + 1500 + 125 = 2125.\n*   **[id 147]** First 6 hours: 30 bees leave (30 outside). Next 6 hours: 1/2 of 30 = 15 return (15 still outside). Next 6 hours: 2 * 30 = 60 leave (15 + 60 = 75 outside). Last 6 hours: all 75 missing bees return.\n*   **[id 148]** Cost of tickets = $12 (adult) + $10 (child) = $22. With $8 change, she gave the cashier $22 + $8 = $30.\n*   **[id 149]** Charlie has 12 friends. Charlie = 3 * Dorothy, so Dorothy = 12 / 3 = 4 friends. James = 4 * Dorothy, so James = 4 * 4 = 16 friends.\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}\n",
+ "usage": {
+  "input_tokens": 16918,
+  "output_tokens": 4360,
+  "thinking_tokens": 3511,
+  "cache_read_tokens": 8140,
+  "total_tokens": 21278
+ },
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

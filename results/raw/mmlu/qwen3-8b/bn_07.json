@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-8b",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  3308,
+  3347,
+  3412,
+  3438,
+  3441,
+  3466,
+  3493,
+  3553,
+  3595,
+  3628,
+  3647,
+  3650,
+  3672,
+  3748,
+  3762
+ ],
+ "seconds": 34.5,
+ "text": "{\"answers\": {\"3308\": \"C\", \"3347\": \"C\", \"3412\": \"C\", \"3438\": \"A\", \"3441\": \"C\", \"3466\": \"C\", \"3493\": \"C\", \"3553\": \"A\", \"3595\": \"C\", \"3628\": \"D\", \"3647\": \"B\", \"3650\": \"A\", \"3672\": \"D\", \"3748\": \"A\", \"3762\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 9123,
+  "completion_tokens": 1442,
+  "total_tokens": 10565,
+  "cost": 0.001723501,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001723501,
+   "upstream_inference_prompt_cost": 0.001067391,
+   "upstream_inference_completions_cost": 0.00065611
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1299,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Alibaba",
+ "answers": {
+  "3308": "C",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "C",
+  "3553": "A",
+  "3595": "C",
+  "3628": "D",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "answers_batch": {
+  "3308": "C",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "C",
+  "3553": "A",
+  "3595": "C",
+  "3628": "D",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {}
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 23.6,
+ "text": "Here is the reasoning for each of the multiple-choice questions based on the provided passages:\n\n**[id 112]**\nThe passage states, \"Some studies suggest that the disease must become less lethal before it can cause a global epidemic.\" Therefore, the correct option is **A**.\n\n**[id 113]**\nThe passage mentions, \"However, the reduction of the threat level to severe...\" which implies that the threat level was successfully reduced. Therefore, the correct option is **A**.\n\n**[id 114]**\nThe passage explicitly states that \"...India only made 36 runs loosing 7 wickets to end the innings.\" Therefore, the correct option is **B**.\n\n**[id 115]**\nThe passage advises against just joining the airline you fly the most, pointing out that \"frequent flyer points may be more generous under a different airline in the same alliance,\" meaning points should be a priority. Therefore, the correct option is **A**.\n\n**[id 116]**\nThe passage specifies that \"On night sleeper trains, passports may be collected by the conductor so that you do not have your sleep interrupted.\" Therefore, the correct option is **B**.\n\n**[id 117]**\nThe passage explains that the city was rebuilt for the first time by the Portuguese (\"The Portuguese destroyed it and rebuilt it...\") and then rebuilt a second time after an earthquake by the Moroccan sultan (\"The Moroccan sultan rebuilt the city...\"). Therefore, the correct option is **D**.\n\n**[id 118]**\nThe passage notes that \"Paths, trains and boats connect the villages, and cars cannot reach them from the outside.\" Therefore, the correct option is **C**.\n\n**[id 119]**\nThe passage recommends having boots with a deep pattern (1/5 inch or more) and low and wide heels. It also notes that \"Some boots have studs and there is studded add-on equipment for slippery conditions.\" Therefore, the correct option is **B**.\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 17273,
+  "output_tokens": 2639,
+  "thinking_tokens": 2141,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19912
+ },
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

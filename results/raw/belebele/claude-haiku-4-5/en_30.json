@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 16.7,
+ "text": "[id 240]\nThe passage directly states: \"Former U.S. Speaker of the House Newt Gingrich came in second with 32 percent.\"\nAnswer: **B) 32 percent**\n\n[id 241]\nThe passage says: \"After the results came in, Gingrich lauded Santorum\" - \"lauded\" means spoke highly of.\nAnswer: **B) Gingrich**\n\n[id 242]\nThe passage states: \"Nadal bagged 88% net points in the match winning 76 points in the first serve.\" This directly matches option B.\nAnswer: **B) Nadal won 76 points**\n\n[id 243]\nThe passage explicitly states: \"Australia's former conservative government refused to ratify Kyoto, saying it would damage the economy with its heavy reliance on coal exports.\"\nAnswer: **B) The country's economy**\n\n[id 244]\nThe passage says: \"Resembling a television remote, the controller uses two sensors...\" The controller is what resembles a television remote.\nAnswer: **B) The Nintendo Revolution controller**\n\n[id 245]\nThe passage states that Felicia was \"once a Category 4 storm\" that \"weakened to a tropical depression.\" Option B reverses this sequence - claiming it was first a tropical depression, then became a Category 4 storm. This is false.\nAnswer: **B) It was first categorized as a tropical depression before turning into a Category 4 storm**\n\n[id 246]\nThe passage reports: location (Galápagos Islands), evolution time (two generations), and birds involved (Geospiza fortes and Geospiza conirostris). However, the name of the new species is never mentioned.\nAnswer: **C) The name of the new species**\n\n[id 247]\nThe passage directly describes CowParade as \"the world's largest public art event.\" This matches option D exactly.\nAnswer: **D) It's the largest public art event in the world**\n\n```json\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1752,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1873,
+  "output_tokens_details": {
+   "thinking_tokens": 1354
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1752,
+    "output_tokens": 1873,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011117,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

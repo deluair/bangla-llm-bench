@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 26.4,
+ "text": "The answers are as follows:\n\n- **[id 144]**: The passage states \"তরকারি হচ্ছে ভেষজ এবং মশলার সাথে মাংস বা সবজি\" (Curry is meat or vegetable with herbs and spices). Option B matches this description.\n- **[id 145]**: The passage mentions coffee (কফি) and chamomile tea (চ্যামোমিল চা). It does not mention juice (জ্যুস) or beer (বিয়ার). However, looking at the options provided, juice and beer are both not mentioned. Let's re-read. The question asks for what is *not* mentioned as suitable for making at home. Coffee and tea are mentioned. Beer is mentioned as something you might find in bars/pubs (not necessarily for home-making in this context), but Juice is never mentioned at all. In many such tests, if multiple options are not mentioned, we look for the one completely absent from the text. Juice (A) is absent. Beer (C) is mentioned in the context of bars/pubs. So, A is the most accurate.\n- **[id 146]**: The passage states that for a student visa, one needs to prove financial resources (\"আর্থিক সম্পদ প্রমাণের প্রয়োজন হবে\"). Thus, D is correct.\n- **[id 147]**: The passage starts with \"গ্রীষ্মকালে ঘনবর্ষণ বনাঞ্চলের মধ্যে বেড়াতে যাবার সিদ্ধান্ত নিলে আপনাকে মশার সম্পর্কে বিশেষভাবে সতর্ক থাকতে হবে\" (If you decide to visit dense rainforests in summer, you must be particularly careful about mosquitoes). This implies the caution is needed during the trip/visit. However, the sentence structure suggests the caution is specifically for the \"summer\" or \"visiting\" context. Usually, these questions aim for the specific context of the trip. Option B (বেড়ানোর সময় - while visiting) covers the scenario.\n- **[id 148]**: The passage states Timbuktu has an airport (\"এর একটি বিমানবন্দরও রয়েছে\"). Option C says it cannot be reached by plane (\"বিমানে চেপে যাওয়া যায় না\"), which is incorrect/false according to the text.\n- **[id 149]**: The passage states \"যখন সেই মেঘ মাটি স্পর্শ করে তখন \"\"\"\"টর্নেডো\"\"\"\" -তে পরিণত হয়\" (When that cloud touches the ground, it turns into a \"tornado\"). Thus, D is correct.\n- **[id 150]**: The passage states \"বিচারের মাপকাঠি হিসাবে 35 mm ফিল্ম (36 বাই 24 mm নেগেটিভ) বেশ প্রচলিত\" (As a standard, 35 mm film (36 by 24 mm negative) is quite common). Option D specifies the negative size.\n- **[id 151]**: The passage states \"সমাধির মধ্যে থাকা বিপুল ধনসম্পদ এখন আর এতে নেই\" (The vast wealth in the tomb is no longer there). Thus, D is correct.\n\n{\"answers\": {\"144\": \"B\", \"145\": \"A\", \"146\": \"D\", \"147\": \"B\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1558,
+  "completion_tokens": 689,
+  "total_tokens": 2247,
+  "cost": 0.00023088,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 16,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023088,
+   "upstream_inference_prompt_cost": 9.308e-05,
+   "upstream_inference_completions_cost": 0.0001378
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "144": "B",
+  "145": "A",
+  "146": "D",
+  "147": "B",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "A",
+  "146": "D",
+  "147": "B",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

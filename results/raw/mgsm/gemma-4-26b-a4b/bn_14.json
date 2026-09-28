@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 23.3,
+ "text": "**[id 140]**\nTotal cars = 20.\nAutomatic = 12, Manual = 4.\nSemi-automatic = 20 - (12 + 4) = 4.\nPercentage semi-automatic = (4/20) * 100 = 20%.\nAnswer: 20.\n\n**[id 141]**\nLet Queen = Q, Child = C, Worker = W.\nW = 2C\nC = 2Q => Q = C/2.\nTotal = Q + C + W = C/2 + C + 2C = 3.5C.\n3.5C = 700 => C = 200.\nWorker (W) = 2 * 200 = 400.\nAnswer: 400.\n\n**[id 142]**\nJordan plays 2 hours of video games daily.\nTotal hours in a week = 7 * 24 = 168.\nIf he works instead of gaming, he uses the time previously spent on gaming? Wait, the question asks how much he can earn if he spends time working *instead* of playing video games. Usually, this implies the time he currently spends on video games is converted to work time. \n2 hours/day * 7 days = 14 hours.\n14 hours * $10/hour = $140.\nHowever, the wording is slightly ambiguous. Does it mean his *entire* week or just the 2 hours? \"If Jordan spends time working instead of video games\" suggests replacing the 2 hours.\n14 * 10 = 140.\nAnswer: 140.\n\n**[id 143]**\nFood: Milk ($2) + Eggs ($3) = $5.\nNon-food: Light bulb ($3) + Cup ($3) + Ant trap ($4) = $10.\nTax on non-food = 10% of $10 = $1.\nTotal = $5 + $10 + $1 = $16.\nAnswer: 16.\n\n**[id 144]**\nTotal customers = 3 (current) + 5 (potential) = 8.\nCost per customer = (2 bottles * $2) + (1 pack * $5) = $4 + $5 = $9.\nTotal cost = 8 * $9 = $72.\nTotal income = $92.\nProfit = $92 - $72 = $20.\nAnswer: 20.\n\n**[id 145]**\nTotal area = 10 hectares.\nPineapples per hectare = 100.\nTotal pineapples per harvest = 10 * 100 = 1000.\nHarvest occurs every 3 months.\nNumber of harvests in a year (12 months) = 12 / 3 = 4.\nTotal pineapples per year = 1000 * 4 = 4000.\nAnswer: 4000.\n\n**[id 146]**\nBox 1: 500.\nBox 2: 3 * 500 = 1500.\nBox 3: 1/4 * 500 = 125.\nTotal = 500 + 1500 + 125 = 2125.\nAnswer: 2125.\n\n**[id 147]**\n1. First 6 hours: 30 leave. (Net: 30 out)\n2. Next 6 hours: 1/2 of 30 = 15 return. (Net: 15 out)\n3. Next 6 hours: 2 * 30 = 60 leave. (Net: 15 + 60 = 75 out)\n4. Last 6 hours: All that left and didn't return come back.\nTotal left = 30 + 60 = 90.\nTotal returned = 15.\nRemaining out = 90 - 15 = 75.\nSo, 75 return in the last 6 hours.\nAnswer: 75.\n\n**[id 148]**\nAdult ticket = $12.\nChild ticket = $10.\nTotal cost = 12 + 10 = $22.\nChange received = $8.\nAmount given = $22 + $8 = $30.\nAnswer: 30.\n\n**[id 149]**\nCharlie = 3 * Dorothy.\nJames = 4 * Dorothy.\nCharlie = 12.\n12 = 3 * Dorothy => Dorothy = 4.\nJames = 4 * 4 = 16.\nAnswer: 16.\n\n```json\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}\n```",
+ "usage": {
+  "prompt_tokens": 952,
+  "completion_tokens": 1210,
+  "total_tokens": 2162,
+  "cost": 0.00047804,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00047804,
+   "upstream_inference_prompt_cost": 6.664e-05,
+   "upstream_inference_completions_cost": 0.0004114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

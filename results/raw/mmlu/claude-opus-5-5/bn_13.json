@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "7112",
+  "7194",
+  "7212",
+  "7229",
+  "7264",
+  "7298",
+  "7302",
+  "7335",
+  "7351",
+  "7371",
+  "7453",
+  "7567",
+  "7825",
+  "8124",
+  "8144"
+ ],
+ "seconds": 15.1,
+ "text": "- **7112 (A):** A service with little or no personal contact between customer and provider is a low-contact service.\n- **7194 (B):** Opinion formers is my best reading. Marketing texts describe soap-opera characters acting as opinion formers to pass information and education to mass TV and radio audiences. Public relations is the main alternative, so this one is less certain.\n- **7212 (B):** In marketing, an \"offering\" is a broad idea that covers anything satisfying consumer needs.\n- **7229 (B):** Improving a site's structure and content for organic search rankings is search engine optimisation.\n- **7264 (A):** Management understands what customers want but fails to set a service specification. That is Gap 2.\n- **7298 (D):** 45,X has one chromosome missing, so it is a monosomy.\n- **7302 (C):** This question is flawed. A parent or son always shares exactly one HLA haplotype, so A, B and D are all certainties. I chose the sister because the question most likely intends the usual \"most likely HLA-identical relative\" answer, which is a sibling.\n- **7335 (C):** A 4-base site occurs about once every 4⁴ = 256 bp. 5,000 ÷ 256 gives roughly 20 fragments.\n- **7351 (B):** Tay-Sachs disease is autosomal recessive; the other three are X-linked.\n- **7371 (B):** Achondroplasia comes from gain-of-function mutations in FGFR3.\n- **7453 (B):** The original M&M's spokescandies were Red and Yellow.\n- **7567 (B):** A monopoly must lower its price on all units to sell more output.\n- **7825 (D):** Burt Reynolds drove a Pontiac Trans Am.\n- **8124 (B):** Soil texture is the proportion of sand, silt and clay.\n- **8144 (A):** Spinning classes use stationary bikes.\n\n{\"answers\": {\"7112\": \"A\", \"7194\": \"B\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"A\", \"7298\": \"D\", \"7302\": \"C\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"B\", \"7453\": \"B\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"B\", \"8144\": \"A\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3511,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1366,
+  "output_tokens_details": {
+   "thinking_tokens": 623
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3511,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1366,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3511,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3511
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.055416,
+ "answers_batch": {
+  "7112": "A",
+  "7194": "B",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "B",
+  "8144": "A"
+ },
+ "single": {},
+ "answers": {
+  "7112": "A",
+  "7194": "B",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "B",
+  "8144": "A"
+ }
+}

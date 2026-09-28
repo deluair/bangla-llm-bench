@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "2741",
+  "2786",
+  "2823",
+  "2916",
+  "2945",
+  "2995",
+  "2997",
+  "3092",
+  "3129",
+  "3170",
+  "3196",
+  "3204",
+  "3209",
+  "3241",
+  "3257"
+ ],
+ "seconds": 46.3,
+ "text": "# Multiple Choice Exam Answers\n\nLet me work through each question:\n\n**[id 2741]** Ancient Earth - Statement D is incorrect. Free oxygen actually *inhibits* the formation of organic molecules through oxidation. The early Earth had a reducing atmosphere favorable for abiogenesis. Free oxygen would have been destructive to complex organic synthesis.\n\n**[id 2786]** Apoptosis - Statement A is incorrect. Apoptosis is *programmed cell death*, not a type of cell division. It's a distinct process from mitosis/meiosis.\n\n**[id 2823]** Post-transcriptional modifications - Statement D is incorrect. Most post-transcriptional modifications (5' capping, 3' polyadenylation, and splicing) occur in the *nucleus*, not the cytoplasm.\n\n**[id 2916]** Hardy-Weinberg equilibrium requires *random mating* as one of its essential conditions. Genetic drift, mutation, and gene flow all violate HWE.\n\n**[id 2945]** Water potential - The fundamental equation is Ψ = Ψs + Ψp (water potential = solute potential + pressure potential). Statement C correctly describes this relationship.\n\n**[id 2995]** Spontaneous reactions - If more products than reactants exist at equilibrium, then K > 1, which means ΔG° < 0 (spontaneous). Answer A indicates spontaneity.\n\n**[id 2997]** Reaction mechanism - An intermediate is produced in one step and consumed in another, making it undetectable as a final product.\n\n**[id 3092]** Equilibrium constant - Only *temperature* changes the numerical value of K. Pressure/concentration changes shift equilibrium position but don't change K itself.\n\n**[id 3129]** Argon liquefaction - Argon is a noble gas with no permanent dipole. Only London dispersion forces (instantaneous/induced dipoles) enable its liquefaction.\n\n**[id 3170]** For a reaction non-spontaneous at standard conditions but spontaneous at high T: ΔG = ΔH - TΔS must change from positive to negative. This requires ΔH > 0 and ΔS > 0 (entropy-driven at high T).\n\n**[id 3196]** Huffman coding - This is a *lossless* compression technique where variable-length codes based on frequency allow data recovery without information loss.\n\n**[id 3204]** Floor division in Python 3 - The // operator performs floor division.\n\n**[id 3209]** Loop executes while (num1 > num2 OR num1 > num3). It won't execute if both conditions are false: num1 < num2 AND num1 < num3.\n\n**[id 3241]** min([1,2,3,4]) returns the smallest element: 1.\n\n**[id 3257]** String comparison with uppercase before lowercase:\n- strA.compareTo(strB): \"CARROT\" vs \"Carrot\" → 'A'(65) < 'a'(97) → strA < strB\n- strB.compareTo(strC): \"Carrot\" vs \"car\" → 'C'(67) < 'c'(99) → strB < strC  \n- strB.compareTo(strA): \"Carrot\" vs \"CARROT\" → 'a'(97) > 'A'(65) → strB > strA\nOption C is correct: strB < strC AND strB > strA.\n\n```json\n{\"answers\": {\"2741\": \"D\", \"2786\": \"A\", \"2823\": \"D\", \"2916\": \"A\", \"2945\": \"C\", \"2995\": \"A\", \"2997\": \"B\", \"3092\": \"C\", \"3129\": \"C\", \"3170\": \"D\", \"3196\": \"C\", \"3204\": \"B\", \"3209\": \"D\", \"3241\": \"A\", \"3257\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4439,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4680,
+  "output_tokens_details": {
+   "thinking_tokens": 3723
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 4680,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032286999999999996,
+ "answers_batch": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "A",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ },
+ "single": {},
+ "answers": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "A",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ }
+}

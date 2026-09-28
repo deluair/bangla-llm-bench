@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  414,
+  434,
+  441,
+  446,
+  460,
+  489,
+  530,
+  555,
+  570,
+  742,
+  767,
+  784,
+  794,
+  806,
+  869
+ ],
+ "seconds": 14.7,
+ "text": "Based on the analysis of the questions provided:\n\n- **414**: The question describes a system to implement environmental goals/policies/responsibilities, audited and reported. This refers to Environmental Management Systems (EMS) like **ISO14001** and **EMAS**. (Option C)\n- **434**: The definition \"an imaginary contract between members of society and controllers that establishes fair intermediate relations, rights, and duties\" is the definition of a **Social Contract**. (Option A)\n- **441**: Deontology and the ethics of rights/justice are based on **principles** (normative theories), whereas utilitarianism is consequentialist. However, the prompt asks for two examples of principle-based theories. Deontology and Rights/Justice fit. (Option A)\n- **446**: Corporate codes of conduct typically include integrity, openness, and accountability. **Accessibility** (উপলব্ধতা) is not a standard core principle of a code of conduct. (Option C)\n- **460**: Virtue ethics (গুণ নৈতিকতা) focuses on the character and emotions of the individual. (Option A)\n- **489**: In the UK, **Alzheimer's disease** is the most common cause of dementia. (Option A)\n- **530**: Standard dental advice for toothpaste is a **pea-sized** amount. (Option B)\n- **555**: Blood flows through the vessels because of the **elastic recoil** of the arteries. (Option D)\n- **570**: Calculation: 4 mcg/kg/min * 65 kg = 260 mcg/min. Per hour: 260 mcg/min * 60 min = 15,600 mcg. 15,600 mcg = **15.6 mg**. (Option B)\n- **742**: **Difficulty rising from a chair** is a classic clinical sign for certain rheumatological/musculoskeletal conditions. (Option C)\n- **767**: The cortical reaction (involving enzymes) prevents polyspermy in sea urchins. (Option C)\n- **784**: This is a classic ecology question regarding niches. Since they choose the treetop *only* because of competition (preventing them from using the cliff), the cliff is part of their **realized niche**, but the treetop is their **fundamental niche** (the full range of conditions they could use). However, the description implies they are restricted to a subset of their potential. In niche theory, if they avoid a resource due to competition, that resource was part of their fundamental niche, and the treetop is their realized niche. Given the logic, the question is specific to ecology textbook definitions. (Option B)\n- **794**: To *increase* gas diffusion, one must *increase* the surface area or the pressure gradient. Therefore, *decreasing* the rate of blood flow or *decreasing* the gradient would decrease it. The question asks which *decreases* it. Decreasing the pressure gradient (A) or decreasing surface area (not an option) would decrease it. However, the question asks what \"will decrease\" the rate. Decreasing the flow rate (D) or decreasing the pressure gradient (A). Usually, in these contexts, **decreasing the partial pressure gradient (A)** is the direct factor. (Option A)\n- **806**: Linkage disequilibrium occurs in sexual reproduction (recombination), co-adapted gene complexes, and epistasis. It does **not** occur in **asexual reproduction** (Option A) because there is no recombination to break linkages.\n- **869**: Primary productivity in tropics is high due to **water availability and warm temperatures** aiding photosynthesis. (Option C)\n\n```json\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"A\", \"446\": \"C\", \"460\": \"A\", \"489\": \"A\", \"530\": \"B\", \"555\": \"D\", \"570\": \"B\", \"742\": \"C\", \"767\": \"C\", \"784\": \"B\", \"794\": \"A\", \"806\": \"A\", \"869\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1506,
+  "completion_tokens": 930,
+  "total_tokens": 2436,
+  "cost": 0.000267852,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000267852,
+   "upstream_inference_prompt_cost": 6.3252e-05,
+   "upstream_inference_completions_cost": 0.0002046
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "C",
+  "767": "C",
+  "784": "B",
+  "794": "A",
+  "806": "A",
+  "869": "C"
+ },
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "C",
+  "767": "C",
+  "784": "B",
+  "794": "A",
+  "806": "A",
+  "869": "C"
+ },
+ "single": {}
+}

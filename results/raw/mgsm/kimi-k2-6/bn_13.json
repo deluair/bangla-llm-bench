@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 82.6,
+ "text": "[id 130] 60 total; one-third (20) leave, then 10 more leave: 60 − 20 − 10 = 30.\n[id 131] May $500; June $500 − $60 = $440; total = $500 + $440 = 940.\n[id 132] Rides: 2 + 4 + 2 + 2 = 10 rides; tickets: 10 × 6 = 60.\n[id 133] Monday 4; Tuesday 4 × 6 = 24; Wednesday 41 − 4 − 24 = 13.\n[id 134] 4 washes/month × $15 = $60/month; yearly: $60 × 12 = 720.\n[id 135] Brian has 20, loses 5 → 15; Bobby: 3 × 15 − 5 = 40.\n[id 136] Scottish: 27 ÷ 3 = 9; female Scottish: 9 × 2/3 = 6.\n[id 137] Food: 2×7.50 + 2×1.50 + 2×1.00 = $20; fee 20% = $4; tip $5; total = $29.\n[id 138] 1st: 75 − (8×5) = 35 incomplete; 2nd: 100 − (6×5) = 70 incomplete; total = 105.\n[id 139] Pink: 4 × 12 + 22 = 48 + 22 = 70.\n\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}",
+ "usage": {
+  "prompt_tokens": 1340,
+  "completion_tokens": 3130,
+  "total_tokens": 4470,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2737
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 28.2,
+ "text": "[id 20]\nOrange drink: 10L total. Water = 2/3 of 10 = 20/3 L.\nPineapple drink: 15L total. Water = 3/5 of 15 = 9L.\nLost 1L orange drink: Assuming the mix is uniform, 1L lost means 2/3 L water lost.\nRemaining Orange: 9L total, water = 20/3 - 2/3 = 18/3 = 6L.\nRemaining Pineapple: 15L total, water = 9L.\nTotal water = 6 + 9 = 15L.\n\n[id 21]\nSamantha's age = 31.\nRaymond's age = 31 + 6 = 37.\nRaymond's son was born when Raymond was 23.\nSon's age = 37 - 23 = 14.\nThe son was born 14 years ago.\n\n[id 22]\nCustomers 1-3: 3 * 1 = 3 DVDs.\nCustomers 4-5: 2 * 2 = 4 DVDs.\nCustomers 6-8: 0 DVDs.\nTotal = 3 + 4 = 7.\n\n[id 23]\nTime elapsed: 1:00 PM to 5:00 PM = 4 hours.\nRate: 2 cm/hour.\nTotal melted = 4 * 2 = 8 cm.\n\n[id 24]\nSale price = $19.50.\nDiscount = 25%.\nSale price = 75% of Original Price.\nOriginal Price = 19.50 / 0.75 = 26.\n\n[id 25]\nChicken meal: $12.\nMilk: 5 * $3 = $15.\nApples: 4 * $1.50 = $6.\nSubtotal: 12 + 15 + 6 = $33.\nRemaining amount: 50 - 33 = $17.\nPrice per pizza box: $8.50.\nNumber of pizza boxes: 17 / 8.5 = 2.\n\n[id 26]\nShorts: 3 * 16.50 = 49.50.\nPants: 3 * 22.50 = 67.50.\nShoes: 3 * 42 = 126.\nTotal = 49.50 + 67.50 + 126 = 243.\n\n[id 27]\n1 carton = 15 servings = $4.00.\nTotal servings needed = 60.\nCartons needed = 60 / 15 = 4.\nTotal cost = 4 * 4 = 16.\n\n[id 28]\nTotal distance = 60 miles.\n1st stop: 20 miles.\n2nd stop: 60 - 15 = 45 miles.\nDistance between stops = 45 - 20 = 25.\n\n[id 29]\nHeel 1 = $33.\nHeel 2 = 33 * 2 = $66.\nTotal heels = 33 + 66 = $99.\nBoot + Heels = Boot - 5? No, \"the price of Boots and two pairs of heels combined is $5 less than the Boots\"? No, \"He must choose between the boots or the two pairs of high heels, which together are $5 less than the boots.\"\nWait: (Heel 1 + Heel 2) = Boot - 5.\n99 = Boot - 5.\nBoot = 104.\n\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}",
+ "usage": {
+  "prompt_tokens": 867,
+  "completion_tokens": 951,
+  "total_tokens": 1818,
+  "cost": 0.00038403,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038403,
+   "upstream_inference_prompt_cost": 6.069e-05,
+   "upstream_inference_completions_cost": 0.00032334
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 2.5,
+ "text": "{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.181806554,
+  "prompt_tokens": 1505,
+  "prompt_time": 0.073529392,
+  "completion_tokens": 820,
+  "completion_time": 1.731284192,
+  "total_tokens": 2325,
+  "total_time": 1.8048135840000001,
+  "completion_tokens_details": {
+   "reasoning_tokens": 760
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

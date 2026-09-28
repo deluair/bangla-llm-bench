@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 3.8,
+ "text": "**Problem 240**\nRobert has $R$ candies. James has $R + 6$. John has $2R$.\nGiven John has 54: $2R = 54 \\Rightarrow R = 27$.\nJames has $27 + 6 = 33$.\nDifference between John and James: $54 - 33 = 21$.\n\n**Problem 241**\nDolly has 2 books. Pandora has 1 book.\nDolly reads her 2 books + Pandora's 1 book = 3 books.\nPandora reads her 1 book + Dolly's 2 books = 3 books.\nThe question asks how many books they *collectively* read. This phrasing can be ambiguous (unique books vs total instances).\n\"Collectively read\" usually implies the sum of reading events or the set of books read by either.\nLet's look at the wording: \"how many books will they collectively read\".\nIf it means unique books: $\\{D_1, D_2, P_1\\}$. Total 3 distinct books.\nIf it means total pages/instances: Dolly reads 3, Pandora reads 3. Total 6.\nHowever, in standard math word problems of this type, \"collectively read\" often refers to the total number of book-reading instances. Let's re-read carefully.\n\"read each others' books as well as their own\".\nDolly reads: Her own (2) + Pandora's (1) = 3.\nPandora reads: Her own (1) + Dolly's (2) = 3.\nTotal reading = 3 + 3 = 6.\nAlternatively, if it means \"what is the pool of books involved\", it is 3.\nLet's look for similar problems. Usually, \"how many books do they read\" implies the count of items consumed by eye. If I read a book and you read a book, we read 2 books (instances). If the question meant unique titles, it would likely specify \"distinct books\".\nLet's assume it asks for the sum of books read by each person. $3 + 3 = 6$.\n\n**Problem 242**\nMike started with 5 penpals, stopped 2. So he has $5 - 2 = 3$ penpals.\nEach penpal sends 2 letters/week.\nMike responds in kind, so Mike also sends 2 letters/week to each penpal.\nMike writes: 3 penpals * 2 letters/penpal = 6 letters/week.\nEach letter is 5 pages long.\nTotal pages Mike writes = $6 * 5 = 30$ pages.\nTime per page = 6 minutes.\nTotal time = $30 * 6 = 180$ minutes.\nConvert to hours: $180 / 60 = 3$ hours.\n\n**Problem 243**\nPlan: 1000 minutes.\nDaily call to boss: 15 mins.\nMonth has 30 days.\nTotal boss calls: $15 * 30 = 450$ minutes.\nExtra minutes to others: 300 minutes.\nTotal used: $450 + 300 = 750$ minutes.\nLeft: $1000 - 750 = 250$ minutes.\n\n**Problem 244**\nStart: 24 fries.\nKyle takes 5. Remaining: $24 - 5 = 19$.\nBilly takes twice as many as Kyle: $2 * 5 = 10$.\nDoes Billy take from Griffin? \"Billy took twice as many as Kyle.\" Usually implies from Griffin's stock unless specified otherwise. The context is Griffin having fries. Let's assume Billy takes from Griffin.\nRemaining after Billy: $19 - 10 = 9$.\nColby takes 3 less than Kyle: $5 - 3 = 2$.\nColby takes from Griffin.\nRemaining after Colby: $9 - 2 = 7$.\nGinger gives Griffin $G$ fries.\nEnd amount: 27.\nEquation: $7 + G = 27 \\Rightarrow G = 20$.\n\n**Problem 245**\nAquarium 1: 4 snails.\nAquarium 2: 32 snails.\nDifference in snails: $32 - 4 = 28$.\nThis difference is twice the total number of fish.\nLet $F_1$ and $F_2$ be fish in each aquarium.\n$F_1 = F_2$ (same number in each).\nTotal fish = $F_1 + F_2 = 2F_1$.\nGiven: Difference (28) = 2 * (Total Fish) = 2 * ($2F_1$) = $4F_1$.\n$28 = 4F_1 \\Rightarrow F_1 = 7$.\nCheck: Total fish = 14. Twice total fish = 28. Correct.\nQuestion: How many fish are there in *each* aquarium?\nAnswer: 7.\n\n**Problem 246**\nRate: $250/hour.\nHours per day: 6.\nDays per week: 4.\nWeeks: 5.\nTotal hours = $6 * 4 * 5 = 120$ hours.\nTotal cost before discount = $120 * 250 = 30,000$.\nDiscount: 10%.\nPayment = $30,000 * (1 - 0.10) = 30,000 * 0.90 = 27,000$.\n\n**Problem 247**\nCosts:\nCake: $12\nPresents: $43\nDecorations: $15\nInvitations: $4\nGoodie bags: $22\nTotal cost = $12 + 43 + 15 + 4 + 22$.\n$12 + 43 = 55$\n$55 + 15 = 70$\n$70 + 4 = 74$\n$74 + 22 = 96$.\nSplit evenly 3 ways.\n$96 / 3 = 32$.\n\n**Problem 248**\nBags: 4.\nWeight per bag: 50 lbs.\nTotal weight = $4 * 50 = 200$ lbs.\nCost per lb: $1.50.\nTotal cost = $200 * 1.50 = 300$.\n\n**Problem 249**\nMonday:\nSister ate 5.\nSue ate $4 * 5 = 20$.\nDifference in cookies (Mon) = $20 - 5 = 15$.\n\nTuesday:\nSister ate 13.\nSue ate $2 * 13 = 26$.\nDifference in cookies (Tue) = $26 - 13 = 13$.\n\nTotal difference in cookies = $15 + 13 = 28$.\nCalories per cookie = 200.\nDifference in calories = $28 * 200 = 5600$.\n\n```json\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}\n```",
+ "usage": {
+  "queue_time": 0.141712783,
+  "prompt_tokens": 781,
+  "prompt_time": 0.065172114,
+  "completion_tokens": 1742,
+  "completion_time": 3.497541936,
+  "total_tokens": 2523,
+  "total_time": 3.56271405
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

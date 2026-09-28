@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363",
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457"
+ ],
+ "seconds": 71.8,
+ "text": "Looking at each question systematically:\n\n**Q1 (Weak acid + Strong base titration):** For a weak acid-strong base titration, the equivalence point is in the basic region (pH > 7). Phenolphthalein (pH range 8.2-10.0) is suitable; methyl orange and methyl red work in acidic regions. **Answer: C**\n\n**Q2 (Yugoslavia power change):** Recent political transitions in Yugoslavia occurred through mass popular uprisings and civil movements. **Answer: C**\n\n**Q3 (Two-digit number probability):** Using digits {2,4,7,9,3,8}. Even digits: {2,4,8}. For even numbers: 3 choices for last digit × 5 choices for first digit = 15 even numbers out of 30 total. Probability = 15/30 = 0.50. **Answer: B**\n\n**Q4 (Native word):** Among the options, ঝোল (jhol - broth/gravy) is a native Bengali word. Others are from Sanskrit or Arabic/Persian. **Answer: C**\n\n**Q5 (Hydraulic press statement):** A hydraulic press amplifies force based on area ratio (not gradually). Energy is conserved, no new energy is created, and it has practical applications. The statement about gradual sequential increase is not accurate. **Answer: A**\n\n**Q6 (Compound type):** হাতে কলমে combines two nouns (hand and pen) maintaining form = অলুক দ্বন্দ্ব. **Answer: D**\n\n**Q7 (Collinear points):** For (0,0), (a,1), (a²,2) to be collinear, using the determinant condition: a(2-a) = 0, giving a = 0 or a = 2. **Answer: C**\n\n**Q8 (Patriotic song):** ধনধান্যে পুষ্পে ভরা is a patriotic song by Dwijendralal Ray. **Answer: C**\n\n**Q9 (Climate Risk Index 2023):** Bangladesh consistently ranks among the top countries most vulnerable to climate change, around 7th position. **Answer: A**\n\n**Q10 (Decoder output lines):** A 6-line decoder has 2^6 = 64 output lines. **Answer: D**\n\n**Q11 (বাসস):** This refers to a news organization/agency. **Answer: A**\n\n**Q12 (Berry fruit):** Among the options, কলা (banana) is botanically a true berry. **Answer: C**\n\n**Q13 (First e-book):** একুশ ই বুক (21 E-book) related to Language Movement Day was Bangladesh's first notable e-book. **Answer: A**\n\n**Q14 (Writing system for visually impaired):** ব্রেইল (Braille), invented by Louis Braille. **Answer: B**\n\n**Q15 (Himalayan peak climb):** Based on typical expedition timelines for mountaineers. **Answer: B**\n\n```json\n{\"answers\": {\"0aa4a6be-f222-489c-be67-ec2b1917d17b-38821\": \"C\", \"0aa9b680-2c74-41b4-9f4c-842566f245b6-141609\": \"C\", \"0b04c2c5-f15a-4390-848c-bb47bde107e1-58888\": \"B\", \"0b0bff76-6aa7-4791-add0-f758fec8857d-85977\": \"C\", \"0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181\": \"A\", \"0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404\": \"D\", \"109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017\": \"C\", \"11728910-7f1e-468e-af7e-7f6906a6b777-94278\": \"C\", \"11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223\": \"A\", \"11d58245-57bb-4705-8a83-1f6beb10cbe7-14332\": \"D\", \"12013b38-ad00-4657-9fd3-9ce4c5760ece-81363\": \"A\", \"12127d43-cd1f-4be3-87f6-3441b5ebd513-75429\": \"C\", \"12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249\": \"A\", \"13832a30-e79f-4432-8ed0-2e0313e1160c-63779\": \"B\", \"14244d04-aa64-47ec-ae4d-30686abac912-11457\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2564,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7328,
+  "output_tokens_details": {
+   "thinking_tokens": 6085
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2564,
+    "output_tokens": 7328,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.039203999999999996,
+ "answers_batch": {
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821": "C",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609": "C",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888": "B",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977": "C",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181": "A",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404": "D",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017": "C",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278": "C",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223": "A",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332": "D",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363": "A",
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429": "C",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249": "A",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779": "B",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457": "B"
+ },
+ "single": {},
+ "answers": {
+  "0aa4a6be-f222-489c-be67-ec2b1917d17b-38821": "C",
+  "0aa9b680-2c74-41b4-9f4c-842566f245b6-141609": "C",
+  "0b04c2c5-f15a-4390-848c-bb47bde107e1-58888": "B",
+  "0b0bff76-6aa7-4791-add0-f758fec8857d-85977": "C",
+  "0cc03df7-17b7-43db-908a-85fe1d72a3c7-44181": "A",
+  "0f013fbd-3b4e-4c0b-ad89-2c656c129cf5-134404": "D",
+  "109f67b1-f4ab-4a84-a8f2-f5f0425ca1da-53017": "C",
+  "11728910-7f1e-468e-af7e-7f6906a6b777-94278": "C",
+  "11b4391c-8129-4cc8-9d5d-0904110c0f6d-6223": "A",
+  "11d58245-57bb-4705-8a83-1f6beb10cbe7-14332": "D",
+  "12013b38-ad00-4657-9fd3-9ce4c5760ece-81363": "A",
+  "12127d43-cd1f-4be3-87f6-3441b5ebd513-75429": "C",
+  "12c9d98e-4d1d-4f25-85ab-0ce44bca0c15-125249": "A",
+  "13832a30-e79f-4432-8ed0-2e0313e1160c-63779": "B",
+  "14244d04-aa64-47ec-ae4d-30686abac912-11457": "B"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  7112,
+  7194,
+  7212,
+  7229,
+  7264,
+  7298,
+  7302,
+  7335,
+  7351,
+  7371,
+  7453,
+  7567,
+  7825,
+  8124,
+  8144
+ ],
+ "seconds": 12.4,
+ "text": "To solve these questions:\n\n7112: Services with little personal contact are \"Low-contact.\"\n7194: Using TV/radio to educate audiences is a \"Public relations\" approach.\n7212: In marketing, a proposition is a broad concept encompassing the satisfaction of needs.\n7229: Optimizing for organic search is \"Search engine optimization\" (SEO).\n7264: Failing to specify standards (like number of seats) is the gap between management perception and service-quality specification (GAP 2).\n7298: Monosomy is having one fewer chromosome; 45,X is Turner syndrome (monosomy).\n7302: HLA haplotypes are inherited; siblings (sister) share 50% of DNA on average, whereas parents and children share 50%. However, siblings are most likely to share a common haplotype by chance compared to others in this context. (Correction: Siblings share 50%, but they are the only option that can share more than the children/parents through recombination patterns).\n7335: For a genome of 5000 bp and a 4-base sequence (4^4 = 256 possible combinations), $5000 / 256 \\approx 19.5$. So about 20.\n7351: Tay-Sachs is autosomal recessive, not X-linked.\n7371: Achondroplasia is caused by a gain-of-function mutation in FGFR3.\n7453: The M&M's characters are \"Red and Yellow.\"\n7567: In a monopoly, the demand curve is downward sloping, so Marginal Revenue is less than Price and decreases as output increases. However, looking at options: B is false (they can choose price/quantity), C is false. A is false. D is false. Let's re-evaluate: Actually, a monopolist must lower the price on *all* units to sell more if it faces a downward-sloping demand curve.\n7825: Burt Reynolds drove the Pontiac \"Transam\" in 'Smokey and the Bandit'.\n8124: \"Soil texture\" is sand/silt/clay; \"Soil structure\" is the arrangement of particles.\n8144: Spinning classes use a \"stationary bicycle.\"\n\n{\"answers\": {\"7112\": \"A\", \"7194\": \"C\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"A\", \"7298\": \"D\", \"7302\": \"C\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"B\", \"7453\": \"B\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"A\", \"8144\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1053,
+  "completion_tokens": 648,
+  "total_tokens": 1701,
+  "cost": 0.000186786,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000186786,
+   "upstream_inference_prompt_cost": 4.4226e-05,
+   "upstream_inference_completions_cost": 0.00014256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ },
+ "answers_batch": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ },
+ "single": {}
+}

@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 64.2,
+ "text": "[id 140] Total cars = 20. Semi-automatic = 20 − 12 − 4 = 4. Percentage = 4/20 × 100 = 20.\n[id 141] Let queen = Q. Children = 2Q, workers = 2×2Q = 4Q. Total Q + 2Q + 4Q = 7Q = 700 ⇒ Q = 100. Workers = 400.\n[id 142] 2 hours/day × $10/hour = $20/day. Weekly = $20 × 7 = 140.\n[id 143] Food: $2 + $3 = $5. Non-food: $3 + $3 + $4 = $10. Tax = 10% of $10 = $1. Total = $5 + $10 + $1 = 16.\n[id 144] Customers = 3 + 5 = 8. Cost per customer = 2×$2 + $5 = $9. Total cost = $72. Profit = $92 − $72 = 20.\n[id 145] Pineapples per harvest = 10 × 100 = 1000. Harvests per year = 12/3 = 4. Total = 1000 × 4 = 4000.\n[id 146] 500 + 3×500 + 500/4 = 500 + 1500 + 125 = 2125.\n[id 147] Left: 30 + 60 = 90. Returned before last period: 15. Still outside: 75. Last period return = 75.\n[id 148] Cost = $12 + $10 = $22. Paid = $22 + $8 change = 30.\n[id 149] Dorothy = 12/3 = 4. James = 4 × 4 = 16.\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}",
+ "usage": {
+  "prompt_tokens": 1809,
+  "completion_tokens": 2844,
+  "total_tokens": 4653,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2384
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

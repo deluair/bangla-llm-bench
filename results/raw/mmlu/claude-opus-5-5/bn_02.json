@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "899",
+  "908",
+  "951",
+  "981",
+  "987",
+  "1004",
+  "1011",
+  "1019",
+  "1030",
+  "1045",
+  "1100",
+  "1116",
+  "1125",
+  "1141",
+  "1158"
+ ],
+ "seconds": 18.7,
+ "text": "**Brief reasoning:**\n\n- **899:** Mn goes from +7 to +2, a gain of 5 e⁻. I goes from −1 to +5, a loss of 6 e⁻. So MnO4⁻ : I⁻ = 6 : 5. **B**\n- **908:** Use a = B cos²θ. The β-C–H bonds sit ±57.5° from the ring plane, so θ = 32.5° and cos²θ ≈ 0.71. With B ≈ 5.4 mT, a ≈ 3.8 mT. **D** (this depends on the assumed B constant, so it is the least certain answer)\n- **951:** Quantum yield = photons emitted ÷ photons absorbed. **C**\n- **981:** B = hν/(gμB) ≈ 338.5 mT. The splitting is ±140 MHz, which is ≈ ±5 mT. So the lines are at 333.5 mT and 343.5 mT. **C**\n- **987:** For any spontaneous process, the total entropy of system plus surroundings increases. **D**\n- **1004:** Suitable roundoff cannot make floating-point addition associative, so C is the false statement. **C**\n- **1011:** a^M = aa, so A fails. For x = a, y = b, (ab)^M = abba but y^M x^M = bbaa, so C fails. B also fails in general. **D**\n- **1019:** In a full K-ary tree, nonterminal nodes ÷ total nodes ≈ 1/K. **A**\n- **1030:** A heap area is not part of an activation record. **B**\n- **1045:** 109, −42 and their sum 67 all fit in the ±127 range of all three 8-bit representations. **D**\n- **1100:** C(5,2)·C(20,1)/C(25,3) = 200/2300 = 2/23 (shown as \"23-Feb\"). **C**\n- **1116:** If Av = λv, then 2A has eigenvalue 2λ, A² has λ², and A⁻¹ has 1/λ. All three hold. **D**\n- **1125:** The largest element order in S5 is 6, from a 2-cycle and a disjoint 3-cycle. **B**\n- **1141:** A continuous function on a compact metric space is uniformly continuous. A composition of differentiable functions is differentiable. **A**\n- **1158:** ℂ cannot be made into an ordered field, but some linear order on it can exist without doing so. So A is true and B is false. **A**\n\n{\"answers\": {\"899\": \"B\", \"908\": \"D\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"C\", \"1011\": \"D\", \"1019\": \"A\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"C\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"A\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4007,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1875,
+  "output_tokens_details": {
+   "thinking_tokens": 940
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4007,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1875,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4007,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4007
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.069564,
+ "answers_batch": {
+  "899": "B",
+  "908": "D",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {},
+ "answers": {
+  "899": "B",
+  "908": "D",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ }
+}

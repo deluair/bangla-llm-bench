@@ -1,0 +1,61 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 4.9,
+ "text": "- **296:** The passage says 35 mm film gives pictures as clear as a current DSLR, so the answer is A.\n- **297:** Disney prohibits transferring park-hopper tickets to other travellers, so statement A is the one that is not true.\n- **298:** The passage advises getting out of the current as quickly as possible, after which swimming back is usually not hard, so the answer is A.\n- **299:** The passage says the animals are used to seeing humans, so \"animals that have never seen humans\" is not given as a cause of attacks. The answer is D.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3452,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 327,
+  "output_tokens_details": {
+   "thinking_tokens": 115
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 327,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.034164,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

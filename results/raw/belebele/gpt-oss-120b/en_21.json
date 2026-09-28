@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 2.2,
+ "text": "{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"A\", \"174\": \"D\", \"175\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.231137997,
+  "prompt_tokens": 1382,
+  "prompt_time": 0.065643537,
+  "completion_tokens": 863,
+  "completion_time": 1.804696264,
+  "total_tokens": 2245,
+  "total_time": 1.870339801,
+  "completion_tokens_details": {
+   "reasoning_tokens": 803
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "6313",
+  "6315",
+  "6351",
+  "6428",
+  "6438",
+  "6488",
+  "6497",
+  "6499",
+  "6514",
+  "6534",
+  "6576",
+  "6584",
+  "6644",
+  "6652",
+  "6657"
+ ],
+ "seconds": 22.5,
+ "text": "Looking at these 15 multiple-choice questions covering sexuality, psychology, international law, and jurisprudence:\n\n**Brief reasoning:**\n\n- **6313**: Erogenous zones vary by individual, menstrual cycle in women, and some areas are generally more sensitive - **D (all above)**\n- **6315**: Choosing immediate gratification (going to drink) over studying reflects the **Id** - **A**\n- **6351**: Erection involves parasympathetic nervous system activation - **D**\n- **6428**: Both masturbation and self-eroticism are valid terms - **D**\n- **6438**: Gonorrhea/chlamydia most commonly infect the **urethra** in men - **C**\n- **6488**: Act of State doctrine means the executive, not courts, determines violations - **B**\n- **6497**: ICCPR enforcement includes both state reporting and individual petition mechanisms - **D**\n- **6499**: Self-executing treaty is clear enough to apply without further legislation - **B**\n- **6514**: International tribunal jurisdiction determined solely by their constitutive treaties/agreements - **D**\n- **6534**: Human Rights Act 1998 incorporated the European Convention on Human Rights into UK law - **A**\n- **6576**: Malinowski noted Trobriand society organized around **reciprocity** (Kula ring) - **D**\n- **6584**: Fuller's \"inner morality of law\" is a **morality of aspiration** - **B**\n- **6644**: Salmond's definition of law - **B**\n- **6652**: Austin defined jurisprudence as philosophy of positive law - **D**\n- **6657**: Bentham's famous critique of natural rights as \"a child of law\" - **B**\n\n```json\n{\"answers\": {\"6313\": \"D\", \"6315\": \"A\", \"6351\": \"D\", \"6428\": \"D\", \"6438\": \"C\", \"6488\": \"B\", \"6497\": \"D\", \"6499\": \"B\", \"6514\": \"D\", \"6534\": \"A\", \"6576\": \"D\", \"6584\": \"B\", \"6644\": \"B\", \"6652\": \"D\", \"6657\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 4013,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2003,
+  "output_tokens_details": {
+   "thinking_tokens": 1473
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 4013,
+    "output_tokens": 2003,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.014027999999999999,
+ "answers_batch": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ },
+ "single": {},
+ "answers": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ }
+}

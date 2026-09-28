@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 20.9,
+ "text": "{\"answers\":{\"24\":\"B\",\"25\":\"C\",\"26\":\"D\",\"27\":\"C\",\"28\":\"D\",\"29\":\"A\",\"30\":\"A\",\"31\":\"D\"}}",
+ "usage": {
+  "prompt_tokens": 2358,
+  "completion_tokens": 1559,
+  "total_tokens": 3917,
+  "cost": 0.000182754,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000182754,
+   "upstream_inference_prompt_cost": 4.2444e-05,
+   "upstream_inference_completions_cost": 0.00014031
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1514,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "24": "B",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "B",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ }
+}

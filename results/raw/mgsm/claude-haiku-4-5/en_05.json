@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 17.9,
+ "text": "# Math Word Problems Solutions\n\n**[id 50]** Lloyd's weekly egg revenue:\n- 252 eggs/day × 7 days = 1,764 eggs/week\n- 1,764 ÷ 12 eggs/dozen = 147 dozens\n- 147 × $2 = **$294**\n\n**[id 51]** Tom's return trip:\n- 1 PM to 4 PM = 3 hours outbound\n- Distance = 10 mph × 3 hours = 30 miles\n- Return time = 30 miles ÷ 6 mph = **5 hours**\n\n**[id 52]** Toys to remove:\n- Weight from 30 comic books = 30 × 1/4 = 7.5 pounds\n- Remaining to remove = 15 - 7.5 = 7.5 pounds\n- Toys needed = 7.5 ÷ (1/2) = **15 toys**\n\n**[id 53]** Revenue comparison:\n- Thursday: (6 × $60) + (4 × $40) = $360 + $160 = $520\n- Friday: 12 × $40 = $480\n- Difference = $520 - $480 = **$40**\n\n**[id 54]** Total kittens:\n- Adopted: 7\n- Patchy: 3 × 7 = 21\n- Trixie: 12\n- Total = 7 + 21 + 12 = **40**\n\n**[id 55]** Bags Jean can fill:\n- Remaining lollipops = 30 - 2 = 28\n- Bags = 28 ÷ 2 = **14**\n\n**[id 56]** Movie trips:\n- Cost per trip = $7 + $7 = $14\n- Number of trips = $42 ÷ $14 = **3**\n\n**[id 57]** Maximum boxes:\n- Available weight = 5,000 - 3,755 = 1,245 pounds\n- Max boxes = 1,245 ÷ 15 = **83**\n\n**[id 58]** Final price:\n- 25% fee = $40 × 0.25 = $10\n- Subtotal = $40 + $10 = $50\n- Add delivery = $50 + $3 = $53\n- Add tip = $53 + $4 = **$57**\n\n**[id 59]** Total raspberries:\n- From clusters = 6 × 20 = 120\n- Individual = 67\n- Total = 120 + 67 = **187**\n\n```json\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}\n```",
+ "usage": {
+  "input_tokens": 1203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2186,
+  "output_tokens_details": {
+   "thinking_tokens": 1458
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1203,
+    "output_tokens": 2186,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012133000000000001,
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

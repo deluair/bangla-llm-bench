@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 4.5,
+ "text": "1. The passage mentions that the Spanish initiated the three-century-long colonial period, so the correct answer is **D) স্পেনীয়**.\n2. The passage suggests that being polite and courteous is the best way to interact with Parisians, so the correct answer is **C) নম্র ব্যবহার**.\n3. The first-class section, Metropolas, is described as more comfortable and less crowded, so the correct answer is **B) বেশি যাত্রী হয় না**.\n4. The passage states that immigration checks are generally absent or only for formality when arriving at your destination, so the correct answer is **A) ইমিগ্রেশন চেক**.\n5. The passage mentions that Go Running Tours Network is the successor to Global Running Tours, so the correct answer is **B) গো রানিং ট্যুরস**.\n6. The passage states that traveling in groups of four to six reduces the cost per person, so the correct answer is **D) ছয় বা তার বেশি সদস্য মিলে দল বেঁধে গেলে**.\n7. The passage mentions that the city's continuous portrayal in music, film, literature, and popular culture has helped make San Francisco globally renowned, so the correct answer is **A) শিল্প এবং মিডিয়ার বিভিন্ন মাধ্যমে নজরকাড়া উপস্থিতি**.\n8. The passage does not mention humans causing snowfall; rather, it describes natural processes like sunlight melting ice and subsequent snowfall, so the correct answer is **B) মানুষ**.\n\n```json\n{\n  \"answers\": {\n    \"136\": \"D\",\n    \"137\": \"C\",\n    \"138\": \"B\",\n    \"139\": \"A\",\n    \"140\": \"B\",\n    \"141\": \"D\",\n    \"142\": \"A\",\n    \"143\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2321,
+  "completion_tokens": 404,
+  "total_tokens": 2725,
+  "cost": 0.00040875,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040875,
+   "upstream_inference_prompt_cost": 0.00034815,
+   "upstream_inference_completions_cost": 6.06e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "D",
+  "142": "A",
+  "143": "B"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "D",
+  "142": "A",
+  "143": "B"
+ }
+}

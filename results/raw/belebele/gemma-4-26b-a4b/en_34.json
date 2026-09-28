@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 46.6,
+ "text": "272: The passage says \"Kerala's temple festivals are very interesting to see, with regular procession of decorated elephants\". Thus, they are seen in processions at temple festivals.\n273: The passage states, \"Some even provide a microwave oven or other means to heat food.\" This is an amenity for those buying ready-made food.\n274: The passage states the numbering system and pronunciation differ, but does not mention spelling. However, it explicitly states the numbering system and pronunciation *differ*. It notes standard French is taught in schools. Option A says \"all words\", which is an exaggeration of \"some words\". Option B is definitely different. Option C is similar (learned in school). Looking at the question \"Which is not the same\", the numbering system (B) and pronunciation (A/implied) are different. However, B is explicitly stated as a peculiarity. Let's re-read: \"pronunciation of some words is slightly different\". Option A says \"all words\", which is false. So B is definitely different. \n275: The passage says \"writing is somewhat complicated by the need to find out whether a verb or adjective is used in a substantivized form.\" So, capitalization makes writing more complicated.\n276: The passage says \"This will cause cracks, crevasses, which may be obscured by snow bridges.\" Thus, cracks/crevasses are hidden.\n277: \"The fights in North Kivu are entertaining\" is a terrible tip, as the text warns to research the fighting for safety.\n278: The passage says \"Permits are limited to protect the canyon\".\n279: The passage says \"Cold weather is perhaps the only real danger the unprepared will face.\"\n\n[id 272] C\n[id 273] D\n[id 274] B\n[id 275] C\n[id 276] A\n[id 277] A\n[id 278] D\n[id 279] C\n\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1520,
+  "completion_tokens": 507,
+  "total_tokens": 2027,
+  "cost": 0.00027878,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027878,
+   "upstream_inference_prompt_cost": 0.0001064,
+   "upstream_inference_completions_cost": 0.00017238
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

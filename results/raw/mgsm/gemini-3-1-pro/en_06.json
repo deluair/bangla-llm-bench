@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 22.1,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 60]**\nTotal oranges = 25\nBad = 1\nUnripe = 20% of 25 = 5\nSour = 2\nGood = 25 - (1 + 5 + 2) = 17\n\n**[id 61]**\nCost of materials and jeweler = $500 + $800 = $1,300\nInsurance = 10% of $1,300 = $130\nTotal amount paid = $1,300 + $130 = $1,430\n\n**[id 62]**\nShe worked 30 years, which is 10 years past the 20-year mark.\nShe gets 5% per year for those 10 years, meaning she gets 50% of the pension.\n50% of $50,000 = $25,000\n\n**[id 63]**\nFirst half of the year (6 months) = 6 * $140 = $840\nSecond half of the year (6 months) with a 10% discount = $140 - $14 = $126 per month\n6 * $126 = $756\nTotal amount paid = $840 + $756 = $1,596\n\n**[id 64]**\nMiles per gallon = 100 miles / 4 gallons = 25 mpg\nTotal distance on a single tank = 12 gallons * 25 mpg = 300 miles\n\n**[id 65]**\nTime spent per day = 2 hours watching TV + 1 hour reading = 3 hours\nTime spent per week = 3 hours * 3 times = 9 hours\nTime spent in 4 weeks = 9 hours * 4 = 36 hours\n\n**[id 66]**\nEach school has 2 teams (boys and girls).\nEach team has 5 players and 1 coach = 6 people.\nTotal per school = 2 teams * 6 people = 12 people.\nTotal for 4 schools = 12 * 4 = 48 people.\n\n**[id 67]**\nDiamonds = 175\nRubies = 175 - 35 = 140\nEmeralds = 140 * 2 = 280\nTotal gems = 175 + 140 + 280 = 595\n\n**[id 68]**\nGirls = 60\nBoys = 60 * 2 = 120\nTotal students = 60 + 120 = 180\nNumber of teachers = 180 students / 5 students per teacher = 36 teachers\n\n**[id 69]**\nTotal allowance received = $5 * 8 weeks = $40\nStarting amount = Total money - Allowance = $100 - $40 = $60\n\n```json\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}\n```\n",
+ "usage": {
+  "input_tokens": 16720,
+  "output_tokens": 2295,
+  "thinking_tokens": 1499,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19015
+ },
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

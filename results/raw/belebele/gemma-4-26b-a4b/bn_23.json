@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 29.3,
+ "text": "The questions are answered based on the provided Bengali passages.\n\n[id 184] The passage defines scaffolding as a support system for new learners, which can be human (teacher) or virtual. It states project-based learning makes studying easier and goes *beyond* scaffolding, implying they are related but not synonymous. Option C says scaffolding is known as the project-based learning technique, which contradicts the text.\n[id 185] The passage states that MySpace pages can be customized (changing colors/fonts) to make reading easier. This makes \"Customization\" (A) the correct answer.\n[id 186] The text states Alexander proposed to pay for rebuilding but was rejected, and the temple was rebuilt in 323 BC *after* his death. Thus, it was rebuilt after his reign (B).\n[id 187] The text says Homo erectus could stand completely straight on two legs. While Sahelanthropus is estimated to have started walking on two legs, Homo erectus is explicitly described as being able to stand straight. However, checking the text: \"Homo erectus... could stand completely straight on two legs.\" This makes B the strongest choice.\n[id 188] The text says if the Allies (Americans/British) had failed, Germany might have conquered Britain. This implies the Allies were successful in their mission despite German U-boat interference. Thus, A is the answer.\n[id 189] The text states that inside the temple, there was a sanctuary where \"only priests could enter\" (কেবলমাত্র পুরোহিতরাই প্রবেশ করতে পারতেন). This corresponds to the \"internal sanctuary/sanctum\" (B).\n[id 190] The text states \"no ancient Roman ever tasted a turkey\" (কোনও প্রাচীন রোমান কখনও একটি টার্কির স্বাদ গ্রহণ করেননি). Therefore, a turkey roast (D) was not part of their feast. (Note: C is also technically false as they sat in lounges, but D is explicitly stated as a non-existent food item).\n[id 191] The text states: \"Hydrogen ions are a type of proton whose electrons have been separated from them.\" Therefore, electrons (D) were removed.\n\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1755,
+  "completion_tokens": 536,
+  "total_tokens": 2291,
+  "cost": 0.0002109,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002109,
+   "upstream_inference_prompt_cost": 0.0001037,
+   "upstream_inference_completions_cost": 0.0001072
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 31.9,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n**112:** The passage mentions that before becoming a global pandemic, the disease must take a less lethal form (\"বিশ্বজুড়ে মহামারী হওয়ার আগে অবশ্যই এই রোগটি কম প্রাণঘাতী আকার ধারণ করবে\").\n**113:** The passage states that the threat level has been reduced to severe, which means it is a known fact that the threat level has decreased (\"হুমকির মাত্রা হ্রাস করে মারাত্নকে নামিয়ে আনার...\").\n**114:** The text directly states that India lost 7 wickets while scoring only 36 runs towards the end of the innings (\"ভারত মাত্র ৩৬ রান করতে ৭ উইকেট হারিয়ে ফেললে\").\n**115:** The passage advises that frequent flyer points under a different airline in the same alliance could offer more benefits, meaning you should prioritize the airline that offers extra perks (\"ফ্রিকুয়েন্ট ফ্লায়ার পয়েন্টগুলি আরও বেশি কিছু অফার করতে পারে\").\n**116:** The text specifies that conductors on night sleeper trains may collect passports so that passengers' sleep is not disturbed (\"রাতের স্লিপার ট্রেনে কনডাক্টররা আপনার পাসপোর্ট সংগ্রহ করে রাখতে পারে যাতে আপনার ঘুমের ব্যাঘাত না হয়\").\n**117:** The Portuguese did the first rebuilding (as Casa Branca), and the Sultan of Morocco did the second rebuilding of the city (as Daru el-Badya).\n**118:** The passage explicitly mentions that roads, trains, and waterways connect the villages, but outside cars cannot reach them. Therefore, trains or boats are the options (\"রাস্তা, ট্রেন এবং জলপথ গ্রামের সঙ্গে সংযোগ রক্ষা করে এবং বাইরে থেকে কোনও গাড়ি সেখানে পৌঁছোতে পারে না\").\n**119:** The text states that some boots have studs and accessories with studs which are suitable for slippery conditions (\"স্টাড এর সাথে কিছু সহপযোগী উপকরণ থাকে যা পিচ্ছিল অবস্থায়... উপযুক্ত\"). \n\n```json\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"D\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 25664,
+  "output_tokens": 3631,
+  "thinking_tokens": 3159,
+  "cache_read_tokens": 0,
+  "total_tokens": 29295
+ },
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

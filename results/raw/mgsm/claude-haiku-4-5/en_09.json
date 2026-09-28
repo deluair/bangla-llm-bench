@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 17.1,
+ "text": "# Solving the Math Word Problems\n\n**[id 90]** Ted's Potato Salad\n- Adults: 20 × 10 lbs = 200 lbs\n- Children: 5 × 5 lbs = 25 lbs\n- Total: 225 lbs\n\n**[id 91]** Pets Total\n- Cindy: 4 pets\n- Marcia: 4 + 2 = 6 pets\n- Jan: 3 × 6 = 18 pets\n- Total: 4 + 6 + 18 = 28\n\n**[id 92]** Jackson's Age\n- James: 10 years\n- Corey: 10 + 1 = 11 years\n- Amy: 11 - 2 = 9 years\n- Jackson: 9 - 5 = 4 years\n\n**[id 93]** Gerald's Improved Speed\n- Lee: 38 seconds\n- Gerald (original): 38 + 2 = 40 seconds\n- Gerald (improved by 10%): 40 × 0.90 = 36 seconds\n\n**[id 94]** Total Neighborhood Pets\n- Dogs: 60\n- Cats: 2 × 60 = 120\n- Dogs + Cats: 180\n- Rabbits: 180 - 12 = 168\n- Total: 60 + 120 + 168 = 348\n\n**[id 95]** Girls Not in Girl Scout\n- Boys: 2/5 × 200 = 80\n- Girls: 200 - 80 = 120\n- In Girl Scout: 2/3 × 120 = 80\n- Not in Girl Scout: 120 - 80 = 40\n\n**[id 96]** Harry's Extra Sleep\n- Harry: 9 hours\n- James: 2/3 × 9 = 6 hours\n- Difference: 9 - 6 = 3 hours\n\n**[id 97]** Tomatoes Used\n- Final sauce: 32 oz\n- Original tomatoes: 32 ÷ 0.5 = 64 oz\n- Cans used: 64 ÷ 16 = 4 cans\n- Tomatoes: 4 × 3 = 12\n\n**[id 98]** First 15 Minutes Traffic\n- Originally: 30 cars\n- Exit: 5 cars\n- Through jam: 25 cars\n- Last 15 min: 20 cars\n- First 15 min: 25 - 20 = 5 cars\n\n**[id 99]** Mary's Remaining Plants\n- Initial plants: 2 × 40 = 80\n- Received: 18\n- Total: 98\n- Gave away: 40\n- Remaining: 98 - 40 = 58\n\n```json\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n```",
+ "usage": {
+  "input_tokens": 1211,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2019,
+  "output_tokens_details": {
+   "thinking_tokens": 1243
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1211,
+    "output_tokens": 2019,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011306,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

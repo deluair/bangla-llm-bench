@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 228.3,
+ "text": "[id 90] Adults eat 10 lbs each (20 × 10 = 200 lbs). Children eat 5 lbs each (5 × 5 = 25 lbs). Total = 225 lbs.\n\n[id 91] Cindy has 4. Marcia has 4 + 2 = 6. Jan has 3 × 6 = 18. Total = 4 + 6 + 18 = 28.\n\n[id 92] James is 10. Corey is 10 + 1 = 11. Amy is 11 − 2 = 9. Jackson is 9 − 5 = 4.\n\n[id 93] Gerald used to run 38 + 2 = 40 seconds. A 10% speed improvement reduces his time by 10% (naïve interpretation for this level): 40 − 4 = 36 seconds.\n\n[id 94] Dogs = 60. Cats = 2 × 60 = 120. Combined dogs and cats = 180. Rabbits = 180 − 12 = 168. Total pets = 60 + 120 + 168 = 348.\n\n[id 95] Boys = 200 × 2/5 = 80. Girls = 200 − 80 = 120. Girls in girl scout = 120 × 2/3 = 80. Girls not in girl scout = 120 − 80 = 40.\n\n[id 96] James slept 2/3 × 9 = 6 hours. Difference = 9 − 6 = 3 hours.\n\n[id 97] To make 32 oz of sauce, Freda needs 32 × 2 = 64 oz of raw tomatoes. That is 64/16 = 4 cans. Tomatoes used = 4 × 3 = 12.\n\n[id 98] 30 original − 5 exited − 20 later = 5 cars in the first 15 minutes.\n\n[id 99] Existing plants = 40 × 2 = 80. After receiving new ones: 80 + 18 = 98. After giving away 40: 98 − 40 = 58.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}",
+ "usage": {
+  "prompt_tokens": 711,
+  "completion_tokens": 8540,
+  "total_tokens": 9251,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8027
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

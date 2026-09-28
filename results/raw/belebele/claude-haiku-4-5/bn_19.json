@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 47.8,
+ "text": "Looking at each question carefully:\n\n**[id 152]** - The passage explicitly describes Whistler as \"ব্যয়বহুল\" (expensive), making it least attractive to budget-conscious travelers. Answer: **D**\n\n**[id 153]** - The passage recommends checking permissions (A), getting licenses (B), and researching (C). However, it warns against flying drones in crowded places, so option D (taking photos in crowded areas where the drone won't be noticed) is NOT recommended. Answer: **D**\n\n**[id 154]** - The passage states \"কিছু দেশে\" (some countries) have registration requirements, not all countries. It confirms A (tourist accommodation exemptions exist), C (immigration office visits needed), and D (hotels handle registration). Answer: **B**\n\n**[id 155]** - The passage mentions professional courses include role-playing, first aid, and weapons training. Books about remote survival exist and are effective. However, it explicitly states \"যুদ্ধ ক্ষেত্রগুলির সাথে সম্পর্কিত প্রকাশনী খুবই কম দেখা যায়\" (publications related to battlefields are rarely seen). Answer: **C**\n\n**[id 156]** - The passage states swimming against the current results in exhaustion and \"অসম্ভব হতে পারে\" (may be impossible), even for skilled swimmers. Getting out of the current first makes the return swim \"সাধারণত কঠিন নয়\" (usually not too difficult). Answer: **C**\n\n**[id 157]** - The passage says \"পাখির ঝাঁক বা ক্ষুদ্র জীবের জন্য অন্যান্য লেন্স প্রয়োজন\" (other lenses are needed for bird flocks or small creatures). Answer: **A**\n\n**[id 158]** - The passage discusses winter hazards: low friction (B), snow accumulation (C), and reduced visibility (D). Heavy traffic is only mentioned as normal in countries where snow is regular, not presented as a specific winter hazard. Answer: **A**\n\n**[id 159]** - The passage warns: \"যখন DVD তৈরী করেন, তখন সম্ভবত এর সীমানাগুলিও কেটে যাবে এবং ভিডিও এর নিচের অংশে যদি সাবটাইটেল থাকে তাহলে সেগুলি সম্পূর্ণরূপে প্রদর্শিত হবে না\" (boundaries will be cut and subtitles at the bottom won't display completely). Answer: **B**\n\n```json\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 6152,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3961,
+  "output_tokens_details": {
+   "thinking_tokens": 3220
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6152,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3961,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 6152,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6152
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032118,
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

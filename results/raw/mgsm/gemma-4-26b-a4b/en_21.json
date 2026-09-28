@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 10.8,
+ "text": "To solve these problems:\n\n[210] Cost = $30 + 2($20) = $70. Savings = $10 + 4($5) = $30. Remaining needed = $70 - $30 = $40. Mowing pays $4 per time. $40 / $4 = 10.\n\n[211] Let $R$ be red chickens and $W$ be white chickens. $W = R + 2$.\nEggs: $3R + 5W = 42 \\implies 3R + 5(R + 2) = 42 \\implies 8R + 10 = 42 \\implies 8R = 32 \\implies R = 4$.\n\n[212] Perimeter = $2(1.5 + 6) = 2(7.5) = 15$ miles. Time = Distance / Speed = $15 / 3 = 5$ hours.\n\n[213] Day 1: 100. Day 2: 100 + 50 = 150. Total (Day 1+2+3): $100 + 150 + \\text{Day } 3 = 500 \\implies \\text{Day } 3 = 500 - 250 = 250$.\n\n[214] Let $S$ be the small pool's volume now and $B$ be the big pool's volume now. $B = 4S$.\n4 minutes ago, volumes were $B + 4(4) = B + 16$ and $S + 16$.\nEquation: $B + 16 = 2(S + 16) \\implies B + 16 = 2S + 32 \\implies B - 2S = 16$.\nSubstitute $B = 4S$: $4S - 2S = 16 \\implies 2S = 16 \\implies S = 8$.\n\n[215] Total cost = $320 + 32 = $352. Hours needed = $352 / 8 = 44$.\n\n[216] Total to pay = $2000 + 0.10(2000) = $2200. Total paid = $165 \\times 12 = $1980. Remaining balance = $2200 - $1980 = $220.\n\n[217] Roses = 4. Dahlias = 4 + 7 = 11. Total = 4 + 11 = 15.\n\n[218] Current ages: Harriet = 21, Adrian = 3(21) = 63, Zack = 2(21) = 42.\nAges in 3 years: Harriet = 24, Adrian = 66, Zack = 45.\nAverage in 3 years = (24 + 66 + 45) / 3 = 135 / 3 = 45.\n\n[219] Naomi = 68. Yuri = 68/2 + 10 = 34 + 10 = 44. Brianna = 68 + 17 = 85.\nTotal of others = 68 + 44 + 85 = 197.\nJojo = 251 - 197 = 54.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "prompt_tokens": 754,
+  "completion_tokens": 894,
+  "total_tokens": 1648,
+  "cost": 0.000228348,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000228348,
+   "upstream_inference_prompt_cost": 3.1668e-05,
+   "upstream_inference_completions_cost": 0.00019668
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

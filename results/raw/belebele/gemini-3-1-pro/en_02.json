@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 16.8,
+ "text": "Based on the passages provided, here is the reasoning for each question:\n\n**[id 16]**\nThe passage explicitly notes that \"studying traffic flow is difficult because driver behavior cannot be predicted.\" Therefore, Traffic Flow is difficult to gauge due to this unpredictability. (Answer: D)\n\n**[id 17]**\nThe passage states, \"Only mutations in germ-line cells can be passed on to children.\" This makes the passage of a mutation to offspring dependent upon whether the cells are germ-line. (Answer: A)\n\n**[id 18]**\nThe passage directly defines an experiment as \"a test that is used to eliminate one or more of the possible hypotheses.\" (Answer: A)\n\n**[id 19]**\nThe passage mentions that humans have made lenses for thousands of years, but \"the first true telescopes were made in Europe in the late 16th century.\" (Answer: D)\n\n**[id 20]**\nThe passage concludes that \"Members of a subculture often signal their membership through a distinctive and symbolic use of style.\" (Answer: D)\n\n**[id 21]**\nThe first sentence of the passage states, \"The postmodern approach to learning offers the freedom from absolutes.\" (Answer: D)\n\n**[id 22]**\nThe passage begins by stating, \"Virtual teams are held to the same standards of excellence as conventional teams,\" which means both are expected to perform at the same level. (Answer: A)\n\n**[id 23]**\nThe passage mentions needs and desires being \"internalized as they mature to adulthood\" (not materializing new in adulthood), and specifically lists finding what appeals to people (likes), internalized needs, and environmental effects as the focus of content theories. Thus, \"New desires that materialize in adulthood\" is the exception. (Answer: A)\n\n```json\n{\"answers\": {\"16\": \"D\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"A\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17342,
+  "output_tokens": 1791,
+  "thinking_tokens": 1327,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19133
+ },
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

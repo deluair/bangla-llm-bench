@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 93.4,
+ "text": "1.  **id 96:** The passage states regarding the Giant Slalom: \"45 of the 117 total skiers in the Giant Slalom failed to rank in the race.\" While \"failed to finish\" is explicitly used for the Slalom event, the number 45 corresponds to the skiers who did not rank/finish the Giant Slalom (including the women's sitting group who failed to finish). Option D (45) matches this figure.\n2.  **id 97:** The passage states Northern Rock required support due to its exposure during the \"subprime mortgage crisis in 2007\". The nationalisation happened in 2008. Thus, the need for support occurred during the mortgage crisis. Option D is correct.\n3.  **id 98:** The passage says: \"Based on this fossil, that means the split is much earlier...\". It indicates the evidence for the split was determined based on a fossil. Option B is the most accurate reflection of the text.\n4.  **id 99:** The \"later reports\" stated the plane received a bomb threat and landed in Kandahar. The \"early reports\" mentioned Ürümqi. The latest report did not contain information about landing in Ürümqi (it actually says it was denied landing there in early reports, but the latest report focuses on the Afghanistan diversion). Therefore, \"The plane landed in Ürümqi\" was not stated in the latest report. Option B is correct.\n5.  **id 100:** The passage explicitly attributes the quote \"a major step\" to \"Bush spokesman Gordon Johndroe\". Option C is correct.\n6.  **id 101:** The passage states: \"The Ninth Ward... is currently in waist-high water\". Option C is correct.\n7.  **id 102:** The passage states: \"assistance of 80 police were on hand to direct motorists to detours.\" Option C is correct.\n8.  **id 103:** The passage states: \"By early today, winds were around 83 km/h, and it was expect to keep weakening.\" This links the expectation of weakening to the time when winds were around 83 km/h. Option B is correct.\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1234,
+  "completion_tokens": 5350,
+  "total_tokens": 6584,
+  "cost": 0.0009259,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009259,
+   "upstream_inference_prompt_cost": 0.0001234,
+   "upstream_inference_completions_cost": 0.0008025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4801,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 8.0,
+ "text": "Here are my answers with brief reasoning:\n\n- **104 (D):** The passage confirms that *at least some* dinosaurs had feathers, not *most* dinosaurs had feathers.\n- **105 (D):** The scarps were \"found all over the moon,\" so saying not many were found is untrue.\n- **106 (D):** The problems are extreme weather and the amount/thickness of ice; melting ice is not mentioned — the ice is crushing.\n- **107 (A):** The beams \"point skywards,\" so they shine toward the sky.\n- **108 (D):** The suspect sustained injuries from the blast, so he was not uninjured.\n- **109 (D):** AOL instigated the charges; AOL was not the one being charged.\n- **110 (C):** The passage states ASUS was awarded the 2007 Taiwan Sustainable Award.\n- **111 (C):** The plane aborted once and was on its second approach, so it did not try to land three times.\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 432,
+  "completion_tokens_details": {
+   "reasoning_tokens": 172
+  },
+  "prompt_tokens": 1246,
+  "prompt_tokens_details": {
+   "cached_tokens": 1216
+  },
+  "total_tokens": 1678
+ },
+ "served_by": null,
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

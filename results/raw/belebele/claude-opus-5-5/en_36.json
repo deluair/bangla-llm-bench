@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 5.7,
+ "text": "- **288 (B):** Satellite phones are used by shipping, including pleasure craft, so a boating trip fits.\n- **289 (B):** Montevideo's cooler season is its winter. That happens when it is summer in the Northern Hemisphere.\n- **290 (D):** SkyTeam covers none of the Southern Hemisphere ocean crossings.\n- **291 (D):** The passage says the economy is diversified, so \"entirely reliant on tourism\" is not true.\n- **292 (B):** The passage says many locations are only accessible with a 4x4, so claiming most places suit a normal car is bad advice.\n- **293 (C):** The passage suggests visiting bars or pubs in neighborhoods you don't frequent.\n- **294 (A):** Timbuktu has an airport, so it is accessible by plane.\n- **295 (B):** Travel agents help most with journeys beyond a traveller's previous experience, such as a first-time specialty excursion.\n\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2763,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 115
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2763,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 490,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2763,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2763
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.031911999999999996,
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

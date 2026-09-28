@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 16.9,
+ "text": "# Solutions\n\n**[id 40]**\nSuzy's iPhone: 1 year\nBen's iPhone: 2 × 1 = 2 years  \nBrandon's iPhone: 4 × 2 = **8 years**\n\n**[id 41]**\nWith gemstone, throw distance: 3 × 400 = 1200 feet\nDragon's flame reach: 1000 feet\nDistance outside reach: 1200 - 1000 = **200 feet**\n\n**[id 42]**\nTotal pieces: 5 pies × 8 pieces = 40 pieces\nPieces taken: 40 - 14 = **26 pieces**\n\n**[id 43]**\nRemaining calories: 2000 - 1800 = 200 calories\nServings possible: 200 / 250 = 0.8 servings\nGrams per serving: 300 / 5 = 60 grams\nGrams possible: 0.8 × 60 = **48 grams**\n\n**[id 44]**\nCandles to make: 20\nPounds needed: 20 / 10 = 2 pounds\nCost: 2 × $10 = $20\nRevenue: 20 × $2 = $40\nNet profit: $40 - $20 = **$20**\n\n**[id 45]**\nMonday: 5 articles\nTuesday: 5 + (2/5 × 5) = 7 articles\nWednesday: 2 × 7 = 14 articles\nTotal articles: 5 + 7 + 14 = 26\nTotal hours: 26 × 4 = **104 hours**\n\n**[id 46]**\n80 + x - 220 = 23\nx = **163 post-it notes**\n\n**[id 47]**\nBlue ties bought: $200 / $40 = 5\nRed ties bought: 2 × 5 = 10\nSpent on red ties: 10 × ($40 × 1.5) = 10 × $60 = $600\nTotal: $200 + $600 = **$800**\n\n**[id 48]**\n4 feet = 48 inches\nPieces: 48 / 6 = **8 pieces**\n\n**[id 49]**\nTotal units: 15 × 8 = 120\nOccupied: 3/4 × 120 = 90\nUnoccupied: 120 - 90 = **30 units**\n\n```json\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n```",
+ "usage": {
+  "input_tokens": 1298,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1901,
+  "output_tokens_details": {
+   "thinking_tokens": 1206
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1298,
+    "output_tokens": 1901,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.010803,
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

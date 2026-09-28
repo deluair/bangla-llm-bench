@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 37.0,
+ "text": "Looking at each problem:\n\n**[id 60]** Total oranges: 25\n- Bad: 1\n- Raw (20% of 25): 5\n- Sour: 2\n- Good: 25 - 1 - 5 - 2 = **17**\n\n**[id 61]** Material + Labor: $500 + $800 = $1,300\n- Insurance (10% of $1,300): $130\n- Total: $1,300 + $130 = **1430**\n\n**[id 62]** Base pension: $50,000\n- After 20 years, he gets 5% bonus per year\n- He worked 30 years, so 10 years × 5% = 50% bonus\n- Total pension: $50,000 × 1.50 = **75000**\n\n**[id 63]** First half (6 months): $140 × 6 = $840\n- Second half (6 months at 10% less): $126 × 6 = $756\n- Total: $840 + $756 = **1596**\n\n**[id 64]** Efficiency: 100 miles / 4 gallons = 25 miles/gallon\n- Full tank: 12 gallons\n- Distance: 25 × 12 = **300**\n\n**[id 65]** Per instance: 2 hours (TV) + 1 hour (reading) = 3 hours\n- Per week (3 times): 3 × 3 = 9 hours\n- Per 4 weeks: 9 × 4 = **36**\n\n**[id 66]** Per school: 2 teams × 5 players = 10 players + 2 coaches = 12 people\n- Total for 4 schools: 4 × 12 = **48**\n\n**[id 67]** Diamonds: 175\n- Rubies: 175 - 35 = 140\n- Emeralds: 140 × 2 = 280\n- Total: 175 + 140 + 280 = **595**\n\n**[id 68]** Girls: 60, Boys: 120, Total: 180\n- Teachers: 180 / 5 = **36**\n\n**[id 69]** Total allowance over 8 weeks: $5 × 8 = $40\n- Initial amount: $100 - $40 = **60**\n\n```json\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 75000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}\n```",
+ "usage": {
+  "input_tokens": 2487,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3799,
+  "output_tokens_details": {
+   "thinking_tokens": 3133
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2487,
+    "output_tokens": 3799,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.021481999999999998,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 75000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 75000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

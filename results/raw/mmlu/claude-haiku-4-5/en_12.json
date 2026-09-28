@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "6675",
+  "6681",
+  "6750",
+  "6778",
+  "6813",
+  "6838",
+  "6869",
+  "6871",
+  "6890",
+  "6903",
+  "7005",
+  "7011",
+  "7014",
+  "7018",
+  "7041"
+ ],
+ "seconds": 19.7,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through each question:\n\n**[id 6675]** False analogy fallacy: Comparing items that aren't similar enough to support a conclusion. **Answer: D**\n\n**[id 6681]** Concluding someone is honest because their associates are honest is assuming they share good traits through association. **Answer: A** (Laudatory personality)\n\n**[id 6750]** Appeal to emotions: Getting agreement by arousing feelings rather than logical reasoning. **Answer: D**\n\n**[id 6778]** Hasty conclusion fallacy: Drawing a conclusion without sufficient evidence. **Answer: B**\n\n**[id 6813]** Fallacy of accident is also known as \"Dicto simpliciter\" - applying general rules to exceptions. **Answer: D**\n\n**[id 6838]** Maximum examples = 3 × 2 × 2 × 2 (attributes) × 3 (class) = 72. **Answer: D**\n\n**[id 6869]** Predicting rainfall (continuous value) from cues is supervised learning. **Answer: A**\n\n**[id 6871]** Main reason for pruning decision trees is to avoid overfitting. **Answer: D**\n\n**[id 6890]** Both partitioning-based (K-means) and grid-based clustering are spatial algorithms. **Answer: D**\n\n**[id 6903]** Statement 1: TRUE (margins alone don't predict test performance). Statement 2: TRUE (BERT uses GELU activation). **Answer: A**\n\n**[id 7005]** Gouldner studied workers' reactions to bureaucratic characteristics. **Answer: C**\n\n**[id 7011]** Virtual teams work remotely (geographically dispersed). **Answer: D**\n\n**[id 7014]** Analyzing current situation to develop plans for mission/goals = strategy formulation. **Answer: B**\n\n**[id 7018]** Job Characteristics Model includes task identity, autonomy, and feedback, but NOT reward. **Answer: C**\n\n**[id 7041]** Worker autonomy in decision-making is an example of worker empowerment. **Answer: C**\n\n```json\n{\"answers\": {\"6675\": \"D\", \"6681\": \"A\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"D\", \"6903\": \"A\", \"7005\": \"C\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"C\", \"7041\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1449,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2369,
+  "output_tokens_details": {
+   "thinking_tokens": 1742
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1449,
+    "output_tokens": 2369,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.013294,
+ "answers_batch": {
+  "6675": "D",
+  "6681": "A",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ },
+ "single": {},
+ "answers": {
+  "6675": "D",
+  "6681": "A",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "D",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "C"
+ }
+}

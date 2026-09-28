@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 5.0,
+ "text": "80: The passage states \"No major injuries were reported,\" though five people were treated for symptoms of shock. Therefore, no one was treated for serious injuries.\n81: The passage states \"...baseball and softball, which were voted out of the Olympic Games in 2005.\"\n82: The passage states \"Prior to the arrival of troops, Haiti had not encountered problems related to the disease since the 1800s.\"\n83: The passage states \"...the suspected male offender is being investigated for trespassing rather than vandalism.\"\n84: The passage states \"The speeds of 802.11n are substantially faster than that of its predecessors...\"\n85: The text mentions current measures (pig catchers, mosquito curtains, pesticides) and notes that vaccines \"will help prepare health agencies for next year,\" implying they are the long-term/later measure.\n86: The passage states \"The failure of the second sentence... could possibly open the door for civil unions in the future.\"\n87: The passage states \"...ten million documents... leaked to the press in spring 2016.\"\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1391,
+  "completion_tokens": 298,
+  "total_tokens": 1689,
+  "cost": 0.000123982,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000123982,
+   "upstream_inference_prompt_cost": 5.8422e-05,
+   "upstream_inference_completions_cost": 6.556e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

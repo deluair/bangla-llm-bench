@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 34.2,
+ "text": "Here is the brief reasoning for each problem:\n\n- **[id 10]**: First month = 60. Second month = $3 \\times 60 = 180$. Third month = $180 - (0.30 \\times 180) = 126$. Total = $60 + 180 + 126 = 366$.\n- **[id 11]**: Total cost = $(3 \\times 68) + (2 \\times 80) + (6 \\times 55) = 204 + 160 + 330 = 694$.\n- **[id 12]**: Annual revenue = $7 \\times 1.5 = \\$10.5$. Net annual profit = $10.5 - 3 = \\$7.5$. Break-even takes $90 / 7.5 = 12$ years. He starts earning profit in year $12 + 1 = 13$.\n- **[id 13]**: Working backwards: before the orange house, Melanie had $5 \\times 2 = 10$. Before the red house, $10 + 2 = 12$. Since she sold $\\frac{1}{3}$ at the green house, $\\frac{2}{3}x = 12 \\implies x = 18$.\n- **[id 14]**: Contemporary = $20\\% \\times 20 = 4$. Remaining = 16. Jazz = $25\\% \\times 16 = 4$. Hip-hop = $16 - 4 = 12$. Percentage of total students = $\\frac{12}{20} \\times 100\\% = 60\\%$.\n- **[id 15]**: Profit on jewelry = $5000 \\times 0.025 = \\$125$. Profit on electronics = $8000 \\times 0.012 = \\$96$. Maximized profit = 125.\n- **[id 16]**: Each train travels 80 miles west on day 1 and 150 miles north on day 2. Distance covered by each train = $80 + 150 = 230$.\n- **[id 17]**: Weekly earnings = $(35 \\times 20) + (15 \\times 30) = 700 + 450 = \\$1,150$. Annual salary = $1150 \\times 50 = 57,500$.\n- **[id 18]**: In 4 weeks (28 days), she eats $28 \\times 3 = 84$ eggs. In dozens: $84 / 12 = 7$.\n- **[id 19]**: Total target time = $12 / 4 = 3$ hours. Time used = $1 + 1 = 2$ hours, leaving 1 hour. Remaining distance = $12 - 4 - 2 = 6$ miles. Required speed = $6 / 1 = 6$ mph.\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 13, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n",
+ "usage": {
+  "input_tokens": 40178,
+  "output_tokens": 4139,
+  "thinking_tokens": 2168,
+  "cache_read_tokens": 97898,
+  "total_tokens": 44317
+ },
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

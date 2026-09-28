@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 14.6,
+ "text": "**Solutions:**\n\n170: Hat=$25, Jacket=3×25=$75, Pants=(25+75)/2=$50 → Total=150\n171: 80×8+90×6+3×10=640+540+30=1210\n172: SallyThirtyTwo=8, SallyFour=8, GrannyRed=2×8=16, SallyTwo=16+3=19 → Total=8+8+16+19=51\n173: (300+200+500)×1.5=1500/month ×12=18000\n174: (90+5)×60=5700 sec=95 minutes\n175: Profit/gallon=10-5=5 → gallons=25/5=5 → lemon cost=3×5=15\n176: Chinese=240-80=160, girls=160-60=100\n177: Rent=1500, Fuel=2000, remaining=2500, charity=1250, left=1250; minus 200+700=900 → 350\n178: Boe=40, Monique=36, Rani=46 → Total=122\n179: (5+8)×10=130\n\n```json\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2725,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1650,
+  "output_tokens_details": {
+   "thinking_tokens": 1242
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2725,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1650,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2725,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2725
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.027404,
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

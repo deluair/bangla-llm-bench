@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 20.0,
+ "text": "The passage states: \"Former U.S. Speaker of the House Newt Gingrich came in second with 32 percent.\"\nOption B is correct.\n\nThe passage states: \"After the results came in, Gingrich lauded Santorum...\" To \"laud\" means to praise or speak highly of.\nOption B is correct.\n\nThe passage states: \"Nadal bagged 88% net points in the match winning 76 points in the first serve.\" This indicates Nadal's stats in that match.\nOption B is correct.\n\nThe passage states: \"Australia's former conservative government refused to ratify Kyoto, saying it would damage the economy...\"\nOption B is correct.\n\nThe passage states: \"Nintendo president Satoru Iwata unveiled the controller design... Resembling a television remote, the controller uses two sensors...\"\nOption B is correct.\n\nA) True: Rainfall was described as \"beneficial.\"\nB) False: The passage says it was \"once a Category 4 storm... [and then] weakened to a tropical depression.\" The order in the option is reversed.\nC) True: \"Its remnants produced showers across most of the islands.\"\nD) True: \"Some of the rainfall was accompanied by thunderstorms and frequent lightning.\"\nOption B is correct.\n\nA) Reported: \"Ecuadorean Galápagos Islands.\"\nB) Reported: \"evolved in just two generations.\"\nC) Not reported: The text mentions the species was formed but does not provide a name for it.\nD) Reported: \"Geospiza fortes, and the immigrant cactus finch, Geospiza conirostris.\"\nOption C is correct.\n\nA) Not stated: The text says Bucharest seeks to relaunch its image, not that CowParade only occurs in creative cities.\nB) Not stated: CowParade is part of a campaign *by* Bucharest City Hall, but it does not say they *created* CowParade.\nC) Incorrect: The text says Bucharest will be the \"first in southeastern Europe\" to host it, not that it is held throughout the region.\nD) True: The passage calls it \"the world's largest public art event.\"\nOption D is correct.\n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1309,
+  "completion_tokens": 538,
+  "total_tokens": 1847,
+  "cost": 0.00018454,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00018454,
+   "upstream_inference_prompt_cost": 7.694e-05,
+   "upstream_inference_completions_cost": 0.0001076
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 12.1,
+ "text": "- **[id 50]**: Lloyd's chickens produce 252 eggs/day, which is $252 / 12 = 21$ dozen eggs per day. At $2 per dozen, he makes $21 \\times 2 = \\$42$ per day. Over 7 days, he makes $42 \\times 7 = \\$294$.\n- **[id 51]**: Tom sails for 3 hours (1 to 4 PM) at 10 mph, covering $3 \\times 10 = 30$ miles. Traveling back at 6 mph takes $30 / 6 = 5$ hours.\n- **[id 52]**: 30 comic books weigh $30 \\times 0.25 = 7.5$ pounds. Uriah needs to remove an additional $15 - 7.5 = 7.5$ pounds. Each toy weighs 0.5 pounds, so he needs to remove $7.5 / 0.5 = 15$ toys.\n- **[id 53]**: Thursday revenue is $(6 \\times 60) + (4 \\times 40) = 360 + 160 = \\$520$. Friday revenue is $12 \\times 40 = \\$480$. The difference is $520 - 480 = \\$40$.\n- **[id 54]**: The family has 7 adopted kittens, Patchy had $3 \\times 7 = 21$ kittens, and Trixie had 12 kittens. Total kittens = $7 + 21 + 12 = 40$.\n- **[id 55]**: Jean has $30 - 2 = 28$ lollipops left. With 2 per bag, Jean can fill $28 / 2 = 14$ bags.\n- **[id 56]**: Each trip costs $\\$7 + \\$7 = \\$14$. With $\\$42$, Peter can go $42 / 14 = 3$ times.\n- **[id 57]**: Available weight capacity is $5000 - 3755 = 1245$ pounds. Maximum boxes = $1245 / 15 = 83$.\n- **[id 58]**: 25% fee on $\\$40$ is $\\$10$. Total price = $40 + 10 + 3 + 4 = \\$57$.\n- **[id 59]**: Raspberries in clusters = $6 \\times 20 = 120$. Total raspberries = $120 + 67 = 187$.\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}\n",
+ "usage": {
+  "input_tokens": 24626,
+  "output_tokens": 3189,
+  "thinking_tokens": 2492,
+  "cache_read_tokens": 0,
+  "total_tokens": 27815
+ },
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

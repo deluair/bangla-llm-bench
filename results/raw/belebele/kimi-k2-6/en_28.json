@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 25.3,
+ "text": "**224:** The passage explicitly states the airport was closed to \"commercial flights.\"  \n**225:** Brzezinski became NSA in 1977, succeeding Henry Kissinger, so Kissinger held the position until 1977.  \n**226:** The ship was 100 metres long; it had 120–160 cubic metres of fuel, not 100 metres of fuel.  \n**227:** The passage refers to \"newly-independent Algeria\" when Vautier returned in the 1960s, indicating independence was gained in that decade.  \n**228:** The passage says a neighbor called about the gas leak.  \n**229:** The latest confirmed case mentioned is the dead wild duck found in France.  \n**230:** The passage states Fred was moving \"towards the northwest.\"  \n**231:** The phase change resulted from earthquake activity that took place \"on March 10.\"\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1204,
+  "completion_tokens": 1041,
+  "total_tokens": 2245,
+  "completion_tokens_details": {
+   "reasoning_tokens": 808
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

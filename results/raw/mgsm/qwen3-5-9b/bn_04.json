@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 80.1,
+ "text": "\n\n1.  **Problem [id 40]:** Suzi's phone = 1 year. Ben's = 2 * 1 = 2 years. Brandon's = 4 * 2 = 8 years.\n2.  **Problem [id 41]:** Throw distance with gem = 3 * 400 = 1200 ft. Dragon fire range >= 1000 ft (implied by breathing fire at 1000ft target). Safe distance = 1200 - 1000 = 200 ft.\n3.  **Problem [id 42]:** Total pieces = 5 * 8 = 40. Taken = 40 - 14 = 26.\n4.  **Problem [id 43]:** Budget = 2000 - 1800 = 200 cal. Serving weight = 300g / 5 = 60g. Serving cal = 250. Weight allowed = (200/250) * 60 = 48g.\n5.  **Problem [id 44]:** 20 candles / 10 per lb = 2 lbs. Cost = 2 * $10 = $20. Revenue = 20 * $2 = $40. Profit = $40 - $20 = $20.\n6.  **Problem [id 45]:** Mon = 5 posts. Tue = 5 + (2/5)*5 = 7 posts. Wed = 7 * 2 = 14 posts. Total posts = 5 + 7 + 14 = 26. Time = 26 * 4 = 104 hours.\n7.  **Problem [id 46]:** Initial 80. Buy X. Use 220. Left 23. 80 + X - 220 = 23 -> X = 163.\n8.  **Problem [id 47]:** Blue cost $200 @ $40/candle -> 5 candles. Red = 2 * 5 = 10 candles. Red Price = $40 * 1.5 = $60. Red Cost = 10 * 60 = $600. Total = 200 + 600 = 800.\n9.  **Problem [id 48]:** 4 ft = 48 inches. Pieces = 48 / 6 = 8.\n10. **Problem [id 49]:** Total units = 15 * 8 = 120. Occupied = 3/4 * 120 = 90. Unoccupied = 120 - 90 = 30.\n\n```json\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n```",
+ "usage": {
+  "prompt_tokens": 2037,
+  "completion_tokens": 11285,
+  "total_tokens": 13322,
+  "cost": 0.00189645,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00189645,
+   "upstream_inference_prompt_cost": 0.0002037,
+   "upstream_inference_completions_cost": 0.00169275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10550,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

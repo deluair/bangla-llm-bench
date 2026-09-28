@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 32.4,
+ "text": "Looking at each question carefully:\n\n**[id 264]:** The passage describes canyoning as involving swimming, climbing, and jumping. While it requires relatively little training compared to other sports, it explicitly mentions swimming as one of the activities involved. The ability to swim would be essential.\n**Answer: D**\n\n**[id 265]:** The passage states Chile declared independence in 1810 and final victory over Spain came in 1818. The question asks which did NOT occur in 1810. While 1810 saw the independence declaration and Napoleonic Wars (which caused Spain's weak central government), the actual Spanish defeat occurred later in 1818.\n**Answer: B**\n\n**[id 266]:** The passage explicitly lists three materials spread on roads to improve friction: sand, gravel, and salt (calcium chloride). Water is not mentioned and would actually worsen conditions on ice.\n**Answer: D**\n\n**[id 267]:** The passage clearly states \"কুক দ্বীপপুঞ্জের কোনও শহর নেই\" (Cook Islands has no cities). Option C refers to \"main cities,\" but the passage says there are no cities—only 15 islands with Rarotonga and Aitutaki being main islands, not cities.\n**Answer: C**\n\n**[id 268]:** The passage explicitly states travelers who easily adapted to new culture sometimes face difficult readjustment to their own culture: \"ভ্রমণকারী যারা...সহজেই নতুন সংস্কারের সাথে সামঞ্জস্য আনতে পেরেছিল, কখনো কখনো তাদের নিজ সংস্কৃতির সাথে পুনর্বিন্যাসে কঠিন সময় পার করতে হয়।\"\n**Answer: B**\n\n**[id 269]:** The passage states moose are \"সহজাতভাবে আক্রমণাত্মক নয়\" (NOT naturally aggressive). Option A claims they ARE naturally aggressive, which contradicts the passage.\n**Answer: A**\n\n**[id 270]:** The passage credits Madagascar with having the most wildlife (\"বন্যজীবনের ক্ষেত্রে মাদাগাস্কার এখন পর্যন্ত সর্ববৃহৎ\"), while describing the smaller islands as luxury resorts. Fame for wildlife is not attributed to the small islands.\n**Answer: C**\n\n**[id 271]:** The passage mentions problems with expensive brand-name frames: \"কিছু কাজ করা বন্ধ করে দেয়\" (some stop working), suggesting quality issues or possible counterfeits, and that imported items are much more expensive.\n**Answer: C**\n\n```json\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5437,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2994,
+  "output_tokens_details": {
+   "thinking_tokens": 2250
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 2994,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.025853,
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

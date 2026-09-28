@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 7.9,
+ "text": "Here are the answers to each question based on the provided passages:\n\n- **[id 208]**: The text states that the center of Tibetan meditation is Deity Yoga, and through \"the visualization of various deities... the chakras are activated\". Thus, the answer is **B**.\n- **[id 209]**: The passage explains that Chhappan Bhog refers to the offering of food items and notes that \"Lakkha Singh presented the chhappan bhog bhajan as well\". Thus, the answer is **A**.\n- **[id 210]**: The passage mentions a \"funding crunch\" (insufficient funding) as a contributing factor to the end of the series. Thus, the answer is **A**.\n- **[id 211]**: The text mentions funerals were held for \"Jeff Weise and three of the nine victims\". Thus, the answer is **B**.\n- **[id 212]**: The text states that \"Latvia and Slovakia have both delayed the process of joining ACTA\", where delaying corresponds to deferring. Thus, the answer is **D**.\n- **[id 213]**: The passage notes that Apple informed METI of incidents \"which the company called 'non-serious'\". Thus, the answer is **D**.\n- **[id 214]**: Costello indicates nuclear energy should be pursued when it \"becomes economically viable\" / \"commercial\", indicating it is currently not cost-effective (too expensive). Thus, the answer is **D**.\n- **[id 215]**: Miller stated, \"I was getting ready so I wasn't really hearing what he was saying\", meaning he was not paying attention while getting ready. Thus, the answer is **B**.\n\n{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"B\", \"212\": \"D\", \"213\": \"D\", \"214\": \"D\", \"215\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25342,
+  "output_tokens": 1688,
+  "thinking_tokens": 1245,
+  "cache_read_tokens": 0,
+  "total_tokens": 27030
+ },
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ }
+}

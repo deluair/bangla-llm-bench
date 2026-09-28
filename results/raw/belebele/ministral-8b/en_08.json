@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 3.7,
+ "text": "[id 64] The passage states that four people were left with minor burns, indicating they were injured.\n[id 65] Steve Jobs said Apple was going to reinvent the phone.\n[id 66] The passage mentions John Howard as the Prime Minister, but does not confirm he is the leader of the Liberal Party. However, the context implies he is the leader.\n[id 67] The passage states Blake denied the attack and claimed self-defense, so he did not admit to the attack.\n[id 68] The passage mentions sharing technologies to help developing nations and saving forests as agenda items, but not as a use of the global warming fund.\n[id 69] The bill is specific to California, so it does not ban the sale or rental of violent video games to minors outside of California.\n[id 70] Jack Layton suggested revisions to the ‘Clean Air Act’.\n[id 71] Tommy Dreamer referred to Luna as the \"Queen of Extreme.\"\n\n```json\n{\n  \"answers\": {\n    \"64\": \"A\",\n    \"65\": \"B\",\n    \"66\": \"B\",\n    \"67\": \"B\",\n    \"68\": \"B\",\n    \"69\": \"C\",\n    \"70\": \"C\",\n    \"71\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1265,
+  "completion_tokens": 282,
+  "total_tokens": 1547,
+  "cost": 0.00023205,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023205,
+   "upstream_inference_prompt_cost": 0.00018975,
+   "upstream_inference_completions_cost": 4.23e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

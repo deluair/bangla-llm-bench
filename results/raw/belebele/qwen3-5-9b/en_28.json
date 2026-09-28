@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 57.4,
+ "text": "[id 224]\nThe passage states that the crash resulted in \"closing the airport to commercial flights\".\nAnswer: A\n\n[id 225]\nThe passage states that Brzezinski served as NSA from 1977 to 1981, \"succeeding Henry Kissinger\". This implies Kissinger held the position prior to 1977.\nAnswer: B\n\n[id 226]\nThe passage states the ship had \"120–160 cubic metres of fuel\". Option B claims it had \"100 meters of fuel\" (also meters vs cubic meters incorrect unit). Thus, B is the false statement.\nAnswer: B\n\n[id 227]\nThe passage mentions \"In the 1960s he headed back to newly-independent Algeria\", implying independence occurred in that decade (1962).\nAnswer: C\n\n[id 228]\nThe passage explicitly says \"after a neighbor called about a gas leak\".\nAnswer: A\n\n[id 229]\nThe passage details the confirmation of infection in \"marshland near Lyon in the east of France\", distinguishing it as the latest case compared to previous countries listed.\nAnswer: A\n\n[id 230]\nThe passage states the storm \"is moving towards the northwest.\"\nAnswer: D\n\n[id 231]\nThe passage states the earthquake activity resulting in the phase change \"took place on March 10\".\nAnswer: C\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1309,
+  "completion_tokens": 2093,
+  "total_tokens": 3402,
+  "cost": 0.00044485,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00044485,
+   "upstream_inference_prompt_cost": 0.0001309,
+   "upstream_inference_completions_cost": 0.00031395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1709,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

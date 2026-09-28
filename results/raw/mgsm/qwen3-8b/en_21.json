@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 23.6,
+ "text": "{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "prompt_tokens": 722,
+  "completion_tokens": 1701,
+  "total_tokens": 2423,
+  "cost": 0.000858429,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000858429,
+   "upstream_inference_prompt_cost": 8.4474e-05,
+   "upstream_inference_completions_cost": 0.000773955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1604,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Alibaba",
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 6.5,
+ "text": "Here are my answers with brief reasoning:\n\n- **232**: The passage states the disease \"migrates to humans through mosquitos\" → **A**\n- **233**: He was \"attacked in Tibet by a rabid dog\" → **C**\n- **234**: The order requires release of those held over 24 hours \"who did not receive a hearing,\" so a hearing is required → **D**\n- **235**: Best Visual Effects is not among the listed nominations → **B**\n- **236**: \"Some roads have been damaged\" is explicitly stated → **C**\n- **237**: The ongoing military presence is Israel's demand; Palestine only agrees to five years → **B**\n- **238**: Massa was injured \"during a crash at the 2009 Hungarian Grand Prix\" → **A**\n- **239**: \"Police said they suspect an alleged Daesh (ISIL) militant\" → **A**\n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 525,
+  "completion_tokens_details": {
+   "reasoning_tokens": 269
+  },
+  "prompt_tokens": 1194,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1719
+ },
+ "served_by": null,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

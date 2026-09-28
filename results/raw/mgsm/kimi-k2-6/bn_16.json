@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 237.6,
+ "text": "[id 160] Monday: 17 ft. Tuesday: 17 + 7 = 24 ft. Wednesday: (2/3) × 24 = 16 ft.  \n[id 161] Anakin: 10 + 6 + 3 = 19. Laksin: (10−5) + (6−3) + (3+2) = 5 + 3 + 5 = 13. Total: 19 + 13 = 32.  \n[id 162] Increase every 2 months: 20% of $20 = $4. 36 months = 18 periods. Price: 20 + 18×4 = 92.  \n[id 163] Cars: 5 × $4 = $20. Action figures: 3 × $5 = $15. Doll: 3 × $5 = $15. Total: 20 + 15 + 15 = 50.  \n[id 164] Doing taxes herself costs 3 × $35 = $105 in lost income. Accountant costs $90. She saves 105 − 90 = $15.  \n[id 165] Spent: 1090 + 157 + 74 + 102 = 1423. Remaining: 1500 − 1423 = 77.  \n[id 166] Eggs needed: 15 × 3 = 45. Babysitting trips: 45 ÷ 9 = 5.  \n[id 167] Let Brooke’s age be x. Seth = 2x. In 2 years: (x+2) + (2x+2) = 28 → 3x = 24 → x = 8. Seth = 16.  \n[id 168] Twice Ethel’s money: 2 × $8 = $16. Jimmy has $2 more: 16 + 2 = 18.  \n[id 169] Weekdays (5 days): 5 × 10 = 50 miles. Weekend (2 days): 2 × 20 = 40 miles. Total: 50 + 40 = 90.  \n\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 90}}",
+ "usage": {
+  "prompt_tokens": 1463,
+  "completion_tokens": 9913,
+  "total_tokens": 11376,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9403
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 90.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 90.0
+ }
+}

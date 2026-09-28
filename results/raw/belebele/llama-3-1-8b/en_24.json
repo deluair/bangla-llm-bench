@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 16.1,
+ "text": "A) They are able to hunt well at night\nB) They move quietly\nC) Their sense of smell is weak\nD) They prefer to hunt small animals\nAnswer: B) They move quietly\n\nA) Their swimming ability\nB) The sound of their roar\nC) Their leaping distance\nD) The force of their pull\nAnswer: B) The sound of their roar\n\nA) Capillaries\nB) Arteries\nC) Veins\nD) Organs\nAnswer: A) Capillaries\n\nA) Reproduction\nB) Life span\nC) Food gathering\nD) Efficiency\nAnswer: B) Life span\n\nA) Laying eggs\nB) Using two back legs to walk\nC) The ability to fly\nD) Feet with claws\nAnswer: C) The ability to fly\n\nA) A sloth\nB) A plant with tough branches\nC) A parrot\nD) A plant with poisonous fruit\nAnswer: D) A plant with poisonous fruit\n\nA) German occupation\nB) Joining the European Union\nC) The Belgian Revolution\nD) Becoming an independent country\nAnswer: A) German occupation\n\nA) Double-edged\nB) Curved\nC) Concave\nD) Tilted\nAnswer: C) Concave\n\n{\"answers\": {\"192\": \"B\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1243,
+  "completion_tokens": 328,
+  "total_tokens": 1571,
+  "cost": 3.798e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.798e-05,
+   "upstream_inference_prompt_cost": 2.486e-05,
+   "upstream_inference_completions_cost": 1.312e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "192": "B",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "B",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

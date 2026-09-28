@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 217.1,
+ "text": "Here are the solutions:\n\n**120:** Miguel uses 2 pads per week, so 2 × 30 = 60 pages per week. Assuming 4 weeks in a month: 60 × 4 = **240** pages.\n\n**121:** Morisset has 5 + 8 = 13 fruits. Kayel has 2×5 = 10 apples and 8÷2 = 4 oranges, totaling 14 fruits. Combined: 13 + 14 = **27** fruits.\n\n**122:** Monday: 8 hours. Tuesday and Wednesday: 8 − 2 = 6 hours each. The remaining 4 days: 6 + 1 = 7 hours each. Total: 8 + 6 + 6 + 4×7 = **48** hours.\n\n**123:** First 3 hours: 3 × 10 = 30 miles. Remaining 4 hours: 4 × 5 = 20 miles. Total: 30 + 20 = **50** miles.\n\n**124:** One-third of 60 letters is 20. She added these 20 stamped letters to the already-stamped stack, which now has 30. So originally it had 30 − 20 = **10** letters.\n\n**125:** Let the packet Julia bought contain x spoons. Her husband gave a packet of 5 spoons. Total: x + 5. After using 3, x + 2 = 12, so x = **10** spoons.\n\n**126:** Fish sausages: 38 + 6 = 44. Total sausages: 38 + 44 = **82**.\n\n**127:** Amy has 50 + 20 = 70 friends. Together: 50 + 70 = **120** friends.\n\n**128:** Watermelon: 3 × 15 = $45. Orange: 45 − 5 = $40. Total cost: 4×45 + 20×15 + 10×40 = 180 + 300 + 400 = **$880**.\n\n**129:** Total time: 500 × 24 = 12,000 minutes = 200 hours. Revenue: 200 × 200 = $40,000. Cost: 200 × 150 = $30,000. Profit: 40,000 − 30,000 = **$10,000**.\n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}",
+ "usage": {
+  "prompt_tokens": 1681,
+  "completion_tokens": 8589,
+  "total_tokens": 10270,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8035
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

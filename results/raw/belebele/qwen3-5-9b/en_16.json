@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 40.1,
+ "text": "\n\n128: The passage states that a contagious disease is \"easily transmitted by being in the vicinity of an infected person.\" This points to infected people as the vector of spread mentioned for contagious diseases, distinct from the general definition of infectious diseases caused by pathogens. Therefore, Option A is the correct answer based on the text.\n\n129: The passage begins by stating, \"Because calls are routed over the Internet, you do not need to use a phone company located where you live or where you travel.\" This indicates that the routing of calls over the Internet is what enables the use of phone services regardless of location. Therefore, Option A is the correct answer.\n\n130: The passage states that \"most words are pronounced exactly how they are written,\" which contradicts Option D (\"The pronunciation of most words vary depending on the following vowel\"). The variation depending on the following vowel applies specifically to the letters \"c\" and \"g,\" not \"most words.\" Therefore, Option D does not accurately describe the pronunciation and is the correct answer to the question.\n\n131: The passage lists religious significance, historic/archeological sites, and cultural/spiritual centers as main tourist destinations. It mentions the capital status but qualifies it heavily by stating many countries do not recognize it as the capital. The capital status is not explicitly linked to tourism appeal in the same way religious and cultural aspects are; in fact, the lack of universal recognition might diminish its attractiveness as a standard tourist draw compared to the other universally acknowledged factors. Therefore, Option B is the least likely aspect to attract tourism according to the passage.\n\n132: The passage warns climbers to \"take care in the steeper portions, especially when wet, as it can become dangerous quickly.\" This explicitly identifies wet conditions as the cause of increased danger. Therefore, Option A is the correct answer.\n\n133: The passage states, \"Moldova is a multi-ethnic republic that has suffered from ethnic conflict. In 1994, this conflict led to the creation of the self-proclaimed Transnistria Republic.\" The conflict is identified as \"ethnic conflict.\" Therefore, Option B is the correct answer.\n\n134: The passage advises \"Beware: small-town bars here are not always good places for the out-of-state visitor to hang out\" and links them to drunk driving problems. This is a clear warning to avoid these areas compared to the other options mentioned. Therefore, Option B is the correct answer.\n\n135: The passage explicitly states, \"Fruit juices are pricey but excellent.\" A budget-conscious traveler would want to avoid expensive items. The pricey descriptor is only applied to fruit juices among the options. Therefore, Option D is the correct answer.\n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1423,
+  "completion_tokens": 5673,
+  "total_tokens": 7096,
+  "cost": 0.00099325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00099325,
+   "upstream_inference_prompt_cost": 0.0001423,
+   "upstream_inference_completions_cost": 0.00085095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5040,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 19.7,
+ "text": "The questions can be answered as follows:\n\n112: The passage states: \"Some studies suggest that the disease must become less lethal before it can cause a global epidemic.\" (A)\n113: The passage states: \"the reduction of the threat level to severe does not mean the overall threat has gone away.\" (A)\n114: The passage states: \"India only made 36 runs loosing 7 wickets to end the innings.\" (B)\n115: The passage advises to be aware that \"frequent flyer points may be more generous under a different airline,\" suggesting one should consider points/privileges rather than just how much they fly (C is the intuitive choice to avoid, A is the implied priority). (A)\n116: The passage states: \"On night sleeper trains, passports may be collected by the conductor...\" (B)\n117: The passage states: \"The Portuguese destroyed it and rebuilt it... The Moroccan sultan rebuilt the city...\" The first rebuild was by the Portuguese, the second by the Moroccan sultan. (D)\n118: The passage states: \"Paths, trains and boats connect the villages, and cars cannot reach them from the outside.\" (C)\n119: The passage mentions: \"Some boots have studs and there is studded add-on equipment for slippery conditions...\" (B)\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1308,
+  "completion_tokens": 356,
+  "total_tokens": 1664,
+  "cost": 0.00014968,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014968,
+   "upstream_inference_prompt_cost": 7.848e-05,
+   "upstream_inference_completions_cost": 7.12e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

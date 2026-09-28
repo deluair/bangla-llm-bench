@@ -1,0 +1,58 @@
+{
+ "task": "mgsm",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 4.4,
+ "text": "The problems can be solved with simple algebra and arithmetic:\n\n- **210:** Total needed $70, already $10, babysitting gives $20, remaining $40 → $4 per mowing → 10 mowings.  \n- **211:** Let red chickens = R, white = R+2. 3R + 5(R+2)=42 → R=4.  \n- **212:** Perimeter = 2(1.5+6)=15 mi, speed = 3 mph → 5 h.  \n- **213:** Day 1 = 100, Day 2 = 150, total up to day 3 = 500 → Day 3 = 250.  \n- **214:** Let current amounts B and S, with B=4S and (B+16)=2(S+16). Solving gives S=8 gal.  \n- **215:** Total cost $352, earnings $8/hr → 44 h.  \n- **216:** Owed $2000 + 10% = $2200. Paid $165 × 12 = $1980 → $220 remaining.  \n- **217:** 4 roses, dahlias = 4+7 = 11 → total 15 flowers.  \n- **218:** Harriet 21, Adrian 3×21=63, Jack 2×21=42. In 3 years average = (63+21+42+9)/3 = 45.  \n- **219:** Naomi 68, Yuri 78, Briana 85, total 251 → Jojo = 251‑(68+78+85)=20.\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n```",
+ "usage": {
+  "queue_time": 0.27073262,
+  "prompt_tokens": 1006,
+  "prompt_time": 0.045099109,
+  "completion_tokens": 1896,
+  "completion_time": 3.957706505,
+  "total_tokens": 2902,
+  "total_time": 4.002805614,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1463
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 90.3,
+ "text": "For [id 150], Steve’s time is \\(3\\times5280/440 = 36\\) minutes and Tim’s time is \\(2\\times5280/264 = 40\\) minutes, so the winner waits \\(40-36=4\\) minutes.  \nFor [id 151], the total tires are \\(5\\times2 + 3\\times3 + 1 = 20\\); at $0.25 each, revenue is \\(20\\times0.25 = 5\\) dollars.  \nFor [id 152], there are \\(10\\times6 = 60\\) cookies costing \\(60\\times0.10 = 6\\) dollars, so change from $10 is $4.  \nFor [id 153], working backwards from the 5 remaining gives \\(5+1=6\\), then \\(6\\times3=18\\), then \\(18+9=27\\), then \\(27+7=34\\), then \\(34+14=48\\) fries originally.  \nFor [id 154], weekly class hours are \\(3\\times3 + 2\\times4 = 17\\); over 16 weeks that is \\(17\\times16 = 272\\) hours.  \nFor [id 155], total length in inches is \\(300\\times4 + 120\\times6 + 60\\times24 = 3360\\) inches, which is \\(3360/12 = 280\\) feet.  \nFor [id 156], monthly need is \\(200+400+100 = 700\\) bananas, so for 2 months he orders \\(700\\times2 = 1400\\).  \nFor [id 157], Blake runs \\(15\\times200 = 3000\\) yards; Kelly runs \\(200 + 34\\times80 = 2920\\) yards; the difference is \\(3000-2920 = 80\\) yards.  \nFor [id 158], total cost is \\(4\\times1.5 + 2\\times4 + 20 = 6 + 8 + 20 = 34\\) dollars.  \nFor [id 159], Finn sees \\(11 + 6 - 2 = 15\\) tadpoles.  \n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 48, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}",
+ "usage": {
+  "prompt_tokens": 857,
+  "completion_tokens": 3562,
+  "total_tokens": 4419,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3032
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 26.0,
+ "text": "Here are the explanations for each question based on the provided passages:\n\n*   **[id 264]** The passage explicitly lists swimming (\"সাঁতার\") as an integral part of canyoning, making option D correct. \n*   **[id 265]** The passage states that final victory against Spain was not achieved until 1818, so option B did NOT happen in 1810.\n*   **[id 266]** The passage mentions sand (\"বালি\"), gravel (\"নুড়ি\"), and salt (\"নুন\") as things spread to maintain friction. Water (জল) does not improve friction on icy roads, making option D correct.\n*   **[id 267]** The passage says the Cook Islands have no cities (\"কোনও শহর নেই\") but consist of islands, of which the main ones are Rarotonga and Aitutaki. Therefore, describing them as \"main cities\" is incorrect, making option C correct.\n*   **[id 268]** The passage states that travelers who easily adjusted to new cultures abroad (\"ভ্রমণকারী যারা কি না সহজেই নতুন সংস্কারের সাথে সামঞ্জ্যস্য আনতে পেরেছিল\") often have a hard time readjusting to their own culture upon return. Option B is correct.\n*   **[id 269]** The passage states that moose are not inherently aggressive (\"সহজাতভাবে আক্রমণাত্মক নয়\"), making the statement in option A false.\n*   **[id 270]** The passage explicitly attributes a reputation for wildlife to the large island of Madagascar (\"বন্যজীবনের ক্ষেত্রে মাদাগাস্কার...\"), while the small islands are known for being luxury resorts or independent/associated with France. Option C is correct.\n*   **[id 271]** The passage mentions issues with high-priced brand-name frames, indicating that many are counterfeit (\"knock-offs\", which the Bengali text somewhat awkwardly translates but contextually points to being fake). Option C is correct.\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17651,
+  "output_tokens": 3060,
+  "thinking_tokens": 2567,
+  "cache_read_tokens": 8142,
+  "total_tokens": 20711
+ },
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

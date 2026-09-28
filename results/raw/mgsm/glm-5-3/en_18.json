@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 10.9,
+ "text": "Here are the solutions:\n\n**180:** Winner got 3/4 × 80 = 60, so loser got 80 − 60 = **20**\n\n**181:** White carnations = 200/5 = 40; red roses = 4 × 40 = **160**\n\n**182:** Two years ago Jan was 28; half is 14, Mark was 14 + 5 = 19; now Mark is 21; Jean is 21 + 2 = **23**\n\n**183:** Team 1: 4 × 55 = 220s; Team 2: 60 + 57 + 54 + 51 = 222s; difference = **2**\n\n**184:** P(>3) = 50%; P(two evens in a row) = 25%; difference = **25**%\n\n**185:** Jenna: 20/2 = 10; total = 20 + 10 = **30**\n\n**186:** Hamsters: 10 × 5 = 50; rabbits: 20; rats get 160 − 70 = 90; rats = 90/6 = 15; per cage = 15/3 = **5**\n\n**187:** 100 + (100 × 0.02 × 3) = 100 + 6 = **106**\n\n**188:** Profit per bag = 30 − 22 = 8; bags = 400/8 = **50**\n\n**189:** Food = 15.75; total = 20.25 + 15.75 + 66 = 102; per person = 102/3 = **34**\n\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 23, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}",
+ "usage": {
+  "completion_tokens": 1010,
+  "completion_tokens_details": {
+   "reasoning_tokens": 600
+  },
+  "prompt_tokens": 785,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1795
+ },
+ "served_by": null,
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 9.5,
+ "text": "Here is a brief reasoning for each question:\n\n- **[id 112]**: The passage explicitly states that \"the disease must become less lethal before it can cause a global epidemic\" (**A**).\n- **[id 113]**: The passage mentions \"the reduction of the threat level to severe\", indicating the threat level has been reduced (**A**).\n- **[id 114]**: The passage specifies that India ended the innings \"loosing 7 wickets\" (**B**).\n- **[id 115]**: The text advises that \"frequent flyer points may be more generous under a different airline in the same alliance\", suggesting prioritizing points (**A**).\n- **[id 116]**: The passage notes that on \"night sleeper trains, passports may be collected by the conductor so that you do not have your sleep interrupted\" (**B**).\n- **[id 117]**: The Portuguese rebuilt it first, and \"The Moroccan sultan rebuilt the city\" after the 1755 earthquake (**D**).\n- **[id 118]**: The text states that \"Paths, trains and boats connect the villages, and cars cannot reach them\", making train or boat the valid means (**C**).\n- **[id 119]**: The text notes that \"Some boots have studs and there is studded add-on equipment for slippery conditions\" (**B**).\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25143,
+  "output_tokens": 2284,
+  "thinking_tokens": 1909,
+  "cache_read_tokens": 0,
+  "total_tokens": 27427
+ },
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

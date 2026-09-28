@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 30.6,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 847,
+  "completion_tokens": 843,
+  "total_tokens": 1690,
+  "cost": 0.00012665,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00012665,
+   "upstream_inference_prompt_cost": 4.235e-05,
+   "upstream_inference_completions_cost": 8.43e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "10": {
+   "text": "Here's how to solve the problem step-by-step:\n\n*   **Month 2 Downloads:** The number of downloads in the second month was three times the number in the first month, so it was 60 * 3 = 180 downloads.\n\n*   **Month 3 Downloads (before decrease):** The number of downloads in the third month was 30% less than the second month, so it was 180 * (1 - 0.30) = 180 * 0.70 = 126 downloads.\n\n*   **Total Downloads:** The total number of downloads over three months is 60 + 180 + 126 = 366 downloads.\n\nANSWER: 366",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 168,
+    "total_tokens": 274,
+    "cost": 2.21e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.21e-05,
+     "upstream_inference_prompt_cost": 5.3e-06,
+     "upstream_inference_completions_cost": 1.68e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 366.0
+  },
+  "11": {
+   "text": "Here's how to solve the word problem:\n\n**1. Calculate the cost of the donuts:**\n\n* Cost per donut: $68\n* Number of donuts: 3 dozen = 3 * 12 = 36\n* Total cost of donuts: $68 * 36 = $2448\n\n**2. Calculate the cost of the small cupcakes:**\n\n* Cost per dozen: $80\n* Number of dozens: 2\n* Total cost of small cupcakes: $80 * 2 = $160\n\n**3. Calculate the cost of the mini cheese cakes:**\n\n* Cost per dozen: $55\n* Number of dozens: 6\n* Total cost of mini cheese cakes: $55 * 6 = $330\n\n**4. Calculate the total cost:**\n\n* Total cost = Cost of donuts + Cost of small cupcakes + Cost of mini cheese cakes\n* Total cost = $2448 + $160 + $330 = $2938\n\nANSWER: 2938",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 231,
+    "total_tokens": 353,
+    "cost": 2.92e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.92e-05,
+     "upstream_inference_prompt_cost": 6.1e-06,
+     "upstream_inference_completions_cost": 2.31e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 2938.0
+  },
+  "12": {
+   "text": "Here's how to solve the problem:\n\n**1. Calculate Carlos's profit per lemon:**\n\n* Selling price per lemon: $1.50\n* Cost to grow per lemon (water & fertilizer): $0 (The problem states this cost is for the year, not per lemon)\n* Profit per lemon: $1.50 - $0 = $1.50\n\n**2. Calculate Carlos's net profit per year:**\n\n* Lemons produced per year: 7\n* Profit per lemon: $1.50\n* Total profit per year: 7 * $1.50 = $10.50\n\n**3. Calculate the number of years to recover the initial cost:**\n\n* Initial cost: $90\n* Net profit per year: $10.50\n* Years to recover cost: $90 / $10.50 = 8.57 years\n\nSince Carlos can't have a fraction of a year, he needs to round up to the nearest whole year.\n\n**Answer:** 9\n\nANSWER: 9",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 234,
+    "total_tokens": 364,
+    "cost": 2.99e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.99e-05,
+     "upstream_inference_prompt_cost": 6.5e-06,
+     "upstream_inference_completions_cost": 2.34e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 9.0
+  },
+  "13": {
+   "text": "Let the total number of vacuum cleaners Melanie started with be $x$.\nMelanie sold $\\frac{1}{3}$ of the vacuum cleaners in the green house.\nSo, she sold $\\frac{1}{3}x$ in the green house.\nShe sold 2 more in the red houses. So, she sold $2 \\times 2 = 4$ in the red houses.\nThe remaining vacuum cleaners are $x - \\frac{1}{3}x - 4 = \\frac{2}{3}x - 4$.\nShe sold half of the remaining vacuum cleaners in the orange house.\nSo, she sold $\\frac{1}{2} (\\frac{2}{3}x - 4) = \\frac{1}{3}x - 2$ in the orange house.\nThe number of vacuum cleaners remaining is 5.\nSo, the total number of vacuum cleaners sold is $x - 5$.\nThe total number of vacuum cleaners sold is $\\frac{1}{3}x + 4 + \\frac{1}{3}x - 2 = \\frac{2}{3}x + 2$.\nTherefore, $x - 5 = \\frac{2}{3}x + 2$.\n$x - \\frac{2}{3}x = 2 + 5$\n$\\frac{1}{3}x = 7$\n$x = 7 \\times 3 = 21$.\n\nAlternatively,\nLet $x$ be the total number of vacuum cleaners Melanie started with.\nShe sold $\\frac{1}{3}x$ in the green house.\nShe sold 2 vacuum cleaners in each of the 2 red houses, so she sold $2 \\times 2 = 4$ vacuum cleaners in the red houses.\nShe sold $\\frac{1}{2}$ of the remaining vacuum cleaners in the orange house.\nThe remaining vacuum cleaners after selling in the green and red houses are $x - \\frac{1}{3}x - 4 = \\frac{2}{3}x - 4$.\nShe sold $\\frac{1}{2} (\\frac{2}{3}x - 4) = \\frac{1}{3}x - 2$ in the orange house.\nThe number of vacuum cleaners remaining is 5.\nSo, $x - \\frac{1}{3}x - 4 - (\\frac{1}{3}x - 2) = 5$\n$x - \\frac{1}{3}x - 4 - \\frac{1}{3}x + 2 = 5$\n$x - \\frac{2}{3}x - 2 = 5$\n$\\frac{1}{3}x = 7$\n$x = 21$.\n\nMelanie started with 21 vacuum cleaners.\nShe sold $\\frac{1}{3}(21) = 7$ in the green house.\nShe sold $2(2) = 4$ in the red houses.\nShe sold $\\frac{1}{2}(21 - 7 - 4) = \\frac{1}{2}(10) = 5$ in the orange house.\nSo she sold $7 + 4 + 5 = 16$ vacuum cleaners.\nRemaining vacuum cleaners are $21 - 16 = 5$.\n\nANSWER: 21",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 734,
+    "total_tokens": 873,
+    "cost": 8.035e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.035e-05,
+     "upstream_inference_prompt_cost": 6.95e-06,
+     "upstream_inference_completions_cost": 7.34e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 21.0
+  },
+  "14": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the number of students who dance contemporary:** 20% of 20 students = 0.20 * 20 = 4 students\n2. **Calculate the number of students who dance jazz:** 25% of 20 students = 0.25 * 20 = 5 students\n3. **Calculate the total number of students who dance contemporary or jazz:** 4 + 5 = 9 students\n4. **Calculate the number of students who dance hip-hop:** 20 - 9 = 11 students\n5. **Calculate the percentage of students who dance hip-hop:** (11 / 20) * 100% = 55%\n\nANSWER: 55",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 173,
+    "total_tokens": 289,
+    "cost": 2.31e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.31e-05,
+     "upstream_inference_prompt_cost": 5.8e-06,
+     "upstream_inference_completions_cost": 1.73e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 55.0
+  },
+  "15": {
+   "text": "Here's how we can solve this problem:\n\n**Scenario 1: Buying Jewelry**\n\n*   Initial cost of jewelry: $5,000\n*   Price increase: 2.5% of $5,000 = 0.025 * $5,000 = $125\n*   Selling price: $5,000 + $125 = $5,125\n*   Profit: $5,125 - $5,000 = $125\n\n**Scenario 2: Buying Electronics**\n\n*   Initial cost of electronics: $8,000\n*   Price increase: 1.2% of $8,000 = 0.012 * $8,000 = $96\n*   Selling price: $8,000 + $96 = $8,096\n*   Profit: $8,096 - $8,000 = $96\n\n**Comparison**\n\nThe jewelry plan yields a profit of $125, while the electronics plan yields a profit of $96.\n\n**Conclusion**\n\nIf the businessman wants to maximize his profit, he should choose the jewelry plan.  The maximum possible profit is $125.\n\nANSWER: 125",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 152,
+    "completion_tokens": 290,
+    "total_tokens": 442,
+    "cost": 3.66e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.66e-05,
+     "upstream_inference_prompt_cost": 7.6e-06,
+     "upstream_inference_completions_cost": 2.9e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 125.0
+  },
+  "16": {
+   "text": "Here's how to solve the problem:\n\n**Day 1:**\n\n*   Each train travels 80 miles.\n*   Total distance for both trains on Day 1: 80 miles/train * 2 trains = 160 miles\n\n**Day 2:**\n\n*   Each train travels 150 miles.\n*   Total distance for both trains on Day 2: 150 miles/train * 2 trains = 300 miles\n\n**Total Distance (Two Days):**\n\n*   Total distance = Distance on Day 1 + Distance on Day 2\n*   Total distance = 160 miles + 300 miles = 460 miles\n\nANSWER: 460",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 113,
+    "completion_tokens": 160,
+    "total_tokens": 273,
+    "cost": 2.165e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.165e-05,
+     "upstream_inference_prompt_cost": 5.65e-06,
+     "upstream_inference_completions_cost": 1.6e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 460.0
+  },
+  "17": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Weekly earnings as a teacher:**\n   * Hourly rate: $20\n   * Hours per week: 35\n   * Weekly earnings: $20 * 35 = $700\n\n2. **Weekly earnings as a cheerleader coach:**\n   * Hourly rate: $30\n   * Hours per week: 15\n   * Weekly earnings: $30 * 15 = $450\n\n3. **Total weekly earnings:**\n   * Total weekly earnings: $700 + $450 = $1150\n\n4. **Total annual earnings:**\n   * Weeks per year: 50\n   * Annual earnings: $1150 * 50 = $57500\n\nANSWER: 57500",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 118,
+    "completion_tokens": 189,
+    "total_tokens": 307,
+    "cost": 2.48e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.48e-05,
+     "upstream_inference_prompt_cost": 5.9e-06,
+     "upstream_inference_completions_cost": 1.89e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 57500.0
+  },
+  "18": {
+   "text": "Here's how to solve the word problem:\n\n1. **Dimes per day:** Claire eats 3 eggs per day.\n2. **Days in a week:** There are 7 days in a week.\n3. **Eggs per week:** Claire eats 3 eggs/day * 7 days/week = 21 eggs per week.\n4. **Weeks:** She's eating for 4 weeks.\n5. **Total eggs:** Claire eats 21 eggs/week * 4 weeks = 84 eggs.\n6. **Dozens of eggs:** 84 eggs / 12 eggs/dozen = 7 dozens.\n\nANSWER: 7",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 82,
+    "completion_tokens": 146,
+    "total_tokens": 228,
+    "cost": 1.87e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.87e-05,
+     "upstream_inference_prompt_cost": 4.1e-06,
+     "upstream_inference_completions_cost": 1.46e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 7.0
+  },
+  "19": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the distance already covered:**\n   * Marissa walked 4 miles + 2 miles = 6 miles\n\n2. **Calculate the remaining distance:**\n   * The total distance is 12 miles.\n   * The remaining distance is 12 miles - 6 miles = 6 miles\n\n3. **Calculate the desired time to cover the remaining distance:**\n   * Marissa wants to average 4 miles per hour.\n   * Time = Distance / Speed = 6 miles / 4 miles per hour = 1.5 hours\n\n4. **Calculate the required speed to cover the remaining distance in 1.5 hours:**\n   * Speed = Distance / Time = 6 miles / 1.5 hours = 4 miles per hour\n\nANSWER: 4",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 176,
+    "total_tokens": 300,
+    "cost": 2.38e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.38e-05,
+     "upstream_inference_prompt_cost": 6.2e-06,
+     "upstream_inference_completions_cost": 1.76e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 4.0
+  }
+ },
+ "answers": {
+  "10": 366.0,
+  "11": 2938.0,
+  "12": 9.0,
+  "13": 21.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 460.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 4.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 13.0,
+ "text": "[id 0] The correct answer is **A** because the passage advises against hitting the keys too hard to produce more sound, which implies that excessive force is not recommended for playing the accordion beautifully.\n\n[id 1] The correct answer is **B** as the passage explains that the borders are cut to ensure the image fits entirely within the TV screen.\n\n[id 2] The correct answer is **C** because the passage mentions that during the nomadic phase, the ants build temporary nests that are changed every 17 days.\n\n[id 3] The correct answer is **C** because the passage states that biological clocks have their own intrinsic oscillators that can continue functioning without external signals.\n\n[id 4] The correct answer is **C** as visiting a science museum is not a nature-based tourism activity.\n\n[id 5] The correct answer is **A** because 1010 is a 4-bit binary number, but the question asks for a 5-bit binary number. The correct 5-bit binary number is **D** (11010).\n\n[id 6] The correct answer is **B** because the passage does not mention that students receive less criticism from peers as a benefit of blogging.\n\n[id 7] The correct answer is **B** because the passage does not mention \"দ্বন্দ্বযুদ্ধ\" (conflict or war) as a specific aspect related to medieval castles.\n\n```json\n{\n  \"answers\": {\n    \"0\": \"A\",\n    \"1\": \"B\",\n    \"2\": \"C\",\n    \"3\": \"C\",\n    \"4\": \"C\",\n    \"5\": \"D\",\n    \"6\": \"B\",\n    \"7\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2546,
+  "completion_tokens": 362,
+  "total_tokens": 2908,
+  "cost": 0.0004362,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004362,
+   "upstream_inference_prompt_cost": 0.0003819,
+   "upstream_inference_completions_cost": 5.43e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "C",
+  "3": "C",
+  "4": "C",
+  "5": "D",
+  "6": "B",
+  "7": "B"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "C",
+  "3": "C",
+  "4": "C",
+  "5": "D",
+  "6": "B",
+  "7": "B"
+ }
+}

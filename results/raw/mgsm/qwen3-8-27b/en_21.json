@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 4.2,
+ "text": "Here are the step-by-step solutions for each problem.\n\n**[id 210]**\n*   **Cost:** Jacket ($30) + 2 pairs of shoes (2 * $20 = $40) = $70 total.\n*   **Current Savings:** Initial savings ($10) + Babysitting earnings (4 times * $5 = $20) = $30.\n*   **Remaining Amount Needed:** $70 - $30 = $40.\n*   **Mowing Lawn:** She earns $4 per mow. To earn $40, she needs to mow 40 / 4 = 10 times.\n*   **Answer:** 10\n\n**[id 211]**\n*   Let $r$ be the number of red chickens and $w$ be the number of white chickens.\n*   Equation 1 (Eggs): $3r + 5w = 42$\n*   Equation 2 (Count): $w = r + 2$\n*   Substitute Equation 2 into Equation 1: $3r + 5(r + 2) = 42$\n*   $3r + 5r + 10 = 42$\n*   $8r = 32$\n*   $r = 4$\n*   **Answer:** 4\n\n**[id 212]**\n*   **Perimeter of Park:** $2 * (1.5 \\text{ miles} + 6 \\text{ miles}) = 2 * 7.5 = 15 \\text{ miles}$.\n*   **Time:** Distance / Speed = $15 \\text{ miles} / 3 \\text{ miles/hour} = 5 \\text{ hours}$.\n*   **Answer:** 5\n\n**[id 213]**\n*   **Day 1:** 100 customers.\n*   **Day 2:** 50 more than Day 1 = $100 + 50 = 150$ customers.\n*   **Total by Day 3:** 500 customers.\n*   **Day 3:** Total - (Day 1 + Day 2) = $500 - (100 + 150) = 500 - 250 = 250$ customers.\n*   **Answer:** 250\n\n**[id 214]**\n*   Leak rate: 4 gallons/minute. Time passed: 4 minutes.\n*   Water lost from each pool: $4 \\text{ min} * 4 \\text{ gal/min} = 16 \\text{ gallons}$.\n*   Let $S_b$ and $S_s$ be the current water levels of the big and small pools.\n*   Equation 1 (Current): $S_b = 4S_s$\n*   Equation 2 (4 minutes ago): The water levels were $S_b + 16$ and $S_s + 16$. At that time, the big pool had twice the small pool: $S_b + 16 = 2(S_s + 16)$.\n*   Substitute $S_b = 4S_s$ into Equation 2:\n    $4S_s + 16 = 2(S_s + 16)$\n    $4S_s + 16 = 2S_s + 32$\n    $2S_s = 16$\n    $S_s = 8$\n*   **Answer:** 8\n\n**[id 215]**\n*   **Total Cost:** Shoes ($320) + Belt ($32) = $352.\n*   **Hourly Wage:** $8/hour.\n*   **Hours Needed:** $352 / 8 = 44$ hours.\n*   **Answer:** 44\n\n**[id 216]**\n*   **Total Debt:** Principal ($2000) + Interest (10% of 2000 = $200) = $2200.\n*   **Total Payments:** $165/month * 12 months = $1980.\n*   **Remaining Balance:** $2200 - 1980 = 220$.\n*   **Answer:** 220\n\n**[id 217]**\n*   **Roses:** 4.\n*   **Dahlias:** 7 more than roses = $4 + 7 = 11$.\n*   **Total Flowers:** $4 + 11 = 15$.\n*   **Answer:** 15\n\n**[id 218]**\n*   **Current Ages:**\n    *   Harriet = 21.\n    *   Zack = Harriet * 2 = 42.\n    *   Adrian = Harriet * 3 = 63.\n*   **Ages in 3 Years:**\n    *   Harriet = $21 + 3 = 24$.\n    *   Zack = $42 + 3 = 45$.\n    *   Adrian = $63 + 3 = 66$.\n*   **Average Age (in 3 years):** $(24 + 45 + 66) / 3 = 135 / 3 = 45$.\n*   **Answer:** 45\n\n**[id 219]**\n*   **Naomi:** 68 points.\n*   **Yuri:** 10 more than half of Naomi = $(68 / 2) + 10 = 34 + 10 = 44$ points.\n*   **Brianna:** 17 more than Naomi = $68 + 17 = 85$ points.\n*   **Total Score:** 251 points.\n*   **Jojo:** Total - (Naomi + Yuri + Brianna) = $251 - (68 + 44 + 85) = 251 - 197 = 54$.\n*   **Answer:** 54\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "queue_time": 0.430325732,
+  "prompt_tokens": 747,
+  "prompt_time": 0.053155727,
+  "completion_tokens": 1477,
+  "completion_time": 3.218201681,
+  "total_tokens": 2224,
+  "total_time": 3.271357408
+ },
+ "served_by": null,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

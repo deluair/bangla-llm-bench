@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 7.7,
+ "text": "[id 70]\nWeekdays (Mon-Fri): 5 classes/day * 5 days = 25 classes.\nSaturday: 8 classes.\nTotal classes = 25 + 8 = 33.\nTotal money = 33 classes * 15 students/class * $15/student = 33 * 225 = 7425.\n\n[id 71]\nRecipe 1: 20 instructions.\nRecipe 2: 20 * 2 = 40 instructions.\nTotal = 20 + 40 = 60.\n\n[id 72]\nBrownies: 43 * 3 = 129.\nCheesecakes: 23 * 4 = 92.\nTotal = 129 + 92 = 221.\n\n[id 73]\nTotal cost = 5 phones * $150 = $750.\nTotal interest = $750 * 0.02 = $15.\nTotal to pay = $750 + $15 = $765.\nMonthly payment = 765 / 3 = 255.\n\n[id 74]\nMarigolds: $2.74 rounds to $3.00. 12 * 3 = 36.\nPetunias: $1.87 rounds to $2.00. 9 * 2 = 18.\nBegonias: $2.12 rounds to $2.00. 17 * 2 = 34.\nTotal = 36 + 18 + 34 = 88.\n\n[id 75]\nTop level (Level 1): 16.\nLevel 2 (below): 16 * 2 = 32.\nLevel 3 (below): 32 * 2 = 64.\nLevel 4 (bottom): 64 * 2 = 128.\nTotal area = 16 + 32 + 64 + 128 = 240.\nAverage = 240 / 4 = 60.\n\n[id 76]\nFirst 180 days: 180 * 1 = 180 cups.\nRemaining days in year (365 - 180 = 185): 185 * 2 = 370 cups.\nTotal cups = 180 + 370 = 550.\nBags = 550 / 110 = 5.\n\n[id 77]\nSarah = 400.\nRaymond = 400 / 2 = 200.\nSarah = 4 * David => 400 = 4 * David => David = 100.\nDifference = 200 - 100 = 100.\n\n[id 78]\nPackage A: 3 flowers for $2.50 => $0.833/flower.\nPackage B: 2 flowers for $1.00 => $0.50/flower.\nBetter price is Package B ($1 for 2).\nTo get 18 flowers using Package B: 18 / 2 = 9 packages.\nCost = 9 * $1 = $9.\nCost using Package A for 18 flowers: 18 / 3 = 6 packages.\nCost = 6 * $2.50 = $15.\nSavings = 15 - 9 = 6.\n\n[id 79]\nCost = $100.\nDiscount = 30% of 100 = $30.\nFinal cost = 100 - 30 = 70.\n\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}",
+ "usage": {
+  "prompt_tokens": 769,
+  "completion_tokens": 960,
+  "total_tokens": 1729,
+  "cost": 0.000243498,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000243498,
+   "upstream_inference_prompt_cost": 3.2298e-05,
+   "upstream_inference_completions_cost": 0.0002112
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

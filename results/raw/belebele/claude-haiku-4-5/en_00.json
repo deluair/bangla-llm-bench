@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 19.0,
+ "text": "I'll work through each question systematically:\n\n**[id 0]** The passage explicitly states \"there's no need to hit the keys with a lot of force\" and instead use bellows for volume. Option A contradicts this advice, making it the inaccurate tip.\n\n**[id 1]** The passage directly states borders are cut \"to ensure that the image covers the whole screen.\" This is the purpose of overscan.\n\n**[id 2]** The passage states \"The colony begins a nomadic phase when available food has decreased.\" This is the condition that triggers the nomadic phase.\n\n**[id 3]** The passage defines biological clocks as \"self sustaining oscillators which will continue a period of free-running cycling even in the absence of external cues\" - meaning they continue regardless of external conditions.\n\n**[id 4]** Nature-based tourism involves visiting natural areas and wildlife. A science museum is an indoor educational facility, not a nature-based activity.\n\n**[id 5]** A five-bit binary number has exactly 5 digits, each being 0 or 1. Option C (10010) has 5 bits. A has 4, B contains invalid digit 2, and D has 6.\n\n**[id 6]** The passage discusses improvements in grammar, awareness, and continued learning. It mentions students are \"critical\" but doesn't state that criticism decreases - rather, students strive to improve *to avoid* criticism.\n\n**[id 7]** The passage mentions jousts, banquets, chivalry, battles, hooves, and dungeon pits. Knights are never explicitly mentioned.\n\n```json\n{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1820,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1771,
+  "output_tokens_details": {
+   "thinking_tokens": 1344
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1820,
+    "output_tokens": 1771,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.010675,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ }
+}

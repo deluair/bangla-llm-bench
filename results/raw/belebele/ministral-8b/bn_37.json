@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 10.9,
+ "text": "[id 296] The passage mentions that the 6x6 cm film format (56x56 mm negative) provides about 4 times the resolution of 35 mm film. The question asks which film format can provide resolution like a DSLR. Since DSLRs generally have higher resolution than 35 mm film but not necessarily higher than 6x6 cm film, the correct answer is the film format that is explicitly mentioned to have higher resolution than 35 mm film, which is the 6x6 cm film format.\n\n[id 297] The passage states that multi-day park-hopper tickets are often sold on auction websites like eBay or Craigslist, and Disney prohibits the transfer of these tickets. It also mentions that most people stick to the typical Disney World experience, but it does not mention anything about selling tickets to other travelers. The statement that \"Park-hopper tickets can be given to other travelers\" is not true.\n\n[id 298] The passage advises against swimming against the current and suggests moving parallel to the shore to get out of the rip current first, then swimming back to the shore. This is the safest approach.\n\n[id 299] The passage mentions that feeding wild animals and not maintaining proper distance are reasons for potential attacks. It also mentions strong odors attracting bears and other wildlife. However, it does not mention that the animals have never been seen by humans.\n\n```json\n{\n  \"answers\": {\n    \"296\": \"D\",\n    \"297\": \"A\",\n    \"298\": \"A\",\n    \"299\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1608,
+  "completion_tokens": 347,
+  "total_tokens": 1955,
+  "cost": 0.00029325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029325,
+   "upstream_inference_prompt_cost": 0.0002412,
+   "upstream_inference_completions_cost": 5.205e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "296": "D",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "D",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

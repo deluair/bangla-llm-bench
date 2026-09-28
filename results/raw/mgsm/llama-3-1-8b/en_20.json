@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 23.9,
+ "text": "To solve these problems, I'll calculate the answer to each one.\n\n200:\nBaldur gets 5 + 6 = 11 pails of water every day. Since each pail contains 5 liters, he gets 11 x 5 = 55 liters of water every day.\n\n201:\nJohn's weekly salary is 2000 x 52 = 104000 dollars. With a 5% raise, his new salary is 104000 x 1.05 = 109200 dollars. His total salary for the year is 109200 dollars.\n\n202:\nJosie's farm produces 10 x 5 = 50 tons of grapes per year. Each ton of grapes makes 2 barrels of wine, so her farm produces 50 x 2 = 100 barrels of wine per year.\n\n203:\nCarl used 2 x 7 = 14 slices of cheese on his sandwiches. He used 1 more slice per omelet than he did per sandwich, so he used 3 slices per omelet. He made 3 omelets, so he used 3 x 3 = 9 slices of cheese on his omelets. He used 8 slices in his macaroni and cheese, for a total of 14 + 9 + 8 = 31 slices of cheese.\n\n204:\nJanet had 22 + 10 = 32 green and yellow pens. She bought 6 x 9 = 54 blue pens and 2 x 6 = 12 red pens, for a total of 54 + 12 = 66 new pens. She now has 32 + 66 = 98 pens.\n\n205:\nBrinley's average score on the first five tests is (89 + 71 + 92 + 100 + 86) / 5 = 338 / 5 = 67.6. To get an average of 93, her sixth test score must be (93 x 6) - 338 = 558 - 338 = 220.\n\n206:\nMicheal rode his bike at least 5 times a week for 4 weeks, for a total of 5 x 4 = 20 times. He then rode it 2 times a week for 3 weeks, for a total of 2 x 3 = 6 times. He rode his bike a total of 20 + 6 = 26 times, making 25 x 26 = 650 kilometers.\n\n207:\nEach chocolate bar weighs 40g, and each candied apple weighs 40g / 2 = 20g. Joe's bag of candy contains 25 x 40g + 80 x 20g = 1000g + 1600g = 2600g.\n\n208:\nRose bought 4 cakes on Monday, 3 x 4 = 12 cakes on Tuesday, and 5 x 12 = 60 cakes on Wednesday. She bought a total of 4 + 12 + 60 = 76 cakes.\n\n209:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates, which is 6000 x 6 = 36000 dollars. The total cost of buying each cup is (36000 - 1200) / 24 = 32800 / 24 = 1366.67 dollars.\n\nThe answers in JSON format:\n{\"answers\": {\"200\": 55, \"201\": 109200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 220, \"206\": 650, \"207\": 2600, \"208\": 76, \"209\": 1366.67}}",
+ "usage": {
+  "prompt_tokens": 750,
+  "completion_tokens": 767,
+  "total_tokens": 1517,
+  "cost": 4.568e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.568e-05,
+   "upstream_inference_prompt_cost": 1.5e-05,
+   "upstream_inference_completions_cost": 3.068e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "200": 55.0,
+  "201": 109200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 220.0,
+  "206": 650.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 1366.67
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 109200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 220.0,
+  "206": 650.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 1366.67
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 13.4,
+ "text": "Brief reasoning:\n\n- **240**: The passage states Gingrich came second with 32 percent. → B\n- **241**: After the results were announced, Gingrich publicly praised Santorum. → B\n- **242**: Nadal took 76 points on first serve (and 88% of net points himself, not Raonic). → B\n- **243**: The former government believed backing Kyoto would harm the country's economy (due to coal export dependence). → B\n- **244**: The controller was designed combining/like a TV remote. → B\n- **245**: False statement: it was a Category 4 storm that weakened to a tropical depression, not classified as a depression before becoming Category 4. → B\n- **246**: Researchers stated where, how long (two generations), and which birds bred — but never named the new species. → C\n- **247**: CowParade is described as the world's largest public art event. → D\n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 1099,
+  "completion_tokens_details": {
+   "reasoning_tokens": 792
+  },
+  "prompt_tokens": 5040,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6139
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

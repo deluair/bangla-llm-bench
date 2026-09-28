@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 6.6,
+ "text": "### Brief Reasoning\n\n- **[id 200]**: The passage states that Hindi and Urdu are \"similar in vocabulary but different in script\", matching **B**.\n- **[id 201]**: The text explains that the alphabet originally named *Hunmin Jeongeum* is known as *Hangeul*, matching **B**.\n- **[id 202]**: The text explicitly notes that \"Sanskrit just faded due to hierarchy\", matching **D**.\n- **[id 203]**: The passage mentions the crust is \"thicker under the highlands\", matching **C**.\n- **[id 204]**: The Amazon is described as the \"second longest\", so being the \"longest river\" is not attributed to it, matching **C**.\n- **[id 205]**: Two thirds of employed Venezuelans work in the service sector (more than industry, agriculture, or oil), matching **A**.\n- **[id 206]**: Scientists are working on fusion reactors to \"make energy in the same way\", matching **D**.\n- **[id 207]**: The passage states that \"Italy's main goals were African countries\", matching **A**.\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}\n",
+ "usage": {
+  "input_tokens": 25149,
+  "output_tokens": 1228,
+  "thinking_tokens": 897,
+  "cache_read_tokens": 0,
+  "total_tokens": 26377
+ },
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

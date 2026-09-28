@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 4.4,
+ "text": "- **248:** The passage says Simon was responsible for hiring the first writing team, so the answer is B.\n- **249:** Roberts said it would be unethical to comment on the specifics of likely cases, so the answer is D.\n- **250:** Luminosity and rotation are used together to determine the Rossby number, so the answer is A.\n- **251:** Murray lost the first set in a tie break, so the answer is A.\n- **252:** Dr. Ur is skeptical about whether diabetes can be cured, so the answer is B.\n- **253:** The same bad weather that hampered the search caused the aborted landing, so the answer is D.\n- **254:** The announcement added 300 more carriages to the earlier commitment, so the answer is A.\n- **255:** The statement said Turkey would take over guarding captured ISIS fighters, so the answer is D.\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2187,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 380,
+  "output_tokens_details": {
+   "thinking_tokens": 46
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2187,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 380,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2187,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2187
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.025104,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

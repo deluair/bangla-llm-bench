@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 53.4,
+ "text": "Based on the passages:\n\n[id 216]: The passage states the crystals' composition was compared using FTIR, matching crystals found in affected pets' urine. → **B**\n\n[id 217]: The passage says South Africa \"steadily improved as the tournament progressed.\" → **D**\n\n[id 218]: Hu mentioned the basis for cuts, gave advice to developing countries, and cited 2020 as the date, but explicitly did not set a figure. → **D**\n\n[id 219]: Norman Lamb is expected to take the Business Minister job that Davey is vacating. → **A**\n\n[id 220]: The passage directly states Leonov led the Soviet part of the Apollo–Soyuz mission. → **B**\n\n[id 221]: The scientists examined tidal forces between the Sagittarius galaxy's dark matter and the Milky Way's dark matter. → **D**\n\n[id 222]: The passage states \"Liberal criticism... has focused on the awarding of reconstruction contracts.\" → **B**\n\n[id 223]: eBay wants to gain popularity in regions like China, Eastern Europe, and Brazil where Skype is strong, which aligns with expanding into new territories. → **B**\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1220,
+  "completion_tokens": 1901,
+  "total_tokens": 3121,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1608
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

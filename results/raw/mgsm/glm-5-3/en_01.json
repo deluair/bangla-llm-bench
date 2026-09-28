@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 13.0,
+ "text": "Here are the solutions:\n\n- **[10]** Month 1: 60; Month 2: 3×60 = 180; Month 3: 180 × 0.7 = 126. Total = 60 + 180 + 126 = 366\n- **[11]** Donuts: 3×68 = 204; Cupcakes: 2×80 = 160; Cheesecakes: 6×55 = 330. Total = 694\n- **[12]** Net per year: 7×1.5 − 3 = 7.5. 90 ÷ 7.5 = 12 years\n- **[13]** Work backward: 5 left = half of remaining, so 10 after red house; 10 + 2 = 12 after green house = 2/3 of start. Start = 18\n- **[14]** Contemporary: 20% = 4 students. Remaining: 16. Jazz: 25% of 16 = 4. Hip-hop: 12 of 20 = 60%\n- **[15]** Jewelry: 5000×0.025 = 125; Gadgets: 8000×0.012 = 96. Max profit = 125\n- **[16]** Each train: 80 + 150 = 230 miles\n- **[17]** Teaching: 35×20 = 700/week; Coaching: 15×30 = 450/week. (700+450)×50 = 57,500\n- **[18]** 3 eggs/day × 28 days = 84 eggs = 7 dozen\n- **[19]** Average 4 mph over 12 miles requires 3 hours total. 2 hours used, 6 miles remain: 6 mph\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}",
+ "usage": {
+  "completion_tokens": 1167,
+  "completion_tokens_details": {
+   "reasoning_tokens": 710
+  },
+  "prompt_tokens": 705,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 1872
+ },
+ "served_by": null,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

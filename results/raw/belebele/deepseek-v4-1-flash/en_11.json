@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 16.6,
+ "text": "{\"answers\": {\"88\": \"B\", \"89\": \"D\", \"90\": \"B\", \"91\": \"B\", \"92\": \"C\", \"93\": \"C\", \"94\": \"B\", \"95\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1246,
+  "completion_tokens": 3549,
+  "total_tokens": 4795,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3496
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1246
+ },
+ "served_by": null,
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ }
+}

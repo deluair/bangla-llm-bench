@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 74.6,
+ "text": "**120**: Miguel uses 2 pads/week × 30 sheets/pad × 4 weeks/month = 240 sheets.  \n**121**: Morisette has 13 fruits; Kael has 10 apples + 4 oranges = 14 fruits. Total = 27.  \n**122**: Mon=8, Tue=6, Wed=6; rest of week (4 days) at 7 hrs/day = 28. Total = 8+6+6+28 = 48.  \n**123**: First 3 hrs: 10×3 = 30 miles. Next 4 hrs: 5×4 = 20 miles. Total = 50 miles.  \n**124**: She stamps ⅓ of 60 = 20 letters. Added to existing pile gives 30, so original pile = 30−20 = 10.  \n**125**: Let x be Julia’s package. x + 5 − 3 = 12 → x = 10.  \n**126**: Fish sausages = 38+6 = 44. Total = 38+44 = 82.  \n**127**: Amy = 50+20 = 70. Together = 50+70 = 120.  \n**128**: Watermelon = $45, orange = $40. Total = 4(45)+20(15)+10(40) = 180+300+400 = $880.  \n**129**: Total patient-hours = 500×24/60 = 200 hrs. Profit = 200×(200−150) = $10,000.  \n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}",
+ "usage": {
+  "prompt_tokens": 700,
+  "completion_tokens": 2793,
+  "total_tokens": 3493,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2396
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

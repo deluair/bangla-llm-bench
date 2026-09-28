@@ -1,0 +1,249 @@
+{
+ "task": "mmlu",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "414",
+  "434",
+  "441",
+  "446",
+  "460",
+  "489",
+  "530",
+  "555",
+  "570",
+  "742",
+  "767",
+  "784",
+  "794",
+  "806",
+  "869"
+ ],
+ "seconds": 186.0,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 2697,
+  "completion_tokens": 16000,
+  "total_tokens": 18697,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15999
+  }
+ },
+ "served_by": null,
+ "answers_batch": {},
+ "single": {
+  "414": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 260,
+    "completion_tokens": 596,
+    "total_tokens": 856,
+    "completion_tokens_details": {
+     "reasoning_tokens": 593
+    }
+   },
+   "answer": "C"
+  },
+  "434": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 232,
+    "total_tokens": 430,
+    "completion_tokens_details": {
+     "reasoning_tokens": 229
+    }
+   },
+   "answer": "A"
+  },
+  "441": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 239,
+    "completion_tokens": 606,
+    "total_tokens": 845,
+    "completion_tokens_details": {
+     "reasoning_tokens": 603
+    }
+   },
+   "answer": "A"
+  },
+  "446": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 11829,
+    "total_tokens": 11957,
+    "completion_tokens_details": {
+     "reasoning_tokens": 11826
+    }
+   },
+   "answer": "C"
+  },
+  "460": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 1727,
+    "total_tokens": 1895,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1724
+    }
+   },
+   "answer": "C"
+  },
+  "489": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 118,
+    "total_tokens": 258,
+    "completion_tokens_details": {
+     "reasoning_tokens": 115
+    }
+   },
+   "answer": "A"
+  },
+  "530": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 173,
+    "total_tokens": 317,
+    "completion_tokens_details": {
+     "reasoning_tokens": 170
+    }
+   },
+   "answer": "B"
+  },
+  "555": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 185,
+    "completion_tokens": 1304,
+    "total_tokens": 1489,
+    "completion_tokens_details": {
+     "reasoning_tokens": 1301
+    }
+   },
+   "answer": "D"
+  },
+  "570": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 230,
+    "total_tokens": 367,
+    "completion_tokens_details": {
+     "reasoning_tokens": 227
+    }
+   },
+   "answer": "B"
+  },
+  "742": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 249,
+    "completion_tokens": 3612,
+    "total_tokens": 3861,
+    "completion_tokens_details": {
+     "reasoning_tokens": 3609
+    }
+   },
+   "answer": "A"
+  },
+  "767": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 246,
+    "completion_tokens": 939,
+    "total_tokens": 1185,
+    "completion_tokens_details": {
+     "reasoning_tokens": 936
+    }
+   },
+   "answer": "C"
+  },
+  "784": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 368,
+    "completion_tokens": 605,
+    "total_tokens": 973,
+    "completion_tokens_details": {
+     "reasoning_tokens": 602
+    }
+   },
+   "answer": "B"
+  },
+  "794": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 269,
+    "completion_tokens": 511,
+    "total_tokens": 780,
+    "completion_tokens_details": {
+     "reasoning_tokens": 508
+    }
+   },
+   "answer": "C"
+  },
+  "806": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 151,
+    "completion_tokens": 850,
+    "total_tokens": 1001,
+    "completion_tokens_details": {
+     "reasoning_tokens": 847
+    }
+   },
+   "answer": "D"
+  },
+  "869": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 317,
+    "completion_tokens": 595,
+    "total_tokens": 912,
+    "completion_tokens_details": {
+     "reasoning_tokens": 592
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "C",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 14.2,
+ "text": "### Solutions\n\n- **[id 240]**: John has 54 candies, so Robert has $54 / 2 = 27$. James has $27 + 6 = 33$. John has $54 - 33 = 21$ more candies than James.\n- **[id 241]**: Dolly reads 2 + 1 = 3 books. Pandora reads 1 + 2 = 3 books. Collectively, they read $3 + 3 = 6$ books.\n- **[id 242]**: Mike has $5 - 2 = 3$ pen pals. Each sends $2 \\times 5 = 10$ pages per week, totaling 30 pages. He writes 30 pages at 6 minutes per page = 180 minutes = 3 hours per week.\n- **[id 243]**: Boss calls use $15 \\times 30 = 450$ minutes. Other calls use 300 minutes. Total used = 750 minutes. Remaining = $1000 - 750 = 250$ minutes.\n- **[id 244]**: Starting with 24 fries: Kyle takes 5 (19 left), Billy takes 10 (9 left). Colby takes $5 - 3 = 2$ fries. If $9 + G - 2 = 27$, then $G = 20$ fries.\n- **[id 245]**: Snail difference is $32 - 4 = 28$. Total fish in both aquariums is $28 / 2 = 14$. Each aquarium has $14 / 2 = 7$ fish.\n- **[id 246]**: Total hours = $6 \\times 4 \\times 5 = 120$ hours. Base cost = $120 \\times 250 = \\$30,000$. After a 10% discount, Jean pays $\\$30,000 \\times 0.90 = \\$27,000$.\n- **[id 247]**: Total cost = $12 + 43 + 15 + 4 + 22 = \\$96$. Split 3 ways: $96 / 3 = \\$32$ per person.\n- **[id 248]**: Total weight = $4 \\times 50 = 200$ pounds. Total cost = $200 \\times 1.50 = \\$300$.\n- **[id 249]**: Sue eats $4 \\times 5 = 20$ cookies on Monday and $2 \\times 13 = 26$ cookies on Tuesday (46 total). Her sister eats $5 + 13 = 18$ cookies. Sue consumes $46 - 18 = 28$ more cookies, which is $28 \\times 200 = 5600$ calories.\n\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}\n",
+ "usage": {
+  "input_tokens": 24630,
+  "output_tokens": 3390,
+  "thinking_tokens": 2611,
+  "cache_read_tokens": 0,
+  "total_tokens": 28020
+ },
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

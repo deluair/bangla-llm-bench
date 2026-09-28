@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 14.5,
+ "text": "1. [256] The passage states \"দুর্ঘটনাটি উঁচু পাহাড়ী অঞ্চলে ঘটেছিল\" (The accident occurred in a high mountainous region). So, D is correct.\n2. [257] The passage says \"তিনি বলেছিলেন যে 2012 সালে অনুষ্ঠিত লন্ডনে অলিম্পিকে তিনি ব্রিটিশ প্রতিযোগীদের সমর্থন করবেন\" (He said he would support British competitors in the 2012 London Olympics). Since the options are slightly different, \"2012 সালের অলিম্পিক\" (C) is the closest context, though specifically he supports competitors there. Looking at the options again, A, B, and D are not mentioned as what he will support. C is the event.\n3. [258] The passage describes Javier Jaet as \"সহকারী রেসার\" (assistant racer). So, B is correct.\n4. [259] The passage says \"ইউনেস্কো বিশ্ব ঐতিহ্য স্থান হিসাবে তার অনন্য সাংস্কৃতিক এবং ঐতিহাসিক মূল্য হিসাবে মনোনীত করা হয়েছে\" (nominated as a UNESCO World Heritage site for its unique cultural and historical value). So, A is correct.\n5. [260] The passage defines auxiliary languages as \"কৃত্রিম বা নির্মিত ভাষা\" (artificial or constructed languages), explicitly distinguishing them from \"সহজাতক বা সংগঠিত ভাষা\" (natural/innate languages). Option A says they are \"প্রাকৃতিক ভাষা\" (natural languages), which contradicts the text. So, A is the correct answer for \"does not correctly describe\".\n6. [261] The passage states \"মেট্রোতে নিয়মিত কাতালান ভাষায় ঘোষণা করা হয়\" (Announcements are regularly made in Catalan in the metro). So, B is correct.\n7. [262] The passage states B&Bs compete on \"বিছানা পত্তর এবং সকালের খাবার\" (bedding and breakfast). It mentions \"প্রাচীন গৃহসজ্জা\" (antique decor/decor), but does not highlight \"modern decor\" (আধুনিক গৃহসজ্জা) as a competitive factor; in fact, it emphasizes \"প্রাচীন\" (antique). Thus, A is the correct answer.\n8. [263] The passage states \"বেইজিং শহর 2022 সালের শীতকালীন অলিম্পিক গেমের আয়োজক শহর হবে\" (Beijing will be the host city for the 2022 Winter Olympic Games). While it mentions it will host ceremonies and indoor sports, the primary subject is the Winter Olympics. However, the question asks what it is going to host. C is the most direct answer.\n\n{\"answers\": {\"256\": \"D\", \"257\": \"C\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1420,
+  "completion_tokens": 607,
+  "total_tokens": 2027,
+  "cost": 0.0003241,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003241,
+   "upstream_inference_prompt_cost": 0.000142,
+   "upstream_inference_completions_cost": 0.0001821
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "C",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "C"
+ }
+}

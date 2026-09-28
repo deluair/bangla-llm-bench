@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 4.2,
+ "text": "Here are the answers based on the reasoning from each passage:\n\n- **id 208**: The passage states that the center of Tibetan meditation is the Deity Yoga, where chakras are activated through the visualization of deities.\n- **id 209**: The passage mentions that Lakkha Singh presented the chhappan bhog bhajan during the offering of food.\n- **id 210**: The passage suggests that a funding crunch and a shift in the philosophy of educational television contributed to the cancellation of the series.\n- **id 211**: The passage states that funerals were held for three of the nine victims.\n- **id 212**: The passage mentions that Latvia and Slovakia have both delayed the process of joining ACTA.\n- **id 213**: The passage indicates that Apple referred to the overheating incidents as \"non-serious.\"\n- **id 214**: The passage implies that nuclear power is not currently economically viable in Australia.\n- **id 215**: The passage indicates that Miller wasn’t paying attention to Duvall’s story as he was getting ready.\n\n```json\n{\n  \"answers\": {\n    \"208\": \"B\",\n    \"209\": \"A\",\n    \"210\": \"A\",\n    \"211\": \"B\",\n    \"212\": \"D\",\n    \"213\": \"D\",\n    \"214\": \"D\",\n    \"215\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1509,
+  "completion_tokens": 322,
+  "total_tokens": 1831,
+  "cost": 0.00027465,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027465,
+   "upstream_inference_prompt_cost": 0.00022635,
+   "upstream_inference_completions_cost": 4.83e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ }
+}

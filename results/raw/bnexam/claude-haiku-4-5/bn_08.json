@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 80.1,
+ "text": "Looking at each question systematically:\n\n**Q1 (Insulin)**: Insulin deficiency causes **diabetes (বহুমূত্র)** - B\n\n**Q2 (Sclerenchyma)**: Sclerenchyma cells are dead, have thick lignified walls, but lack **chloroplasts** since they're non-photosynthetic - C\n\n**Q3 (Determinant cofactor)**: For matrix [[3,-4,2],[-1,5,6],[7,-8,4]], the (1,2) cofactor is (-1)^(1+2) × det[[-1,6],[7,4]] = -1 × (-4-42) = 46 - C\n\n**Q4 (CaCl₂ concentration)**: 0.015 M × 111 g/mol × 1000 mg/g = 1665 mg/L ≈ 1665 ppm - A\n\n**Q5 (Point reflection distance)**: Distance from (2,3) to line is |8+9-7|/5 = 2 units. Distance to reflection = 2×2 = **4 units** - B\n\n**Q6 (Panchindriya painting)**: \"The Five Senses\" (Panchindriya) is by Indian artist **Maqbool Fida Hussain** - B\n\n**Q7 (Haloacid strength)**: Among HF, HCl, HBr, HI in aqueous solution, **HI is the strongest** acid - D\n\n**Q8 (Angular displacement SHM)**: Simple harmonic motion validity requires small angles, typically **less than 5°** - D\n\n**Q9 (Doppler effect)**: f' = f₀ × v/(v+vₛ) = 120 × 320/335 = **114.6 Hz** - C\n\n**Q10 (Simple pendulum)**: T = 2π√(L/g), so **period is inversely proportional to √g** (gravity) - A\n\n**Q11 (Atrial systole duration)**: Atrial systole lasts **0.1 seconds** - C\n\n**Q12 (Linear programming)**: Without complete objective function stated, based on corner point (4,2) yielding multiple objective values, likely **46** - B\n\n**Q13 (Earth's temperature)**: Current average surface temperature is approximately **15°C** - C\n\n**Q14 (Quantum numbers)**: For n=3, l=3: invalid because **l must be less than n** (should be l<3) - A\n\n**Q15 (Vascular bundle types)**: Standard classifications are radial, concentric, collateral - **\"symmetrical\" is not a standard type** - D\n\n```json\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"B\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"B\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"D\", \"752de91a-4a2e-4c17-b275-f73ebde26e01-59185\": \"C\", \"753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591\": \"A\", \"75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886\": \"C\", \"7618488d-de61-4487-ada3-2eb2618165d7-84216\": \"B\", \"764f6eda-81b0-45a0-bb6d-44c26c53782e-7306\": \"C\", \"7690d276-0c68-4558-8bec-453730563cce-1991\": \"A\", \"76d2d03f-237f-4d28-82a5-1607191c62e2-121114\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 2582,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7168,
+  "output_tokens_details": {
+   "thinking_tokens": 6022
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2582,
+    "output_tokens": 7168,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.038422,
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "A",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "B",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ },
+ "single": {},
+ "answers": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "A",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "B",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  5669,
+  5751,
+  5807,
+  5817,
+  5849,
+  5924,
+  5973,
+  6006,
+  6073,
+  6083,
+  6118,
+  6123,
+  6199,
+  6202,
+  6212
+ ],
+ "seconds": 14.7,
+ "text": "To solve these questions, let's analyze each one:\n\n[5669] Alexander Hamilton in Federalist #15 argued about the difficulties of the Articles of Confederation. The primary issue was the inability of the central government to address national problems due to its weakness. **Answer: C**\n\n[5751] The text describes Lincoln's 1864 victory, noting he won the electoral college decisively, supported by Union soldiers/sailors and Republicans. It notes the Republicans also gained control of Congress. However, the question asks for the best conclusion supported by the text. Option B is a strong inference based on the context of the 1864 election (Civil War era), but the text specifically highlights the dominance of Republicans in Congress and the electoral landslide. Looking closely, the text says the victory was important for symbolic value and maintaining control. Option B is a standard historical inference from this context. **Answer: B**\n\n[5807] John C. Calhoun's \"South Carolina Exposition and Protest\" argued for state sovereignty and the right to nullify federal laws. This echoed the language of the New England Federalists during the War of 1812 who opposed certain federal actions. **Answer: B**\n\n[5817] Jefferson's sentiment is that laws/institutions must evolve with the progress of the human mind. The 19th Amendment (women's suffrage) is a direct example of the Constitution evolving to reflect changing social views on rights. **Answer: C**\n\n[5849] The text discusses Johnson's Great Society. A common unintended consequence of 1960s liberal policies/spending (and the Vietnam War context) was the economic instability/inflation of the 1970s. **Answer: C**\n\n[5924] The second speaker (Halima) notes that despite independence and being \"free,\" nothing changed—they are still poor. This suggests that national liberation (independence) was prioritized over social/economic reform. **Answer: D**\n\n[5973] Gandhi calls for boycotting foreign cloth. The success of such movements in India was significantly bolstered by the global economic shifts and the eventual decolonization pressures, but specifically, the economic context of the Great Depression and the shifting global order helped. However, in the context of historical \"progress\" aiding such a movement's efficacy, the WWII era led to massive shifts. But looking at the options, the Great Depression (B) often fueled anti-colonial economic movements. Actually, historically, the momentum of such boycotts was a precursor/part of the larger movement that gained global traction. Let's re-evaluate: The question asks what aided the *success* of the boycott. Many historians link the economic shifts and the weakening of empires during/after WWII. But looking at standard curriculum, the question is tricky. Let's look at the prompt again. Gandhi mentions \"Swadeshi.\" The most direct historical driver for the success of Indian economic self-reliance movements in the long run was the economic devastation of the colonial system, often linked to the Great Depression. **Answer: B**\n\n[6006] The text describes the Spanish treatment of Indians in mines (exploitation, unpaid labor, abuse). Comparing this to English colonization (North America), the English generally did not engage in the same type of large-scale, integrated forced labor/caste-based mining systems (though they had their own issues), they often practiced more segregation/separation. **Answer: C**\n\n[6073] Both texts (Olympe de Gouges and Halima) discuss how revolutions/independence often fail to provide actual equality or improvement for women or the poor. This implies that freedom is often distributed unevenly. **Answer: C**\n\n[6083] Nkrumah talks about \"capitalist, socialist, or mixed economies.\" This refers to the competing ideologies of the Cold War. **Answer: A**\n\n[6118] This is a psychology/sociology question. Differences in age groups are often most clearly categorized by \"Coping strategies\" (A). **Answer: A**\n\n[6123] Care for those with terminal illnesses to relieve pain and provide comfort is Hospice. **Answer: D**\n\n[6199] A \"Living Will\" is the document where a person specifies which medical interventions they want or do not want. **Answer: A**\n\n[6202] This refers to a specific textbook/context (Pat Shelly). Generally, in geriatric studies, advice is not to retire if you don't have a purpose or hobbies to maintain mental health. **Answer: D**\n\n[6212] The concept of bringing nature (plants/pets) and family into nursing homes to improve well-being is often termed \"Human-Environment Congruence\" or similar in specialized design. However, looking at common gerontology terms, \"Human-Environment Congruence\" is a recognized term for this harmony. **Answer: C**\n\n```json\n{\"answers\": {\"5669\": \"C\", \"5751\": \"B\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"C\", \"5924\": \"D\", \"5973\": \"B\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"A\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"D\", \"6212\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 4460,
+  "completion_tokens": 1195,
+  "total_tokens": 5655,
+  "cost": 0.0010578,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010578,
+   "upstream_inference_prompt_cost": 0.0005798,
+   "upstream_inference_completions_cost": 0.000478
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Parasail",
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "C",
+  "5924": "D",
+  "5973": "B",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "A",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "C"
+ },
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "C",
+  "5924": "D",
+  "5973": "B",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "A",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "C"
+ },
+ "single": {}
+}

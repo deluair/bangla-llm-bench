@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  10,
+  36,
+  63,
+  65,
+  86,
+  108,
+  127,
+  150,
+  159,
+  234,
+  237,
+  255,
+  264,
+  295,
+  300
+ ],
+ "seconds": 37.1,
+ "text": "[id 10] Statement 1 is true (|aH| = |H|). Statement 2 is true (cosets are either identical or disjoint). Correct: A.\n[id 36] In Z_26, (20)(-8) = -160. -160 mod 26: -160 / 26 ≈ -6.15. -6 * 26 = -156. -160 - (-156) = -4. -4 + 26 = 22. Correct: D.\n[id 63] ~ = {(1, 2), (1, 3), (4, 2)}. Not reflexive (e.g., (1,1) is missing), not symmetric (e.g., (2,1) is missing), not transitive (1,2 and 4,2 don't help, but 1,2 and 1,3 don't violate it; however, it's not symmetric). Let's check \"অপ্রতিসম নয়\" (not asymmetric). A relation is asymmetric if (a,b) in R implies (b,a) not in R. Here (1,2) is in, (2,1) is not. (1,3) is in, (3,1) is not. (4,2) is in, (2,4) is not. So it is asymmetric. Wait, \"অপ্রতিসম নয়\" means \"not asymmetric\". Let's re-check \"সকর্মক\" (serial). A relation is serial if for every x in A, there exists y such that (x,y) in R. For x=1, (1,2) exists. For x=2, no (2,y) exists. For x=3, no (3,y) exists. For x=4, (4,2) exists. Not serial. \"আত্মবাচক\" (reflexive) is false. \"প্রতিসম\" (symmetric) is false. If \"অপ্রতিসম নয়\" is the only option left, let's check asymmetry again. (1,2) in, (2,1) not in. (1,3) in, (3,1) not in. (4,2) in, (2,4) not in. It *is* asymmetric. Perhaps the question implies it is not something else? Actually, let's look at \"অপ্রতিসম\" (asymmetric) vs \"অপ্রতিসম নয়\". This is a bit tricky. However, looking at standard definitions, let's assume the question asks which it is. If it is asymmetric, \"not asymmetric\" is false. Let's check if it's \"serial\". A relation is serial if $\\forall x \\in A, \\exists y \\in A: (x,y) \\in R$. Since 2 and 3 have no pairs starting with them, it is not serial. If the question is \"not asymmetric\", it's false. Let's re-read: (1,2), (1,3), (4,2). This is indeed asymmetric. Let's assume A is the intended answer due to some terminology nuance.\n[id 65] Statement 1: Every field is a ring (True). Statement 2: Every ring has a multiplicative identity (False, e.g., even integers). Correct: C.\n[id 86] Statement 1: Formula for |HK| is true. Statement 2: A group of order 2p is either C_{2p} or D_p. True. Correct: A.\n[id 108] Palatal processes fuse around 6-12 weeks. Most sources say 6-10 weeks. 6 weeks is a common starting point. Correct: A.\n[id 127] A pulse can be felt at the superficial temporal artery as it crosses the zygomatic arch/temple area. Option D mentions the orbit. Option C/D are most specific. The superficial temporal artery is felt in the temporal region. Correct: C.\n[id 150] All these are palpable structures in a living patient. Correct: D.\n[id 159] Masseter, Temporalis, and Medial Pterygoid elevate the mandible. Lateral Pterygoid is primarily for protrusion and depression. Among the options, Masseter, Temporalis, and Medial Pterygoid are all correct for elevation. Usually, Masseter is the strongest. However, Masseter, Temporalis, and Medial Pterygoid are the elevators. If only one is correct, there might be a mistake in the question, or it's asking which \"initiates\" (which is odd). But Masseter, Temporalis, and Medial Pterygoid all elevate. Lateral Pterygoid (C) is the outlier. Let's look for the most common answer in dental textbooks. Masseter (A) is very common.\n[id 234] Panoramic radiograph shows Mandibular canal, Maxillary sinus, hard palate, and zygomatic arch. Correct: D.\n[id 237] Rayleigh scattering: shorter wavelengths (blue) scatter more. Correct: C.\n[id 255] Lithosphere = Crust + uppermost solid mantle. Correct: D.\n[id 264] Differentiation: during molten state, metals sink to the core. Correct: C.\n[id 295] Asteroids are distinguished in sky surveys by their motion (proper motion) relative to stars. Correct: D.\n[id 300] Saturn and Jupiter both have H/He, belts, and high wind speeds. However, the specific value \"900 mph\" for equatorial winds is characteristic of Jupiter, while Saturn's winds are generally slower (though still fast). Actually, looking at the options, they are very similar. Let's check if \"900 mph\" applies to both. Jupiter's winds can reach that, but Saturn's are typically around 500-1000 mph but have different profiles. A more distinct difference is the specific structure of their bands. However, Option C is a very specific number often used for Jupiter. Correct: C.\n\n{\"answers\": {\"10\": \"A\", \"36\": \"D\", \"63\": \"A\", \"65\": \"C\", \"86\": \"A\", \"108\": \"A\", \"127\": \"C\", \"150\": \"D\", \"159\": \"A\", \"234\": \"D\", \"237\": \"C\", \"255\": \"D\", \"264\": \"C\", \"295\": \"D\", \"300\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1365,
+  "completion_tokens": 1468,
+  "total_tokens": 2833,
+  "cost": 0.00059467,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00059467,
+   "upstream_inference_prompt_cost": 9.555e-05,
+   "upstream_inference_completions_cost": 0.00049912
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10": "A",
+  "36": "D",
+  "63": "A",
+  "65": "C",
+  "86": "A",
+  "108": "A",
+  "127": "C",
+  "150": "D",
+  "159": "A",
+  "234": "D",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "D",
+  "300": "C"
+ },
+ "answers_batch": {
+  "10": "A",
+  "36": "D",
+  "63": "A",
+  "65": "C",
+  "86": "A",
+  "108": "A",
+  "127": "C",
+  "150": "D",
+  "159": "A",
+  "234": "D",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "D",
+  "300": "C"
+ },
+ "single": {}
+}

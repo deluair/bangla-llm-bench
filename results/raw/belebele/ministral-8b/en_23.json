@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 3.1,
+ "text": "Here are the answers based on the reasoning for each question:\n\n1. **Scaffolding** is not the same as project-based learning (C is incorrect).\n2. Customization helps students with reading by making text easier to read (A).\n3. The temple was rebuilt **after** Alexander the Great’s reign (B).\n4. **Homo Erectus** regularly walked upright (B).\n5. The **Allies (Americans and British)** had more success in the North Atlantic Campaign (A).\n6. **Inner sanctuaries** were specifically for priests (B).\n7. **Roast turkey** would not be part of an Ancient Roman feast (D).\n8. **Electrons** were removed from Hydrogen ions (D).\n\n---\n```json\n{\n  \"answers\": {\n    \"184\": \"C\",\n    \"185\": \"A\",\n    \"186\": \"B\",\n    \"187\": \"B\",\n    \"188\": \"A\",\n    \"189\": \"B\",\n    \"190\": \"D\",\n    \"191\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1483,
+  "completion_tokens": 238,
+  "total_tokens": 1721,
+  "cost": 0.00025815,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025815,
+   "upstream_inference_prompt_cost": 0.00022245,
+   "upstream_inference_completions_cost": 3.57e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 60.7,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 846,
+  "completion_tokens": 1842,
+  "total_tokens": 2688,
+  "cost": 0.0002265,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002265,
+   "upstream_inference_prompt_cost": 4.23e-05,
+   "upstream_inference_completions_cost": 0.0001842
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "0": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the total number of eggs laid:** The ducks lay 16 eggs per day.\n\n2. **Calculate the number of eggs eaten:** The farmer eats 3 eggs.\n\n3. **Calculate the number of eggs given away:** The farmer gives away 4 eggs.\n\n4. **Calculate the total number of eggs used or given away:** 3 + 4 = 7 eggs\n\n5. **Calculate the number of eggs sold:** 16 - 7 = 9 eggs\n\n6. **Calculate the total earnings:** 9 eggs * $2/egg = $18\n\nANSWER: 18",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 142,
+    "total_tokens": 261,
+    "cost": 2.015e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.015e-05,
+     "upstream_inference_prompt_cost": 5.95e-06,
+     "upstream_inference_completions_cost": 1.42e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 18.0
+  },
+  "1": {
+   "text": "Here's how to solve the problem:\n\n* **White thread:** The problem states that half the amount of white thread is needed. Since the amount of blue thread is 2 rils, the amount of white thread is 2 / 2 = 1 rill.\n* **Total rills:** To make the outfit, you need 2 rills of blue thread + 1 rill of white thread = 3 rills.\n\nANSWER: 3",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 80,
+    "completion_tokens": 98,
+    "total_tokens": 178,
+    "cost": 1.38e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.38e-05,
+     "upstream_inference_prompt_cost": 4e-06,
+     "upstream_inference_completions_cost": 9.8e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 3.0
+  },
+  "2": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the total cost:**\n   * Purchase price: $80,000\n   * Repair costs: $50,000\n   * Total cost: $80,000 + $50,000 = $130,000\n\n2. **Calculate the increase in value:**\n   * Increase: $130,000 * 150% = $130,000 * 1.50 = $195,000\n\n3. **Calculate the selling price:**\n   * Selling price: $130,000 + $195,000 = $325,000\n\n4. **Calculate the profit:**\n   * Profit: $325,000 - $130,000 = $195,000\n\nANSWER: 195000",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 218,
+    "total_tokens": 324,
+    "cost": 2.71e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.71e-05,
+     "upstream_inference_prompt_cost": 5.3e-06,
+     "upstream_inference_completions_cost": 2.18e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 195000.0
+  },
+  "3": {
+   "text": "Here's how to solve the problem:\n\n* **Spurts per week:** James runs 3 spurts per week.\n* **Spurts per day:** He runs 3 spurts a week, and there are 7 days in a week, so he runs 3/7 spurts per day.\n* **Distance per spurt:** He runs 60 meters per spurt.\n* **Total distance per day:** He runs (3/7) * 60 meters = 180/7 meters per day.\n* **Total distance per week:** He runs (180/7) * 7 = 180 meters per week.\n\nANSWER: 180",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 149,
+    "total_tokens": 246,
+    "cost": 1.975e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.975e-05,
+     "upstream_inference_prompt_cost": 4.85e-06,
+     "upstream_inference_completions_cost": 1.49e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 180.0
+  },
+  "4": {
+   "text": "Let $x$ be the number of cups of food Wendy gives each chicken per day. We are given that $x = 3$.\nLet $N$ be the number of chickens in the flock. We are given that $N = 20$.\nLet $C_s$ be the number of cups of food given in the morning. We are given that $C_s = 15$.\nLet $C_a$ be the number of cups of food given in the afternoon. We are given that $C_a = 25$.\nThe total amount of food given in a day is $N \\times x = 20 \\times 3 = 60$ cups.\nThe total amount of food given in the morning and afternoon is $C_s + C_a = 15 + 25 = 40$ cups.\nThe amount of food remaining to be given in the evening is $60 - 40 = 20$ cups.\nSince each chicken needs 3 cups of food per day, the amount of food needed for 20 chickens is $20 \\times 3 = 60$ cups.\nIn the morning, 15 cups are given. In the afternoon, 25 cups are given.\nTotal cups given in the morning and afternoon = $15 + 25 = 40$ cups.\nCups needed for the evening = $60 - 40 = 20$ cups.\nSo, Wendy needs to give 20 cups of food in the evening.\n\nAlternatively, let $F$ be the total food needed for the day for all chickens.\n$F = 20 \\text{ chickens} \\times 3 \\text{ cups/chicken} = 60 \\text{ cups}$\nIn the morning, 15 cups are given.\nIn the afternoon, 25 cups are given.\nTotal cups given in the morning and afternoon = $15 + 25 = 40$ cups.\nRemaining cups to be given = $60 - 40 = 20$ cups.\nTherefore, the number of cups needed for the evening is 20.\n\nANSWER: 20",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 477,
+    "total_tokens": 640,
+    "cost": 5.585e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.585e-05,
+     "upstream_inference_prompt_cost": 8.15e-06,
+     "upstream_inference_completions_cost": 4.77e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 20.0
+  },
+  "5": {
+   "text": "Let the price of a single piece of glass be $5.\nThe discount on each second glass is 60% of the price.\nSo the discounted price of each second glass is $5 - 0.60 \\times 5 = 5 - 3 = $2.\nKailah wants to buy 16 pieces of glass.\nThe first 8 pieces of glass will cost $5 each.\nThe cost of the first 8 pieces is $8 \\times 5 = $40$.\nThe remaining 8 pieces will be discounted at 60%.\nThe cost of the remaining 8 pieces is $8 \\times 2 = $16$.\nThe total cost is $40 + 16 = $56$.\n\nAlternatively,\nSince Kailah wants to buy 16 pieces of glass, half of them will be at the regular price and half will be at the discounted price.\nNumber of glasses at regular price = 8\nNumber of glasses at discounted price = 8\nCost of 8 glasses at regular price = $8 \\times 5 = $40$\nCost of 8 glasses at discounted price = $8 \\times (5 - 0.60 \\times 5) = 8 \\times (5 - 3) = 8 \\times 2 = $16$\nTotal cost = $40 + 16 = $56$\n\nAnother approach:\nThe cost of 16 glasses at the regular price would be $16 \\times 5 = $80$.\nHowever, since the discount applies to every second glass, we need to find how many pairs of glasses are bought. Since Kailah is buying 16 glasses, there are $\\frac{16}{2} = 8$ pairs.\nFor each pair, the first glass costs $5 and the second glass costs $5(1 - 0.60) = 5(0.40) = $2$.\nSo the cost for each pair is $5 + 2 = $7$.\nSince there are 8 pairs, the total cost is $8 \\times 7 = $56$.\n\nANSWER: 56",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 114,
+    "completion_tokens": 471,
+    "total_tokens": 585,
+    "cost": 5.28e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.28e-05,
+     "upstream_inference_prompt_cost": 5.7e-06,
+     "upstream_inference_completions_cost": 4.71e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 56.0
+  },
+  "6": {
+   "text": "Let $T$ be the number of sheep in Toulose, $C$ be the number of sheep in Charles town, and $S$ be the number of sheep in Seattle.\nWe are given that Toulouse has twice as many sheep as Charles town, so $T = 2C$.\nWe are also given that Charles town has four times as many sheep as Seattle, so $C = 4S$.\nWe are given that Seattle has 20 sheep, so $S = 20$.\n\nNow we can find the number of sheep in Charles town:\n$C = 4S = 4(20) = 80$.\nAnd the number of sheep in Toulouse:\n$T = 2C = 2(80) = 160$.\n\nThe total number of sheep in Toulouse, Charles town, and Seattle is $T + C + S = 160 + 80 + 20 = 260$.\n\nANSWER: 260",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 217,
+    "total_tokens": 339,
+    "cost": 2.78e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.78e-05,
+     "upstream_inference_prompt_cost": 6.1e-06,
+     "upstream_inference_completions_cost": 2.17e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 260.0
+  },
+  "7": {
+   "text": "Here's how to solve this problem step-by-step:\n\n1. **Initial download time:** Karla can download 2 GB per minute.  The file is 200 GB, so the total download time would be 200 GB / 2 GB/minute = 100 minutes.\n\n2. **Download completed before restart:** Karla downloads 40% of the file before the restart. That's 0.40 * 200 GB = 80 GB.\n\n3. **Time to download 80 GB:**  The time to download 80 GB is 80 GB / 2 GB/minute = 40 minutes.\n\n4. **Restart time:** The Windows update takes 20 minutes.\n\n5. **Total time elapsed:**  So far, 40 minutes (download) + 20 minutes (restart) = 60 minutes.\n\n6. **Remaining download:**  The remaining file size to download is 200 GB - 80 GB = 120 GB.\n\n7. **Time to download remaining:**  The time to download the remaining 120 GB is 120 GB / 2 GB/minute = 60 minutes.\n\n8. **Total download time:**  The total time required is 60 minutes (initial download) + 60 minutes (re-download) = 120 minutes.\n\n9. **Convert to hours and minutes:** 120 minutes = 2 hours.\n\nANSWER: 120",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 333,
+    "total_tokens": 463,
+    "cost": 3.98e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.98e-05,
+     "upstream_inference_prompt_cost": 6.5e-06,
+     "upstream_inference_completions_cost": 3.33e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 120.0
+  },
+  "8": {
+   "text": "Let's break down the problem step by step:\n\n1. **Initial trip:** John drives at 60 mph for 3 hours.  Distance covered = speed * time = 60 mph * 3 hours = 180 miles.\n\n2. **Return trip - initial jam:** He spends 2 hours in traffic jam.  Distance covered in jam = speed * time = 0 mph * 2 hours = 0 miles.\n\n3. **Return trip - moderate speed:** He drives at 30 mph for 0.5 hours (30 minutes). Distance covered = 30 mph * 0.5 hours = 15 miles.\n\n4. **Return trip - high speed:** He drives at 80 mph for 4 hours. Distance covered = 80 mph * 4 hours = 320 miles.\n\n5. **Total distance traveled during return trip:** 0 miles (jam) + 15 miles + 320 miles = 335 miles.\n\n6. **Net distance from home:** Since he initially drove 180 miles away and then returned 335 miles, the net distance from home is 335 miles - 180 miles = 155 miles.\n\nANSWER: 155",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 276,
+    "total_tokens": 431,
+    "cost": 3.535e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.535e-05,
+     "upstream_inference_prompt_cost": 7.75e-06,
+     "upstream_inference_completions_cost": 2.76e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 155.0
+  },
+  "9": {
+   "text": "Let's break down the problem step-by-step:\n\n1. **Regular Hours:** Eliza worked 40 hours at her regular rate of $10 per hour.\n   Earnings from regular hours = 40 hours * $10/hour = $400\n\n2. **Overtime Hours:** Eliza worked 45 hours total - 40 hours regular = 5 overtime hours.\n\n3. **Overtime Rate:** Her overtime rate is 1.2 times her regular rate, so $10 * 1.2 = $12 per hour.\n\n4. **Overtime Earnings:** Earnings from overtime hours = 5 hours * $12/hour = $60\n\n5. **Total Earnings:** Total earnings = Earnings from regular hours + Earnings from overtime hours = $400 + $60 = $460\n\nANSWER: 460",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 115,
+    "completion_tokens": 190,
+    "total_tokens": 305,
+    "cost": 2.475e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.475e-05,
+     "upstream_inference_prompt_cost": 5.75e-06,
+     "upstream_inference_completions_cost": 1.9e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 460.0
+  }
+ },
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 195000.0,
+  "3": 180.0,
+  "4": 20.0,
+  "5": 56.0,
+  "6": 260.0,
+  "7": 120.0,
+  "8": 155.0,
+  "9": 460.0
+ }
+}

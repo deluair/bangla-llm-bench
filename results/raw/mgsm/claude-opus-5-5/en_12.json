@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 8.0,
+ "text": "**[id 120]** Miguel uses 2 × 30 = 60 sheets a week. Taking a month as 4 weeks, that is 60 × 4 = **240**.\n\n**[id 121]** Morisette brought 5 + 8 = 13 fruits. Kael brought 10 apples and 4 oranges, which is 14. Together that is **27**.\n\n**[id 122]** Sadie slept 8 hours on Monday. She slept 6 + 6 = 12 hours over the next two days. The remaining 4 days were 7 hours each, which is 28. The total is **48**.\n\n**[id 123]** Rosie runs 10 × 3 = 30 miles first. She then runs 5 × 4 = 20 miles. The total is **50**.\n\n**[id 124]** Jennie stamped 60 ÷ 3 = 20 letters. The pile started with 30 − 20 = **10**.\n\n**[id 125]** Let x be the spoons in Julia's package. Then x + 5 − 3 = 12, so x = **10**.\n\n**[id 126]** Dylan bought 38 + 6 = 44 fish sausages. The total is 38 + 44 = **82**.\n\n**[id 127]** Amy made 50 + 20 = 70 friends. Together they have 50 + 70 = **120**.\n\n**[id 128]** A pepper costs $15, a watermelon $45, and an orange $40. The cost is 4×45 + 20×15 + 10×40 = 180 + 300 + 400 = **880**.\n\n**[id 129]** The visits take 500 × 24 = 12,000 minutes, which is 200 hours. The profit is $50 per hour, so 200 × 50 = **10000**.\n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1437,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 865,
+  "output_tokens_details": {
+   "thinking_tokens": 235
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 865,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028804,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 30.3,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 0]**\nJanet's ducks lay 16 eggs per day. She uses 3 for breakfast and 4 for baking, leaving 16 - 3 - 4 = 9 eggs to sell. At $2 per egg, she makes 9 * $2 = $18 per day.\n\n**[id 1]**\nThe robe requires 2 bolts of blue fiber. Half of that amount is 1 bolt of white fiber. The total is 2 + 1 = 3 bolts.\n\n**[id 2]**\nJosh buys the house for $80,000. A 150% increase in the initial value is $80,000 * 1.5 = $120,000. So the house's new value is $80,000 + $120,000 = $200,000. He spent $80,000 (purchase) + $50,000 (repairs) = $130,000 total. His profit is $200,000 - $130,000 = $70,000.\n\n**[id 3]**\nJames runs 3 sprints, 3 times a week, meaning he does 9 sprints total. Each sprint is 60 meters. 9 sprints * 60 meters = 540 meters.\n\n**[id 4]**\nWendi has 20 chickens and feeds them 3 cups each per day, requiring 60 cups in total. She has already fed them 15 + 25 = 40 cups. For the final meal, she needs 60 - 40 = 20 cups.\n\n**[id 5]**\nKylar buys 16 glasses, which means 8 pairs of glasses. For each pair, the first glass costs $5, and the second costs 60% of $5, which is $3. Each pair costs $8. The total cost is 8 pairs * $8/pair = $64.\n\n**[id 6]**\nSeattle has 20 sheep. Charleston has 4 times as many: 4 * 20 = 80 sheep. Toulouse has twice as many as Charleston: 2 * 80 = 160 sheep. Together they have 20 + 80 + 160 = 260 sheep.\n\n**[id 7]**\nCarla downloads 40% of the 200 GB file, which is 80 GB. At 2 GB/minute, this takes 40 minutes. The restart takes 20 minutes. Starting over from the beginning to download the full 200 GB at 2 GB/minute takes 100 minutes. The total time is 40 + 20 + 100 = 160 minutes.\n\n**[id 8]**\nJohn initially drives 3 hours at 60 mph, going 180 miles from home. On the way back, he spends 2 hours in traffic going 0 miles, 0.5 hours at 30 mph going 15 miles, and the remaining 1.5 hours (to reach 4 total hours) at 80 mph going 120 miles. In those 4 hours, he travels back 0 + 15 + 120 = 135 miles. He is now 180 - 135 = 45 miles from home.\n\n**[id 9]**\nEliza earns $10 per hour for 40 hours, making $400. She earns an overtime rate of $10 * 1.2 = $12 per hour. For the remaining 5 hours, she makes 5 * $12 = $60. Her total earnings are $400 + $60 = $460.\n\n{\"answers\": {\"0\": 18, \"1\": 3, \"2\": 70000, \"3\": 540, \"4\": 20, \"5\": 64, \"6\": 260, \"7\": 160, \"8\": 45, \"9\": 460}}\n",
+ "usage": {
+  "input_tokens": 16756,
+  "output_tokens": 3962,
+  "thinking_tokens": 2992,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20718
+ },
+ "answers_batch": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ },
+ "single": {},
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ }
+}

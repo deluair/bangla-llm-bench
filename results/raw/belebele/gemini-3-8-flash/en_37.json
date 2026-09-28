@@ -1,0 +1,34 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 6.2,
+ "text": "**Brief Reasoning:**\n\n- **[id 296]**: The passage states that standard 35 mm film \"gives resolution roughly comparable to a current DSLR,\" making **A** the correct choice.\n- **[id 297]**: The text explicitly notes that Disney tickets are \"non-transferable,\" so statement **A** (\"Park-hopper tickets are transferable to other travelers\") is not true.\n- **[id 298]**: The passage advises against swimming against the current and notes that once out of the current, swimming back is no more difficult than normal, advising to aim somewhere you are not caught again. Thus, **A** is correct.\n- **[id 299]**: Odors (strong smells), lack of proper distance, and feeding/disturbing wildlife are mentioned in relation to wildlife risks, while \"animals that are unfamiliar with humans\" is not cited as a cause of attacks (in fact, it notes animals are used to seeing humans). Thus, **D** is correct.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 24710,
+  "output_tokens": 1134,
+  "thinking_tokens": 880,
+  "cache_read_tokens": 0,
+  "total_tokens": 25844
+ },
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

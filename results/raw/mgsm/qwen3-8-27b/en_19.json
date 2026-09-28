@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 2.6,
+ "text": "Here are the step-by-step solutions for each problem.\n\n**[id 190]**\nJohn collects for 3 hours.\nConvert hours to minutes: $3 \\text{ hours} \\times 60 \\text{ minutes/hour} = 180 \\text{ minutes}$.\nRate is 2 peaches per minute.\nTotal peaches = $180 \\text{ minutes} \\times 2 \\text{ peaches/minute} = 360$.\n\n**[id 191]**\nA single duck eats 3.5 pounds of insects per week.\nFlock of 10 ducks: $10 \\times 3.5 = 35$ pounds per week.\nConvert to daily consumption: $35 \\text{ pounds} / 7 \\text{ days} = 5$ pounds per day.\n\n**[id 192]**\nInitial trees: 50.\nOver 10 years, Tom plants 10 trees/year and chops down 2 trees/year.\nNet change per year = $10 - 2 = 8$ trees.\nTotal net change over 10 years = $10 \\times 8 = 80$ trees.\nTrees before death = $50 + 80 = 130$ trees.\n30% of the trees die: $130 \\times 0.30 = 39$ trees die.\nTrees left = $130 - 39 = 91$.\n\n**[id 193]**\nFriday morning: 18 pink flamingos.\nSaturday morning:\n- Take back 1/3 of 18 = 6 flamingos. These become white.\n- Remaining pink flamingos = $18 - 6 = 12$.\n- White flamingos added = 6.\nSunday morning:\n- Add 18 pink flamingos.\n- Total pink = $12 \\text{ (from Fri)} + 18 \\text{ (from Sun)} = 30$.\n- Total white = 6 (remains constant).\nDifference = $\\text{Pink} - \\text{White} = 30 - 6 = 24$.\n\n**[id 194]**\nVioletta needs 5 crayons.\nCost per crayon = $2.\nTotal cost = $5 \\times 2 = \\$10$.\nShe prepared $20.\nChange = $\\$20 - \\$10 = \\$10$.\nThe question asks for the amount of change. The numerical value is 10.\n\n**[id 195]**\nPencil cost = $1.20.\nEraser cost = $0.30.\nPen cost = Pencil + Eraser = $1.20 + $0.30 = $1.50.\nCost of 8 pens = $8 \\times 1.50 = 12.00$.\nThe question asks for the cost, which is 12.\n\n**[id 196]**\nTotal carrots = 200 pounds.\nNumber of restaurants = 40.\nCarrots per restaurant = 2 pounds.\nTotal carrots used = $40 \\times 2 = 80$ pounds.\nCarrots not used = $200 - 80 = 120$ pounds.\n\n**[id 197]**\nTotal inhabitants = 23,786.\nMen = 8,417.\nWomen = 9,092.\nTotal adults = $8,417 + 9,092 = 17,509$.\nChildren = Total inhabitants - Total adults.\nChildren = $23,786 - 17,509 = 6,277$.\n\n**[id 198]**\nInitial cards: 20.\nFirst month collected: $3 \\times 20 = 60$.\nSecond month collected: $60 - 20 = 40$.\nFirst + Second month: $60 + 40 = 100$.\nThird month collected: $2 \\times 100 = 200$.\nTotal cards now = Initial + Month 1 + Month 2 + Month 3.\nTotal = $20 + 60 + 40 + 200 = 320$.\n\n**[id 199]**\nTotal sentences = 1000.\nMark edits an equal number for Publisher A and Publisher B.\nSentences for A = $1000 / 2 = 500$.\nSentences for B = $1000 / 2 = 500$.\nRate for Publisher A = 5 cents/sentence.\nRate for Publisher B = $2 \\times 5 = 10$ cents/sentence.\nEarnings from A = $500 \\times 5 = 2500$ cents.\nEarnings from B = $500 \\times 10 = 5000$ cents.\nTotal earnings = $2500 + 5000 = 7500$ cents.\n\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "queue_time": 0.066120987,
+  "prompt_tokens": 742,
+  "prompt_time": 0.051037911,
+  "completion_tokens": 1262,
+  "completion_time": 2.400028638,
+  "total_tokens": 2004,
+  "total_time": 2.451066549
+ },
+ "served_by": null,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

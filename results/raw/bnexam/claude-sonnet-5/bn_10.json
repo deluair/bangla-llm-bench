@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867",
+  "82690f9c-99db-4a82-a197-44485e220416-129544",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591"
+ ],
+ "seconds": 15.3,
+ "text": "{\"answers\": {\"810280d0-a0f8-4950-91ff-6ac7b92623c2-59723\": \"C\", \"815030d7-4c65-4841-8e9d-d95ba5af96cd-85550\": \"D\", \"82483b9e-6995-45bc-826d-6be5734374d2-68867\": \"A\", \"82690f9c-99db-4a82-a197-44485e220416-129544\": \"A\", \"828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450\": \"D\", \"834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376\": \"C\", \"83d04104-a4e5-4d5d-a5fc-5228d8100284-90422\": \"C\", \"84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504\": \"B\", \"863c5d34-029d-443b-a54e-c96c1e1ab46a-13867\": \"B\", \"8658ca46-a875-45eb-8c52-3f18a05be4ef-47105\": \"D\", \"87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919\": \"C\", \"89701f30-73fe-4492-bec9-b8528692025e-121889\": \"D\", \"897af77b-6414-496b-a81c-e0b5a435942f-76425\": \"C\", \"89812516-f0f1-44cd-9665-f969ca7fc6eb-135572\": \"A\", \"89b398d4-89b5-41ad-85da-55a3546f874a-25591\": \"A\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2310,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1646,
+  "output_tokens_details": {
+   "thinking_tokens": 1136
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2310,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1646,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2310,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2310
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.025703999999999998,
+ "answers_batch": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "B",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ },
+ "single": {},
+ "answers": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "B",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 5.0,
+ "text": "Here are the answers based on the reasoning from each passage:\n\n- **id 88**: The passage states that Lo Piccolo was Provenzano's right-hand man in Palermo, so the correct answer is **B**.\n- **id 89**: The passage mentions Hitoshi Saito as a two-time Olympic gold medalist and a committee chairman, but it does not mention him being a \"Judo expert.\" The other options are explicitly mentioned.\n  So the correct answer is **D**.\n- **id 90**: The passage mentions that Iwasaki escaped marriage in Nepal, so the correct answer is **B**.\n- **id 91**: Alonso ended his race right after his pit-stop due to a badly tucked right front wheel, which happened after he was in the lead for most of the race. So the correct answer is **C**.\n- **id 92**: The passage states that Emma Stone received a nomination for Best Actress, so the correct answer is **C**.\n- **id 93**: The passage mentions Carolyn Wilson worked for the OHA before leaving town, so the correct answer is **C**.\n- **id 94**: The passage states that people have observed martian material falling to Earth five times, so the correct answer is **B**.\n- **id 95**: The passage states Schumacher retired in 2006 after winning the championship seven times, so the correct answer is **B**.\n\n```json\n{\n  \"answers\": {\n    \"88\": \"B\",\n    \"89\": \"D\",\n    \"90\": \"B\",\n    \"91\": \"C\",\n    \"92\": \"C\",\n    \"93\": \"C\",\n    \"94\": \"B\",\n    \"95\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1248,
+  "completion_tokens": 375,
+  "total_tokens": 1623,
+  "cost": 0.00024345,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024345,
+   "upstream_inference_prompt_cost": 0.0001872,
+   "upstream_inference_completions_cost": 5.625e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ }
+}

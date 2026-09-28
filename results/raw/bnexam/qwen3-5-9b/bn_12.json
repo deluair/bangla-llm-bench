@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849",
+  "98128531-5358-4528-8082-537d39bc9e75-3746",
+  "9901d520-d787-402f-96ff-683966d32b79-143197",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406"
+ ],
+ "seconds": 74.2,
+ "text": "\n\nQuestion 1: Purine bases are Adenine and Guanine. Cytosine, Thymine, and Uracil are Pyrimidines.\nAnswer: A\n\nQuestion 2: Maximum Height $H = \\frac{u^2 \\sin^2 \\theta}{2g}$. $u=29.4$, $\\theta=30^\\circ$, $g=9.8$. $H = \\frac{29.4^2 \\times 0.25}{19.6} = \\frac{864.36 \\times 0.25}{19.6} = 11.025$.\nAnswer: B\n\nQuestion 3: Carbon Dioxide (CO2) is the primary greenhouse gas for global warming.\nAnswer: A\n\nQuestion 4: Stopping distance $d \\propto v^2$. If velocity doubles ($2v$), distance becomes $2^2 = 4$ times.\nAnswer: A\n\nQuestion 5: Tropical Rain Forest has the highest plant diversity.\nAnswer: B\n\nQuestion 6: CP (Coat Protein) gene is used for virus resistance in plants.\nAnswer: A\n\nQuestion 7: Area = $1/2 \\times \\text{base} \\times \\text{height} = 1/2 \\times 2 \\times 6 = 6$.\nAnswer: D\n\nQuestion 8: Bangabandhu Sheikh Mujibur Rahman declared independence via Radio.\nAnswer: D\n\nQuestion 9: Boron (Group 13, Period 2) has diagonal relationship with Silicon (Group 14, Period 3).\nAnswer: A\n\nQuestion 10: Hydrogen ($H_2$) is the lightest gas (atomic mass ~1).\nAnswer: A\n\nQuestion 11: Passive voice of \"Let me do the sum\" is \"Let the sum be done by me\".\nAnswer: C\n\nQuestion 12: \"Shanti Bahini\" was officially dissolved on October 28, 1994 (based on common Bangladesh GK history questions).\nAnswer: D\n\nQuestion 13: Combustion of Acetylene ($2C_2H_2 + 5O_2$). Volume ratio $C_2H_2 : O_2 = 2 : 5 = 1 : 2.5$. $100 \\text{ ml} \\times 2.5 = 250 \\text{ ml}$.\nAnswer: D\n\nQuestion 14: \"Dwijakar\" (Diatomic) molecules. Property often discussed is Molecular Weight affecting properties like diffusion. Given options, Molecular Weight (C) is a distinct physical parameter compared to Atomic weight (A/D).\nAnswer: C\n\nQuestion 15: Hypotenuse = $\\sqrt{8^2 + 6^2} = 10$. Circumradius = Hypotenuse / 2 = 5.\nAnswer: B\n\n{\"answers\": {\"906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173\": \"A\", \"90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543\": \"B\", \"9122ae5d-a936-4516-8f49-ab251780dcc2-113224\": \"A\", \"9153ac5e-47de-4086-b971-be92a887b857-103947\": \"A\", \"939c4886-bccc-468d-9758-e738c3fba007-130745\": \"B\", \"957893bc-7177-435b-8a2f-22e56f6c8d81-41482\": \"A\", \"95c4bdea-8802-44ff-ae5b-1690fbf85769-39004\": \"D\", \"962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321\": \"D\", \"9698a244-753b-4144-91ea-dde0a7ab5302-127225\": \"A\", \"975edc8c-78bd-485b-94af-265b38beec84-67491\": \"A\", \"9794574e-702e-46e6-9aaa-14092809e414-122849\": \"C\", \"98128531-5358-4528-8082-537d39bc9e75-3746\": \"D\", \"9901d520-d787-402f-96ff-683966d32b79-143197\": \"D\", \"997465ad-58cd-4f94-9aff-d01a798b64c8-61569\": \"C\", \"99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1940,
+  "completion_tokens": 11401,
+  "total_tokens": 13341,
+  "cost": 0.00190415,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00190415,
+   "upstream_inference_prompt_cost": 0.000194,
+   "upstream_inference_completions_cost": 0.00171015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10059,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "D",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "A",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "D",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B"
+ },
+ "single": {},
+ "answers": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "D",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "A",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "D",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B"
+ }
+}

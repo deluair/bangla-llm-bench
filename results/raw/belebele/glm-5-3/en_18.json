@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 11.6,
+ "text": "Here are my answers with brief reasoning:\n\n**144:** The passage states a curry \"is a dish based on herbs and spices\" — the other ingredients (meat/vegetables, yogurt/coconut milk) vary. → **B**\n\n**145:** Coffee, tea, juice, and smoothies are all mentioned as home options; beer is not (bars/pubs are mentioned as places to visit, not home-brewing). → **C**\n\n**146:** The passage says student visas require \"evidence of funds to support yourself.\" → **D**\n\n**147:** \"In summer, especially, you'll need to watch out for mosquitoes.\" → **A**\n\n**148:** The passage says Timbuktu \"has an airport,\" so it is not inaccessible by plane. → **C**\n\n**149:** Funnels \"become 'tornadoes' when they touch the ground.\" → **D**\n\n**150:** The commonest format is standard 35 mm film, whose negative size is 36 by 24 mm. → **D**\n\n**151:** \"The fabulous riches of the tomb are no longer in it, but have been removed to the Egyptian Museum.\" → **D**\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 923,
+  "completion_tokens_details": {
+   "reasoning_tokens": 627
+  },
+  "prompt_tokens": 1353,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2276
+ },
+ "served_by": null,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

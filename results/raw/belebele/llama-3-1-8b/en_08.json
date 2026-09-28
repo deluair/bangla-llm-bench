@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 0.5,
+ "text": "Based on the passages, I will choose the answer for each question:\n\nThe correct answers are:\n\n[id 64]\nA) 4 \n\n[id 65]\nB) The phone \n\n[id 66]\nB) John Howard \n\n[id 67]\nB) He admitted to the attack \n\n[id 68]\nD) Alleviating the effects of global warming \n\n[id 69]\nC) A ban on the sale or rental of violent video games to minors outside of California\n\n[id 70]\nC) The Conservative party\n\n[id 71]\nD) Tommy Dreamer\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"D\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1258,
+  "completion_tokens": 168,
+  "total_tokens": 1426,
+  "cost": 7.634e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.634e-05,
+   "upstream_inference_prompt_cost": 6.29e-05,
+   "upstream_inference_completions_cost": 1.344e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "D",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "D",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

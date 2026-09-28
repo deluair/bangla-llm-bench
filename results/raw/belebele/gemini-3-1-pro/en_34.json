@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 20.0,
+ "text": "Based on the passages provided, here is the reasoning for each question:\n\n**[id 272]** The passage states that \"Kerala's temple festivals are very interesting to see, with regular procession of decorated elephants\". The correct option is C.\n**[id 273]** The text notes that for customers purchasing ready-made food, \"Some even provide a microwave oven or other means to heat food.\" The correct option is D.\n**[id 274]** The passage specifically highlights that \"the numbering system in French-speaking Belgium and Switzerland has some slight peculiarities that are different from the French spoken in France\". The correct option is B.\n**[id 275]** The passage points out that \"writing is somewhat complicated by the need to find out whether a verb or adjective is used in a substantivized form,\" making writing more difficult due to capitalization rules. The correct option is C.\n**[id 276]** The text explains that the glacier's movement \"will cause cracks, crevasses, which may be obscured by snow bridges.\" The correct option is A.\n**[id 277]** The passage advises tourists to research \"the state of the fighting that persists in the North Kivu province.\" It certainly does not suggest the fights are entertaining. The correct option is A.\n**[id 278]** The passage states explicitly that \"Permits are limited to protect the canyon\". The correct option is D.\n**[id 279]** The text mentions that \"Cold weather is perhaps the only real danger the unprepared will face.\" The correct option is C.\n\n```json\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17488,
+  "output_tokens": 2383,
+  "thinking_tokens": 1961,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19871
+ },
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

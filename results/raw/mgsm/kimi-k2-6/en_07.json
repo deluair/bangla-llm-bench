@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 69.1,
+ "text": "[id 70] Judy teaches 5 classes/day for 5 weekdays (25 classes) plus 8 on Saturday = 33 classes/week. With 15 students per class, that's 495 students. At $15 each, she makes 495 × 15 = $7,425.\n\n[id 71] The first recipe has 20 instructions and the second has twice that, so 40. Total: 20 + 40 = 60 instructions.\n\n[id 72] 43 brownies at $3 = $129. 23 cheesecakes at $4 = $92. Total raised: 129 + 92 = $221.\n\n[id 73] Five phones at $150 = $750. With 2% interest total, the amount owed is $750 × 1.02 = $765. Divided over 3 months: 765 ÷ 3 = $255 per month.\n\n[id 74] Rounded prices: marigolds $3, petunias $2, begonias $2. Revenue: (12 × 3) + (9 × 2) + (17 × 2) = 36 + 18 + 34 = $88.\n\n[id 75] The levels are 128, 64, 32, and 16 sq ft. Sum = 240. Average over 4 levels: 240 ÷ 4 = 60 sq ft.\n\n[id 76] First 180 days: 180 cups. Remaining 185 days of a 365-day year: 185 × 2 = 370 cups. Total 550 cups. 550 ÷ 110 = 5 bags.\n\n[id 77] Raymond does half of Sarah's 400 = 200 lbs. David does a fourth of Sarah's 400 = 100 lbs. Difference: 200 − 100 = 100 lbs.\n\n[id 78] For 18 flowers: packages of 3 cost 6 × $2.50 = $15; packages of 2 cost 9 × $1 = $9. Savings at the better price: $15 − $9 = $6.\n\n[id 79] $100 with a 30% discount: $100 × 0.30 = $30 off. Final cost: $100 − $30 = $70.\n\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}",
+ "usage": {
+  "prompt_tokens": 704,
+  "completion_tokens": 2646,
+  "total_tokens": 3350,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2104
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

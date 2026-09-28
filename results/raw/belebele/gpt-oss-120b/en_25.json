@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 2.0,
+ "text": "{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "queue_time": 0.266793618,
+  "prompt_tokens": 1294,
+  "prompt_time": 0.0560532,
+  "completion_tokens": 658,
+  "completion_time": 1.391417506,
+  "total_tokens": 1952,
+  "total_time": 1.447470706,
+  "completion_tokens_details": {
+   "reasoning_tokens": 598
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

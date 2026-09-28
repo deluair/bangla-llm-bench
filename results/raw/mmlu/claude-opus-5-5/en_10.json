@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 13.7,
+ "text": "- **5669 – C.** Federalist #15 blamed a weak central government under the Articles. The quoted passage doesn't match this question, so I answered from the question alone.\n- **5751 – A.** Lincoln carried the populous Northern states, while McClellan won only three smaller states. Option B needs outside knowledge the excerpt doesn't give.\n- **5807 – B.** The Hartford Convention Federalists used similar states'-rights protest language against the War of 1812.\n- **5817 – D.** The 21st Amendment revised the Constitution itself by repealing an earlier amendment.\n- **5849 – B.** The conservative backlash was an unintended result of 1960s liberalism.\n- **5924 – D.** National liberation was put ahead of social reform in Algeria.\n- **5973 – D.** World War II weakened Britain and helped Indian independence succeed.\n- **6006 – C.** The English generally avoided intermingling with native peoples.\n- **6083 – A.** Non-alignment refers to the competing Cold War ideologies.\n- **6118 – D.** Personality trait differences between age groups are mostly cohort effects (best guess).\n- **6123 – D.** This describes hospice.\n- **6199 – A.** This describes a living will.\n- **6202 – A.** Best guess, since I don't have the chapter text.\n- **6212 – D.** This describes the Eden Alternative.\n\n{\"answers\": {\"5669\": \"C\", \"5751\": \"A\", \"5807\": \"B\", \"5817\": \"D\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"D\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"D\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"A\", \"6212\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6326,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1062,
+  "output_tokens_details": {
+   "thinking_tokens": 484
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6326,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1062,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 6326,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6326
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.071856,
+ "answers_batch": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "D",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "D",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ }
+}

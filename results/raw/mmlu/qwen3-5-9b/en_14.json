@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "8179",
+  "8305",
+  "8354",
+  "8415",
+  "8476",
+  "8730",
+  "8933",
+  "9177",
+  "9319",
+  "9393",
+  "9440",
+  "9491",
+  "9584",
+  "9625",
+  "9693"
+ ],
+ "seconds": 71.7,
+ "text": "\n\n[id 8179] Dershowitz discusses the 9/11 hypothetical to argue that such critical ethical-legal decisions must be made within a framework of high-level accountability rather than solely on speed or without process. He emphasizes the role of the President and the judiciary in authorization and oversight. B) is the best fit.\n\n[id 8305] Peter Singer attributes the recognition of the principle of equal consideration of interests to Jeremy Bentham, who argued that the question is not whether animals can reason or talk, but whether they can suffer.\n\n[id 8354] Huemer argues against paternalism regarding drugs, asserting they are not significantly more harmful than legal vices like drinking or smoking, and not detrimental to character in unique ways.\n\n[id 8415] Joseph Carens argues that free migration is generally the moral standard. He contests the idea that sovereignty or culture justifies the restriction of migration without further constraint.\n\n[id 8476] Jennifer West argues that a reason harms in the U.S. go unnoticed is the cultural tendency to equate legality with harmlessness or morality.\n\n[id 8730] Spilling a drink in a kitchen is generally not a clear moral wrong, whereas an attorney disregarding the innocence of clients violates legal and ethical codes. (C)\n\n[id 8933] Feeling excited about a stepdad's recovery is a valid emotional response (Not wrong). Sweeping glass shards under a rug creates a safety hazard for others (Wrong). (C)\n\n[id 9177] Feeding grass to a child (while unsafe if non-nutritious) is not clearly morally wrong in the same category as tax fraud. Signing tax forms knowing they were likely fraudulent or related to crimes is wrong. (C)\n\n[id 9319] Steering children toward a terrifying painting subjects them to trauma/unnecessary fear (Wrong). Opening hazardous chemicals without instruction is unsafe and negligent (Wrong). (A)\n\n[id 9393] Taking a book from a store without paying is theft (Wrong). Covering a painting without permission is vandalism/theft of public property (Wrong). (A)\n\n[id 9440] Urea is the primary nitrogenous waste product in mammalian urine.\n\n[id 9491] Fluoxetine is an FDA-approved medication for Bulimia Nervosa and is considered of benefit in treatment guidelines.\n\n[id 9584] Thiamin (B1) and Vitamin C are the vitamins most heat-sensitive and water-soluble, making them the most prone to loss during cooking.\n\n[id 9625] DHA is present in vegan diets derived from algal oil, making the statement that it is \"absent\" false. Statements A (production possibility) and D (algal synthesis) are true.\n\n[id 9693] Folate deficiency is less prevalent in older people in countries where flour is fortified with folic acid compared to unfortified nations. (Other options are contradicted by medical consensus).\n\n```json\n{\"answers\": {\"8179\": \"B\", \"8305\": \"C\", \"8354\": \"D\", \"8415\": \"D\", \"8476\": \"C\", \"8730\": \"C\", \"8933\": \"C\", \"9177\": \"C\", \"9319\": \"A\", \"9393\": \"A\", \"9440\": \"C\", \"9491\": \"A\", \"9584\": \"D\", \"9625\": \"B\", \"9693\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1434,
+  "completion_tokens": 11817,
+  "total_tokens": 13251,
+  "cost": 0.00191595,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00191595,
+   "upstream_inference_prompt_cost": 0.0001434,
+   "upstream_inference_completions_cost": 0.00177255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 11034,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "8179": "B",
+  "8305": "C",
+  "8354": "D",
+  "8415": "D",
+  "8476": "C",
+  "8730": "C",
+  "8933": "C",
+  "9177": "C",
+  "9319": "A",
+  "9393": "A",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "B",
+  "9693": "D"
+ },
+ "single": {},
+ "answers": {
+  "8179": "B",
+  "8305": "C",
+  "8354": "D",
+  "8415": "D",
+  "8476": "C",
+  "8730": "C",
+  "8933": "C",
+  "9177": "C",
+  "9319": "A",
+  "9393": "A",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "B",
+  "9693": "D"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "13079",
+  "13080",
+  "13082",
+  "13109",
+  "13123",
+  "13159",
+  "13190",
+  "13216",
+  "13256",
+  "13268",
+  "13432",
+  "13443",
+  "13519",
+  "13522",
+  "13570"
+ ],
+ "seconds": 27.8,
+ "text": "# Answers to Multiple-Choice Questions\n\nLet me reason through each question briefly:\n\n**13079**: Guerilla marketing technique spreading through peer communication = Viral campaign (spreads person-to-person). **Answer: D**\n\n**13080**: When opposing groups hold strong emotional beliefs on issues affecting their lives = Public issue campaign. **Answer: B**\n\n**13082**: Main driver of 400% internet traffic growth = Video content (highest bandwidth consumer). **Answer: B**\n\n**13109**: PR field addressing emerging issues and their organizational impact = Public affairs. **Answer: C**\n\n**13123**: Most effective measurement for attitude impact = Pre- and post-campaign attitude surveys. **Answer: D**\n\n**13159**: NOT a component of Responsibility to Protect = \"Sovereignty\" is actually challenged by R2P doctrine. **Answer: C**\n\n**13190**: Securitization fails when audience doesn't accept the threat as legitimate/valid. **Answer: A**\n\n**13216**: Post-colonial \"thick space\" = hierarchically structured international arena with complex multi-dimensional relations. **Answer: A**\n\n**13256**: TNC becomes security threat through economic impacts, democratic destabilization, AND state capacity challenges. **Answer: D**\n\n**13268**: Does NOT describe arms control as strategic policy = Option D negates its current role/effectiveness. **Answer: D**\n\n**13432**: Third stage of lifestyle = Post-work retirement with freedom. **Answer: A**\n\n**13443**: Weber's \"spirit of capitalism\" = Calvinists' ascetic practices seeking salvation signs. **Answer: D**\n\n**13519**: \"Feminist perspective\" = Studying society from women's viewpoint. **Answer: B**\n\n**13522**: NOT a globalization characteristic = Power expansion is unequal; not all countries expand equally. **Answer: B**\n\n**13570**: Absolute poverty line shows = Minimum income level needed for basic subsistence. **Answer: B**\n\n```json\n{\"answers\": {\"13079\": \"D\", \"13080\": \"B\", \"13082\": \"B\", \"13109\": \"C\", \"13123\": \"D\", \"13159\": \"C\", \"13190\": \"A\", \"13216\": \"A\", \"13256\": \"D\", \"13268\": \"D\", \"13432\": \"A\", \"13443\": \"D\", \"13519\": \"B\", \"13522\": \"B\", \"13570\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5528,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2281,
+  "output_tokens_details": {
+   "thinking_tokens": 1728
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5528,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 2281,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5528,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5528
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.02247,
+ "answers_batch": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "C",
+  "13123": "D",
+  "13159": "C",
+  "13190": "A",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {},
+ "answers": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "C",
+  "13123": "D",
+  "13159": "C",
+  "13190": "A",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ }
+}

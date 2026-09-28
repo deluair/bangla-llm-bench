@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 8.5,
+ "text": "The passage states that the disease is carried by pigs, which then migrates to humans through mosquitoes. While pigs are the carrier, the *transfer* to humans occurs via mosquitoes.\nIwasaki was attacked in Tibet by a rabid dog.\nThe restraining order was issued to enforce the release of those who did not receive a hearing by a court commissioner.\nThe list of nominations includes Best Picture, Director, Cinematography, Costume Design, Film-editing, Original Score, Production Design, Sound Editing, Sound Mixing, Original Screenplay, and Original Song. It does not list Best Visual Effects.\nThe passage says \"Some roads have been damaged.\" It says the airport \"remains closed\" and the reactors were \"shut down,\" but \"damage\" is specifically attributed to roads. (Note: While people might assume homes were damaged, the text specifically mentions \"roads have been damaged\" and \"9400 homes... are without water,\" which is a service disruption, not necessarily structural damage).\nThe passage states \"Israel demands an ongoing military presence in the valley... while the PA agrees to leave such presence only for five years.\" Therefore, the ongoing military presence is an Israeli demand, not a Palestinian one.\nThe passage states Massa suffered the injury \"during the 2009 Hungarian Grand Prix.\" A Grand Prix is a type of race.\nThe text states: \"Police said they suspect an alleged Daesh (ISIL) militant of responsibility...\"\n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1244,
+  "completion_tokens": 369,
+  "total_tokens": 1613,
+  "cost": 0.00014844,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014844,
+   "upstream_inference_prompt_cost": 7.464e-05,
+   "upstream_inference_completions_cost": 7.38e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

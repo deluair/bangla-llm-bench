@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 9.7,
+ "text": "Here's the breakdown of the answers and the JSON output:\n\n1.  [id 10694] **C)** – It's highly probable that the friend's behavior would have caused significant distress, justifying a lawsuit.\n2.  [id 11167] **A)** – The double jeopardy rule generally prohibits multiple prosecutions for the same crime.\n3.  [id 11431] **A)** – The sign clearly warned of the danger, and the plaintiff was aware of the risks.\n4.  [id 11486] **D)** – The government has already prosecuted the individual for the initial offense, and a second prosecution based on the same conduct would be barred by the double jeopardy clause.\n5.  [id 11690] **C)** – The warrant was valid because police had probable cause to believe they were searching the defendant’s residence.\n6.  [id 12239] **C)** – Ventiilator support with a bag-valve mask is the most immediate and appropriate step.\n7.  [id 12247] **A)** – Adjustment Disorder with mixed anxiety and depressed mood aligns with the patient's presentation.\n8.  [id 12303] **B)** – Doxycycline is the most appropriate treatment for a suspected lymphogranuloma venereum.\n9.  [id 12421] **C)** – Referral to an allergist is the most appropriate next step for evaluating potential allergic causes.\n10. [id 12423] **A)** – Epithelial proliferation is the most likely explanation for the lesion in the middle ear.\n11. [id 12582] **B)** – The evaluation of a litigant's competency focuses on their ability to understand the charges against them.\n12. [id 12609] **C)** – Memory for events is most accurate when parents share information about a child’s developmental and social history.\n13. [id 12674] **A)** – A verbal IQ significantly higher than a performance IQ is a common finding in individuals with learning disabilities.\n14. [id 12915] **C)** –  “Specialist” generally means a combined effort between a physician and patient.\n15. [id 13027] **C)** – The researcher should discuss the potential ethical concerns with the supervisor.\n\n```json\n{\"answers\": {\"10694\": \"C\", \"11167\": \"A\", \"11431\": \"A\", \"11486\": \"D\", \"11690\": \"C\", \"12239\": \"C\", \"12247\": \"A\", \"12303\": \"B\", \"12421\": \"C\", \"12423\": \"A\", \"12582\": \"B\", \"12609\": \"C\", \"12674\": \"A\", \"12915\": \"C\", \"13027\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 2911,
+  "completion_tokens": 702,
+  "total_tokens": 3613,
+  "cost": 0.00021575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00021575,
+   "upstream_inference_prompt_cost": 0.00014555,
+   "upstream_inference_completions_cost": 7.02e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10694": "C",
+  "11167": "A",
+  "11431": "A",
+  "11486": "D",
+  "11690": "C",
+  "12239": "C",
+  "12247": "A",
+  "12303": "B",
+  "12421": "C",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "C",
+  "13027": "C"
+ },
+ "answers_batch": {
+  "10694": "C",
+  "11167": "A",
+  "11431": "A",
+  "11486": "D",
+  "11690": "C",
+  "12239": "C",
+  "12247": "A",
+  "12303": "B",
+  "12421": "C",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "C",
+  "13027": "C"
+ },
+ "single": {}
+}

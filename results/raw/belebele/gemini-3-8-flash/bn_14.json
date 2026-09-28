@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 16.7,
+ "text": "Here are the evaluations for each question based on the provided passages:\n\n- **[id 112]**: The passage states that before causing a global pandemic, the disease must become less lethal (*\"বিশ্বজুড়ে মহামারী হওয়ার আগে অবশ্যই এই রোগটি কম প্রাণঘাতী আকার ধারণ করবে\"*). Thus, **A** is correct.\n- **[id 113]**: The passage explicitly mentions lowering/reducing the threat level (*\"হুমকির মাত্রা হ্রাস করে...\"*). Thus, **A** is correct.\n- **[id 114]**: The passage mentions India lost 7 wickets for 36 runs to end the innings (*\"৭ উইকেট হারিয়ে ফেললে ইনিংস শেষ হয়ে যায়\"*). Thus, **B** is correct.\n- **[id 115]**: The passage notes that perks differ and points with another carrier might offer more benefits/perks, prioritizing the potential for additional perks (*\"অতিরিক্ত সুবিধা দেওয়ার সম্ভাবনা\"*). Thus, **D** is correct.\n- **[id 116]**: Conductors may collect passports on night sleeper trains so sleep is not disrupted (*\"রাতের স্লিপার ট্রেনে কনডাক্টররা আপনার পাসপোর্ট সংগ্রহ করে রাখতে পারে যাতে আপনার ঘুমের ব্যাঘাত না হয়\"*). Thus, **B** is correct.\n- **[id 117]**: The Portuguese reconstructed it first, and then the Sultan of Morocco rebuilt it a second time as Dar al-Bayda (*\"মরোক্কার সুলতান এই শহরটি দারু এল-বাদ্যা নামে পুনর্নির্মাণ করেছিলেন\"*). Thus, **D** is correct.\n- **[id 118]**: Outside cars cannot reach the villages, leaving trains and waterways/boats as the means of transport (*\"ট্রেন এবং জলপথ... বাইরে থেকে কোনও গাড়ি সেখানে পৌঁছোতে পারে না\"*). Thus, **C** is correct.\n- **[id 119]**: The text recommends boots with studs/spikes and attachments suitable for slippery conditions (*\"স্টাড এর সাথে কিছু সহপযোগী উপকরণ থাকে যা পিচ্ছিল অবস্থায়... উপযুক্ত\"*). Thus, **B** is correct.\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"D\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25387,
+  "output_tokens": 4851,
+  "thinking_tokens": 4334,
+  "cache_read_tokens": 0,
+  "total_tokens": 30238
+ },
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

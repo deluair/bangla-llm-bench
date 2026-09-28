@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 27.8,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 776,
+  "completion_tokens": 876,
+  "total_tokens": 1652,
+  "cost": 0.0001264,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001264,
+   "upstream_inference_prompt_cost": 3.88e-05,
+   "upstream_inference_completions_cost": 8.76e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "90": {
+   "text": "Let $A$ be the amount of potato salad an adult dinosaur eats, in pounds.\nLet $C$ be the amount of potato salad a child dinosaur eats, in pounds.\nWe are given that $A = 10$ lbs.\nWe are also given that a child eats half as much as an adult, so $C = \\frac{1}{2} A = \\frac{1}{2}(10) = 5$ lbs.\n\nThere are 20 adults and 5 children at the picnic.\nThe total amount of potato salad eaten by the adults is $20 \\times A = 20 \\times 10 = 200$ lbs.\nThe total amount of potato salad eaten by the children is $5 \\times C = 5 \\times 5 = 25$ lbs.\n\nThe total amount of potato salad Ted needs to bring is the sum of the potato salad eaten by adults and the potato salad eaten by children:\n$200 + 25 = 225$ lbs.\n\nANSWER: 225",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 231,
+    "total_tokens": 369,
+    "cost": 3e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3e-05,
+     "upstream_inference_prompt_cost": 6.9e-06,
+     "upstream_inference_completions_cost": 2.31e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 225.0
+  },
+  "91": {
+   "text": "Let C be the number of pets Cindy has.\nLet M be the number of pets Marcia has.\nLet J be the number of pets Jan has.\n\nWe are given that Cindy has four pets, so C = 4.\nMarcia has two more pets than Cindy, so M = C + 2.\nSince C = 4, we have M = 4 + 2 = 6.\nJan has three times the number of pets as Marcia, so J = 3 * M.\nSince M = 6, we have J = 3 * 6 = 18.\n\nThe total number of pets the three have is C + M + J.\nTotal pets = 4 + 6 + 18 = 28.\n\nANSWER: 28",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 168,
+    "total_tokens": 254,
+    "cost": 2.11e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.11e-05,
+     "upstream_inference_prompt_cost": 4.3e-06,
+     "upstream_inference_completions_cost": 1.68e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 28.0
+  },
+  "92": {
+   "text": "Let's denote the ages of the children as follows:\n- Amy's age: A\n- Jackson's age: J\n- Corey's age: C\n- James' age: James\n\nWe are given the following information:\n1. Amy is 5 years older than Jackson: A = J + 5\n2. Amy is 2 years younger than Corey: A = C - 2\n3. James is 10 years old: James = 10\n4. James is 1 year younger than Corey: James = C - 1\n\nFrom the given information, we can find Corey's age:\nJames = C - 1\n10 = C - 1\nC = 10 + 1\nC = 11\n\nNow we can find Amy's age:\nA = C - 2\nA = 11 - 2\nA = 9\n\nNext, we can find Jackson's age:\nA = J + 5\n9 = J + 5\nJ = 9 - 5\nJ = 4\n\nSo, Jackson is 4 years old.\n\nANSWER: 4",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 250,
+    "total_tokens": 353,
+    "cost": 3.015e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.015e-05,
+     "upstream_inference_prompt_cost": 5.15e-06,
+     "upstream_inference_completions_cost": 2.5e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 4.0
+  },
+  "93": {
+   "text": "Let $L$ be the time Lee originally took to run the 400-meter hurdles in seconds, and let $G$ be the time Gerald originally took to run the 400-meter hurdles in seconds.\nWe are given that Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald, so $L = G - 2$.\nGerald changed his diet, which improved his speed by 10%. So his new time, $G'$, is $G - 0.10G = 0.90G$.\nWe are given that Lee runs the 400-meter hurdles in 38 seconds, so $L = 38$.\nSince $L = G - 2$, we have $38 = G - 2$, which means $G = 38 + 2 = 40$.\nGerald's new time is $G' = 0.90G = 0.90(40) = 36$.\nTherefore, Gerald can run the 400-meter hurdles in 36 seconds with his improved diet.\n\nANSWER: 36",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 252,
+    "total_tokens": 392,
+    "cost": 3.22e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.22e-05,
+     "upstream_inference_prompt_cost": 7e-06,
+     "upstream_inference_completions_cost": 2.52e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 36.0
+  },
+  "94": {
+   "text": "Let $R$ be the number of rabbits, $D$ be the number of dogs, and $C$ be the number of cats.\nWe are given that the number of rabbits is twelve less than the combined number of pet dogs and cats. So,\n$$R = (D + C) - 12$$\nWe are also given that there are two cats for every dog, so $C = 2D$.\nWe are given that the number of dogs is 60, so $D = 60$.\nSince $C = 2D$, we have $C = 2(60) = 120$.\nNow we can find the number of rabbits using the equation $R = (D + C) - 12$:\n$$R = (60 + 120) - 12 = 180 - 12 = 168$$\nThe total number of pets in the neighborhood is the sum of the number of rabbits, dogs, and cats:\n$$Total = R + D + C = 168 + 60 + 120 = 168 + 180 = 348$$\n\nThus, the total number of pets in the neighborhood is 348.\n\nANSWER: 348",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 281,
+    "total_tokens": 384,
+    "cost": 3.325e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.325e-05,
+     "upstream_inference_prompt_cost": 5.15e-06,
+     "upstream_inference_completions_cost": 2.81e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 348.0
+  },
+  "95": {
+   "text": "Let the total number of Grade 5 students be 200.\nThe number of boys is 2/5 of the total students, so the number of boys is (2/5) * 200 = 80.\nThe number of girls is the total number of students minus the number of boys, so the number of girls is 200 - 80 = 120.\n2/3 of the girls are in the girl scout, so the number of girls in the girl scout is (2/3) * 120 = 80.\nThe number of girls not in the girl scout is the total number of girls minus the number of girls in the girl scout, so the number of girls not in the girl scout is 120 - 80 = 40.\n\nANSWER: 40",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 183,
+    "total_tokens": 277,
+    "cost": 2.3e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.3e-05,
+     "upstream_inference_prompt_cost": 4.7e-06,
+     "upstream_inference_completions_cost": 1.83e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 40.0
+  },
+  "96": {
+   "text": "First, we need to find out how many hours James slept. James slept 2/3 of Harry's sleep, which was 9 hours.\nJames's sleep = (2/3) * 9 hours = 6 hours.\n\nNow, we need to find the difference in the number of hours they slept.\nDifference = Harry's sleep - James's sleep = 9 hours - 6 hours = 3 hours.\n\nHarry slept 3 more hours than James.\n\nANSWER: 3",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 84,
+    "completion_tokens": 109,
+    "total_tokens": 193,
+    "cost": 1.51e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.51e-05,
+     "upstream_inference_prompt_cost": 4.2e-06,
+     "upstream_inference_completions_cost": 1.09e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 3.0
+  },
+  "97": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Find the initial volume of tomatoes:** Since the sauce is 32 ounces and the tomatoes lose half their volume, the initial volume of tomatoes was twice the final volume: 32 ounces * 2 = 64 ounces.\n\n2. **Find the number of 16 ounce cans used:**  Divide the total initial volume by the volume per can: 64 ounces / 16 ounces/can = 4 cans.\n\n3. **Find the total number of tomatoes:** Each can contains three tomatoes, and Freda used four cans: 4 cans * 3 tomatoes/can = 12 tomatoes.\n\nANSWER: 12",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 154,
+    "total_tokens": 261,
+    "cost": 2.075e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.075e-05,
+     "upstream_inference_prompt_cost": 5.35e-06,
+     "upstream_inference_completions_cost": 1.54e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 12.0
+  },
+  "98": {
+   "text": "Let $x$ be the number of cars that drove through the traffic jam in the first 15 minutes.\nIn the remaining 15 minutes, 20 more cars drove through the traffic jam.\nSo, the total number of cars that drove through the traffic jam is $x + 20$.\n5 cars took an exit and didn't drive through the traffic jam.\nThe original number of cars on the motorway was 30.\nThe number of cars that drove through the traffic jam is the original number of cars minus the number of cars that took an exit.\nSo, $x + 20 = 30 - 5$.\n$x + 20 = 25$.\n$x = 25 - 20$.\n$x = 5$.\nTherefore, 5 cars drove through the traffic jam in the first 15 minutes.\n\nWe can check our answer.\nIn the first 15 minutes, 5 cars drove through.\nIn the remaining 15 minutes, 20 cars drove through.\n5 cars took an exit.\nOriginal number of cars = 30.\nCars that drove through = 5 + 20 = 25.\nCars that took an exit = 5.\nTotal cars = 25 + 5 = 30.\nThis matches the original number of cars.\n\nANSWER: 5",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 301,
+    "total_tokens": 448,
+    "cost": 3.745e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.745e-05,
+     "upstream_inference_prompt_cost": 7.35e-06,
+     "upstream_inference_completions_cost": 3.01e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 5.0
+  },
+  "99": {
+   "text": "Let's break down the problem step by step:\n\n1. **Plants Mary already has:** Mary has 2 potted plants on each of the 40 window ledges, so she initially has 2 * 40 = 80 plants.\n\n2. **Total plants after receiving new plants:** Mary receives 18 new plants, so she now has 80 + 18 = 98 plants.\n\n3. **Plants given away:** Mary is giving away 1 plant from each of the 40 ledges, so she will give away 40 plants.\n\n4. **Plants remaining:** After giving away the plants, Mary will have 98 - 40 = 58 plants.\n\nANSWER: 58",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 160,
+    "total_tokens": 289,
+    "cost": 2.245e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.245e-05,
+     "upstream_inference_prompt_cost": 6.45e-06,
+     "upstream_inference_completions_cost": 1.6e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 58.0
+  }
+ },
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

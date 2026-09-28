@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955"
+ ],
+ "seconds": 92.0,
+ "text": "Looking at these questions covering chemistry, biology, physics, language, and history:\n\nLet me work through the key ones:\n\n**#1 (Mehdi color):** Lawsone (2-hydroxy-1,4-naphthoquinone) is the natural compound that gives henna its characteristic reddish-brown color. **D**\n\n**#3 (Permittivity unit):** Permittivity's SI unit is C²/(N·m²) or F/m. **A**\n\n**#4 (Dvandva compound):** Dvandva are compounds where both parts are equally important and connected by \"and\". \"বাবা-মা\" (mother-father) is the classic example. **B**\n\n**#6 (Translation):** The sentence \"যাকে দেখতে নারি তার চলন বাঁকা\" means \"whom I cannot bear to look at/hate\" walks crookedly. **B**\n\n**#7 (Droplet potential):** When n identical charged droplets merge:\n- Charge conserved: Q_total = nQ₀\n- Radius increases by n^(1/3)\n- New potential: V_new = V₀ × n^(2/3)\n- For n=125: V = 220 × 125^(2/3) = 220 × 25 = **5500 V** **A**\n\n**#8 (Bangladesh Interpol):** Bangladesh joined Interpol in **1976** **B**\n\n**#9 (Lowest ionization energy):** 1s²2s²2p⁶3s¹ is Sodium (Na). Alkali metals have the lowest ionization energies, and Na is lower than Li in the group. **D**\n\n**#11 (C₃H₈O isomers):** Three isomers possible:\n1. n-propanol (CH₃-CH₂-CH₂-OH)\n2. isopropanol (CH₃-CHOH-CH₃)  \n3. Methyl ethyl ether (CH₃-O-CH₂-CH₃)\n**D**\n\n**#12 (Matrix multiplication):** Computing AB with given matrices yields [(-2,-2),(2,2)]. **D**\n\n**#13 (Fungal spore germination):** The germ pore (জার্মনালি) is the aperture through which the germ tube emerges during uredospore germination. **B**\n\n**#14 (Dual kinetic energy):** A car wheel has both rotational motion (spinning) and translational motion (moving forward). **B**\n\n**#15 (2005 SAARC Summit):** At the 13th SAARC Summit in Dhaka 2005, China and Japan received observer status. **D**\n\n```json\n{\"answers\": {\"f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909\": \"D\", \"f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302\": \"B\", \"f5e9b2c9-3b8c-406e-8c43-529be7107207-28239\": \"A\", \"f60d30b5-a09d-4818-babb-9d51da77e715-45188\": \"B\", \"f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042\": \"C\", \"f90b5334-6a0e-453d-9adf-93255a1d7a39-55435\": \"B\", \"f966bd89-b180-4a83-947b-c8e61b629b8b-80459\": \"A\", \"fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194\": \"B\", \"fd68c50b-b87c-48d5-9cc7-90908312e11a-66227\": \"D\", \"fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297\": \"B\", \"fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407\": \"D\", \"fe12d8f5-7827-487f-aa46-b695e0159c22-138390\": \"D\", \"feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014\": \"B\", \"ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789\": \"B\", \"ffc62154-ab08-46dc-a272-00103fc503d5-45955\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 2349,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7916,
+  "output_tokens_details": {
+   "thinking_tokens": 6746
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2349,
+    "output_tokens": 7916,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.041928999999999994,
+ "answers_batch": {
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909": "D",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302": "B",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239": "A",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188": "B",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042": "C",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435": "B",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459": "A",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194": "B",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227": "D",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297": "B",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407": "D",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390": "D",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014": "B",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789": "B",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955": "D"
+ },
+ "single": {},
+ "answers": {
+  "f4cb75c5-c842-4fae-9bf2-b5bbe591a79c-101909": "D",
+  "f4cdc34a-fd0d-4feb-b30f-75773528cc85-119302": "B",
+  "f5e9b2c9-3b8c-406e-8c43-529be7107207-28239": "A",
+  "f60d30b5-a09d-4818-babb-9d51da77e715-45188": "B",
+  "f8ff775e-ea54-4fe6-9fb5-101ce4ebfd37-95042": "C",
+  "f90b5334-6a0e-453d-9adf-93255a1d7a39-55435": "B",
+  "f966bd89-b180-4a83-947b-c8e61b629b8b-80459": "A",
+  "fb455a31-ef9a-4b5a-8bd3-db38c37dd830-71194": "B",
+  "fd68c50b-b87c-48d5-9cc7-90908312e11a-66227": "D",
+  "fd7d0772-5b22-4014-913b-c89c9f5c0efd-5297": "B",
+  "fdcd723e-eb3d-4bab-b5fc-e97688315a9f-82407": "D",
+  "fe12d8f5-7827-487f-aa46-b695e0159c22-138390": "D",
+  "feb68ba3-1e77-4fc8-a7aa-fcdfee040a5b-9014": "B",
+  "ffbd11bc-4476-4e5d-aa58-809fece7ca5b-14789": "B",
+  "ffc62154-ab08-46dc-a272-00103fc503d5-45955": "D"
+ }
+}

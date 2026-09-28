@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 18.1,
+ "text": "### Solutions\n\n- **[id 100]**: Friend 1 rang 20 times. Friend 2 rang $20 + \\frac{1}{4}(20) = 25$ times. Friend 4 rang 60 times. Friend 3 rang $60 + 10 = 70$ times. Total rings: $20 + 25 + 70 + 60 = 175$.\n- **[id 101]**: Total reading required is $4 + 20 + 7 + 8 = 39$ pages. After reading 15 pages on Monday, $39 - 15 = 24$ pages remain across 4 days: $24 / 4 = 6$ pages/day.\n- **[id 102]**: 5 weekdays at 4 glasses/day = 20 glasses. 2 weekend days at 3 glasses/day (soda replaces water at dinner) = 6 glasses. Total: $20 + 6 = 26$ glasses.\n- **[id 103]**: Covering 42 miles at a rate of 10 minutes per 3 miles requires $(42 / 3) \\times 10 = 14 \\times 10 = 140$ minutes.\n- **[id 104]**: Poppy places $\\frac{1}{4} \\times 1000 = 250$ pieces, leaving 750 pieces. Her mom places $\\frac{1}{3} \\times 750 = 250$ pieces. Remaining pieces: $750 - 250 = 500$.\n- **[id 105]**: Amir eats 5 cookies; Cody eats $3 \\times 5 = 15$ cookies. Together: $5 + 15 = 20$ cookies.\n- **[id 106]**: Each box wall is 1 inch thick on both sides, so inner dimensions are $(5-2) \\times (6-2) \\times (4-2) = 3 \\times 4 \\times 2 = 24\\text{ in}^3$. Total for 3 boxes: $3 \\times 24 = 72$.\n- **[id 107]**: Mon (1h) + Tue (1h) + Thu (1.5h) + Fri (2h) = 5.5 hours. Total is 7 hours, leaving $7 - 5.5 = 1.5$ hours on Wednesday. That equals $1.5 / 0.5 = 3$ episodes.\n- **[id 108]**: Let $L$ be last year's cookies. Henry baked $2L + 15$. After dropping 5, he has $2L + 10 = 110 \\implies 2L = 100 \\implies L = 50$.\n- **[id 109]**: 10 gallons of gas cost $10 \\times \\$3.00 = \\$30.00$. Cashback is $10 \\times \\$0.20 = \\$2.00$. Total cost after rewards: $\\$30.00 - \\$2.00 = 28$.\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}\n",
+ "usage": {
+  "input_tokens": 24703,
+  "output_tokens": 3143,
+  "thinking_tokens": 2305,
+  "cache_read_tokens": 0,
+  "total_tokens": 27846
+ },
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

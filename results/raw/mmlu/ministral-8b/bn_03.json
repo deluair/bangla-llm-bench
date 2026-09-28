@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 33.5,
+ "text": "Here are the answers with reasoning for each question:\n\n---\n**[id 1196]**\nThe scenario describes **unconscious bias** rooted in the officer’s past trauma, which aligns with **psychodynamic theory** (a subfield of psychology). This theory explains how early experiences (e.g., abusive relationship with father) shape unconscious patterns of behavior. The other options (behaviorism, cognitive-behavioral, humanistic) do not directly address unconscious, trauma-driven bias.\n**Answer:** B) মনস্তাত্ত্বিক\n\n---\n**[id 1258]**\nMarathon running requires **aerobic respiration** (efficient oxygen use) to sustain prolonged energy production. While strength (A) and power (B) are important, the **length of each step** (C) is irrelevant to success. Aerobic respiration (D) is the key metabolic process for endurance.\n**Answer:** D) অবাত শ্বসন পদ্ধতিতে শক্তি উৎপাদন\n\n---\n**[id 1322]**\nIn cellular respiration, **ATP (adenosine triphosphate)** production requires oxygen (via oxidative phosphorylation). Without oxygen, ATP synthesis halts first, followed by pyruvate (B), oxaloacetate (A), and water (C) production. Water is a byproduct of later steps.\n**Answer:** D) অ্যাডেনোসিন ট্রাইফসফেট\n\n---\n**[id 1326]**\nSDS (sodium dodecyl sulfate) denatures proteins by breaking **tertiary/quaternary structures** into linear chains, allowing separation by **size** (molecular weight) in SDS-PAGE. This eliminates charge variability from amino acids (A) and ensures uniform negative charge (B/C are incorrect; D is correct).\n**Answer:** D) প্রোটিনের টারশিয়ারি এবং প্রাথমিক কাঠামো ধারণ করা অভ্যন্তরীণ বন্ধনগুলি ভেঙ্গে দিয়ে লিনিয়ার অংশ তৈরি করতে, যা আকারের ভিত্তিতে সাজানো যায়।\n\n---\n**[id 1357]**\nGold (Au) has atomic number 79. Electrons with quantum number **l = 2** (d-orbitals) fill up to **10 electrons** in the 5d subshell (for Au’s electron configuration: [Xe] 4f¹⁴ 5d¹⁰ 6s¹). However, the question likely refers to **total d-electrons across all shells** (including 4d, 5d). For Au, the **5d¹⁰** contributes 10, but the **4d¹⁰** adds another 10, totaling **20**—but this isn’t an option. Revisiting: The **4d¹⁰** (l=2) is fully filled in Au’s core, but the **5d¹⁰** is also l=2. The question may imply **only valence d-electrons (5d¹⁰)**, but none match. **Correction:** The **4d¹⁰** (l=2) is part of the core, but the **5d¹⁰** is valence. The closest plausible answer is **23** (if counting 4d¹⁰ + 5d¹³, but Au’s 5d is 10). **Re-evaluating:** The question might refer to **total d-electrons in all shells** (4d¹⁰ + 5d¹⁰ = 20, not listed). Alternatively, if considering **only the 5d subshell**, it’s 10 (not listed). **Assuming a typo or misinterpretation**, the closest to **23** (likely a miscount) is **B) 23** (though incorrect; likely a misprint). **Correction:** The correct count for **l=2** (d-orbitals) in Au is **20** (4d¹⁰ + 5d¹⁰), but since it’s not an option, the question may intend **only the 5d subshell (10)**, which isn’t listed. **Given options, B) 23 is the closest plausible answer** (likely a miscount in the question).\n**Answer:** B) ২৩ *(Note: This is likely incorrect due to electron count mismatch; the question may have an error.)*\n\n---\n**[id 1374]**\nFor nitrogen (Z=7), the electron configuration is **1s² 2s² 2p³**. The **total spin quantum number (S)** for neutral nitrogen is derived from unpaired electrons in the 2p subshell (3 unpaired electrons, each with spin +1/2). The **total spin quantum number (S)** is **3/2**, but the question asks for **total spin multiplicity (2S+1)**. For 3 unpaired electrons, **S = 3/2**, so **multiplicity = 2*(3/2) + 1 = 4**. However, the options are:\nA) 2-Jan (likely a typo for 2S+1=4, but not listed)\nB) ১ (incorrect)\nC) 2-Mar (likely a typo for 2S+1=4, but not listed)\nD) 2-May (likely a typo for 2S+1=4, but not listed)\n**Assuming \"2-May\" refers to 4 (miswritten)**, the correct answer is **4**, but since it’s not listed, the closest plausible option is **B) ১** (incorrect) or **D) 2-May** (likely intended as 4). **Given the confusion, the correct spin multiplicity is 4**, but none match. **Assuming a typo**, the answer is likely **D) 2-May** (if representing 4).\n**Answer:** D) ২-মে *(Note: This is likely incorrect due to unclear notation; the correct answer should be 4.)*\n\n---\n**[id 1381]**\nIn doped semiconductors, the **Hall coefficient** (D) directly measures the sign of charge carriers (electrons or holes). The other options (specific heat, thermal conductivity, resistivity) do not provide this information.\n**Answer:** D) হল সহগ\n\n---\n**[id 1384]**\nBose-Einstein statistics govern **bosons**, which have **symmetric wavefunctions** and **do not obey the Pauli exclusion principle**. Fermions have **antisymmetric wavefunctions** and **do obey the Pauli exclusion principle**.\n**Answer:** B) বোসনগুলির প্রতিসম তরঙ্গ ফাংশন রয়েছে এবং পাউলি বর্জন নীতি মেনে চলে না।\n\n---\n**[id 1395]**\nFrom orbital mechanics, you can calculate:\n- **Chandra’s orbital period** (D) from max/min distance (Kepler’s 3rd law).\n- **Chandra’s max/min velocity** (C) from orbital mechanics.\n- **Planet’s mass** (B) if Chandra’s orbital parameters are known (via Newton’s law of gravitation).\nHowever, **Chandra’s mass (A)** cannot be determined without additional data (e.g., its effect on the planet’s orbit).\n**Answer:** A) চাঁদের ভর\n\n---\n**[id 1452]**\nThis is a **Doppler effect** problem for sound. The observer (car) is moving **toward the wall** at 3.5 m/s, and the wall reflects the sound. The **apparent frequency** of the echo is calculated using the Doppler formula for reflection:\n\\[ f' = f \\left( \\frac{v + v_o}{v - v_o} \\right) \\]\nwhere \\( v_o = 3.5 \\) m/s (observer moving toward the wall), \\( v = 350 \\) m/s (speed of sound), and \\( f = 600 \\) Hz.\n\\[ f' = 600 \\left( \\frac{350 + 3.5}{350 - 3.5} \\right) \\approx 600 \\times 1.0202 \\approx 612.12 \\text{ Hz} \\]\nThe closest option is **D) 612 Hz**.\n**Answer:** D) 612 Hz\n\n---\n**[id 1476]**\nA **buffer overflow** (B) is a classic coding vulnerability where an attacker exploits memory corruption to gain unauthorized access or crash a system. The other options are not vulnerabilities:\n- A) Memory leak (not a direct exploit).\n- C) Low processing power (not a vulnerability).\n- D) Inefficient programming (not a security flaw).\n**Answer:** B) বাফার-ওভাররন\n\n---\n**[id 1492]**\nBlinding in side-channel attacks (e.g., Brumley & Boneh) **randomizes ciphertexts** to prevent timing attacks by obscuring the relationship between input and decryption time. This makes it harder for attackers to infer secrets from timing variations.\n**Answer:** C) ব্লাইন্ডিং সিফারটেক্সটকে ডিক্রিপ্ট করা র্যান্ডমাইজ করে, এইভাবে প্রতিপক্ষের ইনপুট এবং সময়ের পার্থক্যের মধ্যে পারস্পরিক সম্পর্ককে অস্পষ্ট করে।\n\n---\n**[id 1523]**\nA **Trojan horse** that steals login credentials for instant messaging apps is called an **IM Trojan** (A). The other options are:\n- B) Backdoor Trojan (not specific to IM).\n- C) Download Trojan (not specific to IM).\n- D) Ransom Trojan (not relevant).\n**Answer:** A) IM –ট্রোজান\n\n---\n**[id 1534]**\nOlder operating systems like **UNIX** (D) and NT-based systems (e.g., Windows NT) have historically suffered from **privilege escalation vulnerabilities** due to design flaws (e.g., setuid/setgid, lack of sandboxing). Windows 7 (A) is not \"old\" in this context, and Chrome (B)/iOS12 (C) are modern.\n**Answer:** D) UNIX\n\n---\n**[id 1570]**\nThe **three classic security properties** are:\n1. **Confidentiality** (A)\n2. **Integrity** (not listed; closest is C/D)\n3. **Availability** (B)\n**Authenticity** (D) is not one of the classic three (though sometimes included). **Correctness** (C) is not a security property.\n**Answer:** C) সঠিকতা *(Note: This is incorrect; the classic three are Confidentiality, Integrity, Availability. If forced to choose, **C) সঠিকতা** is not one of them, but **D) সততা** (authenticity) is also not classic. Likely a misprint; the correct answer is that **C) সঠিকতা** is not a classic property.)*\n**Correction:** The classic three are **Confidentiality (A), Integrity (not listed), Availability (B)**. Since **Integrity** isn’t an option, the **odd one out** is **D) সততা (Authenticity)**, which isn’t classic. Thus, **D) সততা** is the correct answer to the question as phrased.\n**Answer:** D) সততা\n\n---\n```json\n{\n  \"answers\": {\n    \"1196\": \"B\",\n    \"1258\": \"D\",\n    \"1322\": \"D\",\n    \"1326\": \"D\",\n    \"1357\": \"B\",\n    \"1374\": \"D\",\n    \"1381\": \"D\",\n    \"1384\": \"B\",\n    \"1395\": \"A\",\n    \"1452\": \"D\",\n    \"1476\": \"B\",\n    \"1492\": \"C\",\n    \"1523\": \"A\",\n    \"1534\": \"D\",\n    \"1570\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2167,
+  "completion_tokens": 2631,
+  "total_tokens": 4798,
+  "cost": 0.0007197,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007197,
+   "upstream_inference_prompt_cost": 0.00032505,
+   "upstream_inference_completions_cost": 0.00039465
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "D",
+  "1326": "D",
+  "1357": "B",
+  "1374": "D",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "D"
+ },
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "D",
+  "1326": "D",
+  "1357": "B",
+  "1374": "D",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "D"
+ },
+ "single": {}
+}

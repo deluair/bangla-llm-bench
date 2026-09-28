@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 36.1,
+ "text": "Here is the reasoning for each problem:\n\n**[id 240]**\n- John has 54 candies.\n- John has twice as many as Robert, so Robert = 54 / 2 = 27 candies.\n- James has 6 more than Robert, so James = 27 + 6 = 33 candies.\n- John has (54 - 33) = 21 more candies than James.\n\n**[id 241]**\n- Dolly has 2 books and Pandora has 1 book (3 distinct books in total).\n- Dolly reads her 2 + Pandora's 1 = 3 books.\n- Pandora reads her 1 + Dolly's 2 = 3 books.\n- Together, the total number of times a book is read by them is 3 + 3 = 6.\n\n**[id 242]**\n- Mike has 5 - 2 = 3 pen pals remaining.\n- Each pen pal gets 2 letters/week × 5 pages = 10 pages/week per pen pal.\n- For 3 pen pals, Mike writes 3 × 10 = 30 pages/week.\n- At 6 minutes per page, he spends 30 × 6 = 180 minutes.\n- 180 minutes / 60 minutes/hour = 3 hours.\n\n**[id 243]**\n- Boss calls: 15 mins/day × 30 days = 450 minutes.\n- Other calls: 300 minutes.\n- Total used = 450 + 300 = 750 minutes.\n- Remaining = 1000 - 750 = 250 minutes.\n\n**[id 244]**\n- Griffin starts with 24 fries.\n- Kyle takes 5, leaving Griffin with 24 - 5 = 19.\n- Billy takes twice as many as Kyle (2 × 5 = 10), leaving Griffin with 19 - 10 = 9.\n- Ginger gives Griffin $G$ fries, so he has 9 + $G$.\n- Colby takes 3 fewer than Kyle (5 - 3 = 2), leaving Griffin with 9 + $G$ - 2 = 7 + $G$.\n- Griffin ends up with 27 fries: 7 + $G$ = 27.\n- Ginger gave him $G$ = 20 fries.\n\n**[id 245]**\n- Snails in aquariums: 32 and 4. The difference is 32 - 4 = 28.\n- This difference (28) is twice the total number of fish in both aquariums. So, total fish = 28 / 2 = 14.\n- Since both aquariums have an equal number of fish, each has 14 / 2 = 7 fish.\n\n**[id 246]**\n- The makeup takes 6 hours/day × 4 days/week × 5 weeks = 120 hours.\n- Cost before discount = 120 hours × $250/hour = $30,000.\n- The 10% discount is $30,000 × 0.10 = $3,000.\n- Jean paid $30,000 - $3,000 = $27,000.\n\n**[id 247]**\n- Total cost = $12 (cake) + $43 (gift) + $15 (decorations) + $4 (invites) + $22 (goodie bags) = $96.\n- Split equally 3 ways (Isabel, mother, father): $96 / 3 = $32 each.\n\n**[id 248]**\n- 4 bags × 50 pounds/bag = 200 pounds of onions.\n- 200 pounds × $1.50/pound = $300.\n\n**[id 249]**\n- Monday: Sister ate 5, Sue ate 5 × 4 = 20.\n- Tuesday: Sister ate 13, Sue ate 13 × 2 = 26.\n- Total: Sister ate 5 + 13 = 18. Sue ate 20 + 26 = 46.\n- Sue ate 46 - 18 = 28 more cookies.\n- Extra calories = 28 cookies × 200 calories/cookie = 5600 calories.\n\n```json\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}\n```\n",
+ "usage": {
+  "input_tokens": 16882,
+  "output_tokens": 4613,
+  "thinking_tokens": 3464,
+  "cache_read_tokens": 8140,
+  "total_tokens": 21495
+ },
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

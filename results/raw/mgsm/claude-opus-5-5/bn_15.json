@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 10.8,
+ "text": "- **150:** Steve rides 3 miles = 15,840 ft. At 440 ft/min that takes 36 minutes. Tim skates 2 miles = 10,560 ft. At 264 ft/min that takes 40 minutes. Steve wins and waits 40 − 36 = **4** minutes.\n- **151:** She fills 5×2 + 3×3 + 1 = 20 tires. At $0.25 each, she earns **$5**.\n- **152:** Carl buys 10×6 = 60 cookies. At $0.10 each they cost $6. His change is 10 − 6 = **$4**.\n- **153:**\n  - Work backwards from the end: 5 fries were left after the raccoon took two-thirds, so 15 fries remained before the raccoon.\n  - Before that, the pigeons ate 3×3 = 9, the seagull ate half of Dave's 14 = 7, and Dave ate 14.\n  - The bag held 14 + 7 + 9 + 15 = **45** fries.\n- **154:**\n  - Monday, Wednesday and Friday give 3 classes × 1 hour × 3 days = 9 hours.\n  - Tuesday and Thursday give 2 classes × 2 hours × 2 days = 8 hours.\n  - That is 17 hours per week, and 17 × 16 = **272** hours.\n- **155:**\n  - Rolls: 300 × 4 in = 1,200 in = 100 ft.\n  - Croissants: 120 × 6 in = 720 in = 60 ft.\n  - Baguettes: 60 × 2 ft = 120 ft.\n  - Total length is **280** ft.\n- **156:** The primates need 200 + 400 + 100 = 700 bananas per month. For 2 months that is **1,400**.\n- **157:** Blake runs 15 × 200 = 3,000 yards. Kelly runs 200 + 34 × 80 = 2,920 yards. Blake wins by **80** yards.\n- **158:** Pens cost 4 × $1.5 = $6 and notebooks cost 2 × $4 = $8. With $20 of paper, the total is **$34**.\n- **159:** 11 + 6 − 2 = **15** tadpoles.\n\n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 45, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3299,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1176,
+  "output_tokens_details": {
+   "thinking_tokens": 363
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3299,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1176,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3299,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3299
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.04992,
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 45.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 45.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 25.9,
+ "text": "Here is the step-by-step reasoning for the math problems:\n\n**[id 240]**\nJohn has 54 candies. He has twice as many as Robert, so Robert has 27 candies. James has 6 more than Robert, so James has 33 candies. John has 54 - 33 = 21 more candies than James.\n\n**[id 241]**\nThere are 3 books in total (Dolly's 2 + Pandora's 1). Since both read all the books, Dolly reads 3 and Pandora reads 3. Collectively, they read 3 + 3 = 6 books.\n\n**[id 242]**\nMike has 3 pen pals left. For each, he responds to 2 letters a week, each 5 pages long, totaling 10 pages per pen pal. With 3 pen pals, he writes 30 pages a week. At 6 minutes per page, that's 180 minutes, which is 3 hours.\n\n**[id 243]**\nJason's calls with his boss take 15 minutes * 30 days = 450 minutes. Adding the 300 extra minutes to other people, he's used 750 minutes. Out of his 1000-minute plan, he has 1000 - 750 = 250 minutes left.\n\n**[id 244]**\nGriffin starts with 24 fries. Kyle takes 5 (19 left). Billy takes twice as many as Kyle, which is 10 (9 left). Colby takes 3 less than Kyle, which is 2 (7 left). After Ginger gives him some fries, he has 27. So Ginger gave him 27 - 7 = 20 fries.\n\n**[id 245]**\nThe difference in snails is 32 - 4 = 28. This difference is twice the total amount of fish, so there are 14 fish in total. Divided equally between the 2 aquariums, each has 7 fish.\n\n**[id 246]**\nThe makeup takes 6 hours a day * 4 days a week * 5 weeks = 120 hours. At $250 an hour, the total cost is $30,000. With a 10% discount ($3,000 off), Jean pays $27,000.\n\n**[id 247]**\nThe total cost of party supplies is $12 (cake) + $43 (presents) + $15 (decorations) + $4 (invitations) + $22 (goodie bags) = $96. Split evenly among 3 people (Isabelle and her two parents), each person pays $32.\n\n**[id 248]**\nThe chef bought 4 bags * 50 pounds/bag = 200 pounds of onions. At $1.50 per pound, the chef spent 200 * $1.50 = $300.\n\n**[id 249]**\nSue's sister ate 5 cookies on Monday and 13 on Tuesday (18 total). Sue ate 4 times as many on Monday (20) and twice as many on Tuesday (26), totaling 46 cookies. Sue ate 46 - 18 = 28 more cookies. At 200 calories each, she consumed 28 * 200 = 5600 more calories.\n\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}\n",
+ "usage": {
+  "input_tokens": 16757,
+  "output_tokens": 3190,
+  "thinking_tokens": 2294,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19947
+ },
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

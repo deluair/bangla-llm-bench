@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 34.3,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 900,
+  "completion_tokens": 799,
+  "total_tokens": 1699,
+  "cost": 0.0001249,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001249,
+   "upstream_inference_prompt_cost": 4.5e-05,
+   "upstream_inference_completions_cost": 7.99e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "50": {
+   "text": "Here's how to solve the problem:\n\n1. **Eggs per week:**  A hen lays 252 eggs per day.  In a week (7 days), a hen lays 252 * 7 = 1764 eggs.\n\n2. **Dozens per week:** Since he sells eggs in dozens, he has 1764 / 12 = 147 dozens of eggs.\n\n3. **Weekly earnings:** He sells each dozen for $2, so his weekly earnings are 147 * $2 = $294.\n\nANSWER: 294",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 133,
+    "total_tokens": 229,
+    "cost": 1.81e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.81e-05,
+     "upstream_inference_prompt_cost": 4.8e-06,
+     "upstream_inference_completions_cost": 1.33e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 294.0
+  },
+  "51": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the distance traveled out:** Tom travels for 3 hours (from 1pm to 4pm) at 10 miles per hour.\n   Distance = Speed x Time = 10 miles/hour * 3 hours = 30 miles\n\n2. **Calculate the time taken to return:** Tom returns 30 miles at 6 miles per hour.\n   Time = Distance / Speed = 30 miles / 6 miles/hour = 5 hours\n\nANSWER: 5",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 118,
+    "total_tokens": 215,
+    "cost": 1.665e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.665e-05,
+     "upstream_inference_prompt_cost": 4.85e-06,
+     "upstream_inference_completions_cost": 1.18e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 5.0
+  },
+  "52": {
+   "text": "Let $x$ be the number of comic books and $y$ be the number of toys.\nThe weight of each comic book is $\\frac{1}{4}$ pound, and the weight of each toy is $\\frac{1}{2}$ pound.\nThe total weight of the bag is currently $W$.\nWe are given that the bag is too heavy and needs to be reduced by 15 pounds.\nSo, $W - 15$ is the desired weight of the bag.\nWe are given that the number of comic books taken out is 30.\nThe weight of 30 comic books is $30 \\times \\frac{1}{4} = \\frac{30}{4} = 7.5$ pounds.\nLet $z$ be the number of toys to be taken out.\nThe weight of $z$ toys is $z \\times \\frac{1}{2} = \\frac{z}{2}$ pounds.\nThe total weight removed is $7.5 + \\frac{z}{2}$.\nWe want the total weight removed to be 15 pounds.\nSo, $7.5 + \\frac{z}{2} = 15$.\nSubtracting 7.5 from both sides, we get:\n$\\frac{z}{2} = 15 - 7.5 = 7.5$.\nMultiplying both sides by 2, we get:\n$z = 2 \\times 7.5 = 15$.\nSo, 15 toys need to be taken out.\n\nNow, we write out the argument and find the answer.\nLet $c$ be the number of comic books and $t$ be the number of toys.\nThe weight of a comic book is $\\frac{1}{4}$ pound, and the weight of a toy is $\\frac{1}{2}$ pound.\nThe total weight of the bag is $W$. We need to remove 15 pounds from the bag, so the weight of the bag after removing the items must be $W - 15$.\nWe are given that 30 comic books are removed. The weight of 30 comic books is $30 \\times \\frac{1}{4} = \\frac{30}{4} = 7.5$ pounds.\nLet $t$ be the number of toys to be removed. The weight of $t$ toys is $t \\times \\frac{1}{2} = \\frac{t}{2}$ pounds.\nThe total weight removed is $7.5 + \\frac{t}{2}$.\nWe want the total weight removed to be 15 pounds, so $7.5 + \\frac{t}{2} = 15$.\nSubtracting 7.5 from both sides, we get $\\frac{t}{2} = 15 - 7.5 = 7.5$.\nMultiplying both sides by 2, we get $t = 2 \\times 7.5 = 15$.\nTherefore, 15 toys must be removed.\n\nANSWER: 15",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 669,
+    "total_tokens": 798,
+    "cost": 7.335e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.335e-05,
+     "upstream_inference_prompt_cost": 6.45e-06,
+     "upstream_inference_completions_cost": 6.69e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 15.0
+  },
+  "53": {
+   "text": "Let's calculate the mechanic's earnings for Thursday and Friday.\n\n**Thursday:**\n*   Truck tires: 6 tires * $60/tire = $360\n*   Car tires: 4 tires * $40/tire = $160\n*   Total earnings on Thursday: $360 + $160 = $520\n\n**Friday:**\n*   Car tires: 12 tires * $40/tire = $480\n*   Truck tires: 0 tires * $60/tire = $0\n*   Total earnings on Friday: $480 + $0 = $480\n\n**Difference in earnings:**\n*   Difference: $520 (Thursday) - $480 (Friday) = $40\n\nANSWER: 40",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 180,
+    "completion_tokens": 180,
+    "total_tokens": 360,
+    "cost": 2.7e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.7e-05,
+     "upstream_inference_prompt_cost": 9e-06,
+     "upstream_inference_completions_cost": 1.8e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 40.0
+  },
+  "54": {
+   "text": "Let $p$ be the number of kittens from the adopted cats (Pachir and Trixi).\nWe are given that Pachir's kittens are three times the number of kittens from Trixi.\nLet $x$ be the number of kittens from Trixi. Then the number of kittens from Pachir is $3x$.\nWe are also given that the number of kittens from Trixi is 12, so $x = 12$.\nTherefore, the number of kittens from Pachir is $3 \\times 12 = 36$.\nThe total number of kittens from the adopted cats is $36 + 12 = 48$.\nThe Doubtfire sisters already had 7 kittens.\nSo, the total number of kittens in the Doubtfire family is $7 + 48 = 55$.\n\nNow we write out the argument and find the answer.\nLet $P$ be the number of kittens from Pachir and $T$ be the number of kittens from Trixi.\nWe are given that $P = 3T$.\nWe are also given that $T = 12$.\nTherefore, $P = 3(12) = 36$.\nThe total number of kittens from the adopted cats is $P + T = 36 + 12 = 48$.\nThe Doubtfire sisters already had 7 kittens.\nThe total number of kittens in the family is $7 + 48 = 55$.\n\nANSWER: 55",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 329,
+    "total_tokens": 488,
+    "cost": 4.085e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.085e-05,
+     "upstream_inference_prompt_cost": 7.95e-06,
+     "upstream_inference_completions_cost": 3.29e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 55.0
+  },
+  "55": {
+   "text": "Here's how to solve the problem:\n\n1. **Lollipops remaining:**  Initially, Gene had 30 lollipops and ate 2, so he has 30 - 2 = 28 lollipops left.\n\n2. **Bags possible:** Gene wants to put 2 lollipops in each bag, so he can make 28 / 2 = 14 bags.\n\nANSWER: 14",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 96,
+    "total_tokens": 206,
+    "cost": 1.51e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.51e-05,
+     "upstream_inference_prompt_cost": 5.5e-06,
+     "upstream_inference_completions_cost": 9.6e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 14.0
+  },
+  "56": {
+   "text": "Let 'x' be the number of times Peter can go to the movies this week.\nThe cost of a movie ticket is $7.\nThe cost of popcorn is $7.\nThe total cost for one movie outing is $7 + $7 = $14.\nPeter has $42.\nThe number of times he can go to the movies is the total amount he has divided by the cost per outing:\nx = $42 / $14\nx = 3\n\nANSWER: 3",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 109,
+    "total_tokens": 211,
+    "cost": 1.6e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.6e-05,
+     "upstream_inference_prompt_cost": 5.1e-06,
+     "upstream_inference_completions_cost": 1.09e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 3.0
+  },
+  "57": {
+   "text": "Let $x$ be the number of boxes that can be loaded onto the truck.\nThe weight of each box is 15 pounds.\nThe weight of the truck and the driver is 3755 pounds.\nThe maximum weight the bridge can bear is 5000 pounds.\n\nThe total weight of the truck, the driver, and the boxes is $3755 + 15x$.\nWe want to find the maximum number of boxes $x$ such that the total weight is less than or equal to 5000 pounds.\nSo, we have the inequality:\n$3755 + 15x \\le 5000$\nSubtract 3755 from both sides:\n$15x \\le 5000 - 3755$\n$15x \\le 1245$\nDivide by 15:\n$x \\le \\frac{1245}{15}$\n$x \\le 83$\n\nSince $x$ must be a whole number, the maximum number of boxes that can be loaded onto the truck is 83.\n\nANSWER: 83",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 256,
+    "total_tokens": 388,
+    "cost": 3.22e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.22e-05,
+     "upstream_inference_prompt_cost": 6.6e-06,
+     "upstream_inference_completions_cost": 2.56e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 83.0
+  },
+  "58": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Calculate the fee:** 25% of $40.00 is (0.25) * $40.00 = $10.00\n\n2. **Calculate the total cost before tip:** $40.00 (initial bill) + $10.00 (fee) + $3.00 (delivery) = $53.00\n\n3. **Add the tip:** $53.00 + $4.00 (tip) = $57.00\n\nANSWER: 57",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 138,
+    "total_tokens": 288,
+    "cost": 2.13e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.13e-05,
+     "upstream_inference_prompt_cost": 7.5e-06,
+     "upstream_inference_completions_cost": 1.38e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 57.0
+  },
+  "59": {
+   "text": "Let the number of thalers be $t = 6$.\nLet the number of raspberries per thaler be $r = 20$.\nLet the number of separate fruit bushes be $f = 67$.\n\nThe total number of raspberries is the number of thalers multiplied by the number of raspberries per thaler.\nTotal raspberries = $t \\times r = 6 \\times 20 = 120$.\n\nThe number of separate fruit bushes is given as $f = 67$. However, this information is not needed to find the total number of raspberries.\n\nThe total number of raspberries is 120.\n\nANSWER: 120",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 143,
+    "total_tokens": 243,
+    "cost": 1.93e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.93e-05,
+     "upstream_inference_prompt_cost": 5e-06,
+     "upstream_inference_completions_cost": 1.43e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 120.0
+  }
+ },
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 55.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 120.0
+ }
+}

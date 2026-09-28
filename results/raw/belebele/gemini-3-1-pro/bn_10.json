@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 26.7,
+ "text": "Here are the evaluations for each question based on the provided text:\n\n* **[id 80]**: The passage mentions \"গুরুতর ক্ষতির কোন খবর পাওয়া যায়নি\" (no reports of serious injuries were found) and notes that at least five people were treated for shock, not severe injuries. Therefore, nobody was treated for severe injuries. (**B**)\n* **[id 81]**: The passage states \"বেসবল এবং সফটবল... যা 2005 সালে ভোটে অলিম্পিক গেমের বাইরে চলে যায়\" meaning baseball and softball were voted out of the Olympics in 2005. (**C**)\n* **[id 82]**: The text specifies \"সৈন্যদের আসার আগে, হাইতি 1800 দশক থেকে এই রোগের সম্মুখীন হয়নি\", indicating that before the peacekeepers arrived, Haiti last faced the disease in the 1800s. (**A**)\n* **[id 83]**: The passage clearly mentions that the suspect is being investigated as a trespasser (\"অনধিকারপ্রবেশকারী হিসেবে তদন্ত করা হচ্ছে\"), not for vandalism. (**A**)\n* **[id 84]**: The text explicitly says \"802.11n এর গতি তার পূর্ব সংস্করণের তুলনায় যথেষ্ট দ্রুত\", meaning 802.11n is significantly faster than its earlier versions. (**A**)\n* **[id 85]**: The government had already deployed pig hunters, killed mosquitoes, and sprayed insecticides. The encephalitis vaccines (\"এনসেফ্যালাইটিস টিকা\") are delayed for this year and promised for the following year, making it the last line of defense implemented. (**C**)\n* **[id 86]**: The failure of the second sentence, which sought to ban same-sex civil unions, \"সম্ভবত ভবিষ্যতে সুশীল ইউনিয়নের জন্য দরজা খুলে দিতে পারে\" (could open doors for civil unions in the future). (**B**)\n* **[id 87]**: The text explicitly states that the Panama Papers were released \"প্রেসে\" (to the press) in the spring of 2016. (**B**)\n\n```json\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17560,
+  "output_tokens": 3402,
+  "thinking_tokens": 2890,
+  "cache_read_tokens": 8141,
+  "total_tokens": 20962
+ },
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

@@ -1,0 +1,665 @@
+{
+ "task": "bnexam",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867",
+  "82690f9c-99db-4a82-a197-44485e220416-129544",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591"
+ ],
+ "seconds": 15.3,
+ "text": "1. BIMSTEC's headquarters is in Dhaka. **C**\n2. For the circle x² + y² + 2gx + 2fy + c = 0, the chord cut on the y-axis has length 2√(f² − c). **D**\n3. The dense lichen mat on slopes is called reindeer moss. **A**\n4. The letter positions are F=6, I=9, M=13, P=16, T=20. The gaps alternate +3, +4, so the next is 20 + 3 = 23, which is W. **A**\n5. The BBC's office was Bush House. **D**\n6. Steel has the highest elasticity of these. **C**\n7. The conjunct in জ্ঞান is জ্ + ঞ. **C**\n8. In a lead storage cell, PbSO₄ is reduced (to Pb during charging). **C**\n9. The lightest gas diffuses fastest. CH₄ (16) is lighter than NH₃ (17), so CH₄ wins. **B**\n10. \"তিনি রাগে গরগর করছেন\" is best rendered as \"He is boiling with rage.\" **D**\n11. 81 = 3⁴ = (√3)⁸, so log base √3 of 81 is 8. **C**\n12. Waterloo is in Belgium. **D**\n13. Avogadro's law is not a law of chemical combination. **C**\n14. Emitted energy is proportional to T⁴. A ratio of 16:1 means the temperature ratio is 2:1, so Q = 1600/2 = 800 K. **A**\n15. অসুয়া means envy, so it is not a synonym of ঈপ্সা. **A**\n\n{\"answers\": {\"810280d0-a0f8-4950-91ff-6ac7b92623c2-59723\": \"C\", \"815030d7-4c65-4841-8e9d-d95ba5af96cd-85550\": \"D\", \"82483b9e-6995-45bc-826d-6be5734374d2-68867\": \"A\", \"82690f9c-99db-4a82-a197-44485e220416-129544\": \"A\", \"828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450\": \"D\", \"834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376\": \"C\", \"83d04104-a4e5-4d5d-a5fc-5228d8100284-90422\": \"C\", \"84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504\": \"C\", \"863c5d34-029d-443b-a54e-c96c1e1ab46a-13867\": \"B\", \"8658ca46-a875-45eb-8c52-3f18a05be4ef-47105\": \"D\", \"87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919\": \"C\", \"89701f30-73fe-4492-bec9-b8528692025e-121889\": \"D\", \"897af77b-6414-496b-a81c-e0b5a435942f-76425\": \"C\", \"89812516-f0f1-44cd-9665-f969ca7fc6eb-135572\": \"A\", \"89b398d4-89b5-41ad-85da-55a3546f874a-25591\": \"A\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2246,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1518,
+  "output_tokens_details": {
+   "thinking_tokens": 468
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2246,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1518,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2246,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2246
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.048336000000000004,
+ "answers_batch": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "C",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ },
+ "single": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 570,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 570,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 570,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 570
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 619,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 61,
+    "output_tokens_details": {
+     "thinking_tokens": 58
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 619,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 61,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 619,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 619
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 601,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 601,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 601,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 601
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "82690f9c-99db-4a82-a197-44485e220416-129544": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 539,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 50,
+    "output_tokens_details": {
+     "thinking_tokens": 47
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 539,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 50,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 539,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 539
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 579,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 579,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 579,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 579
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 557,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 557,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 557,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 557
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 601,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 601,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 601,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 601
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 562,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 222,
+    "output_tokens_details": {
+     "thinking_tokens": 219
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 562,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 222,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 562,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 562
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 557,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 31,
+    "output_tokens_details": {
+     "thinking_tokens": 28
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 557,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 31,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 557,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 557
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 571,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 67,
+    "output_tokens_details": {
+     "thinking_tokens": 64
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 571,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 571,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 571
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 537,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 537,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 537,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 537
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 622,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 622,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 622,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 622
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 619,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 80,
+    "output_tokens_details": {
+     "thinking_tokens": 77
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 619,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 80,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 619,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 619
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": {
+   "text": "Stefan's law says emitted power per unit area goes as T⁴, so T_P⁴/T_Q⁴ = 16. That gives T_P/T_Q = 2, so T_Q = 1600/2 = 800 K.\n\nA",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 631,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 80,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 631,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 80,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 631,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 631
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 562,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 562,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 562,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 562
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "D",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "C",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "C",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ }
+}

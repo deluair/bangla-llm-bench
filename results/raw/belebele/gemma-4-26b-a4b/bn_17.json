@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 11.7,
+ "text": "Based on the passages provided, here are the answers to the multiple-choice questions:\n\n- **136**: The passage states \"স্পেনীয়রা ঔপনিবেশিক কালের সূচনা করে\" (The Spaniards initiated the colonial era). Thus, the answer is **D**.\n- **137**: The passage suggests \"বিয়েন এল্ভি\" (civilized manners/good manners) makes interacting easier. Thus, the answer is **C**.\n- **138**: The passage says Metrop্লাস is \"অধিক আরামদায়ক এবং কম জনাকীর্ণ\" (more comfortable and less crowded). Thus, the answer is **B**.\n- **139**: The passage says \"ইমিগ্রেশন চেক সাধারণত অনুপস্থিত থাকে\" (Immigration checks are usually absent/not required). Thus, the answer is **A**.\n- **140**: The passage states \"গো রানিং ট্যুরস নেটওয়ার্ক, গ্লোবাল রানিং ট্যুরের উত্তরসূরি\" (Go Running Tours Network is the successor of Global Running Tours). Thus, the answer is **B**.\n- **141**: The passage states \"একা অথবা একজন বন্ধুর সাথে ভ্রমণকালীন জন প্রতি কম খরচে ঘোরার জন্য চার থেকে ছয়জনের একটি দল গঠন করুন\" (To travel at a lower cost per person, form a group of 4 to 6 people). Thus, the answer is **B**.\n- **142**: The passage states \"সংগীত, ছায়াছবি, সাহিত্য এবং জনপ্রিয় সংস্কৃতিতে এর ক্রমাগত বর্ণনা শহরটি এবং এর পরিচিত স্থানসমূহ বিশ্বজুড়ে পরিচিতপ্রাপ্ত হতে সাহায্য করছে\" (its continuous depiction in music, film, literature, and popular culture helps it become known worldwide). Thus, the answer is **A**.\n- **143**: The passage mentions \"সূর্যের বরফ গলানো\" (sun melting ice) as a fundamental natural phenomenon that affects snow/ice. While the text is slightly fragmented, in the context of the passage's structure regarding natural phenomena, sunlight (সূর্য) is identified as a natural event that interacts with ice. However, looking at the logic of \"what causes it NOT to happen\" in a reading comprehension context where the text is slightly garbled: The passage implies snow/ice movement is affected by things like \"extra amounts\" or \"sunlight\". Given the provided options and the text's focus on sunlight being a natural phenomenon that melts ice, the question is a bit ambiguous due to the garbled text, but looking at the prompt's flow, it refers to natural forces. However, typically in these specific logic puzzles, if the text says \"sun melts ice,\" and asks what *doesn't* cause snow (or what affects it), the question is likely looking for the inverse. Re-reading: \"সমস্যাটি হল বরফ হল চিটচিটে... সূর্যের বরফ গলানো।\" The question \"কোনটির কারণে তুষারপাত ঘটে না?\" (What causes snow not to happen?) is best answered by **C** (Sunlight/Heat) in the context of melting it.\n\n{\"answers\": {\"136\": \"D\", \"137\": \"C\", \"138\": \"B\", \"139\": \"A\", \"140\": \"B\", \"141\": \"B\", \"142\": \"A\", \"143\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1558,
+  "completion_tokens": 709,
+  "total_tokens": 2267,
+  "cost": 0.000221416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000221416,
+   "upstream_inference_prompt_cost": 6.5436e-05,
+   "upstream_inference_completions_cost": 0.00015598
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "C"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "C"
+ }
+}

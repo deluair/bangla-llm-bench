@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 17.6,
+ "text": "[id 230]\n12 cars * $20,000 = $240,000.\nTax = 10% of $240,000 = $24,000.\nRegistration = 12 * $1,000 = $12,000.\nTotal = $240,000 + $24,000 + $12,000 = $276,000.\n\n[id 231]\nRobert = 20.\nKylie (Monday) = 20 + 5 = 25.\nKylie (Tuesday) = 25 + (2 * 25) = 75. (Note: \"2 times more than\" usually means $x + 2x$, but in common parlance \"2 times as many\" or \"2 times more\" is often interpreted as $2x$. However, mathematically \"2 times more\" is $x + 2x = 3x$. Let's check common math problem conventions. Usually, \"2 times more than\" means $x + 2x = 3x$. If Kylie collects 25 on Monday, 2 times more than 25 is $25 + (2 \\times 25) = 75$. If interpreted as \"2 times as many\", it's 50. Given standard phrasing in these types of problems, 2 times more often means $3 \\times \\text{original}$. Let's re-read: \"2 times more shells than she did on Monday\". If she has 25, 2 times more is $25 + 50 = 75$. If it meant \"2 times as many\", it would say \"2 times as many\". Let's assume 50 for simplicity if 75 isn't the intended answer, but 75 is technically more accurate to the wording. Actually, in many textbooks, \"2 times more\" is treated as $2x$. Let's try 50. Wait, \"2 times more\" is often used interchangeably with \"2 times as many\". Let's look at the phrasing \"2 times more shells than she did on Monday\". If she had 25, \"1 time more\" is 50. \"2 times more\" is 75. Let's go with 50 first as it's a common mistake/convention. Wait, \"2 times more\" is $x + 2x = 3x$. Let's recalculate: $25 \\times 2 = 50$. Let's use 50.)\nCorrection: In standard English math problems, \"2 times more than X\" is often treated as $2X$. Let's use 50.\n\n[id 232]\nAnts = 50.\nBugs = 1/2 * 50 = 25.\nTotal = 50 + 25 = 75.\n\n[id 233]\nTotal = 36.\nSwim = 1/3 * 36 = 12.\nCave = 1/3 * 36 = 12.\nLeft = 36 - 12 - 12 = 12.\n\n[id 234]\nSteve = 6/day.\nGirlfriend = 6 / 2 = 3/day.\nTotal daily consumption = 9 tomatoes.\nTotal weekly consumption = 9 * 7 = 63.\nVines needed = 63 / 3 = 21.\n\n[id 235]\nTotal friends = 20.\nTotal slices needed = 20 * 4 = 80.\nSlices per pizza = 8.\nPizzas needed = 80 / 8 = 10.\n\n[id 236]\nInitially: 25 pens.\nUsed: 25 pens.\nNew pens from ink: 25 / 5 = 5 pens.\nUsed: 5 pens.\nNew pens from ink: 5 / 5 = 1 pen.\nTotal = 25 + 5 + 1 = 31.\n\n[id 237]\nSum = $20 + $10 = $30.\nAfter a year = $30 * 3 = $90.\n\n[id 238]\nJessa = 20.\nJoan = 20 + 5 = 25.\nMary = 25 - 2 = 23.\nSum = 20 + 25 + 23 = 68.\n\n[id 239]\nTotal = 1000.\nExit A = 30% of 1000 = 300.\nRemaining = 1000 - 300 = 700.\nExit B = 3/5 * 700 = 420.\nExit C = 700 - 420 = 280.\n\nLet's re-evaluate 231. \"2 times more than\" vs \"2 times as many\". If $x=25$, $2x=50$, $x+2x=75$. In most elementary math, \"2 times more\" is meant as $2 \\times 25 = 50$. I will use 50.\n\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}",
+ "usage": {
+  "prompt_tokens": 730,
+  "completion_tokens": 1313,
+  "total_tokens": 2043,
+  "cost": 0.00031952,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00031952,
+   "upstream_inference_prompt_cost": 3.066e-05,
+   "upstream_inference_completions_cost": 0.00028886
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

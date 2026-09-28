@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  5669,
+  5751,
+  5807,
+  5817,
+  5849,
+  5924,
+  5973,
+  6006,
+  6073,
+  6083,
+  6118,
+  6123,
+  6199,
+  6202,
+  6212
+ ],
+ "seconds": 6.8,
+ "text": "The provided questions cover a range of subjects, from US history and political theory to social sciences and geriatric care.\n\n- [5669]: Hamilton in Federalist #15 argued that a weak central government (C) leads to the inability to manage national crises and conflicting interests.\n- [5751]: The text details the 1864 election results, noting Lincoln's massive victory and the support he received from Union soldiers (B).\n- [5807]: Calhoun's \"protest\" regarding state sovereignty and the danger of a consolidated central government mirrors the New England Federalists' opposition to the War of 1812/increased federal power (B).\n- [5817]: Jefferson's belief that institutions must evolve with the human mind is best exemplified by the 19th Amendment (C), which updated the social/political contract to include women.\n- [5849]: A common unintended consequence of the Great Society's expansion was the rise of conservatism to curb government authority (B).\n- [5924]: In the context of post-colonial Algeria, the prioritization of national independence/liberation over social/gender reform (D) often explains the lack of progress for women.\n- [5973]: The boycott of foreign cloth (Swadeshi) was aided by the economic disruptions and resource shifts of World War II (D).\n- [6006]: English colonization in North America often differed from the Spanish system in its social structure, specifically regarding a lack of widespread \"intermingling\" or a caste system involving concubinage (C).\n- [6073]: Both passages highlight that revolution may provide freedom but does so in an uneven manner (C).\n- [6083]: Nkrumah's mention of cooperating with capitalist or socialist states refers to the Cold War era (A).\n- [6118]: Cohort effects in psychology often manifest as differences in personality traits (D) due to shared historical experiences.\n- [6123]: Hospice is the standard term for end-of-life care focused on comfort (D).\n- [6199]: A living will is the specific directive regarding medical interventions (A).\n- [6202]: This refers to specific course/textbook content; in many geriatric contexts, \"not doing it right\" (A) refers to lack of financial or emotional preparation.\n- [6212]: The Eden Alternative is a specific environmental design philosophy for elder care (D).\n\n{\"answers\": {\"5669\": \"C\", \"5751\": \"B\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"D\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"D\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"A\", \"6212\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 4068,
+  "completion_tokens": 677,
+  "total_tokens": 4745,
+  "cost": 0.00056922,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00056922,
+   "upstream_inference_prompt_cost": 0.00036612,
+   "upstream_inference_completions_cost": 0.0002031
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "single": {}
+}

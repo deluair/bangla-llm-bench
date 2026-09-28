@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 8.5,
+ "text": "I'll answer each question based on the passages provided.\n\n**248:** The passage states Sam Simon was responsible for hiring the show's first writing team — **B**\n\n**249:** Roberts refused to speak about when life begins, saying it would be unethical to comment on the specifics of potential cases — **D**\n\n**250:** The passage says luminosity (আলোকরশ্মি) and rotation (ঘূর্ণন) are used together to determine a star's Rossby number — **A**\n\n**251:** In the first set, Murray lost in the tie break — **A**\n\n**252:** Like other experts, Dr. R is skeptical about whether diabetes is curable (whether a cure can be found) — **B**\n\n**253:** The landing was cancelled due to bad weather, which also hindered the search — **D**\n\n**254:** The announcement extended the funding pledge, bringing an additional 300 carriages (total 1,300) — **A**\n\n**255:** The statement said Turkey took responsibility for guarding the captured ISIS fighters — **D**\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 640,
+  "completion_tokens_details": {
+   "reasoning_tokens": 327
+  },
+  "prompt_tokens": 4766,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5406
+ },
+ "served_by": null,
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

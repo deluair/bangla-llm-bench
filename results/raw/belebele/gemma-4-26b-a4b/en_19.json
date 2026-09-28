@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 6.2,
+ "text": "The passage states that Whistler \"is expensive,\" whereas the other locations are described as being accessible or providing activities without specific mention of high costs.\n\nThe passage advises checking permits and licensing in advance and specifically states that \"flying a drone... over a crowd is almost always a bad idea.\" Therefore, filming in crowded areas is not recommended.\n\nThe passage states, \"In *some* countries, you must register,\" implying that it is not a universal requirement for all countries.\n\nThe passage states that a course will cover \"first aid\" and \"role play.\" It also states that books/magazines on \"wilderness survival\" are common, while publications dealing with \"war zones\" are \"few,\" suggesting that information on war zones is the most likely to be hard to find or not covered in publications.\n\nThe passage states, \"Most deaths happen as result of fatigue trying to swim back against the current, which may be impossible.\"\n\nThe passage says, \"Wildlife photography often requires a long telephoto lens, though things like a flock of birds or a tiny creature need other lenses.\" This indicates a specialty lens would be needed for tiny creatures.\n\nThe passage mentions snow, ice, low friction, blizzards, and reduced visibility as specific problems for drivers in high latitudes or mountain passes. It notes that in many countries, \"traffic goes on mostly uninterrupted all year round,\" suggesting heavy traffic is not a primary concern described in this context.\n\nThe passage explains that \"overscan\" results in the borders being cut and specifically mentions that \"if the video had subtitles too close to the bottom, they won't be fully shown.\"\n\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1516,
+  "completion_tokens": 399,
+  "total_tokens": 1915,
+  "cost": 0.00017076,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017076,
+   "upstream_inference_prompt_cost": 9.096e-05,
+   "upstream_inference_completions_cost": 7.98e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

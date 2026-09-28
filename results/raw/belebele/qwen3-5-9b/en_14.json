@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 64.1,
+ "text": "1.  **Question 112:** The passage explicitly states, \"Some studies suggest that the disease must become less lethal before it can cause a global epidemic.\" Therefore, the disease becoming less lethal is the condition suggested.\n2.  **Question 113:** The passage states, \"the reduction of the threat level to severe,\" confirming that a reduction occurred, while noting the overall threat did not go away. Thus, the known information is that the threat level has been reduced.\n3.  **Question 114:** The passage states that India ended the innings \"losing 7 wickets.\"\n4.  **Question 115:** The passage advises choosing carefully because \"privileges offered are often different and frequent flyer points may be more generous under a different airline.\" This suggests prioritizing the airline with better rewards (points) over merely the one frequented most.\n5.  **Question 116:** The passage explicitly mentions, \"On night sleeper trains, passports may be collected by the conductor so that you do not have your sleep interrupted.\"\n6.  **Question 117:** The text notes the Portuguese rebuilt it first (\"destroyed it and rebuilt it\"), and later, \"The Moroccan sultan rebuilt the city.\" This makes the Sultan the second to rebuild.\n7.  **Question 118:** The passage states, \"Paths, trains and boats connect the villages, and cars cannot reach them from the outside.\" Thus, trains and boats are the transport options.\n8.  **Question 119:** The passage notes that some boots have studs and are \"suitable for most shoes and boots\" for slippery conditions, while advising against high heels and shallow patterns.\n\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1313,
+  "completion_tokens": 3525,
+  "total_tokens": 4838,
+  "cost": 0.00066005,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00066005,
+   "upstream_inference_prompt_cost": 0.0001313,
+   "upstream_inference_completions_cost": 0.00052875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3030,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

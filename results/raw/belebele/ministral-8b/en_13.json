@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 4.6,
+ "text": "Here are the answers based on the reasoning for each question:\n\n---\n**id 104**: The passage confirms that **most** dinosaurs having feathers is not mentioned; it only confirms *some* had feathers.\n**Answer: D**\n\n**id 105**: The passage states that lobate scarps were found *all over* the moon, so \"not many\" is incorrect.\n**Answer: D**\n\n**id 106**: Melting ice is not mentioned as a problem; the passage highlights crushing ice and extreme weather.\n**Answer: D**\n\n**id 107**: The beams of light are described as pointing *skywards*, not toward the target of the first jet or across the city.\n**Answer: C**\n\n**id 108**: The suspect’s ethnicity is known (Uighur), so \"unknown\" is incorrect.\n**Answer: C**\n\n**id 109**: AOL was *not* being charged; it instigated the charges against someone else.\n**Answer: D**\n\n**id 110**: The passage explicitly states ASUS was awarded the Taiwan Sustainable Award.\n**Answer: C**\n\n**id 111**: The plane tried to land *twice* (aborted once), not three times.\n**Answer: C**\n\n---\n```json\n{\n  \"answers\": {\n    \"104\": \"D\",\n    \"105\": \"D\",\n    \"106\": \"D\",\n    \"107\": \"C\",\n    \"108\": \"C\",\n    \"109\": \"D\",\n    \"110\": \"C\",\n    \"111\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1290,
+  "completion_tokens": 357,
+  "total_tokens": 1647,
+  "cost": 0.00024705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024705,
+   "upstream_inference_prompt_cost": 0.0001935,
+   "upstream_inference_completions_cost": 5.355e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "C",
+  "108": "C",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "C",
+  "108": "C",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

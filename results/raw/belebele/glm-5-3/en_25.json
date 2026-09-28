@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 5.3,
+ "text": "Here are my answers with brief reasoning:\n\n**[id 200]:** The passage states Hindi and Urdu \"are similar in vocabulary but different in script.\" → **B**\n\n**[id 201]:** The alphabet \"originally named the Hangeul alphabet Hunmin Jeongeum\" — meaning it was eventually called Hangeul. → **B**\n\n**[id 202]:** \"After the compilation of Upanishads, Sanskrit just faded due to hierarchy.\" → **D**\n\n**[id 203]:** \"It is thinner under the maria and thicker under the highlands.\" → **C**\n\n**[id 204]:** The Amazon is the *second* longest river, so being \"the longest river\" is not attributed to it. → **C**\n\n**[id 205]:** Two thirds of working Venezuelans are in the service sector, the largest share. → **A**\n\n**[id 206]:** Scientists are working to create a reactor that can \"make energy\" the same way stars do. → **D**\n\n**[id 207]:** \"Italy's main goals were African countries.\" → **A**\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 418,
+  "completion_tokens_details": {
+   "reasoning_tokens": 127
+  },
+  "prompt_tokens": 1242,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1660
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

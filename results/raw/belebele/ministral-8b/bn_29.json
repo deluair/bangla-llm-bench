@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 4.1,
+ "text": "1. The disease is transmitted to humans via mosquitoes, as per the passage.\n2. The passage mentions that a dog attacked Iwasaki in Tibet.\n3. The temporary injunction order allows for bail (জামিন) if the charges are valid.\n4. The film was not nominated for Best Visual Effects.\n5. Both houses and roads were affected by the earthquake, but the passage specifically mentions that some roads were damaged.\n6. The presence of military in the Jordan Valley for ten years is an Israeli demand, not a Palestinian one.\n7. Felipe Massa was injured during the Grand Prix.\n8. The passage states that the bomb attack was suspected to be carried out by ISIL (Daesh).\n\n```json\n{\n  \"answers\": {\n    \"232\": \"A\",\n    \"233\": \"C\",\n    \"234\": \"A\",\n    \"235\": \"B\",\n    \"236\": \"C\",\n    \"237\": \"B\",\n    \"238\": \"A\",\n    \"239\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2264,
+  "completion_tokens": 229,
+  "total_tokens": 2493,
+  "cost": 0.00037395,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00037395,
+   "upstream_inference_prompt_cost": 0.0003396,
+   "upstream_inference_completions_cost": 3.435e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "A",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "A",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

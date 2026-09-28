@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 26.5,
+ "text": "\n\n[id 24]\n**Analysis:** The passage states that the rule of thirds creates \"dynamism\" (B: life and energy), keeps a \"measure of order\" (D: establishing order), and states the \"most effective place for the main subject is at the intersection\" (C: Keeping the subject in a specific and effective place). Option A (\"Creating a baseline\") is not explicitly mentioned; the rule involves a grid of lines and intersections, not necessarily a specific baseline for placement. A is the least supported/not an object listed in the text.\n**Selection:** A\n\n[id 25]\n**Analysis:** The passage states the 35mm format is \"most common\" (D is supported), \"still produced today\" (A is supported), and its aspect ratio has been \"inherited by digital camera image sensor formats\" (B is supported). It also states that \"Many common formats (APS family of formats, for example) are equal to or closely approximate this aspect ratio.\" Option C claims it has a \"different aspect ratio than many common formats,\" which contradicts the text saying they are equal to or approximate.\n**Selection:** C\n\n[id 26]\n**Analysis:** The passage states mysticism can be \"distinguished from other forms of religious belief and worship by its emphasis on the direct personal experience\" (supporting A, B, C based on context of mindfulness/experience). Option D states the emphasis is \"comparable to many other forms,\" which directly contradicts the text saying it is distinguished from them.\n**Selection:** D\n\n[id 27]\n**Analysis:** The passage mentions \"most of modern-day Pakistan\" (D is supported), \"Harappa\" (A is supported), and \"basins of the now dried up Sarasvati River\" (B is supported). It mentions \"some regions in northwest India and northeast Afghanistan.\" Option C claims \"All regions in northeast Afghanistan,\" which contradicts \"some regions.\"\n**Selection:** C\n\n[id 28]\n**Analysis:** The passage explicitly states, \"The war expenditures... were paid for by the Filipino people themselves.\" They were \"compelled to pay taxes... to defray a major part of the expenditures.\" This supports Option D. Options A, B, and C are mentioned in relation to the taxes/bonds but not as the ones covering the significant portion of war expenses themselves (the people did).\n**Selection:** D\n\n[id 29]\n**Analysis:** The passage mentions sedatives, herbane seeds/scopolamine, amputations/gangrene, and arterial clamps/blood flow (B, C, D supported). It does not mention treating \"post-traumatic stress disorder\" (A).\n**Selection:** A\n\n[id 30]\n**Analysis:** The first sentence states, \"Vision, or the ability to see depends on visual system sensory organs or eyes.\" Option A matches this directly. Other options describe characteristics/requirements but not the primary dependency stated in the opening.\n**Selection:** A\n\n[id 31]\n**Analysis:** The passage states, \"The guru is a fundamental aspect of all Indian religions but in Sikhism has taken on an importance that forms the core of Sikh beliefs.\" Option B claims the guru is \"unique to Sikhism,\" which contradicts \"all Indian religions.\"\n**Selection:** B\n\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1532,
+  "completion_tokens": 4614,
+  "total_tokens": 6146,
+  "cost": 0.0008453,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008453,
+   "upstream_inference_prompt_cost": 0.0001532,
+   "upstream_inference_completions_cost": 0.0006921
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3856,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024"
+ ],
+ "seconds": 47.8,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through these questions systematically:\n\n**Question 1:** পরাগরেণুর অঙ্কুরোদগমে শক্তি প্রয়োজন যা **শর্করা**থেকে আসে।\n\n**Question 2:** ব্যাকটেরিওফাজ হল **ব্যাকটেরিয়া ধ্বংসকারী ভাইরাস**।\n\n**Question 3:** 'তেল নুন লকড়ি' **প্রমথ চৌধুরী**র রচিত গ্রন্থ।\n\n**Question 4:** সমীকরণ যাচাই:\n- C) (৪+৩) × (১০-৬) ÷ ২ = ৭ × ৪ ÷ ২ = ২৮ ÷ ২ = ১৪ ✓\n\n**Question 5:** জ্যেষ্ঠের অবিবাহিত অবস্থায় কনিষ্ঠের বিয়ে = **পরদানি**\n\n**Question 6:** Trump Peace Plan অনুযায়ী সাধারণত ১২% উল্লেখ করা হয়েছে।\n\n**Question 7:** G-8 এর একমাত্র এশিয়ান সদস্য = **জাপান**\n\n**Question 8:** সালোকসংশ্লেষণে অক্সিজেনের উৎস = **H₂O (জল)**\n\n**Question 9:** \"পুকুরে মাছ আছে\" - এখানে 'পুকুরে' অবস্থানের নির্দেশনা দেয়, তাই **ঐকদেশিক অধিকরণ কারক**।\n\n**Question 10:** নির্ণায়ক গণনা (0!=1, 2!=2, 3!=6, 4!=24):\n```\n|2  6  2|\n|6  2  24|\n|1  6  2| = 2(4-144) - 6(12-24) + 2(36-2) = -280+72+68 = -140\n```\n\n**Question 11:** 100-999 পর্যন্ত: মোট 900 সংখ্যা, সব বিজোড় = 5×5×5 = 125 সংখ্যা\nসম্ভাবনা = 125/900 = 5/36\n\n**Question 12:** ওষ্ঠ্য বর্ণ (ঠোঁট সংশ্লিষ্ট) = **প, ফ, ব, ভ, ম**\n\n**Question 13:** \"Justice delayed is justice denied\" = **গ্ল্যাডস্টোনের** বিখ্যাত উক্তি\n\n**Question 14:** মৃতজীবি = **ব্যাঙের ছাতা** (মাশরুম - মৃত জৈব পদার্থে বৃদ্ধি পায়)\n\n**Question 15:** রবীন্দ্রনাথ ঠাকুর: জন্ম 1861, নোবেল 1913 → বয়স = 52 বছর\n\n```json\n{\"answers\": {\"786939d8-d543-41d1-a19d-b40c04941a24-76149\": \"B\", \"7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695\": \"C\", \"79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604\": \"C\", \"79f100d6-e2fa-4ead-b4ee-7939892b334a-108775\": \"C\", \"79f1a5d5-c281-4201-86f6-679badb71b2c-64213\": \"C\", \"7a168d29-47e7-422f-9839-d6c5a407102c-119661\": \"A\", \"7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150\": \"B\", \"7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734\": \"B\", \"7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134\": \"C\", \"7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384\": \"B\", \"7c251935-e4bc-4d23-82b4-d4046d038e9f-29154\": \"B\", \"7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739\": \"B\", \"7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942\": \"C\", \"7e71b668-8f64-4653-8af0-8e921845690d-2657\": \"B\", \"7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2467,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4436,
+  "output_tokens_details": {
+   "thinking_tokens": 2989
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2467,
+    "output_tokens": 4436,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.024647,
+ "answers_batch": {
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149": "B",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695": "C",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604": "C",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775": "C",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213": "C",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661": "A",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150": "B",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734": "B",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134": "C",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384": "B",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154": "B",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739": "B",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942": "C",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657": "B",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024": "B"
+ },
+ "single": {},
+ "answers": {
+  "786939d8-d543-41d1-a19d-b40c04941a24-76149": "B",
+  "7945412f-7c84-4e3d-b3d8-d5d255393e9f-9695": "C",
+  "79ed2aff-2c2d-49d8-aa44-d3950eb72a19-31604": "C",
+  "79f100d6-e2fa-4ead-b4ee-7939892b334a-108775": "C",
+  "79f1a5d5-c281-4201-86f6-679badb71b2c-64213": "C",
+  "7a168d29-47e7-422f-9839-d6c5a407102c-119661": "A",
+  "7af7c46d-7f9d-4509-a15a-cada63a06eeb-119150": "B",
+  "7afed0ec-9e99-47dd-9e54-28b3b4d1e833-77734": "B",
+  "7b203072-8dd1-48a6-8a5a-d54cd75b8b49-37134": "C",
+  "7b3b674b-5fa2-43b6-968b-5cbd54672d16-103384": "B",
+  "7c251935-e4bc-4d23-82b4-d4046d038e9f-29154": "B",
+  "7ccd4ba8-eea9-44f6-8acc-018b47bd25e5-100739": "B",
+  "7de0d68f-79d8-4afe-9f58-b58a6beb694c-101942": "C",
+  "7e71b668-8f64-4653-8af0-8e921845690d-2657": "B",
+  "7e8284a9-ee67-4e88-85c3-940fdf7e9051-114024": "B"
+ }
+}

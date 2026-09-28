@@ -1,0 +1,338 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 56.4,
+ "text": "{id 100}\nজেরমের প্রথম বন্ধু 20 বার ডোরবেল বাজিয়েছিলেন। দ্বিতীয় বন্ধু 1/4 গুণ বেশি বাজিয়েছেন, যা 20 * 1/4 = 5 বার। তৃতীয় বন্ধু 10 বার বেশি বাজিয়েছেন, যা 5 * 10 = 50 বার। চতুর্থ বন্ধু 60 বার বাজিয়েছেন। এইভাবে, মোট বার হল 20 + 5 + 50 + 60 = 135।\n\n{id 101}\nসোলো প্রথমে 4 + 20 + 7 + 8 = 39 পৃষ্ঠা পড়েছিলেন। সোমবারে সে 15 পৃষ্ঠা পড়েছেন। সোলো তার পড়া সম্পূর্ণ করার জন্য যদি আরও 4 দিন পান, তাহলে সে 39 + 15 = 54 পৃষ্ঠা পড়েছেন। সোলো এখন 54 পৃষ্ঠা পড়ার জন্য 4 দিন সময় পেতে পারেন, যা 54 / 4 = 13.5 পৃষ্ঠা প্রতিদিন।\n\n{id 102}\nজন সপ্তাহের প্রতিদিন এক গ্লাস জল পান করেন, যা 7 গ্লাস প্রতিসপ্তাহে। কিন্তু সপ্তাহ শেষে, সে জলের পরিবর্তে সোডা পান করেন। এইভাবে, জন এক সপ্তাহে 7 - 1 = 6 গ্লাস জল পান করেন।\n\n{id 103}\nঘন কুয়াশা 10 মিনিটে 3 মাইল ঢেকে ফেলে। শহরটি 42 মাইল বিস্তৃত। অতএব, ঘন কুয়াশা 42 / 3 = 14 মাইল ঢেকে ফেলার জন্য 10 মিনিট সময় লাগে। এইভাবে, ঘন কুয়াশা সমগ্র শহরটি ঢেকে যেতে 14 * 10 = 140 মিনিট সময় লাগে।\n\n{id 104}\nপপি 1/4 টুকরো বাকি আছে, যা 1000 * 1/4 = 250 টুকরো। তার মা 1/3 টুকরো বাকি রেখেছেন, যা 250 * 1/3 = 83 টুকরো। এইভাবে, জিগস' পাজলের 250 + 83 = 333 টুকরো রাখা বাকি আছে।\n\n{id 105}\nআমির 5 টি কুকিজ খেয়েছেন। কোডি তিনগুণ বেশি খান, যা 5 * 3 = 15 টি কুকিজ। এইভাবে, উভয়েই একসাথে 5 + 15 = 20 টি কুকিজ খেয়েছেন।\n\n{id 106}\nপ্রতিটি বাক্সের আয়তন 5 * 6 * 4 = 120 ইঞ্চি ঘন। যেহেতু বাক্সগুলির দেওয়াল 1 ইঞ্চি পুরু, প্রতিটি বাক্সের ভিতরের আয়তন 120 - 2 * 1 * 120 = 116 ইঞ্চি ঘন। এইভাবে, 3 টি বাক্সের ভিতরের মোট আয়তন 3 * 116 = 348 ইঞ্চি ঘন।\n\n{id 107}\nফ্র্যাঙ্কি বুধবারে 30 মিনিটের কতগুলি পর্ব দেখেছিলেন তা নির্ধারণ করতে, আমরা জানি যে সে 7 ঘণ্টা মোট দেখেছেন। সে প্রতি রাতে 1 ঘণ্টা দেখেছেন, যা 7 / 1 = 7 রাতে। সে সোমবার ও মঙ্গলবার 1 ঘণ্টা দেখেছিলেন, যা 2 রাতে। সে বৃহস্পতিবার একটি 1 ঘণ্টার পর্ব ও 30 মিনিটের একটি শো দেখেছিলেন, যা 1 + 30/60 = 1.5 রাতে। সে শুক্রবার 1 ঘণ্টা দেখেছিলেন, যা 1 রাতে। এইভাবে, সে বুধবারে 30 মিনিটের 1.5 রাতে দেখেছিলেন, যা 1.5 * 30/60 = 0.75 রাতে।\n\n{id 108}\nহেনরি গত বছর 110 - 15 = 95 টি কুকিজ বানিয়েছিলেন।\n\n{id 109}\nগ্যাস স্টেশনের দাম 10 * $3.00 = $30.00। ক্যাশব্যাকের পরে, গ্যাসের দাম $30.00 - $2.00 = $28.00।",
+ "usage": {
+  "prompt_tokens": 3395,
+  "completion_tokens": 2082,
+  "total_tokens": 5477,
+  "cost": 0.00015118,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015118,
+   "upstream_inference_prompt_cost": 6.79e-05,
+   "upstream_inference_completions_cost": 8.328e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "100": {
+   "text": "চতুর্থ বন্ধুটি 60 বার ডোরবেল বাজিয়েছেন।\n\nদ্বিতীয় বন্ধুটি 60/4 = 15 বার ডোরবেল বাজিয়েছেন।\n\nতৃতীয় বন্ধুটি 60 + 10 = 70 বার ডোরবেল বাজিয়েছেন।\n\nপ্রথম বন্ধুটি 20 বার ডোরবেল বাজিয়েছেন।\n\nমোট 60 + 15 + 70 + 20 = 165 বার ডোরবেল বাজিয়েছে।\n\nANSWER: 165",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 487,
+    "completion_tokens": 256,
+    "total_tokens": 743,
+    "cost": 1.998e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.998e-05,
+     "upstream_inference_prompt_cost": 9.74e-06,
+     "upstream_inference_completions_cost": 1.024e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 165.0
+  },
+  "101": {
+   "text": "সোলো মোট 4 + 20 + 7 + 8 = 39 পৃষ্ঠা পড়তে হবে।\n\nসোলো সোমবারে 15 পৃষ্ঠা পড়েছে, তাই তার 39 - 15 = 24 পৃষ্ঠা বাকি আছে।\n\nযদি সোলো আরও 4 দিন পায়, তাহলে সে মোট 24 / 5 = 4.8 পৃষ্ঠা প্রতিদিন পড়তে হবে।\n\nঅতএব, সোলোর প্রতিদিন গড় পৃষ্ঠা হল 4.8।\n\nANSWER: 4.8",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 422,
+    "completion_tokens": 274,
+    "total_tokens": 696,
+    "cost": 1.94e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.94e-05,
+     "upstream_inference_prompt_cost": 8.44e-06,
+     "upstream_inference_completions_cost": 1.096e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 4.8
+  },
+  "102": {
+   "text": "জন সপ্তাহের দিনে ৩ গ্লাস জল পান করেন। সে সপ্তাহের শেষ দিনে সোডা পান করে না। তাই, জন এক সপ্তাহে ৩ × ৭ = ২১ গ্লাস জল পান করেন।\n\nANSWER: 21",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 401,
+    "completion_tokens": 143,
+    "total_tokens": 544,
+    "cost": 1.374e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.374e-05,
+     "upstream_inference_prompt_cost": 8.02e-06,
+     "upstream_inference_completions_cost": 5.72e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 21.0
+  },
+  "103": {
+   "text": "এটা আসলে একটা Physics প্রশ্ন।\n\nশহরটি 42 মাইল দীর্ঘ এবং 3 মাইল প্রতি 10 মিনিটে = 42/3 = 14টি 3 মাইল ব্লক দ্বারা গঠিত।\n\nপ্রতিটি ব্লকের জন্য 10 মিনিট দূরত্ব থাকবে, তাই মোট দূরত্ব 14 * 10 = 140 মিনিট।\n\nউত্তর: ANSWER: 140",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 361,
+    "completion_tokens": 216,
+    "total_tokens": 577,
+    "cost": 1.802e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.802e-05,
+     "upstream_inference_prompt_cost": 7.22e-06,
+     "upstream_inference_completions_cost": 1.08e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 140.0
+  },
+  "104": {
+   "text": "পপি জিগস' পাজলের 1/4 টুকরো রেখেছে, যা 1000/4 = 250 টুকরো।\n\nপপির মা অবশিষ্ট টুকরোর 1/3 রাখেন, যা 1000 - 250 = 750 টুকরো।\n\nএখন, অবশিষ্ট টুকরোর 2/3 বাকি আছে, যা 750/3 = 250 টুকরো।\n\nঅতএব, জিগস' পাজলের কতগুলি টুকরা বাকি আছে তা হল:\n\nANSWER: 250",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 254,
+    "total_tokens": 525,
+    "cost": 1.558e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.558e-05,
+     "upstream_inference_prompt_cost": 5.42e-06,
+     "upstream_inference_completions_cost": 1.016e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 250.0
+  },
+  "105": {
+   "text": "আমির 5টি কুকিজ খান এবং কোডি তাঁর তুলনায় তিনগুণ বেশি খান, যার অর্থ কোডি 5 x 3 = 15টি কুকিজ খান।\n\nউভয়ের মোট কুকিজের সংখ্যা হল 5 (আমিরের) + 15 (কোডির) = 20টি কুকিজ।\n\nANSWER: 20",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 195,
+    "total_tokens": 417,
+    "cost": 1.224e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.224e-05,
+     "upstream_inference_prompt_cost": 4.44e-06,
+     "upstream_inference_completions_cost": 7.8e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 20.0
+  },
+  "106": {
+   "text": "প্রতিটি বাক্সের মাপ 5 ইঞ্চি বাই 6 ইঞ্চি বাই 4 ইঞ্চি, তাই এর আয়তন 5 x 6 x 4 = 120 ইঞ্চি ঘন। কিন্তু বাক্সের দেওয়াল 1 ইঞ্চি পুরু, তাই প্রতিটি বাক্সের আয়তন বিকল্প 120 - 2(5+6+4) = 120 - 30 = 90 ইঞ্চি ঘন।\n\nএখন, যদি আমরা 3টি বাক্সের মোট আয়তন খুঁজে বের করতে চাই, তাহলে আমরা প্রতিটি বাক্সের আয়তনকে 3 দিয়ে গুণ করি:\n\n90 x 3 = 270\n\nসুতরাং, 3টি বাক্সের মোট আয়তন হল 270 ইঞ্চি ঘন।\n\nANSWER: 270",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 397,
+    "total_tokens": 615,
+    "cost": 2.024e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.024e-05,
+     "upstream_inference_prompt_cost": 4.36e-06,
+     "upstream_inference_completions_cost": 1.588e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 270.0
+  },
+  "107": {
+   "text": "চলুন সমস্যাটি ভেঙে দেওয়া যাক:\n\n- প্রতি সোমবার ও মঙ্গলবার, ফ্রাঙ্কি 1 ঘণ্টার 1টি শো দেখেছে।\n- মোট, সে 2 * 1 = 2 ঘণ্টা শো দেখেছে (সোমবার ও মঙ্গলবার)।\n\n- বৃহস্পতিবারে, ফ্রাঙ্কি 1 ঘণ্টার একটি শো এবং 30 মিনিটের একটি শো দেখেছে।\n- 30 মিনিট সমান 0.5 ঘণ্টার।\n- এইভাবে, বৃহস্পতিবারে, সে 1 + 0.5 = 1.5 ঘণ্টা শো দেখেছে।\n\n- শুক্রবার, ফ্রাঙ্কি 1 ঘণ্টার দুটি শো দেখেছে, মোট 2 ঘণ্টা।\n\n- সব মিলিয়ে, ফ্রাঙ্কি সোমবার ও মঙ্গলবার (2 ঘণ্টা), বৃহস্পতিবারে (1.5 ঘণ্টা), এবং শুক্রবারে (2 ঘণ্টা) শো দেখেছে।\n- সে দেখেছে 2 + 1.5 + 2 = 5.5 ঘণ্টা।\n\n- যদি সে 7 ঘণ্টা মোট শো দেখে, তাহলে আমরা 7 - 5.5 = 1.5 ঘণ্টা বেশি শো খুঁজে পেতে পারি।\n\n- আমরা জানি যে সে বুধবার 30 মিনিটের কতগুলি শো দেখেছে, যা 1.5 ঘণ্টার সমান।\n- এই পর্বগুলিকে 1.5 ঘণ্টার সমান করতে, সে 1টি ঘণ্টার পর্ব দেখেছে (যেহেতু 1 ঘণ্টা = 60 মিনিট, তাই 1.5 ঘণ্টা = 1.5 x 60 = 90 মিনিট = 1টি ঘণ্টা + 0.5 ঘণ্টা = 1 ঘণ্টা + 30 মিনিট = 30 মিনিট পর্ব 2টি)।\n\nANSWER: 2",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 980,
+    "total_tokens": 1590,
+    "cost": 0.0001089,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.0001089,
+     "upstream_inference_prompt_cost": 3.05e-05,
+     "upstream_inference_completions_cost": 7.84e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 2.0
+  },
+  "108": {
+   "text": "ল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানি৯টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানি৯টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানি৯টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার 110টি কুকি আছে এবং সে যা চেয়েছিল তার চেয়ে 15টি বেশি কুকি বেক করেছে, তাই আসলে সে যা বানিয়েছিল তার দ্বিগুণ বেক করেছে এবং 15টি কুকি বেশি বানিয়েছে।\n\nএখন তার",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 496,
+    "completion_tokens": 16000,
+    "total_tokens": 16496,
+    "cost": 0.00064992,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00064992,
+     "upstream_inference_prompt_cost": 9.92e-06,
+     "upstream_inference_completions_cost": 0.00064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": null
+  },
+  "109": {
+   "text": "এই সমস্যা সমাধানের জন্য, আমাদের প্রথমে গ্যাসের মূল্য গণনা করতে হবে এবং তারপরে ক্যাশব্যাক পাওয়ার পরে গ্যাসের মূল্য গণনা করতে হবে।\n\nগ্যাসের মূল্য = 10 গ্যালন * $3.00/গ্যালন = $30.00\n\nক্যাশব্যাক পাওয়ার পরে গ্যাসের মূল্য = $30.00 - (10 গ্যালন * $0.20/গ্যালন) = $30.00 - $2.00 = $28.00\n\nচূড়ান্ত উত্তর হল: ANSWER: 28",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 340,
+    "completion_tokens": 311,
+    "total_tokens": 651,
+    "cost": 1.924e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.924e-05,
+     "upstream_inference_prompt_cost": 6.8e-06,
+     "upstream_inference_completions_cost": 1.244e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 28.0
+  }
+ },
+ "answers": {
+  "100": 165.0,
+  "101": 4.8,
+  "102": 21.0,
+  "103": 140.0,
+  "104": 250.0,
+  "105": 20.0,
+  "106": 270.0,
+  "107": 2.0,
+  "109": 28.0
+ }
+}

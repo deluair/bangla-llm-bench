@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 54.2,
+ "text": "To solve these questions:\n\n[4749] Torque $\\tau = rF = 0.30 \\times 2.0 = 0.6\\text{ Nm}$. Angular acceleration $\\alpha = \\tau/I = 0.6 / 0.06 = 10\\text{ rad/s}^2$. Time to rest $t = \\omega/\\alpha = 20/10 = 2\\text{ s}$. **(B)**\n[4827] The electromagnetic spectrum order (shortest to longest wavelength): Gamma, UV, Visible (Blue, Orange), Infrared, Radio. Orange has the longest wavelength among the options. **(D)**\n[4852] The energy from the rubber band is elastic potential energy. Depending on how it is wound, the initial energy available to be converted into kinetic energy varies. **(A)**\n[4864] $V = Q/C = 600\\mu\\text{C} / 2\\mu\\text{F} = 300\\text{V}$. Three $18\\mu\\text{F}$ capacitors in series have an equivalent capacitance $C_{eq} = 18/3 = 6\\mu\\text{F}$. $Q = C_{eq}V = 6\\mu\\text{F} \\times 300\\text{V} = 1800\\mu\\text{C}$. In series, charge on each is the same. **(D)**\n[4873] Standing waves occur when the length $L$ is an integer multiple of $\\lambda/2$. If $60\\text{ Hz}$ doesn't produce them, the condition $L = n\\lambda/2$ is not met. **(A)**\n[4952] In the visible spectrum, violet has the shortest wavelength/highest frequency. **(B)**\n[5102] Because the mother's action (giving candy) increases the frequency of the behavior (crying), it is positive reinforcement. **(C)**\n[5184] The sympathetic nervous system is responsible for the \"fight or flight\" response (increased heart rate/breathing). **(C)**\n[5312] Phineas Gage's case linked the frontal lobe to personality/emotional control. **(B)**\n[5342] The connection between mental and physical states is the mind-body problem. **(B)**\n[5454] Stratified sampling is a technique to reduce bias/improve precision, but compared to simple random sampling, it's more structured. However, all options A, C, and D are standard methods to reduce bias. Actually, all options A, B, C, D are standard ways to reduce bias. Re-reading: Stratified random sampling is often used to ensure representation, which reduces bias. The question asks which is *least* likely. Looking closely, if all are good, this might be a trick. But standardly, stratified sampling is a very strong tool. Let's re-evaluate. Actually, all are valid. Wait, is there a subtle difference? No, they all reduce bias. Let's assume the question implies one is less \"standard\" or \"powerful\". Actually, they are all standard. Let's look at D. Selecting samples randomly is the baseline. C is a type of random sampling. A is follow-up. B is question wording. They all reduce bias. I'll pick C as the one that is often compared to simple random sampling to show how it *improves* it, but it's still a form of random sampling. Actually, looking at common psych/stats questions, C is usually a \"better\" version of D. Let's reconsider. There isn't a \"least likely\" here among these standard methods. I'll re-read. (Self-correction: In some contexts, stratified sampling is used to reduce variance, not necessarily bias, though it can reduce sampling bias if strata are used to represent underrepresented groups). **(C)**\n[5561] $Z_1 = (80-75)/12 = 0.416$. $Z_2 = (100-75)/12 = 2.083$. $P(80 < X < 100) = P(Z < 2.083) - P(Z < 0.416) \\approx 0.9814 - 0.6615 = 0.3199$. Looking at options: 0.34 is closest. Let's re-calc: $P(X < 100 | X > 80) = P(80 < X < 100) / P(X > 80) = (0.9814 - 0.6615) / (1 - 0.6615) = 0.3199 / 0.3385 = 0.945$. **(D)**\n[5573] The 68-95-99.7 rule applies to the normal distribution. For t-distributions, the rule is less accurate (the rule is \"worse\") as df decreases. **(D)**\n[5582] $t = (\\bar{x} - \\mu) / (s/\\sqrt{n}) = (4.3 - 4.0) / (0.6 / \\sqrt{16}) = 0.3 / (0.6 / 4) = 0.3 / 0.15 = 2$. Since $H_a: \\mu > 4.0$, it is a right-tailed test. $df = n-1 = 15$. $P(t > 2)$ with $15\\text{ df}$. **(C)**\n[5641] $R^2$ is the coefficient of determination. For $r=0.6$, $R^2 = 0.36$ (36%). For $r=0.3$, $R^2 = 0.09$ (9%). $36/9 = 4$. **(C)**\n\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"C\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1720,
+  "completion_tokens": 1503,
+  "total_tokens": 3223,
+  "cost": 0.00063142,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00063142,
+   "upstream_inference_prompt_cost": 0.0001204,
+   "upstream_inference_completions_cost": 0.00051102
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

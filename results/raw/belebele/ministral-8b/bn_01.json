@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 6.7,
+ "text": "Here are the answers based on the reasoning from each passage:\n\n- **[id 8]**: The passage discusses micro-expressions related to facial movements and expressions (e.g., wrinkling brows, rapid blinking). \"বুড়ো আঙুল দেখানো\" (showing the thumb) is unrelated to facial micro-expressions.\n  **Answer: D**\n\n- **[id 9]**: The passage mentions \"অব্যাহত সম্পর্ক\" (maintaining relationships) and \"ব্যক্তিগত সম্পৃক্ততা\" (personal involvement) as motivations tied to sustaining connections. Researching travel is unrelated to maintaining relationships.\n  **Answer: C**\n\n- **[id 10]**: The passage discusses scrutiny of the Catholic Church’s wealth, centralized power, and whether its principles are being followed. The question of \"ধর্মের মূল নীতি সংশোধন করা\" (altering core religious doctrine) is not mentioned.\n  **Answer: B**\n\n- **[id 11]**: The passage states that the blockade violated international norms and affected neutral ships, but there is no mention of changes to international law. The other options are directly referenced.\n  **Answer: C**\n\n- **[id 12]**: The passage states that women have twice the likelihood of developing MS compared to men, and it affects young and middle-aged adults. The highest risk is for a middle-aged woman.\n  **Answer: A**\n\n- **[id 13]**: The passage describes fencing as a modern sport played in universities, Olympics, and professionally, but it is fundamentally a duel between two fencers.\n  **Answer: D**\n\n- **[id 14]**: The passage highlights that the French Revolution shifted focus from class-based military ranks to merit-based ranks, which was a significant change for the working class.\n  **Answer: B**\n\n- **[id 15]**: The passage explicitly mentions dissatisfaction with transportation systems in developed countries, not water quality, bridges, or education.\n  **Answer: C**\n\n---\n```json\n{\n  \"answers\": {\n    \"8\": \"D\",\n    \"9\": \"C\",\n    \"10\": \"B\",\n    \"11\": \"C\",\n    \"12\": \"A\",\n    \"13\": \"D\",\n    \"14\": \"B\",\n    \"15\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2488,
+  "completion_tokens": 493,
+  "total_tokens": 2981,
+  "cost": 0.00044715,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00044715,
+   "upstream_inference_prompt_cost": 0.0003732,
+   "upstream_inference_completions_cost": 7.395e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

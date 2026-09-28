@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 4.6,
+ "text": "- **176:** The passage says the chimpanzee hand is used for bearing weight in knuckle walking. **C**\n- **177:** Mutation adds new genetic variation. **C**\n- **178:** The postmodern approach says \"there is not one good thing to learn,\" so prioritizing some experiences contradicts it. **B**\n- **179:** Pureland origami was developed for inexperienced folders, not experienced ones. **A**\n- **180:** The name \"Indus River Civilization\" is never used in the passage. **C**\n- **181:** The passage says there is more to gain in the short term by acting selfishly. **D**\n- **182:** Learning hospitals are not mentioned. **C**\n- **183:** The passage says they engage in risky behaviors \"in order to stimulate their brain.\" **D**\n\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2557,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 405,
+  "output_tokens_details": {
+   "thinking_tokens": 90
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2557,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 405,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2557,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2557
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028564,
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

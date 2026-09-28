@@ -1,0 +1,281 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201"
+ ],
+ "seconds": 10.1,
+ "text": "Here are the answers to the multiple-choice questions with brief reasoning:\n\n1.  **Electron Affinity**: The energy change associated with adding an electron to a neutral gaseous atom is called Electron Affinity.\n    *   Answer: **B**\n\n2.  **Trigonometric Identity**:\n    Let $\\alpha = \\tan^{-1}(1/2)$ and $\\beta = \\cot^{-1}(3)$.\n    Note that $\\cot^{-1}(3) = \\tan^{-1}(1/3)$.\n    We need to find $\\sin(\\alpha + \\beta)$.\n    $\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta} = \\frac{1/2 + 1/3}{1 - (1/2)(1/3)} = \\frac{5/6}{5/6} = 1$.\n    Since $\\tan(\\alpha+\\beta)=1$ and both angles are acute, $\\alpha+\\beta = \\pi/4$.\n    $\\sin(\\pi/4) = 1/\\sqrt{2}$.\n    *   Answer: **C**\n\n3.  **Electrolysis Calculation**:\n    Reaction: $\\text{Au}^{3+} + 3e^- \\rightarrow \\text{Au}$. So, $z = 3$ for AuCl$_3$.\n    $Q = It = 2.50 \\, \\text{A} \\times (30 \\times 60) \\, \\text{s} = 2.50 \\times 1800 = 4500 \\, \\text{C}$.\n    Mass $w = \\frac{Z \\cdot Q}{F} \\times M$.\n    $M(\\text{Au}) \\approx 197 \\, \\text{g/mol}$.\n    $w = \\frac{197 \\times 4500}{3 \\times 96500} = \\frac{886500}{289500} \\approx 3.06 \\, \\text{g}$.\n    *   Answer: **D**\n\n4.  **Nobel Prize in Physics 2020**: Awarded to James Peebles for theoretical discoveries in physical cosmology. (Reinhard Genzel and Andrea Ghez shared the other half for the supermassive object at the center of the Milky Way, but usually, questions highlighting \"James Peebles\" refer to his specific contribution or list him as a primary option. Let's check the options. A is Reinhard Genzel. B is James Peebles. C is Arthur Ashkin (2018). D is Kip Thorne (2017). Both A and B won in 2020. However, James Peebles is often the first listed or more distinctly associated with the broader cosmology aspect in some contexts, but technically both are correct. Let's look closer. The question asks for \"the physicist\" (singular). Usually, if both are options, it might be a trick or based on specific curriculum emphasis. However, James Peebles is a very prominent figure in cosmology. Let's re-read. \"2020 সালে নােবেলজয়ী পদার্থবিজ্ঞানী হচ্ছেন\". Options: A) Reinhard Genzel, B) James Peebles, C) Arthur Ashkin, D) Kip S. Thorne. Both A and B are 2020 winners. C was 2018. D was 2017. Between A and B, James Peebles is a U.S. citizen and often highlighted. However, in many standard MCQs from this period, James Peebles is the intended answer for \"discovery in physical cosmology\". Let's select B).\n    *   Answer: **B**\n\n5.  **Hydrogen Production**:\n    A) Iron is used, but statement says \"after testing...\" which is vague.\n    B) Na, K, Mg react with cold HNO3? No, they form nitrates, no H2 gas because HNO3 is an oxidizing acid.\n    C) Portable generators use Lithium ? No, typically carbide or electrolysis. \"Haidrolith\" isn't a standard term.\n    D) Cu, Ag, Hg do *not* react with dilute acids to produce H2 (they are below hydrogen in reactivity series).\n    Let's re-evaluate A. \"Among metals, iron is cheap and easily available, so it is considered the best metal for preparing hydrogen gas after testing.\" This is a standard textbook statement in some contexts (like Wurtz's method or industrial context comparison vs Zn which is expensive). Actually, Zinc is the classic lab reagent. But industrial production uses water gas or methane. Let's look at standard Bengali chemistry texts. Often, the statement about Iron being cheap and available is used to justify its use in certain contexts or as a distractor.\n    However, let's look at option B again. \"Na, K and Mg react with *cold* conc HNO3\". Halogens/HNO3 oxidize metals to nitrates. No H2. So B is false.\n    D is definitely false.\n    C: \"Hidrolith\"? Maybe \"Hydrolith\" is a typo for something? Or maybe it refers to a specific device?\n    Let's reconsider A. In the lab, Zn is used. In industry, natural gas reforming. But maybe the question refers to a specific comparison where Iron is preferred over expensive metals?\n    Actually, there is a common misconception or a specific textbook line. Let's look for \"Iron hydrogen production\".\n    Wait, let's look at the wording again. \"কোন বাক্যটি হাইড্রোজেন উৎপাদনের জন্য সঠিক?\" (Which sentence is correct regarding hydrogen production?)\n    Statement A: \"Among metals, iron is cheap and easily available, so after testing it is considered the best metal for hydrogen gas preparation.\" This sounds plausible as a factual statement about material properties, even if Zn is the lab standard.\n    Let's check if there is a better option.\n    Actually, typically **Zinc** is the answer for lab prep. **Iron** is used in the Sakat process or similar?\n    Let's look at B again. Dilute HCl + Zn.\n    Maybe the question implies which statement is *factually* true.\n    Statement A is likely the intended correct option in this specific test bank, contrasting with the false statements in B, C, D.\n    *   Answer: **A**\n\n6.  **Mercury in Capillary Tube**: Mercury does not wet glass (contact angle > 90 degrees), so the meniscus is convex and the level drops below the reservoir level.\n    *   Answer: **C**\n\n7.  **Furan Pi Electrons**: Furan is a 6-membered ring (5 atoms + O? No, 5-membered ring: 4 C, 1 O).\n    Structure: Oxygen has 2 lone pairs. One lone pair participates in the aromatic $\\pi$ system to complete the sextet. The ring carbons contribute 1 electron each (4 electrons). Total $\\pi$ electrons = 4 (from C) + 2 (from O lone pair) = 6.\n    The question asks for \"delocalized $\\pi$ electron number\" (সঞ্চরণশীল $\\pi$ ইলেকট্রন সংখ্যা). This refers to the aromatic sextet.\n    *   Answer: **B**\n\n8.  **Rabindranath Tagore Essay**:\n    A) \"Sobhyatar Sankot\" (Crise of Civilization) - This is an essay/research work by Tagore? Or maybe \"Crisis of Civilization\"? Tagore wrote about civilization.\n    B) \"Kshudito Pashan\" is a novel by Tarashankar Bandyopadhyay.\n    C) \"Kapalkundala\" is a novel by Tagore.\n    D) \"Laboratory\" ?\n    \"Sobhyatar Sankot\" or similar titles are often associated with Tagore's social/cultural criticism. However, \"Krishnacherita\" etc. are poems.\n    Let's check \"Sobhyatar Sankot\". There is a famous work \"Crisis in Civilization\" or similar.\n    Actually, \"Sobhyatar Sankot\" is likely the essay.\n    *   Answer: **A**\n\n9.  **Metabolic Nucleus**: The nucleus is most active (transcription, RNA synthesis) during Interphase, specifically when it is in its relaxed state ( euchromatin) between divisions. During M-phase (Mitosis), the nuclear envelope breaks down. \"Metabolic nucleus\" usually refers to the active nucleus in Interphase.\n    *   Answer: **C**\n\n10. **Nobel Prize in Economics**: Established in 1968, first awarded in 1969. The question asks the year it was *implemented/started* (চালু করা হয়). It was endowed in 1968, but the first prize was given in 1969. The option 1969 is the standard answer for \"first awarded\" or \"implementation in practice\".\n    *   Answer: **A**\n\n11. **Difference between Drama and Comedy (Harshan)**:\n    Drama (Natok) is a broad genre. Comedy (Harshan/Prahasan) is a type of drama characterized by humor, satire, and farcical elements. The primary distinguishing feature is **Satire/Humor** (Byanga Bidrup).\n    *   Answer: **A**\n\n12. **Superconductivity of Lead**: The critical temperature ($T_c$) for Lead (Pb) is approximately 7.2 K.\n    Converting to Celsius: $7.2 - 273.15 = -265.95 \\approx -266^\\circ\\text{C}$.\n    *   Answer: **C**\n\n13. **HTML Superscript**: To display \"2\" in \"p2\" as a superscript (like $p^2$), the tag is `<sup>`. `/sub` is for subscript.\n    *   Answer: **B**\n\n14. **Duplicate Recessive Epistasis**:\n    Duplicate epistasis (also known as duplicate gene interaction) where two dominant genes at different loci produce the same effect.\n    The ratio is often 15:1.\n    However, \"Duplicate Recessive Epistasis\" (also called Duplicate Dominant Epistasis? No, let's be precise).\n    - Dominant Epistasis: 12:3:1\n    - Recessive Epistasis: 9:3:4\n    - Duplicate Dominant Epistasis (Two dominant alleles at either locus lead to the same phenotype): 15:1.\n    - Duplicate Recessive Epistasis?\n    Let's look at the options: 3:1, 9:7, 2:1, 13:3.\n    The ratio **9:7** is characteristic of **Complementary Gene Action** (9 wild type : 7 mutant).\n    Wait, some texts classify \"Duplicate Recessive Epistasis\" differently?\n    Actually, let's look at the standard genetic ratios.\n    13:3 is Dominant Inhibitory Epistasis.\n    9:3:4 is Recessive Epistasis.\n    15:1 is Duplicate Dominant Epistasis.\n    9:7 is Complementary.\n    Is there a \"Duplicate Recessive\" term? Usually, \"Duplicate\" implies redundancy.\n    If the question means \"Duplicate Allelic Series\" or something?\n    Let's reconsider the term \"Duplicate Recessive Epistasis\". In some contexts, if two recessive characters are involved?\n    Let's check the ratio 9:7 again. This is when interaction between two genes is required for a trait (complementary).\n    Let's check 15:1. Not an option.\n    Let's check 3:1. Monohybrid.\n    Let's check 2:1. Lethal.\n    Let's check 13:3. Inhibitory.\n    Perhaps the question refers to **Complementary** interactions but uses the term \"Duplicate Recessive\" incorrectly? Or maybe \"Duplicate Recessive\" refers to a case where the double recessive is the only one with the wild type? No, that's 9:7 (9 colored, 7 white).\n    In many biology MCQs, the ratio **9:7** is the specific modifier ratio asked for.\n    Let's assume the question asks for the ratio associated with the interaction often taught near this topic. 9:7 is the most common dihybrid distortion option listed here besides 13:3 and 9:3:4 (missing).\n    Actually, there is a concept of \"Duplicate Recessive\" in flower color where *A_B_* is one color, and *A_bb*, *aaB_*, *aabb* are another? No, that's Complementary (9:7).\n    If *A_B_*, *A_bb*, *aaB_* are one phenotype and *aabb* is another? That's 15:1 (Duplicate Dominant).\n    If *A_B_* is one, *aa __* is another, *A_bb* is another? That's Recessive Epistasis (9:3:4).\n    If *A_ __* and *__ B_* are one phenotype, and *aabb* is the other? That's 15:1.\n    If *A_B_* is one, and the rest are another? That's 9:7.\n    Given the options, **9:7** is the standard \"interaction\" ratio.\n    *   Answer: **B**\n\n15. **Adsorption Order in Chromatography**:\n    On adsorbents like silicic acid or alumina (polar stationary phases), the adsorption strength depends on the polarity of the functional groups.\n    Order of polarity/adsorption: Carboxyl (-COOH) > Amino (-NH2)? Or Hydroxyl (-OH)?\n    Generally, polar groups adsorb more strongly.\n    Typical order: -COOH > -OH > -NH2 > -CHO (or similar).\n    Wait, -NH2 can form strong H-bonds.\n    Let's look at standard order for adsorption on acidic surfaces:\n    -COOH (very strong) > -OH (strong) > -NH2 (medium/strong) > -CHO (weak).\n    Option A: -COOH > -OH > -NH2 > -CHO. This looks like the correct decreasing order of adsorption strength on typical polar adsorbents.\n    *   Answer: **A**\n\n```json\n{\"answers\": {\"b38253e1-6890-442a-b951-96068e9d8b84-143692\": \"B\", \"b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867\": \"C\", \"b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362\": \"D\", \"b4d09688-21d6-4bca-9b5f-90230b1281c9-19616\": \"B\", \"b76637b1-ac57-4517-acb9-b393f55567c8-86394\": \"A\", \"b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235\": \"C\", \"b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566\": \"B\", \"b935c5f8-8023-45af-a6ff-b42de66f722e-76058\": \"A\", \"b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393\": \"C\", \"baf737d2-079d-47b5-a982-30aba341d89f-120791\": \"A\", \"bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626\": \"A\", \"be4a3522-18fa-465a-8700-c84222c180e2-41217\": \"C\", \"c087e32c-2993-4b42-a233-2355f664e5aa-64021\": \"B\", \"c1bffdc8-5816-47ae-98af-17f1e121dd03-35387\": \"B\", \"c412b5db-8301-4709-8b13-3128e6ad966d-25201\": \"A\"}}\n```",
+ "usage": {
+  "queue_time": 0.346856575,
+  "prompt_tokens": 1831,
+  "prompt_time": 0.15010965,
+  "completion_tokens": 3952,
+  "completion_time": 9.470513457,
+  "total_tokens": 5783,
+  "total_time": 9.620623107
+ },
+ "served_by": null,
+ "answers_batch": {
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692": "B",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867": "C",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362": "D",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616": "B",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394": "A",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235": "C",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566": "B",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058": "A",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393": "C",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791": "A",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626": "A",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217": "C",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021": "B",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387": "B",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201": "A"
+ },
+ "single": {
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.098846134,
+    "prompt_tokens": 182,
+    "prompt_time": 0.014817858,
+    "completion_tokens": 2,
+    "completion_time": 0.00418139,
+    "total_tokens": 184,
+    "total_time": 0.018999248
+   },
+   "answer": "B"
+  },
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.11828447,
+    "prompt_tokens": 129,
+    "prompt_time": 0.010627238,
+    "completion_tokens": 2,
+    "completion_time": 0.004192553,
+    "total_tokens": 131,
+    "total_time": 0.014819791
+   },
+   "answer": "B"
+  },
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087872581,
+    "prompt_tokens": 168,
+    "prompt_time": 0.011984505,
+    "completion_tokens": 2,
+    "completion_time": 0.004083327,
+    "total_tokens": 170,
+    "total_time": 0.016067832
+   },
+   "answer": "D"
+  },
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.06971912,
+    "prompt_tokens": 143,
+    "prompt_time": 0.01117464,
+    "completion_tokens": 2,
+    "completion_time": 0.004190433,
+    "total_tokens": 145,
+    "total_time": 0.015365073
+   },
+   "answer": "B"
+  },
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.070866187,
+    "prompt_tokens": 283,
+    "prompt_time": 0.019746762,
+    "completion_tokens": 2,
+    "completion_time": 0.004106438,
+    "total_tokens": 285,
+    "total_time": 0.0238532
+   },
+   "answer": "C"
+  },
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087521138,
+    "prompt_tokens": 150,
+    "prompt_time": 0.010049095,
+    "completion_tokens": 2,
+    "completion_time": 0.003987604,
+    "total_tokens": 152,
+    "total_time": 0.014036699
+   },
+   "answer": "C"
+  },
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.098960075,
+    "prompt_tokens": 134,
+    "prompt_time": 0.011246325,
+    "completion_tokens": 2,
+    "completion_time": 0.00419134,
+    "total_tokens": 136,
+    "total_time": 0.015437665
+   },
+   "answer": "B"
+  },
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.151440978,
+    "prompt_tokens": 148,
+    "prompt_time": 0.010694831,
+    "completion_tokens": 2,
+    "completion_time": 0.004085028,
+    "total_tokens": 150,
+    "total_time": 0.014779859
+   },
+   "answer": "B"
+  },
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.070227044,
+    "prompt_tokens": 148,
+    "prompt_time": 0.011619443,
+    "completion_tokens": 2,
+    "completion_time": 0.004196484,
+    "total_tokens": 150,
+    "total_time": 0.015815927
+   },
+   "answer": "C"
+  },
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.151716251,
+    "prompt_tokens": 169,
+    "prompt_time": 0.014426385,
+    "completion_tokens": 2,
+    "completion_time": 0.004200991,
+    "total_tokens": 171,
+    "total_time": 0.018627376
+   },
+   "answer": "A"
+  },
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087035059,
+    "prompt_tokens": 128,
+    "prompt_time": 0.008781451,
+    "completion_tokens": 2,
+    "completion_time": 0.004260027,
+    "total_tokens": 130,
+    "total_time": 0.013041478
+   },
+   "answer": "B"
+  },
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.085614498,
+    "prompt_tokens": 140,
+    "prompt_time": 0.011295435,
+    "completion_tokens": 2,
+    "completion_time": 0.00418244,
+    "total_tokens": 142,
+    "total_time": 0.015477875
+   },
+   "answer": "C"
+  },
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.020701032,
+    "prompt_tokens": 141,
+    "prompt_time": 0.01176687,
+    "completion_tokens": 2,
+    "completion_time": 0.004201681,
+    "total_tokens": 143,
+    "total_time": 0.015968551
+   },
+   "answer": "B"
+  },
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004269645,
+    "prompt_tokens": 164,
+    "prompt_time": 0.01289943,
+    "completion_tokens": 2,
+    "completion_time": 0.0041884,
+    "total_tokens": 166,
+    "total_time": 0.01708783
+   },
+   "answer": "B"
+  },
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.117309728,
+    "prompt_tokens": 185,
+    "prompt_time": 0.015511625,
+    "completion_tokens": 2,
+    "completion_time": 0.004184201,
+    "total_tokens": 187,
+    "total_time": 0.019695826
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "b38253e1-6890-442a-b951-96068e9d8b84-143692": "B",
+  "b3b12d2a-6144-4e63-9cd4-f2dcfaf9634b-43867": "C",
+  "b3e22892-3afb-4fde-a58f-621cc2b4ed0a-137362": "D",
+  "b4d09688-21d6-4bca-9b5f-90230b1281c9-19616": "B",
+  "b76637b1-ac57-4517-acb9-b393f55567c8-86394": "A",
+  "b7c16856-e69a-46a4-b730-e75cd3a57d7e-28235": "C",
+  "b911c06f-8b3a-49c3-8ae5-b1c81d2b27ab-56566": "B",
+  "b935c5f8-8023-45af-a6ff-b42de66f722e-76058": "A",
+  "b9a55ce7-cd40-44e8-bd86-e9247c2e3cda-143393": "C",
+  "baf737d2-079d-47b5-a982-30aba341d89f-120791": "A",
+  "bcc40a34-1744-4c94-ba13-ad3879bf63ea-43626": "A",
+  "be4a3522-18fa-465a-8700-c84222c180e2-41217": "C",
+  "c087e32c-2993-4b42-a233-2355f664e5aa-64021": "B",
+  "c1bffdc8-5816-47ae-98af-17f1e121dd03-35387": "B",
+  "c412b5db-8301-4709-8b13-3128e6ad966d-25201": "A"
+ }
+}

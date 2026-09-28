@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 10.9,
+ "text": "Here are the solutions:\n\n**[10]** Month1=60, Month2=3×60=180, Month3=180−30%=126. Total=60+180+126=**366**\n\n**[11]** 3×68 + 2×80 + 6×55 = 204+160+330=**694**\n\n**[12]** Annual profit=7×1.5=10.5; net after cost=10.5−3=7.5/year; need to cover 90 → 90/7.5=**12**\n\n**[13]** x−x/3=2x/3 → after red: 2x/3−2 → half sold, half left=5 → 2x/3−2=10 → x=**18**\n\n**[14]** 100−20−25=**55**\n\n**[15]** Jewelry:5000×2.5%=125; Gadget:8000×1.2%=96 → max=**125**\n\n**[16]** 80+150=**230**\n\n**[17]** (20×35+30×15)×50=(700+450)×50=**57500**\n\n**[18]** 3×28=84 eggs → 84/12=**7**\n\n**[19]** Total time for 12mi at 4mph=3h; used 2h for 6mi; remaining 6mi in 1h → **6**\n\n```json\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 55, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2722,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1123,
+  "output_tokens_details": {
+   "thinking_tokens": 671
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2722,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1123,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2722,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2722
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.022122000000000003,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

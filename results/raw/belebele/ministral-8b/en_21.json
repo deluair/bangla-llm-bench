@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 4.1,
+ "text": "1. The passage explicitly states that the Thirty Years’ War would be the last war labeled a religious war, marking a shift to wars centered on the balance of power.\n2. The mob forced the King and Queen to have their carriage windows open, but the passage does not mention them viewing a beheading.\n3. The passage mentions that Britain’s blockade violated international law and jeopardized neutral ships, which contradicts option D.\n4. The passage emphasizes that checking a victim involves ensuring your own safety, which means you should be concerned with sustaining your own injuries.\n5. The passage states that transportation systems engender a lot of complaints.\n6. The passage states that mutations do not rely upon the type of affected mutation, but rather the type of mutation, significance of the genetic material, and whether the cells are germ-line.\n7. The passage states that the majority of tornadoes do not last over three hours or have winds up to 480 km/h, and they do not affect larger areas than other storms.\n8. The passage states that iron wheels were introduced to address the issue of wear caused by iron strips on the wooden wheels.\n\n```json\n{\n  \"answers\": {\n    \"168\": \"A\",\n    \"169\": \"C\",\n    \"170\": \"D\",\n    \"171\": \"A\",\n    \"172\": \"C\",\n    \"173\": \"D\",\n    \"174\": \"D\",\n    \"175\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1353,
+  "completion_tokens": 317,
+  "total_tokens": 1670,
+  "cost": 0.0002505,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002505,
+   "upstream_inference_prompt_cost": 0.00020295,
+   "upstream_inference_completions_cost": 4.755e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "D",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "D",
+  "174": "D",
+  "175": "D"
+ }
+}

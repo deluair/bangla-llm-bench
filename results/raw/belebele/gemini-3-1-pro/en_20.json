@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 21.5,
+ "text": "Here is the reasoning for each question:\n\n**[id 160]** The passage states that during the nomadic phase, the colony makes \"temporary nests that are changed everyday.\" This points directly to option C.\n\n**[id 161]** The passage notes that Kirby Muxloe Castle had \"large glazed windows and thin walls\" and was not designed \"to resist a determined attack for long.\" Therefore, having a strong foundation built to sustain attacks would be an atypical feature for this specific castle. This matches option B.\n\n**[id 162]** The text explicitly says that proper nutritional practices, maintaining a healthy energy balance, and effective hydration can help athletes \"increase their enjoyment of the sport.\" It also notes that these habits \"alone cannot generate elite performances,\" making B the only option that is not suggested as a way to find enjoyment. \n\n**[id 163]** The text says Raymond Damadian discovered the medical diagnostic basis for MRI in 1970, and \"Four years later a patent was granted.\" 1970 + 4 = 1974. This corresponds to option B.\n\n**[id 164]** The passage explains that understanding intention \"allows us to resolve possible ambiguities of physical actions.\" Resolving ambiguities is synonymous with eliminating uncertainty, pointing to option A.\n\n**[id 165]** The passage states, \"No longer did pressure reside within individual recall, but the ability to recall text became more of a focus.\" This indicates less emphasis was put on individual recall, which is option A.\n\n**[id 166]** The text explicitly mentions that \"as a result of the crusades people began to use buttons to fasten clothing.\" This matches option C.\n\n**[id 167]** Living more environmentally friendly and engaging in activism are described as \"symptomatic treatment.\" The author contrasts this by saying that to move beyond temporary symptomatic treatment, we must \"find the root of the problems, and we should deactivate them.\" Thus, option B is not a symptomatic treatment, but rather a permanent solution.\n\n```json\n{\"answers\": {\"160\": \"C\", \"161\": \"B\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"A\", \"166\": \"C\", \"167\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17338,
+  "output_tokens": 2659,
+  "thinking_tokens": 2143,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19997
+ },
+ "answers_batch": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

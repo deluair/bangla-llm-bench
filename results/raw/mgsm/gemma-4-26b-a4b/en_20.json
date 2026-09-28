@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 26.0,
+ "text": "[id 200]\nMorning: 5 pails, Afternoon: 6 pails. Total pails: 11. Each pail is 5 liters. Total liters: 11 * 5 = 55.\n\n[id 201]\nSalary: $2000/week. Annual salary = 2000 * 52 = 104000.\n5% raise on 2000 is $100/week. New weekly salary = $2100.\nAnnual salary with raise: 2100 * 52 = 109200.\nTotal money = $109200 (salary) + $5000 (award) = 114200.\n\n[id 202]\n10 acres * 5 tons/acre = 50 tons.\n50 tons * 2 barrels/ton = 100 barrels.\n\n[id 203]\nSandwiches (7 days): 7 * 2 = 14 slices.\nOmelets (3 days): 3 * (2 + 1) = 9 slices.\nMacaroni: 8 slices.\nTotal: 14 + 9 + 8 = 31.\n\n[id 204]\nGreen: 22, Yellow: 10.\nBlue: 6 * 9 = 54.\nRed: 2 * 6 = 12.\nTotal: 22 + 10 + 54 + 12 = 98.\n\n[id 205]\nSix tests total, remove lowest. Let the sixth test be $x$.\nScores: 89, 71, 92, 100, 86, $x$.\nThe lowest is 71. The remaining five must average 93.\n(89 + 92 + 100 + 86 + $x$) / 5 = 93\n367 + $x$ = 465\n$x$ = 98.\n\n[id 206]\nPhase 1: 5 times/week * 4 weeks = 20 rides. 20 * 25 km = 500 km.\nPhase 2: 2 times/week * 3 weeks = 6 rides. 6 * 60 km = 360 km.\nTotal: 500 + 360 = 860.\n\n[id 207]\nChocolate bar: 40g.\nCandied apple: 40 / 2 = 20g.\nTotal weight: (25 * 40) + (80 * 20) = 1000 + 1600 = 2600.\n\n[id 208]\nMonday: 4 cakes.\nTuesday: 4 * 3 = 12 cakes.\nWednesday: 12 * 5 = 60 cakes.\nTotal: 4 + 12 + 60 = 76.\n\n[id 209]\nHalf a dozen plates = 6 plates.\nTotal cost of plates = 6 * 6000 = 36000.\nCost of cups = 36000 - 1200 = 34800.\nNumber of cups = 20 dozen = 20 * 12 = 240.\nCost per cup = 34800 / 240 = 3480 / 24 = 145.\n\n[id 210]\nNote: Problem ID 210 was not provided in the prompt. I will stop at 209.\n\nWait, there are only 10 problems? Let's count.\n200, 201, 202, 203, 204, 205, 206, 207, 208, 209. Yes, 10.\n\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}",
+ "usage": {
+  "prompt_tokens": 824,
+  "completion_tokens": 1036,
+  "total_tokens": 1860,
+  "cost": 0.00052152,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00052152,
+   "upstream_inference_prompt_cost": 0.00010712,
+   "upstream_inference_completions_cost": 0.0004144
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Novita",
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

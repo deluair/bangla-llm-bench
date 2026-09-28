@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  7112,
+  7194,
+  7212,
+  7229,
+  7264,
+  7298,
+  7302,
+  7335,
+  7351,
+  7371,
+  7453,
+  7567,
+  7825,
+  8124,
+  8144
+ ],
+ "seconds": 11.9,
+ "text": "The questions are answered based on the concepts of marketing, genetics, business, and general knowledge.\n\n[7112] Low contact services are characterized by minimal interaction between customer and provider. **(A)**\n[7194] Opinion leaders are individuals who influence others' opinions through mass media. **(D)**\n[7212] In marketing, a \"product\" is a broad concept including satisfaction of needs. **(B)**\n[7229] Optimizing website structure for search engines is called Search Engine Optimization (SEO). In Bengali, \"সার্চ ইঞ্জিন অপ্টিমাইজেশন\" is often transliterated or described by its function; option B translates to \"Search engine optimization\". **(B)**\n[7264] This is a gap between service quality specifications and actual service delivery (Gap 3). **(C)**\n[7298] Monosomy is the loss of a chromosome. 45,X (Turner syndrome) is an example. **(D)**\n[7302] Siblings (brother/sister) share a 50% chance of the same HLA haplotype, whereas parents/children share 50% but the question asks who is *most likely* to share a \"common\" haplotype (implying identical/same), which is most often a sibling in the context of testing. However, technically, siblings have a 25% chance of being HLA identical. Given the options, Siblings (Ben/Bon) is the standard answer in medical genetics questions of this type. **(C)**\n[7335] For a 5000 bp genome and a 4-base sequence (4^4 = 256 bp), 5000/256 ≈ 19.5. Option C is the closest. **(C)**\n[7351] Tay-Sachs disease is autosomal recessive, not X-linked. **(B)**\n[7371] Achondroplasia is caused by a dominant mutation that interferes with bone growth, often classified as a dominant-negative effect. **(A)**\n[7453] M&M's colors are famously red and yellow (along with blue, brown, green). However, the question asks for the *first two*. Traditionally, the classic colors were Red and Yellow. **(B)**\n[7567] A monopolist faces a downward-sloping demand curve, so to sell more, they must lower the price. **(B)**\n[7825] Burt Reynolds famously drove the Pontiac Trans Am in 'Smokey and the Bandit'. **(D)**\n[8124] Soil texture refers to the relative proportion of sand, silt, and clay. **(B)**\n[8144] Spinning classes typically use stationary cycles. **(A)**\n\n{\"answers\": {\"7112\": \"A\", \"7194\": \"D\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"C\", \"7298\": \"D\", \"7302\": \"C\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"A\", \"7453\": \"B\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"B\", \"8144\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1257,
+  "completion_tokens": 750,
+  "total_tokens": 2007,
+  "cost": 0.000217794,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000217794,
+   "upstream_inference_prompt_cost": 5.2794e-05,
+   "upstream_inference_completions_cost": 0.000165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "7112": "A",
+  "7194": "D",
+  "7212": "B",
+  "7229": "B",
+  "7264": "C",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "A",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "B",
+  "8144": "A"
+ },
+ "answers_batch": {
+  "7112": "A",
+  "7194": "D",
+  "7212": "B",
+  "7229": "B",
+  "7264": "C",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "A",
+  "7453": "B",
+  "7567": "B",
+  "7825": "D",
+  "8124": "B",
+  "8144": "A"
+ },
+ "single": {}
+}

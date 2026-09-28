@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "7112",
+  "7194",
+  "7212",
+  "7229",
+  "7264",
+  "7298",
+  "7302",
+  "7335",
+  "7351",
+  "7371",
+  "7453",
+  "7567",
+  "7825",
+  "8124",
+  "8144"
+ ],
+ "seconds": 68.8,
+ "text": "# Analysis of Multiple-Choice Exam Questions\n\nLet me work through each question:\n\n**[7112]** Service communication levels - When there's little/no personal contact between customer and provider, this is **low contact service**.\n\n**[7194]** Advertising method using TV/radio to inform large audiences describes **public relations**.\n\n**[7212]** In marketing, \"proposition\" is a **broad concept including customer satisfaction**, not just tangible objects.\n\n**[7229]** Optimizing website structure and content for organic search engine rankings is **Search Engine Optimization (SEO)**.\n\n**[7264]** Train operator understands customer needs but fails to specify service specifications - this is **GAP 2** (between management perception and service specification).\n\n**[7298]** Monosomy example: **45,X** (Turner syndrome - missing one sex chromosome).\n\n**[7302]** For HLA haplotype sharing: While parents/children always share 1 haplotype (100%), **siblings** have the best overall match potential (25% chance of perfect match) for transplantation purposes.\n\n**[7335]** Recognition site probability for 4-base sequence: 5,000 bp ÷ 256 possible sequences ≈ **20 fragments**.\n\n**[7351]** Among these, **Tay-Sachs disease** is autosomal recessive, not X-linked. The others (DMD, Hemophilia A and B) are X-linked.\n\n**[7371]** Achondroplasia is a **gain-of-function** mutation - the mutant protein actively signals abnormally.\n\n**[7453]** Original M&Ms: **Peanut and Plain**.\n\n**[7567]** In a monopoly, the seller **must reduce price on all units to sell additional output** due to the downward-sloping demand curve.\n\n**[7825]** Burt Reynolds drove a **Trans Am** in Smokey and the Bandit (1977 Pontiac Trans Am).\n\n**[8124]** Soil structure refers to the **arrangement of soil particles**.\n\n**[8144]** Spinning classes use a **stationary bike**.\n\n```json\n{\"answers\": {\"7112\": \"A\", \"7194\": \"C\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"A\", \"7298\": \"D\", \"7302\": \"C\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"B\", \"7453\": \"A\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"A\", \"8144\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 3448,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6409,
+  "output_tokens_details": {
+   "thinking_tokens": 5788
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3448,
+    "output_tokens": 6409,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.035493,
+ "answers_batch": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "A",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ },
+ "single": {},
+ "answers": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "C",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "A",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ }
+}

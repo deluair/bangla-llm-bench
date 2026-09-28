@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 12.2,
+ "text": "A) There is usually a disconnect between speakers of both languages (Incorrect)\nB) They differ in script (Correct)\nC) They are similar in both vocabulary and script (Incorrect)\nD) They differ in vocabulary (Incorrect)\n\nThe correct answer is B) They differ in script.\n\nA) Sejong (Incorrect)\nB) Hangeul (Incorrect)\nC) Joseon (Incorrect)\nD) Jeongeum (Correct)\n\nThe correct answer is D) Jeongeum.\n\nA) Complexity (Correct)\nB) Aryan migration (Incorrect)\nC) Latin languages (Incorrect)\nD) Hierarchy (Incorrect)\n\nThe correct answer is A) Complexity.\n\nA) On the near side (Correct)\nB) Where there’s more maria (Incorrect)\nC) Under the highlands (Incorrect)\nD) Under the maria (Incorrect)\n\nThe correct answer is A) On the near side.\n\nA) It’s the second longest river (Correct)\nB) It’s the biggest river (Correct)\nC) It’s the longest river (Incorrect)\nD) It’s the widest river (Correct)\n\nThe correct answer is A) It’s the second longest river.\n\nA) Service (Correct)\nB) Agriculture (Incorrect)\nC) Industry (Incorrect)\nD) Oil (Incorrect)\n\nThe correct answer is A) Service.\n\nA) Hydrogen (Incorrect)\nB) Stars (Incorrect)\nC) Atoms (Incorrect)\nD) Energy (Correct)\n\nThe correct answer is D) Energy.\n\nA) Hydrogen (Incorrect)\nB) Stars (Incorrect)\nC) Atoms (Incorrect)\nD) Energy (Correct)\n\nThe correct answer is D) Energy.\n\nA) Capturing African countries (Correct)\nB) Building a stronger army and navy (Incorrect)\nC) Getting rid of Egyptian ships (Incorrect)\nD) Establishing British bases (Incorrect)\n\nThe correct answer is A) Capturing African countries.\n\n{\"answers\": {\"200\": \"B\", \"201\": \"D\", \"202\": \"D\", \"203\": \"C\", \"204\": \"D\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1245,
+  "completion_tokens": 438,
+  "total_tokens": 1683,
+  "cost": 4.242e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.242e-05,
+   "upstream_inference_prompt_cost": 2.49e-05,
+   "upstream_inference_completions_cost": 1.752e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "200": "B",
+  "201": "D",
+  "202": "D",
+  "203": "C",
+  "204": "D",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "D",
+  "202": "D",
+  "203": "C",
+  "204": "D",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

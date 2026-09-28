@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 10.2,
+ "text": "**Solutions:**\n\n- **210:** Total cost = $30 + 2×$20 = $70. Earned from babysitting = 4×$5=$20. Total saved before mowing = $10+$20=$30. Remaining needed = $40. Mowing times = $40/$4 = **10**\n\n- **211:** Let red = R, white = R+2. 3R + 5(R+2) = 42 → 8R = 32 → R = **4**\n\n- **212:** Perimeter = 2×(1.5+6) = 15 miles. Time = 15/3 = **5**\n\n- **213:** Day1=100, Day2=150, Day3 = 500-100-150 = **250**\n\n- **214:** Let small (4 min ago)=S, large=2S. After 4 min both lose 16 gal: Large-16... actually large=2S-16, small=S-16, and 2S-16=4(S-16) → S=24 → small now = 24-16=**8**\n\n- **215:** Total cost = $320+$32=$352. Hours = 352/8 = **44**\n\n- **216:** Total owed = 2000×1.10=$2200. Paid = 165×12=$1980. Remaining = **220**\n\n- **217:** Roses=4, Dahlias=4+7=11, Total = **15**\n\n- **218:** Harriet=21, Adrian=63, Jack=42. In 3 yrs: 24,66,45 → avg = 135/3 = **45**\n\n- **219:** Yuri=78, Briana=85. Sum=68+78+85=231. Jojo = 251-231 = **20**\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2592,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1199,
+  "output_tokens_details": {
+   "thinking_tokens": 614
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2592,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1199,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2592,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2592
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.022362,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

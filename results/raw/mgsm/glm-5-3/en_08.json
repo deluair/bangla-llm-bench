@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 16.9,
+ "text": "Here are the solutions:\n\n**[id 80]** Each girl: 24 × 1/6 = 4 L, so two girls took 8 L. Boy took 6 L. Left: 24 − 8 − 6 = **10**\n\n**[id 81]** 10 + 21 + 23 = 54; 54 − 9 − 28 = **17**\n\n**[id 82]** Alex: 4 × 125 − 2 = 498. Combined: 125 + 498 = **623**\n\n**[id 83]** 3 × 25 × 8 = **600**\n\n**[id 84]** W + L = 22, W − L = 8 → 2W = 30 → W = **15**\n\n**[id 85]** Years: 34 − 23 = 11; blocks: 11 × 4 = **44**\n\n**[id 86]** First: 4; second: 3 × 4 = 12; third: 12 ÷ 2 = 6. Total: 4 + 12 + 6 = **22**\n\n**[id 87]** Increase: 10% of $600 = $60/month each year. After 3 more years: 600 + 3(60) = $780/month → 780 × 12 = **9360**\n\n**[id 88]** Harald = x, Marilyn = 10x; 11x = 88,000 → x = **8000**\n\n**[id 89]** Bags: 16 × 0.75 = 12; cost: 12 × $2 = **24**\n\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 24}}",
+ "usage": {
+  "completion_tokens": 1455,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1027
+  },
+  "prompt_tokens": 626,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2081
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

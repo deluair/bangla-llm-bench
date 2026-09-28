@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 24.7,
+ "text": "[id 230] \nCost of cars = 12 * $20,000 = $240,000. \nTax = 10% of $240,000 = $24,000.\nRegistration = 12 * $1,000 = $12,000.\nTotal = $240,000 + $24,000 + $12,000 = 276,000.\n\n[id 231]\nMonday: Kylie collects 20 + 5 = 25 shells.\nTuesday: Kylie collects 2 * 25 = 50 shells.\n\n[id 232]\nAnts = 50. \nBugs = 50 / 2 = 25.\nTotal = 50 + 25 = 75.\n\n[id 233]\nJump in ocean = 36 / 3 = 12.\nGo inside cave = 36 / 3 = 12.\nLeft sunbathing = 36 - 12 - 12 = 12.\n\n[id 234]\nSteve eats 6 per day. His girlfriend eats 6 / 2 = 3 per day. \nTotal eaten per day = 9. \nTotal eaten per week = 9 * 7 = 63. \nNumber of vines needed = 63 / 3 = 21 vines.\n\n[id 235]\n20 friends * 4 slices each = 80 slices needed.\n80 slices / 8 slices per pizza = 10 pizzas.\n\n[id 236]\nInitial pens = 25. \nEmpty 25 pens make 25 / 5 = 5 new pens.\nEmpty 5 pens make 5 / 5 = 1 new pen.\nTotal pens = 25 + 5 + 1 = 31 pens.\n\n[id 237]\nMoney to invest = $20 + $10 = $30.\nAfter a year = $30 * 3 = $90.\n\n[id 238]\nJessa = 20.\nJoan = 20 + 5 = 25.\nMary = 25 - 2 = 23.\nSum of ages = 20 + 25 + 23 = 68.\n\n[id 239]\nStudents exiting A = 30% of 1000 = 300.\nRemaining = 1000 - 300 = 700.\nStudents exiting B = 3/5 of 700 = 420.\nStudents exiting C = 700 - 420 = 280.\n\n```json\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}\n```\n",
+ "usage": {
+  "input_tokens": 16697,
+  "output_tokens": 2851,
+  "thinking_tokens": 2096,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19548
+ },
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

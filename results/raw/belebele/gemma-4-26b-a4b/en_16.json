@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 18.0,
+ "text": "The questions are answered based on the provided passages:\n\n[128] The passage states a contagious disease is \"easily transmitted by being in the vicinity of an infected person.\" Thus, A is the correct answer.\n[129] The passage states, \"Because calls are routed over the Internet, you do not need to use a phone company located where you live...\" Thus, A is the correct answer.\n[130] The passage states \"most words are pronounced exactly how they are written.\" Option D suggests the pronunciation of *most* words vary depending on the vowel, which contradicts \"most words are pronounced exactly how they are written.\" Thus, D is the correct answer.\n[131] The passage mentions religious significance, cultural sites, and historic sites as reasons for tourism. It does not list its status as the capital as a reason for tourism. Thus, B is the correct answer.\n[132] The passage states, \"take care in the steeper portions, especially when wet, as it can become dangerous quickly.\" Thus, A is the correct answer.\n[133] The passage states \"Moldova is a multi-ethnic republic that has suffered from ethnic conflict. In 1994, this conflict led to the creation of the self-proclaimed Transnistria Republic...\" Thus, B is the correct answer.\n[134] The passage warns, \"Beware: small-town bars here are not always good places for the out-of-state visitor to hang out.\" Thus, B is the correct answer.\n[135] The passage states \"Fruit juices are pricey but excellent.\" \"Pricey\" implies they might be avoided by budget-conscious travelers. Thus, D is the correct answer.\n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1431,
+  "completion_tokens": 433,
+  "total_tokens": 1864,
+  "cost": 0.00017246,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017246,
+   "upstream_inference_prompt_cost": 8.586e-05,
+   "upstream_inference_completions_cost": 8.66e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

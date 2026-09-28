@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 0.5,
+ "text": "{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.136972357,
+  "prompt_tokens": 1364,
+  "prompt_time": 0.10021362,
+  "completion_tokens": 52,
+  "completion_time": 0.100446809,
+  "total_tokens": 1416,
+  "total_time": 0.200660429
+ },
+ "served_by": null,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ }
+}

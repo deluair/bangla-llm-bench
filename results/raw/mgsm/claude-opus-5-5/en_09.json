@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 10.0,
+ "text": "- **90:** 20 adults eat 10 lbs each, which is 200 lbs. 5 children eat 5 lbs each, which is 25 lbs. The total is **225 lbs**.\n- **91:** Cindy has 4, so Marcia has 6 and Jan has 18. The total is **28 pets**.\n- **92:** James is 10, so Corey is 11. Amy is 2 years younger than Corey, so she is 9. Jackson is 5 years younger than Amy, so he is **4**.\n- **93:** Gerald originally ran 38 + 2 = 40 s. A 10% improvement takes off 4 s, so he now runs **36 seconds**.\n- **94:** There are 60 dogs and 120 cats. Rabbits are 180 − 12 = 168. The total is **348 pets**.\n- **95:** 3/5 of 200 students are girls, which is 120. 1/3 of them are not in the girl scout, so the answer is **40**.\n- **96:** James slept 2/3 × 9 = 6 hours. Harry slept 9 − 6 = **3** more hours.\n- **97:** 32 oz of sauce needed 64 oz of canned tomatoes. That is 4 cans, and 4 × 3 = **12 tomatoes**.\n- **98:** 30 − 5 = 25 cars drove through the jam. 25 − 20 = **5** drove through in the first 15 minutes.\n- **99:** She has 18 + 80 = 98 plants and gives away 40, leaving **58**.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1501,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1054,
+  "output_tokens_details": {
+   "thinking_tokens": 476
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1501,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1054,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1501,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1501
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.033096,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

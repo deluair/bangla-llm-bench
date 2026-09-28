@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 8.0,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 216]**: The passage states that the composition of the crystals found in the urine of affected pets was compared using infrared spectroscopy (FTIR). Thus, **B** is correct.\n- **[id 217]**: The text explicitly notes that South Africa \"steadily improved as the tournament progressed,\" corresponding to **D**.\n- **[id 218]**: The text states that Hu \"did not set a figure for the cuts,\" making **D** the item not mentioned.\n- **[id 219]**: Norman Lamb MP is expected to take the Business Minister post vacated by Ed Davey, so **A** is correct.\n- **[id 220]**: Leonov led the Soviet part of the Apollo–Soyuz mission, corresponding to **B**.\n- **[id 221]**: The study simulated observations of tidal forces between the dark matter of the Sagittarius galaxy and the Milky Way, so **D** is correct.\n- **[id 222]**: The text specifies that \"Liberal criticism\" focused on the reconstruction contracts, pointing to **B**.\n- **[id 223]**: eBay aims to gain popularity in regions such as China, Eastern Europe, and Brazil, which represents expanding into new territories (**B**).\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25098,
+  "output_tokens": 2034,
+  "thinking_tokens": 1676,
+  "cache_read_tokens": 0,
+  "total_tokens": 27132
+ },
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

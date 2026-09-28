@@ -1,0 +1,69 @@
+{
+ "task": "mmlu",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 102.4,
+ "text": "[id 5669] Federalist No. 15, written by Alexander Hamilton, argues that the central defect of the Articles of Confederation was the lack of a strong national government with the power to enforce laws and address national issues. This matches option C.\n\n[id 5751] The excerpt describes Lincoln's landslide reelection in 1864, noting his overwhelming support among Union soldiers and the Republican congressional gains. The election occurred during the Civil War, and the heavy soldier vote and overall result are best explained by Union military successes bolstering support for Lincoln, making B the most supported conclusion.\n\n[id 5807] John C. Calhoun's \"Exposition and Protest\" asserted state sovereignty and the right of states to judge federal overreach. This language closely parallels that of the New England Federalists at the Hartford Convention, who protested the War of 1812 and discussed state interposition, making B the correct choice.\n\n[id 5817] Thomas Jefferson's quote emphasizes that institutions must evolve with changing human understanding. The Nineteenth Amendment (1920), extending voting rights to women, reflects a later societal expansion of rights and enlightenment about gender equality, directly embodying Jefferson's sentiment.\n\n[id 5849] The liberal policies and cultural changes of the 1960s prompted a significant conservative backlash. The rise of the New Right and Republican mobilization to defend traditional values and limit government power was a major unintended consequence, so B is correct.\n\n[id 5924] Halima Ghomri notes that Algerian independence brought freedom but no economic or social improvement. This is characteristic of many post-colonial situations where the focus on national liberation overshadowed the implementation of social and economic reforms, making D the best answer.\n\n[id 5973] Gandhi's 1921 message advocates boycotting foreign cloth as part of the non-cooperation movement. The ultimate undermining of British colonial rule in India was most assisted by World War II, which devastated Britain and made its continued control of India untenable.\n\n[id 6006] The excerpt details widespread Spanish exploitation, forced labor, and mestizaje in the mines. A major contrast with English colonization is that English settlers widely discouraged intermingling with Native Americans, whereas Spanish colonial society incorporated significant mixing. Thus, C is correct.\n\n[id 6073] De Gouges laments that women were excluded from the rights of the French Revolution, while Ghomri notes that Algerian peasants saw little benefit from independence. Both illustrate that the liberties won by revolutions are not always distributed evenly across society, supporting C.\n\n[id 6083] Nkrumah describes non-alignment and cooperation with capitalist, socialist, and mixed-economy states. This directly references the competing ideological blocs of the Cold War, making A the correct answer.\n\n[id 6118] In developmental psychology and gerontology, differences in personality traits across age groups are generally attributed to cohort effects (generational upbringing and experiences) rather than to aging itself.\n\n[id 6123] Hospice care is specifically designed for terminally ill patients with a prognosis of about six months or less; it focuses on pain relief, comfort, and keeping patients at home while ceasing curative, life-prolonging technologies.\n\n[id 6199] A living will is an advance directive in which individuals specify which medical interventions they do or do not want if they become unable to communicate their wishes.\n\n[id 6202] A common theme in retirement advice is that one should not retire without having hobbies, interests, or a plan to stay engaged; otherwise, retirement can lead to boredom and loss of purpose.\n\n[id 6212] The Eden Alternative is an approach to elder care that transforms nursing homes by introducing plants, animals, and regular interaction with children to create a more lively, home-like community.\n\n{\"answers\": {\"5669\": \"C\", \"5751\": \"B\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"D\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"D\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"D\", \"6212\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 3958,
+  "completion_tokens": 8357,
+  "total_tokens": 12315,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7476
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "D",
+  "6212": "D"
+ }
+}

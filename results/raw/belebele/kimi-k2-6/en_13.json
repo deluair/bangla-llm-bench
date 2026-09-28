@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 48.0,
+ "text": "[id 104]: The passage says the find confirms **some** dinosaurs had feathers, not “most.” Colors, non-flight function, and evolutionary insight are all explicitly mentioned results. → **D**\n\n[id 105]: The passage states the scarps were found **all over** the moon, so claiming there were “not many” contradicts the text. → **D**\n\n[id 106]: The passage lists extreme weather, the amount of ice, and the thickness of ice as problems. Melting ice is never mentioned and contradicts the described conditions. → **D**\n\n[id 107]: The passage explicitly says the two beams were rigged to **point skywards**, i.e., toward the sky. → **A**\n\n[id 108]: The suspect was detained **after sustaining injuries**, so stating he was uninjured is false. → **D**\n\n[id 109]: AOL **instigated** the charges; it was not the party being charged. → **D**\n\n[id 110]: The passage directly states **ASUS** was awarded the 2007 Taiwan Sustainable Award. → **C**\n\n[id 111]: The plane aborted **once** and disappeared during its **second** approach, meaning it tried to land twice, not three times. → **C**\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1244,
+  "completion_tokens": 1918,
+  "total_tokens": 3162,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1607
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

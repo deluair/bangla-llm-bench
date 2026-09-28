@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 38.8,
+ "text": "The passage states that during the nomadic phase, the colony makes temporary nests that are changed every day.\n- A: Incorrect (they march at night).\n- B: Incorrect (they make temporary nests).\n- C: Correct.\n- D: Incorrect (they change them daily).\n\nThe passage describes Kirby Muxloe Castle as having \"large glazed windows and thin walls\" which would not resist a \"determined attack,\" suggesting these features were part of its construction rather than atypical for its specific context. However, the question asks what would be considered *atypical* for the castle *during the time period described*. The passage notes the castle is \"more of a fortified house than a true castle\" and mentions it was built when the country was \"relatively peaceful.\" This implies that features meant for heavy defense (like a foundation built to sustain attacks) would be atypical for a structure built in a peaceful era where only small bands of marauders were a concern.\n- A: The passage says it *has* large windows.\n- B: Correct (given the context of peace and the description as a \"fortified house\").\n- C: The passage says it *is* less fortified.\n- D: The passage says it *has* thin walls.\n\nThe passage says proper nutrition, hydration, and energy balance can help athletes \"increase their enjoyment of the sport.\" It explicitly states that proper nutritional practices *alone cannot* generate elite performances.\n- A: Suggested.\n- B: Not suggested as a way to find enjoyment (and stated as not being guaranteed by nutrition).\n- C: Suggested.\n- D: Suggested.\n\nThe passage states: \"In the year 1970, Raymond Damadian... discovered the basis for using magnetic resonance imaging... Four years later a patent was granted...\" 1970 + 4 = 1974.\n- A: 1977 (construction of the scanner).\n- B: 1974 (correct).\n- C: 1930 (discovery of NMR).\n- D: 1970 (discovery of the basis for medical diagnosis).\n\nThe passage states: \"Among these abilities, understanding the intention of others is crucial. It allows us to resolve possible ambiguities of physical actions.\"\n- A: Correct (resolving ambiguities is equivalent to eliminating uncertainty).\n- B: This is a separate ability mentioned.\n- C: Incorrect (the example shows intention leads to *better* judgment).\n- D: This is the overarching ability, not what understanding intention specifically helps to do.\n\nThe passage says: \"No longer did pressure reside within individual recall, but the ability to recall text became more of a focus.\"\n- A: Correct (less emphasis on individual recall).\n- B: Incorrect (obtaining knowledge was still the goal).\n- C: Incorrect (emphasis increased on text recall).\n- D: Incorrect (the text mentions dissemination changed, but not that it was less emphasized).\n\nThe passage states: \"...one of the biggest developments of the time as a result of the crusades people began to use buttons to fasten clothing.\"\n- A: Gothic period (context).\n- B: Byzantine era (influence).\n- C: Correct.\n- D: Middle Ages (general period).\n\nThe passage defines \"symptomatic treatment\" as living more friendly to the environment, joining the movement, and being activists. It defines the \"root of the problems\" as things to be deactivated.\n- A: Symptomatic.\n- B: Not symptomatic (it's a permanent/root solution).\n- C: Symptomatic (addressing lifestyle).\n- D: Symptomatic.\n\n{\"answers\": {\"160\": \"C\", \"161\": \"B\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"A\", \"166\": \"C\", \"167\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1372,
+  "completion_tokens": 838,
+  "total_tokens": 2210,
+  "cost": 0.00024992,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024992,
+   "upstream_inference_prompt_cost": 8.232e-05,
+   "upstream_inference_completions_cost": 0.0001676
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 25.2,
+ "text": "Brief reasoning for each:\n\n- **88**: The passage explicitly states Lo Piccolo was Provenzano's right hand in Palermo → **B**\n- **89**: Being chairman of the All Japan Judo Federation Training Committee was a position/role, not an honor or award → **B**\n- **90**: The passage says he fled from a marriage (a commitment) in Nepal → **B**\n- **91**: Fisichella crashed right at the start; Alonso (who was leading) retired after that, and Schumacher retired after Alonso → **B**\n- **92**: Emma Stone was nominated for Best Actress → **C**\n- **93**: Caroline Wilson was OHA's (Oakland Housing Authority) representative who stole the deposits → **C**\n- **94**: Of ~24,000 known meteorites, about 34 have been verified to originate from Mars → **D**\n- **95**: Schumacher retired in 2006 after winning his seventh Formula 1 championship → **B**\n\n{\"answers\": {\"88\": \"B\", \"89\": \"B\", \"90\": \"B\", \"91\": \"B\", \"92\": \"C\", \"93\": \"C\", \"94\": \"D\", \"95\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 2024,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1659
+  },
+  "prompt_tokens": 4727,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6751
+ },
+ "served_by": null,
+ "answers_batch": {
+  "88": "B",
+  "89": "B",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "B",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ }
+}

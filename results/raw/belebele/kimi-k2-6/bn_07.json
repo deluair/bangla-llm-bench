@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 192.7,
+ "text": "Based on the passages provided:\n\n**56:** The passage states Germany prepared to attack the British Isles and code-named this operation \"Operation Sea Lion.\" Thus, it was an attack **on Britain**.  \n**57:** The passage mentions Italy needed a launching pad, had to eliminate British bases/ships in Egypt, but building additional ships is mentioned only as background, not as a necessary step for the African campaign.  \n**58:** The passage explicitly says the Soviet Union violated the Riga peace treaty by invading eastern Poland.  \n**59:** The passage mentions a Fire Captain and hot weather, but does not state there was a fire in Santa Clara.  \n**60:** The first sentence clearly states the prison was set on fire during the riot.  \n**61:** The passage says each program would provide recommendations for books.  \n**62:** Officials argued the tree was dangerous and should be cut down; they did not say it should be preserved (it was saved by a court order).  \n**63:** The passage explicitly states Poland decided not to ratify the ACTA treaty after protests.  \n\n{\"answers\": {\"56\": \"B\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 3314,
+  "completion_tokens": 9305,
+  "total_tokens": 12619,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9032
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

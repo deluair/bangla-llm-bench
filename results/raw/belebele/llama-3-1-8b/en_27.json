@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 29.3,
+ "text": "Here are the answers to the multiple-choice questions:\n\n{id 216}\nPassage: Both cyanuric acid and melamine were found in urine samples from pets that died after consuming contaminated pet food. The two compounds react with one another to form crystals that may block kidney function, researchers at the university said. The researchers observed crystals formed in cat urine by the addition of melamine and cyanuric acid. The composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy (FTIR).\nQuestion: What did researchers use infrared spectroscopy to observe?\nAnswer: B) Crystal composition in pet urine\n\n{id 217}\nPassage: The games kicked off at 10:00am with great weather and apart from mid morning drizzle which quickly cleared up, it was a perfect day for 7's rugby. Tournament top seeds South Africa started on the right note when they had a comfortable 26 - 00 win against 5th seeded Zambia. Looking decidedly rusty in the game against their southern sisters, South Africa however steadily improved as the tournament progressed. Their disciplined defence, ball handling skills and excellent team work made them stand out and it was clear that this was the team to beat.\nQuestion: According to the passage, when did South Africa’s game begin to improve?\nAnswer: D) As the tournament went on\n\n{id 218}\nPassage: \"\"\"We will endeavour to cut carbon dioxide emissions per unit of GDP by a notable margin by 2020 from the 2005 level,\"\" Hu said. He did not set a figure for the cuts, saying they will be made based on China's economic output. Hu encouraged developing countries \"\"to avoid the old path of polluting first and cleaning up later.\"\" He added that \"\"they should not, however, be asked to take on obligations that go beyond their development stage, responsibility and capabilities.\"\"\"\nQuestion: What was not mentioned by Hu?\nAnswer: D) A figure for the carbon emission cuts\n\n{id 219}\nPassage: The Director of Public Prosecutions, Kier Starmer QC, gave a statement this morning announcing the prosecution of both Huhne and Pryce. Huhne has resigned and he will be replaced in the Cabinet by Ed Davey MP. Norman Lamb MP is expected to take the Business Minister job Davey is vacating. Huhne and Pryce are scheduled to appear at the Westminster Magistrates Court on February 16.\nQuestion: Who will assume the role of Business Minister in the wake of the prosecution?\nAnswer: A) Lamb\n\n{id 220}\nPassage: \"Leonov, also known as \"\"cosmonaut No. 11\"\", was part of the Soviet Union's original team of cosmonauts. On March 18, 1965, he performed the first manned extravehicular activity (EVA), or \"\"spacewalk\"\", remaining alone outside the spacecraft for just over twelve minutes. He received the \"\"Hero of the Soviet Union\"\", the Soviet Union's highest honor, for his work. Ten years later, he led the Soviet part of the Apollo–Soyuz mission symbolizing that the Space Race was over.\"\nQuestion: Leonov led the Soviet part of which mission?\nAnswer: B) Apollo-Soyuz\n\n{id 221}\nPassage: The work done was mostly theoretical, but the program was written to simulate observations made of the Sagittarius galaxy. The effect the team was looking for would be caused by tidal forces between the galaxy's dark matter and the Milky Way's dark matter. Just like the moon exerts a pull on the earth, causing tides, so does the Milky Way exert a force on the Sagittarius galaxy. The scientists were able to conclude that the dark matter affect other dark matter in the same way regular matter does. This theory says that most dark matter around a galaxy is located around a galaxy in a kind of halo, and is made of lots of small particles.\nQuestion: Scientists were observing the matter of which of the following?\nAnswer: D) The Sagittarius galaxy and the Milky Way\n\n{id 222}\nPassage: \"The debate was sparked by controversy over spending on relief and reconstruction in the wake Hurricane Katrina; which some fiscal conservatives have humorously labeled \"\"Bush's New Orleans Deal.\"\" Liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts to perceived Washington insiders.\"\nQuestion: Who is criticizing the reconstruction contracts for Hurricane Katrina’s relief efforts?\nAnswer: B) Liberals\n\n{id 223}\nPassage: It is the biggest acquisition in eBay's history. The company hopes to diversify its profit sources and gain popularity in areas where Skype holds a strong position, such as China, Eastern Europe, and Brazil.\nQuestion: What is eBay seeking to achieve with the acquisition?\nAnswer: C) Raise its profile\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1218,
+  "completion_tokens": 1033,
+  "total_tokens": 2251,
+  "cost": 6.568e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.568e-05,
+   "upstream_inference_prompt_cost": 2.436e-05,
+   "upstream_inference_completions_cost": 4.132e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "C"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "C"
+ }
+}

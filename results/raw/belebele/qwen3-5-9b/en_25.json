@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 30.5,
+ "text": "\n\nQuestion [id 200]:\nThe passage states that Hindi and Urdu are \"similar in vocabulary but different in script\". Therefore, statement B (\"They differ in script\") is true. Statement A contradicts the text (\"usually understand each other\"). Statement C is false (script differs). Statement D is false (vocabulary similar).\n\nQuestion [id 201]:\nThe passage explains that the King originally named the alphabet \"Hunmin Jeongeum\". It is later referred to as \"Hangeul\". Thus, the name was changed to Hangeul. Answer B.\n\nQuestion [id 202]:\nThe passage explicitly states: \"Sanskrit just faded due to hierarchy.\" Answer D.\n\nQuestion [id 203]:\nThe passage notes the crust is \"100 km thick on the far side\" and \"thicker under the highlands\". It is thinner under the maria. Therefore, the thickest point is under the highlands. Answer C.\n\nQuestion [id 204]:\nThe passage identifies the Amazon as the \"second longest\". Option C states it is \"the longest\", which is not attributed in the text. Answers A, B, and D are supported by the text. Answer C.\n\nQuestion [id 205]:\nThe passage states \"Two thirds of Venezuelans who work do so in the service sector\". This is the largest proportion compared to industry (a quarter) and agriculture (a fifth). Answer A.\n\nQuestion [id 206]:\nThe passage says the reactor is working to \"make energy in the same way\" (as stars). Thus, it creates energy. Answer D.\n\nQuestion [id 207]:\nThe passage explicitly states \"Italy's main goals were African countries.\" This corresponds to capturing African countries. Answer A.\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1303,
+  "completion_tokens": 5336,
+  "total_tokens": 6639,
+  "cost": 0.0009307,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009307,
+   "upstream_inference_prompt_cost": 0.0001303,
+   "upstream_inference_completions_cost": 0.0008004
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4883,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

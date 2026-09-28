@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 7.1,
+ "text": "{\"answers\": {\"24\": \"B\", \"25\": \"A\", \"26\": \"B\", \"27\": \"C\", \"28\": \"D\", \"29\": \"B\", \"30\": \"A\", \"31\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.142212151,
+  "prompt_tokens": 2358,
+  "prompt_time": 0.112739143,
+  "completion_tokens": 2768,
+  "completion_time": 5.828864605,
+  "total_tokens": 5126,
+  "total_time": 5.941603748,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2708
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "24": "B",
+  "25": "A",
+  "26": "B",
+  "27": "C",
+  "28": "D",
+  "29": "B",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "B",
+  "25": "A",
+  "26": "B",
+  "27": "C",
+  "28": "D",
+  "29": "B",
+  "30": "A",
+  "31": "D"
+ }
+}

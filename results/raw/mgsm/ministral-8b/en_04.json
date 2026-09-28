@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 12.8,
+ "text": "[id 40]\nSuzy's iPhone is 1 year old. Ben's iPhone is two times older than Suzy's, meaning Ben's iPhone is 2 * 1 = 2 years old. Brandon's iPhone is four times as old as Ben's, so Brandon's iPhone is 4 * 2 = 8 years old.\n**8**\n\n[id 41]\nPolly can throw the javelin 400 feet normally. With the gemstone, she can throw it three times farther, so 3 * 400 = 1200 feet. The dragon's reach is 1000 feet, so Polly can stand 1200 - 1000 = 200 feet outside the dragon's flames.\n**200**\n\n[id 42]\nGrandma baked 5 pies, each cut into 8 pieces, so total pieces = 5 * 8 = 40. There were 14 pieces remaining, so pieces taken = 40 - 14 = 26.\n**26**\n\n[id 43]\nEach serving is 250 calories, and there are 5 servings in a 300g bag, so 300g / 5 = 60g per serving. Daily calorie target is 2000, and 1800 calories have been consumed, leaving 2000 - 1800 = 200 calories. 200 calories / 250 calories per serving = 0.8 servings. 0.8 servings * 60g per serving = 48g.\n**48**\n\n[id 44]\nCharlie makes 10 candles per pound of beeswax. For 20 candles, he needs 20 / 10 = 2 pounds of beeswax. Cost for 2 pounds of beeswax and wicks is 2 * $10 = $20. Revenue from selling 20 candles is 20 * $2 = $40. Net profit = $40 - $20 = $20.\n**20**\n\n[id 45]\nMeredith wrote 5 articles on Monday, each taking 4 hours, so 5 * 4 = 20 hours. On Tuesday, she wrote 2/5 times more articles than Monday, so 5 + (2/5 * 5) = 6 articles. 6 articles * 4 hours = 24 hours. On Wednesday, she wrote twice the number of articles as Tuesday, so 2 * 6 = 12 articles. 12 articles * 4 hours = 48 hours. Total hours = 20 + 24 + 48 = 92 hours.\n**92**\n\n[id 46]\nCandice started with 80 post-it notes, used 220 post-it notes at work, and had 23 remaining. So, the total used and remaining is 220 + 23 = 243. She started with 80, so the package she purchased has 243 - 80 = 163 post-it notes.\n**163**\n\n[id 47]\nJohn spent $200 on blue ties that cost $40 each, so he bought 200 / 40 = 5 blue ties. He buys twice as many red ties as blue ties, so he bought 2 * 5 = 10 red ties. Red ties cost 50% more than blue ties, so red tie cost = 40 + (0.5 * 40) = $60. Total spent on red ties = 10 * $60 = $600. Total spent on all ties = $200 + $600 = $800.\n**800**\n\n[id 48]\nThe wire is 4 feet long, which is 4 * 12 = 48 inches. Each piece is 6 inches long, so number of pieces = 48 / 6 = 8.\n**8**\n\n[id 49]\nThe building has 15 floors with 8 units each, so total units = 15 * 8 = 120. Three-quarters of the building is occupied, so occupied units = 0.75 * 120 = 90. Unoccupied units = 120 - 90 = 30.\n**30**\n\n```json\n{\n  \"answers\": {\n    \"40\": 8,\n    \"41\": 200,\n    \"42\": 26,\n    \"43\": 48,\n    \"44\": 20,\n    \"45\": 92,\n    \"46\": 163,\n    \"47\": 800,\n    \"48\": 8,\n    \"49\": 30\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 855,
+  "completion_tokens": 1088,
+  "total_tokens": 1943,
+  "cost": 0.00029145,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029145,
+   "upstream_inference_prompt_cost": 0.00012825,
+   "upstream_inference_completions_cost": 0.0001632
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 92.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 92.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 11.3,
+ "text": "{\"answers\": {\"24\": \"B\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1533,
+  "completion_tokens": 810,
+  "total_tokens": 2343,
+  "cost": 0.00011166,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00011166,
+   "upstream_inference_prompt_cost": 3.066e-05,
+   "upstream_inference_completions_cost": 8.1e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 835,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "AkashML",
+ "answers_batch": {
+  "24": "B",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "B",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

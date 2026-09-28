@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 11.7,
+ "text": "{\"answers\": {\"88\":\"B\",\"89\":\"D\",\"90\":\"B\",\"91\":\"C\",\"92\":\"C\",\"93\":\"C\",\"94\":\"B\",\"95\":\"B\"}}",
+ "usage": {
+  "prompt_tokens": 1272,
+  "completion_tokens": 2059,
+  "total_tokens": 3331,
+  "cost": 0.00034621,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 80,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00034621,
+   "upstream_inference_prompt_cost": 3.736e-05,
+   "upstream_inference_completions_cost": 0.00030885
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2013,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Parasail",
+ "answers_batch": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "D",
+  "90": "B",
+  "91": "C",
+  "92": "C",
+  "93": "C",
+  "94": "B",
+  "95": "B"
+ }
+}

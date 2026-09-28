@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "13615",
+  "13645",
+  "13695",
+  "13697",
+  "13703",
+  "13705",
+  "13716",
+  "13757",
+  "13806",
+  "13841",
+  "13890",
+  "13921",
+  "13930",
+  "14006",
+  "14019"
+ ],
+ "seconds": 41.0,
+ "text": "\n\n1.  **id 13615:** During the Cold War, the U.S. often interpreted political events in the developing world (Third World) as struggles between capitalism/democracy and communism. Local issues were overshadowed by the strategic need to contain Soviet influence. Thus, **B** is the best answer.\n2.  **id 13645:** International Relations Realists define the fundamental distinction between the international system and the domestic system as **Anarchy** (the lack of a central governing authority). Correct answer: **B**.\n3.  **id 13695:** Historical trends in US defense spending show spikes during conflicts (wars), followed by demobilization, but spending typically drops only to a level above the prewar baseline, maintaining a high \"peace posture.\" **B** describes this pattern accurately relative to the options. Correct answer: **B**.\n4.  **id 13697:** The Domino Theory states that if one country falls to communism, its neighbors will follow. Correct answer: **C**.\n5.  **id 13703:** The George W. Bush administration marked a shift towards a more unilateral foreign policy, often characterized by skepticism towards international organizations (like the UN) compared to the previous administration, emphasizing a \"Coalition of the Willing.\" Correct answer: **A**.\n6.  **id 13705:** There are known human polyomaviruses, typically cited in textbooks as \"at least 10\" (BK, JC, etc.) by the time such questions were written, distinct from the past. Option C fits best. Correct answer: **C**.\n7.  **id 13716:** Retroviruses were first characterized (Rous sarcoma virus) in chickens, with Peter Duesberg and the discovery of reverse transcriptase being key historical points. Correct answer: **A**.\n8.  **id 13757:** Vaccination is the primary control measure for influenza in high-risk sectors (healthcare, etc.) to prevent spread and severe outcomes. Correct answer: **B**.\n9.  **id 13806:** In the context of Factor VIII production safety in the US (historically), viral inactivation steps like detergent washing (\"S/D\" treatment) were crucial in lowering HIV risk to effectively zero, alongside screening. Given the options, B highlights the specific technological safety step. Correct answer: **B**.\n10. **id 13841:** Nipah virus's natural reservoir and origin is fruit bats, though it was transmitted to pigs and humans in the initial outbreak. Correct answer: **B**.\n11. **id 13890:** The Shema (Declaration of Faith) is central to Jewish morning and evening prayers. Correct answer: **A**.\n12. **id 13921:** In Sikhism, \"Guru Panth\" generally refers to the community or following of the Guru (the collective body of Sikh followers). Correct answer: **A**.\n13. **id 13930:** A fundamental theme of Japanese culture (specifically Shinto influence) involves the veneration of \"kami\" (spirits) and aligning with life energy/nature. Correct answer: **B**.\n14. **id 14006:** The Protestant Reformation is historically dated to 1517 (Luther's 95 Theses). Correct answer: **B**.\n15. **id 14019:** The Yijing (I Ching) translates to \"The Classic of Changes\". Correct answer: **D**.\n\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"C\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"B\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"B\", \"14019\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1025,
+  "completion_tokens": 7073,
+  "total_tokens": 8098,
+  "cost": 0.00116345,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00116345,
+   "upstream_inference_prompt_cost": 0.0001025,
+   "upstream_inference_completions_cost": 0.00106095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6136,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "B",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {},
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "B",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ }
+}

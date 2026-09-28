@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 15.9,
+ "text": "- Question 200: The passage states that Hindi and Urdu have the same words but different scripts, so their writing styles differ – **B**.  \n- Question 201: The original name “Hunminjeongeum” was later changed to Hangul – **B**.  \n- Question 202: The decline of Sanskrit is attributed to its complexity as implied by the passage – **A**.  \n- Question 203: The Moon’s crust is thickest under the highlands – **C**.  \n- Question 204: The Amazon is not the longest river, so that statement is false – **C**.  \n- Question 205: The largest number of Venezuelans are employed in the service sector – **A**.  \n- Question 206: Fusion reactors produce energy – **D**.  \n- Question 207: Italy’s main wartime aim was to conquer African countries – **A**.  \n\n{\"answers\":{\"200\":\"B\",\"201\":\"B\",\"202\":\"A\",\"203\":\"C\",\"204\":\"C\",\"205\":\"A\",\"206\":\"D\",\"207\":\"A\"}}",
+ "usage": {
+  "prompt_tokens": 1816,
+  "completion_tokens": 1249,
+  "total_tokens": 3065,
+  "cost": 0.00022934,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00022934,
+   "upstream_inference_prompt_cost": 5.448e-05,
+   "upstream_inference_completions_cost": 0.00017486
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1298,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "A",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "A",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "c4490735-fcf6-4470-9612-b340d898523a-73076",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175"
+ ],
+ "seconds": 40.0,
+ "text": "Looking at each question carefully:\n\n**c4490735** - সতীদাহ্‌ প্রথা: Lord William Bentinck abolished Sati in 1829. **D**\n\n**c4fff258** - বাংলা লিপির উৎস: Bengali script evolved from Brahmi script. **C**\n\n**c66ad5ed** - ঘ্রাণ স্নায়ু: The olfactory nerve (cranial nerve I) carries smell impulses. **A**\n\n**c6977869** - লেড সঞ্চয়ক কোষ: The lead-acid battery uses Pb/PbSO4 anode, H2SO4 electrolyte, and PbO2 cathode. **B**\n\n**c7a360bb** - হিজরি সন: The Islamic calendar starts from 622 CE (Prophet Muhammad's migration). **B**\n\n**c80dafc0** - অক্ষীয় কঙ্কাল: The axial skeleton contains approximately 80 bones (skull ~22, vertebral column ~33, ribcage ~24 ribs + sternum). **B**\n\n**c82168c2** - ১৯৭০ নির্বাচন: Justice A B Siddiqui was the Chief Election Commissioner. **B**\n\n**ca6458d7** - ক্রাইসোকোলা: Chrysocolla has the formula CuSiO3·2H2O. **A**\n\n**cad30017** - শব্দের অর্থ: \"শব\" means corpse/body, not \"মজবুত\" (strong). **B**\n\n**cb020ef5** - সংখ্যা প্যাটার্ন: Likely powers of 7 (7, 49, 343). **B**\n\n**cba752a1** - ক্রেবস চক্র: The Krebs cycle occurs in the mitochondrial matrix. **C**\n\n**cc4593ae** - বাংলা দ্বিতীয় ভাষা: Sierra Leone recognized Bengali as a secondary official language. **D**\n\n**ce3106e5** - ফোকাস দূরত্ব: Using lens formula 1/f = (n-1)(1/R) = (1.6-1)(1/60) = 0.6/60 = 1/100, so f = 100 cm. **B**\n\n**cff69f66** - ডোমেন: For √(49-x²), need 49-x² ≥ 0, so -7 ≤ x ≤ 7. **C**\n\n**d044497d** - সংক্ষেপণ: 'অক্ষির সমীপে' (near the eyes) abbreviates to 'সমক্ষ' (before). **A**\n\n```json\n{\"answers\": {\"c4490735-fcf6-4470-9612-b340d898523a-73076\": \"D\", \"c4fff258-98e8-4a51-adfd-41dc285290b0-73931\": \"C\", \"c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508\": \"A\", \"c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825\": \"B\", \"c7a360bb-53a7-40fd-a265-c6d039e95c89-127617\": \"B\", \"c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959\": \"B\", \"c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643\": \"B\", \"ca6458d7-bb88-4f70-b2be-00904d41ac19-116217\": \"A\", \"cad30017-bd5f-4431-a070-0dae70ee02b3-65981\": \"B\", \"cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680\": \"B\", \"cba752a1-878f-4829-9c26-076a80413eea-4910\": \"C\", \"cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477\": \"D\", \"ce3106e5-4aab-4829-be32-af5107481c53-124527\": \"B\", \"cff69f66-a30d-49c4-8854-3f3d4e538b69-123786\": \"C\", \"d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 2294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4041,
+  "output_tokens_details": {
+   "thinking_tokens": 2818
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2294,
+    "output_tokens": 4041,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.022499,
+ "answers_batch": {
+  "c4490735-fcf6-4470-9612-b340d898523a-73076": "D",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931": "C",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508": "A",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825": "B",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617": "B",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959": "B",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643": "B",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217": "A",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981": "B",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680": "B",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910": "C",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477": "D",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527": "B",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786": "C",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175": "A"
+ },
+ "single": {},
+ "answers": {
+  "c4490735-fcf6-4470-9612-b340d898523a-73076": "D",
+  "c4fff258-98e8-4a51-adfd-41dc285290b0-73931": "C",
+  "c66ad5ed-0066-4668-8826-a2b4f5a4dcac-85508": "A",
+  "c6977869-bdc1-45b2-8b7d-e1f439bd4059-48825": "B",
+  "c7a360bb-53a7-40fd-a265-c6d039e95c89-127617": "B",
+  "c80dafc0-b0a5-4059-9b5a-ffa50f747302-19959": "B",
+  "c82168c2-940c-4f0d-9bd2-d622b2ad3308-13643": "B",
+  "ca6458d7-bb88-4f70-b2be-00904d41ac19-116217": "A",
+  "cad30017-bd5f-4431-a070-0dae70ee02b3-65981": "B",
+  "cb020ef5-9e86-4db6-aedd-29fe4051cf7e-117680": "B",
+  "cba752a1-878f-4829-9c26-076a80413eea-4910": "C",
+  "cc4593ae-e552-47c1-b36f-d6ec9ba37e6a-30477": "D",
+  "ce3106e5-4aab-4829-be32-af5107481c53-124527": "B",
+  "cff69f66-a30d-49c4-8854-3f3d4e538b69-123786": "C",
+  "d044497d-1fa2-47eb-b0dd-e8735a7a36e8-8175": "A"
+ }
+}

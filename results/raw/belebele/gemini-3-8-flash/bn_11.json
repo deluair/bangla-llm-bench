@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "88",
+  "89",
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95"
+ ],
+ "seconds": 71.0,
+ "text": "Here is the analysis for each question based on the provided passages:\n\n- **[id 88]**: The text states that Lo Piccolo had the advantage because he was Provenzano's right hand in Palermo (\"তিনি পালের্মোতে প্রোভেনজানোর ডান হাত ছিলেন\"). Thus, the correct option is **B**.\n- **[id 89]**: The text mentions Saito was a 2-time Olympic gold medalist, chairman of the All Japan Judo Federation Training Committee, and world champion (winning it once), but not a two-time world champion (\"দুইবার বিশ্ব চ্যাম্পিয়ন\"). Thus, the correct option is **A**.\n- **[id 90]**: The text states that in Nepal he fled from marriage (\"নেপালে বিয়ে থেকে পালিয়েছিল\"), thereby avoiding the commitment. Thus, the correct option is **B**.\n- **[id 91]**: In the chronological sequence of the race, Fisichella lost control and retired shortly after the start, Alonso retired later while leading the race, and Schumacher retired after Alonso. Thus, Alonso retired after Fisichella lost control. Thus, the correct option is **B**.\n- **[id 92]**: The passage states that Gosling and Stone were nominated for Best Actor and Best Actress respectively (\"সেরা অভিনেতা ও অভিনেত্রীর জন্য মনোনয়ন পেয়েছিলেন\"). Thus, Emma Stone was nominated for Best Actress, option **C**.\n- **[id 93]**: The text mentions \"ওএইচএ এর ক্যারোলিন উইলসন\" (Carolyn Wilson of OHA). Thus, she worked for OHA, option **C**.\n- **[id 94]**: The passage explicitly states that around 34 meteorites have been confirmed to originate from Mars (\"মাত্র প্রায় ৩৪ টির উৎপত্তি মঙ্গল গ্রহে বলে নিশ্চিত হওয়া গেছে\"). Thus, the correct option is **D**.\n- **[id 95]**: The passage states that Schumacher retired in 2006 after winning the Formula 1 Championship seven times (\"ফর্মুলা ১ চ্যাম্পিয়নশিপ সাতবার জেতার পর ২০০৬ সালে অবসর গ্রহণ করেন শুমাচার\"). Thus, the correct option is **B**.\n\n{\"answers\": {\"88\": \"B\", \"89\": \"A\", \"90\": \"B\", \"91\": \"B\", \"92\": \"C\", \"93\": \"C\", \"94\": \"D\", \"95\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 115050,
+  "output_tokens": 6576,
+  "thinking_tokens": 5002,
+  "cache_read_tokens": 232386,
+  "total_tokens": 121626
+ },
+ "answers_batch": {
+  "88": "B",
+  "89": "A",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ },
+ "single": {},
+ "answers": {
+  "88": "B",
+  "89": "A",
+  "90": "B",
+  "91": "B",
+  "92": "C",
+  "93": "C",
+  "94": "D",
+  "95": "B"
+ }
+}

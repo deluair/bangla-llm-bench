@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 20.0,
+ "text": "Here is a brief reasoning for each question:\n\n**[id 8]** The passage defines micro-expressions as \"facial movements.\" Giving a thumb's up (D) is a hand gesture, not a facial movement.\n**[id 9]** \"Continuing relationships\" implies interpersonal connections (family, networking, meeting people). Researching travel (C) is a solitary or information-seeking activity, aligning more with \"learning.\"\n**[id 10]** The passage notes that people scrutinized the allocation of wealth (A), concentration of power (C), and whether the Church was meeting its tenets (D). It does not mention scrutinizing whether the tenets themselves should be amended (B).\n**[id 11]** The passage mentions Germany's wish for similar tactics (A), danger to neutral ships (B), and cutting off vital supplies (D). While the blockade *violated* international law, there is no mention that it resulted in *changes* to it (C).\n**[id 12]** The passage states that MS is most common in \"younger and middle aged adults\" and that \"females are two times more likely\" to get it. A 32-year-old female (A) is the demographic that best fits both risk factors.\n**[id 13]** The text explicitly states, \"The sport is primarily played in a duel format\" (D).\n**[id 14]** The passage highlights that occupations and military rankings shifted from being based on \"class\" to \"cailaber\" (caliber/competence), which directly allowed the ambitious and successful (including the working class) to succeed (B).\n**[id 15]** The passage asks why \"transportation systems\" engender such high levels of complaints compared to water quality or bridges falling down. Thus, public transport (C) causes the most discontent.\n\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17274,
+  "output_tokens": 2222,
+  "thinking_tokens": 1764,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19496
+ },
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

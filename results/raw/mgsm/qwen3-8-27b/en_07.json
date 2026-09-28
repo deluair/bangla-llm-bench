@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 3.0,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 70]**\nJudy teaches 5 classes per day on weekdays (Mon-Fri) and 8 classes on Saturday.\nWeekdays total classes: $5 \\times 5 = 25$ classes.\nSaturday total classes: $8$ classes.\nTotal classes in a week: $25 + 8 = 33$ classes.\nStudents per class: 15.\nTotal students: $33 \\times 15 = 495$ students.\nPrice per student: $15.\nTotal earnings: $495 \\times 15 = 7425$.\n\n**[id 71]**\nFirst recipe instructions: 20.\nSecond recipe instructions: Twice the first, so $20 \\times 2 = 40$.\nTotal instructions: $20 + 40 = 60$.\n\n**[id 72]**\nBrownies sold: 43 slices at $3 each. Revenue from brownies: $43 \\times 3 = 129$.\nCheesecakes sold: 23 slices at $4 each. Revenue from cheesecakes: $23 \\times 4 = 92$.\nTotal raised: $129 + 92 = 221$.\n\n**[id 73]**\nCost per phone: $150.\nInterest per unit: 2% of $150 = 0.02 \\times 150 = 3$.\nTotal cost per phone including interest: $150 + 3 = 153$.\nTotal number of phones: 5.\nTotal amount to pay: $5 \\times 153 = 765$.\nInstallment period: 3 months.\nMonthly payment: $765 / 3 = 255$.\n\n**[id 74]**\nRound prices to the nearest dollar:\nMarigolds: $2.74 \\rightarrow $3$.\nPetunias: $1.87 \\rightarrow $2$.\nBegonias: $2.12 \\rightarrow $2$.\nTotal for marigolds: $12 \\text{ pots} \\times \\$3 = \\$36$.\nTotal for petunias: $9 \\text{ pots} \\times \\$2 = \\$18$.\nTotal for begonias: $17 \\text{ pots} \\times \\$2 = \\$34$.\nTotal earnings: $36 + 18 + 34 = 88$.\n\n**[id 75]**\nThe top level (Level 4) has a square footage of 16.\nEach level below has twice the square footage of the level above it (since the upper level is half the lower one).\nLevel 4: 16\nLevel 3: $16 \\times 2 = 32$\nLevel 2: $32 \\times 2 = 64$\nLevel 1: $64 \\times 2 = 128$\nTotal square footage: $16 + 32 + 64 + 128 = 240$.\nAverage square footage per level: $240 / 4 = 60$.\n\n**[id 76]**\nFirst period: 180 days at 1 cup/day. Total cups = $180 \\times 1 = 180$ cups.\nSecond period: The rest of the first year. A year is typically 365 days.\nDays remaining: $365 - 180 = 185$ days.\nFeeding rate: 2 cups/day.\nCups for second period: $185 \\times 2 = 370$ cups.\nTotal cups in the first year: $180 + 370 = 550$ cups.\nOne bag contains 110 cups.\nNumber of bags: $550 / 110 = 5$.\n\n**[id 77]**\nSarah does 400 pounds of laundry.\nRaymond does half as much as Sarah: $400 / 2 = 200$ pounds.\nSarah does 4 times as much as David, so David does $1/4$ of Sarah's amount: $400 / 4 = 100$ pounds.\nDifference between Raymond and David: $200 - 100 = 100$ pounds.\n\n**[id 78]**\nOption 1: Packages of 3 for $2.50.\nTo get 18 flowers, he needs $18 / 3 = 6$ packages.\nCost: $6 \\times 2.50 = 15.00$.\n\nOption 2: Packages of 2 for $1.\nTo get 18 flowers, he needs $18 / 2 = 9$ packages.\nCost: $9 \\times 1 = 9.00$.\n\nThe better price is Option 2 ($9.00). The other price is $15.00.\nSavings: $15.00 - 9.00 = 6.00$.\n\n**[id 79]**\nOriginal cost: $100.\nDiscount: 30%.\nDiscount amount: $100 \\times 0.30 = 30$.\nCost after discount: $100 - 30 = 70$.\n\n```json\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}\n```",
+ "usage": {
+  "queue_time": 0.116574675,
+  "prompt_tokens": 765,
+  "prompt_time": 0.065954082,
+  "completion_tokens": 1324,
+  "completion_time": 2.67506679,
+  "total_tokens": 2089,
+  "total_time": 2.741020872
+ },
+ "served_by": null,
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

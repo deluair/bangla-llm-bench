@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  13615,
+  13645,
+  13695,
+  13697,
+  13703,
+  13705,
+  13716,
+  13757,
+  13806,
+  13841,
+  13890,
+  13921,
+  13930,
+  14006,
+  14019
+ ],
+ "seconds": 7.3,
+ "text": "Here are the answers:\n\n{\"answers\": {\n\"13615\": \"B\",\n\"13645\": \"B\",\n\"13695\": \"B\",\n\"13697\": \"C\",\n\"13703\": \"C\",\n\"13705\": \"B\",\n\"13716\": \"A\",\n\"13757\": \"B\",\n\"13806\": \"A\",\n\"13841\": \"B\",\n\"13890\": \"A\",\n\"13921\": \"D\",\n\"13930\": \"B\",\n\"14006\": \"B\",\n\"14019\": \"D\"\n}}",
+ "usage": {
+  "prompt_tokens": 931,
+  "completion_tokens": 116,
+  "total_tokens": 1047,
+  "cost": 2.326e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 2.326e-05,
+   "upstream_inference_prompt_cost": 1.862e-05,
+   "upstream_inference_completions_cost": 4.64e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "C",
+  "13705": "B",
+  "13716": "A",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "D",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "C",
+  "13705": "B",
+  "13716": "A",
+  "13757": "B",
+  "13806": "A",
+  "13841": "B",
+  "13890": "A",
+  "13921": "D",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {}
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 26.5,
+ "text": "Here are my answers with brief reasoning:\n\n**Q0:** The passage explicitly says you don't need to strike keys hard like a piano to get volume (you press the bellows instead), so option A is NOT correct advice. → **A**\n\n**Q1:** TVs cut borders (overscan) to ensure the picture covers the entire screen. → **B**\n\n**2:** The passage states the nomadic phase begins when food supply decreases. → **B**\n\n**Q3:** Biological clocks have intrinsic, self-sustained oscillators that run even in the absence of external forces. → **C**\n\n**Q4:** Going to a science museum is not a nature-based tourism activity; hiking, wildflower photography, and fishing are. → **C**\n\n**Q5:** A five-bit binary number has exactly five digits, each 0 or 1: 10010 fits (1010 has 4 digits, 12001 contains a 2, 110101 has 6 digits). → **C**\n\n**Q6:** The passage says readers are the most critical audience, so receiving *less* criticism from classmates is not a benefit mentioned. → **B**\n\n**Q7:** Dungeons, warfare, and chivalry are all mentioned; knights are not. → **D**\n\n{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 1939,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1550
+  },
+  "prompt_tokens": 5356,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 7295
+ },
+ "served_by": null,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "D"
+ }
+}

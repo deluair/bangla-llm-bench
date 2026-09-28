@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  899,
+  908,
+  951,
+  981,
+  987,
+  1004,
+  1011,
+  1019,
+  1030,
+  1045,
+  1100,
+  1116,
+  1125,
+  1141,
+  1158
+ ],
+ "seconds": 142.7,
+ "text": "**899** — Balance: 6 MnO₄⁻ + 5 I⁻ + 18 H⁺ → 6 Mn²⁺ + 5 IO₃⁻ + 9 H₂O, so MnO₄⁻ : I⁻ = 6:5 → **B**\n\n**908** — Heller–McConnell: aβ = Qρcos²θ, Q ≈ 5.4 mT, ρ ≈ 1. Flat ring: each β-H is elevated (180°−115°)/2 = 57.5° above the ring plane, so θ = 32.5° from the p orbital; cos²(32.5°) ≈ 0.711 → 5.4 × 0.711 ≈ 3.8 mT → **D**\n\n**951** — Quantum yield = photons emitted / photons absorbed → **C**\n\n**981** — B₀ = 9.5 GHz / (2.005 × 13.996 GHz/T) ≈ 338.5 mT; A = 280 MHz → ±A/2 in field = ±140/28.06 ≈ ±5.0 mT → lines at 333.5 and 343.5 mT → **C**\n\n**987** — Spontaneous ⇔ total entropy (system + surroundings) increases → **D**\n\n**1004** — No roundoff convention can make floating-point arithmetic associative → NOT true is **C**\n\n**1011** — Test with single letters: aᴹ = \"aa\" ≠ a, so A false; (ab)ᴹ = \"abba\" but (ba)ᴹ = \"baab\", so B false; (ab)ᴹ = \"abba\" ≠ bᴹaᴹ = \"bbaa\", so C false → **D**\n\n**1019** — Internals ≈ Kᴺ, total ≈ Kᴺ⁺¹, ratio ≈ 1/K → **A**\n\n**1030** — Heap is separate from stack frames → **B**\n\n**1045** — 109, −42, and result 67 are all representable in one's complement, two's complement, and sign-magnitude → **D**\n\n**1100** — C(5,2)C(20,1)/C(25,3) = 200/2300 = 2/23 → **C**\n\n**1116** — v is eigenvector of 2A, A², and A⁻¹ (chain rule for matrices) → **D**\n\n**1125** — Max lcm of cycle lengths in S₅: 3+2 cycle gives order 6 → **B**\n\n**1141** — Heine–Cantor: compact X, continuous f ⇒ uniformly continuous (True); chain rule: composition of everywhere-differentiable functions is differentiable (True) → **A**\n\n**1158** — C can be linearly ordered (e.g., lexicographic) but no order makes it an ordered field (i² = −1), so A holds, B fails → **A**\n\n{\"answers\": {\"899\": \"B\", \"908\": \"D\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"C\", \"1011\": \"D\", \"1019\": \"A\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"C\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 10924,
+  "completion_tokens_details": {
+   "reasoning_tokens": 10125
+  },
+  "prompt_tokens": 1389,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 12313
+ },
+ "served_by": null,
+ "answers": {
+  "899": "B",
+  "908": "D",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "answers_batch": {
+  "899": "B",
+  "908": "D",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {}
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 49.4,
+ "text": "Here are the step-by-step derivations for each problem:\n\n**[id 160]**\nMonday's depth = 17 ft.\nTuesday's depth = 17 + 7 = 24 ft.\nWednesday's depth = 2/3 of 24 = 16 ft.\nAnswer: 16\n\n**[id 161]**\nAnakin catches: 10 starfish + 6 seahorses + 3 clownfish = 19 fish.\nLockshin catches: (10 - 5) starfish + (6 - 3) seahorses + (3 + 2) clownfish = 5 + 3 + 5 = 13 fish.\nTotal fish caught together = 19 + 13 = 32.\nAnswer: 32\n\n**[id 162]**\nThe bag originally costs $20. \nIt increases by 20% of the original price ($20 * 0.20 = $4) every 2 months. \nOver 36 months, there are 36 / 2 = 18 intervals. \nTotal price increase = 18 * $4 = $72. \nFinal price = $20 + $72 = $92.\nAnswer: 92\n\n**[id 163]**\n5 red cars = 5 * $4 = $20.\n3 action figures = 3 * $5 = $15.\n1 doll = price of 3 action figures = 3 * $5 = $15.\nTotal cost = $20 + $15 + $15 = $50.\nAnswer: 50\n\n**[id 164]**\nCost if Jackie does it herself (opportunity cost) = 3 hours * $35/hour = $105.\nCost of hiring the accountant = $90.\nSavings by hiring the accountant = $105 - $90 = $15.\nAnswer: 15\n\n**[id 165]**\nTotal spent on the computer and accessories = €1090 (machine) + €157 (scanner) + €74 (CD burner) + €102 (printer) = €1423.\nRemaining money for clothes = €1500 - €1423 = €77.\nAnswer: 77\n\n**[id 166]**\nTotal eggs needed = 15 flans * 3 eggs/flan = 45 eggs.\nSince Sandra gets 9 eggs per babysitting job, she needs 45 / 9 = 5 jobs.\nAnswer: 5\n\n**[id 167]**\nLet B be Brook's age and S be Seth's age. S = 2B.\nIn 2 years, (S + 2) + (B + 2) = 28.\nSubstituting S: 2B + 2 + B + 2 = 28 -> 3B + 4 = 28 -> 3B = 24 -> B = 8.\nSeth's current age S = 2 * 8 = 16.\nAnswer: 16\n\n**[id 168]**\nEthel has $8.\nTwice Ethel's amount = 2 * $8 = $16.\nJimmy has $2 more than twice Ethel's money, so Jimmy has $16 + $2 = $18.\nAnswer: 18\n\n**[id 169]**\nPancho normally walks 20 miles a day, which applies to the 5 weekdays (5 * 20 = 100 miles).\nExcept on weekends, he walks 10 miles a day (2 days * 10 = 20 miles).\nTotal miles in a week = 100 + 20 = 120.\nAnswer: 120\n\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}\n",
+ "usage": {
+  "input_tokens": 24940,
+  "output_tokens": 6592,
+  "thinking_tokens": 5601,
+  "cache_read_tokens": 0,
+  "total_tokens": 31532
+ },
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

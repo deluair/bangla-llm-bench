@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 16.2,
+ "text": "I'll solve each problem step by step.\n\n**[id 20]** Orange drink remaining after spill: 10 - 1 = 9 liters\n- Water in remaining orange: 9 × 2/3 = 6 liters\n- Water in pineapple: 15 × 3/5 = 9 liters\n- Total water: 6 + 9 = **15 liters**\n\n**[id 21]** Samantha is 31, Raymond is 6 years older = 37\n- Raymond had son at age 23, so: 37 - 23 = **14 years ago**\n\n**[id 22]** DVDs sold: (3 × 1) + (2 × 2) + (3 × 0) = 3 + 4 + 0 = **7 DVDs**\n\n**[id 23]** From 1:00 PM to 5:00 PM = 4 hours\n- 4 hours × 2 cm/hour = **8 centimeters**\n\n**[id 24]** Price with 25% discount means paying 75% of original\n- 0.75 × original = 19.50\n- Original = 19.50 ÷ 0.75 = **$26**\n\n**[id 25]** Spending so far: 12 + (5 × 3) + (4 × 1.50) = 12 + 15 + 6 = $33\n- Remaining for pizza: 50 - 33 = 17\n- Pizza boxes: 17 ÷ 8.50 = **2 boxes**\n\n**[id 26]** Total cost: 3(16.50 + 22.50 + 42) = 3 × 81 = **$243**\n\n**[id 27]** Servings needed: 60 ÷ 15 = 4 cartons\n- Cost: 4 × 4 = **$16**\n\n**[id 28]** First stop at 20 miles, second stop at 60 - 15 = 45 miles\n- Distance between: 45 - 20 = **25 miles**\n\n**[id 29]** Heels: $33 + (2 × $33) = $99\n- Boots cost $5 more: 99 + 5 = **$104**\n\n```json\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}\n```",
+ "usage": {
+  "input_tokens": 1137,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2350,
+  "output_tokens_details": {
+   "thinking_tokens": 1690
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1137,
+    "output_tokens": 2350,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012887,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

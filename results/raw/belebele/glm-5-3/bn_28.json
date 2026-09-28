@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 11.6,
+ "text": "**Brief reasoning:**\n\n- **224:** The passage says the airport stopped commercial flights after the crash. → A\n- **225:** Brzezinski became NSA in 1977, succeeding Kissinger, meaning Kissinger held the post until 1977. → B\n- **226:** The ship carried 120–160 cubic meters of fuel; \"100 meters\" refers to the ship's length, not fuel amount. → B\n- **227:** He returned to newly independent Algeria in the 1960s (Algeria gained independence in 1962). → C\n- **228:** A neighbor reported the gas leak before the gas company officer arrived. → A\n- **229:** France was the seventh (most recent) EU country with confirmed H5N1, after Austria, Germany, Slovenia, Bulgaria, Greece, and Italy. → A\n- **230:** Fred was moving northwest at 105 mph. → D\n- **231:** The change in phase of significant earthquake activity took place on March 10. → C\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 885,
+  "completion_tokens_details": {
+   "reasoning_tokens": 547
+  },
+  "prompt_tokens": 4780,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5665
+ },
+ "served_by": null,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

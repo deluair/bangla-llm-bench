@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 152.3,
+ "text": "[id 50]\nLloyd earns $2 per dozen. He produces 252 eggs/day.\n1 week = 7 days.\nTotal eggs = 252 * 7 = 1764.\nDozens = 1764 / 12 = 147.\nRevenue = 147 * $2 = $294.\n\n[id 51]\nOutbound speed = 10 mph. Time = 1 PM to 4 PM = 3 hours.\nDistance = 10 * 3 = 30 miles.\nReturn speed = 6 mph.\nReturn time = 30 / 6 = 5 hours.\n\n[id 52]\nTarget weight to remove = 15 lbs.\n30 comics * 1/4 lb = 7.5 lbs.\nRemaining weight = 15 - 7.5 = 7.5 lbs.\nToy weight = 1/2 lb.\nToys needed = 7.5 / 0.5 = 15 toys.\n\n[id 53]\nThursday: 6 trucks ($60) + 4 cars ($40) = $360 + $160 = $520.\nFriday: 12 cars ($40) = $480.\nDifference = $520 - $480 = $40.\n\n[id 54]\nInitial kittens = 7.\nPatchy's kittens = 3 * 7 = 21.\nTrixie's kittens = 12.\nTotal = 7 + 21 + 12 = 40.\n\n[id 55]\nStart = 30. Eaten = 2. Remaining = 28.\nPack size = 2.\nBags = 28 / 2 = 14.\n\n[id 56]\nCost per trip = $7 + $7 = $14.\nBudget = $42.\nTrips = 42 / 14 = 3.\n\n[id 57]\nLimit = 5000. Base weight = 3755.\nCargo capacity = 5000 - 3755 = 1245 lbs.\nBox weight = 15 lbs.\nMax boxes = 1245 / 15 = 83.\n\n[id 58]\nGroceries bill = $40.\n25% fee = 0.25 * 40 = $10.\nDelivery fee = $3.\nTip = $4.\nTotal = 40 + 10 + 3 + 4 = $57.\n\n[id 59]\nCluster fruit = 6 * 20 = 120.\nIndividual fruit = 67.\nTotal = 120 + 67 = 187.\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "prompt_tokens": 777,
+  "completion_tokens": 5910,
+  "total_tokens": 6687,
+  "cost": 0.0009642,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009642,
+   "upstream_inference_prompt_cost": 7.77e-05,
+   "upstream_inference_completions_cost": 0.0008865
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5179,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

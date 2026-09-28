@@ -1,0 +1,281 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528"
+ ],
+ "seconds": 5.6,
+ "text": "**1. [id 000c853a...]**\nThe function is $f(x) = \\sqrt{x-2}$. For the square root to be defined in real numbers, the expression inside must be non-negative: $x - 2 \\ge 0 \\Rightarrow x \\ge 2$. The domain is $[2, \\infty)$.\nAnswer: D\n\n**2. [id 018777f7...]**\nAverage velocity for round trip = $\\frac{2 v_1 v_2}{v_1 + v_2} = \\frac{2(5)(3)}{5 + 3} = \\frac{30}{8} = 3.75$ km/h.\nOption A is $15/4 = 3.75$.\nAnswer: A\n\n**3. [id 01e79fd1...]**\nLocal government in Bangladesh currently operates at 4 tiers: Union (Level 1), Upazila/Municipality (Level 2), District (Level 3), and Division (Level 4, though functions vary, standard classification often cites Union, Upazila, District as main operational tiers, but the \"tier\" count in administrative context usually includes District Commissioners as part of the local admin structure or simply counts Union, Upazila, District as the 3 main levels of *local* government. However, recent reforms and standard civics questions often state 3 tiers of *local* government: Union, Upazila, and District. Wait, Division is a province/service network, not strictly a local government unit in the same sense. Let's re-evaluate standard Bangladeshi civics.\nStandard answer key for this specific common question: The local government system consists of **3** tiers: Union Parishad, Upazila Parishad, and District (Zilla) administration (though District is technically a tier of state administration delegated local functions, it's often counted). Some sources say 4 if including City Corporations separately? No, they are variants of Upazila/District.\nLet's look at the options: 3, 4, 5, 6.\nMost authoritative sources in BD textbooks state local government has **3** levels: Union, Upazila, and District.\nAnswer: A\n\n**4. [id 0269a96c...]**\nThe inventor of Boolean algebra (logic algebra) is George Boole.\nAnswer: C\n\n**5. [id 0328368d...]**\nA \"second pendulum\" (সেকেন্ড দোলক) is defined as a simple pendulum with a period of 2 seconds (1 second for a half-oscillation? No, standard definition: A pendulum that makes one complete oscillation in 2 seconds is called a seconds pendulum? Or one that ticks every second? Usually, \"seconds pendulum\" has a period $T = 2$ seconds.\nFrequency $f = 1/T = 1/2 = 0.5$ Hz.\nAnswer: C\n\n**6. [id 034aa277...]**\nLawson (Lawson) is the pigment responsible for the red/yellow/brown color of hair and skin (which converts to melanin-like structures or is simply the pigment itself). Lotion is a cream. Lanolin is a lipid. Oleic acid is a fatty acid.\nAnswer: D\n\n**7. [id 03a5ee94...]**\nIdentify the FALSE statement about the internal structure of dicot roots.\nA) No cuticle in root epidermis (True for roots generally, unlike stems).\nB) Exodermis is not divided into layers (True, exodermis is a single layer of cells).\nC) Hypodermis is present (False in typical dicot roots; hypodermis is characteristic of monocot roots or stems. Dicot roots usually have cortical parenchyma directly, or the exodermis forms the outer protective layer, but \"Hypodermis\" (collenchyma) is typically absent in mature dicot roots). *Correction*: Many textbooks state that dicot roots **lack** a hypodermis. Therefore, stating \"Hypodermis is present\" is the false statement.\nD) Phloem bundles are typically 2-4 (True, often tetrarch or pentarch).\nSo, C is the false statement.\nAnswer: C\n\n**8. [id 064a8667...]**\nActive: The pill tastes bitter.\nPassive: The pill is tasted bitter? Or \"The pill is bitter when it is tasted.\"\n\"taste\" can be used stative (intransitive) or active. \"The pill tastes bitter\" describes a property. The passive equivalent emphasizing the action of tasting is \"The pill is bitter when it is tasted.\"\nLet's check options:\nA) The pill was bitter when it was tasted. (Past tense passive).\nD) The pill is bitter when it is tasted. (Present tense passive).\nThe original sentence is in simple present (\"tastes\"). So the passive should be in simple present.\nAnswer: D\n\n**9. [id 0720a5e2...]**\n\"সৌভাগ্যক্রমে\" = Fortunately/Luckily.\n\"পরের বাসে আমি উঠতে পেরেছিলাম\" = I was able to get on/into the next bus.\n\"could get into\" captures \"উঠতে পেরেছিলাম\" (managed to board) well.\nOption A: Fortunately I could get into the next bus.\nAnswer: A\n\n**10. [id 084c3183...]**\nTorque $\\tau = F \\times r$. To produce the same torque required to drive the screw (assuming friction is constant and depth is same, work done or force required at the screw head is similar), using a handle with a larger radius (thick handle/wrench with longer arm) requires less force. However, the question asks about the *number of turns*.\nThe screw moves a fixed linear distance into the board (same depth). The linear distance the screw advances is independent of the handle size. The pitch of the screw determines how much it advances per turn. Since the screw is the same \"size\" (implied same pitch) and goes to the same depth, the **number of turns** required to reach that depth is **the same**. The *effort force* would be different, but not the number of rotations.\nAnswer: C\n\n**11. [id 08bd4ed2...]**\nThe architect of the Central Shaheed Minar (Dhaka) is Rafiqun Nabi. (Note: The original one near Old Dhaka was designed by different people, but the Central Shaheed Minar was designed by Rafiqun Nabi). Let's double check.\nThe main Shaheed Minar on Motijheel was designed by **Rafiqun Nabi**.\nThe other option Hamidur Rahman was the Prime Minister or politician? No.\nAnswer: D\n\n**12. [id 08de5d58...]**\nIdentify the INCORRECT statement.\nA) If electronegativity values are equal, the bond is pure (non-polar) covalent. (Correct)\nB) If electronegativity difference is 0.5, it forms a polar covalent molecule. (Generally, diff 0.4-1.7 is polar covalent. So this is Correct).\nC) If electronegativity difference is > 1.7, ionic molecule is formed. (Correct, general rule).\nD) Polarity is **not** a characteristic of a covalent compound. (Incorrect. Covalent bonds can be polar or non-polar. Polarity is a characteristic feature of *some* covalent compounds).\nSo D is the incorrect statement.\nAnswer: D\n\n**13. [id 09255f80...]**\nWhy do houses break during strong earthquakes? It's due to **Resonance** (পরবশ কম্পন) when the frequency of seismic waves matches the natural frequency of the building, causing large amplitude vibrations.\nAnswer: A\n\n**14. [id 09771521...]**\nInexorable means impossible to stop or prevent; relentless. The closest Bengali synonym is \"অনমনীয়\" (immutable, unyielding, inexorable).\nAnswer: B\n\n**15. [id 0a88ac8c...]  \nFor maximum horizontal range in projectile motion, the angle of projection $\\theta$ must be $45^\\circ$.\nAnswer: B\n\n{\"answers\": {\"000c853a-7896-439c-af8f-83f93a94aa21-146810\": \"D\", \"018777f7-7958-4668-95af-70afe6cf7e66-103354\": \"A\", \"01e79fd1-255b-4857-96fc-59c1f17df04c-15675\": \"A\", \"0269a96c-32f5-477c-bab9-31fd827929f3-51190\": \"C\", \"0328368d-9139-4f5e-b75b-2eae817dba6d-119686\": \"C\", \"034aa277-1099-4156-bd75-02abc0eca393-64103\": \"D\", \"03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978\": \"C\", \"064a8667-f1ca-4d1a-8459-11db81ef4a69-131760\": \"D\", \"0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424\": \"A\", \"084c3183-b891-4cae-bca9-e9b73a923003-48454\": \"C\", \"08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115\": \"D\", \"08de5d58-d002-429c-ba6c-c49610eea192-102317\": \"D\", \"09255f80-0720-46f4-ae96-f013ca5a79fb-108294\": \"A\", \"09771521-ceb8-449f-bced-46bb53d91cf7-63413\": \"B\", \"0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.118795331,
+  "prompt_tokens": 1857,
+  "prompt_time": 0.149396775,
+  "completion_tokens": 2550,
+  "completion_time": 5.176121659,
+  "total_tokens": 4407,
+  "total_time": 5.325518434
+ },
+ "served_by": null,
+ "answers_batch": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "D",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "A",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ },
+ "single": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.458410663,
+    "prompt_tokens": 154,
+    "prompt_time": 0.012487382,
+    "completion_tokens": 2,
+    "completion_time": 0.004180784,
+    "total_tokens": 156,
+    "total_time": 0.016668166
+   },
+   "answer": "D"
+  },
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.088800765,
+    "prompt_tokens": 189,
+    "prompt_time": 0.012715791,
+    "completion_tokens": 2,
+    "completion_time": 0.004085754,
+    "total_tokens": 191,
+    "total_time": 0.016801545
+   },
+   "answer": "D"
+  },
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.360364066,
+    "prompt_tokens": 135,
+    "prompt_time": 0.01176367,
+    "completion_tokens": 2,
+    "completion_time": 0.00418621,
+    "total_tokens": 137,
+    "total_time": 0.01594988
+   },
+   "answer": "A"
+  },
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.08744268,
+    "prompt_tokens": 138,
+    "prompt_time": 0.010232543,
+    "completion_tokens": 2,
+    "completion_time": 0.004021158,
+    "total_tokens": 140,
+    "total_time": 0.014253701
+   },
+   "answer": "C"
+  },
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087498748,
+    "prompt_tokens": 141,
+    "prompt_time": 0.010459073,
+    "completion_tokens": 2,
+    "completion_time": 0.003988478,
+    "total_tokens": 143,
+    "total_time": 0.014447551
+   },
+   "answer": "C"
+  },
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004304294,
+    "prompt_tokens": 136,
+    "prompt_time": 0.011442833,
+    "completion_tokens": 2,
+    "completion_time": 0.004480539,
+    "total_tokens": 138,
+    "total_time": 0.015923372
+   },
+   "answer": "D"
+  },
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.063883499,
+    "prompt_tokens": 202,
+    "prompt_time": 0.01401153,
+    "completion_tokens": 2,
+    "completion_time": 0.004027674,
+    "total_tokens": 204,
+    "total_time": 0.018039204
+   },
+   "answer": "B"
+  },
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.197522304,
+    "prompt_tokens": 147,
+    "prompt_time": 0.012978429,
+    "completion_tokens": 2,
+    "completion_time": 0.004185811,
+    "total_tokens": 149,
+    "total_time": 0.01716424
+   },
+   "answer": "D"
+  },
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.003880258,
+    "prompt_tokens": 161,
+    "prompt_time": 0.014210187,
+    "completion_tokens": 2,
+    "completion_time": 0.004164372,
+    "total_tokens": 163,
+    "total_time": 0.018374559
+   },
+   "answer": "A"
+  },
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.13799051,
+    "prompt_tokens": 223,
+    "prompt_time": 0.017649803,
+    "completion_tokens": 2,
+    "completion_time": 0.004178994,
+    "total_tokens": 225,
+    "total_time": 0.021828797
+   },
+   "answer": "B"
+  },
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 1.024681548,
+    "prompt_tokens": 151,
+    "prompt_time": 0.013298095,
+    "completion_tokens": 2,
+    "completion_time": 0.004180492,
+    "total_tokens": 153,
+    "total_time": 0.017478587
+   },
+   "answer": "B"
+  },
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.087563791,
+    "prompt_tokens": 241,
+    "prompt_time": 0.019428464,
+    "completion_tokens": 2,
+    "completion_time": 0.004084927,
+    "total_tokens": 243,
+    "total_time": 0.023513391
+   },
+   "answer": "D"
+  },
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.229229806,
+    "prompt_tokens": 155,
+    "prompt_time": 0.013531594,
+    "completion_tokens": 2,
+    "completion_time": 0.004188961,
+    "total_tokens": 157,
+    "total_time": 0.017720555
+   },
+   "answer": "B"
+  },
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.094017712,
+    "prompt_tokens": 121,
+    "prompt_time": 0.008067157,
+    "completion_tokens": 2,
+    "completion_time": 0.004007204,
+    "total_tokens": 123,
+    "total_time": 0.012074361
+   },
+   "answer": "B"
+  },
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.116107017,
+    "prompt_tokens": 144,
+    "prompt_time": 0.009960565,
+    "completion_tokens": 2,
+    "completion_time": 0.003977724,
+    "total_tokens": 146,
+    "total_time": 0.013938289
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "D",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "A",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ }
+}

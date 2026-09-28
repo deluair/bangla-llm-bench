@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 5.7,
+ "text": "- **280 (B):** The ancient love legend belongs to the Callejón del Beso, not the Jardín de la Unión.\n- **281 (B):** The passage describes the plateaus as treeless, so forested plateaus are not typical of Norway.\n- **282 (C):** The passage says summer is the usual tourist season for the Indian hill stations.\n- **283 (D):** For the best view of Hong Kong, the passage says to go to the Kowloon waterfront opposite.\n- **284 (D):** VPNs re-route all internet traffic, not only http, so this statement is false.\n- **285 (A):** You usually have to buy a global number separately so that PSTN phones can call you.\n- **286 (B):** The passage does not give political influence as a reason Jerusalem is well known.\n- **287 (B):** The passage mentions wraps, skirts and trousers that can be borrowed, but never shorts.\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5272,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 103
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5272,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 457,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5272,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5272
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.051323999999999995,
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 8.7,
+ "text": "Brief reasoning for each question:\n\n- **[id 104]**: The passage confirms that \"at least some dinosaurs had feathers,\" not that most had feathers. Thus, **D** is not a finding from the discovery.\n- **[id 105]**: Lobate scarps were found \"littered across\" and \"all over the moon,\" contradicting the statement that there were not many found. Thus, **D** is not true.\n- **[id 106]**: The passage discusses crushing, thick pack ice and extreme weather, making melting ice (**D**) not a cited problem.\n- **[id 107]**: The text explicitly states the beams were rigged to \"point skywards\" (**A**).\n- **[id 108]**: The suspect sustained injuries from the blast, making the statement that he was uninjured (**D**) false.\n- **[id 109]**: AOL instigated the charges rather than being the party charged, making **D** not true.\n- **[id 110]**: The passage directly identifies ASUS (**C**) as the recipient of the 2007 Taiwan Sustainable Award.\n- **[id 111]**: The flight aborted one landing and disappeared on its second approach, not after three landing attempts (**C**).\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 25147,
+  "output_tokens": 2216,
+  "thinking_tokens": 1862,
+  "cache_read_tokens": 0,
+  "total_tokens": 27363
+ },
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

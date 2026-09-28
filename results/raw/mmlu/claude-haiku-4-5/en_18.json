@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "13615",
+  "13645",
+  "13695",
+  "13697",
+  "13703",
+  "13705",
+  "13716",
+  "13757",
+  "13806",
+  "13841",
+  "13890",
+  "13921",
+  "13930",
+  "14006",
+  "14019"
+ ],
+ "seconds": 24.0,
+ "text": "Looking at each question:\n\n**[13615]** Cold War geopolitical lens: The US viewed Third World developments primarily through the lens of containing communism, not ignoring the region or unreservedly supporting decolonization. **B**\n\n**[13645]** Realist IR theory: The fundamental difference realists emphasize is anarchy in the international system—the absence of supreme authority above states. **B**\n\n**[13695]** US defense spending pattern: Historically, spending spikes during wars then demobilizes but rarely returns to prewar levels (as seen after WWII and Korea). **B**\n\n**[13697]** Domino Theory: This was the belief that communist victories in one country would cause neighboring states to fall like dominoes. **C**\n\n**[13703]** Bush administration foreign policy: Known for criticizing international institutions and pursuing unilateral approaches rather than strengthening multilateral institutions. **A**\n\n**[13705]** Human polyomaviruses: As of recent years, approximately 10 or more human polyomaviruses have been identified (though discovery is ongoing). **C**\n\n**[13716]** Retrovirus discovery: Rous sarcoma virus in chickens (1911) was the first retrovirus discovered. **A**\n\n**[13757]** Influenza control in risk sectors: Vaccination is the primary control measure in healthcare and other high-risk settings. **B**\n\n**[13806]** HIV risk from factor VIII in 2011: By this time, synthetic factor VIII (recombinant) eliminated blood-borne HIV transmission risks. **C**\n\n**[13841]** Nipah virus origin: Fruit bats are the natural reservoir for Nipah virus. **B**\n\n**[13890]** Most important Jewish prayer: The Shema is the central daily prayer declaring monotheism. **A**\n\n**[13921]** Guru-Panth meaning: Refers to the Sikh community/congregation. **A**\n\n**[13930]** Japanese cultural theme: Worship of kami and alignment with natural forces is fundamental to Shinto and Japanese civilization. **B**\n\n**[14006]** Continental Reformation: Martin Luther's 95 Theses in 1517 launched the Reformation. **B**\n\n**[14019]** Yijing English title: Translated as \"The Classic of Changes\" or \"Book of Changes.\" **D**\n\n```json\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"C\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"C\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"B\", \"14019\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1431,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2648,
+  "output_tokens_details": {
+   "thinking_tokens": 1979
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1431,
+    "output_tokens": 2648,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.014671000000000002,
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {},
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ }
+}

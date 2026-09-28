@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 19.3,
+ "text": "I'll solve each problem step by step.\n\n**[id 200]:** Baldur gets 5 + 6 = 11 pails daily. At 5 liters per pail: 11 × 5 = **55 liters**\n\n**[id 201]:** John's salary with 5% raise: 2000 × 1.05 = $2,100/week. For 52 weeks: 2100 × 52 = $109,200. Plus $5,000 award: **$114,200**\n\n**[id 202]:** Total grape production: 10 acres × 5 tons = 50 tons. Wine barrels: 50 × 2 = **100 barrels**\n\n**[id 203]:** Sandwiches (7 days × 2 slices) = 14 slices. Omelets (3 days × 3 slices) = 9 slices. Macaroni and cheese = 8 slices. Total: 14 + 9 + 8 = **31 slices**\n\n**[id 204]:** Green (22) + Yellow (10) + Blue (6 × 9 = 54) + Red (2 × 6 = 12) = **98 pens**\n\n**[id 205]:** Five scores to average 93 (after dropping lowest): 93 × 5 = 465. Current five lowest scores sum: 89 + 71 + 92 + 100 + 86 = 438. If x is sixth score and 71 is dropped: 89 + 92 + 100 + 86 + x = 465, so x = **98**\n\n**[id 206]:** First 4 weeks: 4 × 5 × 25 = 500 km. Next 3 weeks: 3 × 2 × 60 = 360 km. Total: **860 km**\n\n**[id 207]:** Each apple weighs 40g ÷ 2 = 20g. Total: (25 × 40) + (80 × 20) = 1000 + 1600 = **2600 grams**\n\n**[id 208]:** Monday: 4 cakes. Tuesday: 3 × 4 = 12 cakes. Wednesday: 5 × 12 = 60 cakes. Total: 4 + 12 + 60 = **76 cakes**\n\n**[id 209]:** 20 dozen = 240 cups. 12 plates × $6000 = $72,000. Cups cost: $72,000 - $1,200 = $70,800. Per cup: $70,800 ÷ 240 = **$295**\n\n```json\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 295}}\n```",
+ "usage": {
+  "input_tokens": 1230,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2159,
+  "output_tokens_details": {
+   "thinking_tokens": 1410
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1230,
+    "output_tokens": 2159,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.012025,
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 295.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 295.0
+ }
+}

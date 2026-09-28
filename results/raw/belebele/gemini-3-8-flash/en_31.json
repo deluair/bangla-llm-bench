@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 7.6,
+ "text": "An analysis of each question based on the provided passages:\n\n- **[id 248]**: Simon was responsible for hiring the first writing team (\"In 1989 he helped create The Simpsons... and was responsible for hiring the show's first writing team\"). Correct option: **B**.\n- **[id 249]**: Roberts stated that \"it would be unethical to comment on the specifics of likely cases.\" Correct option: **D**.\n- **[id 250]**: The passage states \"luminosity and rotation are used together to determine a star's Rossby number\". Correct option: **A**.\n- **[id 251]**: The text explicitly states that \"Murray lost the first set in a tie break\". Correct option: **A**.\n- **[id 252]**: Dr. Ur is \"skeptical about whether diabetes can be cured\". Correct option: **B**.\n- **[id 253]**: The search was hampered by \"the same bad weather that had caused the aborted landing.\" Correct option: **D**.\n- **[id 254]**: The announcement extended funding by \"an additional 300\" carriages (bringing the total to 1,300). Correct option: **A**.\n- **[id 255]**: The statement noted that \"Turkey would also take over guarding captured ISIS fighters\". Correct option: **D**.\n\n{\"answers\": {\"248\": \"B\", \"249\": \"D\", \"250\": \"A\", \"251\": \"A\", \"252\": \"B\", \"253\": \"D\", \"254\": \"A\", \"255\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25077,
+  "output_tokens": 1918,
+  "thinking_tokens": 1541,
+  "cache_read_tokens": 0,
+  "total_tokens": 26995
+ },
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "A",
+  "255": "D"
+ }
+}

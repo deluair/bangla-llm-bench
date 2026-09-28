@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "3308",
+  "3347",
+  "3412",
+  "3438",
+  "3441",
+  "3466",
+  "3493",
+  "3553",
+  "3595",
+  "3628",
+  "3647",
+  "3650",
+  "3672",
+  "3748",
+  "3762"
+ ],
+ "seconds": 9.4,
+ "text": "- **3308 – D.** Napoleon is often criticised at home for curtailing citizens' rights, such as press censorship, which the diary entries show.\n- **3347 – C.** Dechristianization did not help France's defence. Mass conscription, price controls and merit-based promotion all supported the war effort.\n- **3412 – C.** A call for religious tolerance based on reason is typical of the Enlightenment.\n- **3438 – A.** In the 1802 entry, Napoleon fears he will lose power unless he keeps winning victories.\n- **3441 – C.** Gorbachev says society had \"long been yearning\" for change, so the need built up over a long time.\n- **3466 – C.** Latitude and longitude coordinates give an absolute location.\n- **3493 – A.** A world map covers the largest area, so it uses the smallest scale.\n- **3553 – A.** NATO was formed to defend North America and Western Europe against the communist threat.\n- **3595 – C.** Europe does not suffer from a lack of environmental concern.\n- **3628 – B.** Cities in the developing world usually lack well-developed infrastructure.\n- **3647 – B.** The family is the most important influence on a child's political views.\n- **3650 – A.** Federal judges can only be removed through impeachment and conviction by Congress.\n- **3672 – D.** Since the 1980s, evangelical Christians have gained more influence in the Republican Party.\n- **3748 – A.** The House Rules Committee sets both House rules and the terms for debating legislation.\n- **3762 – B.** The Supreme Court used the Fourteenth Amendment's due process clause to apply the Bill of Rights to the states.\n\n{\"answers\": {\"3308\": \"D\", \"3347\": \"C\", \"3412\": \"C\", \"3438\": \"A\", \"3441\": \"C\", \"3466\": \"C\", \"3493\": \"A\", \"3553\": \"A\", \"3595\": \"C\", \"3628\": \"B\", \"3647\": \"B\", \"3650\": \"A\", \"3672\": \"D\", \"3748\": \"A\", \"3762\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7993,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 817,
+  "output_tokens_details": {
+   "thinking_tokens": 150
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7993,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 817,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 7993,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7993
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.080292,
+ "answers_batch": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {},
+ "answers": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ }
+}

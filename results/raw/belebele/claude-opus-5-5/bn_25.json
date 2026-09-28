@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 4.9,
+ "text": "- **200:** The passage says Hindi and Urdu share vocabulary but use different scripts, so B.\n- **201:** Hunmin Jeongeum is the original name of the Hangul alphabet, so B.\n- **202:** Sanskrit faded because of the priestly hierarchy, so D.\n- **203:** The crust is thicker in the highlands, so C.\n- **204:** The Amazon is the second-longest river, not the longest, so C.\n- **205:** Two-thirds of workers are in the service sector, so A.\n- **206:** Fusion reactors would produce energy, so D.\n- **207:** Italy's main aim was capturing African countries, so A.\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4536,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 71
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4536,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 348,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4536,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4536
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.043256,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

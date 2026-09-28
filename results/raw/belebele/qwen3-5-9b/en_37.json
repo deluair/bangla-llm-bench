@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 33.9,
+ "text": "\n\n[id 296]\nThe passage states: \"Standard 35 mm film (36 by 24 mm negative) ... gives resolution roughly comparable to a current DSLR.\" In contrast, it notes that medium-format (6x6 cm) gives resolution almost four times that of 35 mm. Therefore, 35 mm film is the one with resolution similar to a DSLR.\nAnswer: A\n\n[id 297]\nThe passage states that using these tickets is \"prohibited by Disney: the tickets are non-transferable.\" Option A claims that \"Park-hopper tickets are transferable,\" which directly contradicts the passage. Options B, C, and D are supported by the text (on-site hotel, busing, tickets on auction websites). The question asks which statement is *not* true.\nAnswer: A\n\n[id 298]\nThe passage advises against swimming back against the current due to fatigue. It suggests getting out of the current first: \"Try aiming somewhere where you are not caught again... As soon as you get out of the current, swimming back is no more difficult than normally.\" Option A accurately reflects this advice.\nAnswer: A\n\n[id 299]\nThe passage mentions that injuries occur because visitors \"didn't keep a proper distance\" (Option B) and that \"odors attract bears\" (Option A). It also prohibits feeding the wildlife (Option C). However, the passage explicitly states that \"many of the animals in the park are used to seeing humans,\" implying familiarity is common, and the danger exists because they are \"wild\" regardless of that familiarity. It does not mention \"animals that are unfamiliar with humans\" as a cause of attacks; in fact, it suggests they are familiar.\nAnswer: D\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 865,
+  "completion_tokens": 5155,
+  "total_tokens": 6020,
+  "cost": 0.00085975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00085975,
+   "upstream_inference_prompt_cost": 8.65e-05,
+   "upstream_inference_completions_cost": 0.00077325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4747,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

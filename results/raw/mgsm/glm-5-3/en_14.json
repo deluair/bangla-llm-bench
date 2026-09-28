@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 10.9,
+ "text": "Here are brief solutions:\n\n- **140:** Semi-automatic = 20 − 12 − 4 = 4; 4/20 = 20%\n- **141:** Queens = q, babies = 2q, workers = 4q; 7q = 700 → q = 100; workers = 400\n- **142:** 2 hrs/day × 7 days = 14 hrs × $10 = $140\n- **143:** Food = $5; nonfood = $10 + 10% tax = $11; total = $16\n- **144:** 8 clients × (2×$2 + $5) = $72 expenses; profit = $92 − $72 = $20\n- **145:** 10 × 100 = 1000 per harvest × 4 harvests/year = 4000\n- **146:** 500 + 1500 + 125 = 2125\n- **147:** Left: 30 + 60 = 90; returned already: 15; last 6 hours: 90 − 15 = 75\n- **148:** $12 + $10 = $22; $22 + $8 change = $30\n- **149:** Dorothy = 12/3 = 4; James = 4 × 4 = 16\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}",
+ "usage": {
+  "completion_tokens": 724,
+  "completion_tokens_details": {
+   "reasoning_tokens": 377
+  },
+  "prompt_tokens": 786,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1510
+ },
+ "served_by": null,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

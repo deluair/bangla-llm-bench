@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 12.6,
+ "text": "[id 100] First: 20; Second: 20 + 20×(1/4) = 25; Fourth: 60; Third: 60+10 = 70. Total = 20+25+60+70 = **175**\n\n[id 101] Total pages = 4+20+7+8 = 39. Remaining = 39−15 = 24. Over 4 days: 24/4 = **6**\n\n[id 102] 4 glasses/day, but on rest day only 3 (soda replaces dinner water): 6×4 + 3 = **27**\n\n[id 103] 42 miles ÷ 3 miles per 10 min = 14 intervals × 10 = **140**\n\n[id 104] Poppy: 1000/4 = 250. Mom: (1000−250)/3 = 250. Remaining = 1000−500 = **500**\n\n[id 105] Cody: 3×5 = 15. Together: 5+15 = **20**\n\n[id 106] Inner dimensions: (5−2)×(6−2)×(4−2) = 3×4×2 = 24 per box; 24×3 = **72**\n\n[id 107] Mon: 1h, Tue: 1h, Thu: 1.5h, Fri: 2h = 5.5h. Wednesday = 7−5.5 = 1.5h = **3** episodes\n\n[id 108] Let last year = L: 2L + 15 − 5 = 110 → 2L = 100 → L = **50**\n\n[id 109] 10×3.00 = $30; cashback = 10×0.20 = $2; 30−2 = **28**\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 27, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "completion_tokens": 1169,
+  "completion_tokens_details": {
+   "reasoning_tokens": 711
+  },
+  "prompt_tokens": 2842,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 4011
+ },
+ "served_by": null,
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

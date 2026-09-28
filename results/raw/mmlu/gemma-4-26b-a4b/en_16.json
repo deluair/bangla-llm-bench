@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 9.4,
+ "text": "The reasoning for each answer is as follows:\n[10694] C: Intentional Infliction of Emotional Distress (IIED) occurs when conduct is extreme and outrageous. Even if the target is the husband, the woman is a foreseeable victim of the distress.\n[11167] B: The workman has a contract with the carpeting company (privity). The husband and wife are not in privity with the workman, so the workman must sue the company.\n[11431] C: Assumption of risk requires actual knowledge of the specific risk. A sign saying \"do not ride\" is insufficient to inform the passenger of the actual danger (falling into a shaft).\n[11486] B: The \"Dual Sovereignty\" doctrine allows two different states to prosecute a person for the same act if it violates the laws of both states.\n[11690] C: The Fourth Amendment allows for searches of areas where officers reasonably believe the subject of the warrant resides.\n[12239] D: The symptoms (restlessness, diminished breath sounds, tachycardia) suggest a tension pneumothorax. Repositioning or managing the tube/drainage is a priority.\n[12247] B: The description (cycles of anxiety/hyperactivity followed by depression/lethargy tied to menses) is characteristic of Premenstrual Dysphoric Disorder (PMDD), which is often classified under the umbrella of mood/bipolar spectrums in simplified exams, but specifically matches PMDD. Given the choices, B is the closest intended psychological fit for cyclicity, though PMDD is a distinct diagnosis.\n[12303] B: The description of sessile, flesh-colored lesions that turn white with acetic acid (acetowhite) is highly suggestive of Condyloma acuminatum (HPV) or potentially Syphilis. However, the most common treatment for suspected sexually transmitted lesions like syphilis or specific HPV presentations in these contexts is addressed; given the context of \"nontender lesions\" and \"sessile,\" if it were syphilis, it would be penicillin. However, for HPV (warts), doxycycline is not the answer. If it's Syphilis (chancre/condyloma), penicillin is used. Given the \"acetowhite\" reaction, it points toward HPV. *Correction:* Acetowhite reaction is classic for HPV (warts). However, syphilis can present with lesions. If the diagnosis is syphilis, it's C. If HPV, it's often topical. Looking at the options, B is likely a distractor. Re-evaluating: Condyloma acuminatum (warts) turns white with acetic acid. The next step for suspected STI is often treatment or testing. However, if it is Syphilis (which can have various lesions), it's C. Actually, acetowhite is most strongly associated with HPV. But doxycycline is for Chlamydia/Lymphogranuloma. Let's look at the most common board answer: Syphilis is the \"great imitator.\" If it's a chancre, it's penicillin.\n[12421] D: Acute urticaria without systemic symptoms or significant history is usually self-limiting; symptomatic treatment is the first step.\n[12423] A: A brown, irregular mass behind the tympanic membrane in a child with chronic otitis media is likely a cholesteatoma, which is an epithelial proliferation.\n[12582] B: Competence to stand trial focuses on the defendant's current ability to understand the proceedings and assist counsel.\n[12609] D: Mothers are generally more accurate regarding concrete, observable milestones like motor skills and weight.\n[12674] A: A significant discrepancy between Verbal IQ and Performance IQ is a classic indicator of certain learning disabilities (e.g., nonverbal learning disability).\n[12915] B: In psychotherapy, the client holds the privilege.\n[13027] C: The first ethical step in research is to address the concern with the supervisor.\n\n{\"answers\": {\"10694\": \"C\", \"11167\": \"B\", \"11431\": \"C\", \"11486\": \"B\", \"11690\": \"C\", \"12239\": \"D\", \"12247\": \"B\", \"12303\": \"C\", \"12421\": \"D\", \"12423\": \"A\", \"12582\": \"B\", \"12609\": \"D\", \"12674\": \"A\", \"12915\": \"B\", \"13027\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 2546,
+  "completion_tokens": 1021,
+  "total_tokens": 3567,
+  "cost": 0.00048969,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00048969,
+   "upstream_inference_prompt_cost": 0.00015276,
+   "upstream_inference_completions_cost": 0.00033693
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "B",
+  "12303": "C",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "answers_batch": {
+  "10694": "C",
+  "11167": "B",
+  "11431": "C",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "B",
+  "12303": "C",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 282.9,
+ "text": "[id 230] 12 cars × $20,000 = $240,000. Tax is 10% = $24,000. Registration is 12 × $1,000 = $12,000. Total = $240,000 + $24,000 + $12,000 = $276,000.\n\n[id 231] Robert collects 20 shells, so Kylie collects 20 + 5 = 25 on Monday. On Tuesday she collects 2 × 25 = 50 shells.\n\n[id 232] Bugs are half the ants: 50 ÷ 2 = 25. Total insects = 50 + 25 = 75.\n\n[id 233] One-third of 36 is 12, and another one-third is 12. 36 − 12 − 12 = 12 penguins remain.\n\n[id 234] Steve eats 6 per day, so he needs 6 × 7 = 42 tomatoes per week. Each vine yields 3 per week, so 42 ÷ 3 = 14 vines. (The girlfriend’s consumption is extra information.)\n\n[id 235] 20 friends × 4 slices = 80 slices needed. 80 ÷ 8 slices per pizza = 10 pizzas.\n\n[id 236] 25 empty pens make 25 ÷ 5 = 5 new pens. Those 5 empty pens make 5 ÷ 5 = 1 more pen. Total = 25 + 5 + 1 = 31 pens.\n\n[id 237] $20 + $10 = $30. Tripled: $30 × 3 = $90.\n\n[id 238] Jessa is 20. Joan is 20 + 5 = 25. Mary is 25 − 2 = 23. Sum = 20 + 25 + 23 = 68.\n\n[id 239] Exit A: 30% of 1000 = 300. Remaining: 700. Exit B: 3/5 of 700 = 420. Remaining for Exit C: 700 − 420 = 280.\n\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 14, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}",
+ "usage": {
+  "prompt_tokens": 660,
+  "completion_tokens": 10454,
+  "total_tokens": 11114,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9951
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 14.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 14.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 3.7,
+ "text": "Here are the answers:\n\n- **224**: The passage states the airport was closed to **commercial flights** after the crash.\n- **225**: The passage mentions **Henry Kissinger** succeeded by Brzezinski as NSA, so Kissinger held the position until 1977.\n- **226**: The ship had **120–160 cubic meters of fuel** (not 100 meters), so **B** is false.\n- **227**: Vautier returned to Algeria in the **1960s** to teach film directing, implying independence occurred in that decade.\n- **228**: A **neighbor** reported the gas leak to the gas company official.\n- **229**: The latest confirmed case was in **France** (near Lyon).\n- **230**: Fred was moving towards the **northwest**.\n- **231**: The phase change occurred **on March 10th**.\n\n```json\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1278,
+  "completion_tokens": 280,
+  "total_tokens": 1558,
+  "cost": 0.0002337,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002337,
+   "upstream_inference_prompt_cost": 0.0001917,
+   "upstream_inference_completions_cost": 4.2e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

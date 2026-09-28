@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 14.3,
+ "text": "[id 32] The passage mentions disputes over \"system, process, and culture\" caused arguments between the countries. Opinions about Germany (B) is never mentioned as a source of conflict — Germany's role was as a common enemy fostering cooperation.\n\n[id 33] The passage states nerve impulses keep blood flow active/unobstructed, maintain homeostasis, and protect against harm. Slowing blood circulation (A) is never stated as a purpose.\n\n[id 34] The Ephesians refused to record Herostratus's name; the Greek historian Strabo later mentioned it, which is how we know it today.\n\n[id 35] The German navy (U-boats) was trying to stop the American traffic of people and supplies reaching Britain. Option B describes disrupting supply to Britain.\n\n[id 36] Homer is described as the legendary *blind* poet — he could not see.\n\n[id 37] The Dutch established a base in southwest Taiwan, transformed indigenous production, and employed Chinese laborers. Surrendering Taiwan to the Qing Empire (D) is not something they did — the Qing took it by force in 1683.\n\n[id 38] The passage explicitly says the pH level is indicated by the amount of hydrogen ions present in the tested chemical.\n\n[id 39] The passage says the *females* are closely related (sisters and daughters). It does not state that males and females are all closely related to each other, so C does not correctly describe the pride.\n\n{\"answers\": {\"32\": \"B\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1245,
+  "completion_tokens_details": {
+   "reasoning_tokens": 815
+  },
+  "prompt_tokens": 5877,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 7122
+ },
+ "served_by": null,
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}

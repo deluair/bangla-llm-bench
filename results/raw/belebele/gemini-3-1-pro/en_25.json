@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 13.3,
+ "text": "Based on the provided passages, here is the reasoning for each question:\n\n**[id 200]** The passage states that \"Hindi and Urdu are similar in vocabulary but different in script\". (Answer: B)\n**[id 201]** The passage states King Sejong \"originally named the Hangeul alphabet Hunmin Jeongeum\". This means Hunmin Jeongeum was the original name of what is now known as Hangeul. (Answer: B)\n**[id 202]** The passage states that \"Sanskrit just faded due to hierarchy.\" (Answer: D)\n**[id 203]** The passage states that the Moon's crust is \"thicker under the highlands.\" (Answer: C)\n**[id 204]** The passage calls the Amazon River the \"second longest\", \"biggest\", and \"widest\". It does not say it is the \"longest river\" on Earth. (Answer: C)\n**[id 205]** The passage states that \"Two thirds of Venezuelans who work do so in the service sector\", which is the largest proportion compared to industry (nearly a quarter), agriculture (a fifth), and oil (one percent). (Answer: A)\n**[id 206]** The passage notes that stars give off light and heat due to energy from merged hydrogen atoms, and that scientists want to build a reactor to \"make energy in the same way\". (Answer: D)\n**[id 207]** The passage clearly states, \"Italy's main goals were African countries,\" meaning capturing them. (Answer: A)\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}\n",
+ "usage": {
+  "input_tokens": 17270,
+  "output_tokens": 1303,
+  "thinking_tokens": 883,
+  "cache_read_tokens": 8141,
+  "total_tokens": 18573
+ },
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

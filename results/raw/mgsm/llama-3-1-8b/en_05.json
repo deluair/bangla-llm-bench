@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 7.9,
+ "text": "Here are the answers:\n\n[id 50]\nLloyd makes 5040 dollars per week.\n\n[id 51]\nIt takes Tom 1 hour to get back.\n\n[id 52]\nUriah needs to remove 12 toys.\n\n[id 53]\nThe mechanic earned 240 dollars more on the day with higher revenue.\n\n[id 54]\nThe Doubtfire family now has 49 kittens.\n\n[id 55]\nJean can fill 14 bags.\n\n[id 56]\nPeter can go to the movies 5 times.\n\n[id 57]\nThe maximum number of boxes is 182.\n\n[id 58]\nThe final price of Stephen's groceries is 51.00.\n\n[id 59]\nThere are 129 raspberries total.\n\n{\"answers\": {\"50\": 5040, \"51\": 1, \"52\": 12, \"53\": 240, \"54\": 49, \"55\": 14, \"56\": 5, \"57\": 182, \"58\": 51, \"59\": 129}}",
+ "usage": {
+  "prompt_tokens": 723,
+  "completion_tokens": 211,
+  "total_tokens": 934,
+  "cost": 2.29e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 2.29e-05,
+   "upstream_inference_prompt_cost": 1.446e-05,
+   "upstream_inference_completions_cost": 8.44e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "50": 5040.0,
+  "51": 1.0,
+  "52": 12.0,
+  "53": 240.0,
+  "54": 49.0,
+  "55": 14.0,
+  "56": 5.0,
+  "57": 182.0,
+  "58": 51.0,
+  "59": 129.0
+ },
+ "single": {},
+ "answers": {
+  "50": 5040.0,
+  "51": 1.0,
+  "52": 12.0,
+  "53": 240.0,
+  "54": 49.0,
+  "55": 14.0,
+  "56": 5.0,
+  "57": 182.0,
+  "58": 51.0,
+  "59": 129.0
+ }
+}

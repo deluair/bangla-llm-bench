@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 16.9,
+ "text": "Here are the step-by-step solutions for each problem:\n\n- **[id 200]**: Total buckets per day = $5 + 6 = 11$. Total liters = $11 \\times 5 = 55$.\n- **[id 201]**: Increased weekly salary = $2000 \\times 1.05 = \\$2100$. Annual salary for 52 weeks = $52 \\times 2100 = \\$109,200$. Adding the \\$5000 prize gives $109,200 + 5000 = 114,200$.\n- **[id 202]**: Total grapes = $10 \\times 5 = 50$ tons. Total wine = $50 \\times 2 = 100$ barrels.\n- **[id 203]**: Sandwich slices = $7 \\times 2 = 14$. Omelet slices = $3 \\times (2 + 1) = 9$. Macaroni dish = $8$ slices. Total slices = $14 + 9 + 8 = 31$.\n- **[id 204]**: Blue pens = $6 \\times 9 = 54$. Red pens = $2 \\times 6 = 12$. Total pens = $22 + 10 + 54 + 12 = 98$.\n- **[id 205]**: Sum of the top 4 known scores (dropping 71) = $89 + 92 + 100 + 86 = 367$. Required sum for a 93 average over 5 tests = $93 \\times 5 = 465$. Sixth test score = $465 - 367 = 98$.\n- **[id 206]**: First period = $5 \\times 25 \\times 4 = 500$ km. Second period = $2 \\times 60 \\times 3 = 360$ km. Total = $500 + 360 = 860$ km.\n- **[id 207]**: Candied apple weight = $40 / 2 = 20$ g. Total weight = $(25 \\times 40) + (80 \\times 20) = 1000 + 1600 = 2600$ g.\n- **[id 208]**: Monday = $4$. Tuesday = $4 \\times 3 = 12$. Wednesday = $12 \\times 5 = 60$. Total = $4 + 12 + 60 = 76$.\n- **[id 209]**: Half dozen plates = $6 \\times 6000 = \\$36,000$. Cost of 20 dozen (240) cups = $36,000 - 1200 = \\$34,800$. Cost per cup = $34,800 / 240 = 145$.\n\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}\n",
+ "usage": {
+  "input_tokens": 24753,
+  "output_tokens": 4605,
+  "thinking_tokens": 3787,
+  "cache_read_tokens": 0,
+  "total_tokens": 29358
+ },
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 128.1,
+ "text": "[id 160] The passage states that during the nomadic phase, the colony \"makes temporary nests that are changed everyday.\" This directly supports Option C. Option A is incorrect as nesting time isn't specified as night; Option B is incorrect as they do nest (temporarily); Option D contradicts the \"changed everyday\" statement.\n\n[id 161] The passage describes Kirby Muxloe Castle as a \"fortified house\" with \"large glazed windows and thin walls.\" These features contrast with a \"true castle\" designed for defense. Among the options, \"Huge windows\" (synonymous with \"large glazed windows\") represents a feature explicitly mentioned as atypical for a defensive structure (\"would not have been able to resist a determined attack\"). While thin walls are also mentioned, windows are the primary visual indicator of a non-castle dwelling in this context. Option B describes what it lacks but is not explicitly a construction feature of the building mentioned in the text (though inferred).\n\n[id 162] The passage suggests \"Maintaining a healthy energy balance, practicing effective hydration habits, and understanding... supplementation... can help athletes... increase their enjoyment.\" Options A, C, and D are explicitly linked to this outcome in the text. Option B (\"Consistently performing at an elite level\") is not suggested as a method for finding enjoyment; in fact, the text notes nutrition alone cannot guarantee elite performance.\n\n[id 163] The passage states that the basis for MRI was discovered in 1970, and \"Four years later a patent was granted.\" 1970 + 4 years = 1974.\n\n[id 164] The passage states, \"understanding the intention of others is crucial. It allows us to resolve possible ambiguities of physical actions.\" Option A (\"Eliminate uncertainty behind physical actions\") is the closest paraphrase of resolving ambiguities.\n\n[id 165] The passage says, \"No longer did pressure reside within individual recall,\" indicating a shift away from this focus during the Renaissance. Thus, \"Individual recall\" is the area where emphasis decreased.\n\n[id 166] The passage explicitly states, \"one of the biggest developments of the time as a result of the crusades people began to use buttons to fasten clothing.\"\n\n[id 167] The passage contrasts \"symptomatic treatment\" (living friendly, activism) with \"finding the root of the problems, and we should deactivate them.\" Therefore, deactivating root causes (Option B) is the solution that is *not* considered a symptomatic treatment.\n\n{\"answers\": {\"160\": \"C\", \"161\": \"A\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"A\", \"166\": \"C\", \"167\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1378,
+  "completion_tokens": 7424,
+  "total_tokens": 8802,
+  "cost": 0.0012514,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012514,
+   "upstream_inference_prompt_cost": 0.0001378,
+   "upstream_inference_completions_cost": 0.0011136
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6817,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

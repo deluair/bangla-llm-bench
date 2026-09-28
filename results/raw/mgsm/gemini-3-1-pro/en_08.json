@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 65.1,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 80]**\nTotal water = 24 liters. \nTwo girls each take 1/6 of 24 liters = 4 liters per girl. \nThey take 8 liters combined. The boy takes 6 liters. \nTotal taken = 8 + 6 = 14 liters. \nLiters left = 24 - 14 = 10.\n\n**[id 81]**\nCharlie's initial stickers = 10.\nBought = +21 (Total: 31)\nBirthday = +23 (Total: 54)\nGave to sister = -9 (Total: 45)\nUsed on card = -28 (Total: 17)\nStickers left = 17.\n\n**[id 82]**\nGrace = 125 lbs.\nAlex = (4 * 125) - 2 = 500 - 2 = 498 lbs.\nCombined = 125 + 498 = 623.\n\n**[id 83]**\n3 bushes * 25 roses = 75 roses.\n75 roses * 8 thorns = 600 thorns.\n\n**[id 84]**\nLet W be wins and L be losses. \nW + L = 22\nW = L + 8\nSubstitute W: (L + 8) + L = 22 → 2L = 14 → L = 7.\nWins = 7 + 8 = 15.\n\n**[id 85]**\nGene has been vacationing since he was 23 and is now 34. \nYears of vacationing = 34 - 23 = 11 years.\nAt 4 vacations per year, total quilt blocks = 11 * 4 = 44.\n\n**[id 86]**\nFirst time = 4 rings.\nSecond time = 4 * 3 = 12 rings.\nThird time = 12 / 2 = 6 rings.\nTotal rings = 4 + 12 + 6 = 22.\n\n**[id 87]**\nInitial annual salary = $600 * 12 = $7,200.\nSylvie just clocked 5 years, making her eligible for the 10% annual increase ($720 per year). \nOver the next 3 years of service, she will receive 3 increments.\nTotal increase = 3 * $720 = $2,160. \nHer annual salary will be $7,200 + $2,160 = $9,360.\n\n**[id 88]**\nM = 10 * H\nM + H = 88,000\n10H + H = 88,000 → 11H = 88,000 → H = 8,000.\n\n**[id 89]**\nInvited friends = 16.\nNeeded gift bags = 16 * 0.75 = 12 bags.\nTotal cost = 12 * $2 = $24.\n\n```json\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 24}}\n```\n",
+ "usage": {
+  "input_tokens": 16664,
+  "output_tokens": 8219,
+  "thinking_tokens": 7378,
+  "cache_read_tokens": 8140,
+  "total_tokens": 24883
+ },
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

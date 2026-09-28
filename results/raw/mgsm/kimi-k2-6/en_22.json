@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 42.7,
+ "text": "Here are the solutions:\n\n**220.** 3 crosswords × 10 min = 30 min; 8 sudokus × 5 min = 40 min; total = 70 min.  \n**221.** 120 − 90 = 30 L left; rain collected = 2 × 30 = 60 L; 30 + 60 = 90 L.  \n**222.** Petunias = 90 − 40 = 50; total flowers = 90 + 50 = 140.  \n**223.** Year 2 = 15000 ÷ 3 = 5000; total = 15000 + 5000 = 20000.  \n**224.** Carlos = 30 × 3 = 90; Benji = 18 × 5 = 90; total = 180.  \n**225.** Bus = 6 days; car = 6 ÷ 2 = 3 days; round trip = 6 + 3 = 9 days.  \n**226.** Final counts: fire 30, grass 34, water 32; total = 96; 32/96 ≈ 33.33% → 33%.  \n**227.** 6.50 + 2 + 1 + 1 + 0.50 + 3 = 14.00; 14.00 − 5.00 = 9.00.  \n**228.** Combined rate = 4 + 2 = 6 pieces/min; 360 ÷ 6 = 60 min = 1 hour.  \n**229.** First harvest: 30% of 120 = 36; remaining 84. After two weeks, 1/4 of 84 = 21 were not ready.\n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}",
+ "usage": {
+  "prompt_tokens": 725,
+  "completion_tokens": 1683,
+  "total_tokens": 2408,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1250
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

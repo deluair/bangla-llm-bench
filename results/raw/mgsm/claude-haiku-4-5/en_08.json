@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 17.5,
+ "text": "# Solutions\n\n**[id 80]** Each girl got 1/6 of 24 = 4 liters. Two girls got 8 liters total. Boy got 6 liters. Total given: 14 liters. Remaining: 24 - 14 = 10 liters.\n\n**[id 81]** Charlie started with 10, bought 21, got 23 for birthday = 54 total. Gave away 9, used 28 = 37 removed. Remaining: 54 - 37 = 17 stickers.\n\n**[id 82]** Grace weighs 125. Alex weighs 4(125) - 2 = 500 - 2 = 498. Combined: 125 + 498 = 623 pounds.\n\n**[id 83]** 3 bushes × 25 roses/bush = 75 roses. 75 roses × 8 thorns/rose = 600 thorns.\n\n**[id 84]** Let W = wins, L = losses. W + L = 22 and W = L + 8. So (L + 8) + L = 22, giving 2L = 14, L = 7, W = 15.\n\n**[id 85]** Gene vacationed from age 23 to 34 = 11 years. At 4 vacations/year: 11 × 4 = 44 blocks.\n\n**[id 86]** First alarm: 4 rings. Second: 3 × 4 = 12 rings. Third: 12 ÷ 2 = 6 rings. Total: 4 + 12 + 6 = 22 rings.\n\n**[id 87]** Monthly salary $600, annual $7,200. After 5 years, eligible for 10% of initial annual salary increase per year = $720/year. After 3 more years: $7,200 + 3($720) = $9,360.\n\n**[id 88]** Marilyn sold 10 times Harald's amount. 10H + H = 88,000, so 11H = 88,000, H = 8,000 copies.\n\n**[id 89]** 16 invited guests need 16 × 0.75 = 12 gift bags. At $2 each: 12 × $2 = $24.\n\n```json\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 24}}\n```",
+ "usage": {
+  "input_tokens": 1095,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2090,
+  "output_tokens_details": {
+   "thinking_tokens": 1436
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1095,
+    "output_tokens": 2090,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011545,
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

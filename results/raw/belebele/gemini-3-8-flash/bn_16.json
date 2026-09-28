@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 12.5,
+ "text": "Here are the answers to the questions based on the provided passages:\n\n- **[id 128]**: The text states that \"একটি সংক্রামক রোগ হলো একটি রোগ যেটি একজন আক্রান্ত রোগীর সান্নিধ্যে যাওয়ার মাধ্যমে ছড়ায়\", indicating transmission occurs via an infected patient (**A**).\n- **[id 129]**: The passage notes that outside traditional setups, a global number is purchased to allow traditional PSTN phones to connect (**D**).\n- **[id 130]**: The passage specifies that only `c` and `g` alter pronunciation depending on the following vowel, not most words (**D**).\n- **[id 131]**: Religious importance, cultural resources, and historical sites are specifically highlighted as attractions, whereas Jerusalem's contested status as the capital is not cited as a tourist draw (**B**).\n- **[id 132]**: The passage explicitly warns that the steep sections can rapidly become hazardous, especially when wet (**A**).\n- **[id 133]**: Transnistria's creation arose from ethnic conflict (\"জাতিগত সংঘাত\") (**B**).\n- **[id 134]**: Visitors are cautioned against small-town bars due to drunk driving and safety issues (**B**).\n- **[id 135]**: Fruit juice is highlighted as typically expensive (\"সাধারণত দামি\"), making it something budget-conscious travelers might avoid (**D**).\n\n```json\n{\"answers\": {\"128\": \"A\", \"129\": \"D\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 25523,
+  "output_tokens": 3315,
+  "thinking_tokens": 2932,
+  "cache_read_tokens": 0,
+  "total_tokens": 28838
+ },
+ "answers_batch": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 4.5,
+ "text": "{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1529,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 409,
+  "output_tokens_details": {
+   "thinking_tokens": 339
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1529,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 409,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1529,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1529
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.01021,
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 15.4,
+ "text": "[id 240]\nJohn has 54 candies.\nJohn has twice as many as Robert $\\Rightarrow$ Robert has $54 / 2 = 27$ candies.\nJames has 6 more than Robert $\\Rightarrow$ James has $27 + 6 = 33$ candies.\nDifference between John and James: $54 - 33 = 21$.\n\n[id 241]\nDolly has 2 books. Pandora has 1 book. Total unique books = $2 + 1 = 3$.\n\n[id 242]\nMike had 5 penpals, minus 2 = 3 penpals.\nEach week, Mike sends 2 letters and receives 2 letters $\\Rightarrow$ 4 letters total per penpal.\nTotal letters = $3 \\times 4 = 12$ letters.\nEach letter is 5 pages $\\Rightarrow$ Total pages = $12 \\times 5 = 60$ pages.\nTime per page = 6 minutes $\\Rightarrow$ Total time = $60 \\times 6 = 360$ minutes.\n$360 / 60 = 6$ hours.\n\n[id 243]\nPlan = 1000 minutes.\nCalls to boss = $30 \\text{ days} \\times 15 \\text{ min/day} = 450$ minutes.\nOther calls = 300 minutes.\nTotal spent = $450 + 300 = 750$ minutes.\nRemaining = $1000 - 750 = 250$ minutes.\n\n[id 244]\nGriffin starts with 24.\nKyle takes 5. Griffin is at 19.\nKyle gives twice what he took: $2 \\times 5 = 10$ (to whom? Likely the group or a person not specified, but the key is Griffin's balance).\nWait, let's re-read: \"Kyle took 5. Kyle gave twice as many as he took (10) [presumably to someone else/distributed]\".\nGinger gives $x$ to Griffin.\nColby takes 3 less than Kyle took from Griffin: $5 - 3 = 2$.\nGriffin's final total = $24 - 5 + x - 2 = 27$.\n$17 + x = 27 \\Rightarrow x = 10$.\n\n[id 245]\nSnails in A: 4. Snails in B: 32.\nDifference in snails: $32 - 4 = 28$.\nThis difference is twice the number of fish in each aquarium ($F$): $28 = 2F \\Rightarrow F = 14$.\n\n[id 246]\nRate = $\\$250$/hour.\nHours per day = 6. Days per week = 4. Weeks = 5.\nTotal hours = $6 \\times 4 \\times 5 = 120$ hours.\nTotal cost before discount = $120 \\times 250 = 30,000$.\nDiscount = 10% of 30,000 = 3,000.\nFinal cost = $30,000 - 3,000 = 27,000$.\n\n[id 247]\nTotal = $12 + 43 + 15 + 4 + 22 = 96$.\nShared by 3 people (Isabelle, Mother, Father): $96 / 3 = 32$.\n\n[id 248]\nTotal weight = $4 \\times 50 = 200$ pounds.\nPrice = $200 \\times 1.50 = 300$.\n\n[id 249]\nMonday: Sister eats 5. Sue eats $4 \\times 5 = 20$. Difference = 15 cookies.\nTuesday: Sister eats 13. Sue eats $2 \\times 13 = 26$. Difference = 13 cookies.\nTotal cookie difference = $15 + 13 = 28$ cookies.\nCalorie difference = $28 \\times 200 = 5600$.\n\n```json\n{\"answers\": {\"240\": 21, \"241\": 3, \"242\": 6, \"243\": 250, \"244\": 10, \"245\": 14, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}\n```",
+ "usage": {
+  "prompt_tokens": 916,
+  "completion_tokens": 1069,
+  "total_tokens": 1985,
+  "cost": 0.00026876,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00026876,
+   "upstream_inference_prompt_cost": 5.496e-05,
+   "upstream_inference_completions_cost": 0.0002138
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "240": 21.0,
+  "241": 3.0,
+  "242": 6.0,
+  "243": 250.0,
+  "244": 10.0,
+  "245": 14.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 3.0,
+  "242": 6.0,
+  "243": 250.0,
+  "244": 10.0,
+  "245": 14.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 3.4,
+ "text": "I will solve each problem step-by-step.\n\n**[id 20]**\n1.  **Orange drink:** Total volume is 10 liters, but 1 liter is spilled. Remaining volume = $10 - 1 = 9$ liters.\n    Water content is $2/3$. Water in orange drink = $9 \\times \\frac{2}{3} = 6$ liters.\n2.  **Pineapple drink:** Total volume is 15 liters. Water content is $3/5$.\n    Water in pineapple drink = $15 \\times \\frac{3}{5} = 9$ liters.\n3.  **Total water:** Water from orange drink + Water from pineapple drink = $6 + 9 = 15$ liters.\n    The total remaining volume is $9 + 15 = 24$ liters, which matches the problem statement.\n    Answer: 15\n\n**[id 21]**\n1.  Raymond was born 6 years before Samantha.\n2.  Samantha is now 31, so Raymond is $31 + 6 = 37$ years old.\n3.  Raymond's son born when Raymond was 23.\n4.  Years ago = Raymond's current age - Age when son was born = $37 - 23 = 14$ years.\n    Answer: 14\n\n**[id 22]**\n1.  First 3 customers buy 1 DVD each: $3 \\times 1 = 3$ DVDs.\n2.  Next 2 customers buy 2 DVDs each: $2 \\times 2 = 4$ DVDs.\n3.  Last 3 customers buy 0 DVDs: $3 \\times 0 = 0$ DVDs.\n4.  Total DVDs = $3 + 4 + 0 = 7$.\n    Answer: 7\n\n**[id 23]**\n1.  Time period: 1:00 PM to 5:00 PM is $5 - 1 = 4$ hours.\n2.  Melting rate: 2 cm/hour.\n3.  Total decrease in height = $4 \\text{ hours} \\times 2 \\text{ cm/hour} = 8$ cm.\n    Answer: 8\n\n**[id 24]**\n1.  Let the original price be $P$.\n2.  The discount is 25%, so the selling price is $100\\% - 25\\% = 75\\%$ of $P$, or $0.75P$.\n3.  We know $0.75P = 19.50$.\n4.  $P = \\frac{19.50}{0.75} = \\frac{19.50}{3/4} = 19.50 \\times \\frac{4}{3} = 6.50 \\times 4 = 26$.\n    Answer: 26\n\n**[id 25]**\n1.  Cost of chicken meal: $12$.\n2.  Cost of 5 packs of milk: $5 \\times 3 = 15$.\n3.  Cost of 4 apples: $4 \\times 1.50 = 6$.\n4.  Subtotal without pizza = $12 + 15 + 6 = 33$.\n5.  Total paid = $50$.\n6.  Cost of pizza boxes = $50 - 33 = 17$.\n7.  Cost per box = $8.50$.\n8.  Number of boxes = $\\frac{17}{8.50} = 2$.\n    Answer: 2\n\n**[id 26]**\n1.  Cost of 3 pairs of shorts: $3 \\times 16.50 = 49.50$.\n2.  Cost of 3 pairs of pants: $3 \\times 22.50 = 67.50$.\n3.  Cost of 3 pairs of shoes: $3 \\times 42 = 126$.\n4.  Total cost = $49.50 + 67.50 + 126$.\n    $49.50 + 67.50 = 117$.\n    $117 + 126 = 243$.\n    Answer: 243\n\n**[id 27]**\n1.  Consumption rate: 1 serving per night.\n2.  Cartons needed for 60 days: Since each carton has 15 servings, she needs $\\frac{60}{15} = 4$ cartons.\n3.  Cost per carton: $4.00$.\n4.  Total cost = $4 \\text{ cartons} \\times 4.00/\\text{carton} = 16$.\n    Answer: 16\n\n**[id 28]**\n1.  Total trip distance: 60 miles.\n2.  First stop at: 20 miles.\n3.  Second stop at: 15 miles before the end, so at $60 - 15 = 45$ miles.\n4.  Distance between stops = Second stop location - First stop location = $45 - 20 = 25$ miles.\n    Answer: 25\n\n**[id 29]**\n1.  Cost of first pair of heels: $33$.\n2.  Cost of second pair of heels: Twice the first, so $2 \\times 33 = 66$.\n3.  Total cost of two pairs of heels = $33 + 66 = 99$.\n4.  The heels together cost $5 less than the boots.\n5.  Cost of boots = Cost of heels + $5 = 99 + 5 = 104$.\n    Answer: 104\n\n```json\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}\n```",
+ "usage": {
+  "queue_time": 0.316912093,
+  "prompt_tokens": 717,
+  "prompt_time": 0.056243756,
+  "completion_tokens": 1430,
+  "completion_time": 2.875585492,
+  "total_tokens": 2147,
+  "total_time": 2.931829248
+ },
+ "served_by": null,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 3.0,
+ "text": "[id 296] The passage states: \"Standard 35 mm film... gives resolution roughly comparable to a current DSLR.\"\n[id 297] The passage states that tickets sold on eBay or Craigslist are \"prohibited by Disney: the tickets are non-transferable.\" Therefore, statement A is not true.\n[id 298] The passage advises: \"As soon as you get out of the current, swimming back is no more difficult than normally. Try aiming somewhere where you are not caught again...\" This aligns with option A.\n[id 299] The passage mentions: 1) \"should not be fed\" (C), 2) \"stay at least... away\" (B), and 3) \"odors attract bears\" (A). It does *not* state that the animals are attacking because they are \"unfamiliar with humans\"; in fact, it says \"many of the animals in the park are used to seeing humans.\"\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 872,
+  "completion_tokens": 243,
+  "total_tokens": 1115,
+  "cost": 0.00015138,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015138,
+   "upstream_inference_prompt_cost": 7.848e-05,
+   "upstream_inference_completions_cost": 7.29e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

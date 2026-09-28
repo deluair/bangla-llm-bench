@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 6.6,
+ "text": "Here are the answers based on the reasoning:\n\n- **id 280**: The passage mentions a central gazebo with concerts (A), garden-facing restaurants (C), and the legend of the alley (B) is associated with Callejon del Beso, not Jardín de la Unión. The only surviving building of the convent is the Templo de San Diego, not the convent itself (D).\n  **Reasoning**: The question asks what is *not* found in Jardín de la Unión. The legend is tied to Callejon del Beso, not the garden.\n\n- **id 281**: The passage describes plateaus as \"treeless\" (vidde or hei), so forested plateaus would not be typical.\n  **Reasoning**: The text explicitly states these plateaus are treeless.\n\n- **id 282**: The passage states the tourist season peaks during Indian summer, not throughout winter months.\n  **Reasoning**: The passage highlights the peak season as Indian summer, not winter as a whole.\n\n- **id 283**: The passage suggests that the best views of Hong Kong are from the Kowloon waterfront.\n  **Reasoning**: The text explicitly states to leave Hong Kong Island for the Kowloon waterfront for stunning views.\n\n- **id 284**: The passage states VPNs re-route all Internet traffic, not just http, so option D is incorrect.\n  **Reasoning**: The passage clearly mentions VPNs reroute all traffic, not just http.\n\n- **id 285**: The passage mentions needing to purchase a global number to receive calls from PSTN phones.\n  **Reasoning**: The text explicitly states this requirement.\n\n- **id 286**: The passage does not mention political influence as something Jerusalem is known for.\n  **Reasoning**: The text focuses on history, religious significance, and cultural sites.\n\n- **id 287**: The passage mentions borrowing skirts and trousers but does not mention borrowing shorts.\n  **Reasoning**: The text specifies skirts and trousers as available to borrow, not shorts.\n\n```json\n{\n  \"answers\": {\n    \"280\": \"D\",\n    \"281\": \"B\",\n    \"282\": \"C\",\n    \"283\": \"D\",\n    \"284\": \"D\",\n    \"285\": \"A\",\n    \"286\": \"B\",\n    \"287\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1373,
+  "completion_tokens": 522,
+  "total_tokens": 1895,
+  "cost": 0.00028425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00028425,
+   "upstream_inference_prompt_cost": 0.00020595,
+   "upstream_inference_completions_cost": 7.83e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "D",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

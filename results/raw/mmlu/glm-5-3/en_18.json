@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  13615,
+  13645,
+  13695,
+  13697,
+  13703,
+  13705,
+  13716,
+  13757,
+  13806,
+  13841,
+  13890,
+  13921,
+  13930,
+  14006,
+  14019
+ ],
+ "seconds": 13.6,
+ "text": "Brief reasoning:\n\n- 13615: Cold War lens made the US interpret Third World local events geopolitically → **B**\n- 13645: Realism's core distinction is anarchy (no world government) → **B**\n- 13695: US pattern: wartime spikes, demobilization lowers spending but never to prewar levels → **B**\n- 13697: Domino Theory = one state falling to communism leads neighbors to fall → **C**\n- 13703: The Bush administration was skeptical/critical of international organizations rather than strengthening them → **A**\n- 13705: Human polyomaviruses currently number on the order of a dozen (often given as about 10) → **C**\n- 13716: Retroviruses were first discovered as Rous sarcoma virus in chickens → **A**\n- 13757: Influenza in high-risk groups is mainly controlled by vaccination → **B**\n- 13806: Risk is 0% because factor VIII is now made synthetically (recombinant) → **C**\n- 13841: Nipah virus originated in bats → **B**\n- 13890: The most important Jewish prayer is the Shema → **A**\n- 13921: \"Panth\" refers to the Sikh community/congregation as Guru → **A**\n- 13930: Japanese tradition: alignment with life energy through kami worship → **B**\n- 14006: The Continental Reformation began in 1517 → **B**\n- 14019: The Yijing is the \"Classic of Changes\" → **D**\n\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"C\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"C\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"B\", \"14019\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 1051,
+  "completion_tokens_details": {
+   "reasoning_tokens": 607
+  },
+  "prompt_tokens": 931,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1982
+ },
+ "served_by": null,
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {}
+}

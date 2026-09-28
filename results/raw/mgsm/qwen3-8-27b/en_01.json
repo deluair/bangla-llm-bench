@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 19.6,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 10]**\n*   Month 1: 60 downloads.\n*   Month 2: Three times Month 1 = $3 \\times 60 = 180$ downloads.\n*   Month 3: Month 2 reduced by 30%. A 30% reduction means keeping 70%. $180 \\times 0.70 = 126$ downloads.\n*   Total: $60 + 180 + 126 = 366$.\n*   Answer: 366\n\n**[id 11]**\n*   Donuts: 3 dozen $\\times$ $68/dozen = $204.\n*   Mini cupcakes: 2 dozen $\\times$ $80/dozen = $160.\n*   Mini cheesecakes: 6 dozen $\\times$ $55/dozen = $330.\n*   Total cost: $204 + 160 + 330 = 694$.\n*   Answer: 694\n\n**[id 12]**\n*   Initial cost: $90.\n*   Annual revenue: 7 lemons $\\times$ $1.50/lemon = $10.50.\n*   Annual maintenance cost: $3.\n*   Net profit per year: $10.50 - $3.00 = $7.50.\n*   We need to find when the cumulative net profit covers the initial cost of $90.\n*   After 1 year: Profit = $7.50. Remaining to cover = $82.50.\n*   After 2 years: Profit = $15.00. Remaining to cover = $75.00.\n*   ...\n*   Let $n$ be the number of years. In year $n$, he earns $10.50$ and spends $3.00$.\n    *   At the start of year $n$, he has invested $90 + (n-1)\\times 3$ (initial planting + previous years' maintenance). Wait, simpler way:\n    *   Total Cost = $90 + 3n$.\n    *   Total Revenue = $10.50n$.\n    *   We want Revenue > Cost (or when he starts earning, meaning net positive cash flow relative to initial investment eventually, or simply when accumulated profits exceed initial cost).\n    *   Usually \"start earning money\" means the cumulative net income becomes positive.\n    *   Net income after $n$ years = $10.50n - 3n - 90$.\n    *   $7.50n - 90 > 0 \\Rightarrow 7.50n > 90 \\Rightarrow n > 12$.\n    *   Let's check $n=12$: Net income = $7.50(12) - 90 = 90 - 90 = 0$. He breaks even.\n    *   Let's check $n=13$: Net income = $7.50(13) - 90 = 97.50 - 90 = +7.50$.\n    *   So in the 13th year, he starts earning money (net positive).\n*   Answer: 13\n\n**[id 13]**\n*   Let $x$ be the starting number of vacuum cleaners.\n*   Sold at green house: $x/3$. Remaining: $2x/3$.\n*   Sold at red house: 2. Remaining: $2x/3 - 2$.\n*   Sold at orange house: Half of what was left, so remaining is half of what was left before orange house.\n*   Final remaining: 5.\n*   So, remaining after orange house = $\\frac{1}{2} \\times (\\text{Remaining after red house}) = 5$.\n*   This implies Remaining after red house = $5 \\times 2 = 10$.\n*   So, $2x/3 - 2 = 10$.\n*   $2x/3 = 12$.\n*   $2x = 36 \\Rightarrow x = 18$.\n*   Check: Start 18. Green: sold 6, left 12. Red: sold 2, left 10. Orange: sold half of 10 (which is 5), left 5. Correct.\n*   Answer: 18\n\n**[id 14]**\n*   Total students: 20.\n*   Contemporary: 20% of 20 = 4 students.\n*   Remaining students: $20 - 4 = 16$.\n*   Jazz: 25% of remaining 16 = $0.25 \\times 16 = 4$ students.\n*   Remaining students: $16 - 4 = 12$.\n*   Hip-hop: The rest = 12 students.\n*   Percentage of entire students: $12 / 20 = 0.60 = 60\\%$.\n*   Answer: 60\n\n**[id 15]**\n*   Plan 1 (Jewelry): $5,000$ investment. Growth 2.5%.\n    *   Profit = $5000 \\times 0.025 = 125$.\n*   Plan 2 (Electronics): $8,000$ investment. Growth 1.2%.\n    *   Profit = $8000 \\times 0.012 = 96$.\n*   He wants to maximize profit. $125 > 96$.\n*   Max profit is 125.\n*   Answer: 125\n\n**[id 16]**\n*   Day 1: Traveling westward for 80 miles. Distance = 80.\n*   Day 2: Traveling northwards for 150 miles. Distance = 150.\n*   Question asks for \"distance covered by each train in the two days\". This is total path length, not displacement.\n*   Total distance = $80 + 150 = 230$ miles.\n*   Answer: 230\n\n**[id 17]**\n*   Teaching hours/year: 35 hours/week $\\times$ 50 weeks/year = 1,750 hours.\n*   Coaching hours/year: 15 hours/week $\\times$ 50 weeks/year = 750 hours.\n*   Teaching salary: $1,750 \\times 20 = 35,000$.\n*   Coaching salary: $750 \\times 30 = 22,500$.\n*   Total annual salary: $35,000 + 22,500 = 57,500$.\n*   Answer: 57500\n\n**[id 18]**\n*   Eggs per day: 3.\n*   Days in 4 weeks: $4 \\times 7 = 28$ days.\n*   Total eggs: $3 \\times 28 = 84$ eggs.\n*   Convert to dozens: $84 / 12 = 7$ dozens.\n*   Answer: 7\n\n**[id 19]**\n*   Total distance: 12 miles.\n*   Target average speed: 4 mph.\n*   Total time allowed: $\\text{Distance} / \\text{Speed} = 12 / 4 = 3$ hours.\n*   Time used so far: 1 hour (first 4 miles) + 1 hour (next 2 miles) = 2 hours.\n*   Distance covered so far: $4 + 2 = 6$ miles.\n*   Remaining distance: $12 - 6 = 6$ miles.\n*   Time remaining: $3 - 2 = 1$ hour.\n*   Required speed for remaining distance: $6 \\text{ miles} / 1 \\text{ hour} = 6$ mph.\n*   Answer: 6\n\n```json\n{\"answers\": {\"10\": \"366\", \"11\": \"694\", \"12\": \"13\", \"13\": \"18\", \"14\": \"60\", \"15\": \"125\", \"16\": \"230\", \"17\": \"57500\", \"18\": \"7\", \"19\": \"6\"}}\n```",
+ "usage": {
+  "queue_time": 0.10291827,
+  "prompt_tokens": 763,
+  "prompt_time": 0.063431826,
+  "completion_tokens": 1960,
+  "completion_time": 4.141474019,
+  "total_tokens": 2723,
+  "total_time": 4.204905845
+ },
+ "served_by": null,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 13.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 25.6,
+ "text": "**[id 230]**\n- Cost of 12 cars at $20,000 each: $12 \\times 20,000 = \\$240,000$.\n- 10% tax: $0.10 \\times 240,000 = \\$24,000$.\n- Registration for 12 cars at $1,000 each: $12 \\times 1,000 = \\$12,000$.\n- Total: $240,000 + 24,000 + 12,000 = \\$276,000$.\n\n**[id 231]**\n- Monday: Robert collects 20 shells; Kylie collects $20 + 5 = 25$ shells.\n- Tuesday: Kylie collects $2 \\times 25 = 50$ shells.\n\n**[id 232]**\n- Number of ants: 50.\n- Number of bugs: $50 / 2 = 25$.\n- Total insects: $50 + 25 = 75$.\n\n**[id 233]**\n- Ocean: $36 / 3 = 12$ penguins.\n- Cave: $36 / 3 = 12$ penguins.\n- Left sunbathing: $36 - 12 - 12 = 12$ penguins.\n\n**[id 234]**\n- Steve eats 6 per day; his girlfriend eats $6 / 2 = 3$ per day.\n- Together: $6 + 3 = 9$ tomatoes per day.\n- Per week: $9 \\times 7 = 63$ tomatoes.\n- Vines needed: $63 / 3 = 21$ vines.\n\n**[id 235]**\n- Total slices needed: $20 \\times 4 = 80$ slices.\n- Pizzas needed: $80 / 8 = 10$ pizzas.\n\n**[id 236]**\n- Initially: 25 pens.\n- From 25 empty pens: $25 / 5 = 5$ pens.\n- From 5 empty pens: $5 / 5 = 1$ pen.\n- Total pens: $25 + 5 + 1 = 31$ pens.\n\n**[id 237]**\n- Total invested: $20 + 10 = \\$30$.\n- Tripled in a year: $30 \\times 3 = \\$90$.\n\n**[id 238]**\n- Jessa: 20 years old.\n- Joan: $20 + 5 = 25$ years old.\n- Mary: $25 - 2 = 23$ years old.\n- Sum of ages: $20 + 25 + 23 = 68$.\n\n**[id 239]**\n- Exit A: $30\\% \\times 1000 = 300$ students.\n- Remaining: $1000 - 300 = 700$ students.\n- Exit B: $\\frac{3}{5} \\times 700 = 420$ students.\n- Exit C: $700 - 420 = 280$ students.\n\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 21, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}\n",
+ "usage": {
+  "input_tokens": 45192,
+  "output_tokens": 2951,
+  "thinking_tokens": 994,
+  "cache_read_tokens": 85637,
+  "total_tokens": 48143
+ },
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 21.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 0.8,
+ "text": "[id 104]\nThe correct answer is D) Confirmation that most dinosaurs had feathers. The passage suggests that the discovery confirms some dinosaurs had feathers, but it does not confirm most dinosaurs.\n\n{\"answers\": {104: \"D\"}}\n\n[id 105]\nThe correct answer is D) There were not many of them found on the moon’s surface. The passage states that lobate scarps were found \"all over\" the moon, indicating that there are many of them.\n\n{\"answers\": {105: \"D\"}}\n\n[id 106]\nThe correct answer is D) Melting ice. The passage states that the ice is crushed and hampering rescue efforts, and that its current state is the worst it has been for 15 years.\n\n{\"answers\": {106: \"D\"}}\n\n[id 107]\nThe correct answer is B) Across the city. The passage states that two beams of light have been rigged up to point \"skywards\", not across the city.\n\n{\"answers\": {107: \"B\"}}\n\n[id 108]\nThe correct answer is C) His ethnicity is known by authorities. The passage states that the suspect's ethnicity is known by authorities, but his name is not.\n\n{\"answers\": {108: \"C\"}}\n\n[id 109]\nThe correct answer is D) AOL was being charged. The passage states that AOL instigated the charges and was not being charged itself.\n\n{\"answers\": {109: \"D\"}}\n\n[id 110]\nThe correct answer is A) Samsung. The passage states that ASUS was awarded the Taiwan Sustainable Award, not Samsung.\n\n{\"answers\": {110: \"A\"}}\n\n[id 111]\nThe correct answer is C) The plane tried to land three times before crashing. The passage states that the plane twice attempted to land before it crashed, not three times.\n\n{\"answers\": {111: \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1267,
+  "completion_tokens": 378,
+  "total_tokens": 1645,
+  "cost": 9.359e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.359e-05,
+   "upstream_inference_prompt_cost": 6.335e-05,
+   "upstream_inference_completions_cost": 3.024e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers_batch": {},
+ "single": {
+  "104": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 2,
+    "total_tokens": 304,
+    "cost": 6.12e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.12e-06,
+     "upstream_inference_prompt_cost": 6.04e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "105": {
+   "text": "C)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 3,
+    "total_tokens": 202,
+    "cost": 4.13e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.13e-06,
+     "upstream_inference_prompt_cost": 3.98e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "106": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 3,
+    "total_tokens": 157,
+    "cost": 3.23e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.23e-06,
+     "upstream_inference_prompt_cost": 3.08e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "107": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 2,
+    "total_tokens": 161,
+    "cost": 3.26e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.26e-06,
+     "upstream_inference_prompt_cost": 3.18e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "108": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 2,
+    "total_tokens": 161,
+    "cost": 3.26e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.26e-06,
+     "upstream_inference_prompt_cost": 3.18e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "109": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 165,
+    "completion_tokens": 2,
+    "total_tokens": 167,
+    "cost": 3.38e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.38e-06,
+     "upstream_inference_prompt_cost": 3.3e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "110": {
+   "text": "C)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 3,
+    "total_tokens": 146,
+    "cost": 3.01e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.01e-06,
+     "upstream_inference_prompt_cost": 2.86e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "111": {
+   "text": "B)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 3,
+    "total_tokens": 219,
+    "cost": 4.47e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.47e-06,
+     "upstream_inference_prompt_cost": 4.32e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "104": "B",
+  "105": "C",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "A",
+  "110": "C",
+  "111": "B"
+ }
+}

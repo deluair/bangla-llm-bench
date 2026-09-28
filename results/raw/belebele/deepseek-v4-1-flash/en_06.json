@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 4.7,
+ "text": "{\"answers\": {\"48\": \"D\", \"49\": \"C\", \"50\": \"C\", \"51\": \"C\", \"52\": \"C\", \"53\": \"C\", \"54\": \"D\", \"55\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1175,
+  "completion_tokens": 904,
+  "total_tokens": 2079,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 851
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1175
+ },
+ "served_by": null,
+ "answers_batch": {
+  "48": "D",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "D",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

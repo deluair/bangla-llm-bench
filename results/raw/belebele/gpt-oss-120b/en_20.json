@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 1.6,
+ "text": "{\"answers\": {\"160\": \"C\", \"161\": \"A\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"A\", \"166\": \"C\", \"167\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.034506467,
+  "prompt_tokens": 1365,
+  "prompt_time": 0.066802359,
+  "completion_tokens": 656,
+  "completion_time": 1.383872665,
+  "total_tokens": 2021,
+  "total_time": 1.450675024,
+  "completion_tokens_details": {
+   "reasoning_tokens": 596
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

@@ -1,0 +1,665 @@
+{
+ "task": "bnexam",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849",
+  "98128531-5358-4528-8082-537d39bc9e75-3746",
+  "9901d520-d787-402f-96ff-683966d32b79-143197",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406"
+ ],
+ "seconds": 13.3,
+ "text": "1. Adenine is a purine base, so the answer is **A**.\n2. The maximum height is H = u²sin²θ / 2g = (29.4² × 0.25) / 19.6 = 11.025 m, so the answer is **B**.\n3. CO₂ plays the main role in global warming, so the answer is **A**.\n4. Stopping distance is proportional to v², so doubling the speed gives 4 times the distance. The answer is **A**.\n5. Tropical rainforest has the greatest plant diversity, so the answer is **B**.\n6. The CP (coat protein) gene is used to develop virus-resistant varieties, so the answer is **A**.\n7. The area is ½ × 2 × 6 = 6, so the answer is **D**.\n8. The declaration was sent by wireless, so the answer is **C**.\n9. Boron has a diagonal relationship with silicon, so the answer is **A**.\n10. Hydrogen is the lightest gas, so the answer is **A**.\n11. The passive form is \"Let the sum be done by me,\" so the answer is **C**.\n12. The Shanti Bahini was formally dissolved on 5 March 1998, so the answer is **A**.\n13. C₂H₂ + 5/2 O₂ → 2CO₂ + H₂O, so 100 ml of acetylene needs 250 ml of oxygen. The answer is **D**.\n14. Giant molecules are those with very high molecular mass, so the answer is **C**.\n15. The hypotenuse is 10, and the circumradius is half the hypotenuse, so it is 5. The answer is **B**.\n\n{\"answers\": {\"906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173\": \"A\", \"90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543\": \"B\", \"9122ae5d-a936-4516-8f49-ab251780dcc2-113224\": \"A\", \"9153ac5e-47de-4086-b971-be92a887b857-103947\": \"A\", \"939c4886-bccc-468d-9758-e738c3fba007-130745\": \"B\", \"957893bc-7177-435b-8a2f-22e56f6c8d81-41482\": \"A\", \"95c4bdea-8802-44ff-ae5b-1690fbf85769-39004\": \"D\", \"962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321\": \"C\", \"9698a244-753b-4144-91ea-dde0a7ab5302-127225\": \"A\", \"975edc8c-78bd-485b-94af-265b38beec84-67491\": \"A\", \"9794574e-702e-46e6-9aaa-14092809e414-122849\": \"C\", \"98128531-5358-4528-8082-537d39bc9e75-3746\": \"A\", \"9901d520-d787-402f-96ff-683966d32b79-143197\": \"D\", \"997465ad-58cd-4f94-9aff-d01a798b64c8-61569\": \"C\", \"99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2540,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1349,
+  "output_tokens_details": {
+   "thinking_tokens": 325
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2540,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1349,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2540,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2540
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.047308,
+ "answers_batch": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "C",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "A",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "A",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B"
+ },
+ "single": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 561,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 561,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 561,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 561
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 628,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 52,
+    "output_tokens_details": {
+     "thinking_tokens": 49
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 628,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 52,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 628,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 628
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 586,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 42,
+    "output_tokens_details": {
+     "thinking_tokens": 39
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 586,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 42,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 586,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 586
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 658,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 658,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 658,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 658
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 645,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 645,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 645,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 645
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 576,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 137,
+    "output_tokens_details": {
+     "thinking_tokens": 134
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 137,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 588,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 588,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 588,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 588
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 613,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 68,
+    "output_tokens_details": {
+     "thinking_tokens": 65
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 613,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 68,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 613,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 613
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 587,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 587,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 587,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 587
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 568,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 568,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 568,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 568
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 571,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 571,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 571,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 571
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "98128531-5358-4528-8082-537d39bc9e75-3746": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 627,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 98,
+    "output_tokens_details": {
+     "thinking_tokens": 95
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 627,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 98,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 627,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 627
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "9901d520-d787-402f-96ff-683966d32b79-143197": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 588,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 44,
+    "output_tokens_details": {
+     "thinking_tokens": 41
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 588,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 44,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 588,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 588
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 607,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 607,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 607,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 607
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 619,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 619,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 619,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 619
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "906d88eb-ed62-45ad-ab5e-8ab3185bf4c1-126173": "A",
+  "90f11471-cd6d-446e-b0eb-cf27a9525d6d-24543": "B",
+  "9122ae5d-a936-4516-8f49-ab251780dcc2-113224": "A",
+  "9153ac5e-47de-4086-b971-be92a887b857-103947": "A",
+  "939c4886-bccc-468d-9758-e738c3fba007-130745": "B",
+  "957893bc-7177-435b-8a2f-22e56f6c8d81-41482": "A",
+  "95c4bdea-8802-44ff-ae5b-1690fbf85769-39004": "D",
+  "962b2725-3aee-468f-adb1-e5ee3fa91e3e-50321": "C",
+  "9698a244-753b-4144-91ea-dde0a7ab5302-127225": "A",
+  "975edc8c-78bd-485b-94af-265b38beec84-67491": "A",
+  "9794574e-702e-46e6-9aaa-14092809e414-122849": "C",
+  "98128531-5358-4528-8082-537d39bc9e75-3746": "A",
+  "9901d520-d787-402f-96ff-683966d32b79-143197": "D",
+  "997465ad-58cd-4f94-9aff-d01a798b64c8-61569": "C",
+  "99c0678c-cf2d-47a5-a32c-de69d3247ef7-16406": "B"
+ }
+}

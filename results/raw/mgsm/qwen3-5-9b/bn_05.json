@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 88.5,
+ "text": "\n\n{\n\"answers\": {\n\"50\": 294,\n\"51\": 5,\n\"52\": 15,\n\"53\": 40,\n\"54\": 40,\n\"55\": 14,\n\"56\": 3,\n\"57\": 83,\n\"58\": 57,\n\"59\": 187\n}\n}",
+ "usage": {
+  "prompt_tokens": 1827,
+  "completion_tokens": 12617,
+  "total_tokens": 14444,
+  "cost": 0.00207525,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00207525,
+   "upstream_inference_prompt_cost": 0.0001827,
+   "upstream_inference_completions_cost": 0.00189255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 12509,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

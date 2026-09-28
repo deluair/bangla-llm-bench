@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 30.3,
+ "text": "{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"A\", \"174\": \"D\", \"175\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2536,
+  "completion_tokens": 6381,
+  "total_tokens": 8917,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6328
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2536
+ },
+ "served_by": null,
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

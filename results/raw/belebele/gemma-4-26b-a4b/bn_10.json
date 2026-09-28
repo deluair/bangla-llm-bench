@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 17.5,
+ "text": "The answers to the multiple-choice questions are as follows:\n\n[id 80] The passage states that \"কম করে পাঁচ জনের মধ্যে শকের লক্ষণ থাকার জন্য চিকিৎসা করা হয়েছিল\" (at least five people were treated for symptoms of shock), meaning no one was seriously injured. Thus, the answer is B.\n[id 81] The passage states \"বেসবল এবং সফটবলের পাশাপাশি স্কোয়াশ, কারাতে এবং রোলার স্পোর্টস অলিম্পিক প্রোগ্রামে যাওয়ার চেষ্টা করেছিল যা 2005 সালে ভোটে অলিম্পিক গেমের বাইরে চলে যায়\" (Squash, karate, and roller sports... went out of the Olympic Games in 2005). Among the options, Squash (A) and Karate (D) are mentioned as being voted out. However, usually, in such reading comprehension tasks, the question asks for one. Since Squash is listed first in the sequence of sports that were voted out, A is a valid option.\n[id 82] The passage says \"তীরবর্তীকালের সৈন্যদের আসার আগে, হাইতি 1800 দশক থেকে এই রোগের সম্মুখীন হয়নি\" (Before the arrival of the troops, Haiti had not faced this disease since the 1800s). Thus, the answer is A.\n[id 83] The passage explicitly states \"সন্দেহভাজন পুরুষ অপরাধীকে অনধিকারপ্রবেশকারী হিসেবে তদন্ত করা হচ্ছে\" (the suspect male is being investigated as a trespasser). Thus, the answer is A.\n[id 84] The passage states \"802.11এন এর গতি তার পূর্ব সংস্করণের তুলনায় যথেষ্ট দ্রুত\" (the speed of 802.11n is significantly faster than its predecessor). Thus, the answer is A.\n[id 85] The passage mentions immediate steps like pig hunters and pesticides, but the long-term/final preparation mentioned is the \"এনসেফ্যালাইটিস টিকা\" (Encephalitis vaccine) for the next year. Thus, the answer is C.\n[id 86] The passage states \"দ্বিতীয় বাক্যের ব্যর্থতা... সম্ভবত ভবিষ্যতে সুশীলদের জন্য দরজা খুলে দিতে পারে\" (The failure of the second sentence... could perhaps open the door for civil rights in the future). Thus, the answer is B.\n[id 87] The passage says \"পানামানিয়ান আইন সংস্থা মোস্যাক ফনসেকার... দশ মিলিয়ন ডকুমেন্টের একটি সংরক্ষণ, যা 2016 সালে বসন্তকালীন সময়ে প্রেসে প্রকাশ হয়েছিল\" (a collection of 10 million documents from the Panamanian law firm Mossack Fonseca... was published in the press in Spring 2016). The documents were published by the Press. Thus, the answer is B.\n\n```json\n{\"answers\": {\"80\": \"B\", \"81\": \"A\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1791,
+  "completion_tokens": 642,
+  "total_tokens": 2433,
+  "cost": 0.000216462,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000216462,
+   "upstream_inference_prompt_cost": 7.5222e-05,
+   "upstream_inference_completions_cost": 0.00014124
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "80": "B",
+  "81": "A",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "A",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

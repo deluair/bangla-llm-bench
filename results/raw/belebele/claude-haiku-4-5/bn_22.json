@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 66.5,
+ "text": "# Analysis of Multiple-Choice Questions\n\nI'll work through each question systematically:\n\n**[id 176]** The passage describes how chimpanzee hands are equal in size to their feet, reflecting their use in weight-bearing during knuckle walking. It states that humans have straighter phalanges than their feet (not chimps). Option C accurately reflects that chimp finger bones are used for bearing weight during locomotion.\n\n**[id 177]** The passage explicitly states: \"মিউটেশন নতুন জিনগত প্রকরণ যুক্ত করে\" (Mutation adds new genetic variation). This directly answers the question.\n\n**[id 178]** The passage criticizes the practice of learning about things we'll never use. It emphasizes experience-based learning between student and knowledge. Option D claims it's necessary to know things that won't benefit us, which contradicts the passage's implicit critique of this mismatch.\n\n**[id 179]** The passage explicitly states Pureland Origami was created to help \"অনভিজ্ঞ ফোল্ডার\" (inexperienced folders) or people with limited motor skills. Option A claiming it's good for experienced folders directly contradicts this purpose.\n\n**[id 180]** The passage mentions three names: Indus Civilization, Indo-Saraswati Civilization, and Harappan Civilization. The term \"Indus River-centered civilization\" is not mentioned as an alternative name.\n\n**[id 181]** The passage states that while cooperation is the best long-term strategy, selfish behavior provides more short-term gains. For immediate profit, selfishness should be prioritized.\n\n**[id 182]** The passage discusses medical corps formation, doctor hiring by emperors, and surgical knowledge development. It does NOT mention the construction of educational hospitals as a medical advance.\n\n**[id 183]** The passage directly states that ADD-affected children engage in risky behavior \"কারণ তাদের মস্তিষ্ককে উদ্দীপ্ত করতে\" (because to stimulate their brain), not to reduce hyperactivity or gain attention.\n\n```json\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"D\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5650,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5993,
+  "output_tokens_details": {
+   "thinking_tokens": 5427
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5650,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 5993,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5650,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5650
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.041274,
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "D",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "D",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 3.3,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 80]**\n1. Two girls each received $24 \\times \\frac{1}{6} = 4$ liters.\n2. Total water to the girls: $4 + 4 = 8$ liters.\n3. A boy received 6 liters.\n4. Total water consumed: $8 + 6 = 14$ liters.\n5. Remaining water: $24 - 14 = 10$ liters.\n*Answer: 10*\n\n**[id 81]**\n1. Starts with 10 stickers.\n2. Buys 21: $10 + 21 = 31$.\n3. Gets 23 for birthday: $31 + 23 = 54$.\n4. Gives away 9: $54 - 9 = 45$.\n5. Uses 28 for cards: $45 - 28 = 17$.\n*Answer: 17*\n\n**[id 82]**\n1. Grace's weight = 125 lbs.\n2. Alex's weight is 2 lbs less than 4 times Grace's weight: $(125 \\times 4) - 2 = 500 - 2 = 498$ lbs.\n3. Combined weight: $125 + 498 = 623$ lbs.\n*Answer: 623*\n\n**[id 83]**\n1. 3 rose bushes $\\times$ 25 roses/bush = 75 roses.\n2. 75 roses $\\times$ 8 thorns/rose = 600 thorns.\n*Answer: 600*\n\n**[id 84]**\n1. Let $L$ be the number of lost games and $W$ be the number of won games.\n2. Total games: $W + L = 22$.\n3. Won games are 8 more than lost games: $W = L + 8$.\n4. Substitute: $(L + 8) + L = 22 \\Rightarrow 2L + 8 = 22 \\Rightarrow 2L = 14 \\Rightarrow L = 7$.\n5. Won games: $W = 7 + 8 = 15$.\n*Answer: 15*\n\n**[id 85]**\n1. Grace travels 4 times a year.\n2. She has been traveling from age 23 to age 34.\n3. Number of years: $34 - 23 = 11$ years.\n4. Total trips (shirts/quilt blocks): $11 \\times 4 = 44$.\n*Answer: 44*\n\n**[id 86]**\n1. First time: 4 times.\n2. Second time: 3 times the first = $4 \\times 3 = 12$ times.\n3. Third time: Half of the second = $12 / 2 = 6$ times.\n4. Total: $4 + 12 + 6 = 22$ times.\n*Answer: 22*\n\n**[id 87]**\n1. Base salary = $600/month.\n2. She completed 5 years last December.\n3. The policy gives a 10% raise on the *initial* salary for those with 5 years.\n4. New monthly salary = $600 + (10\\% \\text{ of } 600) = 600 + 60 = 660$.\n5. The question asks for the **annual** salary after 3 more years (total 8 years). Since the raise applies to those with $\\ge 5$ years, she keeps the raised salary.\n6. Annual salary = $660 \\times 12$.\n7. $660 \\times 12 = 7920$.\n*Answer: 7920*\n\n**[id 88]**\n1. Let $H$ be Harold's sales. Marilyn's sales $M = 10H$.\n2. Total sales: $H + M = 88,000$.\n3. $H + 10H = 88,000 \\Rightarrow 11H = 88,000$.\n4. $H = 88,000 / 11 = 8,000$.\n*Answer: 8000*\n\n**[id 89]**\n1. Invited guests = 16.\n2. Each guest requires 0.75 gift bags.\n3. Total bags needed = $16 \\times 0.75 = 12$.\n4. Cost per bag = $2.\n5. Total cost = $12 \\times 2 = 24$.\n*Answer: 24*\n\n```json\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 7920, \"88\": 8000, \"89\": 24}}\n```",
+ "usage": {
+  "queue_time": 0.087243888,
+  "prompt_tokens": 1180,
+  "prompt_time": 0.086557347,
+  "completion_tokens": 1210,
+  "completion_time": 2.488241341,
+  "total_tokens": 2390,
+  "total_time": 2.574798688
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 7920.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 7920.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

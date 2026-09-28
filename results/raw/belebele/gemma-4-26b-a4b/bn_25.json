@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 16.0,
+ "text": "To solve these questions, let's analyze each passage:\n\n[200] The passage states that Hindi and Urdu have similar vocabulary (শব্দাবলীর মিল আছে) but different scripts (অক্ষর আলাদা). \n- Option B (Their writing style is different) is correct.\n\n[201] The passage states: \"তিনি মূলত হ্যাঙ্গিউল বর্ণমালার নামকরণ করেছিলেন হুনমিন জিওংনাম...\" (He named the alphabet Hunminjeongeum...). \n- Option B (Hangul) is the modern evolution of that script/name.\n\n[202] The passage states: \"...যাজকতন্ত্রের কারণে সংস্কৃত প্রায় ম্লান হয়ে গেল\" (Due to priesthood, Sanskrit almost faded away). \n- Option D (অনুক্রমের নিয়মে/Priesthood) corresponds to the cause.\n\n[203] The passage states: \"এটি মারিয়াতে পাতলা এবং উচ্চভূমিতে মোটা হয়ে থাকে\" (It is thin in Maria and thick in the highlands). \n- Option C (Under the highlands/উচ্চভূমির নিচে) is the correct answer.\n\n[204] The passage states: \"অ্যামাজন নদী পৃথিবীর দ্বিতীয় দীর্ঘতম এবং বৃহত্তম নদী\" (Amazon is the second longest and largest river). \n- Option C (It is the longest river) is NOT a characteristic because it is the second longest.\n\n[205] The passage states: \"ভেনিজুয়েলার দুই তৃতীয়াংশ যারা পরিষেবা খাতে কাজ করে...\" (Two-thirds of Venezuelans work in the service sector). \n- Option A (Service/পরিষেবা) is the highest employment sector.\n\n[206] The passage states: \"...ভারী উপাদান তৈরির সময় উৎপন্ন হওয়া শক্তির কারণে তারাদের থেকে আলো এবং তাপ নির্গত হয়... বিজ্ঞানীরা এমন একটি চুল্লি তৈরি করতে কাজ করছেন যেটি একইরকমভাবে শক্তি তৈরি করতে পারে\" (Scientists are working to create a furnace that can create energy like stars). \n- Option D (Energy/এনার্জি) is what the reactor aims to produce.\n\n[207] The passage states: \"ইতালির মূল লক্ষ্য ছিল আফ্রিকার দেশগুলো দখল করা\" (Italy's main goal was to conquer African countries). \n- Option A (Conquer/গ্রাস করা) is the correct answer.\n\n```json\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1432,
+  "completion_tokens": 556,
+  "total_tokens": 1988,
+  "cost": 0.000182464,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000182464,
+   "upstream_inference_prompt_cost": 6.0144e-05,
+   "upstream_inference_completions_cost": 0.00012232
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "7112",
+  "7194",
+  "7212",
+  "7229",
+  "7264",
+  "7298",
+  "7302",
+  "7335",
+  "7351",
+  "7371",
+  "7453",
+  "7567",
+  "7825",
+  "8124",
+  "8144"
+ ],
+ "seconds": 72.5,
+ "text": "\n\n[id 7112]\n**Reasoning**: This question refers to the level of customer interaction in service marketing. When there is little or no personal communication between the customer and the service provider (e.g., online banking, automated TMs), it is classified as \"Low-contact service\". The Bengali option **A) কম যোগাযোগ পরিষেবা (Low contact service)** corresponds to this definition.\n**Answer**: A\n\n[id 7194]\n**Reasoning**: The description of gathering information and educating large audiences via TV and Radio is characteristic of **Public Opinion** (Jan Sondhon) or mass communication methods used in Public Relations/Contacts (Jan Songjog). Among the options, \"Jan Songjog\" (Public Connection/Communication) fits the context of media-based information dissemination and education. Option **C** is the best fit among the provided choices which likely refer to public communication methodologies.\n**Answer**: C\n\n[id 7212]\n**Reasoning**: In marketing, the definition of marketing (Prasan) is broad. It involves satisfying consumer needs and wants through the provision of goods, services, and ideas. Option **B** accurately states that it is a \"broad concept that includes satisfaction of consumer needs,\" whereas other options are too limiting.\n**Answer**: B\n\n[id 7229]\n**Reasoning**: The process of optimizing a website's structure and content based on keywords to rank higher on search engine results pages is known as Search Engine Optimization (SEO). In the options, **B) সন্ধান যন্ত্ৰ নিকুতকরন (Search Engine Optimization/Simplification)** is the closest match to the concept of improving search engine interaction/optimization.\n**Answer**: B\n\n[id 7264]\n**Reasoning**: This scenario describes a gap where management understands the customer's need (comfortable seat) but fails to design the service specifications correctly (quantity/capacity planning). This corresponds to **Gap 2** in the Gaps Model of Service Quality, which is the gap between Management's perception of Customer Expectations and Service Quality Specifications. Option **A** identifies this as \"GAP 2\".\n**Answer**: A\n\n[id 7298]\n**Reasoning**: A monosomy refers to the loss of one chromosome from the normal diploid number (2n-1).\nA) 46,XX = Normal female.\nB) 47,XXX = Trisomy (Triple X).\nC) 69,XYY = Triploidy (Triploid).\nD) 45,X = Monosomy X (Turner Syndrome).\n**Answer**: D\n\n[id 7302]\n**Reasoning**: The question asks about HLA haplotype sharing. A child inherits one full HLA haplotype from each parent. Therefore, the probability of a parent sharing a common haplotype with the child is 100%. Among the choices, Parent (Mother) is the most reliable relative for matching a haplotype compared to siblings or children (who have 50% probability). Between Father and Mother, Mother is often cited in such contexts due to biological proximity in exams.\n**Answer**: B\n\n[id 7335]\n**Reasoning**: A 4-base recognition site has a probability of 1/4^4 = 1/256. In a 5,000 bp genome, the expected number of sites is 5000 / 256 ≈ 19.5. This means approximately 20 cuts. The number of fragments would be cuts + 1 (approx 21). The closest option representing the number of cuts/segments is 20.\n**Answer**: C\n\n[id 7351]\n**Reasoning**: Duchenne Muscular Dystrophy, Hemophilia A, and Hemophilia B are all X-linked recessive disorders. Tay-Sachs disease is an Autosomal Recessive disorder. The question asks which is NOT X-linked.\n**Answer**: B\n\n[id 7371]\n**Reasoning**: Achondroplasia is caused by a gain of function mutation in the FGFR3 gene, which inhibits bone growth. Activating mutations in growth regulators lead to dominant phenotypes known as \"Gain of Function\" (Gain-of-Function). Option **B** corresponds to \"Gene of Function\" (Gain of Function).\n**Answer**: B\n\n[id 7453]\n**Reasoning**: The specific trivia question regarding M&M's first named characters or flavors. The most cited answer in this context, referring to the names given to the chocolate characters in marketing lore, is \"Mort & Marty\" (Option C).\n**Answer**: C\n\n[id 7567]\n**Reasoning**: A monopoly market structure is characterized by a single seller. To sell more output, a monopolist must lower the price for all units sold because the demand curve is downward sloping. This matches Option **B**.\n**Answer**: B\n\n[id 7825]\n**Reasoning**: In the movie \"Smokey and the Bandit\", Burt Reynolds drives a 1977 Chevrolet **Trans Am** (often colloquially referred to as Trans Am). Option D corresponds to \"Trans Am\".\n**Answer**: D\n\n[id 8124]\n**Reasoning**: Soil structure refers to the arrangement of soil particles (aggregates), while soil texture refers to the ratio of sand, silt, and clay. Option **A) মৃতের কণার বিন্যাস (Soil particle arrangement/distribution)** describes structure.\n**Answer**: A\n\n[id 8144]\n**Reasoning**: Spinning classes are conducted using a stationary exercise bike, known as a stationary cycle or stationary ergometer. Option **A** is the correct exercise device.\n**Answer**: A\n\n```json\n{\"answers\": {\"7112\": \"A\", \"7194\": \"C\", \"7212\": \"B\", \"7229\": \"B\", \"7264\": \"A\", \"7298\": \"D\", \"7302\": \"B\", \"7335\": \"C\", \"7351\": \"B\", \"7371\": \"B\", \"7453\": \"C\", \"7567\": \"B\", \"7825\": \"D\", \"8124\": \"A\", \"8144\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 2389,
+  "completion_tokens": 10905,
+  "total_tokens": 13294,
+  "cost": 0.00187465,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00187465,
+   "upstream_inference_prompt_cost": 0.0002389,
+   "upstream_inference_completions_cost": 0.00163575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9496,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "B",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "C",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ },
+ "single": {},
+ "answers": {
+  "7112": "A",
+  "7194": "C",
+  "7212": "B",
+  "7229": "B",
+  "7264": "A",
+  "7298": "D",
+  "7302": "B",
+  "7335": "C",
+  "7351": "B",
+  "7371": "B",
+  "7453": "C",
+  "7567": "B",
+  "7825": "D",
+  "8124": "A",
+  "8144": "A"
+ }
+}

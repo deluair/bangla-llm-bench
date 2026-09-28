@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 4.7,
+ "text": "**Reasoning:**\n\n[id 232]\nThe passage states that the disease is carried by pigs and then migrates to humans through mosquitos. So, the transfer to humans happens via mosquitoes.\n**Answer:** A\n\n[id 233]\nThe passage mentions that Iwasaki was attacked by a rabid dog in Tibet.\n**Answer:** C\n\n[id 234]\nThe passage states that arrestees held more than 24 hours without a hearing must be allowed a hearing to be held longer than 24 hours.\n**Answer:** D\n\n[id 235]\nThe passage lists all the nominations, but does not mention Best Visual Effects.\n**Answer:** B\n\n[id 236]\nThe passage mentions that some roads, railway service, and the Noto Airport were affected, but only some roads and the airport are explicitly stated as sustaining damage.\n**Answer:** C\n\n[id 237]\nThe passage states that Israel demands an ongoing military presence in the Jordan Valley for ten years, not Palestine.\n**Answer:** B\n\n[id 238]\nThe passage specifies that Massa was injured during the 2009 Hungarian Grand Prix.\n**Answer:** A\n\n[id 239]\nThe passage mentions that police suspect an alleged Daesh militant and that police reported this suspicion.\n**Answer:** A\n\n---\n```json\n{\n  \"answers\": {\n    \"232\": \"A\",\n    \"233\": \"C\",\n    \"234\": \"D\",\n    \"235\": \"B\",\n    \"236\": \"C\",\n    \"237\": \"B\",\n    \"238\": \"A\",\n    \"239\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1213,
+  "completion_tokens": 363,
+  "total_tokens": 1576,
+  "cost": 0.0002364,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002364,
+   "upstream_inference_prompt_cost": 0.00018195,
+   "upstream_inference_completions_cost": 5.445e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

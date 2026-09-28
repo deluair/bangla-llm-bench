@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 12.2,
+ "text": "[id 72] The driver was moved from Great Yarmouth to Cambridge, not the other way around. (C is the answer)\n[id 73] The passage says South Africa looked \"decidedly rusty\" in their first game, so their performance at the beginning was not polished. (C is the answer)\n[id 74] Hu suggested developing countries \"avoid the old path of polluting first and cleaning up later.\" (D is the answer)\n[id 75] Khamenei described the \"dependency on oil as 'a trap'\" and said the country should free itself from it. (D is the answer)\n[id 76] The text states he \"began his quest to find the Musashi out of a lifelong interest in the war.\" (D is the answer)\n[id 77] The passage states historians criticized past policies for focusing on easy cases (B and D) to boost success rates (A). It mentions the obscenity initiative/pornography is a result of a Congressional funding specification, not a historian's criticism. (C is the answer)\n[id 78] The text says the second claw was larger, giving rise to the name meaning \"western claw,\" implying this is a distinguishing feature. (B is the answer)\n[id 79] The text says screens were installed in Rome and other cities, but it says people in Poland viewed similar setups (it doesn't explicitly say screens were set up *in* Poland, only that they viewed the setups which were in \"other cities of Italy and in the rest of the world, particularly in Poland\"). However, looking at the options, St. Peter's Square is where the *funeral* was, and the screens were installed in \"various places in Rome\" to let people watch it because they couldn't all fit in the square. Wait, looking closer: \"Several large television screens were installed in various places in Rome to let the people watch the ceremony.\" This implies they were in Rome. The setups in other cities allowed people in Poland to view it. Option D is the trickiest. Let's re-read: \"it was not possible for everybody to gain access to the funeral in St. Peter's Square. Several large television screens were installed in various places in Rome to let the people watch...\" It doesn't say they were in the square itself (the square was the venue). However, in the context of the question \"Where were television screens not set up?\", Option C (In certain locations in Poland) is the most accurate because the text says the setups were made in \"other cities of Italy and in the rest of the world, particularly in Poland,\" implying the setups were in the cities/world, and people *in* Poland viewed them. Actually, \"in the rest of the world, particularly in Poland\" refers to where the people were. But let's look at D: The screens were to let people watch the ceremony *because* they couldn't get into the square. Therefore, screens were in \"various places in Rome\", not necessarily in the square itself. But usually, these questions look for the one not mentioned. Let's re-evaluate: The text says screens were in Rome, in other Italian cities, and in the rest of the world (including Poland). It does NOT say they were in St. Peter's Square. (D is the answer)\n\nWait, re-reading 79: \"it was not possible for everybody to gain access to the funeral in St. Peter's Square. Several large television screens were installed in various places in Rome to let the people watch the ceremony.\" This means the square was the site of the funeral, and screens were in Rome (outside the square) to help those who couldn't get in. Thus, screens were not set up *in* the square for those who couldn't enter.\n\nActually, let's look at 79 again. The text says \"In many other cities of Italy and in the rest of the world, particularly in Poland, similar setups were made\". This means setups *were* made in Poland. So C is incorrect. A is correct (various places in Rome). B is correct (other cities of Italy). D is the only one that isn't explicitly stated as a place where screens were set up; the square was the venue.\n\nFinal check on 73: \"Looking decidedly rusty... South Africa however steadily improved\". So the beginning was not polished. Correct.\n\nFinal check on 78: It says Hesperonychus has claws like Velociraptor, but \"Its second claw was larger\". This differentiates it. Correct.\n\nFinal check on 77: \"Historians have criticized past FBI policies for focusing resources on cases which are easy to solve... with the intent of boosting the agency's success rate.\" It does not say they criticized the pornography focus; that was a Congressional mandate. Correct.\n\nFinal check on 72: He was relocated from Great Yarmouth to Cambridge. Option C says he was transferred from Cambridge to Great Yarmouth. That is the opposite. Correct.\n\n{\"answers\": {\"72\": \"C\", \"73\": \"C\", \"74\": \"D\", \"75\": \"D\", \"76\": \"D\", \"77\": \"C\", \"78\": \"B\", \"79\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1336,
+  "completion_tokens": 1132,
+  "total_tokens": 2468,
+  "cost": 0.00045984,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00045984,
+   "upstream_inference_prompt_cost": 0.00012024,
+   "upstream_inference_completions_cost": 0.0003396
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

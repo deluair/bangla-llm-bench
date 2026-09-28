@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 140.2,
+ "text": "**Problem 190:** 3 hours = 180 minutes. 180 × 2 = 360.  \n**Problem 191:** 3.5 pounds/duck/week × 10 ducks = 35 pounds/week. 35 ÷ 7 = 5 pounds/day.  \n**Problem 192:** Net gain per year = 10 − 2 = 8. Over 10 years: 50 + 8×10 = 130. 30% die: 130 × 0.30 = 39. Remaining: 130 − 39 = 91.  \n**Problem 193:** After Saturday: 12 pink, 6 white. After Sunday: 30 pink, 6 white. Difference: 30 − 6 = 24.  \n**Problem 194:** Cost = 5 × $2 = $10. Change = $20 − $10 = $10.  \n**Problem 195:** Pen cost = $1.20 + $0.30 = $1.50. 8 pens = 8 × $1.50 = $12.  \n**Problem 196:** Used = 40 × 2 = 80. Unused = 200 − 80 = 120.  \n**Problem 197:** Children = 23786 − 8417 − 9092 = 6277.  \n**Problem 198:** Month 1: 60. Month 2: 60 − 20 = 40. Month 3: 2×(60+40) = 200. Total = 20 + 60 + 40 + 200 = 320.  \n**Problem 199:** Each publisher gets 500 sentences. Earnings = 500×5 + 500×10 = 7500 cents.  \n\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "prompt_tokens": 1515,
+  "completion_tokens": 5821,
+  "total_tokens": 7336,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5383
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

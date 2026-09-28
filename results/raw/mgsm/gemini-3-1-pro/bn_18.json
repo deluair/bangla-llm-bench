@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 65.7,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 180]**\nThe winner received 3/4 of the total votes. \nTotal votes = 80\nWinner's votes = (3/4) * 80 = 60\nThe loser's votes = 80 - 60 = 20\n\n**[id 181]**\nSandra ordered 200 pink calla lilies. \nThis is 5 times the number of white carnations. \nWhite carnations = 200 / 5 = 40\nRed roses are 4 times the number of white carnations. \nRed roses = 4 * 40 = 160\n\n**[id 182]**\nJan is 30 years old. Half of Jan's age is 15. \nTwo years ago, Mark's age was 5 years more than half of Jan's age (15 + 5 = 20). \nSo, Mark is currently 22 years old. \nJean is two years older than Mark. \nJean's age = 22 + 2 = 24\n\n**[id 183]**\nFaster team (Team 1): 4 runners taking 55 seconds each. \nTotal time = 4 * 55 = 220 seconds. \nSlower team (Team 2): Runner times are 60, 57, 54, and 51 seconds. \nTotal time = 60 + 57 + 54 + 51 = 222 seconds. \nThe faster team wins by 222 - 220 = 2 seconds.\n\n**[id 184]**\nThe probability of rolling a number greater than 3 (4, 5, or 6) is 3/6 = 50%.\nThe probability of rolling an even number on a single die (2, 4, or 6) is 3/6 = 50%.\nThe probability of rolling two consecutive even numbers is 50% * 50% = 25%.\nThe difference between the two probabilities is 50% - 25% = 25%.\n\n**[id 185]**\nAssuming the translation implies Jenna picked half as many apples as her mother: \nMother picked 20 apples. \nJenna picked 20 / 2 = 10 apples. \nTogether they picked 20 + 10 = 30 apples.\n\n**[id 186]**\nHamsters: 10 cages * 5 pieces of hay = 50 pieces. \nRabbits: 20 pieces. \nTotal hay used for hamsters and rabbits = 50 + 20 = 70 pieces. \nHay left for mice = 160 - 70 = 90 pieces. \nSince each mouse gets 6 pieces, the total number of mice = 90 / 6 = 15 mice. \nDistributed equally across 3 cages = 15 / 3 = 5 mice per cage. \n\n**[id 187]**\nAssuming simple interest for the loan: \nInterest per month = 2%. \nTotal interest for 3 months = 3 * 2% = 6%. \nTotal amount to be paid back = $100 + ($100 * 0.06) = $106.\n\n**[id 188]**\nCost per bag of wheat = $20. \nTransport cost per bag = $2. \nTotal cost per bag = 20 + 2 = $22. \nSelling price per bag = $30. \nProfit per bag = $30 - $22 = $8. \nTo make a total profit of $400, the merchant sold 400 / 8 = 50 bags. \n\n**[id 189]**\nCost of 3 tickets = $20.25. \nCost of food = $20.25 - $4.50 = $15.75. \nCost of 2 rides = 2 * $33 = $66.00. \nTotal cost for everything = $20.25 + $15.75 + $66.00 = $102.00. \nSplit equally among the 3 friends: $102.00 / 3 = $34.00 each. \n\n```json\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 24, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}\n```\n",
+ "usage": {
+  "input_tokens": 16965,
+  "output_tokens": 8987,
+  "thinking_tokens": 7849,
+  "cache_read_tokens": 8140,
+  "total_tokens": 25952
+ },
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 24.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

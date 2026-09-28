@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 22.5,
+ "text": "Here is the brief reasoning for each question:\n\n**[id 104]** The passage confirms that \"at least *some* dinosaurs had feathers,\" not *most* dinosaurs. Therefore, D is not a result of the discovery.\n**[id 105]** The passage explicitly states that these scarps \"were found all over the moon,\" contradicting the idea that there were not many of them. Therefore, D is not true.\n**[id 106]** The passage mentions crushing ice, the amount of ice, its thickness, and extreme weather, but it never mentions melting ice. Therefore, D is not a current problem.\n**[id 107]** The passage states that the two beams of light point \"skywards.\" Therefore, A is correct.\n**[id 108]** The passage notes that the suspect was detained \"after sustaining injuries from the blast.\" Therefore, D is not true.\n**[id 109]** The passage states that AOL is \"the company who instigated the charges,\" meaning they were the ones pressing charges, not the ones being charged. Therefore, D is not true.\n**[id 110]** The passage clearly states that \"ASUS was awarded in the 2007 Taiwan Sustainable Award.\" Therefore, C is correct.\n**[id 111]** The passage mentions the plane \"aborted once already\" and disappeared before landing on its \"second approach.\" It did not try to land three times. Therefore, C is not an accurate description.\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17274,
+  "output_tokens": 2416,
+  "thinking_tokens": 2016,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19690
+ },
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 17.1,
+ "text": "Based on the passages provided, here is the reasoning for each question:\n\n**[id 296]**\nThe passage explicitly states, \"Standard 35 mm film... gives resolution roughly comparable to a current DSLR.\" Therefore, 35 mm film is the correct answer.\n\n**[id 297]**\nThe passage states that while selling partially used park-hopper tickets is common, \"it is prohibited by Disney: the tickets are non-transferable.\" Therefore, the statement that they are transferable to other travelers is not true.\n\n**[id 298]**\nThe passage advises against swimming against the current. Instead, it suggests that as soon as you get out of the current (by aiming somewhere where you are not caught again), \"swimming back is no more difficult than normally.\" \n\n**[id 299]**\nThe passage mentions distance (\"dozens of visitors are injured because they didn't keep a proper distance\"), smells (\"odors attract bears and other wildlife\"), and implies the danger of feeding them (\"should not be fed or disturbed\"). However, it points out that the animals *are* often used to seeing humans but attack anyway because they are inherently wild, making \"animals that are unfamiliar with humans\" incorrect as a mentioned cause.\n\n```json\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 24979,
+  "output_tokens": 1898,
+  "thinking_tokens": 1588,
+  "cache_read_tokens": 0,
+  "total_tokens": 26877
+ },
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

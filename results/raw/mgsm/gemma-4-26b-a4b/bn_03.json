@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 19.7,
+ "text": "[id 30]\nRatio of Darryl to Allen = 7:11. Sum = 18 parts.\n18x = 162 => x = 9.\nAllen's current age = 11 * 9 = 99.\nIn 10 years, Allen will be 99 + 10 = 109.\n\n[id 31]\nPerson 1: 80.\nPerson 2: (80/2) + 20 = 40 + 20 = 60.\nPerson 3: 80 + (0.25 * 80) = 80 + 20 = 100.\nAverage = (80 + 60 + 100) / 3 = 240 / 3 = 80.\n\n[id 32]\nDogs = 10.\nTime per dog per day = 0.5 hours.\nTotal time per day = 10 * 0.5 = 5 hours.\nTotal time per week = 5 * 7 = 35 hours.\n\n[id 33]\nSilver (S) + Gold (G) = 110.\nG = S + 30 => S = G - 30.\n(G - 30) + G = 110 => 2G = 140 => G = 70.\n\n[id 34]\nRaymond (R) = 40.\nAaron (A) = (R/2) + 5 = (40/2) + 5 = 25.\nSioban (S) = A - 2 = 25 - 2 = 23.\n\n[id 35]\nFirst 20 mins: 4 points.\nSecond 20 mins: 4 + (0.25 * 4) = 4 + 1 = 5 points.\nTotal points = 4 + 5 = 9.\n\n[id 36]\nYogurt per day = 2.\nTotal yogurt for 30 days = 2 * 30 = 60.\nPrice bundle: 4 yogurts for $5.00.\nNumber of bundles = 60 / 4 = 15.\nTotal cost = 15 * 5 = 75.\n\n[id 37]\nLet $x$ be the number of Lego sets sold.\nRevenue = 15$x$.\nExpenditure = 8 * 20 = 160.\nRemainder = 5.\nSo, 15$x$ = 160 + 5 = 165.\n$x$ = 165 / 15 = 11.\nTotal sets = 13.\nRemaining sets = 13 - 11 = 2.\n\n[id 38]\nTotal miles = 60.\nTotal days = 3.\nDay 1 time = 3 hours.\nDay 2 time = 1.5 hours.\nDay 3 time = 1.5 hours.\nTotal time = 3 + 1.5 + 1.5 = 6 hours.\nSpeed = 60 miles / 6 hours = 10 mph.\n\n[id 39]\nSkip speed = 3 mph.\nRunning speed = 2 * Skip speed = 2 * 3 = 6 mph.\nWalking speed = Running speed / 4 = 6 / 4 = 1.5 mph.\nTotal time = 6 hours.\nRunning time = 1/3 * 6 = 2 hours.\nWalking time = 2/3 * 6 = 4 hours.\nDistance running = 2 * 6 = 12 miles.\nDistance walking = 4 * 1.5 = 6 miles.\nTotal distance = 12 + 6 = 18 miles.\n\n{\"answers\": {\"30\": 109, \"31\": 80, \"32\": 35, \"33\": 70, \"34\": 23, \"35\": 9, \"36\": 75, \"37\": 2, \"38\": 10, \"39\": 18}}",
+ "usage": {
+  "prompt_tokens": 747,
+  "completion_tokens": 976,
+  "total_tokens": 1723,
+  "cost": 0.0003675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003675,
+   "upstream_inference_prompt_cost": 7.47e-05,
+   "upstream_inference_completions_cost": 0.0002928
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ }
+}

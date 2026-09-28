@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207",
+  "208",
+  "209"
+ ],
+ "seconds": 42.5,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 200]**\n* Morning buckets = 5\n* Afternoon buckets = 6\n* Total buckets per day = 5 + 6 = 11\n* Total water per day = 11 buckets * 5 liters/bucket = 55 liters\n\n**[id 201]**\n* Initial weekly salary = $2000\n* New weekly salary (5% increase) = $2000 * 1.05 = $2100\n* Total yearly salary (52 weeks) = $2100 * 52 = $109,200\n* Total amount with prize = $109,200 + $5000 = $114,200\n\n**[id 202]**\n* Total grapes = 10 acres * 5 tons/acre = 50 tons\n* Total wine = 50 tons * 2 barrels/ton = 100 barrels\n\n**[id 203]**\n* Lunch sandwiches: 7 days * 2 slices/sandwich = 14 slices\n* Breakfast omelets: 3 days * 3 slices/omelet (1 more than sandwich) = 9 slices\n* Dinner macaroni and cheese batch: 1 meal * 8 slices = 8 slices\n* Total slices used = 14 + 9 + 8 = 31 slices\n\n**[id 204]**\n* Existing pens: 22 green + 10 yellow = 32 pens\n* New blue pens: 6 bags * 9 pens/bag = 54 pens\n* New red pens: 2 bags * 6 pens/bag = 12 pens\n* Total pens = 32 + 54 + 12 = 98 pens\n\n**[id 205]**\n* Current scores: 89, 71, 92, 100, 86\n* Lowest score to be dropped: 71\n* Sum of top 4 existing scores: 89 + 92 + 100 + 86 = 367\n* Needed sum for top 5 scores (average of 93): 93 * 5 = 465\n* Required score on the 6th exam: 465 - 367 = 98\n\n**[id 206]**\n* First 4 weeks: 5 times/week * 25 km/time * 4 weeks = 500 km\n* Next 3 weeks: 2 times/week * 60 km/time * 3 weeks = 360 km\n* Total distance = 500 + 360 = 860 km\n\n**[id 207]**\n* Weight per chocolate bar = 40g\n* Weight per candied apple = 40g / 2 = 20g\n* Total weight = (25 bars * 40g) + (80 apples * 20g) = 1000g + 1600g = 2600g\n\n**[id 208]**\n* Monday = 4 cakes\n* Tuesday = 4 * 3 = 12 cakes\n* Wednesday = 12 * 5 = 60 cakes\n* Total cakes = 4 + 12 + 60 = 76 cakes\n\n**[id 209]**\n* Half a dozen plates = 6 plates\n* Cost of 6 plates = 6 * $6000 = $36,000\n* Cost of 20 dozen cups = $36,000 - $1200 = $34,800\n* Total cups = 20 * 12 = 240 cups\n* Cost per cup = $34,800 / 240 = $145\n\n```json\n{\"answers\": {\"200\": 55, \"201\": 114200, \"202\": 100, \"203\": 31, \"204\": 98, \"205\": 98, \"206\": 860, \"207\": 2600, \"208\": 76, \"209\": 145}}\n```\n",
+ "usage": {
+  "input_tokens": 16883,
+  "output_tokens": 5612,
+  "thinking_tokens": 4601,
+  "cache_read_tokens": 8140,
+  "total_tokens": 22495
+ },
+ "answers_batch": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ },
+ "single": {},
+ "answers": {
+  "200": 55.0,
+  "201": 114200.0,
+  "202": 100.0,
+  "203": 31.0,
+  "204": 98.0,
+  "205": 98.0,
+  "206": 860.0,
+  "207": 2600.0,
+  "208": 76.0,
+  "209": 145.0
+ }
+}

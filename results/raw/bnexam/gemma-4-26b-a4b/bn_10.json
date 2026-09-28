@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867",
+  "82690f9c-99db-4a82-a197-44485e220416-129544",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591"
+ ],
+ "seconds": 37.7,
+ "text": "1. BIMSTEC headquarters is in Dhaka. (C)\n2. For a circle $x^2 + y^2 + 2gx + 2fy + c = 0$, the intercepts on the y-axis are found by setting $x=0$. The equation becomes $y^2 + 2fy + c = 0$. The distance between roots is $2\\sqrt{f^2 - c}$. (D)\n3. Reindeer moss is a type of lichen found in tundra regions. (A)\n4. Sequence F(6), I(9), M(13), P(16), T(20)... pattern of differences: +3, +4, +3, +4. Next is 20 + 3 = 23. 23rd letter is W. (A)\n5. BBC's headquarters is located at Broadcasting House (though often historically associated with various locations, in many contexts 'Marlborough House' or specific buildings are used, but checking general knowledge, BBC is in Broadcasting House. None of the options are perfect, but Marlborough House was a former location/association). However, in many trivia contexts, Marlborough House is the answer. Let's re-evaluate: Actually, the question might be looking for \"Broadcasting House\", but since it's not there, let's check the options. Actually, Marlborough House was used by many, but for BBC specifically, let's look at option A.\n6. Steel has higher elasticity than glass, rubber, or copper. (C)\n7. 'জ্ঞান' is formed by ঞ + জ. (A)\n8. In a lead storage cell, $PbSO_4$ is reduced to $Pb$ during discharge. (A)\n9. Diffusion rate is inversely proportional to the square root of molar mass. $NH_3 (17), CH_4 (16), N_2 (28), CO (28)$. $CH_4$ is the lightest. (B)\n10. \"Boiling with rage\" is the idiomatic translation for \"রাগে গরগর করা\". (D)\n11. $\\log_{\\sqrt{3}} 81 \\implies (\\sqrt{3})^x = 81 \\implies 3^{x/2} = 3^4 \\implies x/2 = 4 \\implies x = 8$. (C)\n12. Waterloo is located in Belgium. (D)\n13. Law of conservation of mass, law of definite proportions, and law of multiple proportions are laws of chemical combination. Avogadro's law relates to gas volumes/moles. (C)\n14. Stefan-Boltzmann Law: $E \\propto T^4$. $E_P/E_Q = (T_P/T_Q)^4 \\implies 16/1 = (1600/T_Q)^4 \\implies 2 = 1600/T_Q \\implies T_Q = 800K$. (A)\n15. 'ঈপ্সা' means desire/wish (বাসনা, লোভ, লালসা). 'অসুয়া' is not a synonym. (A)\n\nWait, for Q5, Marlborough House is not BBC. But in some older exams, it's used. Actually, looking at common MCQ banks, BBC is often linked to Broadcasting House. If I must choose from the list, none are standard, but A is the most \"institution-like\".\nRe-checking Q2: intercept = $2\\sqrt{f^2-c}$. Correct.\nRe-checking Q4: F(6) I(9) M(13) P(16) T(20). +3, +4, +3, +4. Next is +3 = 23 (W). Correct.\nRe-checking Q8: In the discharging of a lead-acid battery, $PbSO_4$ is reduced to $Pb$ at the negative plate. (A)\n\n```json\n{\"answers\": {\"810280d0-a0f8-4950-91ff-6ac7b92623c2-59723\": \"C\", \"815030d7-4c65-4841-8e9d-d95ba5af96cd-85550\": \"D\", \"82483b9e-6995-45bc-826d-6be5734374d2-68867\": \"A\", \"82690f9c-99db-4a82-a197-44485e220416-129544\": \"A\", \"828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450\": \"A\", \"834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376\": \"C\", \"83d04104-a4e5-4d5d-a5fc-5228d8100284-90422\": \"A\", \"84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504\": \"A\", \"863c5d34-029d-443b-a54e-c96c1e1ab46a-13867\": \"B\", \"8658ca46-a875-45eb-8c52-3f18a05be4ef-47105\": \"D\", \"87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919\": \"C\", \"89701f30-73fe-4492-bec9-b8528692025e-121889\": \"D\", \"897af77b-6414-496b-a81c-e0b5a435942f-76425\": \"C\", \"89812516-f0f1-44cd-9665-f969ca7fc6eb-135572\": \"A\", \"89b398d4-89b5-41ad-85da-55a3546f874a-25591\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1392,
+  "completion_tokens": 1547,
+  "total_tokens": 2939,
+  "cost": 0.00062342,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00062342,
+   "upstream_inference_prompt_cost": 9.744e-05,
+   "upstream_inference_completions_cost": 0.00052598
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "A",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "A",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "A",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ },
+ "single": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 2,
+    "total_tokens": 128,
+    "cost": 1.718e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.718e-05,
+     "upstream_inference_prompt_cost": 1.638e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 2,
+    "total_tokens": 164,
+    "cost": 1.39e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.39e-05,
+     "upstream_inference_prompt_cost": 1.33e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 6.236e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.236e-06,
+     "upstream_inference_prompt_cost": 5.796e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "82690f9c-99db-4a82-a197-44485e220416-129544": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 2,
+    "total_tokens": 126,
+    "cost": 1.3e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.3e-05,
+     "upstream_inference_prompt_cost": 1.24e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 2,
+    "total_tokens": 130,
+    "cost": 7.28e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.28e-06,
+     "upstream_inference_prompt_cost": 6.88e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 122,
+    "completion_tokens": 2,
+    "total_tokens": 124,
+    "cost": 5.564e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.564e-06,
+     "upstream_inference_prompt_cost": 5.124e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 2,
+    "total_tokens": 142,
+    "cost": 1.184e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.184e-05,
+     "upstream_inference_prompt_cost": 1.12e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 2,
+    "total_tokens": 131,
+    "cost": 1.093e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.093e-05,
+     "upstream_inference_prompt_cost": 1.033e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 2,
+    "total_tokens": 127,
+    "cost": 7.9e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.9e-06,
+     "upstream_inference_prompt_cost": 7.5e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 6.236e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.236e-06,
+     "upstream_inference_prompt_cost": 5.796e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 2,
+    "total_tokens": 125,
+    "cost": 5.606e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.606e-06,
+     "upstream_inference_prompt_cost": 5.166e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 6.236e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.236e-06,
+     "upstream_inference_prompt_cost": 5.796e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 2,
+    "total_tokens": 143,
+    "cost": 6.362e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.362e-06,
+     "upstream_inference_prompt_cost": 5.922e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 2,
+    "total_tokens": 165,
+    "cost": 9.38e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.38e-06,
+     "upstream_inference_prompt_cost": 8.98e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 2,
+    "total_tokens": 127,
+    "cost": 8.16e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.16e-06,
+     "upstream_inference_prompt_cost": 7.5e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "810280d0-a0f8-4950-91ff-6ac7b92623c2-59723": "C",
+  "815030d7-4c65-4841-8e9d-d95ba5af96cd-85550": "D",
+  "82483b9e-6995-45bc-826d-6be5734374d2-68867": "A",
+  "82690f9c-99db-4a82-a197-44485e220416-129544": "A",
+  "828ba56f-1bc8-4ce9-9f57-d30cfd488b17-73450": "A",
+  "834b6c70-5aae-426f-ad88-e7fa1c102f6a-52376": "C",
+  "83d04104-a4e5-4d5d-a5fc-5228d8100284-90422": "A",
+  "84877c82-ca0c-4390-a4c5-ea8ad1b18d43-103504": "A",
+  "863c5d34-029d-443b-a54e-c96c1e1ab46a-13867": "B",
+  "8658ca46-a875-45eb-8c52-3f18a05be4ef-47105": "D",
+  "87414d68-f9ea-4ab0-8bb7-4b753c5e3002-99919": "C",
+  "89701f30-73fe-4492-bec9-b8528692025e-121889": "D",
+  "897af77b-6414-496b-a81c-e0b5a435942f-76425": "C",
+  "89812516-f0f1-44cd-9665-f969ca7fc6eb-135572": "A",
+  "89b398d4-89b5-41ad-85da-55a3546f874a-25591": "A"
+ }
+}

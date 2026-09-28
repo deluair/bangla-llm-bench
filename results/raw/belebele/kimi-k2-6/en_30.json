@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 82.6,
+ "text": "[id 240] The passage explicitly states that Gingrich came in second with 32 percent of the vote.  \n[id 241] The passage states that Gingrich “lauded” (praised) Santorum after the results came in.  \n[id 242] The passage notes that Nadal was “winning 76 points in the first serve,” making B the only option directly tied to the first serve detail.  \n[id 243] The former Australian government refused to ratify Kyoto because it believed doing so would damage the economy.  \n[id 244] The passage describes the Nintendo Revolution controller as resembling a television remote.  \n[id 245] Felicia was first a Category 4 storm and later weakened to a tropical depression, so the statement in B reverses the actual order and is false.  \n[id 246] The passage reports where the species formed, how quickly it evolved, and the finches involved, but it never names the new species.  \n[id 247] The passage identifies CowParade as “the world's largest public art event.”  \n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1248,
+  "completion_tokens": 3233,
+  "total_tokens": 4481,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2962
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

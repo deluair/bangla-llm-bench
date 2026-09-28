@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 19.3,
+ "text": "224: The passage states the crash closed the airport to commercial flights. (A)\n225: The passage says Brzezinski served as NSA from 1977 to 1981, \"succeeding Henry Kissinger.\" Therefore, Kissinger held the position until 1977. (B)\n226: Option B states the ship had 100 meters of fuel; however, the passage states it had 120-160 cubic metres of fuel and that the ship was 100 metres long. Thus, B is false. (B)\n227: The passage says Vautier headed back to \"newly-independent Algeria\" in the 1960s, implying independence had just occurred or was the current status. Historically, Algeria gained independence in 1962. (C)\n228: The passage states \"a neighbor called about a gas leak.\" (A)\n229: The passage says H5N1 was \"confirmed to have infected a dead wild duck... in marshland near Lyon in the east of France.\" (A)\n230: The passage states Fred \"is moving towards the northwest.\" (D)\n231: The passage states \"The significant earthquake activity resulting in the phase change had took place on March 10.\" (C)\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1314,
+  "completion_tokens": 359,
+  "total_tokens": 1673,
+  "cost": 0.00015024,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 16,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015024,
+   "upstream_inference_prompt_cost": 7.844e-05,
+   "upstream_inference_completions_cost": 7.18e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

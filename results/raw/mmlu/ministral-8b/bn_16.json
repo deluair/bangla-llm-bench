@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 2.8,
+ "text": "```json\n{\n  \"answers\": {\n    \"10694\": \"C\",\n    \"11167\": \"C\",\n    \"11431\": \"C\",\n    \"11486\": \"A\",\n    \"11690\": \"D\",\n    \"12239\": \"C\",\n    \"12247\": \"A\",\n    \"12303\": \"B\",\n    \"12421\": \"D\",\n    \"12423\": \"A\",\n    \"12582\": \"B\",\n    \"12609\": \"C\",\n    \"12674\": \"A\",\n    \"12915\": \"C\",\n    \"13027\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 4777,
+  "completion_tokens": 179,
+  "total_tokens": 4956,
+  "cost": 0.0007434,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007434,
+   "upstream_inference_prompt_cost": 0.00071655,
+   "upstream_inference_completions_cost": 2.685e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "10694": "C",
+  "11167": "C",
+  "11431": "C",
+  "11486": "A",
+  "11690": "D",
+  "12239": "C",
+  "12247": "A",
+  "12303": "B",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "C",
+  "13027": "B"
+ },
+ "answers_batch": {
+  "10694": "C",
+  "11167": "C",
+  "11431": "C",
+  "11486": "A",
+  "11690": "D",
+  "12239": "C",
+  "12247": "A",
+  "12303": "B",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "C",
+  "12674": "A",
+  "12915": "C",
+  "13027": "B"
+ },
+ "single": {}
+}

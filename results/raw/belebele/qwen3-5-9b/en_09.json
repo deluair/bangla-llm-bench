@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 91.9,
+ "text": "[id 72]\nPassage: Three people inside house, none hurt. Driver sustained head injuries. Road closed, emergency services freed driver from red Audi TT. Initial hospital: James Paget Hospital in Great Yarmouth. Subsequently relocated to Addenbrooke's Hospital in Cambridge.\nQuestion: What did not happen to the driver?\nA) He sustained head injuries (True, happened).\nB) He did not injury any of the people inside of the home (True, didn't happen that he injured them).\nC) He was transferred from a hospital in Cambridge to one in Great Yarmouth (False, text says relocated FROM Yarmouth TO Cambridge).\nD) Emergency services helped remove him (True).\nAnswer: C\n\n[id 73]\nPassage: South Africa started rusty, improved later. Disciplined defence, ball handling, team work stood out.\nQuestion: What wasn’t something that stood out?\nA) Team work (Stood out).\nB) Ball handling (Stood out).\nC) Polished performance at beginning (False, looked \"decidedly rusty\").\nD) Defensive skills (Stood out).\nAnswer: C\n\n[id 74]\nPassage: Hu encouraged developing countries \"to avoid the old path of polluting first and cleaning up later.\" Also said not asked to take obligations beyond capabilities.\nQuestion: What did Hu suggest?\nA) Take on obligations... (He said not to).\nB) Focus on economic output (Cuts based on output, but specific suggestion is avoid pollution path).\nC) Go beyond responsibilities (He said not to).\nD) Avoiding old paths of pollution (Direct match).\nAnswer: D\n\n[id 75]\nPassage: Supreme leader described dependency on oil as \"\"a trap\"\"... country should free itself from that.\nQuestion: Free itself from?\nA) Financial restrictions (Mentioned as effect).\nB) Islamic revolution (Mentioned as origin of trap).\nC) Foreign income (Generic).\nD) Dependency on oil (Direct match).\nAnswer: D\n\n[id 76]\nPassage: Allen began quest... out of a lifelong interest in the war.\nQuestion: What led Allen to begin search?\nA) Wealth (Means).\nB) Seabed mapping (Tool used later).\nC) Investment (Activity funded by wealth).\nD) Interest in the war (Explicit motivation).\nAnswer: D\n\n[id 77]\nPassage: Historians criticized FBI for focusing on easy cases (stolen cars) to boost success rate. (First sentence). Second sentence discusses Congress funding obscenity initiative.\nQuestion: What have historians not criticized?\nA) Boosting success rate (Criticized).\nB) Easily solvable crimes (Criticized).\nC) Heavy focus on pornography cases (Not mentioned as criticized by historians).\nD) Stolen car cases (Criticized).\nAnswer: C\n\n[id 78]\nPassage: Hesperonychus... cousin of Velociraptor... walked upright on two legs with claws like the Velociraptor. Its second claw was larger.\nQuestion: What differentiates?\nA) Two legs (Both had).\nB) Larger second claw (Explicit differentiation).\nC) Fully feathered (Not a stated difference).\nD) Warm blooded (Not a stated difference).\nAnswer: B\n\n[id 79]\nPassage: Screens installed in various places in Rome. Screens in Italy and Poland. Not possible for everybody to gain access in St. Peter's Square.\nQuestion: Where were televisions screens not set up?\nA) Throughout Rome (Various places).\nB) Various Italian cities (Similar setups).\nC) Certain locations in Poland (Similar setups).\nD) St. Peter's Square (The screens were installed to let people watch the ceremony that was *in* the square where access was impossible; text does not place screens *in* the square itself, but rather outside to accommodate those who couldn't get in).\nAnswer: D\n\n{\"answers\": {\"72\": \"C\", \"73\": \"C\", \"74\": \"D\", \"75\": \"D\", \"76\": \"D\", \"77\": \"C\", \"78\": \"B\", \"79\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1327,
+  "completion_tokens": 4979,
+  "total_tokens": 6306,
+  "cost": 0.00087955,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00087955,
+   "upstream_inference_prompt_cost": 0.0001327,
+   "upstream_inference_completions_cost": 0.00074685
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4056,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

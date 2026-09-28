@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 3.9,
+ "text": "[id 48] Olaf Trygvasson is explicitly described as a Norwegian, and his fleet was from Norway.\n[id 49] The passage states the cultural influence occurred \"around the 15th century,\" which is approximately 600 years ago.\n[id 50] The passage states the crust is thinner under the maria, and there may be more maria on the near side because of this.\n[id 51] The passage mentions that some people believe that aliens or other life may live on another planet.\n[id 52] The passage states that only 1% of Venezuelans work in the oil industry, which is the least compared to agriculture, industry, and service.\n[id 53] The passage explains that fusion allows stars to give off light and heat.\n[id 54] The passage describes water as being made up of two hydrogen atoms and one oxygen atom.\n[id 55] The passage highlights Singapore Botanic Gardens and the transformation of the island into a tropical Garden City, emphasizing urban greenery.\n\n```json\n{\n  \"answers\": {\n    \"48\": \"D\",\n    \"49\": \"B\",\n    \"50\": \"C\",\n    \"51\": \"C\",\n    \"52\": \"C\",\n    \"53\": \"C\",\n    \"54\": \"D\",\n    \"55\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1175,
+  "completion_tokens": 293,
+  "total_tokens": 1468,
+  "cost": 0.0002202,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002202,
+   "upstream_inference_prompt_cost": 0.00017625,
+   "upstream_inference_completions_cost": 4.395e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "48": "D",
+  "49": "B",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "D",
+  "49": "B",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

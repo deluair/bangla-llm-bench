@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 49.4,
+ "text": "[id 180]\nTotal votes = 80. Winner got 3/4. Winner votes = (3/4) * 80 = 60. Loser votes = 80 - 60 = 20.\nAnswer: 20\n\n[id 181]\nPink calla lilies = 200.\nWhite carnations = 200 / 5 = 40.\nRed roses = 4 * 40 = 160.\nAnswer: 160\n\n[id 182]\nJan is 30. Two years ago, Jan was 28.\nTwo years ago, Mark was 5 + (28 / 2) = 5 + 14 = 19.\nCurrent Mark age = 19 + 2 = 21.\nJean is 20 years older? No, Jean is 2 years older than Mark. Jean = 21 + 2 = 23.\nAnswer: 23\n\n[id 183]\nTeam 1 (Well-rounded): 4 runners * 55s = 220s.\nTeam 2: 60 + 57 + 54 + 51 = 222s.\nDifference = 222 - 220 = 2s.\nAnswer: 2\n\n[id 184]\nProb(>3) = {4,5,6}/6 = 3/6 = 0.5 (50%).\nProb(2 evens) = (3/6) * (3/6) = 9/36 = 0.25 (25%).\nDifference = 50% - 25% = 25%.\nAnswer: 25\n\n[id 185]\nMom = 20.\nJenna = 20 / 2 = 10.\nTotal = 20 + 10 = 30.\nAnswer: 30\n\n[id 186]\nHamsters straw = 10 * 5 = 50.\nRabbits straw = 20.\nTotal straw for rats = 160 - 50 - 20 = 90.\nRats in 3 cages. Straw per rat = 6.\nTotal rats = 90 / 6 = 15.\nRats per cage = 15 / 3 = 5.\nAnswer: 5\n\n[id 187]\nPrincipal = 100. Monthly interest = 2%. Time = 3 months.\nSimple Interest = 100 * 0.02 * 3 = 6.\nTotal payment = 100 + 6 = 106.\nAnswer: 106\n\n[id 188]\nCost per bag = 20 (buy) + 2 (transport) = 22.\nProfit per bag = 30 (sell) - 22 (cost) = 8.\nTotal profit = 400.\nBags = 400 / 8 = 50.\nAnswer: 50\n\n[id 189]\nTickets = 20.25.\nFood = 20.25 - 4.50 = 15.75.\nRides = 2 * 33 = 66.\nTotal Cost = 20.25 + 15.75 + 66 = 102.\nSplit by 3 friends = 102 / 3 = 34.\nAnswer: 34\n\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 23, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}",
+ "usage": {
+  "prompt_tokens": 858,
+  "completion_tokens": 3808,
+  "total_tokens": 4666,
+  "cost": 0.000657,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000657,
+   "upstream_inference_prompt_cost": 8.58e-05,
+   "upstream_inference_completions_cost": 0.0005712
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2896,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

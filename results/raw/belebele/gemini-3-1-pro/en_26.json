@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 17.2,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n*   **[id 208]**: The passage states, \"Through the visualization of various deities... the chakras are activated\". This corresponds to option **B**.\n*   **[id 209]**: The passage mentions that after the 108 plates of Chhappan Bhog (food) were served, \"Lakkha Singh presented the chhappan bhog bhajan as well.\" This points to option **A**.\n*   **[id 210]**: The passage explicitly notes that \"the funding crunch... contributed to ending the series.\" This matches option **A**.\n*   **[id 211]**: The text says funerals were held for \"Jeff Weise and three of the nine victims\". The question specifically asks for the number of *victims* whose funerals were held, which is three. This corresponds to option **B**.\n*   **[id 212]**: The passage states, \"Latvia and Slovakia have both delayed the process of joining ACTA.\" This corresponds to option **D**.\n*   **[id 213]**: According to the passage, METI announced that \"Apple had informed it of 34 additional overheating incidents, which the company called 'non-serious.'\" This points to option **D**.\n*   **[id 214]**: Peter Costello stated Australia should pursue nuclear power \"when nuclear power generation becomes economically viable\" and \"If it becomes commercial\". This implies the current barrier is cost. This matches option **D**.\n*   **[id 215]**: Miller states, \"I was getting ready so I wasn't really hearing what he was saying.\" This corresponds to option **B**.\n\n```json\n{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"B\", \"212\": \"D\", \"213\": \"D\", \"214\": \"D\", \"215\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17475,
+  "output_tokens": 1847,
+  "thinking_tokens": 1395,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19322
+ },
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ }
+}

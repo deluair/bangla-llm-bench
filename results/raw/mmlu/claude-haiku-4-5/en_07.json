@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "3308",
+  "3347",
+  "3412",
+  "3438",
+  "3441",
+  "3466",
+  "3493",
+  "3553",
+  "3595",
+  "3628",
+  "3647",
+  "3650",
+  "3672",
+  "3748",
+  "3762"
+ ],
+ "seconds": 38.9,
+ "text": "# Analysis of Multiple-Choice Exam Questions\n\nLet me work through each question systematically:\n\n**[3308]** Napoleon's diary reveals his obsession with controlling information and managing his image. While he did implement the Napoleonic Code (praised), the diary entries consistently show his determination to suppress press freedom and control public discourse. This aligns most closely with curtailment of citizens' rights. **Answer: D**\n\n**[3347]** During the Reign of Terror, de-Christianization pursued by Robespierre caused widespread domestic resistance and alienated large portions of the religious population, directly undermining national cohesion without providing military benefit. Conscription created armies, merit promotions strengthened military leadership, and price controls attempted (however ineffectually) to supply the war effort. **Answer: C**\n\n**[3412]** Voltaire's emphasis on tolerance, rational criticism of religious intolerance, and appeal to reason reflects the core values of the Enlightenment movement. **Answer: C**\n\n**[3438]** The 1802 entry explicitly states that conquest maintains his power and that without continued victories he would lose power. This directly reflects his fear of losing authority if military victories ceased. **Answer: A**\n\n**[3441]** The phrase \"long been yearning for it\" and \"profound processes of development\" indicate the need developed gradually over time, not suddenly. **Answer: C**\n\n**[3466]** Latitude and longitude coordinates provide the precise, specific location of a point—the definition of absolute location. **Answer: C**\n\n**[3493]** Smallest map scale = largest geographic area shown. The world map shows the largest area. **Answer: A**\n\n**[3553]** NATO was established during the Cold War specifically to provide collective defense against Soviet communist expansion. **Answer: A**\n\n**[3595]** Europe is notably NOT apathetic about environment—it leads in environmental policy and activism. The other options are actual current challenges. **Answer: C**\n\n**[3628]** Developing world cities are characterized by POOR infrastructure, not well-developed infrastructure. **Answer: B**\n\n**[3647]** Family is the primary agent of political socialization in children. **Answer: B**\n\n**[3650]** Federal judges can only be removed through impeachment and conviction by Congress, per the Constitution. **Answer: A**\n\n**[3672]** Since the 1980s, the Republican Party has increasingly aligned with evangelical Christian voters. **Answer: D**\n\n**[3748]** The Rules Committee determines procedural rules for the House legislative process. **Answer: A**\n\n**[3762]** The Supreme Court has used the Fourteenth Amendment's due process clause to apply Bill of Rights protections to the states through \"incorporation.\" **Answer: B**\n\n```json\n{\"answers\": {\"3308\": \"D\", \"3347\": \"C\", \"3412\": \"C\", \"3438\": \"A\", \"3441\": \"C\", \"3466\": \"C\", \"3493\": \"A\", \"3553\": \"A\", \"3595\": \"C\", \"3628\": \"B\", \"3647\": \"B\", \"3650\": \"A\", \"3672\": \"D\", \"3748\": \"A\", \"3762\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2679,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3562,
+  "output_tokens_details": {
+   "thinking_tokens": 2827
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2679,
+    "output_tokens": 3562,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.020489,
+ "answers_batch": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {},
+ "answers": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "A",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ }
+}

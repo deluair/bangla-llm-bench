@@ -1,0 +1,40 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 2.8,
+ "text": "The correct options are:\n- 296: 35 mm film gives DSLR‑like resolution.\n- 297: Park‑hopper tickets cannot be transferred to other travelers.\n- 298: Get out of the current toward the other side, then swim safely to shore.\n- 299: The passage does not mention “animals that people have never seen” as a cause of attacks.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.200654062,
+  "prompt_tokens": 1355,
+  "prompt_time": 0.091963336,
+  "completion_tokens": 1134,
+  "completion_time": 2.377651133,
+  "total_tokens": 2489,
+  "total_time": 2.469614469,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1020
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

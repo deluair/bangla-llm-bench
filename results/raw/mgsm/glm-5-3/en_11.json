@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 66.7,
+ "text": "Here are my solutions:\n\n- **110:** Beatrice: 2 × 24 = 48; Marcell: 3 × 14 = 42; total 90; average = 45\n- **111:** 16 sec → 20 ft, so 64 sec → 80 ft; at 2 L per 10 ft → 16 liters\n- **112:** 4 teachers × 2 lessons = 8 lessons; 8 × 3 cleanings = 24\n- **113:** 2 × 15 = 30; 30 − 5 = 25\n- **114:** Brittany: 1800 ÷ 6 = 300; ducks: 300 ÷ 50 = 6\n- **115:** 2×4×10 boards: sell at $15 each → $5 profit × 10 = $50; 4×4×10: sell at $24 each → $8 profit × 5 = $40; total profit = $90\n- **116:** Sugar = 7/20 × 120 = 42\n- **117:** 2 × 3 = 6 pairs; 6 × $60 = $360\n- **118:** Start: 2 × 5 = 10 vehicles; need 20 more → 20 ÷ 5 = 4 containers\n- **119:** Adrien now: 40000 × 1.4 = 56000; Lylah four years ago: 40000 × 0.7 = 28000; Lylah now: 28000 × 1.4 = 39200; total = 95200\n\n{\"answers\": {\"110\": 45, \"111\": 16, \"112\": 24, \"113\": 25, \"114\": 6, \"115\": 90, \"116\": 42, \"117\": 360, \"118\": 4, \"119\": 95200}}",
+ "usage": {
+  "completion_tokens": 5544,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5125
+  },
+  "prompt_tokens": 765,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6309
+ },
+ "served_by": null,
+ "answers_batch": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ }
+}

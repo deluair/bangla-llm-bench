@@ -1,0 +1,39 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 8.6,
+ "text": "**[id 296]** The passage states that 35 mm film (36 by 24 mm negative) is the common standard and produces images as clear as current DCLR. → **A**\n\n**[id 297]** The passage explicitly says Disney prohibits transferring tickets (\"টিকিটগুলি অফেরঁটযোগ্য\" – tickets are non-transferable), so the claim that park-hopper tickets can be given to other travelers is NOT true. → **A**\n\n**[id 298]** The passage advises getting out of the current as soon as possible (i.e., at an angle/another direction), after which swimming back to shore is not difficult. → **A**\n\n**[id 299]** The passage mentions odors attracting wildlife, failure to keep distance, and feeding wildlife — but it actually says the animals ARE accustomed to humans, not that they have never seen humans. → **D**\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 635,
+  "completion_tokens_details": {
+   "reasoning_tokens": 393
+  },
+  "prompt_tokens": 3332,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 3967
+ },
+ "served_by": null,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

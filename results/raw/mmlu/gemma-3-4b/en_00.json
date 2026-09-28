@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  10,
+  36,
+  63,
+  65,
+  86,
+  108,
+  127,
+  150,
+  159,
+  234,
+  237,
+  255,
+  264,
+  295,
+  300
+ ],
+ "seconds": 5.5,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 10] C\n[id 36] C\n[id 63] D\n[id 65] D\n[id 86] D\n[id 108] B\n[id 127] D\n[id 150] D\n[id 159] C\n[id 234] B\n[id 237] C\n[id 255] D\n[id 264] C\n[id 295] C\n[id 300] C\n\n```json\n{\"answers\": {\"10\": \"C\", \"36\": \"C\", \"63\": \"D\", \"65\": \"D\", \"86\": \"D\", \"108\": \"B\", \"127\": \"D\", \"150\": \"D\", \"159\": \"C\", \"234\": \"B\", \"237\": \"C\", \"255\": \"D\", \"264\": \"C\", \"295\": \"C\", \"300\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1098,
+  "completion_tokens": 266,
+  "total_tokens": 1364,
+  "cost": 8.15e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.15e-05,
+   "upstream_inference_prompt_cost": 5.49e-05,
+   "upstream_inference_completions_cost": 2.66e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "10": "C",
+  "36": "C",
+  "63": "D",
+  "65": "D",
+  "86": "D",
+  "108": "B",
+  "127": "D",
+  "150": "D",
+  "159": "C",
+  "234": "B",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "C",
+  "300": "C"
+ },
+ "answers_batch": {
+  "10": "C",
+  "36": "C",
+  "63": "D",
+  "65": "D",
+  "86": "D",
+  "108": "B",
+  "127": "D",
+  "150": "D",
+  "159": "C",
+  "234": "B",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "C",
+  "300": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 17.1,
+ "text": "Here is the brief reasoning for each question based on the provided text:\n\n*   **[id 232]**: The text explicitly states that the disease \"migrates to humans through mosquitos.\" (A)\n*   **[id 233]**: The text specifies he was \"attacked in Tibet by a rabid dog.\" (C)\n*   **[id 234]**: The restraining order forces the release of those who \"did not receive a hearing,\" implying a hearing is required to hold them longer. (D)\n*   **[id 235]**: The passage lists many nominations including Best Picture, Sound Mixing, and Original Song, but Best Visual Effects is not mentioned. (B)\n*   **[id 236]**: The passage explicitly states \"Some roads have been damaged.\" Homes lost water/power and the airport was closed, but roads were the only thing noted as sustaining physical damage. (C)\n*   **[id 237]**: Israel demands an \"ongoing military presence in the valley for ten years,\" while Palestine only agrees to a five-year presence. (B)\n*   **[id 238]**: Massa suffered his injury \"during the 2009 Hungarian Grand Prix.\" (A)\n*   **[id 239]**: The text states \"Police said they suspect an alleged Daesh (ISIL) militant...\" (A)\n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n",
+ "usage": {
+  "input_tokens": 17214,
+  "output_tokens": 1941,
+  "thinking_tokens": 1564,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19155
+ },
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

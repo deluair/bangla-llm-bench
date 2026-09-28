@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "13079",
+  "13080",
+  "13082",
+  "13109",
+  "13123",
+  "13159",
+  "13190",
+  "13216",
+  "13256",
+  "13268",
+  "13432",
+  "13443",
+  "13519",
+  "13522",
+  "13570"
+ ],
+ "seconds": 24.9,
+ "text": "I'll work through these questions systematically:\n\n**[id 13079]** Viral campaigns specifically describe spreading messages through online peer-to-peer communication. **Answer: D**\n\n**[id 13080]** A \"public issues campaign\" involves people on opposing sides with emotional convictions about a decision affecting their lives. **Answer: B**\n\n**[id 13082]** Video streaming has been consistently identified as the primary driver of internet traffic growth. **Answer: B**\n\n**[id 13109]** Issues management specifically deals with emerging issues and their potential organizational impact. **Answer: B**\n\n**[id 13123]** To measure campaign impact on attitudes, conducting pre and post analysis of constituents' opinions directly measures attitude change. **Answer: D**\n\n**[id 13159]** The Responsibility to Protect (R2P) has three pillars: prevent, react, and rebuild. \"Remain sovereign\" is not one of them. **Answer: C**\n\n**[id 13190]** According to securitization theory, an issue fails to become securitized when the audience doesn't grant the securitizing actor special rights, even if convinced of the threat. **Answer: D**\n\n**[id 13216]** In postcolonial analysis, \"thick space\" describes the international as hierarchically ordered with dense constructed political, economic, social, military and cultural relations. **Answer: A**\n\n**[id 13256]** All three aspects (economic, democratic stability, and state sovereignty threats) characterize why TNC is considered a national security threat. **Answer: D**\n\n**[id 13268]** Statement D is inaccurate—arms control has NOT retained its momentum in the contemporary security environment; it has been challenged and less applied. **Answer: D**\n\n**[id 13432]** The \"third age\" involves active retirement, non-work activities, and independence (distinct from the fourth age of decline). **Answer: A**\n\n**[id 13443]** Weber traced capitalism's spirit to Calvinists engaging in ascetic practices seeking signs of salvation through worldly success. **Answer: D**\n\n**[id 13519]** Feminist standpoint epistemology advocates studying society from women's perspectives as a valuable analytical viewpoint. **Answer: B**\n\n**[id 13522]** Globalization involves challenged/declining state power, not extended power. **Answer: B**\n\n**[id 13570]** Absolute poverty measures the minimum income needed for subsistence (food, shelter, basic needs). **Answer: B**\n\n```json\n{\"answers\": {\"13079\": \"D\", \"13080\": \"B\", \"13082\": \"B\", \"13109\": \"B\", \"13123\": \"D\", \"13159\": \"C\", \"13190\": \"D\", \"13216\": \"A\", \"13256\": \"D\", \"13268\": \"D\", \"13432\": \"A\", \"13443\": \"D\", \"13519\": \"B\", \"13522\": \"B\", \"13570\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1902,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2486,
+  "output_tokens_details": {
+   "thinking_tokens": 1799
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1902,
+    "output_tokens": 2486,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.014332000000000001,
+ "answers_batch": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {},
+ "answers": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ }
+}

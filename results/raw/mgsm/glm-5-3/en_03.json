@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 13.6,
+ "text": "Here are my solutions:\n\n**[30]** Ratio 7:11 means Allen = 162 × 11/18 = 99. In 10 years: 99 + 10 = **109**\n\n**[31]** Guesses: 80, (80/2)+20 = 60, 80×1.25 = 100. Average = 240/3 = **80**\n\n**[32]** 10 dogs × 0.5 hrs = 5 hrs/day × 7 days = **35**\n\n**[33]** S + (S+30) = 110 → S = 40, gold = **70**\n\n**[34]** Raymond 40, half = 20, Aaron = 25, Siobhan = 25 − 2 = **23**\n\n**[35]** 4 + (4 × 1.25) = 4 + 5 = **9**\n\n**[36]** 60 yogurts ÷ 4 = 15 groups × $5 = **75**\n\n**[37]** Games cost 8×$20 = $160; $5 left means he earned $165 = 11 sets sold, so 13 − 11 = **2**\n\n**[38]** 3 + 1.5 + 1.5 = 6 hours; 60 ÷ 6 = **10**\n\n**[39]** Run = 6 mph, walk = 1.5 mph. 2 hrs running = 12 mi; 4 hrs walking = 6 mi; total = **18**\n\n{\"answers\": {\"30\": 109, \"31\": 80, \"32\": 35, \"33\": 70, \"34\": 23, \"35\": 9, \"36\": 75, \"37\": 2, \"38\": 10, \"39\": 18}}",
+ "usage": {
+  "completion_tokens": 1077,
+  "completion_tokens_details": {
+   "reasoning_tokens": 689
+  },
+  "prompt_tokens": 593,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 1670
+ },
+ "served_by": null,
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ }
+}

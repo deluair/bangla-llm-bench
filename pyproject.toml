@@ -1,0 +1,6 @@
+[project]
+name = "bangla-llm-bench"
+version = "0.1.0"
+description = "Same questions, two languages: how much worse do LLMs do in Bengali, and how much more does it cost?"
+requires-python = ">=3.11"
+dependencies = ["pandas", "tiktoken", "tokenizers"]

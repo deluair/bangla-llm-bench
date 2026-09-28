@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  13079,
+  13080,
+  13082,
+  13109,
+  13123,
+  13159,
+  13190,
+  13216,
+  13256,
+  13268,
+  13432,
+  13443,
+  13519,
+  13522,
+  13570
+ ],
+ "seconds": 5.0,
+ "text": "Here are the answers based on the reasoning for each question:\n\n1. Viral campaigns involve spreading messages through peer-to-peer communication, often online.\n2. A public issues campaign involves emotional convictions about a decision impacting lives.\n3. Video is predicted to be the main driver of internet traffic growth due to streaming and social media.\n4. Issues management deals with emerging issues and their potential impact on an organization.\n5. Conducting a pre and post analysis of constituents' opinions is the most effective for evaluating attitudes.\n6. The responsibility to remain sovereign is not an element of the responsibility to protect.\n7. When the audience fails to grant the securitizing actor the special rights requested.\n8. Thick space describes the international as hierarchically ordered and dense with constructed relations.\n9. All of the above statements are correct regarding TNC as a national security threat.\n10. Arms control has not retained its momentum and applicability in the contemporary security environment to the same extent as during the Cold War.\n11. The 'third age' involves active non-work and independence after retirement.\n12. Weber traced the spirit of capitalism to Calvinists engaging in ascetic practices.\n13. The feminist standpoint suggests studying society from the perspective of women.\n14. The extended power of nation states is not a feature of globalization.\n15. The absolute poverty line is drawn to show the estimated minimum level of income needed for subsistence.\n\n```json\n{\n  \"answers\": {\n    \"13079\": \"D\",\n    \"13080\": \"B\",\n    \"13082\": \"B\",\n    \"13109\": \"B\",\n    \"13123\": \"D\",\n    \"13159\": \"C\",\n    \"13190\": \"D\",\n    \"13216\": \"A\",\n    \"13256\": \"D\",\n    \"13268\": \"D\",\n    \"13432\": \"A\",\n    \"13443\": \"D\",\n    \"13519\": \"B\",\n    \"13522\": \"B\",\n    \"13570\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1441,
+  "completion_tokens": 470,
+  "total_tokens": 1911,
+  "cost": 0.00028665,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00028665,
+   "upstream_inference_prompt_cost": 0.00021615,
+   "upstream_inference_completions_cost": 7.05e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "answers_batch": {
+  "13079": "D",
+  "13080": "B",
+  "13082": "B",
+  "13109": "B",
+  "13123": "D",
+  "13159": "C",
+  "13190": "D",
+  "13216": "A",
+  "13256": "D",
+  "13268": "D",
+  "13432": "A",
+  "13443": "D",
+  "13519": "B",
+  "13522": "B",
+  "13570": "B"
+ },
+ "single": {}
+}

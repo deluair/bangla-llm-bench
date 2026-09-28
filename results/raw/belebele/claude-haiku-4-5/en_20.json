@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 20.9,
+ "text": "# Multiple-Choice Exam Answers\n\nLet me work through each question:\n\n**[id 160]** The passage states \"the colony makes temporary nests that are changed everyday.\" Answer: **C**\n\n**[id 161]** The passage describes the castle as \"typical for the period\" with large windows and thin walls that couldn't resist a determined attack. A foundation built to sustain attacks would be *atypical* for this period and context. Answer: **B**\n\n**[id 162]** The passage mentions proper nutrition, healthy energy balance, and hydration as ways to increase enjoyment. However, it explicitly states that \"proper nutritional practices alone cannot generate elite performances,\" so consistently performing at elite level is not suggested as a way to increase enjoyment. Answer: **B**\n\n**[id 163]** The passage states Damadian discovered the basis for MRI in 1970, and \"Four years later a patent was granted.\" 1970 + 4 = 1974. Answer: **B**\n\n**[id 164]** The passage states understanding intention \"allows us to resolve possible ambiguities of physical actions.\" This is equivalent to eliminating uncertainty. Answer: **A**\n\n**[id 165]** The passage explicitly states: \"No longer did pressure reside within individual recall, but the ability to recall text became more of a focus.\" Less emphasis was put on individual recall. Answer: **A**\n\n**[id 166]** The passage directly states: \"as a result of the crusades people began to use buttons to fasten clothing.\" Answer: **C**\n\n**[id 167]** The passage describes living environmentally-friendly, joining movements, and activism as \"symptomatic treatment\" (temporary solutions). It contrasts this with \"deactivate them\" (root causes), which is NOT symptomatic treatment. Answer: **B**\n\n```json\n{\"answers\": {\"160\": \"C\", \"161\": \"B\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"A\", \"166\": \"C\", \"167\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1815,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2649,
+  "output_tokens_details": {
+   "thinking_tokens": 2178
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1815,
+    "output_tokens": 2649,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.01506,
+ "answers_batch": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

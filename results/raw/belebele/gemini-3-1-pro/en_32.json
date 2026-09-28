@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 76.6,
+ "text": "Based on the passages provided, here is the reasoning for each question:\n\n*   **256**: The passage explicitly states, \"The crash occurred high up in mountainous terrain.\" (Option D)\n*   **257**: Amir Khan said he doesn't think women should fight, but \"Despite his comments he said he will be supporting the British competitors.\" This implies he will support the female fighters from Britain despite his personal opinion. (Option A)\n*   **258**: The text states Lenz was \"struck by fellow racer Xavier Zayat.\" (Option B)\n*   **259**: The passage notes the district \"is designated as a UNESCO World Heritage Site for its unique cultural and historical value.\" (Option A)\n*   **260**: The passage contrasts auxiliary languages (which are artificial/constructed) with lingua francas (which are natural/organic). Therefore, describing auxiliary languages as \"organic languages\" is inaccurate. (Option A)\n*   **261**: The text states, \"Regular announcements in the Metro are made only in Catalan\". (Option B)\n*   **262**: The passage mentions competition regarding bedding (handmade quilts, antique beds) and breakfast (seasonal delights, local/host specialties). It describes settings with \"antique furnishings,\" not contemporary decor. (Option A)\n*   **263**: While Beijing is the host city of the Winter Olympics, the passage explicitly details that \"Beijing will host the opening and closing ceremonies and the indoor ice events\" while other events take place in Zhangjiakou. \"The ice events taking place indoors\" is a direct paraphrase of the specific events Beijing itself will host. (Option B)\n\n```json\n{\"answers\": {\"256\": \"D\", \"257\": \"A\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17173,
+  "output_tokens": 9525,
+  "thinking_tokens": 9098,
+  "cache_read_tokens": 8141,
+  "total_tokens": 26698
+ },
+ "answers_batch": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ }
+}

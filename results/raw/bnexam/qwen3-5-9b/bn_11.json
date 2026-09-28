@@ -1,0 +1,84 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "89bbdb7e-b400-4837-b295-d696c7b5b319-102363",
+  "8aa4b2c2-3fea-4ea8-a120-80f902de7a3f-87488",
+  "8ad5455e-95f1-44fa-afc8-0aee7503a16c-135928",
+  "8bf9d9bd-448b-422a-aea7-1a122c750412-45079",
+  "8cb40e81-7445-4f38-8870-ec27cc9f8db7-113426",
+  "8cd73b24-9d6a-4781-a103-b72038971c73-96119",
+  "8cdf17c4-cb31-4a1f-88e7-25230b9df933-25191",
+  "8d2e1475-e225-4f32-ba6b-b59fcc61220e-14159",
+  "8d358dcd-1a97-400f-a4ee-0a0acfe9a886-134911",
+  "8d89e7ef-7a8b-41ee-9c06-e871a14caa82-124993",
+  "8df36a71-a180-4883-bbbf-6745a3553b0f-131607",
+  "8e50dea0-1dba-4800-9880-7b5357738324-24981",
+  "8ed66d8c-383a-4e6e-a665-82e85c7db8f0-73277",
+  "8fbc930a-ee2b-4582-aa3a-617a89f3cff6-62629",
+  "8fd9e0ca-272d-4b24-bd80-309e33ab8d59-79341"
+ ],
+ "seconds": 79.8,
+ "text": "\n\nBased on the analysis of the multiple-choice questions provided:\n\n1.  **Biology/Anatomy (Q1):** \"শিমের\" refers to Stem in Botany context often (Stem arrangement). \"মুক্তকেন্দ্রিক\" (Monocentric) is a common answer for typical stem vascular arrangement in basic quizzes. Option **B**.\n2.  **Bengali Grammar (Q2):** \"হ্ম\" conjunct is formed by \"হ\" + \"ম\". Option **D**.\n3.  **History (Q3):** The most cited site for \"Sarbarota Gannata\" (Massacre) in a specific context (1971) is **Hasamdia**. Option **D**.\n4.  **Logic (Q4):** Calculations show the order is C < D < A < E < B. The median is the 3rd person, which is **A**. Option **A**.\n5.  **History/Civil Service (Q5):** The first Juvenile Correctional Home in Bangladesh is historically associated with **Tangail**. Option **B**.\n6.  **Vocabulary (Q6):** \"Doshi words\" (likely common or village slang) usually include Dhil (Soldier), Machhi (Fish). \"Zhinga\" is less standard. Option **D**.\n7.  **Phonetics (Q7):** Phonetic structures. Option **A**.\n8.  **Chemistry (Q8):** HI has the largest molecular size among HX acids. Option **A**.\n9.  **Physics (Q9):** 1 atm = 101325 Pa. Option **B** (1.04x10^5) is the closest approximation order of magnitude.\n10. **Anatomy (Q10):** Frog Xenopus/Osteology specific feature involves the Scapula and Coracoid jointing with Glenoid Cavity. Option **B**.\n11. **Culture (Q11):** \"Group Theatre Federation\" is a federation of play groups. Option **B**.\n12. **Math (Q12):** Comparing fractions. 2/13 is smaller than 2/11 and others. Option **C**.\n13. **Chemistry (Q13):** Nickel Peroxide (NiO2) is not used for glass coloring (NiO is). Option **D**.\n14. **Astronomy (Q14):** \"Shanti Sagar\" (Sea of Tranquility/Peace) corresponds to the location of Apollo landing or craters on the **Moon** (Saturn/Mercury are less likely with the name \"Sagar\" implying a sea/lacus). Given A and B are identical, C is distinct. Option **C**.\n15. **Physics (Q15):** Young's Double Slit. Fringe width $\\beta = \\frac{\\lambda D}{d}$. If D (distance to screen) increases, width increases. Option **B**.\n\n{\"answers\": {\"89bbdb7e-b400-4837-b295-d696c7b5b319-102363\": \"B\", \"8aa4b2c2-3fea-4ea8-a120-80f902de7a3f-87488\": \"D\", \"8ad5455e-95f1-44fa-afc8-0aee7503a16c-135928\": \"D\", \"8bf9d9bd-448b-422a-aea7-1a122c750412-45079\": \"A\", \"8cb40e81-7445-4f38-8870-ec27cc9f8db7-113426\": \"B\", \"8cd73b24-9d6a-4781-a103-b72038971c73-96119\": \"D\", \"8cdf17c4-cb31-4a1f-88e7-25230b9df933-25191\": \"A\", \"8d2e1475-e225-4f32-ba6b-b59fcc61220e-14159\": \"A\", \"8d358dcd-1a97-400f-a4ee-0a0acfe9a886-134911\": \"B\", \"8d89e7ef-7a8b-41ee-9c06-e871a14caa82-124993\": \"B\", \"8df36a71-a180-4883-bbbf-6745a3553b0f-131607\": \"B\", \"8e50dea0-1dba-4800-9880-7b5357738324-24981\": \"C\", \"8ed66d8c-383a-4e6e-a665-82e85c7db8f0-73277\": \"D\", \"8fbc930a-ee2b-4582-aa3a-617a89f3cff6-62629\": \"C\", \"8fd9e0ca-272d-4b24-bd80-309e33ab8d59-79341\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1832,
+  "completion_tokens": 11958,
+  "total_tokens": 13790,
+  "cost": 0.0019769,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019769,
+   "upstream_inference_prompt_cost": 0.0001832,
+   "upstream_inference_completions_cost": 0.0017937
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10666,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "89bbdb7e-b400-4837-b295-d696c7b5b319-102363": "B",
+  "8aa4b2c2-3fea-4ea8-a120-80f902de7a3f-87488": "D",
+  "8ad5455e-95f1-44fa-afc8-0aee7503a16c-135928": "D",
+  "8bf9d9bd-448b-422a-aea7-1a122c750412-45079": "A",
+  "8cb40e81-7445-4f38-8870-ec27cc9f8db7-113426": "B",
+  "8cd73b24-9d6a-4781-a103-b72038971c73-96119": "D",
+  "8cdf17c4-cb31-4a1f-88e7-25230b9df933-25191": "A",
+  "8d2e1475-e225-4f32-ba6b-b59fcc61220e-14159": "A",
+  "8d358dcd-1a97-400f-a4ee-0a0acfe9a886-134911": "B",
+  "8d89e7ef-7a8b-41ee-9c06-e871a14caa82-124993": "B",
+  "8df36a71-a180-4883-bbbf-6745a3553b0f-131607": "B",
+  "8e50dea0-1dba-4800-9880-7b5357738324-24981": "C",
+  "8ed66d8c-383a-4e6e-a665-82e85c7db8f0-73277": "D",
+  "8fbc930a-ee2b-4582-aa3a-617a89f3cff6-62629": "C",
+  "8fd9e0ca-272d-4b24-bd80-309e33ab8d59-79341": "B"
+ },
+ "single": {},
+ "answers": {
+  "89bbdb7e-b400-4837-b295-d696c7b5b319-102363": "B",
+  "8aa4b2c2-3fea-4ea8-a120-80f902de7a3f-87488": "D",
+  "8ad5455e-95f1-44fa-afc8-0aee7503a16c-135928": "D",
+  "8bf9d9bd-448b-422a-aea7-1a122c750412-45079": "A",
+  "8cb40e81-7445-4f38-8870-ec27cc9f8db7-113426": "B",
+  "8cd73b24-9d6a-4781-a103-b72038971c73-96119": "D",
+  "8cdf17c4-cb31-4a1f-88e7-25230b9df933-25191": "A",
+  "8d2e1475-e225-4f32-ba6b-b59fcc61220e-14159": "A",
+  "8d358dcd-1a97-400f-a4ee-0a0acfe9a886-134911": "B",
+  "8d89e7ef-7a8b-41ee-9c06-e871a14caa82-124993": "B",
+  "8df36a71-a180-4883-bbbf-6745a3553b0f-131607": "B",
+  "8e50dea0-1dba-4800-9880-7b5357738324-24981": "C",
+  "8ed66d8c-383a-4e6e-a665-82e85c7db8f0-73277": "D",
+  "8fbc930a-ee2b-4582-aa3a-617a89f3cff6-62629": "C",
+  "8fd9e0ca-272d-4b24-bd80-309e33ab8d59-79341": "B"
+ }
+}

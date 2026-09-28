@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 1.4,
+ "text": "{\"answers\": {\"80\": \"A\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "queue_time": 0.052759743,
+  "prompt_tokens": 1363,
+  "prompt_time": 0.066617515,
+  "completion_tokens": 511,
+  "completion_time": 1.079520997,
+  "total_tokens": 1874,
+  "total_time": 1.146138512,
+  "completion_tokens_details": {
+   "reasoning_tokens": 451
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

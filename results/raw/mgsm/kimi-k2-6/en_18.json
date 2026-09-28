@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "180",
+  "181",
+  "182",
+  "183",
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189"
+ ],
+ "seconds": 84.9,
+ "text": "[id 180] The winner got 3/4 of 80 = 60 votes, so the loser got 80 − 60 = 20 votes.\n[id 181] White carnations = 200 / 5 = 40. Red roses = 4 × 40 = 160.\n[id 182] Two years ago Jan was 28; half was 14. Mark was 14 + 5 = 19 then, so Mark is 21 now. Jean is 21 + 2 = 23.\n[id 183] Team 1: 4 × 55 = 220 s. Team 2: 60 + 57 + 54 + 51 = 222 s. Difference = 2 s.\n[id 184] P(>3) = 3/6 = 50%. P(two evens) = (3/6)² = 25%. Difference = 25%.\n[id 185] Jenna picked 20 / 2 = 10 apples. Total = 20 + 10 = 30.\n[id 186] Hamsters used 10 × 5 = 50 pieces; rabbits used 20. So rats used 160 − 70 = 90 pieces. With 3 cages and 6 pieces per rat, that is 90 / 6 = 15 rats, or 15 / 3 = 5 per cage.\n[id 187] Simple interest for 3 months: 100 + (100 × 0.02 × 3) = 106.\n[id 188] Cost per bag including transport = $22. Profit per bag = $30 − $22 = $8. Bags sold = $400 / $8 = 50.\n[id 189] Food cost = $20.25 − $4.50 = $15.75. Rides cost = 2 × $33 = $66. Total = $20.25 + $15.75 + $66 = $102. Each pays $102 / 3 = $34.\n{\"answers\": {\"180\": 20, \"181\": 160, \"182\": 23, \"183\": 2, \"184\": 25, \"185\": 30, \"186\": 5, \"187\": 106, \"188\": 50, \"189\": 34}}",
+ "usage": {
+  "prompt_tokens": 783,
+  "completion_tokens": 3203,
+  "total_tokens": 3986,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2716
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ },
+ "single": {},
+ "answers": {
+  "180": 20.0,
+  "181": 160.0,
+  "182": 23.0,
+  "183": 2.0,
+  "184": 25.0,
+  "185": 30.0,
+  "186": 5.0,
+  "187": 106.0,
+  "188": 50.0,
+  "189": 34.0
+ }
+}

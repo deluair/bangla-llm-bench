@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 2.9,
+ "text": "Here is the reasoning for each question:\n\n**[id 288]**\nThe passage states that a satellite phone is an option in \"remote locations, without cell phone coverage.\" It specifically mentions the service is frequently used by \"shipping, including pleasure craft.\" Options A and D involve adequate coverage or cities, which are not suitable for satellite phones over cell. Option C says \"when remote data isn't necessary,\" but the passage implies satellite phones are for those who *do* have remote needs (data/voice). Option B, \"During a boating trip,\" aligns with the mention of pleasure craft and remote ocean locations where cell coverage is absent.\nAnswer: B\n\n**[id 289]**\nThe passage states, \"Since Montevideo is south of the Equator, it is summer there when it's winter in the Northern Hemisphere and vice versa.\" It also states, \"in the summer months, temperatures above +30°C are common\" and \"The winter can be deceptively chilly.\" Therefore, for a cooler climate, one should visit when it is winter in Montevideo. Since Montevideo's winter corresponds to the Northern Hemisphere's summer, the traveler should visit when it is summer in the Northern Hemisphere.\nAnswer: B\n\n**[id 290]**\nThe passage explicitly states: \"No airline alliance covers all three ocean crossings in the Southern Hemisphere (and SkyTeam covers none of the crossings).\" Therefore, SkyTeam covers the least amount (zero).\nAnswer: D\n\n**[id 291]**\nThe passage states, \"its economy is diversified. The largest employment sectors are professional services, government, finance, trade, and tourism.\" This directly contradicts the idea that the economy is \"entirely reliant on tourism.\" The other options are supported: A is supported by \"portrayal in music, films, literature\"; B is supported by \"one of the best places... for other Asian cuisine\"; C is supported by \"large tourist infrastructure with numerous hotels... and top-notch convention facilities.\"\nAnswer: D\n\n**[id 292]**\nThe passage advises that \"a 4x4 is highly advised and many locations are only accessible with a high wheel base 4x4.\" Option B suggests that \"most locations are accessible with a normal vehicle,\" which contradicts the passage's strong recommendation and warning that many places are *only* accessible with a 4x4. The other options reflect the passage's advice or facts (emergency items required by law, car travel for off-routes, stability concerns in neighboring countries).\nAnswer: B\n\n**[id 293]**\nThe passage states: \"If you live in a city with a varied drinking culture, go to bars or pubs in neighborhoods you don't frequent.\" Option C says \"Pubs you don’t normally frequent,\" which matches the text. Option A suggests coffee shops, but the text suggests going to bars/pubes for the drinking culture. Option B is about juvening/smoothies, not specifically the city's drinking culture. Option D mentions restaurants, but the text specifies bars or pubs.\nAnswer: C\n\n**[id 294]**\nThe passage states: \"Today, Timbuktu is an impoverished town, although its reputation makes it a tourist attraction, and it has an airport.\" Having an airport means it is accessible by plane, making A true. B is false because the text says it is impoverished. C is false/unclear because the text says it has more of an Arabic flair than the *rest of the country's cities*, implying it differs from the general African flair of the region, but Option A is a direct factual statement supported by \"it has an airport\". D is false because the text says it \"makes it a tourist attraction\".\nAnswer: A\n\n**[id 295]**\nThe passage states: \"A travel agent is usually a good option for a journey which extends beyond a traveller's previous experience of nature, culture, language or low-income countries.\" It also says, \"It can be better to use an agent who frequently books similar trips to yours.\" Option B describes a \"speciality excursion for the first time,\" which implies a journey extending beyond previous experience, fitting the criterion for using an agent. Options A, C, and D describe scenarios where the traveler is familiar with the destination or culture, suggesting less need for special agent assistance compared to an unfamiliar, challenging trip.\nAnswer: B\n\n```json\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}\n```",
+ "usage": {
+  "queue_time": 0.413080875,
+  "prompt_tokens": 1592,
+  "prompt_time": 0.138909822,
+  "completion_tokens": 998,
+  "completion_time": 2.225767439,
+  "total_tokens": 2590,
+  "total_time": 2.3646772609999998
+ },
+ "served_by": null,
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

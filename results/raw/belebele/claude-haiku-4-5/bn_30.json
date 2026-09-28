@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 74.0,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**Question 240:** The passage clearly states \"নিউট জিঙ্গরিচ ৩२ শতাংশ ভোট নিয়ে দ্বিতীয় স্থানে এসেছেন\" (Gingrich received 32 percent).\n\n**Question 241:** The passage explicitly states \"ফলাফল প্রকাশের পরে গিংরিচ জনসমক্ষে স্যান্টোরামের প্রশংসা করেছিল\" (After results, Gingrich praised Santorum).\n\n**Question 242:** The passage mentions \"নাদাল প্রথম সার্ভে ৭६ পয়েন্ট নিয়ে\" (Nadal won 76 points on first serve), which directly matches option B.\n\n**Question 243:** The passage states \"কয়লা রফতানির উপর তার অতিরিক্ত নির্ভরতার ফলে অর্থনীতিতে ক্ষতি হবে\" (damage to the economy), referring to harm to the country's economy.\n\n**Question 244:** The passage states \"টেলিভিশন রিমোটকে একত্র করে, কন্ট্রোলারটি\" (The controller was designed to incorporate/resemble a television remote).\n\n**Question 245:** Option B is false because the passage describes Felicia as a 4-category hurricane that THEN weakened (the reverse order). The passage doesn't suggest it was first a tropical depression.\n\n**Question 246:** While the passage mentions where the species formed (Galapagos), how long it took (two generations), and which birds were involved in breeding, it never provides the **name** of the new species.\n\n**Question 247:** The passage directly states \"বিশ্বের বৃহত্তম পাবলিক আর্ট ইভেন্ট কাউপ্রেড\" (Couperart is the world's largest public art event). Option C is slightly inaccurate as it says \"across\" southeast Europe, while the passage indicates it's held in Bucharest specifically.\n\n```json\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4981,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6953,
+  "output_tokens_details": {
+   "thinking_tokens": 6325
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4981,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 6953,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4981,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4981
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.044736,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

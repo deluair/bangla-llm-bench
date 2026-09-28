@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 69.7,
+ "text": "[id 50] 252 eggs/day × 7 days = 1,764 eggs/week. 1,764 ÷ 12 = 147 dozen. 147 × $2 = $294.\n[id 51] 1 PM to 4 PM is 3 hours. Distance = 10 mph × 3 h = 30 miles. Return time = 30 miles ÷ 6 mph = 5 hours.\n[id 52] 30 comics × ¼ lb = 7.5 lb. Remaining weight to remove: 15 − 7.5 = 7.5 lb. Toys: 7.5 ÷ ½ = 15.\n[id 53] Thursday: 6×$60 + 4×$40 = $520. Friday: 12×$40 = $480. Difference: $520 − $480 = $40.\n[id 54] 7 adopted + (3×7) + 12 = 7 + 21 + 12 = 40 kittens.\n[id 55] 30 − 2 = 28 lollipops left. 28 ÷ 2 = 14 bags.\n[id 56] Cost per visit: $7 + $7 = $14. $42 ÷ $14 = 3 visits.\n[id 57] Available weight: 5,000 − 3,755 = 1,245 lb. Boxes: 1,245 ÷ 15 = 83.\n[id 58] $40 + 25% fee ($10) + $3 delivery + $4 tip = $57.\n[id 59] 6 × 20 + 67 = 120 + 67 = 187 raspberries.\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "prompt_tokens": 712,
+  "completion_tokens": 2825,
+  "total_tokens": 3537,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2405
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

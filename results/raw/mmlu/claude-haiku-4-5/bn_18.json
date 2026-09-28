@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "13615",
+  "13645",
+  "13695",
+  "13697",
+  "13703",
+  "13705",
+  "13716",
+  "13757",
+  "13806",
+  "13841",
+  "13890",
+  "13921",
+  "13930",
+  "14006",
+  "14019"
+ ],
+ "seconds": 45.5,
+ "text": "# Analysis of Multiple Choice Questions\n\nLet me work through these questions systematically:\n\n**[13615]** Cold War and Third World perspective: The U.S. viewed Third World development through a geopolitical lens of Cold War competition - **B**\n\n**[13645]** Realist theory difference between systems: Realists argue the fundamental difference is **anarchy** - the international system lacks a central authority, unlike domestic systems - **B**\n\n**[13695]** U.S. defense spending pattern: This describes the \"ratchet effect\" - spending increases during wars but doesn't fully return to pre-war levels - **B**\n\n**[13697]** Domino Theory: The idea that one state's fall to communism would inevitably lead to neighboring states' falls - **C**\n\n**[13703]** Bush administration foreign policy: Known for unilateralism, criticizing rather than strengthening international organizations - **A**\n\n**[13705]** Human polyomavirus JC: There is one JC virus (not multiple) - **B**\n\n**[13716]** Retrovirus discovery: The Rous sarcoma virus in chickens was the first retrovirus discovered by Peyton Rous - **A**\n\n**[13757]** Influenza control in high-risk groups: Vaccination is the primary control method - **B**\n\n**[13806]** Factor VIII and HIV by 2011: By 2011, recombinant (artificially produced) Factor VIII was standard, which cannot contain HIV from blood donors - **C**\n\n**[13841]** Nipah virus origin: Fruit bats are the natural reservoir for Nipah virus - **B**\n\n**[13890]** Most important Jewish prayer: The Shema is the most central prayer in Judaism - **A**\n\n**[13921]** Guru-panth in Sikhism: \"Panth\" means path/community; Guru Panth refers to the Sikh community - **A**\n\n**[13930]** Fundamental Japanese cultural principle: Through kami worship (Shinto), people align with spiritual/natural forces - **B**\n\n**[14006]** Continental Reformation start: Martin Luther's 95 Theses in 1517 began the Protestant Reformation - **B**\n\n**[14019]** I Ching English title: Known as \"The Classic of Changes\" - **D**\n\n```json\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"A\", \"13705\": \"B\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"C\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"B\", \"14019\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 3568,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5182,
+  "output_tokens_details": {
+   "thinking_tokens": 4518
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3568,
+    "output_tokens": 5182,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.029477999999999997,
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "B",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ },
+ "single": {},
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "A",
+  "13705": "B",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "B",
+  "14019": "D"
+ }
+}

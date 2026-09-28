@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 51.9,
+ "text": "**[id 50]**\n1. Eggs per day: 252\n2. Dozens per day: $252 / 12 = 21$ dozens\n3. Revenue per day: $21 \\times 2 = \\$42$\n4. Revenue per week (7 days): $42 \\times 7 = 294$\nAnswer: 294\n\n**[id 51]**\n1. Outbound trip: 10 mph for 3 hours (1 PM to 4 PM). Distance = $10 \\times 3 = 30$ miles.\n2. Return trip: Distance = 30 miles. Speed = 6 mph.\n3. Time = $\\text{Distance} / \\text{Speed} = 30 / 6 = 5$ hours.\nAnswer: 5\n\n**[id 52]**\n1. Total weight to remove: 15 lbs.\n2. Weight of removed comic books: $30 \\times 0.25 = 7.5$ lbs.\n3. Remaining weight to remove with toys: $15 - 7.5 = 7.5$ lbs.\n4. Weight per toy: 0.5 lbs.\n5. Number of toys: $7.5 / 0.5 = 15$.\nAnswer: 15\n\n**[id 53]**\n1. Thursday revenue:\n   - Truck tires: $6 \\times 60 = 360$\n   - Car tires: $4 \\times 40 = 160$\n   - Total Thursday: $360 + 160 = 520$\n2. Friday revenue:\n   - Car tires: $12 \\times 40 = 480$\n   - Truck tires: $0$\n   - Total Friday: $480$\n3. Difference: $520 - 480 = 40$.\nAnswer: 40\n\n**[id 54]**\n1. Adopted kittens: 7.\n2. Patchy's kittens: 3 times the number of adopted kittens = $3 \\times 7 = 21$.\n3. Trixie's kittens: 12.\n4. Total kittens: $7 (\\text{adopted}) + 21 (\\text{Patchy}) + 12 (\\text{Trixie}) = 40$.\nAnswer: 40\n\n**[id 55]**\n1. Initial lollipops: 30.\n2. Eats: 2.\n3. Remaining: $30 - 2 = 28$.\n4. Bags (2 per bag): $28 / 2 = 14$.\nAnswer: 14\n\n**[id 56]**\n1. Cost per trip: Ticket ($7) + Popcorn ($7) = $14.\n2. Total budget: $42.\n3. Number of trips: $42 / 14 = 3$.\nAnswer: 3\n\n**[id 57]**\n1. Bridge capacity: 5000 lbs.\n2. Weight of driver + empty truck: 3755 lbs.\n3. Max weight for boxes: $5000 - 3755 = 1245$ lbs.\n4. Weight per box: 15 lbs.\n5. Max boxes: $1245 / 15 = 83$.\nAnswer: 83\n\n**[id 58]**\n1. Base bill: $40.00.\n2. 25% fee: $40 \\times 0.25 = 10.00$.\n3. Delivery fee: $3.00.\n4. Tip: $4.00.\n5. Total: $40 + 10 + 3 + 4 = 57$.\nAnswer: 57\n\n**[id 59]**\n1. Clusters: 6 clusters of 20 fruit each = $6 \\times 20 = 120$.\n2. Individual fruit: 67.\n3. Total: $120 + 67 = 187$.\nAnswer: 187\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "queue_time": 0.032601508,
+  "prompt_tokens": 779,
+  "prompt_time": 0.070029584,
+  "completion_tokens": 1047,
+  "completion_time": 2.224158087,
+  "total_tokens": 1826,
+  "total_time": 2.294187671
+ },
+ "served_by": null,
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

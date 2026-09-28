@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 9.2,
+ "text": "Here are my solutions:\n\n**220:** Crosswords: 3 × 10 = 30 min; Sudoku: 8 × 5 = 40 min; Total = 70 minutes\n\n**221:** 120 − 90 = 30 liters left; rainwater = 2 × 30 = 60 liters; Total = 30 + 60 = 90 liters\n\n**222:** Geraniums: 90; Petunias: 90 − 40 = 50; Total = 140 flowers\n\n**223:** 15000 + (15000 ÷ 3) = 15000 + 5000 = $20000\n\n**224:** Carlos: 30 × 3 = 90; Benji: 18 × 5 = 90; Total = $180\n\n**225:** Bus: 6 days; Car: 6 ÷ 2 = 3 days; Total = 9 days\n\n**226:** Water: 40 − 8 = 32; Grass: 20 + 14 = 34; Total: 30 + 34 + 32 = 96; 32/96 = 33.33% → 33\n\n**227:** 6.50 + 2 + 1 + 1 + 0.50 = 11; + 3 = 14; − 5 = $9.00\n\n**228:** Together: 4 + 2 = 6 pieces/min; 360 ÷ 6 = 60 min = 1 hour\n\n**229:** 30% of 120 = 36 harvested; remaining = 84; 3/4 × 84 = 63 harvested; not ready = 84 − 63 = 21\n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}",
+ "usage": {
+  "completion_tokens": 842,
+  "completion_tokens_details": {
+   "reasoning_tokens": 402
+  },
+  "prompt_tokens": 736,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1578
+ },
+ "served_by": null,
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

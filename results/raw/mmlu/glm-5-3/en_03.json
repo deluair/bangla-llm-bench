@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 24.1,
+ "text": "Brief reasoning:\n\n- **1196:** Unconscious motivation rooted in childhood experiences → psychoanalytic.\n- **1258:** Marathon success depends on endurance/stamina.\n- **1322:** O₂ is the terminal electron acceptor; without it, water production (the last ETC step) halts first, while glycolysis/fermentation can continue making ATP and pyruvate.\n- **1326:** SDS denatures proteins and gives uniform negative charge, so migration depends only on polypeptide length.\n- **1357:** Au = [Xe]4f¹⁴5d⁹6s² (as counted in this item), giving d-electrons (l = 2): 3d¹⁰ + 4d¹⁰ + 5d⁹ = 29.\n- **1374:** N has three parallel 2p electrons → S = 3 × 1/2 = 3/2.\n- **1381:** Sign of charge carriers comes from the Hall coefficient.\n- **1384:** Fermions: antisymmetric wave functions + Pauli exclusion.\n- **1395:** Moon mass cancels out of the orbital equations, so it cannot be found; planet mass, min speed, and period can.\n- **1452:** Double Doppler shift: 600 × (353.5/346.5) ≈ 612 Hz.\n- **1476:** Exploitable coding mistake → buffer-overrun.\n- **1492:** Blinding randomizes the ciphertext being decrypted, breaking the input–timing correlation.\n- **1523:** IM password-stealing malware → IM-Trojans.\n- **1534:** Classic buffer-overflow-vulnerable OS: UNIX (and NT-based systems).\n- **1570:** Classic triad is confidentiality, integrity, availability; correctness is not one.\n\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"B\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"D\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"C\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1818,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1326
+  },
+  "prompt_tokens": 1258,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 3076
+ },
+ "served_by": null,
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "B",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "D",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {}
+}

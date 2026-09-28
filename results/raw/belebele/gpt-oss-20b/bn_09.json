@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 22.4,
+ "text": "{\"answers\": {\"72\":\"C\",\"73\":\"C\",\"74\":\"D\",\"75\":\"D\",\"76\":\"D\",\"77\":\"C\",\"78\":\"B\",\"79\":\"D\"}}",
+ "usage": {
+  "prompt_tokens": 2103,
+  "completion_tokens": 2455,
+  "total_tokens": 4558,
+  "cost": 0.00045237,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00045237,
+   "upstream_inference_prompt_cost": 8.412e-05,
+   "upstream_inference_completions_cost": 0.00036825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2899,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Novita",
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

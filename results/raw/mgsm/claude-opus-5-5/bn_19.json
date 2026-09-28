@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 8.5,
+ "text": "- **190:** 3 hours is 180 minutes, and 180 × 2 = 360 peaches.\n- **191:** 10 ducks eat 3.5 × 10 = 35 pounds per week, and 35 ÷ 7 = 5 pounds per day.\n- **192:** He gains a net 10 − 2 = 8 trees a year, so 50 + 8 × 10 = 130. After 30% die, 70% remain: 130 × 0.7 = 91.\n- **193:**\n  - On Saturday, one third of 18 is 6. That leaves 12 pink and 6 white.\n  - On Sunday, 18 more pink are added, making 30 pink.\n  - 30 − 6 = 24.\n- **194:** The crayons cost 5 × $2 = $10, so the change is $20 − $10 = $10.\n- **195:** One pen costs $1.20 + $0.30 = $1.50, so 8 pens cost 8 × $1.50 = $12.\n- **196:** 40 × 2 = 80 pounds are used, so 200 − 80 = 120 pounds are left unused.\n- **197:** 23786 − 8417 − 9092 = 6277 children.\n- **198:**\n  - The first month gives 3 × 20 = 60 cards, and the second month gives 60 − 20 = 40.\n  - The third month gives 2 × (60 + 40) = 200.\n  - The total is 20 + 60 + 40 + 200 = 320.\n- **199:** Each publisher gets 500 sentences. Publisher A pays 500 × 5 = 2500 cents and Publisher B pays 500 × 10 = 5000 cents. The total is 7500 cents.\n\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2558,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 886,
+  "output_tokens_details": {
+   "thinking_tokens": 255
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2558,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 886,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2558,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2558
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.038192000000000004,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

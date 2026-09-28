@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 2.8,
+ "text": "The passage states that Germany's code-named attack \"Operation Sealion\" was an invasion of the island of Britain.\n\nThe passage mentions: 1) \"they had to get rid of British bases and ships in Egypt\" (covers A and D); 2) \"they would need to have a troop launching pad\" (covers C). It mentions they had *just built* four new ships, but building additional ships is not listed as a *necessary step* in the plan to capture Africa.\n\nThe passage states that the Soviet Union's Red Army entered and invaded the eastern regions of Poland \"in violation of the Riga Peace Treaty... and other international treaties.\"\n\nA) The passage mentions heat and a roller coaster incident, but never mentions a fire. B, C, and D are all explicitly stated or derived from the text (at least an hour = 60 minutes).\n\nThe passage says \"Iraq's Abu Ghraib prison has been set alight during a riot.\"\n\nThe passage states: \"Each show would also provide recommendations for books that children should look for when they went to their library.\"\n\nThe officials argue the tree is infected with fungus (C), poses a public health hazard (D), and was in imminent danger of falling over (A). They argue *against* it being preserved, as it was scheduled to be cut down.\n\nThe passage states: \"Last month, there were major protests in Poland when that country signed ACTA, which has led to the Polish government deciding not to ratify the agreement, for now.\"\n\n```json\n{\"answers\": {\"56\": \"B\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1354,
+  "completion_tokens": 385,
+  "total_tokens": 1739,
+  "cost": 0.0002509,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002509,
+   "upstream_inference_prompt_cost": 0.0001354,
+   "upstream_inference_completions_cost": 0.0001155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

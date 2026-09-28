@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 46.4,
+ "text": "Here is a brief reasoning for each answer:\n\n- **48**: Olaf Trygvasson is explicitly described as “a Norwegian,” so his fleet was from Norway.  \n- **49**: The 15th century ended about 500–600 years ago (from 2024), matching “around 600 years ago.”  \n- **50**: The passage states there may be more maria on the near side because its crust is thinner; the far side’s thicker crust implies there may be less maria there.  \n- **51**: The passage notes that some people believe “aliens or other life may live on another planet.”  \n- **52**: Only one percent of Venezuelans work in the oil industry, which is smaller than the fractions given for agriculture, industry, and services.  \n- **53**: The passage says stars give off light and heat because of the energy produced when hydrogen atoms are fused.  \n- **54**: Water is directly stated to be made up of two hydrogen atoms and one oxygen atom.  \n- **55**: The passage describes Singapore being transformed into a “tropical Garden City,” highlighting urban greenery.  \n\n```json\n{\"answers\": {\"48\": \"D\", \"49\": \"C\", \"50\": \"C\", \"51\": \"C\", \"52\": \"C\", \"53\": \"C\", \"54\": \"D\", \"55\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1152,
+  "completion_tokens": 1796,
+  "total_tokens": 2948,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1506
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "48": "D",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "D",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

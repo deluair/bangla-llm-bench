@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167",
+  "168",
+  "169"
+ ],
+ "seconds": 30.7,
+ "text": "### Solutions\n\n- **[id 160]**\n  - Monday depth: $17\\text{ feet}$\n  - Tuesday depth: $17 + 7 = 24\\text{ feet}$\n  - Wednesday depth: $\\frac{2}{3} \\times 24 = 16\\text{ feet}$\n\n- **[id 161]**\n  - Anakin's catch: $10 + 6 + 3 = 19$\n  - Locsin's catch: $(10 - 5) + (6 - 3) + (3 + 2) = 5 + 3 + 5 = 13$\n  - Total caught: $19 + 13 = 32$\n\n- **[id 162]**\n  - Increase per 2 months: $20\\% \\times \\$20 = \\$4$\n  - Number of 2-month intervals in 36 months: $36 / 2 = 18$\n  - Total price: $\\$20 + (18 \\times \\$4) = \\$20 + \\$72 = \\$92$\n\n- **[id 163]**\n  - 1 action figure: $\\$5 \\implies 3\\text{ action figures} = 3 \\times \\$5 = \\$15$\n  - 1 doll: $\\$15$\n  - 5 red cars: $5 \\times \\$4 = \\$20$\n  - Total worth: $\\$20 + \\$15 + \\$15 = \\$50$\n\n- **[id 164]**\n  - Lost freelance income: $3\\text{ hours} \\times \\$35/\\text{hour} = \\$105$\n  - Accountant cost: $\\$90$\n  - Net savings: $\\$105 - \\$90 = \\$15$\n\n- **[id 165]**\n  - Total spent: $€1090 + €157 + €74 + €102 = €1423$\n  - Money left: $€1500 - €1423 = €77$\n\n- **[id 166]**\n  - Total eggs needed: $15 \\times 3 = 45\\text{ eggs}$\n  - Babysitting sessions required: $45 / 9 = 5$\n\n- **[id 167]**\n  - Let Brooke's age be $B$, Seth's age be $S = 2B$\n  - $(S + 2) + (B + 2) = 28 \\implies 3B + 4 = 28 \\implies B = 8$\n  - Seth's current age: $S = 2 \\times 8 = 16$\n\n- **[id 168]**\n  - Ethel has: $\\$8$\n  - Jimmy has: $2 \\times \\$8 + \\$2 = \\$18$\n\n- **[id 169]**\n  - Weekdays (5 days): $5 \\times 20 = 100\\text{ miles}$\n  - Weekend (2 days): $2 \\times 10 = 20\\text{ miles}$\n  - Total distance: $100 + 20 = 120\\text{ miles}$\n\n{\"answers\": {\"160\": 16, \"161\": 32, \"162\": 92, \"163\": 50, \"164\": 15, \"165\": 77, \"166\": 5, \"167\": 16, \"168\": 18, \"169\": 120}}\n",
+ "usage": {
+  "input_tokens": 39201,
+  "output_tokens": 3585,
+  "thinking_tokens": 2552,
+  "cache_read_tokens": 69352,
+  "total_tokens": 42786
+ },
+ "answers_batch": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ },
+ "single": {},
+ "answers": {
+  "160": 16.0,
+  "161": 32.0,
+  "162": 92.0,
+  "163": 50.0,
+  "164": 15.0,
+  "165": 77.0,
+  "166": 5.0,
+  "167": 16.0,
+  "168": 18.0,
+  "169": 120.0
+ }
+}

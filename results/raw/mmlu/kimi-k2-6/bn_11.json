@@ -1,0 +1,249 @@
+{
+ "task": "mmlu",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "6313",
+  "6315",
+  "6351",
+  "6428",
+  "6438",
+  "6488",
+  "6497",
+  "6499",
+  "6514",
+  "6534",
+  "6576",
+  "6584",
+  "6644",
+  "6652",
+  "6657"
+ ],
+ "seconds": 261.1,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 2562,
+  "completion_tokens": 16000,
+  "total_tokens": 18562,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15999
+  }
+ },
+ "served_by": null,
+ "answers_batch": {},
+ "single": {
+  "6313": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 2324,
+    "total_tokens": 2505,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2321
+    }
+   },
+   "answer": "A"
+  },
+  "6315": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 274,
+    "completion_tokens": 393,
+    "total_tokens": 667,
+    "completion_tokens_details": {
+     "reasoning_tokens": 390
+    }
+   },
+   "answer": "A"
+  },
+  "6351": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 359,
+    "total_tokens": 504,
+    "completion_tokens_details": {
+     "reasoning_tokens": 356
+    }
+   },
+   "answer": "D"
+  },
+  "6428": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 2430,
+    "total_tokens": 2551,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2427
+    }
+   },
+   "answer": "D"
+  },
+  "6438": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 349,
+    "total_tokens": 492,
+    "completion_tokens_details": {
+     "reasoning_tokens": 346
+    }
+   },
+   "answer": "C"
+  },
+  "6488": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 362,
+    "completion_tokens": 2040,
+    "total_tokens": 2402,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2037
+    }
+   },
+   "answer": "B"
+  },
+  "6497": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 408,
+    "total_tokens": 619,
+    "completion_tokens_details": {
+     "reasoning_tokens": 405
+    }
+   },
+   "answer": "D"
+  },
+  "6499": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 973,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+     "reasoning_tokens": 970
+    }
+   },
+   "answer": "B"
+  },
+  "6514": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 328,
+    "completion_tokens": 2970,
+    "total_tokens": 3298,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2967
+    }
+   },
+   "answer": "C"
+  },
+  "6534": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 737,
+    "total_tokens": 1026,
+    "completion_tokens_details": {
+     "reasoning_tokens": 734
+    }
+   },
+   "answer": "A"
+  },
+  "6576": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 911,
+    "total_tokens": 1049,
+    "completion_tokens_details": {
+     "reasoning_tokens": 908
+    }
+   },
+   "answer": "D"
+  },
+  "6584": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 5293,
+    "total_tokens": 5503,
+    "completion_tokens_details": {
+     "reasoning_tokens": 5290
+    }
+   },
+   "answer": "C"
+  },
+  "6644": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 243,
+    "total_tokens": 397,
+    "completion_tokens_details": {
+     "reasoning_tokens": 240
+    }
+   },
+   "answer": "B"
+  },
+  "6652": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 115,
+    "completion_tokens": 437,
+    "total_tokens": 552,
+    "completion_tokens_details": {
+     "reasoning_tokens": 434
+    }
+   },
+   "answer": "D"
+  },
+  "6657": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 550,
+    "total_tokens": 713,
+    "completion_tokens_details": {
+     "reasoning_tokens": 547
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "6313": "A",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "C",
+  "6534": "A",
+  "6576": "D",
+  "6584": "C",
+  "6644": "B",
+  "6652": "D",
+  "6657": "B"
+ }
+}

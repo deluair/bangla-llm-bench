@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 38.0,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n- **[id 90]**: An adult dinosaur eats $10\\text{ lbs}$ and a child eats $10 / 2 = 5\\text{ lbs}$. For $20$ adults and $5$ children: $(20 \\times 10) + (5 \\times 5) = 200 + 25 = 225\\text{ lbs}$.\n- **[id 91]**: Cindy has $4$ pets. Marcia has $4 + 2 = 6$ pets. Jan has $3 \\times 6 = 18$ pets. In total: $4 + 6 + 18 = 28$ pets.\n- **[id 92]**: James is $10$ and $1$ year younger than Corey, so Corey is $11$. Amy is $2$ years younger than Corey, so Amy is $9$. Amy is $5$ years older than Jackson, so Jackson is $9 - 5 = 4$ years old.\n- **[id 93]**: Lee runs in $38\\text{ seconds}$, which is $2\\text{ seconds}$ faster than Gerald initially ($38 + 2 = 40\\text{ seconds}$). A $10\\%$ reduction in time is $40 \\times 0.10 = 4\\text{ seconds}$. With the improved diet, Gerald runs in $40 - 4 = 36\\text{ seconds}$.\n- **[id 94]**: With $60$ dogs and $2$ cats per dog, there are $2 \\times 60 = 120$ cats (total $180$ cats and dogs). Rabbits are $12$ fewer than cats and dogs combined: $180 - 12 = 168$. Total pets: $180 + 168 = 348$.\n- **[id 95]**: Out of $200$ students, $2/5$ are boys ($200 \\times 2/5 = 80$), so there are $200 - 80 = 120$ girls. Of the girls, $2/3$ are in the scouts ($80$), leaving $120 - 80 = 40$ girls not in the scouts.\n- **[id 96]**: Harry slept $9\\text{ hours}$. James slept $9 \\times 2/3 = 6\\text{ hours}$. Harry slept $9 - 6 = 3\\text{ hours}$ more than James.\n- **[id 97]**: The sauce reduces by half, so $32\\text{ oz}$ of sauce requires $32 \\times 2 = 64\\text{ oz}$ of canned tomatoes. At $16\\text{ oz}$ per can, that is $64 / 16 = 4$ cans. With $3$ tomatoes per can: $4 \\times 3 = 12$ tomatoes.\n- **[id 98]**: Out of $30$ initial cars, $5$ took an exit, leaving $30 - 5 = 25$ cars that went through the jam. Since $20$ passed in the remaining $15$ minutes, $25 - 20 = 5$ cars passed in the first $15$ minutes.\n- **[id 99]**: Mary already has $40 \\times 2 = 80$ potted plants and received $18$ new ones, totaling $80 + 18 = 98$. Giving away $1$ plant from each of the $40$ ledges ($40$ plants) leaves $98 - 40 = 58$ potted plants.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n",
+ "usage": {
+  "input_tokens": 58136,
+  "output_tokens": 6681,
+  "thinking_tokens": 3748,
+  "cache_read_tokens": 204002,
+  "total_tokens": 64817
+ },
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

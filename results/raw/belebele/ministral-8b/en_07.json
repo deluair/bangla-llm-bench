@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 4.8,
+ "text": "[id 56] The passage states that Germany planned to invade Britain, which is referred to as \"Operation Sealion.\"\n[id 57] The passage mentions that Italy needed a troop launching pad, getting rid of British bases and ships in Egypt, but does not mention building additional ships as a necessary step.\n[id 58] The passage indicates that the Soviet Union violated agreements by invading Poland.\n[id 59] The passage states it took at least an hour to get the first person off the ride, not 60 minutes.\n[id 60] The passage mentions the prison was set alight during the riot.\n[id 61] Each episode of Reading Rainbow offered recommendations for books.\n[id 62] The argument that the tree should be preserved was not made by the officials.\n[id 63] Poland decided not to ratify the ACTA agreement, while the others are not mentioned in terms of moving forward with ACTA.\n\n```json\n{\n  \"answers\": {\n    \"56\": \"B\",\n    \"57\": \"B\",\n    \"58\": \"D\",\n    \"59\": \"D\",\n    \"60\": \"D\",\n    \"61\": \"D\",\n    \"62\": \"B\",\n    \"63\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1311,
+  "completion_tokens": 272,
+  "total_tokens": 1583,
+  "cost": 0.00023745,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023745,
+   "upstream_inference_prompt_cost": 0.00019665,
+   "upstream_inference_completions_cost": 4.08e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "C"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "C"
+ }
+}

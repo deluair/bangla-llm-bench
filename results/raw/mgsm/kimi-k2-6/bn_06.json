@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 177.2,
+ "text": "[id 60] 25 − 1 − (20% of 25) − 2 = 25 − 1 − 5 − 2 = 17.\n[id 61] Cost = 500 + 800 = 1300; insurance = 10% of 1300 = 130; total = 1300 + 130 = 1430.\n[id 62] Each year after 20 gives 5% of the $50,000 pension; in 30 years she has 10 such years: 10 × 5% = 50% → 0.5 × 50000 = 25000.\n[id 63] First 6 months: 6 × 140 = 840; second 6 months: 6 × (140 − 14) = 756; total = 840 + 756 = 1596.\n[id 64] Mileage = 100 miles / 4 gal = 25 mpg; range = 25 × 12 = 300 miles.\n[id 65] Per session: 2 h TV + 1 h reading = 3 h; weekly: 3 × 3 = 9 h; 4 weeks: 9 × 4 = 36 h.\n[id 66] Per school: 2 teams × (5 players + 1 coach) = 12; 4 schools: 4 × 12 = 48.\n[id 67] Diamonds = 175; rubies = 175 − 35 = 140; emeralds = 2 × 140 = 280; total = 175 + 140 + 280 = 595.\n[id 68] Boys = 2 × 60 = 120; total students = 180; teachers = 180 / 5 = 36.\n[id 69] Allowance = 8 × 5 = 40; starting amount = 100 − 40 = 60.\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}",
+ "usage": {
+  "prompt_tokens": 1511,
+  "completion_tokens": 7702,
+  "total_tokens": 9213,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7230
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

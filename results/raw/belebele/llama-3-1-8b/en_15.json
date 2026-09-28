@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 4.2,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 120]\nA) Sirena\n\n[id 121]\nB) The Norwegians\n\n[id 122]\nC) Wildlife\n\n[id 123]\nB) High-end frames\n\n[id 124]\nA) Expensing it through your company\n\n[id 125]\nB) Nouns\n\n[id 126]\nD) Day hiking is not a suitable outdoor activity for families with babies\n\n[id 127]\nA) The Northern shore\n\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1413,
+  "completion_tokens": 152,
+  "total_tokens": 1565,
+  "cost": 3.434e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.434e-05,
+   "upstream_inference_prompt_cost": 2.826e-05,
+   "upstream_inference_completions_cost": 6.08e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

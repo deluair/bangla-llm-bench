@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 28.4,
+ "text": "Based on the passages provided, here are the answers to the questions:\n\n**[id 224]** The passage states that the airport closed commercial flights (\"বাণিজ্যিক ফ্লাইট বন্ধ করে দেয়\") following the crash. Therefore, it was closed for commercial flights. Answer: **A**\n\n**[id 225]** Brzezinski served as the National Security Advisor from 1977 to 1981, succeeding Henry Kissinger (\"হেনরি কিসিঞ্জার এর উত্তরসূরী হিসেবে\"). This means Kissinger held the position until 1977. Answer: **B**\n\n**[id 226]** The passage says the ship was 100 meters long (\"100 মিটারের জাহাজটি\") and had 120-160 cubic meters of fuel oil (\"120-160 কিউবিক মিটার জ্বালানি তেল\"). The statement that there was 100 meters of fuel oil is incorrect. Answer: **B**\n\n**[id 227]** The passage mentions that he returned to the \"newly independent Algeria\" in the 1960s (\"1960 এর দশকে... সদ্য স্বাধীন আলজেরিয়াতে ফিরে আসেন\"). Therefore, Algeria gained independence in the 1960s. Answer: **C**\n\n**[id 228]** The passage says an official arrived right after a neighbor reported the gas leak (\"একজন প্রতিবেশী গ্যাস লিক হওয়ার কথা জানানোর পরেই\"). Answer: **A**\n\n**[id 229]** The text notes that France is the seventh EU country to be affected by the virus after the others (\"অষ্ট্রিয়া... এবং ইতালির পর ফ্রান্স... সপ্তম দেশ\"), following the recent discovery of a dead wild duck near Lyon. Answer: **A**\n\n**[id 230]** The passage explicitly mentions that Fred is moving towards the north-west (\"উত্তর-পশ্চিম দিকে এগিয়ে যাচ্ছে\"). Answer: **D**\n\n**[id 231]** According to the passage, the phase change of significant earthquake activity took place on March 10 (\"পর্যায় পরিবর্তন স্থান নিয়েছিল মার্চের ১০ তারিখে\"). Answer: **C**\n\n```json\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17481,
+  "output_tokens": 3637,
+  "thinking_tokens": 3103,
+  "cache_read_tokens": 8141,
+  "total_tokens": 21118
+ },
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

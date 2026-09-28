@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 19.8,
+ "text": "Here is the step-by-step reasoning for the problems:\n\n**[id 50]**\nLloyd's chickens produce 252 eggs per day, which is 252 / 12 = 21 dozen eggs per day.\nAt $2 per dozen, he makes 21 * $2 = $42 per day.\nIn a week (7 days), he makes 42 * 7 = $294.\n\n**[id 51]**\nThe ship travels for 3 hours (from 1 PM to 4 PM) at 10 mph.\nDistance = 10 * 3 = 30 miles.\nTraveling back at 6 mph, the time it takes is 30 / 6 = 5 hours.\n\n**[id 52]**\nUriah removes 30 comic books, which weigh 30 * (1/4) = 7.5 pounds.\nHe needs to remove a total of 15 pounds, so he still needs to remove 15 - 7.5 = 7.5 pounds.\nSince toys weigh 1/2 pound each, the number of toys he needs to remove is 7.5 / 0.5 = 15.\n\n**[id 53]**\nThursday revenue: (6 truck tires * $60) + (4 car tires * $40) = $360 + $160 = $520.\nFriday revenue: (0 truck tires) + (12 car tires * $40) = $480.\nThe difference between the higher revenue day and the lower revenue day is $520 - $480 = $40.\n\n**[id 54]**\nAdopted kittens = 7.\nPatchy's kittens = 3 * 7 = 21.\nTrixie's kittens = 12.\nTotal kittens = 7 + 21 + 12 = 40.\n\n**[id 55]**\nJean starts with 30 lollipops and eats 2, leaving 28 lollipops.\nPackaging them 2 per bag, she can fill 28 / 2 = 14 bags.\n\n**[id 56]**\nA movie trip costs $7 (ticket) + $7 (popcorn) = $14.\nWith $42, Peter can go 42 / 14 = 3 times.\n\n**[id 57]**\nThe bridge's weight limit is 5000 pounds. The empty truck and driver weigh 3755 pounds.\nRemaining capacity for boxes = 5000 - 3755 = 1245 pounds.\nSince each box weighs 15 pounds, the maximum number of boxes is 1245 / 15 = 83.\n\n**[id 58]**\nOriginal bill = $40.00.\n25% fee = 0.25 * $40.00 = $10.00.\nDelivery fees = $3.00.\nTip = $4.00.\nFinal price = 40 + 10 + 3 + 4 = $57.\n\n**[id 59]**\nClusters of fruit = 6 * 20 = 120 raspberries.\nIndividual fruit = 67 raspberries.\nTotal = 120 + 67 = 187.\n\n```json\n{\n  \"answers\": {\n    \"50\": 294,\n    \"51\": 5,\n    \"52\": 15,\n    \"53\": 40,\n    \"54\": 40,\n    \"55\": 14,\n    \"56\": 3,\n    \"57\": 83,\n    \"58\": 57,\n    \"59\": 187\n  }\n}\n```\n",
+ "usage": {
+  "input_tokens": 16761,
+  "output_tokens": 2390,
+  "thinking_tokens": 1491,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19151
+ },
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 5.9,
+ "text": "{\"answers\": {\"56\": \"A\", \"57\": \"C\", \"58\": \"D\", \"59\": \"D\", \"60\": \"D\", \"61\": \"C\", \"62\": \"C\", \"63\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 6240,
+  "completion_tokens": 52,
+  "total_tokens": 6292,
+  "cost": 0.00012688,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00012688,
+   "upstream_inference_prompt_cost": 0.0001248,
+   "upstream_inference_completions_cost": 2.08e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "56": "A",
+  "57": "C",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "C",
+  "62": "C",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "A",
+  "57": "C",
+  "58": "D",
+  "59": "D",
+  "60": "D",
+  "61": "C",
+  "62": "C",
+  "63": "B"
+ }
+}

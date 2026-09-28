@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 61.6,
+ "text": "1. **Question 144**: The passage states, \"A curry is a dish based on **herbs and spices**\". This corresponds to option B.\n2. **Question 145**: The passage mentions coffee, chamomile tea, juice, and smoothies. It does not mention making beer at home; it mentions visiting bars for beer. This corresponds to option C.\n3. **Question 146**: The passage explicitly states regarding student visas: \"you will need an offer letter... and also evidence of funds to support yourself\". This corresponds to option D.\n4. **Question 147**: The passage begins, \"In **summer**, especially, you'll need to watch out for mosquitoes\". This highlights summer as the critical time for mindfulness. This corresponds to option A.\n5. **Question 148**: The passage states Timbuktu \"has an airport\", contradicting option C (\"It's inaccessible by plane\"). This makes C the inaccurate description. Options A, B, and D are supported by the text.\n6. **Question 149**: The passage states funnels become \"tornadoes\" **when they touch the ground**. This corresponds to option D.\n7. **Question 150**: The passage says \"Standard 35 mm film (**36 by 24 mm negative**) is much the commonest\". This corresponds to option D.\n8. **Question 151**: The passage states, \"The fabulous **riches** of the tomb are no longer in it\". This corresponds to option D.\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1418,
+  "completion_tokens": 3572,
+  "total_tokens": 4990,
+  "cost": 0.0006776,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006776,
+   "upstream_inference_prompt_cost": 0.0001418,
+   "upstream_inference_completions_cost": 0.0005358
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3170,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

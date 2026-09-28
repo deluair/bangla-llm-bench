@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 36.3,
+ "text": "[id 192] The passage states ocelots find prey by smell, so saying their sense of smell is weak is inaccurate.\n[id 193] The passage explicitly contrasts the tiger’s roar with the lion’s roar.\n[id 194] The passage directly states capillaries are the smallest tubes.\n[id 195] Life span is never mentioned; the passage mentions evading enemies, finding food, finding mates, and efficiency.\n[id 196] The passage says many people don’t think of birds as dinosaurs because they can fly, implying flight is not a shared dinosaur characteristic.\n[id 197] The passage says triceratops teeth could crush tough branches and roots, while eating poisonous plants is argued to be unlikely.\n[id 198] The passage says Luxembourg tried to remain neutral but was occupied by Germany in both world wars.\n[id 199] The passage describes the hollow as “concave.”\n\n{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1244,
+  "completion_tokens": 1370,
+  "total_tokens": 2614,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1133
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

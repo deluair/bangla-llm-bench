@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "4749",
+  "4827",
+  "4852",
+  "4864",
+  "4873",
+  "4952",
+  "5102",
+  "5184",
+  "5312",
+  "5342",
+  "5454",
+  "5561",
+  "5573",
+  "5582",
+  "5641"
+ ],
+ "seconds": 63.2,
+ "text": "Looking at each question:\n\n**[id 4749] Rotational Motion**\nTorque τ = F·r = 2.0 × 0.30 = 0.6 N·m\nAngular acceleration α = τ/I = 0.6/0.06 = 10 rad/s²\nTime to stop: t = ω₀/α = 20/10 = 2 s\n**Answer: B**\n\n**[id 4827] EM Wavelength**\nWavelength order (shortest to longest): Gamma rays < UV < Blue light < Orange light\nOrange light has the longest wavelength.\n**Answer: D**\n\n**[id 4852] Rubber Band Toy**\nThe same initial kinetic energy leads to different heights up the ramp. This variability occurs because the rubber band can store/release elastic potential energy depending on how wound it is. When unwinding during the climb, it adds energy; when winding, it removes energy. This explains the inconsistent heights despite constant initial kinetic energy.\n**Answer: A**\n\n**[id 4864] Series Capacitors**\nInitial voltage: V = Q/C = 600 μC / 2 μF = 300 V\nFor three 18 μF capacitors in series: 1/C_eq = 3/18 = 1/6, so C_eq = 6 μF\nTotal charge: Q = 6 μF × 300 V = 1800 μC\nIn series, each capacitor holds the same charge.\n**Answer: D**\n\n**[id 4873] Standing Waves**\nStanding waves form when string length L = n(λ/2). If 60 Hz doesn't produce standing waves, the string length doesn't equal a multiple of half the wavelength at that frequency.\n**Answer: A**\n\n**[id 4952] Shortest Visible Waves**\nIn the visible spectrum (red to violet), violet has the shortest wavelength.\n**Answer: B**\n\n**[id 5102] Operant Conditioning**\nJacob's crying behavior results in candy (reward), which increases the likelihood he'll cry again in similar situations. This is reinforcement.\n**Answer: C**\n\n**[id 5184] Autonomic Response**\nIncreased blood pressure and breathing rate are classic \"fight or flight\" responses controlled by the sympathetic nervous system.\n**Answer: C**\n\n**[id 5312] Phineas Gage**\nThe Phineas Gage case (1848) was significant because it was one of the first well-documented cases linking a specific brain area (prefrontal cortex) to personality and emotional changes.\n**Answer: B**\n\n**[id 5342] Mental-Physical Connection**\nThe mind-body problem is the philosophical examination of how mental states relate to physical brain states.\n**Answer: B**\n\n**[id 5454] Reducing Bias**\nA, B, and C directly address specific bias sources. Simple random selection (D) is foundational but doesn't address non-response bias, question bias, or representation issues that the other methods target.\n**Answer: D**\n\n**[id 5561] Conditional Probability**\nZ-scores: (100,000-75,000)/12,000 ≈ 2.08; (80,000-75,000)/12,000 ≈ 0.42\nP(X < 100,000 | X > 80,000) = P(80,000 < X < 100,000)/P(X > 80,000) ≈ 0.3184/0.3372 ≈ 0.94\n**Answer: D**\n\n**[id 5573] False Statement about t-distributions**\nThe 68-95-99.7 rule works better when data is more normally distributed. With smaller df, t-distributions have heavier tails (less normal), so the rule works WORSE, not better.\n**Answer: D**\n\n**[id 5582] Hypothesis Test**\nt = (4.3 - 4.0)/(0.6/√16) = 0.3/0.15 = 2\ndf = 16 - 1 = 15\nOne-tailed test (H_a: μ > 4.0) gives p-value = P(t > 2) with 15 df\n**Answer: C**\n\n**[id 5641] Correlation and Variance Explained**\nr² represents explained variance: (0.6)² = 0.36 and (0.3)² = 0.09\nRatio: 0.36/0.09 = 4 times\n**Answer: C**\n\n```json\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"D\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 2149,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6092,
+  "output_tokens_details": {
+   "thinking_tokens": 4873
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2149,
+    "output_tokens": 6092,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.032609,
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {},
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ }
+}

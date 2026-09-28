@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 32.3,
+ "text": "\n\n[id 64] The passage states that the incidents resulted in \"leaving four people with minor burns.\"\nAnswer: A\n\n[id 65] The passage quotes Steve Jobs: \"Today Apple is going to reinvent the phone\".\nAnswer: B\n\n[id 66] The passage describes Peter Costello as the man \"most likely to succeed Prime Minister John Howard as Liberal party leader\", implying John Howard holds the leadership position currently.\nAnswer: B\n\n[id 67] The passage states the presenter \"denied the attack\". Therefore, claiming he \"admitted to the attack\" is not accurate.\nAnswer: B\n\n[id 68] The passage lists \"sharing technologies\" under \"Other subjects on the agenda\", whereas the specific fund is described as going toward \"flood-proof houses, better water management, and crop diversification\". Thus, the fund is not explicitly designated for bringing technology.\nAnswer: B\n\n[id 69] The passage specifies the ban applies to video games \"sold in the state of California\". It does not mention a ban outside of California.\nAnswer: C\n\n[id 70] The passage states \"Layton had asked for changes to the conservatives' environmental bill\".\nAnswer: C\n\n[id 71] The passage explicitly quotes Tommy Dreamer saying: \"Luna was the first Queen of Extreme.\"\nAnswer: D\n\n```json\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1277,
+  "completion_tokens": 5319,
+  "total_tokens": 6596,
+  "cost": 0.00092555,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00092555,
+   "upstream_inference_prompt_cost": 0.0001277,
+   "upstream_inference_completions_cost": 0.00079785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4965,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

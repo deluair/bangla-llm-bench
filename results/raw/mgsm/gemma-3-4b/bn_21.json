@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 36.4,
+ "text": "Here are the solutions to the math word problems:\n\n[id 210]\nLet x be the number of times she needs to mow the lawn.\nThe cost of the jacket is $30, and the cost of two pairs of shoes is $20 * 2 = $40.\nThe total cost is $30 + $40 = $70.\nShe already has $10.\nThe amount she needs to earn is $70 - $10 = $60.\nShe earns $5 per time she babysits and $4 per time she mows the lawn.\nSo, she earns $5x + $4x = $9x.\nWe need $9x = $60, so x = $60 / $9 = $6.67.\nSince she must mow the lawn a whole number of times, she needs to mow the lawn 7 times.\n\n[id 211]\nLet r be the number of red hens and w be the number of white hens.\nWe are given that w = r + 2.\nRed hens lay 3 eggs per day, and white hens lay 5 eggs per day.\nThe total number of eggs is 42.\nSo, 3r + 5w = 42.\nSubstitute w = r + 2 into the equation:\n3r + 5(r + 2) = 42\n3r + 5r + 10 = 42\n8r = 32\nr = 4\nTherefore, the number of red hens is 4.\n\n[id 212]\nThe perimeter of the rectangular park is 2(1.5 + 6) = 2(7.5) = 15 miles.\nGary walks at 3 miles per hour.\nThe time taken to walk the perimeter is 15 miles / 3 miles per hour = 5 hours.\n\n[id 213]\nLet x be the number of customers on the third day.\nOn the first day, the number of customers was 100.\nOn the second day, the number of customers was 100 + 50 = 150.\nOn the third day, the number of customers was x.\nTotal customers = 100 + 150 + x = 500\n300 + x = 500\nx = 200\n\n[id 214]\nLet $V_1$ be the initial volume of the large tank and $V_2$ be the initial volume of the small tank.\nWe are given that $V_1 - V_2 = 2 \\cdot 4 = 8$ gallons at time $t=0$.\nThe rate of water loss is 4 gallons per minute.\nAfter 4 minutes, the volume lost is 4 * 4 = 16 gallons.\nSo, $V_1 - 16 = 4(V_2 - 16)$, where $V_2 - 16$ is the volume of the small tank after 4 minutes.\nNow, we have $V_1 - V_2 = 8$, so $V_1 = V_2 + 8$.\nSubstituting this into the equation:\n$V_2 + 8 - 16 = 4(V_2 - 16)$\n$V_2 - 8 = 4V_2 - 64$\n$3V_2 = 56$\n$V_2 = \\frac{56}{3}$ gallons\n\n[id 215]\nLet h be the number of hours Lori works.\nShe earns $8 per hour, so her earnings are $8h.\nThe cost of the shoe is $320 and the cost of the belt is $32.\nThe total cost is $320 + $32 = $352.\nWe have $8h = 352$, so $h = \\frac{352}{8} = 44$ hours.\n\n[id 216]\nJenieth has to pay $2000 + 2000 \\times 0.10 = $2000 + $200 = $2200$.\nShe pays $165 per month for 12 months, so she pays $165 \\times 12 = $1980.\nThe remaining amount is $2200 - $1980 = $220.\n\n[id 217]\nLet r be the number of red roses and d be the number of daisies.\nWe have r = 4 + 7 = 11.\nThe total number of flowers is r + d = 11 + 7 = 18.\n\n[id 218]\nLet A be Adrian's age, H be Harriet's age, and J be Jack's age.\nWe have A = 3H and H = J/2.\nHarriet's age is 21, so H = 21.\nThen A = 3 * 21 = 63.\nJack's age is J = 2 * 21 = 42.\nThe average age of the three is (A + H + J) / 3 = (63 + 21 + 42) / 3 = 126 / 3 = 42.\nIn three years, Adrian's age will be 63 + 3 = 66, Harriet's age will be 21 + 3 = 24, and Jack's age will be 42 + 3 = 45.\nThe average age in three years will be (66 + 24 + 45) / 3 = 135 / 3 = 45.\n\n[id 219]\nLet N be Naomi's score, U be Yuri's score, B be Brianna's score, and J be Jojo's score.\nN = 68.\nU = N + 10 = 68 + 10 = 78.\nB = N + 17 = 68 + 17 = 85.\nN + U + B + J = 251\n68 + 78 + 85 + J = 251\n231 + J = 251\nJ = 251 - 231 = 20.\nJojo's score is 20.\n\n```json\n{\"answers\": {\"210\": 6, \"211\": 4, \"212\": 5, \"213\": 200, \"214\": 56/3, \"215\": 44, \"216\": 220, \"217\": 18, \"218\": 45, \"219\": 20}}\n```",
+ "usage": {
+  "prompt_tokens": 846,
+  "completion_tokens": 1568,
+  "total_tokens": 2414,
+  "cost": 0.0001991,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001991,
+   "upstream_inference_prompt_cost": 4.23e-05,
+   "upstream_inference_completions_cost": 0.0001568
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "210": 6.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 200.0,
+  "214": 56.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 18.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 6.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 200.0,
+  "214": 56.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 18.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 13.8,
+ "text": "**[150]** Steve: 3 mi = 15,840 ft ÷ 440 = 36 min. Tim: 2 mi = 10,560 ft ÷ 264 = 40 min. Difference: 4 minutes.\n\n**[151]** 5 bikes (2 tires) = 10, 3 trikes (3 tires) = 9, 1 unicycle = 1. Total 20 tires × $0.25 = $5.\n\n**[152]** 10 × 6 = 60 cookies × $0.10 = $6. Change: $10 − $6 = $4.\n\n**[153]** Let x = total. x − 14 − 7 − 9 = x − 30 after animals. Raccoon takes 2/3, leaving (x−30)/3. Then (x−30)/3 − 1 = 5 → (x−30)/3 = 6 → x = 48.\n\n**[154]** MWF: 3 hrs/day × 3 = 9 hrs. T/Th: 4 hrs/day × 2 = 8 hrs. 17 hrs/week × 16 weeks = 272 hours.\n\n**[155]** Rolls: 300 × 4 in = 100 ft. Croissants: 120 × 6 in = 60 ft. Baguettes: 60 × 2 ft = 120 ft. Total = 280 feet.\n\n**[156]** (200 + 400 + 100) × 2 = 1,400 bananas.\n\n**[157]** Blake: 15 × 200 = 3,000 yds. Kelly: 200 + 34 × 80 = 2,920 yds. Difference: 80 yards.\n\n**[158]** 4(1.5) + 2(4) + 20 = 6 + 8 + 20 = $34.\n\n**[159]** 11 + 6 − 2 = 15 tadpoles.\n\n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 48, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}",
+ "usage": {
+  "completion_tokens": 1338,
+  "completion_tokens_details": {
+   "reasoning_tokens": 842
+  },
+  "prompt_tokens": 860,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2198
+ },
+ "served_by": null,
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 4.5,
+ "text": "- [id 280]: The passage mentions the central gazebo, restaurants, and the Templo de San Diego (the only surviving building of the convent), but the \"home of an old love story\" (Callejon del Beso) is a separate location mentioned after the Jardín de la Unión description.\n- [id 281]: The passage describes \"vidde\" as \"treeless space\" and \"hei\" as \"treeless moorland.\" Therefore, forested plateaus would not be typical.\n- [id 282]: The passage states, \"The tourist season for the hill stations generally peaks during the Indian summer.\"\n- [id 283]: The passage states, \"To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.\"\n- [id 284]: The passage states VPNs re-route \"all Internet traffic, not only http.\" This implies that web proxies (the comparison) do not re-route all traffic (they only do http), but the statement \"VPNs can only reroute http traffic\" is explicitly contradicted by the text.\n- [id 285]: The passage states, \"Often, you have to buy a global number separately that allows PSTN phones to call you.\"\n- [id 286]: The passage mentions history, religious significance, and cultural/archeological sites, but it does not mention political influence.\n- [id 287]: The passage mentions that monasteries provide wraps for women and that men can borrow trousers. It does not mention providing shorts; in fact, the rule is to cover the knees.\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1388,
+  "completion_tokens": 414,
+  "total_tokens": 1802,
+  "cost": 0.00024912,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024912,
+   "upstream_inference_prompt_cost": 0.00012492,
+   "upstream_inference_completions_cost": 0.0001242
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

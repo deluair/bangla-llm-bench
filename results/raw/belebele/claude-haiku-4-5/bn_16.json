@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 71.7,
+ "text": "Looking at each question carefully:\n\n**[id 128]** - The passage states: \"একটি সংক্রামক রোগ হলো একটি রোগ যেটি একজন আক্রান্ত রোগীর সান্নিধ্যে যাওয়ার মাধ্যমে ছড়ায়\" (An infectious disease spreads through proximity with an infected patient). **Answer: A**\n\n**[id 129]** - The passage explains internet-driven calls let you avoid local phone companies, but \"PSTN ফোনগুলোকে আপনাকে কল করার অনুমতি দেয়\" requires service arrangement. Traditional PSTN phones would necessitate using phone company services. **Answer: D**\n\n**[id 130]** - The passage states c and g pronunciation changes based on \"নীচের স্বরবর্ণ\" (the vowel below/after). However, option D claims \"বেশিরভাগ শব্দের\" (most words) pronunciation varies - the passage only specifies c and g, not most words generally. This overgeneralizes. **Answer: D**\n\n**[id 131]** - The passage lists reasons Jerusalem attracts tourism: religious significance, cultural heritage, historical places. However, it explicitly states \"বেশিরভাগ দেশ এবং জাতিসংঘ এটিকে ইসরায়েলের রাজধানী হিসাবে স্বীকৃতি দেয় না\" (most countries/UN don't recognize it as capital). Capital status is NOT presented as a tourism attraction factor, making it the least attractive aspect. **Answer: B**\n\n**[id 132]** - The passage explicitly warns: \"বিশেষত ভেজা হলে কারণ এটি দ্রুত বিপজ্জনক হয়ে উঠতে পারে\" (especially when wet because it quickly becomes dangerous). **Answer: A**\n\n**[id 133]** - The passage states: \"জাতিগত সংঘাতের শিকার হয়েছে\" (suffered from ethnic conflict) and \"১৯৯৪ সালে এই দ্বন্দ্ব... এর জন্ম দেয়\" - ethnicity is the basis of the conflict. **Answer: B**\n\n**[id 134]** - The passage clearly states: \"প্যুব্লোসের অনেকটাই দূরে অবস্থিত হওয়ায়, আপনি আলবুকার্ক বা সান্তা ফে-তেন না এলে 'নাইটলাইফ'... পাওয়া যাবে না\" (Pueblos is too far away; you won't find nightlife without going to Albuquerque or Santa Fe). **Answer: A**\n\n**[id 135]** - The passage explicitly states: \"ফলের রস সাধারণত দামি\" (Fruit juice is usually expensive). Budget-conscious tourists should avoid this. **Answer: D**\n\n```json\n{\"answers\": {\"128\": \"A\", \"129\": \"D\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"A\", \"135\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5471,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6385,
+  "output_tokens_details": {
+   "thinking_tokens": 5526
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5471,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 6385,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5471,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5471
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.042876000000000004,
+ "answers_batch": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "A",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "D",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "A",
+  "135": "D"
+ }
+}

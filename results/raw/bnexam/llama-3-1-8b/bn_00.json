@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528"
+ ],
+ "seconds": 1.2,
+ "text": "{\"answers\": {\"000c853a-7896-439c-af8f-83f93a94aa21-146810\": \"B\", \"018777f7-7958-4668-95af-70afe6cf7e66-103354\": \"C\", \"01e79fd1-255b-4857-96fc-59c1f17df04c-15675\": \"A\", \"0269a96c-32f5-477c-bab9-31fd827929f3-51190\": \"A\", \"0328368d-9139-4f5e-b75b-2eae817dba6d-119686\": \"C\", \"034aa277-1099-4156-bd75-02abc0eca393-64103\": \"B\", \"03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978\": \"C\", \"064a8667-f1ca-4d1a-8459-11db81ef4a69-131760\": \"D\", \"0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424\": \"A\", \"084c3183-b891-4cae-bca9-e9b73a923003-48454\": \"D\", \"08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115\": \"A\", \"08de5d58-d002-429c-ba6c-c49610eea192-102317\": \"D\", \"09255f80-0720-46f4-ae96-f013ca5a79fb-108294\": \"B\", \"09771521-ceb8-449f-bced-46bb53d91cf7-63413\": \"B\", \"0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2681,
+  "completion_tokens": 453,
+  "total_tokens": 3134,
+  "cost": 0.00017029,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017029,
+   "upstream_inference_prompt_cost": 0.00013405,
+   "upstream_inference_completions_cost": 3.624e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers_batch": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "B",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "C",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "A",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "B",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "D",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "B",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "D"
+ },
+ "single": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 3,
+    "total_tokens": 144,
+    "cost": 2.94e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.94e-06,
+     "upstream_inference_prompt_cost": 2.82e-06,
+     "upstream_inference_completions_cost": 1.2e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": {
+   "text": "C) ২ কিমি",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 254,
+    "completion_tokens": 11,
+    "total_tokens": 265,
+    "cost": 5.63e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.63e-06,
+     "upstream_inference_prompt_cost": 5.08e-06,
+     "upstream_inference_completions_cost": 5.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": {
+   "text": "C) ৫",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 168,
+    "completion_tokens": 6,
+    "total_tokens": 174,
+    "cost": 3.66e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.66e-06,
+     "upstream_inference_prompt_cost": 3.36e-06,
+     "upstream_inference_completions_cost": 3e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": {
+   "text": "D) জর্জ পাস্কাল",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 163,
+    "completion_tokens": 16,
+    "total_tokens": 179,
+    "cost": 4.06e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.06e-06,
+     "upstream_inference_prompt_cost": 3.26e-06,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 2,
+    "total_tokens": 151,
+    "cost": 3.06e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.06e-06,
+     "upstream_inference_prompt_cost": 2.98e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 2,
+    "total_tokens": 157,
+    "cost": 3.18e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.18e-06,
+     "upstream_inference_prompt_cost": 3.1e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": {
+   "text": "B)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 3,
+    "total_tokens": 318,
+    "cost": 6.45e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.45e-06,
+     "upstream_inference_prompt_cost": 6.3e-06,
+     "upstream_inference_completions_cost": 1.5e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 2.82e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.82e-06,
+     "upstream_inference_prompt_cost": 2.74e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 191,
+    "completion_tokens": 2,
+    "total_tokens": 193,
+    "cost": 9.71e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.71e-06,
+     "upstream_inference_prompt_cost": 9.55e-06,
+     "upstream_inference_completions_cost": 1.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": {
+   "text": "D)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 408,
+    "completion_tokens": 3,
+    "total_tokens": 411,
+    "cost": 8.28e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.28e-06,
+     "upstream_inference_prompt_cost": 8.16e-06,
+     "upstream_inference_completions_cost": 1.2e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": {
+   "text": "A) হামিদুর রহমান",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 20,
+    "total_tokens": 215,
+    "cost": 4.9e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.9e-06,
+     "upstream_inference_prompt_cost": 3.9e-06,
+     "upstream_inference_completions_cost": 1e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 436,
+    "completion_tokens": 2,
+    "total_tokens": 438,
+    "cost": 8.8e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.8e-06,
+     "upstream_inference_prompt_cost": 8.72e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": {
+   "text": "A)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 3,
+    "total_tokens": 218,
+    "cost": 4.42e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.42e-06,
+     "upstream_inference_prompt_cost": 4.3e-06,
+     "upstream_inference_completions_cost": 1.2e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": {
+   "text": "B)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 3,
+    "total_tokens": 141,
+    "cost": 2.88e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.88e-06,
+     "upstream_inference_prompt_cost": 2.76e-06,
+     "upstream_inference_completions_cost": 1.2e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 164,
+    "completion_tokens": 2,
+    "total_tokens": 166,
+    "cost": 3.36e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.36e-06,
+     "upstream_inference_prompt_cost": 3.28e-06,
+     "upstream_inference_completions_cost": 8e-08
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "B",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "C",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "A",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "B",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "C",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "D",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "B",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "D"
+ }
+}

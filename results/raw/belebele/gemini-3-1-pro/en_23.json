@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 15.9,
+ "text": "Based on the passages provided, here are the answers to the multiple-choice questions:\n\n**184: C**\nThe passage explicitly states that \"Scaffolding is not a method of learning,\" and contrasts it with project-based learning.\n\n**185: A**\nThe passage mentions that the page \"can be customized to make it easy to read,\" which directly benefits students with reading difficulties.\n\n**186: B**\nThe passage states, \"Later, after Alexander died, the temple was rebuilt in 323 BCE,\" meaning it was rebuilt after his reign.\n\n**187: B**\nHomo Erectus is described as \"upright man\" and the passage notes their predecessors \"did not walk upright as habitually,\" making Homo Erectus the regular two-legged walkers.\n\n**188: A**\nThe passage states, \"Had the Allies failed, Germany probably would have been able to conquer Britain,\" implying that the Allies (The British and The Americans) did not fail and were ultimately successful. \n\n**189: B**\nThe passage specifies that \"only the priests could enter\" the inner sanctuary.\n\n**190: D**\nThe passage explicitly points out that \"no ancient Roman ever tasted a turkey.\"\n\n**191: D**\nThe passage explains that \"Hydrogen ions are protons that had their electrons stripped off them,\" meaning the electrons were removed.\n\n```json\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17459,
+  "output_tokens": 1687,
+  "thinking_tokens": 1316,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19146
+ },
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

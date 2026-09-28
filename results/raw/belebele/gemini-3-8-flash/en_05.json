@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47"
+ ],
+ "seconds": 7.4,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 40]**: Speciation and evolution require the separated group to survive and adapt; failing to thrive prevents this process (**A**).\n- **[id 41]**: The text explicitly states that blood \"comes back to the heart in tubes called veins\" (**D**).\n- **[id 42]**: The passage notes that people do not think of birds as dinosaurs because they have feathers and can fly, contrasting with typical dinosaur traits (**B**).\n- **[id 43]**: The passage states that parts became Belgian after the \"1830s Belgian Revolution\" (**B**).\n- **[id 44]**: The text states there are \"23,764 square kilometres (9,174 sq mi) in Europe\" (**D**).\n- **[id 45]**: The passage states that music is recorded using computers to process and mix sounds together (**A**).\n- **[id 46]**: The passage states that Harappa and Mohenjo-daro had a flush toilet in almost every house (**A**).\n- **[id 47]**: The text states that scientists call this process \"stimulated emission of radiation\" (**D**).\n\n{\"answers\": {\"40\": \"A\", \"41\": \"D\", \"42\": \"B\", \"43\": \"B\", \"44\": \"D\", \"45\": \"A\", \"46\": \"A\", \"47\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25253,
+  "output_tokens": 1482,
+  "thinking_tokens": 1146,
+  "cache_read_tokens": 0,
+  "total_tokens": 26735
+ },
+ "answers_batch": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ },
+ "single": {},
+ "answers": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ }
+}

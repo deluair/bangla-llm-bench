@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "2143",
+  "2159",
+  "2319",
+  "2348",
+  "2355",
+  "2448",
+  "2457",
+  "2459",
+  "2557",
+  "2567",
+  "2573",
+  "2582",
+  "2628",
+  "2632",
+  "2636"
+ ],
+ "seconds": 13.2,
+ "text": "**Reasoning for the less obvious answers:**\n\n- **2143:** 3 qt = 12 cups, so 2 : 12 simplifies to 1/6.\n- **2319:** m = 6 × 8/5 = 48/5 = 9 3/5.\n- **2348:** 5 × 36 + 6 × 32 = 180 + 192 = 372, which is closest to 380.\n- **2457:** Take I true and H, J false. The first premise becomes F ≡ (F ∨ F), which is true. The second premise, H ∨ ~J, is true. The conclusion ~I is false, so the argument is invalid with this counterexample.\n- **2459:** A biconditional (\"if, and only if\") has no single antecedent, so the answer is \"None of the above.\"\n- **2557:** \"E is a necessary condition for F\" is F ⊃ E. \"C given that not S\" is ~S ⊃ C.\n- **2573:** From memory of Maddison-style estimates, Japan went from roughly $3,000 (1950) to roughly $37,000 (2016). That is about 12-fold, which is closest to 10-fold. I'm not fully sure of this one.\n- **2628:** 7.5 + 11.8 + 15.5 = 34.8%.\n- **2632:** This recalls the Young Lives study figure of about 78%.\n- **2636:** Canada was about 15.6 t per capita, ahead of Russia (~11.7), Japan (~9) and Iran (~8).\n\n{\"answers\": {\"2143\": \"D\", \"2159\": \"C\", \"2319\": \"D\", \"2348\": \"B\", \"2355\": \"A\", \"2448\": \"D\", \"2457\": \"D\", \"2459\": \"D\", \"2557\": \"D\", \"2567\": \"C\", \"2573\": \"B\", \"2582\": \"A\", \"2628\": \"B\", \"2632\": \"C\", \"2636\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2231,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1328,
+  "output_tokens_details": {
+   "thinking_tokens": 726
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2231,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1328,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2231,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2231
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.044416,
+ "answers_batch": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ },
+ "single": {},
+ "answers": {
+  "2143": "D",
+  "2159": "C",
+  "2319": "D",
+  "2348": "B",
+  "2355": "A",
+  "2448": "D",
+  "2457": "D",
+  "2459": "D",
+  "2557": "D",
+  "2567": "C",
+  "2573": "B",
+  "2582": "A",
+  "2628": "B",
+  "2632": "C",
+  "2636": "B"
+ }
+}

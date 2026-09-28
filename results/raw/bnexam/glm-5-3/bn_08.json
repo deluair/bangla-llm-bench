@@ -1,0 +1,72 @@
+{
+ "task": "bnexam",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 31.7,
+ "text": "**Brief reasoning for each:**\n\n1. Insulin deficiency causes diabetes mellitus (বহুমূত্র) → **B**\n2. Sclerenchyma cells are dead with lignified, thick walls; they lack chloroplasts → **C**\n3. Cofactor of element (1,2): −1·[(−1)(4) − (6)(7)] = −1·(−46) = 46 → **C**\n4. 0.015 M × 111 g/mol CaCl₂ = 1.665 g/L = 1665 mg/L ≈ 1665 ppm → **A**\n5. Distance of (2,3) from line: |8+9−7|/5 = 2; image point distance = 2×2 = 4 units → **B**\n6. 'পঞ্চইন্দ্রিয়' was painted by M.F. Husain → **B**\n7. Acid strength of halogen acids: HI > HBr > HCl > HF → **D**\n8. SHM requires angular displacement ≤ 4° → **B**\n9. Doppler: f' = 120×320/(320+15) ≈ 114.6 Hz → **C**\n10. Simple pendulum: period depends on effective length → **C**\n11. Atrial systole lasts ~0.1 s → **C**\n12. Feasible region vertices (0,0), (5,0), (4,2), (0,4); optimum gives 48 → **D**\n13. Earth's average temperature ≈ 15°C → **C**\n14. For n = 3, l cannot equal 3 (l ≤ n−1) → **A**\n15. Vascular bundle types: radial, concentric, collateral — \"প্রতিসম\" is not a type → **D**\n\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"B\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"B\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"B\", \"752de91a-4a2e-4c17-b275-f73ebde26e01-59185\": \"C\", \"753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591\": \"C\", \"75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886\": \"C\", \"7618488d-de61-4487-ada3-2eb2618165d7-84216\": \"D\", \"764f6eda-81b0-45a0-bb6d-44c26c53782e-7306\": \"C\", \"7690d276-0c68-4558-8bec-453730563cce-1991\": \"A\", \"76d2d03f-237f-4d28-82a5-1607191c62e2-121114\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 2368,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1407
+  },
+  "prompt_tokens": 2252,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 4620
+ },
+ "served_by": null,
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "B",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "D",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ },
+ "single": {},
+ "answers": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "B",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "D",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ }
+}

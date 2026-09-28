@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 10.6,
+ "text": "**[id 100]** The first friend rang 20 times. The second rang 1/4 more, so 20 + 5 = 25. The fourth rang 60 times. The third rang 10 more than the fourth, so 70. Total = 20 + 25 + 70 + 60 = **175**\n\n**[id 101]** Total pages = 4 + 20 + 7 + 8 = 39. After Monday, 39 − 15 = 24 pages remain. Over 4 days, that is 24 ÷ 4 = **6** per day.\n\n**[id 102]** On weekdays he drinks 4 glasses a day, so 5 × 4 = 20. On weekend days he has soda at dinner, so 3 glasses a day, giving 2 × 3 = 6. Total = **26**\n\n**[id 103]** The fog covers 42 ÷ 3 = 14 segments of 3 miles. At 10 minutes each, that is 14 × 10 = **140** minutes.\n\n**[id 104]** Poppy places 1000 ÷ 4 = 250 pieces, leaving 750. Her mom places 750 ÷ 3 = 250, leaving **500**.\n\n**[id 105]** Cody eats 3 × 5 = 15. Together they eat 5 + 15 = **20**.\n\n**[id 106]** With 1-inch walls, each inner dimension shrinks by 2 inches, giving 3 × 4 × 2 = 24 cubic inches per box. For 3 boxes, 3 × 24 = **72**.\n\n**[id 107]** Known viewing time is Mon + Tue = 2 hours, Thu = 1.5 hours and Fri = 2 hours, which totals 5.5 hours. Wednesday = 7 − 5.5 = 1.5 hours, which is 1.5 ÷ 0.5 = **3** episodes.\n\n**[id 108]** Let last year's count be x. Then 2x + 15 − 5 = 110, so 2x = 100 and x = **50**.\n\n**[id 109]** The net price is $3.00 − $0.20 = $2.80 per gallon. For 10 gallons, 10 × 2.80 = **28** dollars.\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3038,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1020,
+  "output_tokens_details": {
+   "thinking_tokens": 234
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3038,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1020,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3038,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3038
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.044712,
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

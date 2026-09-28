@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 4.2,
+ "text": "Here are the answers based on the reasoning for each question:\n\n- **216**: The passage mentions that researchers used infrared spectroscopy to compare the composition of crystals in cat urine with those found in affected pets, implying they observed **crystal composition in pet urine**.\n- **217**: The passage states that South Africa’s game began to improve **as the tournament progressed**.\n- **218**: Hu did not mention **a figure for the carbon emission cuts** (only a \"notable margin\" was mentioned).\n- **219**: The passage indicates that **Davey** will take the Business Minister job after Huhne’s resignation.\n- **220**: Leonov led the Soviet part of the **Apollo–Soyuz mission**.\n- **221**: Scientists were observing the matter of the **Sagittarius galaxy and the Milky Way**.\n- **222**: The passage states that **liberals** are criticizing the reconstruction contracts.\n- **223**: eBay is seeking to **expand into new territories** (like China, Eastern Europe, and Brazil).\n\n```json\n{\n  \"answers\": {\n    \"216\": \"B\",\n    \"217\": \"D\",\n    \"218\": \"D\",\n    \"219\": \"C\",\n    \"220\": \"B\",\n    \"221\": \"D\",\n    \"222\": \"B\",\n    \"223\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1260,
+  "completion_tokens": 317,
+  "total_tokens": 1577,
+  "cost": 0.00023655,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023655,
+   "upstream_inference_prompt_cost": 0.000189,
+   "upstream_inference_completions_cost": 4.755e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "C",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "C",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

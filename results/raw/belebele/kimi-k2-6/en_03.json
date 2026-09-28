@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 89.5,
+ "text": "[id 24] The passage states the rule of thirds aims at “creating dynamism” (B), “keeping a measure of order” (D), and placing the main subject at an effective intersection (C). It does not mention creating a “baseline” for subject placement, making A the outlier.\n\n[id 25] The passage says many common formats “are equal to or closely approximate” the 3:2 aspect ratio of 35mm, so claiming it has a different aspect ratio than many common formats (C) contradicts the text.\n\n[id 26] Mysticism is explicitly “distinguished from other forms of religious belief and worship by its emphasis on the direct personal experience,” so saying this emphasis is comparable to many other forms (D) is inaccurate.\n\n[id 27] The passage states the civilization encompassed “some regions in … northeast Afghanistan,” not all regions (C).\n\n[id 28] The passage explicitly says war expenditures “were paid for by the Filipino people themselves” through taxes (D).\n\n[id 29] The passage mentions sedatives, amputation, tourniquets, arterial clamps, and scopolamine from herbane seeds, but it never mentions post-traumatic stress disorder (A).\n\n[id 30] The first sentence says vision “depends on visual system sensory organs or eyes” (A).\n\n[id 31] The passage notes “the guru is a fundamental aspect of all Indian religions,” so it is not unique to Sikhism (B).\n\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1493,
+  "completion_tokens": 3378,
+  "total_tokens": 4871,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3023
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

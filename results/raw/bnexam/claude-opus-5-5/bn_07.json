@@ -1,0 +1,665 @@
+{
+ "task": "bnexam",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213"
+ ],
+ "seconds": 14.3,
+ "text": "1. **A** — 101110 in binary is 32 + 8 + 4 + 2 = 46.\n2. **C** — Brahmadesh (Burma) is now called Myanmar.\n3. **D** — The density of air at STP is about 1.293 kg m⁻³.\n4. **C** — Parabens act as endocrine disruptors, and this is linked to early puberty in girls.\n5. **A** — The period is T = 2π√(m/k), so it scales with √m. Making the mass 4m doubles the period to 2T.\n6. **C** — Bharatchandra Ray Gunakar died in 1760.\n7. **A** — 'Lalsalu' was written in 1948.\n8. **D** — 68 people received the Bir Uttom title.\n9. **A** — Write the numbers as 7k and 8k. Their LCM is 56k = 280, so k = 5, which is the HCF.\n10. **B** — (a − x)²⁰ has 21 terms, so the middle term is the 11th.\n11. **A** — The Adam's apple is on the larynx (voice box).\n12. **A** — The functional group of aldehydes is –CHO.\n13. **B** — Bangladeshi exam keys attribute this quote to Ivor Jennings; I'm answering from recall of those keys, not a confirmed source.\n14. **D** — Durba grass is *Cynodon dactylon*.\n15. **B** — The line 4x + 3y − 30 = 0 passes through (3, 6), since 12 + 18 − 30 = 0. Its distance from the origin is 30/5 = 6.\n\n{\"answers\": {\"5180e158-98d6-404f-8650-02f3ede675f6-141782\": \"A\", \"51e41a2d-4394-4383-94cc-5cbc8b388046-40205\": \"C\", \"526fe4b4-110c-421c-97de-2ee962d29f6c-22915\": \"D\", \"5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704\": \"C\", \"559babbb-1a53-4c7c-8149-72be468bab7a-89256\": \"A\", \"57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498\": \"C\", \"57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040\": \"A\", \"5877834c-b7a2-479e-96e2-cd6605538cf9-14494\": \"D\", \"5bd76b77-9209-4602-8460-29b6d46f1387-94903\": \"A\", \"5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550\": \"B\", \"61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214\": \"A\", \"63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057\": \"A\", \"64d3b462-8719-429a-9405-95bee8a76cbd-15523\": \"B\", \"64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922\": \"D\", \"658d8db2-8adf-4607-9086-1c98fdc53143-36213\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2435,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1382,
+  "output_tokens_details": {
+   "thinking_tokens": 340
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1382,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.047128,
+ "answers_batch": {
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782": "A",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205": "C",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915": "D",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704": "C",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256": "A",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498": "C",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040": "A",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494": "D",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903": "A",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550": "B",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214": "A",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057": "A",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523": "B",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922": "D",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213": "B"
+ },
+ "single": {
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 567,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 20,
+    "output_tokens_details": {
+     "thinking_tokens": 17
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 567,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 20,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 567,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 567
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 575,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 575,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 575,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 575
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 576,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 612,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 30,
+    "output_tokens_details": {
+     "thinking_tokens": 27
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 612,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 30,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 612,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 612
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 709,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 709,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 709,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 709
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 586,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 36,
+    "output_tokens_details": {
+     "thinking_tokens": 33
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 586,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 36,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 586,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 586
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "C"
+  },
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 590,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 21,
+    "output_tokens_details": {
+     "thinking_tokens": 18
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 590,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 21,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 590,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 590
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 630,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 630,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 630,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 630
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903": {
+   "text": "Numbers 7x, 8x; LCM 56x=280 → x=5.\n\nA",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 595,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 30,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 595,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 30,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 595,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 595
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 573,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 573,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 573,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 573
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 582,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 582,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 582,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 582
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 564,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 564,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 564,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 564
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "A"
+  },
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 564,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 564,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 564,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 564
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  },
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 578,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 578,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 578,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 578
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "D"
+  },
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 622,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 81,
+    "output_tokens_details": {
+     "thinking_tokens": 78
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 622,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 81,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 622,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 622
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "5180e158-98d6-404f-8650-02f3ede675f6-141782": "A",
+  "51e41a2d-4394-4383-94cc-5cbc8b388046-40205": "C",
+  "526fe4b4-110c-421c-97de-2ee962d29f6c-22915": "D",
+  "5368ce50-9f63-4a29-b5e8-a9fc6b92e12a-138704": "C",
+  "559babbb-1a53-4c7c-8149-72be468bab7a-89256": "A",
+  "57cec89d-1a5e-46eb-9a9c-d1c9fa08c184-71498": "C",
+  "57ec3871-00ef-465b-b04d-b7549b9e1ff5-82040": "A",
+  "5877834c-b7a2-479e-96e2-cd6605538cf9-14494": "D",
+  "5bd76b77-9209-4602-8460-29b6d46f1387-94903": "A",
+  "5e0700ef-d7f3-4d83-b6a4-c133828d34db-47550": "B",
+  "61c9c0a1-731b-49ea-a7c3-d80138bb13af-121214": "A",
+  "63b81d6c-0a00-43ac-8f4b-0c376d778a91-59057": "A",
+  "64d3b462-8719-429a-9405-95bee8a76cbd-15523": "B",
+  "64fa9f46-e87a-45e1-bd09-2ddf29cac193-84922": "D",
+  "658d8db2-8adf-4607-9086-1c98fdc53143-36213": "B"
+ }
+}

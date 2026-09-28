@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 13.7,
+ "text": "To answer these questions, let's evaluate each one:\n\n[id 32] The passage lists \"clashes of system, process and culture\" as the reasons the countries fell out. It mentions Germany as a common enemy, implying opinions about Germany were a point of cooperation, not a cause of the falling out. Thus, B is the most logical answer for what did *not* cause the fallout according to the text.\n[id 33] The text states nerve impulses help keep blood flow \"undisturbed.\" This means managing it, not slowing it down. Therefore, A is the incorrect description.\n[id 34] The text explicitly states: \"The Greek historian Strabo later noted the name, which is how we know today.\" Therefore, C is the answer.\n[id 35] The passage states the German navy was \"trying to stop this traffic\" (referring to the Americans moving men and materials to help Britain). Therefore, B is the most accurate description.\n[id 36] The text describes Homer as \"the legendary blind poet.\" Therefore, B is the answer.\n[id 37] The text states the Dutch established a base and employed Chinese laborers, but it does not say they practiced aboriginal grain production (they transformed it) or that they ceded control to the Qing dynasty. However, looking at the options: A is true, C is true. B says they *did* practice it, while the text says they \"initiated a transformation in aboriginal grain production practices.\" D says they were \"willing to cede control to the Qing,\" which isn't mentioned. Actually, the question asks what they did *not* do. Looking at the options: D is not mentioned in the text at all regarding the Dutch. However, re-reading: the Dutch *initiated a transformation* in grain production, they didn't necessarily practice the original aboriginal methods. Let's look at D: The text says the *Qing government* ceded sovereignty to *Japan*. It says nothing about the Dutch ceding to the Qing. Therefore, D is the correct answer for what they did not do.\n[id 38] The text says \"The pH level is indicated by the amount of Hydrogen (the H in pH) ions in the tested chemical.\" Therefore, C is the answer.\n[id 39] The text says females are \"closely related to each other,\" but it says males are \"one to three related adult males\" and females are \"as many as thirty females and cubs.\" It doesn't explicitly say the males are related to the females. However, comparing options: A is true (\"much like packs of wolves or dogs\"), D is true (\"social\" and \"deadly\"), and B is true (1-3 males vs up to 30 females). Option C says \"The males and females are all closely related.\" The text says females are related to each other, and males are related to each other, but it does not state the whole pride is one single closely related family. Thus, C is the most likely intended answer.\n\n```json\n{\"answers\": {\"32\": \"B\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1437,
+  "completion_tokens": 710,
+  "total_tokens": 2147,
+  "cost": 0.000216554,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000216554,
+   "upstream_inference_prompt_cost": 6.0354e-05,
+   "upstream_inference_completions_cost": 0.0001562
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}

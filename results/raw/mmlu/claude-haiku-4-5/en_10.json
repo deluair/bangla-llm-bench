@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 47.5,
+ "text": "# Answers to Multiple-Choice Questions\n\nLet me work through each question:\n\n**[5669]** - Alexander Hamilton's Federalist #15 (1787) argued that the Articles of Confederation gave the national government too little power to address pressing national issues. Option C directly addresses this weakness of central government authority.\n\n**[5751]** - The excerpt emphasizes Lincoln's support from Union soldiers (78%) and notes this was \"perhaps the margin of victory\" and \"of great symbolic value.\" This military support was a consequence of Union military successes, supporting option B.\n\n**[5807]** - Calhoun's \"protest\" against federal power over states resembles the New England Federalists' constitutional opposition to the War of 1812, which they viewed as federal overreach. Both used legal/constitutional language of protest.\n\n**[5817]** - Jefferson argues institutions should evolve with enlightenment and changing times. The 19th Amendment (women's suffrage) best exemplifies this - it expanded rights as society became more enlightened about gender equality, ratified well after Jefferson's time.\n\n**[5849]** - The liberal successes of the 1960s (civil rights, Great Society programs, cultural change) provoked a conservative backlash to defend traditional values and limit government authority - a significant unintended consequence.\n\n**[5924]** - The Algerian speaker hoped for education and economic improvement after independence but got neither. This reflects how independence movements prioritized national liberation over social/economic reform.\n\n**[5973]** - World War II significantly weakened British colonial power and enabled India's independence movement (1947) to succeed. The boycott campaign was integral to this independence struggle.\n\n**[6006]** - English colonists, unlike Spanish colonizers, were confused by Native Americans' different concept of land ownership (communal vs. private property), leading to different exploitation patterns.\n\n**[6073]** - Both passages show revolutions distributed new liberties unevenly - women didn't benefit equally from the French Revolution, and lower classes didn't from Algerian independence, illustrating unequal/inconsistent distribution.\n\n**[6083]** - Nkrumah discusses cooperation with \"capitalist, socialist or mixed economy\" states - this directly references the competing Cold War ideologies of capitalism vs. socialism.\n\n**[6118]** - Cohort effects (generational differences) are more significant than age effects for work productivity due to differences in technology training, education, and workplace culture across generations.\n\n**[6123]** - Hospice is the end-of-life care program for those with ≤6 months to live, emphasizing home care, pain management, and no life-prolonging interventions.\n\n**[6199]** - A living will is the advance directive document where individuals specify desired and unwanted medical interventions.\n\n**[6202]** - Based on the phrasing suggesting proper planning is required, Pat Shelley's view was that you shouldn't retire unless you can do it right (with proper planning).\n\n**[6212]** - The Eden Alternative is the environmental design philosophy that brings plants, pets, and intergenerational visitors (young people/children) to nursing homes.\n\n```json\n{\"answers\": {\"5669\": \"C\", \"5751\": \"B\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"D\", \"6006\": \"B\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"B\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"A\", \"6212\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4647,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3891,
+  "output_tokens_details": {
+   "thinking_tokens": 3064
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4647,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3891,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4647,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4647
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.028758,
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "B",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "B",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ }
+}

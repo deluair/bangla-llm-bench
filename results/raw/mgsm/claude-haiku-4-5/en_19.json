@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 17.3,
+ "text": "# Solutions\n\n**[id 190]** John collects for 3 hours at 2 peaches/minute\n- 3 hours = 180 minutes\n- 180 × 2 = 360 peaches\n\n**[id 191]** 10 ducks need 3.5 pounds per week per duck\n- Weekly total: 10 × 3.5 = 35 pounds\n- Daily: 35 ÷ 7 = 5 pounds\n\n**[id 192]** Starts with 50 trees, gains 8 net per year (10 planted - 2 chopped)\n- After 10 years: 50 + (8 × 10) = 130 trees\n- 30% die: 130 × 0.70 = 91 trees\n\n**[id 193]** Friday: 18 pink. Saturday: 1/3 of 18 = 6 become white. Sunday: add 18 pink\n- Pink: 18 - 6 + 18 = 30\n- White: 6\n- Difference: 30 - 6 = 24\n\n**[id 194]** 5 crayons at $2 each from $20\n- Cost: 5 × $2 = $10\n- Change: $20 - $10 = $10\n\n**[id 195]** Pen costs as much as pencil ($1.20) + eraser ($0.30) = $1.50\n- 8 pens: 8 × $1.50 = $12.00 or 1200 cents\n\n**[id 196]** 40 restaurants get 2 pounds each from 200 pounds\n- Used: 40 × 2 = 80 pounds\n- Not used: 200 - 80 = 120 pounds\n\n**[id 197]** Total 23786, minus 8417 men and 9092 women\n- Children: 23786 - 8417 - 9092 = 6277\n\n**[id 198]** Started with 20. Month 1: collected 60. Month 2: collected 40. Month 3: collected 200\n- Total: 20 + 60 + 40 + 200 = 320 cards\n\n**[id 199]** Mark edits 500 sentences each for two publishers\n- Publisher A: 500 × 5¢ = 2500¢\n- Publisher B: 500 × 10¢ = 5000¢\n- Total: 7500 cents\n\n```json\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}\n```",
+ "usage": {
+  "input_tokens": 1140,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2029,
+  "output_tokens_details": {
+   "thinking_tokens": 1337
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1140,
+    "output_tokens": 2029,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011285,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

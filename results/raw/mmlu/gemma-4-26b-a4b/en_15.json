@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 15,
+ "ids": [
+  9824,
+  9932,
+  9955,
+  9986,
+  10007,
+  10074,
+  10093,
+  10141,
+  10169,
+  10274,
+  10388,
+  10482,
+  10508,
+  10565,
+  10623
+ ],
+ "seconds": 19.7,
+ "text": "9824: Hume argues that beauty is not a quality in things themselves, but exists merely in the mind which contemplates them. Thus, each mind perceives a different beauty. (B)\n9932: In Plato's epistemology, the logos or rationale (the \"why\") represents a higher level of understanding than mere conceptual identification. (B)\n9955: Feinberg suggests that happiness is a complex state and that focusing directly on it (the \"paradox of hedonism\") is counterproductive; often, the best way is to focus on other things. However, looking at the options, the specific philosophical argument often points to the idea that direct pursuit is flawed. Let's re-evaluate: Feinberg's argument is often associated with the idea that happiness is a byproduct. Actually, the standard answer in this context is D (none of the above) or C (forget about it), but in many philosophical texts, the answer is that one should pursue things that lead to happiness. Let's look at the phrasing. Actually, Feinberg argues that \"the best way to pursue happiness is to pursue it\" is a bit of a trap. Let's check standard philosophy tests. Actually, the answer is often \"none of the above\" because the pursuit of happiness is paradoxical. (D)\n9986: In the *Crito*, Socrates compares the Laws to parents/guardians. (B)\n10007: Nussbaum's approach to virtues starts with neutral terms to avoid pre-judging the specific content. (C)\n10074: Archaeological evidence suggests the interior was occupied later than the coasts, often cited around 10,000-12,000 years ago during wetter periods. (A)\n10093: Prognathism refers to the protrusion of the jaw. (B)\n10141: Maya writing is famous for its detailed astronomical and mathematical records. (D)\n10169: Lacustrine refers to lakes; pelagic refers to the open sea. The Lake Forest tradition was lacustrine; Maritime was pelagic/maritime. (B)\n10274: Anatomically modern Homo sapiens are generally dated to approximately 200,000–300,000 years ago to the present. (D)\n10388: In governmental accounting, the General Fund reports the expenditure ($25,000) when the debt is incurred/paid, and the Debt Service Fund reports the expenditure ($25,000) when the cash is paid. The transfer between funds is an internal transfer, not an expenditure for either fund in the sense of external obligation, but the question asks how the *city* reports the expenditures. The General Fund reports the transfer as an \"other financing use\" and the Debt Service Fund reports the payment as an expenditure. Wait, the question asks for expenditures. The General Fund recognizes the transfer, the Debt Service fund recognizes the $25,000 expenditure. However, looking at the options, A suggests General Fund $25,000 and Debt Service $25,000. This is a common way to view the total outflow. (A)\n10482: If the city does *not* use the modified approach (which capitalizes and depreciates), it treats the expenditure as an expense immediately (for fund accounting) or if we are talking about the \"Statement of Activities\" (government-wide), it must capitalize and depreciate. If they don't use the modified approach, they follow standard accrual. So they capitalize $800,000 and depreciate it: 800,000 / 20 = 40,000. (C)\n10508: Under LIFO, the oldest costs are kept in inventory, meaning the end-of-year inventory is composed of the earliest acquired goods. (D)\n10565: Target Price = Total Cost / (1 - Margin). Total unit cost = $12 (Var Man) + $8 (Fix Man) + $3 (Var S&A) + $5 (Fix S&A) = $28. Target Price = $28 / (1 - 0.20) = $28 / 0.8 = $35. Let's check options. Wait, $28 / 0.8 = 35. If we only use variable costs? No. Let's re-calculate: 12+8+3+5 = 28. 28 / 0.8 = 35. None of the options match 35 exactly. Let's re-read: \"20% target contribution margin\". Contribution Margin = (Price - Variable Costs) / Price. Variable costs = 12 + 3 = 15. 0.20 = (P - 15) / P => 0.20P = P - 15 => 0.80P = 15 => P = 18.75. (B)\n10623: Stone Co. is the consignor for the items shipped to Omega. Consigned inventory includes the cost of the goods plus freight paid by the consignor. $36,000 + $1,800 = $37,800. (D)\n\n{\"answers\": {\"9824\": \"B\", \"9932\": \"B\", \"9955\": \"D\", \"9986\": \"B\", \"10007\": \"C\", \"10074\": \"A\", \"10093\": \"B\", \"10141\": \"D\", \"10169\": \"B\", \"10274\": \"D\", \"10388\": \"A\", \"10482\": \"C\", \"10508\": \"D\", \"10565\": \"B\", \"10623\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1440,
+  "completion_tokens": 1316,
+  "total_tokens": 2756,
+  "cost": 0.0005388,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005388,
+   "upstream_inference_prompt_cost": 0.000144,
+   "upstream_inference_completions_cost": 0.0003948
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "D",
+  "9986": "B",
+  "10007": "C",
+  "10074": "A",
+  "10093": "B",
+  "10141": "D",
+  "10169": "B",
+  "10274": "D",
+  "10388": "A",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ },
+ "answers_batch": {
+  "9824": "B",
+  "9932": "B",
+  "9955": "D",
+  "9986": "B",
+  "10007": "C",
+  "10074": "A",
+  "10093": "B",
+  "10141": "D",
+  "10169": "B",
+  "10274": "D",
+  "10388": "A",
+  "10482": "C",
+  "10508": "D",
+  "10565": "B",
+  "10623": "D"
+ },
+ "single": {}
+}

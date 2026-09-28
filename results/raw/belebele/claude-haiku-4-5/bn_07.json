@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 63.3,
+ "text": "# Analysis of Multiple-Choice Questions\n\n**[id 56]** The passage clearly states: \"জার্মানি ব্রিটেন দ্বীপপুঞ্জে আক্রমণের জন্য প্রস্তুতি নেওয়া শুরু করে। এই আক্রমণকে জার্মানি কোড-নেম দিয়েছে ''অপারেশন সিলায়ন''।\" - Operation Sealion was Germany's attack plan.\n**Answer: A**\n\n**[id 57]** The passage describes Italy's necessary steps to conquer Africa as: having a military launching pad and getting rid of British bases/ships in Egypt. Building additional ships is mentioned as something they did, but not explicitly as a requirement for conquering Africa specifically.\n**Answer: B**\n\n**[id 58]** The passage states: \"সোভিয়েত ইউনিয়নের 800,000 লালফৌজ রিগা শান্তি চুক্তি লঙ্ঘন করে\" - The Soviet Union violated the Riga Treaty.\n**Answer: D**\n\n**[id 59]** Options B, C, and D are all explicitly mentioned in the passage (people stuck on roller coaster, water given, 1 hour to rescue). Option A mentions a fire in Santa Clara, but the passage only mentions \"Fire Captain Scott Couns\" by name—there is no mention of an actual fire occurring.\n**Answer: A**\n\n**[id 60]** The question specifically asks what happened during the riot at Abu Ghraib. The passage's first sentence directly answers: \"একটি দাঙ্গার সময় ইরাকের আবু গারিব কারাগারটি জ্বালিয়ে দেয়া হয়েছে।\"\n**Answer: D**\n\n**[id 61]** The passage states: \"প্রতিটি অনুষ্ঠান বইয়ের জন্য সুপারিশ সরবরাহও করবে\" - Each episode would provide recommendations for books.\n**Answer: D**\n\n**[id 62]** The officials said: (C) tree is infected with fungus, (A) there's a risk of it falling/inevitably falling down, and (D) it's a public health hazard. However, they wanted to cut it down—they did NOT argue that it should be preserved.\n**Answer: B**\n\n**[id 63]** The passage clearly states: \"পোল্যান্ডে ACTA চুক্তি স্বাক্ষর হওয়ার পরে সে দেশে বড় ধরনের বিক্ষোভ হয়েছিল, যার ফলে পোলিশ সরকার আপাতত চুক্তিটি অনুমোদন না করার সিদ্ধান্ত নিয়েছে।\"\n**Answer: B**\n\n```json\n{\"answers\": {\"56\": \"A\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5057,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5598,
+  "output_tokens_details": {
+   "thinking_tokens": 4764
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5057,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 5598,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5057,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5057
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.038112999999999994,
+ "answers_batch": {
+  "56": "A",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "A",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

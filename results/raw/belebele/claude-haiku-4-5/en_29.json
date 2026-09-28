@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 19.0,
+ "text": "I'll work through each question systematically by examining the passages:\n\n**[id 232]**: The passage explicitly states the disease \"migrates to humans through mosquitos.\" \n**Answer: A**\n\n**[id 233]**: The passage says Iwasaki \"was attacked in Tibet by a rabid dog.\"\n**Answer: C**\n\n**[id 234]**: The restraining order enforces release of those held more than 24 hours \"who did not receive a hearing by a court commissioner.\" This means they must be allowed a hearing to be held longer.\n**Answer: D**\n\n**[id 235]**: Listing all mentioned nominations: Best Picture, Director, Cinematography, Costume Design, Film-editing, Original Score, Production Design, Sound Editing, Sound Mixing, Original Screenplay, and Original Song. Best Visual Effects is not mentioned.\n**Answer: B**\n\n**[id 236]**: The passage explicitly states \"Some roads have been damaged\" and that the airport \"remains closed,\" but the clearest explicit statement of damage is for roads.\n**Answer: C**\n\n**[id 237]**: The passage states Israel demands \"ongoing military presence in the valley for ten years\" while PA agrees to only 5 years. \"Ongoing military presence\" reflects Israel's position, not Palestine's demand.\n**Answer: B**\n\n**[id 238]**: The passage states Massa \"suffered a serious head injury after a crash during the 2009 Hungarian Grand Prix.\"\n**Answer: A**\n\n**[id 239]**: The passage states \"Police said they suspect an alleged Daesh (ISIL) militant of responsibility for the attack.\"\n**Answer: A**\n\n```json\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 1676,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1964,
+  "output_tokens_details": {
+   "thinking_tokens": 1527
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1676,
+    "output_tokens": 1964,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011496000000000001,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

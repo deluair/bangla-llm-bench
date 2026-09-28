@@ -1,0 +1,40 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 1.6,
+ "text": "{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "queue_time": 0.791353304,
+  "prompt_tokens": 883,
+  "prompt_time": 0.044528248,
+  "completion_tokens": 320,
+  "completion_time": 0.679355391,
+  "total_tokens": 1203,
+  "total_time": 0.723883639,
+  "completion_tokens_details": {
+   "reasoning_tokens": 284
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

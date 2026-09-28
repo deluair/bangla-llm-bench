@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 13.4,
+ "text": "[id 48] The passage states Olaf Trygvasson was a Norwegian.\n[id 49] The 15th century was approximately 600 years ago (2024 - 1400s $\\approx$ 600).\n[id 50] The passage says the crust is thinner under maria and thicker under highlands. Therefore, there may be less maria under the highlands because the crust is thicker. Also, the near side is thinner (not thicker), and the far side is thicker (meaning it might have less maria, but option D is a more direct logical deduction from \"thicker under the highlands\"). Wait, looking closer: \"The crust is ... thicker under the highlands.\" and \"It [maria] was easier for lava to rise up to the surface [where the crust is thinner].\" Thus, where the crust is thicker (highlands), it is harder for lava to rise, so there may be less maria. Option D is correct.\n[id 51] The passage says \"some believe that aliens or other life may live on another plant [planet]\".\n[id 52] Service = 2/3 (~66%), Industry = nearly 1/4 (~25%), Agriculture = 1/5 (20%), Oil = 1%. Oil is the least.\n[id 53] The passage states \"Stars give off light and heat because of the energy made when hydrogen atoms are merged...\".\n[id 54] The passage states water is \"made up of two hydrogen atoms and one oxygen atom\".\n[id 55] The passage states the gardens helped transform the island into a \"tropical Garden City\".\n\n{\"answers\": {\"48\": \"D\", \"49\": \"C\", \"50\": \"D\", \"51\": \"C\", \"52\": \"C\", \"53\": \"C\", \"54\": \"D\", \"55\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1201,
+  "completion_tokens": 417,
+  "total_tokens": 1618,
+  "cost": 0.00015546,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015546,
+   "upstream_inference_prompt_cost": 7.206e-05,
+   "upstream_inference_completions_cost": 8.34e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "48": "D",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "D",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

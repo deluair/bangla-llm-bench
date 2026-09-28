@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 11.9,
+ "text": "[id 80]\nEach girl gets 1/6 * 24 = 4 liters.\nTotal for girls = 4 + 4 = 8 liters.\nBoy gets 6 liters.\nTotal distributed = 8 + 6 = 14 liters.\nLeft = 24 - 14 = 10 liters.\n\n[id 81]\nStarting: 10.\nBought: 21.\nBirthday: 23.\nSubtotal: 10 + 21 + 23 = 54.\nGave away: 9.\nUsed: 28.\nTotal used/given: 9 + 28 = 37.\nLeft: 54 - 37 = 17.\n\n[id 82]\nGrace = 125.\nAlex = 4 * 125 - 2 = 500 - 2 = 498.\nCombined = 125 + 498 = 623.\n\n[id 83]\n3 bushes * 25 roses/bush = 75 roses.\n75 roses * 8 thorns/rose = 600 thorns.\n\n[id 84]\nLet L = losses, W = wins.\nW + L = 22.\nW = L + 8.\n(L + 8) + L = 22 => 2L + 8 = 22 => 2L = 14 => L = 7.\nW = 7 + 8 = 15.\n\n[id 85]\nYears of vacationing: 34 - 23 = 11 years.\nVacations per year: 4.\nTotal shirts (blocks): 11 * 4 = 44.\n\n[id 86]\n1st time: 4 rings.\n2nd time: 4 * 3 = 12 rings.\n3rd time: 12 / 2 = 6 rings.\nTotal: 4 + 12 + 6 = 22.\n\n[id 87]\nInitial monthly: $600.\nAnnual initial: 600 * 12 = $7,200.\nIncrease per year: 10% of 7,200 = $720.\nYears after 5 years: 3 years.\nTotal increase: 3 * 720 = $2,160.\nTotal annual salary: 7,200 + 2,160 = $9,360.\n\n[id 88]\nM + H = 88,000.\nM = 10H.\n10H + H = 88,000 => 11H = 88,000 => H = 8,000.\n\n[id 89]\nGuests = 16.\nBags per guest = 0.75.\nTotal bags = 16 * 0.75 = 12.\nCost per bag = $2.\nTotal cost = 12 * 2 = $24.\n\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 24}}",
+ "usage": {
+  "prompt_tokens": 692,
+  "completion_tokens": 810,
+  "total_tokens": 1502,
+  "cost": 0.000207264,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000207264,
+   "upstream_inference_prompt_cost": 2.9064e-05,
+   "upstream_inference_completions_cost": 0.0001782
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

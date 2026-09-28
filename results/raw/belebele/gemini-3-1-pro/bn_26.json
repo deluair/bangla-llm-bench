@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 26,
+ "ids": [
+  "208",
+  "209",
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215"
+ ],
+ "seconds": 20.2,
+ "text": "Here is the reasoning for each question based on the provided passages:\n\n**[id 208]** The passage states that the focus of Tibetan meditation is deity yoga (\"দেবত্ব যোগা\"), and through realizing or visualizing deity energy (\"দেবত্ব শক্তি অনুধাবনের মাধ্যমে\"), the chakras are activated. Thus, the correct answer is **B**.\n\n**[id 209]** The text explicitly mentions that Lakka Singh (or Lakha Singh) led the bhajan singing when the Chhappan Bhog (108 plates) was being offered to Baba Shyam. Thus, the correct answer is **A**.\n\n**[id 210]** The passage mentions that some people, including John Grant, believe that a funding shortfall (\"তহবিলের ঘাটতি\") and a shift in focus on educational television played a role in ending the series. Thus, the correct answer is **A**.\n\n**[id 211]** The passage says the news of the arrest spread while the funerals of three of the nine victims (\"নয়জন ভুক্তভোগীর মধ্যে তিনজনের অন্ত্যেষ্টিক্রিয়া\") were taking place. Thus, the correct answer is **B**.\n\n**[id 212]** The passage explicitly lists Latvia (\"লাটভিয়া\") and Slovakia as the two countries that delayed the process of joining the ACTA agreement. Thus, the correct answer is **D**.\n\n**[id 213]** The text notes that Apple reported 34 overheating incidents which the company (Apple) referred to as \"not serious\" (\"সংস্থা 'গুরুতর নয়' বলে অভিহিত করেছে\"). Thus, the correct answer is **D**.\n\n**[id 214]** Peter Costello stated that Australia should pursue nuclear power when it becomes economically successful or commercial (\"বাণিজ্যিক হয়ে যায়\"). This implies the current lack of a nuclear industry is because it is too expensive or not yet commercially viable. Thus, the correct answer is **D**.\n\n**[id 215]** Miller states, \"I was getting ready so I couldn't hear what he was saying\" (\"আমি প্রস্তুত হচ্ছিলাম তাই সে কি বলছে তা আমি শুনতে পাচ্ছিলাম না\"). This means he was not paying attention because he was busy preparing. Thus, the correct answer is **B**.\n\n```json\n{\"answers\": {\"208\": \"B\", \"209\": \"A\", \"210\": \"A\", \"211\": \"B\", \"212\": \"D\", \"213\": \"D\", \"214\": \"D\", \"215\": \"B\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17769,
+  "output_tokens": 2005,
+  "thinking_tokens": 1451,
+  "cache_read_tokens": 8142,
+  "total_tokens": 19774
+ },
+ "answers_batch": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ },
+ "single": {},
+ "answers": {
+  "208": "B",
+  "209": "A",
+  "210": "A",
+  "211": "B",
+  "212": "D",
+  "213": "D",
+  "214": "D",
+  "215": "B"
+ }
+}

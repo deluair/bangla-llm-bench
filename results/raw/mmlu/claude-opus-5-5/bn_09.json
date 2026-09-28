@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "4749",
+  "4827",
+  "4852",
+  "4864",
+  "4873",
+  "4952",
+  "5102",
+  "5184",
+  "5312",
+  "5342",
+  "5454",
+  "5561",
+  "5573",
+  "5582",
+  "5641"
+ ],
+ "seconds": 13.8,
+ "text": "- **4749 (B):** The torque is 2.0 × 0.30 = 0.6 N·m. Angular deceleration is 0.6 / 0.06 = 10 rad/s². The time to stop is 20 / 10 = 2 s.\n- **4827 (D):** Of the options, orange light has the longest wavelength.\n- **4852 (A):** How the rubber band is wound changes how much stored energy goes into the cart's motion. This explains why the distance varies between trials.\n- **4864 (D):** The battery voltage is 600 μC / 2 μF = 300 V. Three 18 μF capacitors in series give 6 μF. The charge is 6 μF × 300 V = 1800 μC, and in series each capacitor holds this same charge.\n- **4873 (A):** No standing wave forms because the string length is not a whole-number multiple of half the wavelength.\n- **4952 (B):** Violet has the shortest wavelength humans can see.\n- **5102 (B):** The mother's giving in rewards the crying, which is positive reinforcement. The Bengali option \"যুক্ত\" is not a clean match for \"reinforced\", but it fits best of the choices.\n- **5184 (C):** Raised blood pressure and faster breathing are controlled by the sympathetic nervous system.\n- **5312 (B):** Gage's case was one of the first well-documented links between a specific brain region and changes in behaviour and personality.\n- **5342 (B):** The link between mental states and physical states is called the mind-body problem.\n- **5454 (C):** Switching from simple random sampling to stratified random sampling mainly improves precision; it does little to reduce bias.\n- **5561 (D):**\n  - The z-score for 80,000 is 0.417, so P(X > 80,000) ≈ 0.3385.\n  - The z-score for 100,000 is 2.083, so P(X > 100,000) ≈ 0.0186.\n  - The conditional probability is (0.3385 − 0.0186) / 0.3385 ≈ 0.945, which rounds to 0.94.\n- **5573 (D):** This statement is false. The 68-95-99.7 rule works worse for t-distributions as df gets smaller.\n- **5582 (C):** t = 0.3 / (0.6 / √16) = 2. The p-value is P(t > 2) with 15 degrees of freedom.\n- **5641 (C):** The percentage explained is r². That gives 0.36 versus 0.09, which is 4 times as much.\n\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"B\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"C\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5395,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1352,
+  "output_tokens_details": {
+   "thinking_tokens": 410
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5395,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1352,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5395,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5395
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.07020799999999999,
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {},
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "B",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "C",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 5.2,
+ "text": "1. The passage mentions that studying traffic flow is difficult because driver behavior cannot be predicted with certainty, which affects the consistency of traffic streams. The question asks what can be difficult to gauge due to this unpredictability.\n   - **Answer: D) Traffic Flow**\n\n2. The passage states that only mutations in germ-line cells can be passed on to children.\n   - **Answer: A) If the cells are germ-line**\n\n3. The passage mentions that the purpose of an experiment is to eliminate one or more possible hypotheses.\n   - **Answer: A) To eliminate one or more possible hypotheses**\n\n4. The passage indicates that the first true telescopes were made in Europe in the late 16th century.\n   - **Answer: D) Making telescopes**\n\n5. The passage states that members of a subculture often signal their membership through distinctive and symbolic use of style.\n   - **Answer: D) By using style as a form of symbolism**\n\n6. The postmodern approach to learning emphasizes that there are no absolutes in learning.\n   - **Answer: D) There are no absolutes in learning**\n\n7. The passage mentions that virtual teams and conventional teams are held to the same standards of excellence.\n   - **Answer: A) Both teams are expected to perform at the same level**\n\n8. Content theories are centered on internalized needs, understanding people’s likes, and how one’s environment affects their actions, but not specifically on new desires that materialize in adulthood.\n   - **Answer: A) New desires that materialize in adulthood**\n\n```json\n{\n  \"answers\": {\n    \"16\": \"D\",\n    \"17\": \"A\",\n    \"18\": \"A\",\n    \"19\": \"D\",\n    \"20\": \"D\",\n    \"21\": \"D\",\n    \"22\": \"A\",\n    \"23\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1325,
+  "completion_tokens": 396,
+  "total_tokens": 1721,
+  "cost": 0.00025815,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025815,
+   "upstream_inference_prompt_cost": 0.00019875,
+   "upstream_inference_completions_cost": 5.94e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

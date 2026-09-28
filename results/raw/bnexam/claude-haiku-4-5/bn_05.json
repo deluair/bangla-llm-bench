@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522"
+ ],
+ "seconds": 122.7,
+ "text": "Looking at each question carefully:\n\n**Q1: Angular velocity**\n10 revolutions per minute = 10 × 2π radians / 60 seconds = 20π/60 = π/3 ≈ 1.047 rad/s\n**Answer: A**\n\n**Q2: তাপসী play**\n'তাপসী' is a famous play by দ্বিজেন্দ্রলাল রায়\n**Answer: B**\n\n**Q3: Chlorine nucleus**\nCl has mass number 35. Atomic number of Cl = 17 (protons)\nNeutrons = 35 - 17 = 18\n**Answer: A**\n\n**Q4: Distance calculation**\n- 8 miles north → (0, 8)\n- 12 miles east → (12, 8)\n- 12 miles north → (12, 20)\nDistance = √(12² + 20²) = √(144 + 400) = √544 ≈ 23.3 miles\nClosest option: C) 21\n\n**Q5: Tuning forks beat frequency**\nBeat frequency = |f_A - f_B| = 5 Hz\nWhen weight is added, frequency decreases. For beat frequency to decrease, f_A must initially be 517 Hz (so adding weight reduces it toward 512).\n**Answer: D**\n\n**Q6: Phrasal verb**\n\"The girl takes **after** her mother\" (resembles) - this is the correct phrasal verb.\n**Answer: C**\n\n**Q7: Algebraic identity**\nGiven: a + 1/a = 4\nUsing (a + 1/a)³ = a³ + 1/a³ + 3(a + 1/a)\n64 = a³ + 1/a³ + 12\na³ + 1/a³ = 52\n**Answer: B**\n\n**Q8: Ornithology**\nOrnithology is the study of birds.\n**Answer: C**\n\n**Q9: Williamson's reaction**\nC₂H₅O⁻ + CH₃I → C₂H₅OCH₃ is the classic Williamson ether synthesis\n**Answer: B**\n\n**Q10: Derivative**\ny = ln(sec x)\ndy/dx = (1/sec x) × sec x tan x = tan x\n**Answer: D**\n\n**Q11: Earth's magnetic field**\nHudson Bay in northern Canada contains Earth's magnetic south pole (in northern hemisphere).\n**Answer: B**\n\n**Q12: Matra-britti verse**\n\"কবর\" by Jashim Uddin is not written in matra-britti meter.\n**Answer: B**\n\n**Q13: First theater in Kolkata**\nThe first established theater in Kolkata was around 1832.\n**Answer: B**\n\n**Q14: First Bangladeshi ICC president**\nA H M Mustafa Kamal was a prominent ICC figure from Bangladesh.\n**Answer: B**\n\n**Q15: Direction problem**\n- Right 10 ft: (10, 0)\n- Turn left, go 20 ft north: (10, 20)\n- Turn left, go 20 ft west: (-10, 20)\n- Turn left, go 20 ft south: (-10, 0)\nDistance from origin = 10 feet\n**Answer: C**\n\n```json\n{\"answers\": {\"33ee0f6d-2208-4252-a253-52aa63720948-3812\": \"A\", \"349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597\": \"B\", \"37f12437-63ed-47d2-822d-e43efb5fc695-124481\": \"A\", \"3b374461-0318-4d76-8666-87185e36ae19-7268\": \"C\", \"3baddf77-158e-4c58-835d-bcf0966f61e2-46524\": \"D\", \"3c022c34-fa81-495b-a405-f8f6b74b8440-38265\": \"C\", \"3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238\": \"B\", \"3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217\": \"C\", \"3d7e7041-55fa-4705-a956-07dbc67e3322-8053\": \"B\", \"3d802074-f841-4127-8ab8-dc73f830b286-38317\": \"D\", \"403644e4-0efa-4dd2-b773-e183a64969dc-68991\": \"B\", \"40865a63-8ab2-4409-bd3d-80b3cf488669-114511\": \"B\", \"40946678-c005-4e30-9b51-0cd751ab48dd-12237\": \"B\", \"40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418\": \"B\", \"4101a41c-2881-4ead-96e9-f65223a3ca56-37522\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 2752,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 11608,
+  "output_tokens_details": {
+   "thinking_tokens": 10298
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2752,
+    "output_tokens": 11608,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.060792,
+ "answers_batch": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "B",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "C",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "B",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "B",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ },
+ "single": {},
+ "answers": {
+  "33ee0f6d-2208-4252-a253-52aa63720948-3812": "A",
+  "349d2a82-086f-4bdd-a8c9-e3a807fd6c42-87597": "B",
+  "37f12437-63ed-47d2-822d-e43efb5fc695-124481": "A",
+  "3b374461-0318-4d76-8666-87185e36ae19-7268": "C",
+  "3baddf77-158e-4c58-835d-bcf0966f61e2-46524": "D",
+  "3c022c34-fa81-495b-a405-f8f6b74b8440-38265": "C",
+  "3c23fdab-d090-40b9-aa1c-b170c1aeb27b-124238": "B",
+  "3cc94f03-794f-49ce-8f5c-7b54051d99b3-8217": "C",
+  "3d7e7041-55fa-4705-a956-07dbc67e3322-8053": "B",
+  "3d802074-f841-4127-8ab8-dc73f830b286-38317": "D",
+  "403644e4-0efa-4dd2-b773-e183a64969dc-68991": "B",
+  "40865a63-8ab2-4409-bd3d-80b3cf488669-114511": "B",
+  "40946678-c005-4e30-9b51-0cd751ab48dd-12237": "B",
+  "40aa3b5f-e298-46d5-8e84-fc43b885dcab-61418": "B",
+  "4101a41c-2881-4ead-96e9-f65223a3ca56-37522": "C"
+ }
+}

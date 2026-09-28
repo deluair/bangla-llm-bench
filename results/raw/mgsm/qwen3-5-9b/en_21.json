@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 176.2,
+ "text": "**Problem 210**\nTotal cost for jacket ($30) and 2 pairs of shoes ($20 each) is $30 + $40 = $70.\nSara currently has $10 saved and earned 4 * $5 = $20 from babysitting, totaling $30.\nShe needs $70 - $30 = $40 more.\nMowing earns $4 per mow.\nTimes to mow = $40 / $4 = 10.\n\n**Problem 211**\nLet $r$ be red chickens and $w$ be white chickens.\nEggs per day: $3r + 5w = 42$.\nRelationship: $w = r + 2$.\nSubstitute: $3r + 5(r + 2) = 42 \\Rightarrow 3r + 5r + 10 = 42 \\Rightarrow 8r = 32 \\Rightarrow r = 4$.\n\n**Problem 212**\nPerimeter of park = $2 \\times (1.5 \\text{ miles} + 6 \\text{ miles}) = 2 \\times 7.5 = 15$ miles.\nTime = Distance / Speed = $15 \\text{ miles} / 3 \\text{ mph} = 5$ hours.\n\n**Problem 213**\nDay 1 customers = 100.\nDay 2 customers = $100 + 50 = 150$.\nTotal customers for 3 days = 500.\nDay 3 customers = $500 - (100 + 150) = 500 - 250 = 250$.\n\n**Problem 214**\nLet $S$ be water in small pool now, $B$ be water in big pool now.\n$B = 4S$.\n4 minutes ago (let $t=-4$):\n$S_{ago} = S + 4(4) = S + 16$.\n$B_{ago} = B + 4(4) = B + 16$.\nRelation 4 mins ago: $B_{ago} = 2 S_{ago}$.\n$(B + 16) = 2(S + 16) \\Rightarrow B + 16 = 2S + 32 \\Rightarrow B = 2S + 16$.\nSubstitute $B = 4S$:\n$4S = 2S + 16 \\Rightarrow 2S = 16 \\Rightarrow S = 8$.\n\n**Problem 215**\nTotal cost = $320 + $32 = $352.\nSara earns $8/hour.\nHours needed = $352 / 8 = 44$.\n\n**Problem 216**\nTotal loan repayment = $2000 + 10\\%(2000) = $2200.\nPayments made = $165 \\times 12 = 1980$.\nRemaining balance = $2200 - 1980 = 220$.\n\n**Problem 217**\nRoses = 4.\nDahlias = 4 + 7 = 11.\nTotal flowers = 4 + 11 = 15.\n\n**Problem 218**\nHarriet ($H$) = 21.\nAdrian ($A$) = 3 * $H$ = 63.\nHarriet is half of Zack ($Z$) → $21 = Z/2 \\Rightarrow Z = 42$.\nIn 3 years: $H=24$, $A=66$, $Z=45$.\nAverage age = $(24 + 66 + 45) / 3 = 135 / 3 = 45$.\n\n**Problem 219**\nTotal points = 251.\nNaomi ($N$) = 68.\nYuri ($Y$) = $(68/2) + 10 = 34 + 10 = 44$.\nBrianna ($Br$) = $68 + 17 = 85$.\nJojo ($J$) = $251 - (68 + 44 + 85) = 251 - 197 = 54$.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "prompt_tokens": 745,
+  "completion_tokens": 6525,
+  "total_tokens": 7270,
+  "cost": 0.00105325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00105325,
+   "upstream_inference_prompt_cost": 7.45e-05,
+   "upstream_inference_completions_cost": 0.00097875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5434,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

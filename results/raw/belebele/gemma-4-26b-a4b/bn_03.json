@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 28.4,
+ "text": "The questions are answered based on the provided Bengali passages:\n\n[id 24] The Rule of Thirds creates dynamism (B), places subjects in effective spots (C), and establishes a rhythm (D). Option A (creating a base line) is not explicitly mentioned as a defining part/goal in the text provided, though it's a common technique, the text focuses on lines and division. However, looking at the text: \"creating rhythm/dynamism\" (B/D) and \"effective placement\" (C) are all mentioned. A is not in the text.\n[id 25] The text says many common formats (like APS) have aspect ratios *equal to or close to* 3:2. It does *not* state that 35mm has a *different* aspect ratio than others; rather, it says others are similar. Option C is the least accurate description of the relationship described.\n[id 26] Option D says the emphasis on personal experience is *compared* to other religious beliefs, whereas the text says it is *distinguished/differentiated* (আলাদা করা যেতে পারে) from them.\n[id 27] The text says it covers \"some regions\" of North-East Afghanistan, not \"all regions\" (সকল অঞ্চল).\n[id 28] The text states \"the cost of war... was paid by the Filipino people themselves\" (ফিলিপিনো জনগণ নিজেরাই দিয়েছিল).\n[id 29] The text mentions morphine, scopolamine, stopping bleeding/arteries, and dissecting to prevent decay/blood loss. It does *not* mention treating Post-Traumatic Stress Disorder (PTSD) with sleeping pills.\n[id 30] The text states: \"Vision... depends on sensory organs or eyes\" (চোখের উপর দৃষ্টিশক্তি... নির্ভর করে).\n[id 31] The text says Sikhs acknowledge Hindu roots but maintain their religion is different. It does not say the \"core of rituals\" (আচার অনুষ্ঠানের মূল) is Hinduism; it says the \"Guru\" is the center of the belief. Option D is an incorrect representation of the text's nuances.\n\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1710,
+  "completion_tokens": 517,
+  "total_tokens": 2227,
+  "cost": 0.0002044,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 64,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002044,
+   "upstream_inference_prompt_cost": 0.000101,
+   "upstream_inference_completions_cost": 0.0001034
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "D"
+ }
+}

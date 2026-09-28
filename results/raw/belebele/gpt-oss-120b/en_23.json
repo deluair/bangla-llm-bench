@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 1.7,
+ "text": "{\"answers\":{\"184\":\"C\",\"185\":\"A\",\"186\":\"B\",\"187\":\"B\",\"188\":\"A\",\"189\":\"B\",\"190\":\"D\",\"191\":\"D\"}}",
+ "usage": {
+  "queue_time": 0.084900716,
+  "prompt_tokens": 1515,
+  "prompt_time": 0.069770773,
+  "completion_tokens": 705,
+  "completion_time": 1.459314336,
+  "total_tokens": 2220,
+  "total_time": 1.529085109,
+  "completion_tokens_details": {
+   "reasoning_tokens": 661
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

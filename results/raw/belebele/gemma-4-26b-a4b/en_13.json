@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 6.1,
+ "text": "To answer the questions based on the provided passages:\n\n[id 104] The passage says the find \"confirms that **at least some** dinosaurs had feathers,\" not that *most* dinosaurs had feathers. Thus, D is the incorrect statement (what is not a result).\n[id 105] The passage states scarps were found \"all over the moon,\" contradicting the idea that there were not many of them. Thus, D is the incorrect statement.\n[id 106] The passage mentions crushing ice, amount/thickness of ice, and extreme weather as problems. It does not mention \"melting ice.\" Thus, D is not a problem mentioned.\n[id 107] The text states \"Two beams of light have been rigged up to point **skywards**.\" Thus, A is the correct description.\n[id 108] The passage states the man was \"detained, after sustaining injuries from the blast.\" Therefore, saying he was \"uninjured\" is false. Thus, D is the incorrect statement.\n[id 109] The text says AOL \"instigated the charges,\" meaning they were the ones bringing the prosecution, not the ones being charged. Thus, D is the incorrect statement.\n[id 110] The passage explicitly states \"...after ASUS was awarded in the 2007 Taiwan Sustainable Award...\" Thus, C is the correct answer.\n[id 111] The passage states the plane \"had aborted once already\" and was making its \"second approach\" when it disappeared. This implies it only attempted two approaches, not three. Thus, C is the inaccurate statement.\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1305,
+  "completion_tokens": 418,
+  "total_tokens": 1723,
+  "cost": 0.00014677,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014677,
+   "upstream_inference_prompt_cost": 5.481e-05,
+   "upstream_inference_completions_cost": 9.196e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

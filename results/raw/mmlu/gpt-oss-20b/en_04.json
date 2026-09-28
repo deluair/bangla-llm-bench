@@ -1,0 +1,83 @@
+{
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 40.8,
+ "text": "{\"answers\":{\"1680\":\"D\",\"1726\":\"D\",\"1753\":\"B\",\"1772\":\"B\",\"1773\":\"A\",\"1820\":\"B\",\"1850\":\"B\",\"1873\":\"A\",\"1892\":\"C\",\"1895\":\"B\",\"1929\":\"D\",\"1995\":\"D\",\"1998\":\"D\",\"2004\":\"A\",\"2043\":\"B\"}}",
+ "usage": {
+  "prompt_tokens": 1143,
+  "completion_tokens": 2120,
+  "total_tokens": 3263,
+  "cost": 0.000211374,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000211374,
+   "upstream_inference_prompt_cost": 2.0574e-05,
+   "upstream_inference_completions_cost": 0.0001908
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2032,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "1680": "D",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "B",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "D",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "B"
+ },
+ "answers_batch": {
+  "1680": "D",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "B",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "D",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "B"
+ },
+ "single": {}
+}

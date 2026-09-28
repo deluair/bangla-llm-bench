@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 16,
+ "ids": [
+  "128",
+  "129",
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135"
+ ],
+ "seconds": 9.2,
+ "text": "Here is a brief reasoning for each question:\n\n- **[id 128]**: The text explicitly defines a contagious disease as one easily transmitted by being in the vicinity of an infected person. Thus, it is spread via **A (Infected people)**.\n- **[id 129]**: The passage states, \"Because calls are routed over the Internet, you do not need to use a phone company located where you live...\" Thus, the answer is **A (Internet routed calls)**.\n- **[id 130]**: The passage mentions that the pronunciation of *c* and *g* varies depending on the following vowel, not most words (most words are pronounced how they are written). Therefore, **D** is inaccurate.\n- **[id 131]**: The text links tourism directly to religious significance, historic/archeological sites, and cultural offerings, whereas its status as capital is contested internationally and not cited as a tourist driver. Thus, **B** is the least likely to attract tourism based on the text.\n- **[id 132]**: The text advises climbers to \"take care in the steeper portions, especially when wet, as it can become dangerous quickly.\" Thus, **A (Wet conditions)** is the primary cause of danger mentioned.\n- **[id 133]**: The passage notes that Moldova has suffered from \"ethnic conflict\" which in 1994 led to the creation of the Transnistria Republic. Thus, **B (Ethnicity)**.\n- **[id 134]**: The author warns that \"small-town bars here are not always good places for the out-of-state visitor to hang out.\" Thus, visitors should avoid **B (Small-town bars)**.\n- **[id 135]**: The text notes that \"Fruit juices are pricey\", making them less suitable for budget-conscious travelers. Thus, **D (Fruit juice)**.\n\n{\"answers\": {\"128\": \"A\", \"129\": \"A\", \"130\": \"D\", \"131\": \"B\", \"132\": \"A\", \"133\": \"B\", \"134\": \"B\", \"135\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25270,
+  "output_tokens": 2468,
+  "thinking_tokens": 1985,
+  "cache_read_tokens": 0,
+  "total_tokens": 27738
+ },
+ "answers_batch": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ },
+ "single": {},
+ "answers": {
+  "128": "A",
+  "129": "A",
+  "130": "D",
+  "131": "B",
+  "132": "A",
+  "133": "B",
+  "134": "B",
+  "135": "D"
+ }
+}

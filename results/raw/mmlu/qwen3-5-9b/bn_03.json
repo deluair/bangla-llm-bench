@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "1196",
+  "1258",
+  "1322",
+  "1326",
+  "1357",
+  "1374",
+  "1381",
+  "1384",
+  "1395",
+  "1452",
+  "1476",
+  "1492",
+  "1523",
+  "1534",
+  "1570"
+ ],
+ "seconds": 86.8,
+ "text": "\n\n{\"answers\": {\"1196\": \"B\", \"1258\": \"B\", \"1322\": \"C\", \"1326\": \"D\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"B\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"D\", \"1523\": \"B\", \"1534\": \"A\", \"1570\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 3126,
+  "completion_tokens": 13879,
+  "total_tokens": 17005,
+  "cost": 0.00239445,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00239445,
+   "upstream_inference_prompt_cost": 0.0003126,
+   "upstream_inference_completions_cost": 0.00208185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 13725,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "1196": "B",
+  "1258": "B",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "D",
+  "1523": "B",
+  "1534": "A",
+  "1570": "D"
+ },
+ "single": {},
+ "answers": {
+  "1196": "B",
+  "1258": "B",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "D",
+  "1523": "B",
+  "1534": "A",
+  "1570": "D"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 42.9,
+ "text": "Here are the step-by-step solutions for each problem:\n\n- **[id 150]**: Steve travels $3 \\times 5280 = 15840\\text{ ft}$ at $440\\text{ ft/min}$, taking $36\\text{ min}$. Tim travels $2 \\times 5280 = 10560\\text{ ft}$ at $264\\text{ ft/min}$, taking $40\\text{ min}$. Waiting time is $40 - 36 = 4\\text{ minutes}$.\n- **[id 151]**: Total tires inflated = $(5 \\times 2) + (3 \\times 3) + (1 \\times 1) = 10 + 9 + 1 = 20\\text{ tires}$. At $\\$0.25$ per tire, earnings = $20 \\times 0.25 = 5\\text{ dollars}$.\n- **[id 152]**: Total cookies = $10 \\times 6 = 60$. Total cost = $60 \\times \\$0.10 = \\$6.00$. Change from $\\$10 = 10 - 6 = 4\\text{ dollars}$.\n- **[id 153]**: Dave ate 14. Seagull ate $14 / 2 = 7$. Pigeons ate $3 \\times 3 = 9$. After raccoon took $2/3$, $1/3$ remained. Ants took 1 leaving 5, so $1/3$ remainder was $5 + 1 = 6$. Total before raccoon was $6 \\times 3 = 18$. Initial pack = $14 + 7 + 9 + 18 = 48\\text{ fries}$.\n- **[id 154]**: Mon/Wed/Fri: $3 \\times 1\\text{ hr} \\times 3\\text{ days} = 9\\text{ hrs/wk} \\times 16\\text{ wks} = 144\\text{ hrs}$. Tue/Thu: $2 \\times 2\\text{ hrs} \\times 2\\text{ days} = 8\\text{ hrs/wk} \\times 16\\text{ wks} = 128\\text{ hrs}$. Total = $144 + 128 = 272\\text{ hours}$.\n- **[id 155]**: Rolls = $300 \\times 4\\text{ in} = 1200\\text{ in}$. Croissants = $120 \\times 6\\text{ in} = 720\\text{ in}$. Together = $(1200 + 720) / 12 = 160\\text{ ft}$. Baguettes = $60 \\times 2\\text{ ft} = 120\\text{ ft}$. Total = $160 + 120 = 280\\text{ feet}$.\n- **[id 156]**: Monthly consumption = $200 + 400 + 100 = 700\\text{ bananas}$. For 2 months = $700 \\times 2 = 1400\\text{ bananas}$.\n- **[id 157]**: Blake: $15 \\times (100 \\times 2) = 3000\\text{ yards}$. Kelly: $(1 \\times 200) + 34 \\times (40 \\times 2) = 200 + 2720 = 2920\\text{ yards}$. Difference = $3000 - 2920 = 80\\text{ yards}$.\n- **[id 158]**: Pens: $4 \\times \\$1.5 = \\$6$. Notebooks: $2 \\times \\$4 = \\$8$. Bond paper: $\\$20$. Total = $6 + 8 + 20 = 34\\text{ dollars}$.\n- **[id 159]**: Tadpoles visible = $11 + 6 - 2 = 15$.\n\n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 48, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}\n",
+ "usage": {
+  "input_tokens": 51275,
+  "output_tokens": 5584,
+  "thinking_tokens": 3074,
+  "cache_read_tokens": 163181,
+  "total_tokens": 56859
+ },
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 48.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

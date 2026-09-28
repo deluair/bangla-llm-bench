@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 8.0,
+ "text": "- **144:** The passage says curry is meat or vegetables with herbs and spices, so the answer is B.\n- **145:** Coffee, tea and blended drinks are suggested for making at home. Beer is linked only to local bars and pubs, so the answer is C.\n- **146:** Proof of enough money for the first year of the course is a student visa requirement, so the answer is D.\n- **147:** The passage warns about mosquitoes when visiting rainforests in summer, so the answer is A.\n- **148:** Timbuktu has an airport, so \"cannot be reached by plane\" is the false description. The answer is C.\n- **149:** The funnel becomes a tornado when it touches the ground, so the answer is D.\n- **150:** The common format is 35 mm film, whose negative measures 36 × 24 mm, so the answer is D. Option C is less precise, because 35 mm names the film rather than the negative size.\n- **151:** The treasures were moved to the Egyptian Museum in Cairo, so the answer is D.\n\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4967,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 709,
+  "output_tokens_details": {
+   "thinking_tokens": 319
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4967,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 709,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4967,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4967
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.053924,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

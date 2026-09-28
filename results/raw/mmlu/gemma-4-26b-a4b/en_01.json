@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  414,
+  434,
+  441,
+  446,
+  460,
+  489,
+  530,
+  555,
+  570,
+  742,
+  767,
+  784,
+  794,
+  806,
+  869
+ ],
+ "seconds": 12.3,
+ "text": "To answer these questions:\n\n414: Environmental management systems (EMS) are the framework for implementing environmental goals. ISO14001 and EMAS are the two primary standards for this. (C)\n434: The concept of a fair agreement between citizens and the state is the \"Social Contract\". (A)\n441: Ethics of duty (Deontology) and Ethics of rights/justice are deontological (principle-based) theories, whereas Utilitarianism is consequentialist. (A)\n446: The UK Combined Code (Cadbury Report) emphasizes transparency, integrity, and accountability. \"Availability\" is not one of the core principles. (C)\n460: Postmodern ethics often challenges the pure rationality of traditional ethics, looking toward emotional or situational impulses. (C)\n489: Alzheimer's disease is the most common cause of dementia. (A)\n530: Standard dental advice is a pea-sized amount. (B)\n555: The elastic recoil of the large arteries (like the aorta) maintains blood pressure and flow during ventricular diastole. (D)\n570: 4 mcg * 65 kg * 60 min = 15,600 mcg. 15,600 mcg = 15.6 mg. (B)\n742: Diuretics or other medications can affect uric acid levels, implying drugs can be implicated in gout. (A)\n767: The release of enzymes from cortical granules to prevent polyspermy is the cortical reaction. (C)\n784: The fundamental niche is the full range of conditions a species could inhabit; the realized (realistic) niche is the actual space occupied due to competition/predation. (B)\n794: According to Fick's Law, increasing the surface area increases the rate of diffusion. (C)\n806: Random mating (panmixia) breaks down associations between alleles, thus reducing linkage disequilibrium. (D)\n869: Higher temperatures and moisture (water availability) in the tropics optimize the process of photosynthesis, driving primary productivity. (C)\n\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"A\", \"446\": \"C\", \"460\": \"C\", \"489\": \"A\", \"530\": \"B\", \"555\": \"D\", \"570\": \"B\", \"742\": \"A\", \"767\": \"C\", \"784\": \"B\", \"794\": \"C\", \"806\": \"D\", \"869\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1158,
+  "completion_tokens": 587,
+  "total_tokens": 1745,
+  "cost": 0.000177776,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000177776,
+   "upstream_inference_prompt_cost": 4.8636e-05,
+   "upstream_inference_completions_cost": 0.00012914
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "C",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "C",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "single": {}
+}

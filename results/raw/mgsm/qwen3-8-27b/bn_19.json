@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 4.7,
+ "text": "Let's solve each problem step by step.\n\n**[id 190]**\n*   **Problem:** Jon collects pitch for 3 hours. He can collect 2 pieces per minute. How many pieces does he collect?\n*   **Calculation:**\n    *   Time = 3 hours = $3 \\times 60$ minutes = 180 minutes.\n    *   Rate = 2 pieces/minute.\n    *   Total pieces = $180 \\times 2 = 360$.\n*   **Answer:** 360\n\n**[id 191]**\n*   **Problem:** Geese need 3.5 pounds of insects per week to survive. If there are 10 geese in a flock, how many pounds of insects do they need per day?\n*   **Calculation:**\n    *   Total weekly need for the flock = $10 \\text{ geese} \\times 3.5 \\text{ lbs/week/geese} = 35 \\text{ lbs/week}$.\n    *   Daily need = $35 \\text{ lbs} / 7 \\text{ days} = 5 \\text{ lbs/day}$.\n*   **Answer:** 5\n\n**[id 192]**\n*   **Problem:** Tom plants 10 trees a year. He cuts down 2 trees a year. He starts with 50 trees. After 10 years, 30% of the trees die. How many trees are left?\n*   **Calculation:**\n    *   Net change per year = $10 \\text{ planted} - 2 \\text{ cut} = +8$ trees/year.\n    *   Trees after 10 years (before death) = $50 + (10 \\times 8) = 50 + 80 = 130$ trees.\n    *   Trees that die = $30\\%$ of $130 = 0.30 \\times 130 = 39$ trees.\n    *   Trees remaining = $130 - 39 = 91$ trees.\n*   **Answer:** 91\n\n**[id 193]**\n*   **Problem:** Neighbors place 18 pink flamingos on Friday. On Saturday, they take back one-third, paint them white, and return them, then add 18 new pink ones. On Sunday noon, how many more pink flamingos are there than white ones?\n*   **Calculation:**\n    *   Start (Fri): 18 Pink, 0 White.\n    *   Sat Morning Action 1: Take back 1/3 of 18 = 6 flamingos. Remaining in yard: 12 Pink.\n        *   These 6 are painted white.\n        *   The 6 white ones are put back in the yard.\n        *   Yard contents now: 12 Pink, 6 White.\n    *   Sat Morning Action 2: Add 18 new pink flamingos.\n        *   Yard contents now: $12 + 18 = 30$ Pink, 6 White.\n    *   Question: Difference between Pink and White.\n        *   Difference = $30 - 6 = 24$.\n*   **Answer:** 24\n\n**[id 194]**\n*   **Problem:** Violetta wants to buy 5 different colored crayons. She has $20. Each crayon costs $2. How much change will she get?\n*   **Calculation:**\n    *   Cost = $5 \\text{ crayons} \\times \\$2/\\text{crayon} = \\$10$.\n    *   Change = $20 - 10 = 10$.\n*   **Answer:** 10\n\n**[id 195]**\n*   **Problem:** A pencil and eraser together cost the same as a pen. Pencil = $1.20, Eraser = $0.30. What is the cost of 8 pens?\n*   **Calculation:**\n    *   Cost of one set (pencil + eraser) = $1.20 + 0.30 = \\$1.50$.\n    *   Cost of one pen = $1.50$.\n    *   Cost of 8 pens = $8 \\times 1.50 = 12$.\n*   **Answer:** 12\n\n**[id 196]**\n*   **Problem:** In a city, 200 pounds of carrots are distributed to 40 restaurants. Each restaurant receives 2 pounds. How many pounds of carrots go unused?\n    *   *Note: The phrasing \"distributed\" implies the 200 lbs is the total available. The consumption is defined by the restaurants taking 2 lbs each.*\n*   **Calculation:**\n    *   Total carrots available = 200 lbs.\n    *   Total carrots taken = $40 \\text{ restaurants} \\times 2 \\text{ lbs/restaurant} = 80 \\text{ lbs}$.\n    *   Unused carrots = $200 - 80 = 120$ lbs.\n*   **Answer:** 120\n\n**[id 197]**\n*   **Problem:** Soda City has 23,786 residents. This includes 8,417 men and 9,092 women. The rest are children. How many children are there?\n*   **Calculation:**\n    *   Total adults = $8,417 + 9,092 = 17,509$.\n    *   Children = Total population - Total adults\n    *   Children = $23,786 - 17,509$.\n    *   $23,786 - 17,000 = 6,786$.\n    *   $6,786 - 500 = 6,286$.\n    *   $6,286 - 9 = 6,277$.\n*   **Answer:** 6277\n\n**[id 198]**\n*   **Problem:** Ellen started with 20 Pokemon cards.\n    *   Month 1: She collected triple that amount (starting amount).\n    *   Month 2: She collected 20 fewer cards than she did in Month 1.\n    *   Month 3: She collected twice the total number of cards she collected in Month 1 and Month 2 combined.\n    *   How many cards does she have in total now?\n*   **Calculation:**\n    *   Initial = 20.\n    *   Month 1 collected = $20 \\times 3 = 60$.\n        *   Total after Month 1 = $20 + 60 = 80$.\n    *   Month 2 collected = Month 1 collected - 20 = $60 - 20 = 40$.\n        *   Total after Month 2 = $80 + 40 = 120$.\n    *   Month 3 collected = $2 \\times (\\text{Month 1 collected} + \\text{Month 2 collected})$.\n        *   Month 3 collected = $2 \\times (60 + 40) = 2 \\times 100 = 200$.\n    *   Total now = Previous total + Month 3 collected = $120 + 200 = 320$.\n    *   *Alternative check:* Initial + M1 + M2 + M3 = $20 + 60 + 40 + 200 = 320$.\n*   **Answer:** 320\n\n**[id 199]**\n*   **Problem:** Mark edits sentences for two publishers (A and B).\n    *   He edits an equal number of sentences for each.\n    *   Total sentences = 1000. So, 500 for A and 500 for B.\n    *   Publisher A pays 5 cents per sentence.\n    *   Publisher B pays double what Publisher A pays. So Publisher B pays $5 \\times 2 = 10$ cents per sentence.\n    *   How many cents does Mark earn in a week?\n*   **Calculation:**\n    *   Earnings from A = $500 \\text{ sentences} \\times 5 \\text{ cents/sentence} = 2,500$ cents.\n    *   Earnings from B = $500 \\text{ sentences} \\times 10 \\text{ cents/sentence} = 5,000$ cents.\n    *   Total earnings = $2,500 + 5,000 = 7,500$ cents.\n*   **Answer:** 7500\n\nJSON output:\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "queue_time": 0.116895124,
+  "prompt_tokens": 1251,
+  "prompt_time": 0.088582052,
+  "completion_tokens": 2107,
+  "completion_time": 4.329808657,
+  "total_tokens": 3358,
+  "total_time": 4.418390709
+ },
+ "served_by": null,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

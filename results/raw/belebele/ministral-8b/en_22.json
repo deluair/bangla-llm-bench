@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 4.8,
+ "text": "Here are the answers based on the reasoning for each question:\n\n[id 176]\nThe chimpanzee’s hand and foot are similar in size and length, so **B)** is incorrect. The passage mentions that chimpanzees use their hands for bearing weight, so **C)** is correct. The phalanges are not described as straighter, so **A)** is incorrect. The passage does not mention manipulation for chimpanzees, so **D)** is incorrect.\n\n[id 177]\nThe passage explicitly states that **mutation** adds new genetic variation, so **C)** is correct.\n\n[id 178]\nThe postmodern approach emphasizes that there is no one \"good thing to learn\" and that learning is subjective, so **B)** (\"Certain learning experiences should be prioritized over others\") contradicts this idea.\n\n[id 179]\nPureland origami is designed for inexperienced folders or those with limited motor skills, so **A)** is incorrect.\n\n[id 180]\nThe passage mentions the **Indus Valley Civilization**, **Indus-Sarasvati Civilization**, and **Harappan Civilization**, but not the **Indus River Civilization**.\n\n[id 181]\nThe passage states that people might prioritize **selfishness** for immediate benefits.\n\n[id 182]\nThe passage does not mention the formation of **learning hospitals**, so **C)** is incorrect.\n\n[id 183]\nThe passage states that children with ADD engage in risky behaviors to **stimulate their brain**.\n\n---\n```json\n{\n  \"answers\": {\n    \"176\": \"C\",\n    \"177\": \"C\",\n    \"178\": \"B\",\n    \"179\": \"A\",\n    \"180\": \"C\",\n    \"181\": \"D\",\n    \"182\": \"C\",\n    \"183\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1418,
+  "completion_tokens": 407,
+  "total_tokens": 1825,
+  "cost": 0.00027375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027375,
+   "upstream_inference_prompt_cost": 0.0002127,
+   "upstream_inference_completions_cost": 6.105e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

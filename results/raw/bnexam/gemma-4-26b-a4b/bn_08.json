@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 36.5,
+ "text": "1. Insulin deficiency causes diabetes (বহুমূত্র).\n2. Sclerenchyma cells are dead and have thick lignified walls; they do not have chloroplasts. Thus, \"Chloroplast remains\" is incorrect.\n3. Determinant $D = \\begin{vmatrix} 3 & -4 & 2 \\\\ -1 & 5 & 6 \\\\ 7 & -8 & 4 \\end{vmatrix}$. Cofactor of $(1, 2)$ is $(-1)^{1+2} \\cdot \\text{minor}(1, 2) = -1 \\cdot \\begin{vmatrix} -1 & 6 \\\\ 7 & 4 \\end{vmatrix} = -1 \\cdot (-4 - 42) = -1(-46) = 46$.\n4. $M = 0.015$ mol/L. Molar mass of $CaCl_2 \\approx 40 + 35.5 \\times 2 = 111$ g/mol. Concentration in g/L $= 0.015 \\times 111 = 1.665$ g/L. $1.665 \\text{ g/L} = 1665 \\text{ mg/L} = 1665 \\text{ ppm}$.\n5. Distance of point $(x_1, y_1)$ from line $ax+by+c=0$ is $d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$. $d = \\frac{|4(2) + 3(3) - 7|}{\\sqrt{4^2 + 3^2}} = \\frac{|8+9-7|}{5} = \\frac{10}{5} = 2$. The distance to the image is $2d = 4$ units.\n6. \"Panchindriya\" (The Five Senses) is a famous painting by M.F. Husain.\n7. Among halogens, HI is the strongest acid.\n8. Simple Harmonic Motion approximation $\\sin \\theta \\approx \\theta$ is valid for small angles, typically considered up to $5^\\circ$ or $6^\\circ$ in textbooks. However, the standard limit for the small-angle approximation to be highly accurate is often cited around $5^\\circ$.\n9. Doppler effect formula: $f' = f \\frac{v}{v + v_s} = 120 \\frac{320}{320 + 15} = 120 \\frac{320}{335} \\approx 114.6$ Hz.\n10. Period $T = 2\\pi\\sqrt{L/g}$. $T$ is inversely proportional to $\\sqrt{g}$. Period depends on effective length $L$. Frequency $f = \\frac{1}{2\\pi}\\sqrt{g/L}$. Option C is a standard property.\n11. Atrial systole lasts approximately 0.1 s.\n12. The question is missing the objective function to maximize. Assuming it's a standard problem from a specific exam, I cannot solve it without the function. However, looking at the pattern, if the question is \"Find the max value of $x+y$ or similar\", I'll skip reasoning. (Actually, this looks like a broken question). \n13. Average Earth temperature is approximately $15^\\circ\\text{C}$.\n14. For any quantum number, $l$ must be less than $n$ ($l \\le n-1$). In option A, $n=3, l=3$, which is impossible.\n15. Vascular bundles types: Radial (অরীয়), Conjoint (সমসংস্থ/সমপার্শ্বীয়), etc. \"Central\" (কেন্দ্রীয়) is a type of arrangement (e.g., pith is central). Looking at the options, \"Central\" (কেন্দ্রীয়) is often used to describe the pith, but \"Conjoint/Collateral\" are types of vascular bundles. Actually, \"Radial\", \"Conjoint\", \"Collateral\" are types. \"Central\" usually refers to the pith or a specific arrangement. However, \"Samparshiyo\" is not a standard botanical term for bundles. Let's assume B is the intended answer as it describes location rather than type.\n\nNote: Question 12 and 15 are poorly phrased/incomplete. I will provide the best fit.\n\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"B\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"B\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"D\", \"752de91a-4a2e-4c17-b275-f73ebde26e01-59185\": \"C\", \"753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591\": \"C\", \"75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886\": \"C\", \"7618488d-de61-4487-ada3-2eb2618165d7-84216\": \"A\", \"764f6eda-81b0-45a0-bb6d-44c26c53782e-7306\": \"C\", \"7690d276-0c68-4558-8bec-453730563cce-1991\": \"A\", \"76d2d03f-237f-4d28-82a5-1607191c62e2-121114\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1654,
+  "completion_tokens": 1646,
+  "total_tokens": 3300,
+  "cost": 0.00067542,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00067542,
+   "upstream_inference_prompt_cost": 0.00011578,
+   "upstream_inference_completions_cost": 0.00055964
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "A",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "B"
+ },
+ "single": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 2,
+    "total_tokens": 133,
+    "cost": 8.52e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.52e-06,
+     "upstream_inference_prompt_cost": 7.86e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 2,
+    "total_tokens": 138,
+    "cost": 6.152e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.152e-06,
+     "upstream_inference_prompt_cost": 5.712e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 176,
+    "completion_tokens": 2,
+    "total_tokens": 178,
+    "cost": 1.096e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.096e-05,
+     "upstream_inference_prompt_cost": 1.056e-05,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 2,
+    "total_tokens": 141,
+    "cost": 6.278e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.278e-06,
+     "upstream_inference_prompt_cost": 5.838e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 154,
+    "completion_tokens": 2,
+    "total_tokens": 156,
+    "cost": 1.6e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.6e-05,
+     "upstream_inference_prompt_cost": 1.54e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 2,
+    "total_tokens": 147,
+    "cost": 1.965e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.965e-05,
+     "upstream_inference_prompt_cost": 1.885e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 2,
+    "total_tokens": 123,
+    "cost": 6.86e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.86e-06,
+     "upstream_inference_prompt_cost": 6.46e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 148,
+    "completion_tokens": 2,
+    "total_tokens": 150,
+    "cost": 1.54e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.54e-05,
+     "upstream_inference_prompt_cost": 1.48e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 2,
+    "total_tokens": 194,
+    "cost": 1.98e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.98e-05,
+     "upstream_inference_prompt_cost": 1.92e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 162,
+    "completion_tokens": 2,
+    "total_tokens": 164,
+    "cost": 7.244e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.244e-06,
+     "upstream_inference_prompt_cost": 6.804e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 1.302e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.302e-05,
+     "upstream_inference_prompt_cost": 1.242e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": {
+   "text": "Based on the question provided, it appears to be incomplete as it provides a set of constraints (inequalities) but does not state what needs to be calculated (e.g., the maximum value of an objective function like $Z = ax + by$).\n\nHowever, looking at the options and the common structure of such problems in competitive exams, if this were a maximization problem for $Z = 4x + 6y$:\n1. Intersections of boundaries:\n   - $x+2y=8$ and $2x+y=10$ $\\rightarrow$ $x=4, y=2$\n   - Intercepts: $(0,4), (5,0), (0,0)$\n2. Testing $(4,2)$ in $Z = 4x + 6y$: $4(4) + 6(2) = 16 + 12 = 28$ (Not in options).\n3. Testing $Z = 10x + 10y$: $10(4) + 10(2) = 60$ (Not in options).\n\nIf the question asks for the maximum value of $Z = 10x + 12y$:\n$10(4) + 12(2) = 40 + 24 = 64$ (Not in options).\n\nIf the question asks for the maximum value of $Z = 8x + 10y$:\n$8(4) + 10(2) = 32 + 20 = 52$ (Not in options).\n\nIf the question asks for the maximum value of $Z = 7x + 9y$:\n$7(4) + 9(2) = 28 + 18 = 46$.\n\nGiven that **46** is option **B**, it is highly probable that the missing objective function is $Z = 7x + 9y$.\n\nB",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 431,
+    "total_tokens": 590,
+    "cost": 0.000101498,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.000101498,
+     "upstream_inference_prompt_cost": 6.678e-06,
+     "upstream_inference_completions_cost": 9.482e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 2,
+    "total_tokens": 140,
+    "cost": 6.236e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.236e-06,
+     "upstream_inference_prompt_cost": 5.796e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "7690d276-0c68-4558-8bec-453730563cce-1991": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 2,
+    "total_tokens": 211,
+    "cost": 9.218e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.218e-06,
+     "upstream_inference_prompt_cost": 8.778e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 2,
+    "total_tokens": 138,
+    "cost": 1.848e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.848e-05,
+     "upstream_inference_prompt_cost": 1.768e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  }
+ },
+ "answers": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "A",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "B"
+ }
+}

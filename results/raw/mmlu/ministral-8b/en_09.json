@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 19.1,
+ "text": "Here are the answers with reasoning for each question:\n\n---\n**[id 4749]**\nThe torque (τ) applied by friction is τ = F × r = 2.0 N × 0.30 m = 0.60 N·m.\nAngular acceleration (α) is τ/I = 0.60 / 0.06 = 10 rad/s².\nTime to stop (t) is ω₀/α = 20 / 10 = 2 s.\n**Answer: B**\n\n---\n**[id 4827]**\nElectromagnetic radiation order (longest to shortest wavelength): Radio → Infrared → Visible (red, orange, yellow, green, blue, violet) → Ultraviolet → X-rays → Gamma rays.\n**Answer: D (Orange light)**\n\n---\n**[id 4852]**\nThe rubber band’s potential energy varies with how it’s wound, affecting the cart’s kinetic energy and thus its height on the ramp.\n**Answer: A**\n\n---\n**[id 4864]**\nFor capacitors in series, the equivalent capacitance is 1/18 + 1/18 + 1/18 = 1/6 μF.\nThe battery voltage is Q/C = 600 μC / 2 μF = 300 V.\nCharge on each 18 μF capacitor is Q = C × V = 18 μF × 300 V = 5400 μC / 3 = 1800 μC (but wait: series capacitors share the same charge, so it’s 600 μC / 3 = 200 μC).\n**Answer: B (200 μC)**\n\n---\n**[id 4873]**\nStanding waves require the string length to be a multiple of half-wavelengths. If 60 Hz doesn’t produce standing waves, it’s likely the string length isn’t a multiple of half the wavelength.\n**Answer: A**\n\n---\n**[id 4952]**\nThe visible spectrum ranges from ~700 nm (red) to ~400 nm (violet). Violet has the shortest wavelength.\n**Answer: B**\n\n---\n**[id 5102]**\nReinforcement increases the likelihood of a behavior. Jacob’s mother’s action (giving candy) strengthens the crying behavior.\n**Answer: C**\n\n---\n**[id 5184]**\nThe sympathetic nervous system regulates physical reactions like increased blood pressure and breathing rate.\n**Answer: C**\n\n---\n**[id 5312]**\nGage’s case was one of the first to link a specific brain injury (frontal lobe) to behavioral changes.\n**Answer: B**\n\n---\n**[id 5342]**\nThe mind-body problem examines the relationship between mental states (mind) and physical states (body).\n**Answer: B**\n\n---\n**[id 5454]**\nStratified random sampling reduces bias by ensuring representation from subgroups, but it’s not the *least* likely to reduce bias. Following up with non-respondents (A) is less effective than random sampling (D).\n**Answer: A**\n\n---\n**[id 5561]**\nThis is a conditional probability problem. We calculate P(X < 100,000 | X > 80,000) using the normal distribution.\nZ-scores:\n- For 100,000: (100,000 - 75,000)/12,000 ≈ 2.08\n- For 80,000: (80,000 - 75,000)/12,000 ≈ 0.42\nP(X < 100,000 | X > 80,000) = P(Z < 2.08) / P(Z > 0.42) ≈ 0.9812 / 0.3372 ≈ 2.91, but this doesn’t match options. Instead, use the empirical rule or tables:\nP(80,000 < X < 100,000) / P(X > 80,000) ≈ 0.66 (from tables).\n**Answer: C**\n\n---\n**[id 5573]**\nThe t-distribution is *lower* at the tails and *higher* at the center compared to the normal distribution, meaning it’s more spread out.\n**Answer: B (False)**\n\n---\n**[id 5582]**\nThis is a one-tailed test (μ > 4.0) with sample size n = 16 (df = 15). The test statistic is t = (4.3 - 4.0) / (0.6 / √16) = 0.3 / 0.15 = 2.\n**Answer: C**\n\n---\n**[id 5561] (Revisited for clarity)**\nThe correct approach is to use the empirical rule for conditional probability:\nP(X < 100,000 | X > 80,000) = P(80,000 < X < 100,000) / P(X > 80,000).\nFrom standard normal tables:\nP(X < 100,000) ≈ 0.9821, P(X < 80,000) ≈ 0.6591.\nP(X > 80,000) = 1 - 0.6591 = 0.3409.\nP(80,000 < X < 100,000) = 0.9821 - 0.6591 = 0.3230.\nP(X < 100,000 | X > 80,000) = 0.3230 / 0.3409 ≈ 0.947, closest to **D (0.94)**.\n\n---\n**[id 5641]**\nThe percentage of variation explained by a correlation is r².\nFor r = 0.6: r² = 0.36\nFor r = 0.3: r² = 0.09\nRatio: 0.36 / 0.09 = 4.\n**Answer: C**\n\n---\n```json\n{\n  \"answers\": {\n    \"4749\": \"B\",\n    \"4827\": \"D\",\n    \"4852\": \"A\",\n    \"4864\": \"B\",\n    \"4873\": \"A\",\n    \"4952\": \"B\",\n    \"5102\": \"C\",\n    \"5184\": \"C\",\n    \"5312\": \"B\",\n    \"5342\": \"B\",\n    \"5454\": \"A\",\n    \"5561\": \"D\",\n    \"5573\": \"B\",\n    \"5582\": \"C\",\n    \"5641\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1652,
+  "completion_tokens": 1577,
+  "total_tokens": 3229,
+  "cost": 0.00048435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00048435,
+   "upstream_inference_prompt_cost": 0.0002478,
+   "upstream_inference_completions_cost": 0.00023655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "B",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "A",
+  "5561": "D",
+  "5573": "B",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "B",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "A",
+  "5561": "D",
+  "5573": "B",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

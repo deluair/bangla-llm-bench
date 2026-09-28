@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 15.0,
+ "text": "1. Natural processes move from a higher order of organization to a lower order of organization (Entropy increases). Answer: A.\n2. For the books, the tension $T = m_1 g$. The acceleration of the top book is $a = T/m_1 = g$. Answer: C.\n3. Pitch is related to frequency. Answer: B.\n4. $F = ma = dP/dt$. Answer: B.\n5. Nuclear fission reactors produce heat to boil water (steam). Answer: A.\n6. Negative autocorrelation implies an alternating pattern (positive, negative, positive...). Answer: B.\n7. For ARMA(p, q), ACF decays geometrically after lag $q$ and PACF decays geometrically after lag $p$. Answer: C (Correction: In some conventions, ACF tails off after lag $q$ and PACF tails off after lag $p$ for ARMA. Actually, for ARMA(p,q), both decay. But the specific property is: AR(p) $\\rightarrow$ PACF cuts off at $p$; MA(q) $\\rightarrow$ ACF cuts off at $q$. For ARMA(p,q), both decay geometrically. Option C is the closest traditional description for components). Re-evaluating: An ARMA model has an ACF that decays geometrically and a PACF that decays geometrically. The options provided are slightly ambiguous, but C/D describe AR/MA specifically. However, looking at the pattern: AR(p) has PACF cut off at $p$; MA(q) has ACF cut off at $q$. For ARMA(p,q), both decay. Option C/D/A? Actually, in many textbooks, the property is that both decay. Let's look at standard definitions: AR(p) has ACF geometric decay and PACF cut off at $p$. MA(q) has ACF cut off at $q$ and PACF geometric decay. For ARMA(p,q), both decay. Looking at option C: ACF decays and PACF is zero after $q$? No, that's MA. Option B: ACF decays and PACF is zero after $p$? That's AR. The standard answer for ARMA(p,q) is that both decay. Wait, option C says ACF decays and PACF zero after $q$. Option B says ACF decays and PACF zero after $p$. Actually, if it's an ARMA(p,q), both decay. But let's check common exam answers: Usually, they ask for AR or MA. If the question asks for ARMA, the answer is that both decay. Looking at the options: A is \"Both decay\". That is the most correct for ARMA.\n8. Variance decomposition measures the contribution of each shock to the variance of the forecast error. Answer: A (strictly (ii) is the core definition, (iv) is generally false as it can be the error of other shocks). Let's re-read. (ii) is the standard definition. (i) says \"single shock effect\", which is what decomposition does. Answer: A (ii and iv? No). Actually, (ii) is definitely true. (i) is true. (iii) is false. (iv) is not necessarily true. Answer: A.\n9. Residuals $e = y - \\hat{y}$. Answer: C.\n10. Choosing between discrete categories (Bond fund, Cash, Equity) is a multinomial logit problem. Answer: B.\n11. LC oscillators typically operate in the MHz range. Answer: A.\n12. Electrode material requirements: High conductivity, high thermal conductivity, and durability. Answer: D.\n13. Heat sink requirements: High thermal conductivity, large surface area, high melting point. Answer: D.\n14. Parallel capacitors: $C_{eq} = 40 + 40 + 40 + 40 = 160 \\mu F$. Answer: A.\n15. Poles and zeros on the negative real axis characterize RC and RL networks. Answer: D.\n\nWait, re-evaluating 1850: ARMA(p,q) is neither just AR nor just MA. In ARMA, both ACF and PACF decay geometrically. So A is the most accurate.\n\nRe-evaluating 1873: \n(i) True.\n(ii) True.\n(iii) False.\n(iv) False (it depends on the model).\nAnswer is likely A (i and ii)? But (i) and (ii) are not an option. Let's re-read (i): \"measures the effect of a single shock\". Yes. (ii) \"percentage of variance\". Yes. Let's check if (i) and (ii) are in an option. No. Let's re-examine (iv). Actually, in many models, a variable's variance is driven by its own shocks. If (i), (ii), and (iv) are included, answer is A? No, A is only (ii) and (iv). Let's look at (i), (ii), (iii), (iv). If (i) and (ii) are the only ones, and it's not there, maybe (iv) is considered true in certain contexts? Let's look at (i) again. Usually, it's \"percentage of the forecast error variance\". Answer is likely A.\n\nRe-evaluating 1929: LC oscillators (like Hartley or Colpitts) often range from kHz to MHz. Option B (100KHz to 500MHz) is a common high-frequency range.\n\nRe-evaluating 2043: A system with poles/zeros on the negative real axis is indeed RC or RL. Answer: D.\n\nFinal check on 1850: For ARMA(p,q), both ACF and PACF decay exponentially. So A.\n\nFinal check on 1873: In VAR, the variance decomposition describes how much of the forecast error variance of each variable is explained by the shocks to that variable and other variables. So (ii) is true. (i) is true. (iv) is not necessarily true. Let's check option A (ii and iv). If (iv) is considered true, then A.\n\nWait, 1850: An AR(p) model has ACF decays, PACF cuts off at $p$. An MA(q) model has ACF cuts off at $q$, PACF decays. An ARMA(p,q) model has both decay. So A is the only one that fits \"both decay\".\n\n```json\n{\"answers\": {\"1680\": \"A\", \"1726\": \"C\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"A\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1371,
+  "completion_tokens": 1573,
+  "total_tokens": 2944,
+  "cost": 0.000403642,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000403642,
+   "upstream_inference_prompt_cost": 5.7582e-05,
+   "upstream_inference_completions_cost": 0.00034606
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "1680": "A",
+  "1726": "C",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "answers_batch": {
+  "1680": "A",
+  "1726": "C",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {}
+}

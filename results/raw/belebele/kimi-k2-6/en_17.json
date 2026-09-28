@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 62.2,
+ "text": "[id 136] The passage states that “The Spaniards started the colonization period which lasted for three centuries.” → D  \n[id 137] The passage advises being on your best behavior and displaying basic courtesies, i.e., acting polite. → C  \n[id 138] MetroPlus (First Class) is described as “less crowded,” meaning not as many people. → B  \n[id 139] Immigration checks are described as “usually absent or a formality,” i.e., informal. → A  \n[id 140] The text calls Go Running Tours “The Global Running Tours successor.” → B  \n[id 141] The passage recommends forming “a group of four to six for a better per-person rate,” so finding a group of four lowers the cost. → B  \n[id 142] San Francisco’s “frequent portrayal in music, films, literature and popular culture” made it known worldwide. → A  \n[id 143] The passage says snow is sticky, which is why it needs triggering; the triggers listed are sun, more snowfall, and humans. Sticky snow itself is not a trigger. → A  \n\n{\"answers\": {\"136\": \"D\", \"137\": \"C\", \"138\": \"B\", \"139\": \"A\", \"140\": \"B\", \"141\": \"B\", \"142\": \"A\", \"143\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1204,
+  "completion_tokens": 2480,
+  "total_tokens": 3684,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2195
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ }
+}

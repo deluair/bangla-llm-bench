@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 47.8,
+ "text": "\n\n**Question 240**\nThe passage states: \"Former U.S. Speaker of the House Newt Gingrich came in second with 32 percent.\"\nAnswer: B\n\n**Question 241**\nThe passage states: \"Gingrich lauded Santorum\". \"Lauded\" means spoke highly of.\nAnswer: B\n\n**Question 242**\nThe passage states: \"Nadal bagged 88% net points in the match winning 76 points in the first serve.\" This indicates Nadal won the points in the first serve.\nAnswer: B\n\n**Question 243**\nThe passage states: \"Australia's former conservative government refused to ratify Kyoto, saying it would damage the economy\".\nAnswer: B\n\n**Question 244**\nThe passage states: \"Resembling a television remote, the controller uses two sensors...\".\nAnswer: B\n\n**Question 245**\nThe passage states: \"Felicia, once a Category 4 storm... weakened to a tropical depression\". Option B claims it was first a tropical depression, which contradicts the text.\nAnswer: B\n\n**Question 246**\nThe passage mentions the location (Galápagos), length (two generations), and parent birds. It does not provide a specific name for the new species itself.\nAnswer: C\n\n**Question 247**\nThe passage states: \"CowParade, the world's largest public art event\".\nAnswer: D\n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1288,
+  "completion_tokens": 5581,
+  "total_tokens": 6869,
+  "cost": 0.00082857,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00082857,
+   "upstream_inference_prompt_cost": 0.00010304,
+   "upstream_inference_completions_cost": 0.00072553
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5191,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

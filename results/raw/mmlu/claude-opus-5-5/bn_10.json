@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 14.2,
+ "text": "- **5669: C.** In Federalist #15, Hamilton blamed a weak central government under the Articles of Confederation.\n- **5751: A.** McClellan won only NJ, DE and KY, which were smaller states, while Lincoln carried the populous North. The passage gives no direct evidence for the other options.\n- **5807: B.** Calhoun's states'-rights nullification language echoes the Hartford Convention Federalists during the War of 1812.\n- **5817: D.** Repealing Prohibition is an institution adapting to changed opinion.\n- **5849: B.** An unintended result of 1960s liberal success was conservative Republicans mobilizing against expanded government.\n- **5924: B.** The speaker's hopes of educating her children and escaping poverty were blocked by a lack of resources and infrastructure. This one is less certain; D (liberation prioritized over reform) is also plausible.\n- **5973: D.** World War II weakened Britain and helped make the independence movement succeed.\n- **6006: C.** Unlike the Spanish, the English generally did not intermarry with Native peoples.\n- **6073: C.** Both passages show revolutionary freedoms reaching some groups unevenly.\n- **6083: A.** Cooperation with capitalist, socialist and mixed economies refers to the Cold War's rival ideologies.\n- **6118: D.** Differences in personality traits are usually attributed to cohort rather than age. This is a best guess.\n- **6123: D.** Hospice.\n- **6199: A.** Living will.\n- **6202: A.** Pat Shelley advised against retiring if you cannot afford it.\n- **6212: D.** Eden Alternative.\n\n{\"answers\": {\"5669\": \"C\", \"5751\": \"A\", \"5807\": \"B\", \"5817\": \"D\", \"5849\": \"B\", \"5924\": \"B\", \"5973\": \"D\", \"6006\": \"C\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"D\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"A\", \"6212\": \"D\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 15122,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1242,
+  "output_tokens_details": {
+   "thinking_tokens": 571
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 15122,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1242,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 15122,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 15122
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.145824,
+ "answers_batch": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "D",
+  "5849": "B",
+  "5924": "B",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "D",
+  "5849": "B",
+  "5924": "B",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ }
+}

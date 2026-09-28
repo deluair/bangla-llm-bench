@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 9.3,
+ "text": "**220:** Crosswords take 3 × 10 = 30 min and sudoku take 8 × 5 = 40 min, so the total is **70 minutes**.\n\n**221:** 120 − 90 = 30 L are left. Rainwater adds 2 × 30 = 60 L, so the tank holds 30 + 60 = **90 liters**.\n\n**222:** He plants 90 − 40 = 50 petunias, so the total is 90 + 50 = **140 flowers**.\n\n**223:** The second year costs 15000 ÷ 3 = 5000, so the total is 15000 + 5000 = **$20,000**.\n\n**224:** Carlos pays 30 × 3 = 90 and Benji pays 18 × 5 = 90, so together they pay **$180**.\n\n**225:** The bus takes 6 days and the car takes 6 ÷ 2 = 3 days, so the trip is 6 + 3 = **9 days**.\n\n**226:** He ends with 30 fire, 20 + 14 = 34 grass and 40 − 8 = 32 water, for 96 cards. The chance of water is 32/96 ≈ 33.3%, which rounds to **33%**.\n\n**227:** The meal costs 6.50 + 2.00 + 1.00 + 1.00 + 0.50 + 3.00 = 14.00. After the $5 gift card, he still owes **$9**.\n\n**228:** Kalinda places 4 pieces per minute and her mom places 2, so together they place 6. That gives 360 ÷ 6 = 60 minutes, which is **1 hour**.\n\n**229:** First harvest: 30% of 120 = 36, leaving 84. Second harvest: 3/4 of 84 = 63, leaving 84 − 63 = **21 melons**.\n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1468,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 949,
+  "output_tokens_details": {
+   "thinking_tokens": 293
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1468,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 949,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1468,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1468
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.030732000000000002,
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

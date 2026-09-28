@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 20.0,
+ "text": "264: The passage states canyoning combines elements from swimming, climbing, and jumping. D is the most logical requirement among the choices.\n265: The passage says Chile declared independence in 1810, but \"decisive victory over the Spanish was not achieved until 1818.\" Thus, victory (B) did not occur in 1810.\n266: The passage lists sand, gravel, and salt as things used to improve traction. Water (D) is not mentioned and would likely make surfaces more slippery.\n267: The passage states \"The Cook Islands do not have any cities,\" so saying the main cities are Rarotonga and Aitutaki (C) is inaccurate.\n268: The passage states: \"Travellers who had an easy time adjusting to the new culture sometimes have a particularly hard time readjusting to their native culture.\" This matches B.\n269: The passage says \"Moose... aren't inherently aggressive,\" which makes statement A false.\n270: The passage states Madagascar is known for wildlife, while the smaller islands are known as luxury resorts and are either independent or associated with France. It does not attribute the \"continent on its own when it comes to wildlife\" to the smaller islands. Thus, C is the correct answer.\n271: The passage mentions that high-end brand-name frames \"may have two problems; some may be knock-offs...\" Knock-offs are fakes (C).\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1407,
+  "completion_tokens": 385,
+  "total_tokens": 1792,
+  "cost": 0.00022939,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00022939,
+   "upstream_inference_prompt_cost": 9.849e-05,
+   "upstream_inference_completions_cost": 0.0001309
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

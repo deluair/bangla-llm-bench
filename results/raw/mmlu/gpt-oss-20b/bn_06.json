@@ -1,0 +1,83 @@
+{
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  2741,
+  2786,
+  2823,
+  2916,
+  2945,
+  2995,
+  2997,
+  3092,
+  3129,
+  3170,
+  3196,
+  3204,
+  3209,
+  3241,
+  3257
+ ],
+ "seconds": 13.0,
+ "text": "{\"answers\":{\"2741\":\"D\",\"2786\":\"A\",\"2823\":\"D\",\"2916\":\"A\",\"2945\":\"C\",\"2995\":\"C\",\"2997\":\"B\",\"3092\":\"C\",\"3129\":\"C\",\"3170\":\"D\",\"3196\":\"C\",\"3204\":\"B\",\"3209\":\"D\",\"3241\":\"A\",\"3257\":\"C\"}}",
+ "usage": {
+  "prompt_tokens": 2036,
+  "completion_tokens": 2673,
+  "total_tokens": 4709,
+  "cost": 0.00040857,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040857,
+   "upstream_inference_prompt_cost": 6.108e-05,
+   "upstream_inference_completions_cost": 0.00034749
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2806,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "CoreWeave",
+ "answers": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "C",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ },
+ "answers_batch": {
+  "2741": "D",
+  "2786": "A",
+  "2823": "D",
+  "2916": "A",
+  "2945": "C",
+  "2995": "C",
+  "2997": "B",
+  "3092": "C",
+  "3129": "C",
+  "3170": "D",
+  "3196": "C",
+  "3204": "B",
+  "3209": "D",
+  "3241": "A",
+  "3257": "C"
+ },
+ "single": {}
+}

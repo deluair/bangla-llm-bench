@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 29.7,
+ "text": "\n\n[id 170]\nHat = $25. Jacket = $25 * 3 = $75. Pants = avg($25, $75) = $50. Total = $25 + $75 + $50 = $150.\n\n[id 171]\nSpiders: 80 * 8 = 640. Insects: 90 * 6 = 540. Invertebrates: 3 * 10 = 30. Total legs = 640 + 540 + 30 = 1210.\n\n[id 172]\nSally Thirtytwo = 8. Sally Four = 8. Granny Red = 2 * 8 = 16. Sally Two = 16 + 3 = 19. Total = 8 + 8 + 16 + 19 = 51.\n\n[id 173]\nMonthly min = 300 + 200 + 500 = 1000. Monthly pay = 1000 * 1.5 = 1500. Yearly = 1500 * 12 = 18000.\n\n[id 174]\nPeel: 1.5 min. Cut: 5 sec = 1/12 min. Total per potato: 1.5 + 0.5 = 2 min? Wait. 5 seconds is 5/60 minutes = 1/12 min = 0.0833 min.\nLet's stick to seconds. Peel = 90 sec. Cut = 5 sec. Total = 95 sec.\n60 potatoes * 95 sec = 5700 sec.\n5700 / 60 = 95 minutes.\nAnswer is 95.\n\n[id 175]\nProfit per gallon = (20 * 0.50) - (3 + 2) = 10 - 5 = 5.\nGallons made = 25 / 5 = 5.\nSpent on lemons = 5 * 3 = 15.\n\n[id 176]\nTotal Asians = 240. Japanese = 80. Chinese = 160.\nBoys on Chinese team = 60. Girls = 160 - 60 = 100.\n\n[id 177]\nSalary = 6000. Rent = 1500. Fuel = 2000. Remaining = 2500.\nCharity = 1250. Remaining = 1250.\nDaughter + Wife = 900.\nFinal = 1250 - 900 = 350.\n\n[id 178]\nBo = 40. Monic = 36. Rani = 46. Total = 122.\n\n[id 179]\nRate = 10. Hours = 5 + 8 = 13. Earnings = 130.\n\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}",
+ "usage": {
+  "prompt_tokens": 808,
+  "completion_tokens": 4779,
+  "total_tokens": 5587,
+  "cost": 0.00079765,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00079765,
+   "upstream_inference_prompt_cost": 8.08e-05,
+   "upstream_inference_completions_cost": 0.00071685
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3965,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

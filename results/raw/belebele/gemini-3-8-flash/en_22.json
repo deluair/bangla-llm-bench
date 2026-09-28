@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 8.4,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 176]**: The passage states that the chimpanzee's hand is used for bearing weight in knuckle walking, meaning their phalanges are used for bearing weight (**C**).\n- **[id 177]**: The text explicitly notes that \"Mutation adds new genetic variation\" (**C**).\n- **[id 178]**: A postmodern approach rejects absolutes (\"there is not one good thing to learn\"), directly contradicting the prioritization of certain learning experiences over others (**B**).\n- **[id 179]**: Pureland origami was developed for \"inexperienced folders\", so claiming it is intended for experienced folders is inaccurate (**A**).\n- **[id 180]**: The passage names the \"Indus Valley Civilization\", \"Indus-Sarasvati Civilization\", and \"Harappan Civilization\", but never refers to it as the \"Indus River Civilization\" (**C**).\n- **[id 181]**: The text states that \"there will always be more to gain in the short term by acting selfishly\" (**D**).\n- **[id 182]**: The passage mentions the militaristic nature, recruitment of doctors, and the Medical Corps, but makes no mention of learning hospitals (**C**).\n- **[id 183]**: Children with ADD engage in risky behaviors \"in order to stimulate their brain\" (**D**).\n\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25260,
+  "output_tokens": 2176,
+  "thinking_tokens": 1792,
+  "cache_read_tokens": 0,
+  "total_tokens": 27436
+ },
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

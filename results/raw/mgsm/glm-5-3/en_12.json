@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 10.5,
+ "text": "**Brief solutions:**\n\n- **120:** 2 pads/week × 30 sheets = 60 sheets/week × 4 weeks = **240**\n- **121:** Morisette: 5+8=13; Kael: (2×5)+(8÷2)=14; Total = **27**\n- **122:** Mon: 8; Tue+Wed: 6+6=12; Thu–Sun: 7×4=28; Total = **48**\n- **123:** 10 mph × 3 hr = 30 miles; 5 mph × 4 hr = 20 miles; Total = **50**\n- **124:** Stamped 60÷3=20; already-stamped pile grew from X to 30, so X = 30−20 = **10**\n- **125:** Before using 3: 12+3=15; minus husband's 5: 15−5 = **10**\n- **126:** Chicken 38 + fish (38+6=44) = **82**\n- **127:** Lily 50 + Amy (50+20=70) = **120**\n- **128:** Pepper 15; watermelon 3×15=45; orange 45−5=40; 4×45+20×15+10×40 = 180+300+400 = **880**\n- **129:** 500×24 min = 12,000 min = 200 hrs; Revenue 200×$200=$40,000; Cost 200×$150=$30,000; Profit = **10,000**\n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}",
+ "usage": {
+  "completion_tokens": 866,
+  "completion_tokens_details": {
+   "reasoning_tokens": 459
+  },
+  "prompt_tokens": 725,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1591
+ },
+ "served_by": null,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

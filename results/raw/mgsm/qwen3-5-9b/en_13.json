@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 50.3,
+ "text": "\n\n[id 130]\nStart with 60 elves.\n1/3 quit: $60 / 3 = 20$. Remaining: $60 - 20 = 40$.\n10 quit from remaining: $40 - 10 = 30$.\nLeft: 30.\n\n[id 131]\nMay: $500.\nJune: $500 - 60 = 440$.\nTotal: $500 + 440 = 940.\n\n[id 132]\nRoller coaster rides: Pam (2) + Fred (4) = 6.\nLuge rides: Pam (2) + Fred (2) = 4.\nTotal rides: $6 + 4 = 10$.\nCost per ride: 6 tickets.\nTotal tickets: $10 \\times 6 = 60$.\n\n[id 133]\nMonday: 4 miles.\nTuesday: $4 \\times 6 = 24$ miles.\nTotal (Mon-Wed): 41 miles.\nWednesday: $41 - (4 + 24) = 41 - 28 = 13$.\n\n[id 134]\nMonthly: 4 washes $\\times$ $15 = $60.\nYearly: $60 \\times 12 = 720$.\n\n[id 135]\nBrian original: 20.\nLost 5 before comparison: 15.\nBobby = 3 * Brian's current (15) - 5.\nBobby = $45 - 5 = 40$.\n\n[id 136]\nTotal unicorns: 27.\nScottish: $27 / 3 = 9$.\nFemale Scottish: $9 \\times (2/3) = 6$.\n\n[id 137]\nSubs: 2 * $7.50 = $15.\nChips: 2 * $1.50 = $3.\nCookies: 2 * $1.00 = $2.\nSubtotal: $15 + 3 + 2 = $20.\nDelivery Fee (20%): $20 \\times 0.20 = $4.\nTip: $5.\nTotal: $20 + 4 + 5 = 29$.\n\n[id 138]\nTest 1 Incomplete: 75 - (5 * 8) = 35.\nTest 2 Incomplete: 100 - (5 * 6) = 70.\nTotal Incomplete: 35 + 70 = 105.\n\n[id 139]\nBlue: 12.\nPink: 22 more than 4 * Blue.\nPink: 4 * 12 + 22 = 48 + 22 = 70.\n\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}",
+ "usage": {
+  "prompt_tokens": 674,
+  "completion_tokens": 8144,
+  "total_tokens": 8818,
+  "cost": 0.001289,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001289,
+   "upstream_inference_prompt_cost": 6.74e-05,
+   "upstream_inference_completions_cost": 0.0012216
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7382,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

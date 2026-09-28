@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 56.9,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**Problem 40:**\n- Suzi's iPhone is 1 year old.\n- Ben's iPhone is 2 times older than Suzi's = 1 * 2 = 2 years old.\n- Brandon's iPhone is 4 times older than Ben's = 2 * 4 = 8 years old.\n\n**Problem 41:**\n- The dragon's fire range is 1000 feet.\n- Polly's normal javelin throw is 400 feet.\n- With the sapphire, she can throw 3 times further: 400 * 3 = 1200 feet.\n- To stand out of the dragon's range, she can be up to: 1200 - 1000 = 200 feet outside the fire range.\n\n**Problem 42:**\n- Grandma Jones baked 5 pies, each cut into 8 slices. Total slices = 5 * 8 = 40 slices.\n- After the guests ate, 14 slices were left.\n- Slices taken = 40 - 14 = 26 slices.\n\n**Problem 43:**\n- Remaining calories needed = 2000 - 1800 = 200 calories.\n- The 300g bag has 5 servings, so one serving is 300 / 5 = 60 grams.\n- One serving (60 grams) contains 250 calories. \n- Grams per calorie = 60 / 250 = 0.24 grams.\n- Grams for 200 calories = 200 * 0.24 = 48 grams.\n\n**Problem 44:**\n- Charlie makes 20 candles, requiring 2 pounds of wax (10 candles per pound).\n- Cost for 2 pounds of wax = 2 * $10.00 = $20.00.\n- Revenue from selling 20 candles at $2.00 each = 20 * $2.00 = $40.00.\n- Total profit = Revenue - Cost = $40.00 - $20.00 = $20.\n\n**Problem 45:**\n- Monday's articles = 5.\n- Tuesday's articles = 5 + (2/5 of 5) = 5 + 2 = 7 articles.\n- Wednesday's articles = 7 * 2 = 14 articles.\n- Total articles = 5 + 7 + 14 = 26 articles.\n- Total time = 26 articles * 4 hours = 104 hours.\n\n**Problem 46:**\n- Initial Post-it notes = 80.\n- Let P be the number of notes in the bought pack.\n- Candice used 220 notes, and has 23 notes left over.\n- 80 + P - 220 = 23\n- P - 140 = 23\n- P = 163 notes.\n\n**Problem 47:**\n- John spent $200 on blue ties at $40 each, meaning he bought 200 / 40 = 5 blue ties.\n- He bought twice as many red ties = 5 * 2 = 10 red ties.\n- Red ties cost 50% more than blue ties ($40 * 1.5) = $60 each.\n- Total spent on red ties = 10 * $60 = $600.\n- Total spent on all ties = $200 + $600 = $800.\n\n**Problem 48:**\n- The wire is 4 feet long, which equals 4 * 12 = 48 inches.\n- Each piece is 6 inches long.\n- Number of pieces = 48 / 6 = 8 pieces.\n\n**Problem 49:**\n- The 15-floor building has 8 units per floor = 15 * 8 = 120 total units.\n- 3/4 of the units are occupied, meaning 1/4 are unoccupied.\n- Unoccupied units = 120 * (1/4) = 30 units.\n\n```json\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n```\n",
+ "usage": {
+  "input_tokens": 16962,
+  "output_tokens": 7460,
+  "thinking_tokens": 6390,
+  "cache_read_tokens": 8140,
+  "total_tokens": 24422
+ },
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 35.4,
+ "text": "[id 56] The passage states that Germany prepared to invade Britain and code-named the attack \"Operation Sealion.\" **B) Britain**\n\n[id 57] The passage mentions the need for a troop launching pad, getting rid of British bases, and getting rid of ships in Egypt. It mentions that Italy had built four new ships before the war, but not as a necessary step to capture African countries. **B) Building additional ships**\n\n[id 58] The passage explicitly states that the Soviet Union's Red Army invaded eastern Poland \"in violation of\" multiple treaties. **D) The Soviets**\n\n[id 59] The passage mentions a fire captain responding to a roller-coaster incident, not a fire occurring in Santa Clara. **A) There was a fire in Santa Clara**\n\n[id 60] The first sentence says the prison \"has been set alight during a riot.\" **D) The prison was set on fire**\n\n[id 61] The passage says each show \"would also provide recommendations for books that children should look for when they went to their library.\" **D) Books**\n\n[id 62] The officials argued the tree was infected with fungus, posed a public health hazard, and was in imminent danger of falling over. They did not argue it should be preserved; that was the position of those who saved it via court ruling. **B) It should be preserved**\n\n[id 63] The passage says Poland signed ACTA but the government decided \"not to ratify the agreement, for now\" due to protests. **B) Poland**\n\n{\"answers\": {\"56\": \"B\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1290,
+  "completion_tokens": 1352,
+  "total_tokens": 2642,
+  "completion_tokens_details": {
+   "reasoning_tokens": 982
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

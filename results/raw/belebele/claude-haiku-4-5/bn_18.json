@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 78.6,
+ "text": "Looking at each question carefully:\n\n**[id 144]** The passage states: \"তরকারি হচ্ছে ভেষজ এবং মশলার সাথে মাংস বা সবজি\" (curry is herbs and spices with meat or vegetables). This directly defines curry's basic ingredients.\nAnswer: **B**\n\n**[id 145]** The passage mentions making coffee in the morning and chamomile tea at night at home. It also mentions bars and pubs for diverse drinks. Juice is not mentioned for home preparation, and beer is specifically associated with bars/pubs, not home preparation.\nAnswer: **C**\n\n**[id 146]** The passage explicitly states about student visas: \"আপনার কোর্সের কমপক্ষে প্রথম বছরে নিজেকে চালানোর জন্য আর্থিক সম্পদ প্রমাণের প্রয়োজন হবে\" (financial proof for at least the first year is required). This financial requirement is specifically mentioned for student visas, not tourist or business visas.\nAnswer: **D**\n\n**[id 147]** The passage begins: \"গ্রীষ্মকালে ঘনবর্ষণ বনাঞ্চলের মধ্যে বেড়াতে যাবার সিদ্ধান্ত নিলে আপনাকে মশার সম্পর্কে বিশেষভাবে সতর্ক থাকতে হবে\" (if you decide to visit forests with heavy rainfall in summer, you should be especially careful about mosquitoes). The specific time mentioned is summer.\nAnswer: **A**\n\n**[id 148]** The passage states Timbuktu \"এর একটি বিমানবন্দরও রয়েছে\" (also has an airport), so you CAN fly there. Options A, B, and D are all confirmed by the passage; only option C contradicts it.\nAnswer: **C**\n\n**[id 149]** The passage clearly states: \"যখন সেই মেঘ মাটি স্পর্শ করে তখন টর্নেডো-তে পরিণত হয়\" (when the cloud touches the ground, then it becomes a tornado).\nAnswer: **D**\n\n**[id 150]** The passage states: \"বিচারের মাপকাঠি হিসাবে 35 mm ফিল্ম (36 বাই 24 mm নেগেটিভ) বেশ প্রচলিত\" (35 mm film with 36 by 24 mm negative is quite standard). The specific negative size mentioned is 36 x 24 mm.\nAnswer: **D**\n\n**[id 151]** The passage states: \"সমাধির মধ্যে থাকা বিপুল ধনসম্পদ এখন আর এতে নেই, তা কায়রোর মিশরীয় যাদুঘরে সরিয়ে দেওয়া হয়েছে\" (the treasure that was in the tomb is no longer there; it has been moved to the Egyptian museum in Cairo). The passage also indicates the mummy's head and shoulders are still visible.\nAnswer: **D**\n\n```json\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4875,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7217,
+  "output_tokens_details": {
+   "thinking_tokens": 6304
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4875,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 7217,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4875,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4875
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.045844,
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

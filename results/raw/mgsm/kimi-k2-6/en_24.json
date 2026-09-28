@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 100.4,
+ "text": "[id 240] Robert has 27, James has 33, so John has 54 − 33 = 21 more.\n[id 241] Dolly reads 3 books and Pandora reads 3 books, for a total of 6.\n[id 242] Mike writes to 3 pen pals, each gets 2 five‑page letters per week: 30 pages total. At 6 minutes per page that is 180 minutes = 3 hours.\n[id 243] Boss calls use 15 × 30 = 450 minutes. Total used = 450 + 300 = 750. Remaining = 1000 − 750 = 250.\n[id 244] After Kyle and Billy, Griffin has 9. Let Ginger give x. Then 9 + x − 2 = 27, so x = 20.\n[id 245] Snail difference is 28. Total fish F satisfies 28 = 2F, so F = 14. Each aquarium has 14 ÷ 2 = 7 fish.\n[id 246] Total hours = 6 × 4 × 5 = 120. Cost = 120 × $250 = $30,000. After 10% discount: $30,000 × 0.9 = $27,000.\n[id 247] Total spent = 12 + 43 + 15 + 4 + 22 = $96. Split three ways: $96 ÷ 3 = $32.\n[id 248] 4 bags × 50 lbs = 200 lbs. 200 × $1.50 = $300.\n[id 249] Sue ate 20 + 26 = 46 cookies; her sister ate 18. Difference is 28 cookies, so 28 × 200 = 5,600 calories.\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}",
+ "usage": {
+  "prompt_tokens": 709,
+  "completion_tokens": 3920,
+  "total_tokens": 4629,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3477
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

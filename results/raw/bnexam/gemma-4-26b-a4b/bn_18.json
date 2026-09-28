@@ -1,0 +1,506 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "dfe1ecce-b0c0-4062-aa7f-332a6626388b-3443",
+  "e0c2c885-0c59-4a93-904a-259cf57151f7-1868",
+  "e2df37d5-d154-45d4-9692-563b39550909-46078",
+  "e664cfb6-ea83-4aa2-ba9e-832ec68fe7a4-3867",
+  "e6d6d54c-e684-4e3a-b65f-6dcbdc1dfbcd-57549",
+  "e805c4be-ab46-48f1-b623-f0b48670a511-82839",
+  "e87d7712-4695-40bf-bbe7-ae488e23de71-53072",
+  "e8e682b9-c45a-4dd1-a533-7b4363c47cf9-30248",
+  "eb1e67f9-494a-4324-8ed8-f6fe26cb267e-1796",
+  "ee8b0913-2e81-48f6-bda5-74e1df6b29a8-51984",
+  "f0760529-1662-422e-85ce-28eb5625f314-58678",
+  "f0c524bf-a755-4b95-8409-60fd341cf5df-93139",
+  "f286665c-f8c2-4d10-8a43-00529e66321a-15852",
+  "f29e56e4-fb0e-447c-ab93-209e2d6d1dc9-144191",
+  "f2f3970c-6ce1-4a76-8c0f-72ecc28e9fcf-61409"
+ ],
+ "seconds": 58.6,
+ "text": "1. For $6x^2 - 5x + 1 = 0$, the roots are $\\alpha, \\beta$. The equation with roots $1/\\alpha, 1/\\beta$ is obtained by replacing $x$ with $1/x$: $6(1/x)^2 - 5(1/x) + 1 = 0 \\Rightarrow 6 - 5x + x^2 = 0 \\Rightarrow x^2 - 5x + 6 = 0$. (D)\n2. 'টাকায় টাকা হয়' (Money makes money): 'টাকায়' indicates the instrument or means. This is Karaka: Karana (Instrumental) with 7th case (Saptami). (B)\n3. Bangladesh flag ratio is 10:6. (A)\n4. Hydrogen chloride (HCl) is a covalent compound (A is true). Dry HCl gas does not change blue litmus to red (D is true). It is a colorless gas with a pungent smell (C is true). Dry gas does not react with bases to produce water (water is produced when dissolved in water) (B is technically the outlier in common chemical property definitions for *dry* gas, but let's re-evaluate: Dry HCl gas reacts with bases to form salt and water vapor/moisture, but usually \"reacting with base to form water\" refers to the aqueous state. However, the question asks what is *not* a property. Option B: \"Dry gas reacts with base to produce salt and water\" - actually, moisture/water is the medium. But looking at standard textbooks, D is a property, A is a property, C is a property. B is often used to describe the aqueous reaction. Actually, looking at standard chemistry: HCl gas + base $\\rightarrow$ Salt + $H_2O$. The option B says it produces salt and water. This is true. Let's look at B again. Wait, B says \"Dry gas reacts with base...\". If it's dry, it doesn't produce liquid water in the reaction itself, but the reaction occurs. Let's check D. \"Does not turn blue litmus red\" - this is true for dry gas. Wait, option B might be considered incorrect because it's the *aqueous* reaction that is emphasized. Actually, HCl is a covalent compound, has pungent odor, dry gas doesn't turn litmus red. The statement \"Dry gas reacts with base to produce salt and water\" is technically the definition of an acid-base reaction, but in a dry state, you get salt and water vapor. Actually, B is often the \"incorrect\" one in these specific tests because the liquid water is a product of the aqueous reaction. Let's check if there's a better option. Actually, B is the most likely intended answer if the focus is on \"dry\".) *Correction*: Re-reading: B is true for the reaction. Let's look at the properties. All are largely true. However, B says \"produces salt and water\". In a dry reaction, it's salt and water vapor. Let's reconsider. Actually, most textbooks state B is a property. Let's look at D. Dry HCl gas does not turn blue litmus red. That is correct. Let's look at A. HCl is covalent. Correct. Let's look at C. Pungent colorless gas. Correct. This is a tricky one. Let's assume B is the intended answer if the examiner thinks \"water\" implies liquid.\n5. The outer thick, hard, and cutinized layer of pollen is the Exine. (B)\n6. Fluid mosaic model states phospholipids form a bilayer (2 layers). (D)\n7. If $\\vec{A} = -\\vec{B}$, then $\\vec{A} \\times \\vec{B} = (-\\vec{B}) \\times \\vec{B} = -(\\vec{B} \\times \\vec{B}) = 0$. (D)\n8. If intermolecular forces of X are weaker than Y, X will have higher vapor pressure and lower boiling point. (A)\n9. Yellow eyes and skin (jaundice) due to a virus is characteristic of Hepatitis. (D)\n10. 'Paran' (2022) was directed by Mezbaur Rahman Sumon. (C)\n11. Atropa belladonna belongs to the Solanaceae family. (B)\n12. A group of genes at a specific locus on homologous chromosomes is called an Allele/Allele pair (not listed exactly, but \"Allele\" is closest to the concept, though the question phrasing \"two genes together\" is slightly odd). In many contexts, a pair of alleles is the answer. However, looking at the options: Allelomorp is a variant of Allele. (B)\n13. $\\int \\frac{e^x(1+x)}{xe^x} dx = \\int \\frac{1+x}{x} dx = \\int (\\frac{1}{x} + 1) dx = \\ln|x| + x + C$. None of the options perfectly match $\\ln|x| + x + C$. Let's re-examine: $\\int \\frac{e^x(1+x)}{xe^x} dx = \\int \\frac{1+x}{x} dx$. Wait, $\\int \\frac{1}{x} + 1 = \\ln|x| + x$. Let's check if the expression was $\\int \\frac{e^x(1+x)}{x^2 e^x}$? No. If the question is $\\int \\frac{e^x(1+x)}{x \\cdot e^x} dx$ it's $\\ln|x|+x$. If the numerator was the derivative of the denominator... let's look at option D: $\\ln|xe^x| + C = \\ln|x| + x + C$. This matches! (D)\n14. For $E = -13.6\\text{eV}$, the electron is bound. The energy required to remove it is $13.6\\text{eV}$ (Ionization energy). Options A, B, C relate to the energy context. \"The electron is not free\" (D) is a statement of fact, not a \"value\" or \"property\" in the same sense, but the question asks \"which is not correct\". If $E = -13.6\\text{eV}$, it *is* bound. Thus \"The electron is not free\" is a correct statement. \"The energy to free it\" is $13.6\\text{eV}$. \"The energy of the electron to roam free\" is $0\\text{eV}$ (for a free electron at rest). This is a poorly phrased question. However, usually, $E = -13.6\\text{eV}$ is the binding energy. (D) is a true statement. C is a bit weird. Let's assume the question asks what the value $-13.6\\text{eV}$ represents. It is the binding energy. It is not the energy of a free electron. (C)\n15. BAPEX is the state oil and gas exploration company in Bangladesh. (B)\n\nFinal check on B for [e664]: Actually, B is usually taught as a property. Let's look at D again. If it's dry, it doesn't turn litmus red. That is true. Is it possible B is the answer because \"water\" is produced in the *aqueous* form? In most school level chemistry, B is listed as a property. Let's look at C. \"Dry gas... colorless gas...\". This is true. A: \"Covalent\". True. There might be a typo in the question or options. Let's look at B again. Many sources say \"Dry HCl gas does not react with bases to form water, it needs to be dissolved\". That's a bit pedantic. Let's pick B.\n\nFinal check on [f2866]: $\\int (1/x + 1) dx = \\ln|x| + x + C$. Option D: $\\ln|xe^x| = \\ln|x| + \\ln(e^x) = \\ln|x| + x$. Yes! (D)\n\nFinal check on [f29e]: $E = -13.6\\text{eV}$. This means the electron is bound. So \"The electron is not free\" is true. \"The energy to free it\" is $13.6\\text{eV}$. \"Binding energy\" is $13.6\\text{eV}$. \"Energy to roam free\" - if it is free, its energy is $\\ge 0$. This is a mess. But D is definitely a true statement. Let's assume the question meant which is not the value.\n\nFinal check on [e0c2c]: 'টাকায় টাকা হয়'. 'টাকায়' is the 'karana' (means) by which money is made. (B)\n\nFinal check on [e2df37]: Ratio 10:6. (A)\n\nFinal check on [e6d6d5]: X force < Y force $\\Rightarrow$ X has higher vapor pressure and lower boiling point. (A)\n\nFinal check on [eb1e67]: Hepatitis. (D)\n\nFinal check on [ee8b09]: Mezbaur Rahman Sumon. (C)\n\nFinal check on [f07605]: Solanaceae. (B)\n\nFinal check on [f0c524]: Allele. (B)\n\nFinal check on [f2f3970]: BAPEX. (B)\n\nFinal check on [e87d771]: $\\vec{A} = -\\vec{B} \\Rightarrow \\vec{A} \\times \\vec{B} = 0$. (D)\n\nFinal check on [e805c4]: 2 layers. (D)\n\nFinal check on [e664cfb]: Let's re-read. \"Which is not a property?\". A is true. C is true. D is true. B says \"Dry gas reacts... to produce salt and water\". This is the most likely \"incorrect\" one because the reaction is typically described for the aqueous solution.\n\nWait, [e2df37] Bangladesh flag. The ratio is 10:6, which is 5:3. This is the standard. (A)\n\nFinal check on [dfe1ecce]: $x^2 - 5x + 6 = 0$. (D)\n\nOne last look at [f29e56e4]: If $E = -13.6\\text{eV}$, then the electron is bound. \"The electron is not free\" is a true statement. \"The energy required to free it\" is $13.6\\text{eV}$. \"The binding energy\" is $13.6\\text{eV}$. \"The energy of the electron to roam free\" is $0$. The question asks which is \"not correct\". This is likely (C) or (D) depending on interpretation. However, in these types of tests, C is often the \"incorrect\" description of the value $-13.6\\text{eV}$ itself. Actually, if the electron is in the ground state, its energy is $-13.6\\text{eV}$. If it's free, its energy is $0$. So saying its energy is $-13.6\\text{eV}$ and it's \"to roam free\" is wrong. (C)\n\nWait, [e664cfb] again. Let's check if HCl is actually ionic. No, it's covalent. So A is true. C is true. D is true. If B is also true, the question is bad. Let's check if there's another interpretation. \"Dry HCl gas does not react with base...\". Actually, it does. So B is true. Is there any other property? Let's re-read. Maybe D is the answer if they consider the litmus part? No, dry HCl does not turn litmus red. Let's look at A. Is HCl covalent? Yes. So A is true. This is a tough one. Let's look at B again. \"Dry gas... produces... water\". In a dry reaction, you don't get liquid water. This is the most scientifically \"incorrect\" phrasing. (B)\n\nFinal check on [e0c2c885]: 'টাকায় টাকা হয়' - 'টাকায়' is the source/instrument. In Bengali grammar, 'করণের কারক' (instrumental) is 'টাকায়'. So (B).\n\nFinal check on [e8e682b9]: X is weaker than Y $\\rightarrow$ X has higher vapor pressure and lower boiling point. (A)\n\nFinal check on [f0c524bf]: Allele pair / Allele. Allelomorp is a variant spelling/term used in some contexts. (B)\n\nFinal check on [f286665c]: $\\int (1/x + 1) dx = \\ln|x| + x + C = \\ln|x| + \\ln(e^x) + C = \\ln|xe^x| + C$. (D)\n\nFinal check on [f2f3970c]: BAPEX. (B)\n\nFinal check on [e87d7712]: $A \\times (-A) = 0$. (D)\n\nFinal check on [e805c4be]: 2 layers. (D)\n\nFinal check on [e664cfb6]: Let's go with B.\n\nFinal check on [e6d6d54c]: X force < Y force $\\implies$ X is more volatile $\\implies$ higher vapor pressure, lower boiling point. (A)\n\nFinal check on [eb1e67f9]: Hepatitis is viral and causes jaundice. (D)\n\nFinal check on [ee8b0913]: Mezbaur Rahman Sumon. (C)\n\nFinal check on [f0760529]: Solanaceae. (B)\n\nFinal check on [f29e56e4]: If $E = -13.6$, it's bound. It's not free. (C)\n\nFinal check on [e2df37d5]: 10:6. (A)\n\nFinal check on [dfe1ecce]: $x^2 - 5x + 6 = 0$. (D)\n\nFinal check on [e0c2c885]: (B)\n\nFinal check on [e664cfb6]: (B)\n\nFinal check on [e6d6d54c]: (A)\n\nFinal check on [e805c4be]: (D)\n\nFinal check on [e87d7712]: (D)\n\nFinal check on [e8e682b9]: (A)\n\nFinal check on [eb1e67f9]: (D)\n\nFinal check on [ee8b0913]: (C)\n\nFinal check on [f0760529]: (B)\n\nFinal check on [f0c524bf]: (B)\n\nFinal check on [f286665c]: (D)\n\nFinal check on [f29e56e4]: (C)\n\nFinal check on [f2f3970c]: (B)\n\nWait, for [e664cfb6], let's look at C again. \"Hydrogen chloride is a colorless gas with a pungent smell\". This is correct. A is correct. D is correct. B is the only one that can be contested due to \"dry\" vs \"water\".\n\nWait, [f29e56e4] again. $E = -13.6\\text{eV}$. This is the energy of the electron. The \"energy required to free it\" is $13.6\\text{eV}$. The \"binding energy\" is $13.6\\text{eV}$. \"The electron is not free\" is a description of its state. \"The energy of the electron to roam free\" - if it was free, its energy would be $0$. So $E = -13.6\\text{eV}$ is NOT the energy to roam free. Therefore (C) is the most logical \"not correct\" option.\n\nWait, [f0c524bf]... \"Two genes together in a locus\" is often the definition of an Allele (or Allele pair). (B) is the best fit.\n\nWait, [e0c2c885]. 'টাকায় টাকা হয়'. 'টাকায়' is the means. 'করণের কারকে ৭মী বিভক্তি'. So B.\n\nWait, [f286665c]. $\\ln|xe^x| = \\ln|x| + x$. Yes.\n\nFinal decision for [e664cfb6]: Many sources say dry HCl gas reacts with bases to form salt and water. If that's a property, what's not? Let's look at A. HCl is a covalent compound. Correct. Let's look at D. It doesn't turn blue litmus red. Correct. Is it possible that the question thinks HCl is ionic? No, that's unlikely. Is it possible HCl is not a gas? It's a gas. This question is poorly constructed, but B is the most common \"trick\" answer in such contexts.\n\nWait, looking at [e664cfb6] again. Is it possible that B is correct and D is incorrect? No, dry HCl does not turn litmus red. Is it possible that A is incorrect? No, HCl is covalent. Let me search for the question in Bengali. \"কোনটি হাইড্রোজেন ক্লোরাইড এর ধর্ম নয়?\" Often the answer is that it *does* turn blue litmus red, but that's only if it's *aqueous*. Since the question says \"Dry gas... does not turn blue litmus red\" (D), and that is a *true* statement, then D is a property. If B is also a property, we are stuck. Let's look at B again. \"Dry gas reacts with base to produce salt and water\". This is a standard way to describe the reaction. Let's look at C. \"Hydrogen chloride is a colorless gas with a pungent smell\". This is a property. This is very frustrating. Let's re-read A. \"It is a covalent compound\". This is a property. If all are properties, there's a mistake. I'll stick with B.\n\nActually, let's look at B again. In many textbooks, the reaction of *dry* HCl with a base is not discussed, only the *aqueous* reaction. So B might be the one that is \"not a property\" of the *dry* gas specifically.\n\nOne more check on [f29e56e4]. If the question is \"which is not correct\", and $E = -13.6\\text{eV}$, then $13.6\\text{eV}$ is the energy to free it. So B is correct. $13.6\\text{eV}$ is the binding energy. So A is correct. The electron is not free. So D is correct. C is the only one that's logically \"not correct\" as a description of the value.\n\n```json\n{\"answers\": {\"dfe1ecce-b0c0-4062-aa7f-332a6626388b-3443\": \"D\", \"e0c2c885-0c59-4a93-904a-259cf57151f7-1868\": \"B\", \"e2df37d5-d154-45d4-9692-563b39550909-46078\": \"A\", \"e664cfb6-ea83-4aa2-ba9e-832ec68fe7a4-3867\": \"B\", \"e6d6d54c-e684-4e3a-b65f-6dcbd1dfbcd-57549\": \"B\", \"e805c4be-ab46-48f1-b623-f0b48670a511-82839\": \"D\", \"e87d7712-4695-40bf-bbe7-ae488e23de71-53072\": \"D\", \"e8e682b9-c45a-4dd1-a533-7b4363c47cf9-30248\": \"A\", \"eb1e67f9-494a-4324-8ed8-f6fe26cb267e-1796\": \"D\", \"ee8b0913-2e81-48f6-bda5-74e1df6b29a8-51984\": \"C\", \"f0760529-1662-422e-85ce-28eb5625f314-58678\": \"B\", \"f0c524bf-a755-4b95-8409-60fd341cf5df-93139\": \"B\", \"f286665c-f8c2-4d10-8a43-00529e66321a-15852\": \"D\", \"f29e56e4-fb0e-447c-ab93-209e2d6d1dc9-144191\": \"C\", \"f2f3970c-6ce1-4a76-8c0f-72ecc28e9fcf-61409\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1568,
+  "completion_tokens": 4924,
+  "total_tokens": 6492,
+  "cost": 0.001634,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001634,
+   "upstream_inference_prompt_cost": 0.0001568,
+   "upstream_inference_completions_cost": 0.0014772
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "dfe1ecce-b0c0-4062-aa7f-332a6626388b-3443": "D",
+  "e0c2c885-0c59-4a93-904a-259cf57151f7-1868": "B",
+  "e2df37d5-d154-45d4-9692-563b39550909-46078": "A",
+  "e664cfb6-ea83-4aa2-ba9e-832ec68fe7a4-3867": "B",
+  "e6d6d54c-e684-4e3a-b65f-6dcbd1dfbcd-57549": "B",
+  "e805c4be-ab46-48f1-b623-f0b48670a511-82839": "D",
+  "e87d7712-4695-40bf-bbe7-ae488e23de71-53072": "D",
+  "e8e682b9-c45a-4dd1-a533-7b4363c47cf9-30248": "A",
+  "eb1e67f9-494a-4324-8ed8-f6fe26cb267e-1796": "D",
+  "ee8b0913-2e81-48f6-bda5-74e1df6b29a8-51984": "C",
+  "f0760529-1662-422e-85ce-28eb5625f314-58678": "B",
+  "f0c524bf-a755-4b95-8409-60fd341cf5df-93139": "B",
+  "f286665c-f8c2-4d10-8a43-00529e66321a-15852": "D",
+  "f29e56e4-fb0e-447c-ab93-209e2d6d1dc9-144191": "C",
+  "f2f3970c-6ce1-4a76-8c0f-72ecc28e9fcf-61409": "B"
+ },
+ "single": {
+  "dfe1ecce-b0c0-4062-aa7f-332a6626388b-3443": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 2,
+    "total_tokens": 184,
+    "cost": 8.084e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.084e-06,
+     "upstream_inference_prompt_cost": 7.644e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "e0c2c885-0c59-4a93-904a-259cf57151f7-1868": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 2,
+    "total_tokens": 144,
+    "cost": 6.404e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.404e-06,
+     "upstream_inference_prompt_cost": 5.964e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "e2df37d5-d154-45d4-9692-563b39550909-46078": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 2,
+    "total_tokens": 132,
+    "cost": 1.104e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.104e-05,
+     "upstream_inference_prompt_cost": 1.04e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "e664cfb6-ea83-4aa2-ba9e-832ec68fe7a4-3867": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 2,
+    "total_tokens": 158,
+    "cost": 8.96e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.96e-06,
+     "upstream_inference_prompt_cost": 8.56e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "e6d6d54c-e684-4e3a-b65f-6dcbdc1dfbcd-57549": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 2,
+    "total_tokens": 136,
+    "cost": 1.24e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.24e-05,
+     "upstream_inference_prompt_cost": 1.18e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "e805c4be-ab46-48f1-b623-f0b48670a511-82839": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 1.027e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.027e-05,
+     "upstream_inference_prompt_cost": 9.59e-06,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "e87d7712-4695-40bf-bbe7-ae488e23de71-53072": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 1.12e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.12e-05,
+     "upstream_inference_prompt_cost": 1.056e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "e8e682b9-c45a-4dd1-a533-7b4363c47cf9-30248": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 2,
+    "total_tokens": 201,
+    "cost": 1.461e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.461e-05,
+     "upstream_inference_prompt_cost": 1.393e-05,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "eb1e67f9-494a-4324-8ed8-f6fe26cb267e-1796": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 2,
+    "total_tokens": 145,
+    "cost": 1.219e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.219e-05,
+     "upstream_inference_prompt_cost": 1.159e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "ee8b0913-2e81-48f6-bda5-74e1df6b29a8-51984": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 8.88e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.88e-06,
+     "upstream_inference_prompt_cost": 8.22e-06,
+     "upstream_inference_completions_cost": 6.6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "f0760529-1662-422e-85ce-28eb5625f314-58678": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 2,
+    "total_tokens": 132,
+    "cost": 5.9e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.9e-06,
+     "upstream_inference_prompt_cost": 5.46e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "f0c524bf-a755-4b95-8409-60fd341cf5df-93139": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 2,
+    "total_tokens": 143,
+    "cost": 1.913e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.913e-05,
+     "upstream_inference_prompt_cost": 1.833e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "f286665c-f8c2-4d10-8a43-00529e66321a-15852": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 158,
+    "completion_tokens": 2,
+    "total_tokens": 160,
+    "cost": 9.08e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 9.08e-06,
+     "upstream_inference_prompt_cost": 8.68e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "f29e56e4-fb0e-447c-ab93-209e2d6d1dc9-144191": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 2,
+    "total_tokens": 158,
+    "cost": 2.108e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.108e-05,
+     "upstream_inference_prompt_cost": 2.028e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "f2f3970c-6ce1-4a76-8c0f-72ecc28e9fcf-61409": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 2,
+    "total_tokens": 126,
+    "cost": 1.692e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.692e-05,
+     "upstream_inference_prompt_cost": 1.612e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "dfe1ecce-b0c0-4062-aa7f-332a6626388b-3443": "D",
+  "e0c2c885-0c59-4a93-904a-259cf57151f7-1868": "B",
+  "e2df37d5-d154-45d4-9692-563b39550909-46078": "A",
+  "e664cfb6-ea83-4aa2-ba9e-832ec68fe7a4-3867": "B",
+  "e6d6d54c-e684-4e3a-b65f-6dcbdc1dfbcd-57549": "B",
+  "e805c4be-ab46-48f1-b623-f0b48670a511-82839": "D",
+  "e87d7712-4695-40bf-bbe7-ae488e23de71-53072": "D",
+  "e8e682b9-c45a-4dd1-a533-7b4363c47cf9-30248": "A",
+  "eb1e67f9-494a-4324-8ed8-f6fe26cb267e-1796": "D",
+  "ee8b0913-2e81-48f6-bda5-74e1df6b29a8-51984": "C",
+  "f0760529-1662-422e-85ce-28eb5625f314-58678": "B",
+  "f0c524bf-a755-4b95-8409-60fd341cf5df-93139": "B",
+  "f286665c-f8c2-4d10-8a43-00529e66321a-15852": "D",
+  "f29e56e4-fb0e-447c-ab93-209e2d6d1dc9-144191": "C",
+  "f2f3970c-6ce1-4a76-8c0f-72ecc28e9fcf-61409": "B",
+  "e6d6d54c-e684-4e3a-b65f-6dcbd1dfbcd-57549": "B"
+ }
+}

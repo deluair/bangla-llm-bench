@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 58.3,
+ "text": "[id 210]: Total cost is $30 + 2×$20 = $70. Sara has $10 saved and earns 4×$5 = $20 babysitting, leaving $40 to earn. At $4 per lawn, she must mow 10 times.\n\n[id 211]: Let red chickens = r. Then 3r + 5(r+2) = 42, so 8r = 32 and r = 4.\n\n[id 212]: Perimeter = 2×(1.5 + 6) = 15 miles. At 3 mph, time = 15/3 = 5 hours.\n\n[id 213]: Day 1 = 100, Day 2 = 150. Total for three days is 500, so Day 3 = 500 − 250 = 250.\n\n[id 214]: Let small pool now = s. Then big pool now = 4s. Four minutes ago: 4s+16 = 2(s+16), giving 2s = 16, so s = 8.\n\n[id 215]: Total cost = $320 + $32 = $352. Hours needed = $352 ÷ $8 = 44.\n\n[id 216]: Total owed = $2000 + 10% = $2200. She pays 12×$165 = $1980. Remaining balance = $2200 − $1980 = $220.\n\n[id 217]: Dahlias = 4 + 7 = 11. Total flowers = 4 + 11 = 15.\n\n[id 218]: Now: Harriet 21, Adrian 63, Zack 42. In 3 years: 24, 66, 45. Average = (24+66+45)/3 = 45.\n\n[id 219]: Naomi = 68, Yuri = 34+10 = 44, Brianna = 68+17 = 85. Jojo = 251 − (68+44+85) = 54.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}",
+ "usage": {
+  "prompt_tokens": 674,
+  "completion_tokens": 2313,
+  "total_tokens": 2987,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1826
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

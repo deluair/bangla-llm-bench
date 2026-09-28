@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 44.1,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 230]**\nCost per car: $20,000\nTax per car: 10% of $20,000 = $2,000\nRegistration per car: $1,000\nTotal cost for one car: $20,000 + $2,000 + $1,000 = $23,000\nTotal spent for 12 cars: 12 × $23,000 = $276,000\n\n**[id 231]**\nRobert collected on Monday: 20 shells\nKylie collected on Monday: 20 + 5 = 25 shells\nKylie collected on Tuesday: 25 × 2 = 50 shells\n\n**[id 232]**\nNumber of ants: 50\nNumber of bugs (half of ants): 50 / 2 = 25\nTotal number of insects: 50 + 25 = 75\n\n**[id 233]**\nTotal penguins: 36\nSwimming in the sea: 1/3 of 36 = 12\nEntering the cave: 1/3 of 36 = 12\nRemaining sunbathing: 36 - 12 - 12 = 12\n\n**[id 234]**\nThe girlfriend eats 6 tomatoes a day.\nSteve eats twice as many: 6 × 2 = 12 tomatoes a day.\nIn a week, Steve eats: 12 × 7 = 84 tomatoes.\nNumber of vines needed (3 per vine): 84 / 3 = 28 vines.\n\n**[id 235]**\nTotal slices needed for 20 friends: 20 × 4 = 80 slices.\nPizzas needed (8 slices each): 80 / 8 = 10 pizzas.\n\n**[id 236]**\nPens Ram initially buys and uses: 25 pens\nNew pens from 25 empty ones: 25 / 5 = 5 pens\nNew pens from those 5 empty ones: 5 / 5 = 1 pen\nTotal pens he gets to use: 25 + 5 + 1 = 31 pens.\n\n**[id 237]**\nStarting amount: $20 + $10 = $30\nAmount after tripling: $30 × 3 = $90\n\n**[id 238]**\nJessa's age: 20\nJoan's age (5 years older than Jessa): 20 + 5 = 25\nMary's age (2 years younger than Joan): 25 - 2 = 23\nSum of their ages: 20 + 25 + 23 = 68\n\n**[id 239]**\nTotal students: 1000\nExited through door A: 30% of 1000 = 300\nRemaining students: 1000 - 300 = 700\nExited through door B: 3/5 of 700 = 420\nExited through door C (the rest): 700 - 420 = 280\n\n```json\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 28, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}\n```\n",
+ "usage": {
+  "input_tokens": 16772,
+  "output_tokens": 5689,
+  "thinking_tokens": 4816,
+  "cache_read_tokens": 8140,
+  "total_tokens": 22461
+ },
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 28.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 28.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

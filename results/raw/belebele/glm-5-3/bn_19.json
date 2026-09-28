@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 151.8,
+ "text": "**[id 152]** The passage explicitly describes Whistler as expensive (ব্যয়বহুল), making it least attractive to budget-conscious travelers. → **D**\n\n**[id 153]** The passage states that flying drones near crowds (কোলাহলপূর্ণ স্থান) is often a bad plan, so photographing in crowded areas unnoticed is *not* recommended. The other options are all recommended (checking permissions, extra permits, research). → **D**\n\n**[id 154]** The passage says registration is required only in *some* countries (\"কিছু দেশে\"), so the claim that *all* countries require it is false. → **B**\n\n**[id 155]** The passage notes that courses cover all discussed (war zone) topics, role-playing, and first aid, and wilderness survival books exist — but publications related to battlefields/war zones are very rare, making that the least likely to be found. → **C**\n\n**[id 156]** The passage says most deaths occur from swimming against the rip current, \"which can be impossible\" — even for skilled swimmers. → **C**\n\n**[id 157]** The passage says that while a long telephoto lens is typical, \"other lenses\" are needed for flocks of birds or tiny creatures (ক্ষুদ্র জীব). → **A**\n\n**[id 158]** Ice, low friction, and reduced visibility are all cited hazards of mountain passes; heavy traffic is not mentioned as such a hazard (traffic flows year-round even in snowy countries). → **A**\n\n**[id 159]** The main problem identified when converting a movie to DVD is overscan, which cuts the borders (সীমানা/বর্ডার) of the picture. → **D**\n\n{\"answers\": {\"152\": \"D\", \"153\": \"D\", \"154\": \"B\", \"155\": \"C\", \"156\": \"C\", \"157\": \"A\", \"158\": \"A\", \"159\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 11533,
+  "completion_tokens_details": {
+   "reasoning_tokens": 10661
+  },
+  "prompt_tokens": 6532,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 18065
+ },
+ "served_by": null,
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "D"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "C",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "D"
+ }
+}

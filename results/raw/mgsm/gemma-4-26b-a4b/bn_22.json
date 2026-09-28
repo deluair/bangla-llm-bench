@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 7.7,
+ "text": "[id 220]\nCarmen: 3 crosswords × 10 min = 30 min. 8 Sudoku × 5 min = 40 min. Total = 30 + 40 = 70.\n\n[id 221]\nInitial: 120. Used: 90. Remaining: 120 - 90 = 30. Rain: 2 × 30 = 60. Total: 30 + 60 = 90.\n\n[id 222]\nGeraniums: 90. Petunias: 90 - 40 = 50. Total: 90 + 50 = 140.\n\n[id 223]\nYear 1: $15000. Year 2: $15000 / 3 = $5000. Total: 15000 + 5000 = 20000.\n\n[id 224]\nCarlos: 30 × 3 = 90. Benji: 18 × 5 = 90. Total: 90 + 90 = 180.\n\n[id 225]\nBus: 6 days. Car: 6 / 2 = 3 days. Total: 6 + 3 = 9.\n\n[id 226]\nFire: 30. Grass: 20 + 14 = 34. Water: 40 - 8 = 32. Total cards: 30 + 34 + 32 = 96.\nProbability (Water): 32 / 96 = 1/3 ≈ 33.33%. Nearest integer: 33.\n\n[id 227]\nBase: 6.50. Meat: 2.00. Cheese: 1.00. Avocado: 1.00. Sauces: 2 × 0.25 = 0.50. Upgrade: 3.00.\nTotal bill: 6.50 + 2.00 + 1.00 + 1.00 + 0.50 + 3.00 = 14.00.\nAfter gift card: 14.00 - 5.00 = 9.00.\n\n[id 228]\nKalinda's speed: 4 pieces/min. Mother's speed: 2 pieces/min. Combined: 6 pieces/min.\nTotal pieces: 360. Total minutes: 360 / 6 = 60.\nTotal hours: 60 / 60 = 1.\n\n[id 229]\nTotal: 120. First harvest (30%): 0.30 × 120 = 36. Remaining: 120 - 36 = 84.\nSecond harvest (3/4 of remaining): 3/4 × 84 = 63.\nRemaining (not ready): 84 - 63 = 21.\n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}",
+ "usage": {
+  "prompt_tokens": 946,
+  "completion_tokens": 817,
+  "total_tokens": 1763,
+  "cost": 0.00032637,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00032637,
+   "upstream_inference_prompt_cost": 5.676e-05,
+   "upstream_inference_completions_cost": 0.00026961
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

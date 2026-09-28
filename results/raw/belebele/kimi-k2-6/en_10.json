@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 68.8,
+ "text": "**[id 80]** The passage states that no major injuries were reported, while five people were treated for shock. Therefore, no one was treated for serious injuries. **B**\n\n**[id 81]** The passage explicitly states that baseball and softball were voted out of the Olympic Games in 2005. **C**\n\n**[id 82]** The passage says Haiti had not encountered problems related to the disease since the 1800s prior to the troops' arrival. **A**\n\n**[id 83]** The passage directly states the suspect is being investigated for trespassing rather than vandalism. **A**\n\n**[id 84]** The passage states that the speeds of 802.11n are substantially faster than its predecessors. **A**\n\n**[id 85]** Pig catchers, mosquito curtains, and pesticides are current measures, while encephalitis vaccines were promised for next year and this year's delivery was delayed. **C**\n\n**[id 86]** The passage states the failure of the second sentence could possibly open the door for civil unions in the future. **B**\n\n**[id 87]** The passage says the Panama Papers were leaked to the press in spring 2016. **B**\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1312,
+  "completion_tokens": 2643,
+  "total_tokens": 3955,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2339
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

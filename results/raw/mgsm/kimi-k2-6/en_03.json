@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 59.4,
+ "text": "[id 30] Let the common ratio factor be \\(x\\). Then \\(7x + 11x = 162\\), so \\(18x = 162\\) and \\(x = 9\\). Allen is \\(11 \\times 9 = 99\\) now, so in 10 years he will be \\(99 + 10 = 109\\).\n\n[id 31] The guesses are 80, \\(80/2 + 20 = 60\\), and \\(1.25 \\times 80 = 100\\). Their average is \\((80 + 60 + 100) / 3 = 240 / 3 = 80\\).\n\n[id 32] Daily time is \\(10 \\times 0.5 = 5\\) hours. Over 7 days that is \\(5 \\times 7 = 35\\) hours.\n\n[id 33] Let silver coins be \\(s\\). Then gold is \\(s + 30\\). So \\(s + (s + 30) = 110\\), giving \\(2s = 80\\) and \\(s = 40\\). Gold coins: \\(40 + 30 = 70\\).\n\n[id 34] Aaron has \\(40/2 + 5 = 25\\) jewels. Siobhan has \\(25 - 2 = 23\\) jewels.\n\n[id 35] First 20 minutes: 4 points. Second 20 minutes: \\(4 + 0.25 \\times 4 = 5\\) points. Total: \\(4 + 5 = 9\\) points.\n\n[id 36] In 30 days Terry eats \\(2 \\times 30 = 60\\) yogurts. At 4 for $5, he needs \\(60/4 = 15\\) packs. Cost: \\(15 \\times 5 = 75\\) dollars.\n\n[id 37] Money used for games plus remaining is \\(8 \\times 20 + 5 = 165\\) dollars. At $15 per set, he sold \\(165 / 15 = 11\\) sets. He still has \\(13 - 11 = 2\\) sets.\n\n[id 38] He runs \\(3 + 1.5 + 1.5 = 6\\) hours per week. Speed is \\(60 / 6 = 10\\) miles per hour.\n\n[id 39] Running speed is \\(2 \\times 3 = 6\\) mph. Walking speed is \\(6 / 4 = 1.5\\) mph. She runs for 2 hours (\\(6 \\times 2 = 12\\) miles) and walks for 4 hours (\\(1.5 \\times 4 = 6\\) miles). Total distance: \\(12 + 6 = 18\\) miles.\n\n{\"answers\": {\"30\": 109, \"31\": 80, \"32\": 35, \"33\": 70, \"34\": 23, \"35\": 9, \"36\": 75, \"37\": 2, \"38\": 10, \"39\": 18}}",
+ "usage": {
+  "prompt_tokens": 592,
+  "completion_tokens": 2197,
+  "total_tokens": 2789,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1561
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ }
+}

@@ -1,0 +1,505 @@
+{
+ "task": "bnexam",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363"
+ ],
+ "seconds": 5.1,
+ "text": "1. [a644f9a2...]: Glycogen is an animal storage polysaccharide, not found in plant cell walls (which contain lignin, pectin, and suberin). Correct: D.\n2. [a7ba43d0...]: For a parabola $y^2 = 4ax$, the directrix is $x = -a$. Correct: B.\n3. [a7c385fe...]: Pyrrhophyta (Dinoflagellates) are often called fire algae due to bioluminescence. Correct: B.\n4. [a947a423...]: Assuming the equation is of form $A \\cdot 0 + B \\cdot 1 = 1$ (or similar context), if $X=1$ is the target, checking options: if $A=0, B=1 \\implies X=1$. Correct: A.\n5. [a9bbb715...]: Inertia is directly proportional to mass ($I = m$). Correct: B.\n6. [ac11e6a4...]: The standard WHO/Bangladesh limit for arsenic in drinking water is 0.01 mg/L. Correct: B.\n7. [ac92f5c5...]: Albumin is a blood protein involved in osmotic pressure, not a key component of the clotting cascade like fibrinogen, prothrombin, and calcium. Correct: D.\n8. [ad128950...]: Dew point (শিশিরাঙ্ক) refers to the temperature at which relative humidity is 100%. Correct: D.\n9. [adec341f...]: $I = \\frac{P \\times R \\times T}{100} \\implies 2000 = \\frac{5000 \\times R \\times 4}{100} \\implies 2000 = 200R \\implies R = 10$. Correct: C.\n10. [b0d95f00...]: In a pure semiconductor at 0 K, it acts as an insulator (infinite resistance). At 0°C, it has finite resistance, and resistance decreases as temperature increases. Correct: C.\n11. [b1396387...]: For complete dominance, F2 phenotypic ratio is 3:1. Correct: D.\n12. [b1fa6b15...]: $\\Delta E = E_3 - E_2$. $\\nu = \\frac{\\Delta E}{h}$. Energy in erg needs conversion to Joules ($1 \\text{ erg} = 10^{-7} \\text{ J}$). $\\Delta E \\approx 2.44 \\times 10^{-1} \\text{ erg} - 5.54 \\times 10^{-10} \\text{ erg} \\approx 2.44 \\times 10^{-1} \\text{ erg} = 2.44 \\times 10^{-8} \\text{ J}$. $\\nu = \\frac{2.44 \\times 10^{-8}}{6.626 \\times 10^{-34}} \\approx 3.68 \\times 10^{25}$ (Wait, re-evaluating numbers). If the units or exponents provided in the question lead to one of the options: Let's use $\\nu = \\frac{E_3-E_2}{h}$. Using the values $E_3 = 5.54 \\times 10^{-10}$ and $E_2 = 2.44 \\times 10^{-1}$ (assuming a typo in exponent), the calculation $\\frac{2.44 \\times 10^{-1} \\text{ erg}}{6.626 \\times 10^{-27} \\text{ erg}\\cdot\\text{s}} \\approx 3.6 \\times 10^{25}$. Checking common physics problems: $7.99 \\times 10^{16}$ or similar. Let's re-read: $2.44 \\times 10^{-1}$ is very large for a single atom level. If $E_2$ was $2.44 \\times 10^{-12}$ erg, etc. Given the options, D is a standard order of magnitude for visible/UV. However, calculating with $E_2 = 2.44 \\times 10^{-1}$ erg: $\\nu = \\frac{2.44 \\times 10^{-1}}{6.626 \\times 10^{-27}} \\approx 3.68 \\times 10^{25}$. If the question implies $2.44 \\times 10^{-12}$ or similar, $7.99 \\times 10^{16}$ is a likely intended answer. Correct: D.\n13. [b23bc284...]: South Sudan became independent in 2011. Correct: A.\n14. [b29a909e...]: $\\text{GCD} \\times \\text{LCM} = \\text{Product} \\implies \\text{GCD} \\times 96 = 1536 \\implies \\text{GCD} = 1536 / 96 = 16$. Correct: C.\n15. [b326f694...]: Ratio 5:7, GCD 8. Numbers are $5 \\times 8 = 40$ and $7 \\times 8 = 56$. $\\text{LCM} = 5 \\times 7 \\times 8 = 280$. Correct: D.\n\n{\"answers\": {\"a644f9a2-945a-40f8-8542-fe4225e2684e-135662\": \"D\", \"a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189\": \"B\", \"a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342\": \"B\", \"a947a423-a830-43e1-bbb5-08162f7f5771-107611\": \"A\", \"a9bbb715-5505-4589-9b12-2162920cf88d-94161\": \"B\", \"ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209\": \"B\", \"ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395\": \"D\", \"ad128950-d7fa-4da3-af3f-b1f76168d943-112534\": \"D\", \"adec341f-726a-42f4-9152-4384a6c40614-110051\": \"C\", \"b0d95f00-e063-497c-845c-4df160de98a6-120411\": \"C\", \"b1396387-ca15-4741-a16d-1596d2f377cc-109799\": \"D\", \"b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117\": \"D\", \"b23bc284-b642-499a-b691-f59ee883e191-116894\": \"A\", \"b29a909e-cb43-4908-934e-b938c9c1e03b-105140\": \"C\", \"b326f694-908c-49a0-808b-ddc08524c556-137363\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1522,
+  "completion_tokens": 1930,
+  "total_tokens": 3452,
+  "cost": 0.00073936,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00073936,
+   "upstream_inference_prompt_cost": 0.00012176,
+   "upstream_inference_completions_cost": 0.0006176
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Makora",
+ "answers_batch": {
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662": "D",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189": "B",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342": "B",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611": "A",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161": "B",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209": "B",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395": "D",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534": "D",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051": "C",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411": "C",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799": "D",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117": "D",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894": "A",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140": "C",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363": "D"
+ },
+ "single": {
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 2,
+    "total_tokens": 133,
+    "cost": 7.46e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.46e-06,
+     "upstream_inference_prompt_cost": 7.06e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 2,
+    "total_tokens": 138,
+    "cost": 6.152e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.152e-06,
+     "upstream_inference_prompt_cost": 5.712e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 2,
+    "total_tokens": 139,
+    "cost": 1.861e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.861e-05,
+     "upstream_inference_prompt_cost": 1.781e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611": {
+   "text": "Since the image or logical expression for X in terms of A and B was not provided in the text, I cannot determine the correct option through logical deduction. However, if this is a standard truth table question for an **OR gate** ($X = A + B$), multiple options could be correct. If it is an **AND gate** ($X = A \\cdot B$), only option C would be correct.\n\nWithout the expression, I cannot provide the definitive answer. Please provide the logical expression or the image.",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 105,
+    "total_tokens": 251,
+    "cost": 2.9232e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.9232e-05,
+     "upstream_inference_prompt_cost": 6.132e-06,
+     "upstream_inference_completions_cost": 2.31e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 2,
+    "total_tokens": 134,
+    "cost": 5.984e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.984e-06,
+     "upstream_inference_prompt_cost": 5.544e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 2,
+    "total_tokens": 143,
+    "cost": 1.31e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.31e-05,
+     "upstream_inference_prompt_cost": 1.25e-05,
+     "upstream_inference_completions_cost": 6e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 2,
+    "total_tokens": 146,
+    "cost": 6.488e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.488e-06,
+     "upstream_inference_prompt_cost": 6.048e-06,
+     "upstream_inference_completions_cost": 4.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 2,
+    "total_tokens": 127,
+    "cost": 7.1e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.1e-06,
+     "upstream_inference_prompt_cost": 6.7e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "adec341f-726a-42f4-9152-4384a6c40614-110051": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 2,
+    "total_tokens": 137,
+    "cost": 7.7e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 7.7e-06,
+     "upstream_inference_prompt_cost": 7.3e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 152,
+    "completion_tokens": 2,
+    "total_tokens": 154,
+    "cost": 2.056e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.056e-05,
+     "upstream_inference_prompt_cost": 1.976e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 2,
+    "total_tokens": 143,
+    "cost": 8.06e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 32,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 8.06e-06,
+     "upstream_inference_prompt_cost": 7.66e-06,
+     "upstream_inference_completions_cost": 4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 2,
+    "total_tokens": 221,
+    "cost": 2.927e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.927e-05,
+     "upstream_inference_prompt_cost": 2.847e-05,
+     "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "b23bc284-b642-499a-b691-f59ee883e191-116894": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 2,
+    "total_tokens": 129,
+    "cost": 1.08e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.08e-05,
+     "upstream_inference_prompt_cost": 1.016e-05,
+     "upstream_inference_completions_cost": 6.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 2,
+    "total_tokens": 149,
+    "cost": 1.097e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.097e-05,
+     "upstream_inference_prompt_cost": 1.029e-05,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "b326f694-908c-49a0-808b-ddc08524c556-137363": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 151,
+    "completion_tokens": 2,
+    "total_tokens": 153,
+    "cost": 1.125e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.125e-05,
+     "upstream_inference_prompt_cost": 1.057e-05,
+     "upstream_inference_completions_cost": 6.8e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  }
+ },
+ "answers": {
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662": "D",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189": "B",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342": "B",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611": "A",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161": "B",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209": "B",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395": "D",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534": "D",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051": "C",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411": "C",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799": "D",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117": "D",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894": "A",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140": "C",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363": "D"
+ }
+}

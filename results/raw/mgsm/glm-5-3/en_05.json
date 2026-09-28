@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 9.0,
+ "text": "Here are my solutions:\n\n**50:** 252 ÷ 12 = 21 dozens/day × $2 = $42/day × 7 days = $294\n\n**51:** 3 hours × 10 mph = 30 miles; 30 ÷ 6 mph = 5 hours\n\n**52:** 30 comics × 0.25 lb = 7.5 lbs; 15 − 7.5 = 7.5 lbs ÷ 0.5 lb = 15 toys\n\n**53:** Thursday: (6×$60) + (4×$40) = $520; Friday: 12×$40 = $480; Difference = $40\n\n**54:** 7 adopted + (3×7 = 21) Patchy + 12 Trixie = 40 kittens\n\n**55:** 30 − 2 = 28 lollipops ÷ 2 = 14 bags\n\n**56:** $7 + $7 = $14 per trip; $42 ÷ $14 = 3 times\n\n**57:** 5000 − 3755 = 1245 lbs ÷ 15 = 83 boxes\n\n**58:** $40 + (25%×$40 = $10) + $3 + $4 = $57\n\n**59:** (6×20) + 67 = 120 + 67 = 187\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "completion_tokens": 752,
+  "completion_tokens_details": {
+   "reasoning_tokens": 392
+  },
+  "prompt_tokens": 723,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1475
+ },
+ "served_by": null,
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

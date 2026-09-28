@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 3.1,
+ "text": "[id 272] **C**\n[id 273] **A**\n[id 274] **B**\n[id 275] **A**\n[id 276] **A**\n[id 277] **A**\n[id 278] **D**\n[id 279] **C**\n\n```json\n{\n  \"answers\": {\n    \"272\": \"C\",\n    \"273\": \"A\",\n    \"274\": \"B\",\n    \"275\": \"A\",\n    \"276\": \"A\",\n    \"277\": \"A\",\n    \"278\": \"D\",\n    \"279\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2896,
+  "completion_tokens": 158,
+  "total_tokens": 3054,
+  "cost": 0.0004581,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004581,
+   "upstream_inference_prompt_cost": 0.0004344,
+   "upstream_inference_completions_cost": 2.37e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "272": "C",
+  "273": "A",
+  "274": "B",
+  "275": "A",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "A",
+  "274": "B",
+  "275": "A",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 0.7,
+ "text": "{\"answers\": {\"120\": \"A\", \"121\": \"A\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"C\", \"126\": \"D\", \"127\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 6952,
+  "completion_tokens": 52,
+  "total_tokens": 7004,
+  "cost": 0.00035176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00035176,
+   "upstream_inference_prompt_cost": 0.0003476,
+   "upstream_inference_completions_cost": 4.16e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers_batch": {
+  "120": "A",
+  "121": "A",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "C",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "A",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "C",
+  "126": "D",
+  "127": "A"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 30.1,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n*   **[id 40]**: Suzy's iPhone is 1 year old. Ben's iPhone is twice as old, making it 1 * 2 = 2 years old. Brandon's iPhone is 4 times older than Ben's, making it 2 * 4 = 8 years old.\n*   **[id 41]**: Polly's normal throw is 400 feet. With the gemstone, she throws 3 times as far: 400 * 3 = 1200 feet. Since the dragon's reach is 1000 feet, she can stand 1200 - 1000 = 200 feet outside the reach and still hit it.\n*   **[id 42]**: 5 pies cut into 8 pieces each yields 5 * 8 = 40 pieces. With 14 remaining, the guests took 40 - 14 = 26 pieces.\n*   **[id 43]**: The 300g bag has 5 servings, meaning each serving is 300 / 5 = 60g. Your remaining calorie allowance is 2000 - 1800 = 200 calories. Since a full serving is 250 calories, you can eat 200 / 250 = 4/5 of a serving. 4/5 of 60g is 48g.\n*   **[id 44]**: To make 20 candles, Charlie needs 20 / 10 = 2 pounds of beeswax. The supplies for 2 pounds cost 2 * $10.00 = $20.00. He sells the 20 candles for $2.00 each, making 20 * $2.00 = $40.00. Net profit is $40.00 - $20.00 = $20.00.\n*   **[id 45]**: Monday = 5 articles. Tuesday = 5 + (2/5 * 5) = 7 articles. Wednesday = 7 * 2 = 14 articles. Total articles = 5 + 7 + 14 = 26 articles. Total hours spent writing = 26 * 4 = 104 hours.\n*   **[id 46]**: Let P be the number of Post-it notes in the package. She started with 80, added P, and used 220, leaving 23. The equation is 80 + P - 220 = 23, which simplifies to P - 140 = 23. Solving for P gives 163.\n*   **[id 47]**: John bought $200 / $40 = 5 blue ties. He bought twice as many red ties: 5 * 2 = 10 red ties. A red tie costs 50% more than a blue tie, which is $40 * 1.5 = $60. He spent 10 * $60 = $600 on red ties. Total spent = $200 + $600 = $800.\n*   **[id 48]**: A 4-foot wire is 4 * 12 = 48 inches long. Cut into 6-inch pieces, it yields 48 / 6 = 8 pieces.\n*   **[id 49]**: The building has 15 floors * 8 units/floor = 120 units. If 3/4 are occupied, then 1/4 are unoccupied. The unoccupied units are 120 / 4 = 30.\n\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n",
+ "usage": {
+  "input_tokens": 16854,
+  "output_tokens": 3710,
+  "thinking_tokens": 2771,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20564
+ },
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

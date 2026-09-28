@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 7,
+ "ids": [
+  3308,
+  3347,
+  3412,
+  3438,
+  3441,
+  3466,
+  3493,
+  3553,
+  3595,
+  3628,
+  3647,
+  3650,
+  3672,
+  3748,
+  3762
+ ],
+ "seconds": 10.3,
+ "text": "Here are the answers based on the reasoning for each question:\n\n[id 3308]\nNapoleon was criticized most for curtailing citizens' rights, as evidenced by his statements about controlling the press and suppressing dissent. **D) Curtailment of citizens' rights**\n\n[id 3347]\nRobespierre's policy of de-Christianization was less directly related to military defense compared to conscription, merit-based promotions, or price/wage controls. **C) Pursuing a policy of de-Christianization**\n\n[id 3412]\nVoltaire's emphasis on mutual tolerance, reason, and criticism of intolerance aligns with the **Enlightenment**. **C) The Enlightenment**\n\n[id 3438]\nNapoleon's statement highlights his reliance on military victories to maintain power. **A) Napoleon's fear that if he did not continue to win military victories, he would lose power.**\n\n[id 3441]\nGorbachev's argument suggests the need for perestroika was long-standing. **C) The need for perestroika was long in the making**\n\n[id 3466]\nLatitude and longitude coordinates define an **absolute location**. **C) An absolute location.**\n\n[id 3493]\nThe smallest map scale corresponds to the most detailed map, which is **Main Street, Small Town, Ohio**. **C) Main Street, Small Town, Ohio.**\n\n[id 3553]\nNATO was created to defend against the threat of communism. **A) Defend North America and Western Europe against the threat of communism.**\n\n[id 3595]\nEnvironmental apathy is not a current problem Europe faces; rather, it is actively addressing environmental issues. **C) Environmental apathy**\n\n[id 3628]\nA developing world city often lacks a well-developed infrastructure. **B) Has a well-developed infrastructure**\n\n[id 3647]\nThe child's family plays the most significant role in forming political views. **B) The child's family**\n\n[id 3650]\nFederal judges can be subject to impeachment, conviction, and removal by Congress. **A) Impeachment, conviction, and removal from office by Congress**\n\n[id 3672]\nSince the 1980s, the Republican Party has become more influenced by evangelical Christians. **D) It has become more influenced by evangelical Christians.**\n\n[id 3748]\nThe Rules Committee in the House of Representatives determines the rules of the House and conditions for legislative process. **A) Determines both the rules of the House and conditions for legislative process**\n\n[id 3762]\nThe Supreme Court has used the **due process clause** of the Fourteenth Amendment to apply portions of the Bill of Rights to state laws. **B) Due process clause**\n\n---\n```json\n{\n  \"answers\": {\n    \"3308\": \"D\",\n    \"3347\": \"C\",\n    \"3412\": \"C\",\n    \"3438\": \"A\",\n    \"3441\": \"C\",\n    \"3466\": \"C\",\n    \"3493\": \"C\",\n    \"3553\": \"A\",\n    \"3595\": \"C\",\n    \"3628\": \"B\",\n    \"3647\": \"B\",\n    \"3650\": \"A\",\n    \"3672\": \"D\",\n    \"3748\": \"A\",\n    \"3762\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2178,
+  "completion_tokens": 751,
+  "total_tokens": 2929,
+  "cost": 0.00043935,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00043935,
+   "upstream_inference_prompt_cost": 0.0003267,
+   "upstream_inference_completions_cost": 0.00011265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "C",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "answers_batch": {
+  "3308": "D",
+  "3347": "C",
+  "3412": "C",
+  "3438": "A",
+  "3441": "C",
+  "3466": "C",
+  "3493": "C",
+  "3553": "A",
+  "3595": "C",
+  "3628": "B",
+  "3647": "B",
+  "3650": "A",
+  "3672": "D",
+  "3748": "A",
+  "3762": "B"
+ },
+ "single": {}
+}

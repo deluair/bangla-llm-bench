@@ -1,0 +1,91 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 10.8,
+ "text": "{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"B\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 6278,
+  "completion_tokens": 395,
+  "total_tokens": 6673,
+  "cost": 0.000914251,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000914251,
+   "upstream_inference_prompt_cost": 0.000734526,
+   "upstream_inference_completions_cost": 0.000179725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 331,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Alibaba",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "B",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D"
+ },
+ "single": {
+  "127": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 222,
+    "total_tokens": 1086,
+    "cost": 0.000202098,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.000202098,
+     "upstream_inference_prompt_cost": 0.000101088,
+     "upstream_inference_completions_cost": 0.00010101
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 216,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  }
+ },
+ "answers": {
+  "127": "A",
+  "120": "A",
+  "121": "B",
+  "122": "B",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D"
+ }
+}

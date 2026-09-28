@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 9.7,
+ "text": "[id 50]\nLloyd sells eggs at $2 per dozen, so $2/12 = $0.1667 per egg. He produces 252 eggs per day, so daily earnings are 252 * 0.1667 ≈ $42. He works 7 days a week, so weekly earnings are 42 * 7 = **294**\n\n[id 51]\nTom travels from 1 PM to 4 PM, which is 3 hours at 10 mph, covering 30 miles. Returning at 6 mph, time taken is 30 / 6 = **5** hours.\n\n[id 52]\nUriah removes 30 comic books, each weighing 1/4 pound, so total weight removed from comics is 30 * 0.25 = 7.5 pounds. He needs to remove 15 pounds total, so remaining weight to remove is 15 - 7.5 = 7.5 pounds. Each toy weighs 1/2 pound, so number of toys to remove is 7.5 / 0.5 = **15**\n\n[id 53]\nThursday revenue: (6 truck tires * $60) + (4 car tires * $40) = $360 + $160 = $520.\nFriday revenue: (12 car tires * $40) = $480.\nDifference: $520 - $480 = **40**\n\n[id 54]\nDoubtfire sisters have 7 adopted kittens. Patchy has 3 * 7 = 21 kittens, Trixie has 12 kittens. Total kittens = 7 + 21 + 12 = **40**\n\n[id 55]\nJean has 30 lollipops, eats 2, so 28 remain. Packaging 2 lollipops per bag, number of bags = 28 / 2 = **14**\n\n[id 56]\nPeter spends $7 + $7 = $14 per movie outing. With $42, he can go 42 / 14 = **3** times.\n\n[id 57]\nBridge weight limit: 5000 pounds. Driver and truck weight: 3755 pounds. Remaining weight for boxes: 5000 - 3755 = 1245 pounds. Each box weighs 15 pounds, so maximum boxes = 1245 / 15 = **83**\n\n[id 58]\nBase cost: $40.00. 25% fee: $40 * 0.25 = $10. Delivery fee: $3.00. Tip: $4.00. Total = 40 + 10 + 3 + 4 = **57**\n\n[id 59]\nClusters: 6 clusters * 20 raspberries = 120 raspberries. Individual fruit: 67 raspberries. Total = 120 + 67 = **187**\n\n```json\n{\n  \"answers\": {\n    \"50\": 294,\n    \"51\": 5,\n    \"52\": 15,\n    \"53\": 40,\n    \"54\": 40,\n    \"55\": 14,\n    \"56\": 3,\n    \"57\": 83,\n    \"58\": 57,\n    \"59\": 187\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 762,
+  "completion_tokens": 791,
+  "total_tokens": 1553,
+  "cost": 0.00023295,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00023295,
+   "upstream_inference_prompt_cost": 0.0001143,
+   "upstream_inference_completions_cost": 0.00011865
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

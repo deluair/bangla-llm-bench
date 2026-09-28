@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 23.6,
+ "text": "{\"answers\":{\"160\":\"C\",\"161\":\"A\",\"162\":\"B\",\"163\":\"B\",\"164\":\"A\",\"165\":\"A\",\"166\":\"C\",\"167\":\"B\"}}",
+ "usage": {
+  "prompt_tokens": 1365,
+  "completion_tokens": 850,
+  "total_tokens": 2215,
+  "cost": 0.000158585,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000158585,
+   "upstream_inference_prompt_cost": 3.9585e-05,
+   "upstream_inference_completions_cost": 0.000119
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 809,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

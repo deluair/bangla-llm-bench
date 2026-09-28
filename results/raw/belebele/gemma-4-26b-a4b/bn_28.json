@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 18.3,
+ "text": "The passage states that the airport stopped commercial flights (বাণিজ্যিক ফ্লাইট) because the JAS 39C Gripen crashed and exploded. Therefore, A is correct.\n\nThe passage states that Brzezinski served as NSA from 1977 to 1981, following Kissinger. The question asks who was in the position *until* 1977 (the predecessor). The passage says he was the successor to Kissinger. Therefore, Kissinger was the one in the position prior to 1977. B is correct.\n\nLet's evaluate the statements:\nA) True. The ship was going to lift cargo when it happened.\nB) False. The passage says there were 120-160 cubic meters of fuel oil, not 100 meters.\nC) True. 12 members were rescued and one had a broken nose.\nD) True. The wind and waves sank it.\nThus, B is the false statement.\n\nThe passage says the subject returned to newly independent Algeria in the 1960s to teach film directing. It does not explicitly state when Algeria gained independence, but it implies the independence occurred around or before the 1960s. However, looking at the options and context: the text says \"সদ্য স্বাধীন আলজেরিয়াতে ফিরে আসেন\" (returned to newly independent Algeria) in the 1960s. Usually, in such reading comprehension tests, if a person returns to a \"newly independent\" country in the 1960s, the independence is associated with that era. However, let's re-read. It doesn't give a specific date for independence. But among the options, if he returned in the 60s to a \"newly independent\" country, 1960s (C) is the most logical inference from the text provided.\n\nThe passage states: \"একজন প্রতিবেশী গ্যাস লিক হওয়ার কথা জানানোর পরেই...\" (After a neighbor reported the gas leak...). Therefore, A is correct.\n\nThe passage states that a dead wild duck was found near Lyon, France, and confirmed to be H5N1. It then lists France as the 7th EU country. The most recent location mentioned where the virus was confirmed is France. Therefore, A is correct.\n\nThe passage states: \"ফ্রেড এখন ঘন্টায় 105 মাইল (165 কিমি/ঘন্টা) বেগে বাতাস নিয়ে উত্তর-পশ্চিম দিকে এগিয়ে যাচ্ছে।\" (Fred is now moving northwest...). Therefore, D is correct.\n\nThe passage states: \"ভূমিকম্পের গুরুত্বপূর্ণ কার্যকলাপের পর্যায় পরিবর্তন স্থান নিয়েছিল মার্চের ১০ তারিখে...\" (The phase of important earthquake activity changed on March 10...). Therefore, C is correct.\n\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1513,
+  "completion_tokens": 647,
+  "total_tokens": 2160,
+  "cost": 0.00032589,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00032589,
+   "upstream_inference_prompt_cost": 0.00010591,
+   "upstream_inference_completions_cost": 0.00021998
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

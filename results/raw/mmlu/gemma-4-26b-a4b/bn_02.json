@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  899,
+  908,
+  951,
+  981,
+  987,
+  1004,
+  1011,
+  1019,
+  1030,
+  1045,
+  1100,
+  1116,
+  1125,
+  1141,
+  1158
+ ],
+ "seconds": 40.9,
+ "text": "To solve these questions:\n\n[899] For $\\text{MnO}_4^- + \\text{I}^- + \\text{H}^+ \\to \\text{Mn}^{2+} + \\text{IO}_3^- + \\text{H}_2\\text{O}$, the balanced redox half-reactions are:\n$\\text{MnO}_4^- + 8\\text{H}^+ + 5\\text{e}^- \\to \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$\n$2\\text{IO}_3^- + 12\\text{H}^+ + 14\\text{e}^- \\to \\text{I}_3^-$ (Wait, the reaction is $\\text{I}^- \\to \\text{IO}_3^-$).\n$\\text{I}^- + 6\\text{H}_2\\text{O} \\to \\text{IO}_3^- + 12\\text{H}^+ + 6\\text{e}^-$\nTo balance electrons (LCM of 5 and 6 is 30):\n$6\\text{MnO}_4^- + 30\\text{H}^+ + 5\\text{I}^- \\to 6\\text{Mn}^{2+} + 24\\text{H}_2\\text{O} + 5\\text{IO}_3^-$ (balancing $H^+$ and $H_2O$: $6 \\times 8 = 48$ on left, $5 \\times 6 = 30$ on right $\\implies 18$ more $H^+$ needed).\nCorrect balance: $2\\text{MnO}_4^- + 10\\text{I}^- + 18\\text{H}^+ \\to 2\\text{Mn}^{2+} + 10\\text{IO}_3^- + 9\\text{H}_2\\text{O}$? No.\nLet's re-calculate: $\\text{MnO}_4^-$ (+7 to +2 is 5e), $\\text{I}^-$ (-1 to +5 is 6e).\n$6\\text{MnO}_4^- + 5\\text{I}^- + 18\\text{H}^+ \\to 6\\text{Mn}^{2+} + 5\\text{IO}_3^- + 9\\text{H}_2\\text{O}$.\nRatio $\\text{I}^-:\\text{IO}_3^-$ is $5:5 = 1:1$. Ratio $\\text{MnO}_4^-:\\text{Mn}^{2+}$ is $6:6 = 1:1$. Ratio $\\text{MnO}_4^-:\\text{I}^-$ is $6:5$.\nChoice B is correct.\n\n[908] This refers to EPR hyperfine coupling. For a cyclobutyl radical, based on standard empirical tables/formulas, $5.4\\text{ mT}$ is a common value for such systems.\n\n[951] Quantum yield $\\Phi_f$ is defined as the ratio of the number of photons emitted to the number of photons absorbed. Choice C.\n\n[981] Using the formula for EPR resonant field $B = \\frac{h\\nu}{g\\beta} \\pm \\frac{A}{2g\\beta}$ (where $A$ is hyperfine splitting). Calculation of field positions from frequency/g-factor. Using $B \\approx \\frac{\\nu}{g \\times 28 \\text{ GHz/T}}$. For 9.5 GHz, $B \\approx 330-340\\text{ mT}$. Choice C fits typical values.\n\n[987] A spontaneous process in an isolated system increases entropy; for a general system, the total entropy (system + surroundings) must increase ($\\Delta S_{total} > 0$). Choice D.\n\n[1004] Floating-point associativity is lost because of rounding errors/precision limits. Statement B is not the reason for non-associativity (it's about precision). Choice B.\n\n[1011] The definition is $a^M = a$. $(ax)^M = a(x^M)a$. $(xy)^M = y^M x^M$. Let's check $(xy)^M$: if $x=a$, $(ay)^M = ay^Ma$. This follows the reversal pattern. Choice C.\n\n[1019] In a $K$-ary tree of depth $N$, total nodes $\\approx K^N/(K-1)$. Non-terminal nodes $\\approx K^{N-1}/(K-1) \\times K = K^N/(K-1) - 1$. The ratio is approximately $(K-1)/K$ if we count internal nodes. For a full tree, ratio is $(K^N-1)/(K^{N+1}-1) \\times K \\dots$ basically $(K-1)/K$ is the proportion of non-leaf nodes in a large tree. Choice B.\n\n[1030] The heap is a separate memory area, not part of the activation record (which is on the stack). Choice B.\n\n[1045] 8-bit range: 1s complement (-127 to 127), 2s complement (-128 to 127), Sign-mag (-127 to 127). All can represent 109 and -42. Choice D.\n\n[1100] $P(X=2) = \\frac{\\binom{5}{2}\\binom{20}{1}}{\\binom{25}{3}} = \\frac{10 \\times 20}{2300} = \\frac{200}{2300} = \\frac{2}{23}$. In Bengali/English numbers, 2/23 $\\approx$ 0.086. Looking at options, \"23-Feb\" is likely a typo for 2/23. Choice C.\n\n[1116] If $Av = \\lambda v$, then $A^2 v = \\lambda^2 v$ and $A^{-1}v = (1/\\lambda)v$. Choice D.\n\n[1125] The question is slightly ambiguous, but in context of atomic/chemical sequences, it might refer to something specific. However, looking at common math problems, if it's about partitions or arrangements, 15 is a common answer. Given the context of the other questions, this looks like a chemistry/physics error in translation. Assuming it's a combinatorial question. Let's choose D.\n\n[1141] 1. A continuous function on a compact set is uniformly continuous (True). 2. Chain rule for differentiability (True). Choice A.\n\n[1158] It is possible to define a linear order on $\\mathbb{C}$ (e.g., lexicographical), but it cannot be an ordered field because $\\mathbb{C}$ cannot be an ordered field (since $i^2 = -1$). Choice A.\n\n```json\n{\"answers\": {\"899\": \"B\", \"908\": \"C\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"B\", \"1011\": \"C\", \"1019\": \"B\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"C\", \"1116\": \"D\", \"1125\": \"D\", \"1141\": \"A\", \"1158\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1707,
+  "completion_tokens": 1698,
+  "total_tokens": 3405,
+  "cost": 0.00069681,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00069681,
+   "upstream_inference_prompt_cost": 0.00011949,
+   "upstream_inference_completions_cost": 0.00057732
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "899": "B",
+  "908": "C",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "B",
+  "1011": "C",
+  "1019": "B",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "D",
+  "1141": "A",
+  "1158": "A"
+ },
+ "answers_batch": {
+  "899": "B",
+  "908": "C",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "B",
+  "1011": "C",
+  "1019": "B",
+  "1030": "B",
+  "1045": "D",
+  "1100": "C",
+  "1116": "D",
+  "1125": "D",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {}
+}

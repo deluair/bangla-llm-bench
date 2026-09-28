@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "184",
+  "185",
+  "186",
+  "187",
+  "188",
+  "189",
+  "190",
+  "191"
+ ],
+ "seconds": 23.4,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n**[id 184]**\nThe passage states that scaffolding is \"কোনও শিক্ষা পদ্ধতি নয়\" (not a teaching method), but rather a support system. Option C claims it is known as a project-based learning technique, which contradicts the passage.\n**Answer: C**\n\n**[id 185]**\nThe passage mentions that the pages can be changed and colors can be added to make reading easier (\"পড়া সহজ করে তুলতে অদলবদল করা যায় এবং পছন্দ মতো বেশি বা সামান্য রঙ যোগ করা যায়\"), which is a feature of customization.\n**Answer: A**\n\n**[id 186]**\nThe passage clearly states that the temple was rebuilt in 323 BC after Alexander's death (\"আলেকজান্ডারের মৃত্যুর পর 323 খ্রিস্টপূর্বাব্দে মন্দিরটির পুনর্নির্মাণ করা হয়েছিল\").\n**Answer: B**\n\n**[id 187]**\nThe text notes that humans started walking on two feet regularly two million years ago when the Homo erectus species was able to stand completely straight on two feet (\"হোমো ইরেকটাস প্রজাতির মানুষ দুই পায়ে সম্পূর্ণ সোজা হয়ে দাঁড়াতে পারল\"). \n**Answer: B**\n\n**[id 188]**\nThe passage implies that the Allied powers (Americans and British) did not fail, as Germany did not conquer Britain (\"যদি মিত্র শক্তি ব্যর্থ হত, তবে জার্মানি সম্ভবত... ব্রিটেনকেও জয় করতে পারত\"). Thus, they were successful in the North Atlantic.\n**Answer: A**\n\n**[id 189]**\nThe passage states that there was an inner sanctuary where only priests could enter (\"ভেতরে একটি অভয়ারণ্য ছিল যেখানে কেবলমাত্র পুরোহিতরাই প্রবেশ করতে পারতেন\").\n**Answer: B**\n\n**[id 190]**\nThe text explicitly mentions that ancient Romans never tasted a turkey (\"কোনও প্রাচীন রোমান কখনও একটি টার্কির স্বাদ গ্রহণ করেননি\").\n**Answer: D**\n\n**[id 191]**\nThe passage explains that hydrogen ions are protons whose electrons have been detached from them (\"যাদের ইলেক্ট্রনগুলোকে তাদের থেকে বিচ্ছিন্ন করা হয়েছে\").\n**Answer: D**\n\n```json\n{\"answers\": {\"184\": \"C\", \"185\": \"A\", \"186\": \"B\", \"187\": \"B\", \"188\": \"A\", \"189\": \"B\", \"190\": \"D\", \"191\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17726,
+  "output_tokens": 2357,
+  "thinking_tokens": 1807,
+  "cache_read_tokens": 8142,
+  "total_tokens": 20083
+ },
+ "answers_batch": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ },
+ "single": {},
+ "answers": {
+  "184": "C",
+  "185": "A",
+  "186": "B",
+  "187": "B",
+  "188": "A",
+  "189": "B",
+  "190": "D",
+  "191": "D"
+ }
+}

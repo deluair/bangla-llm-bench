@@ -1,0 +1,279 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-20b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 289.7,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 2230,
+  "completion_tokens": 16000,
+  "total_tokens": 18230,
+  "cost": 0.00148014,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00148014,
+   "upstream_inference_prompt_cost": 4.014e-05,
+   "upstream_inference_completions_cost": 0.00144
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 15997,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {},
+ "single": {
+  "120": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 395,
+    "completion_tokens": 99,
+    "total_tokens": 494,
+    "cost": 1.602e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.602e-05,
+     "upstream_inference_prompt_cost": 7.11e-06,
+     "upstream_inference_completions_cost": 8.91e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 88,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "121": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 376,
+    "completion_tokens": 197,
+    "total_tokens": 573,
+    "cost": 3.689e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 64,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 3.689e-05,
+     "upstream_inference_prompt_cost": 1.128e-05,
+     "upstream_inference_completions_cost": 2.561e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 360,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "122": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 352,
+    "completion_tokens": 388,
+    "total_tokens": 740,
+    "cost": 4.1256e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.1256e-05,
+     "upstream_inference_prompt_cost": 6.336e-06,
+     "upstream_inference_completions_cost": 3.492e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 377,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  },
+  "123": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 286,
+    "total_tokens": 584,
+    "cost": 0.00010815,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 0.00010815,
+     "upstream_inference_prompt_cost": 2.235e-05,
+     "upstream_inference_completions_cost": 8.58e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 276,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "124": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 407,
+    "completion_tokens": 326,
+    "total_tokens": 733,
+    "cost": 6.518e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.518e-05,
+     "upstream_inference_prompt_cost": 1.628e-05,
+     "upstream_inference_completions_cost": 4.89e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 675,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "A"
+  },
+  "125": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 260,
+    "completion_tokens": 129,
+    "total_tokens": 389,
+    "cost": 2.619e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 96,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.619e-05,
+     "upstream_inference_prompt_cost": 6.84e-06,
+     "upstream_inference_completions_cost": 1.935e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 118,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  },
+  "126": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 405,
+    "completion_tokens": 350,
+    "total_tokens": 755,
+    "cost": 4.31e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.31e-05,
+     "upstream_inference_prompt_cost": 8.1e-06,
+     "upstream_inference_completions_cost": 3.5e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 488,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "D"
+  },
+  "127": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 398,
+    "completion_tokens": 209,
+    "total_tokens": 607,
+    "cost": 4.233e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 96,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 4.233e-05,
+     "upstream_inference_prompt_cost": 1.098e-05,
+     "upstream_inference_completions_cost": 3.135e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 198,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "B"
+ }
+}

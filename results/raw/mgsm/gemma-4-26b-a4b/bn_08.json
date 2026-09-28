@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 26.6,
+ "text": "To solve these problems:\n\n[id 80]\nTwo girls each get 1/6 of 24 liters. $24 \\times (1/6) = 4$. Total for girls = $4 \\times 2 = 8$. Total water distributed = $8 + 6 = 14$. Total initial water was not explicitly stated, but usually, this phrasing implies the total amount mentioned or a specific context. However, looking at the phrasing \"Each of two girls received 1/6 of 24 liters\", it means each got 4 liters. $24 - 4 - 4 - 6$ isn't right. If the total was 24: $24 - 4 - 4 - 6 = 10$. Let's assume the total is 24. $24 - (4+4+6) = 10$.\n\n[id 81]\nInitial: 10. Bought: 21. Birthday: 23. Total: $10 + 21 + 23 = 54$. Given away: 9. Used: 28. Remaining: $54 - 9 - 28 = 17$.\n\n[id 82]\nGrace = 125. Alex = $(125 \\times 4) - 2 = 500 - 2 = 498$. Total = $125 + 498 = 623$.\n\n[id 83]\n3 plants $\\times$ 25 roses/plant = 75 roses. 75 roses $\\times$ 8 thorns/rose = 600 thorns.\n\n[id 84]\nWins (W) + Losses (L) = 22. $W = L + 8$. $(L + 8) + L = 22 \\Rightarrow 2L = 14 \\Rightarrow L = 7$. $W = 7 + 8 = 15$.\n\n[id 85]\nYears traveling: $34 - 23 + 1 = 12$ (if inclusive) or $34 - 23 = 11$ (if 23 is the start year). Standard age subtraction: $34 - 23 = 11$ years. Trips per year: 4. Total blocks: $11 \\times 4 = 44$.\n\n[id 86]\n1st time: 4. 2nd time: $4 \\times 3 = 12$. 3rd time: $12 / 2 = 6$. Total: $4 + 12 + 6 = 22$.\n\n[id 87]\nSalary: \\$600/month = \\$7,200/year. 5 years completed. Salary increases by 10% per year. \nCurrent (after 5 years): $7200 \\times (1.10)^0$? No, \"those who have been with the company for 5 years get a 10% increase\". Let's assume \\$600 is the base. After 5 years, salary = $600 \\times 1.1 = 660$. After 3 more years: $660 \\times (1.1)^3 = 660 \\times 1.331 = 878.46$. Wait, usually these problems assume $600 \\times (1.1)^3$ or similar. If $600 \\times 1.1 = 660$. Three years later: $660 \\times 1.1 \\times 1.1 \\times 1.1 = 878.46$. Let's check if it means $600 \\times 1.1^3 = 798.6$ or $600 \\times 1.1^8$. Usually, $600 \\times (1.1)^3$ is for three years. Let's assume the current salary is 600, and after 3 more years: $600 \\times 1.1^3 = 798.6$. \nWait, \"If Silvi just completed 5 years... what will her annual salary be after 3 more years\". If 5 years completed, she gets the 10% increase. Annual salary = $600 \\times 12 = 7200$. $7200 \\times 1.1 = 7920$ (after 5 years). Three more years: $7920 \\times (1.1)^3 = 10540.92$. This is getting complex. Let's re-read. If the 10% is on the *base* ($600) and it's simple interest? $600 + (600 \\times 0.10 \\times 3) = 780$ per month. $780 \\times 12 = 9360$. \nActually, if base is 600, after 8 years (5+3) with 10% increase each year: $600 \\times (1.1)^3$ relative to the 5-year mark? No. Let's try: $600 \\times 1.1 = 660$. After 3 years: $660 \\times 1.1^3 = 878.46$. Monthly: $878.46 \\times 12 = 10541.52$. \nLet's try a simpler way: $600 \\times 12 = 7200$. 5 years in: $7200 \\times 1.1 = 7920$. 3 more years: $7920 \\times 1.1^3 = 10540.92$. \nAnother look: $600 \\times 1.1^3 \\times 12 = 798.6 \\times 12 = 9583.2$.\nLet's check if \"10% increase\" is applied to the current $600 once. $600 \\times 1.1 = 660$. 3 years later: $660 \\times 1.331 = 878.46$. $878.46 \\times 12 = 10541.52$.\nLet's try simple interest: $600 \\times 12 = 7200$. After 8 years: $7200 + (7200 \\times 0.10 \\times 3) = 7200 + 2160 = 9360$.\nLet's look at the wording \"10% increase of the starting salary\". $600 + (600 \\times 0.10 \\times 8) = 600 + 480 = 1080$. Annual = $1080 \\times 12 = 12960$.\nWait, if the 10% increase happens every year after 5 years: In year 6, salary = $600 + 10\\%(600) = 660$. In year 7, $660 + 60 = 720$. In year 8, $720 + 60 = 780$. In year 9, $780 + 60 = 840$. Annual: $840 \\times 12 = 10080$.\nLet's look at the most likely interpretation for such math problems: $600 \\times 12 \\times (1.1)^3$ is not it. $600 \\times 12 \\times 1.3 = 9360$. \nLet's try: $600 \\times 12 = 7200$. At year 5, she gets 10%. $7200 \\times 1.1 = 7920$. In 3 more years, she gets 10% each year: $7920 \\times 1.1^3 = 10540.92$. \nLet's check if the 10% is on the *original* salary. $600 \\times 12 = 7200$. After 5 years, she gets +10% of 7200. After 8 years, she gets +30% of 7200. $7200 + (7200 \\times 0.3) = 7200 + 2160 = 9360$.\n\n[id 88]\nLet $H$ = Harold, $M$ = Marilyn. $M = 10H$. $H + M = 88,000 \\Rightarrow H + 10H = 88,000 \\Rightarrow 11H = 88,000 \\Rightarrow H = 8,000$.\n\n[id 89]\nGuests: 16. Expected attendance: $16 \\times 0.75 = 12$. Bags needed: $12 \\times 0.75 = 9$. Cost: $9 \\times 2 = 18$.\n\nRe-evaluating [id 80]: Total 24. $24 - 4 - 4 - 6 = 10$.\nRe-evaluating [id 85]: $34 - 23 = 11$. $11 \\times 4 = 44$.\nRe-evaluating [id 87]: If monthly is 600, annual is 7200. 5 years in, salary increases 10% ($7200 \\times 1.1 = 7920$). After 3 more years of 10% increases: $7920 \\times 1.1^3 = 10540.92$. This doesn't look like a standard answer. If the increase is 10% of base ($7200) every year: $7200 + (7200 \\times 0.10 \\times 3) = 9360$. Let's use 9360.\n\nLet's re-verify [id 80]: 1/6 of 24 is 4. Two girls = 8. Boy = 6. Total used = 14. Remainder from 24 is 10.\n\nFinal check [id 87]: If she just completed 5 years, her salary is $600 \\times 1.1 = 660$. After 3 more years (each year getting 10% of base): $660 + 60 + 60 + 60 = 840$. Annual = $840 \\times 12 = 10080$.\nWait, \"10% increase of the starting salary\". Starting is 600. 10% is 60. After 5 years, she gets 60/month. After 3 more years, she gets $60 \\times 3 = 180$ extra? $600 + 180 = 780$. Annual = $780 \\times 12 = 9360$.\n\n[id 89]: 16 guests. 1/4 don't show $\\rightarrow$ 12 show up. 0.75 bags per person $\\rightarrow$ $12 \\times 0.75 = 9$ bags. $9 \\times 2 = 18$.\n\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 18}}",
+ "usage": {
+  "prompt_tokens": 828,
+  "completion_tokens": 2764,
+  "total_tokens": 3592,
+  "cost": 0.000642856,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000642856,
+   "upstream_inference_prompt_cost": 3.4776e-05,
+   "upstream_inference_completions_cost": 0.00060808
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 18.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 18.0
+ }
+}

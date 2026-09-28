@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 12.7,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n*   **[id 240]:** The passage states, \"Former U.S. Speaker of the House Newt Gingrich came in second with 32 percent.\" -> **B**\n*   **[id 241]:** The passage says, \"After the results came in, Gingrich lauded Santorum...\" (lauded means to speak highly of). -> **B**\n*   **[id 242]:** The passage states, \"Nadal bagged 88% net points in the match winning 76 points in the first serve.\" -> **B**\n*   **[id 243]:** The passage states the former government said ratifying Kyoto \"would damage the economy\". -> **B**\n*   **[id 244]:** The passage mentions unveiling the \"controller design for the company's new Nintendo Revolution console. Resembling a television remote, the controller...\" -> **B**\n*   **[id 245]:** The passage says Felicia was \"once a Category 4 storm... weakened to a tropical depression\". Option B falsely claims the reverse. -> **B**\n*   **[id 246]:** The passage details the location, the length of the process, and the birds involved in breeding, but it never gives the actual name of the newly formed species. -> **C**\n*   **[id 247]:** The passage describes CowParade as \"the world's largest public art event\". -> **D**\n\n```json\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17279,
+  "output_tokens": 977,
+  "thinking_tokens": 560,
+  "cache_read_tokens": 8141,
+  "total_tokens": 18256
+ },
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

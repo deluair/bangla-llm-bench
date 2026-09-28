@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 23,
+ "ids": [
+  "230",
+  "231",
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 81.0,
+ "text": "[id 230]: 12 cars × ($20,000 + 10% of $20,000 + $1,000) = 12 × $23,000 = $276,000.  \n[id 231]: Monday Kylie collected 20 + 5 = 25 shells. Tuesday she collected 2 × 25 = 50 shells.  \n[id 232]: Ants = 50, bugs = 50 / 2 = 25, total insects = 50 + 25 = 75.  \n[id 233]: 1/3 of 36 = 12 jumped, another 12 went to the cave, leaving 36 − 12 − 12 = 12 sunbathing.  \n[id 234]: Weekly consumption = 6 × 7 = 42 tomatoes. Each vine gives 3 per week, so vines needed = 42 / 3 = 14.  \n[id 235]: Total slices needed = 20 × 4 = 80. Pizzas needed = 80 / 8 = 10.  \n[id 236]: Starting with 25 pens: 25 empties → 5 new → 5 empties → 1 new → 1 empty left. Total pens used = 25 + 5 + 1 = 31.  \n[id 237]: ($20 + $10) × 3 = $30 × 3 = $90.  \n[id 238]: Jess = 20, Joan = 20 + 5 = 25, Mary = 25 − 2 = 23. Sum = 20 + 25 + 23 = 68.  \n[id 239]: After door A: 1000 − 300 = 700 remain. Door B: 3/5 × 700 = 420. Door C: 700 − 420 = 280.  \n\n{\"answers\": {\"230\": 276000, \"231\": 50, \"232\": 75, \"233\": 12, \"234\": 14, \"235\": 10, \"236\": 31, \"237\": 90, \"238\": 68, \"239\": 280}}",
+ "usage": {
+  "prompt_tokens": 1496,
+  "completion_tokens": 3953,
+  "total_tokens": 5449,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3501
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 14.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ },
+ "single": {},
+ "answers": {
+  "230": 276000.0,
+  "231": 50.0,
+  "232": 75.0,
+  "233": 12.0,
+  "234": 14.0,
+  "235": 10.0,
+  "236": 31.0,
+  "237": 90.0,
+  "238": 68.0,
+  "239": 280.0
+ }
+}

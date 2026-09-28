@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 21.7,
+ "text": "I'll solve each problem step by step:\n\n**[id 10]** Downloads over 3 months:\n- Month 1: 60\n- Month 2: 60 × 3 = 180\n- Month 3: 180 × 0.70 = 126 (30% decrease)\n- Total: 60 + 180 + 126 = 366\n\n**[id 11]** Total cost:\n- Donuts: 3 × $68 = $204\n- Cupcakes: 2 × $80 = $160\n- Cheesecakes: 6 × $55 = $330\n- Total: $694\n\n**[id 12]** Annual profit per year: (7 × $1.5) - $3 = $7.50\n- Break even: $90 ÷ $7.50 = 12 years\n\n**[id 13]** Let x = total vacuums:\n- Green: x/3\n- Red: 2\n- Orange: (1/2)(x - x/3 - 2) = x/3 - 1\n- Remaining: 5\n- Equation: x/3 + 2 + x/3 - 1 + 5 = x → 2x/3 + 6 = x → x = 18\n\n**[id 14]** Hip-hop percentage:\n- Contemporary: 20% × 20 = 4 students\n- Jazz: 25% × 20 = 5 students\n- Hip-hop: 20 - 9 = 11 students → 55%\n\n**[id 15]** Maximum profit:\n- Jewelry: $5,000 × 0.025 = $125 profit\n- Gadgets: $8,000 × 0.012 = $96 profit\n- Maximum: $125\n\n**[id 16]** Total distance:\n- Day 1: 80 miles\n- Day 2: 150 miles\n- Total: 230 miles\n\n**[id 17]** Annual salary:\n- Teaching: $20 × 35 × 50 = $35,000\n- Coaching: $30 × 15 × 50 = $22,500\n- Total: $57,500\n\n**[id 18]** Eggs in 4 weeks:\n- 4 weeks = 28 days\n- Total eggs: 3 × 28 = 84 eggs = 7 dozen\n\n**[id 19]** Required speed:\n- Distance covered: 6 miles in 2 hours\n- Remaining: 6 miles in (3 - 2) = 1 hour → 6 mph\n\n```json\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 55, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n```",
+ "usage": {
+  "input_tokens": 2609,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2680,
+  "output_tokens_details": {
+   "thinking_tokens": 1958
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2609,
+    "output_tokens": 2680,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.016009000000000002,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

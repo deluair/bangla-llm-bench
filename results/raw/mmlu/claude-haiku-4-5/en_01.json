@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "414",
+  "434",
+  "441",
+  "446",
+  "460",
+  "489",
+  "530",
+  "555",
+  "570",
+  "742",
+  "767",
+  "784",
+  "794",
+  "806",
+  "869"
+ ],
+ "seconds": 28.9,
+ "text": "# Answer Analysis\n\n[id 414] **Environmental Management Systems**: EMAS (EU Eco-Management and Audit Scheme) and ISO14001 are both environmental management systems. SA8000 is a social accountability standard, not environmental.\n**Answer: C**\n\n[id 434] **Social Contract**: This describes the hypothetical agreement establishing relationships between government and society with mutual rights and responsibilities.\n**Answer: A**\n\n[id 441] **Principle-Based Theories**: Ethics of duty and ethics of rights/justice are both deontological (principle-based) approaches to ethics, not consequence-based.\n**Answer: A**\n\n[id 446] **Corporate Governance Principles**: The Combined Code principles are Openness, Integrity, Accountability, and Responsibility. \"Availability\" is not a standard principle.\n**Answer: C**\n\n[id 460] **Postmodern Ethics**: This ethical approach (influenced by thinkers like Levinas) locates morality in emotional impulse toward others, beyond rationality.\n**Answer: C**\n\n[id 489] **Dementia in UK**: Alzheimer's disease accounts for approximately 50-60% of dementia cases in the UK, making it the most common cause.\n**Answer: A**\n\n[id 530] **Toothpaste Amount**: Standard dental guidance recommends a pea-sized amount for tooth cleaning.\n**Answer: B**\n\n[id 555] **Arterial Flow**: Blood continues flowing between left ventricle contractions due to elastic recoil of arterial walls, which were stretched during systole.\n**Answer: D**\n\n[id 570] **Dosage Calculation**: 4 μg/kg/min × 65 kg = 260 μg/min × 60 min = 15,600 μg = 15.6 mg\n**Answer: B**\n\n[id 742] **Musculoskeletal History**: Drugs (diuretics, aspirin) are well-known causes of gout. The other options are clinically inaccurate.\n**Answer: A**\n\n[id 767] **Polyspermy Prevention**: The cortical reaction releases proteolytic enzymes from cortical granules to modify the zona pellucida.\n**Answer: C**\n\n[id 784] **Niche Definition**: The birds can occupy treetops or cliffs (fundamental niche) but only occupy treetops due to competition (realized/realistic niche).\n**Answer: B**\n\n[id 794] **Diffusion Rate**: Per Fick's Law, diffusion rate increases with surface area. Partial pressure gradient and solubility are positive correlates, and blood flow enhances gas removal.\n**Answer: C**\n\n[id 806] **Linkage Disequilibrium**: LD is promoted by non-random mating, selection, asexual reproduction, and genetic drift. Random mating actually *reduces* LD through recombination.\n**Answer: D**\n\n[id 869] **Tropical Productivity**: Year-round warm temperatures and high water availability enable continuous photosynthesis in tropical regions.\n**Answer: C**\n\n```json\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"A\", \"446\": \"C\", \"460\": \"C\", \"489\": \"A\", \"530\": \"B\", \"555\": \"D\", \"570\": \"B\", \"742\": \"A\", \"767\": \"C\", \"784\": \"B\", \"794\": \"C\", \"806\": \"D\", \"869\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1648,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2614,
+  "output_tokens_details": {
+   "thinking_tokens": 1792
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1648,
+    "output_tokens": 2614,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.014718,
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "C",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "single": {},
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "C",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ }
+}

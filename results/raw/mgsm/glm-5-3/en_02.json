@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 10.7,
+ "text": "Here are my solutions:\n\n**[20]** After spilling 1L of orange drink, 9L remain with 2/3 water = 6L. Pineapple: 15L × 3/5 = 9L water. Total water = 6 + 9 = **15**\n\n**[21]** Raymond is 31 + 6 = 37 now. Son born when Raymond was 23, so 37 − 23 = **14** years ago\n\n**[22]** (3 × 1) + (2 × 2) + (3 × 0) = 3 + 4 = **7**\n\n**[23]** 1 PM to 5 PM = 4 hours × 2 cm = **8**\n\n**[24]** 19.50 ÷ 0.75 = **26**\n\n**[25]** Spent: 12 + (5×3) + (4×1.50) = 12 + 15 + 6 = 33. Remaining: 50 − 33 = 17. Boxes: 17 ÷ 8.50 = **2**\n\n**[26]** (3 × 16.50) + (3 × 22.50) + (3 × 42) = 49.50 + 67.50 + 126 = **243**\n\n**[27]** 60 ÷ 15 = 4 cartons × $4 = **16**\n\n**[28]** Second stop at 60 − 15 = 45 miles. Between stops: 45 − 20 = **25**\n\n**[29]** Heels: 33 + (2 × 33) = 99. Boots: 99 + 5 = **104**\n\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}",
+ "usage": {
+  "completion_tokens": 853,
+  "completion_tokens_details": {
+   "reasoning_tokens": 423
+  },
+  "prompt_tokens": 658,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "total_tokens": 1511
+ },
+ "served_by": null,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

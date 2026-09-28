@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 20.3,
+ "text": "I'll work through each question carefully:\n\n**[id 264]** - Canyoning requires \"relatively little training or physical shape\" but involves \"swimming, climbing and jumping\" where canyons may be \"full of water.\" Swimming ability would be necessary. ✓\n\n**[id 265]** - The passage states Chile declared independence in 1810 but \"decisive victory over the Spanish was not achieved until 1818.\" So victory did NOT occur in 1810. ✓\n\n**[id 266]** - The passage lists sand, gravel, and salt as methods to improve traction on icy roads. Water would actually make conditions worse, not improve them. ✓\n\n**[id 267]** - The passage explicitly states \"The Cook Islands do not have any cities but are composed of 15 different islands. The main ones are Rarotonga and Aitutaki.\" These are islands, not cities. ✓\n\n**[id 268]** - The passage directly states: \"Travellers who had an easy time adjusting to the new culture sometimes have a particularly hard time readjusting to their native culture.\" This matches those who adjusted quickly. ✓\n\n**[id 269]** - The passage states moose \"aren't inherently aggressive\" so the statement that they ARE naturally aggressive is false/not true. ✓\n\n**[id 270]** - The wildlife reputation applies specifically to Madagascar: \"Madagascar is by far the biggest, and a continent on its own when it comes to wildlife.\" The smaller islands are known as luxury resorts, not for wildlife. ✓\n\n**[id 271]** - The passage explicitly warns: \"some [high-end brand-name frames] may be knock-offs\" - they might be fake. ✓\n\n```json\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 1855,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1918,
+  "output_tokens_details": {
+   "thinking_tokens": 1460
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1855,
+    "output_tokens": 1918,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011445,
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

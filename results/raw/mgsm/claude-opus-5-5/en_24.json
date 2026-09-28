@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 10.5,
+ "text": "- **240:** John has 54, so Robert has 27 and James has 33. John has 54 − 33 = **21** more.\n- **241:** Each person reads all three books, so they read 3 + 3 = **6**.\n- **242:** He keeps 3 pen pals. That is 3 × 2 letters × 5 pages = 30 pages. At 6 minutes a page, 30 × 6 = 180 minutes, which is **3** hours.\n- **243:** Calls with his boss take 15 × 30 = 450 minutes. Adding 300 extra minutes gives 750. He has 1000 − 750 = **250** left.\n- **244:** Kyle took 5, Billy took 10, and Colby took 5 − 3 = 2. So 24 − 5 − 10 + G − 2 = 27, which gives G = **20**.\n- **245:** The difference is 32 − 4 = 28. Half of that, 14, is the total number of fish. Each aquarium has **7**.\n- **246:** The cost is $250 × 6 hours × 4 days × 5 weeks = $30,000. After the 10% discount, she paid **27,000**.\n- **247:** The total is $12 + $43 + $15 + $4 + $22 = $96. Split three ways, each person paid **32**.\n- **248:** 4 bags × 50 pounds = 200 pounds. At $1.50 a pound, that is **300**.\n- **249:** Sue ate 20 + 26 = 46 cookies and her sister ate 5 + 13 = 18. The difference is 28 cookies × 200 = **5600** calories.\n\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1439,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 993,
+  "output_tokens_details": {
+   "thinking_tokens": 394
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 993,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.03138,
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

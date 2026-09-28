@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 3.9,
+ "text": "{\"answers\": {\"110\": 32, \"111\": 2, \"112\": 12, \"113\": 15, \"114\": 20, \"115\": 120, \"116\": 84, \"117\": 180, \"118\": 10, \"119\": 112000}}",
+ "usage": {
+  "prompt_tokens": 3276,
+  "completion_tokens": 65,
+  "total_tokens": 3341,
+  "cost": 6.812e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.812e-05,
+   "upstream_inference_prompt_cost": 6.552e-05,
+   "upstream_inference_completions_cost": 2.6e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "110": 32.0,
+  "111": 2.0,
+  "112": 12.0,
+  "113": 15.0,
+  "114": 20.0,
+  "115": 120.0,
+  "116": 84.0,
+  "117": 180.0,
+  "118": 10.0,
+  "119": 112000.0
+ },
+ "single": {},
+ "answers": {
+  "110": 32.0,
+  "111": 2.0,
+  "112": 12.0,
+  "113": 15.0,
+  "114": 20.0,
+  "115": 120.0,
+  "116": 84.0,
+  "117": 180.0,
+  "118": 10.0,
+  "119": 112000.0
+ }
+}

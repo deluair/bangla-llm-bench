@@ -1,0 +1,53 @@
+{
+ "task": "belebele",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 48.4,
+ "text": "{\"answers\": {\"160\": \"C\", \"161\": \"A\", \"162\": \"B\", \"163\": \"B\", \"164\": \"A\", \"165\": \"C\", \"166\": \"C\", \"167\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 2401,
+  "completion_tokens": 10722,
+  "total_tokens": 13123,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10669
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2401
+ },
+ "served_by": null,
+ "answers_batch": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "C",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "A",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "C",
+  "166": "C",
+  "167": "B"
+ }
+}

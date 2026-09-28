@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 1.5,
+ "text": "{\"answers\": {\"16\": \"D\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"A\"}}",
+ "usage": {
+  "queue_time": 0.093590771,
+  "prompt_tokens": 1373,
+  "prompt_time": 0.120441853,
+  "completion_tokens": 556,
+  "completion_time": 1.159247002,
+  "total_tokens": 1929,
+  "total_time": 1.279688855,
+  "completion_tokens_details": {
+   "reasoning_tokens": 496
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

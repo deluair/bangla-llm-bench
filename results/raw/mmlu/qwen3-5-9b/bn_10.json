@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 78.7,
+ "text": "\n\nThe user wants me to answer 15 multiple-choice questions, presumably from an AP US History or AP Psychology exam (based on the content), translated into Bengali. I will analyze each question, considering the provided text where relevant, and the general historical knowledge required.\n\n**Question [5669]**\nTopic: Federalist #15 and Alexander Hamilton.\nThe provided text is about 1885 testimony regarding racial rights, which seems disconnected from the question about Hamilton's Federalist #15. Hamilton's Federalist #15 argues that the Articles of Confederation were too weak to maintain order and manage state disputes (specifically debts and treaties). He advocated for a stronger central government.\nOption C: \"A weak central government [without ability to solve oppressive problems/capabilities]\". This matches Hamilton's critique of the Articles.\nAnswer: C\n\n**Question [5751]**\nTopic: 1864 Election (Lincoln vs McClellan).\nText describes Lincoln's landslide in the Electoral College (Union soldier vote). McClellan won only New Jersey, Delaware, Kentucky.\nInference: The disparity suggests Lincoln won the populous North (major voting states) while McClellan's support was scattered (less populous border/old states).\nOption A: \"Lincoln got more votes in populous northern states... While McClellan...\" (Matches the Electoral College math).\nAnswer: A\n\n**Question [5807]**\nTopic: John C. Calhoun, Nullification Crisis.\nThe text is from Calhoun's \"South Carolina Explanatory Protest\". He argues for states' rights vs federal sovereignty.\nThe question asks which political situation matches this rhetoric of state power vs federal power.\nOption B: \"New England Federalists reaction during the War of 1812\" (Hartford Convention/Dissent/Secession threat). This is the closest historical parallel to Nullification rhetoric.\nAnswer: B\n\n**Question [5817]**\nTopic: Thomas Jefferson (1816), Living Constitution.\nText says institutions must adapt to human progress.\nWhich amendment fits this idea of adapting/progress?\nOption C: 19th Amendment (Women's suffrage 1920) - Represents the extension of equality as the nation \"evolved\" its understanding of rights.\nAnswer: C\n\n**Question [5849]**\nTopic: Lyndon B. Johnson (1964), Great Society.\nText describes an \"Ideal\" society (quality of life, ending poverty).\nQuestion asks for an unintended consequence of these liberal successes.\nOption C: \"Economic slowdown... caused by government spending... leading to inflation\". The Great Society programs (Medicare, funding) contributed to the 1970s inflation, which is the standard \"unintended consequence\" taught in AP US History.\nAnswer: C\n\n**Question [5924]**\nTopic: Olympe de Gouges (Rights of Woman) vs. Halima Ghomi (Algerian women).\nGhomi says freedom didn't help them economically (still poor/farmers).\nQuestion: What prevented progress?\nOption B: \"Lack of industrial wealth or infrastructure\" (Industrial strength/infrastructure). Ghomi's complaint about poverty despite freedom points to economic failure, not political freedom issues.\nAnswer: B\n\n**Question [5973]**\nTopic: Gandhi (1921), Ahimsa, Boycott.\nQuestion asks for the historical progress helped by the boycott/movement mentioned.\nContext: Gandhi's Swadeshi movement.\nOption C: \"The ongoing anti-colonial process in Africa\". Gandhi's boycott (Non-Cooperation) was part of the broader anti-colonial movement which inspired other continents (including later African movements). While less direct than India's struggle, in the context of typical exam options, it links to the \"Anti-colonial movements in progress at that time\".\n(Also, sometimes the answer is about \"Anti-colonialism\" generally).\nAnswer: C\n\n**Question [6006]**\nTopic: Philip Guildman de Playa (1610), Spanish/Indian labor.\nText describes harsh treatment, debt peonage.\nQuestion: New World settlers differed in...\nOption B: \"Lack of indigenous understanding of land ownership differences\". The text implies the settlers (English acknowledging debt/ownership vs Indigenous duty). Usually, this question refers to the settlers' view of land as private property vs indigenous communal use. Given Option B suggests a difference in \"Land ownership theory concepts\", it fits.\nAnswer: B\n\n**Question [6073]**\nTopic: Olympe de Gouges vs. Halima Ghomi (Same as 5924, different question).\nQuestion: Inference about Revolution.\nOption C: \"Revolution's achievement of liberty is distributed unequally or unjustly\". Gouges won, Ghomi didn't. Liberty wasn't given to all equally.\nAnswer: C\n\n**Question [6083]**\nTopic: Kwame Nkrumah (1965), Neo-colonialism.\nText discusses \"New World\" and Non-Aligned Movement cooperation.\nOption A: \"Cold War rival ideologies\" (US vs USSR). Nkrumah's plea for cooperation with *all* (regardless of ideology) highlights the context of the Cold War rivalry he was trying to navigate.\nAnswer: A\n\n**Question [6118]**\nTopic: Developmental Psychology.\nQuestion: Age changes primarily described as differences in ____ across age groups.\nOption C: \"Rate of forgetting\" (Cognitive changes) or A (Strategy). In lifespan contexts, cognitive strategies and memory are key differentiating factors. However, without the source text, C is a safer bet for \"cognitive differences\".\nAnswer: C\n\n**Question [6123]**\nTopic: Medical/Ethics (End-of-Life).\nDefinition: \"Manages pain, helps in dying process, prolongs life\".\nOption A (Euthanasia) implies ending life.\nOption D (Hospice) implies caring for dying in a facility.\nHowever, \"Euthanasia\" is often the specific term for \"Assisting in dying\" in these exams, even with the \"prolong life\" confusion. Wait, Hospice does not prolong life. Euthanasia does not prolong life. \"Medical\" prolongs life.\nIf the text says \"Prolongs life\", it implies active medical care or **Medical** (Option C). But Option C text is garbled \"Médyakeoas\".\nLet's reconsider \"Medical\". \"Medical care... manages pain... prolongs life\".\nBut the phrase \"Assists in dying\" is specific to **Euthanasia**.\nI will select **A** because \"Assisting in dying\" is the most unique identifier for Euthanasia in these multiple-choice sets.\nAnswer: A\n\n**Question [6199]**\nTopic: Advanced Directives.\nText: \"Orders... state which medical procedures are desired or not.\"\nOption A: \"Living Will\" (Is the document containing these orders).\nOption C: \"DNR\" (Is a specific order).\nThe definition describes the **Living Will**.\nAnswer: A\n\n**Question [6202]**\nTopic: Gerontology/Sociology (Pat Shelley).\nQuestion: Pat Shelley (survivor/author) says it's not right to retire if...\nOption B: \"If you are under 60\". (Retirement is premature).\nAnswer: B\n\n**Question [6212]**\nTopic: Nursing Home Design.\nText: Design for \"Infant and Child visitors\", \"Nature\".\nOption D: \"Eden Alternative\". This is the specific term for nursing homes incorporating plants, animals, and gardens to humanize care.\nAnswer: D\n\n```json\n{\"answers\": {\"5669\": \"C\", \"5751\": \"A\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"C\", \"5924\": \"B\", \"5973\": \"C\", \"6006\": \"B\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"C\", \"6123\": \"A\", \"6199\": \"A\", \"6202\": \"B\", \"6212\": \"D\"}}}\n```",
+ "usage": {
+  "prompt_tokens": 11216,
+  "completion_tokens": 11856,
+  "total_tokens": 23072,
+  "cost": 0.0029,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0029,
+   "upstream_inference_prompt_cost": 0.0011216,
+   "upstream_inference_completions_cost": 0.0017784
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9983,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "C",
+  "5849": "C",
+  "5924": "B",
+  "5973": "C",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "C",
+  "6123": "A",
+  "6199": "A",
+  "6202": "B",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "A",
+  "5807": "B",
+  "5817": "C",
+  "5849": "C",
+  "5924": "B",
+  "5973": "C",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "C",
+  "6123": "A",
+  "6199": "A",
+  "6202": "B",
+  "6212": "D"
+ }
+}

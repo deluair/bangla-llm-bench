@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 31.5,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 210]**\n- Cost of items: $30 (jacket) + 2 * $20 (shoes) = $70.\n- Money she already has: $10 (savings) + (4 * $5) (babysitting) = $30.\n- Money needed: $70 - $30 = $40.\n- Lawns to mow: $40 / $4 per lawn = 10.\n\n**[id 211]**\n- Let R be red chickens and W be white chickens.\n- W = R + 2.\n- Total eggs: 3R + 5W = 42.\n- 3R + 5(R + 2) = 42 \n- 8R + 10 = 42 => 8R = 32 => R = 4.\n\n**[id 212]**\n- Perimeter: 2 * (1.5 + 6) = 15 miles.\n- Time: 15 miles / 3 mph = 5 hours.\n\n**[id 213]**\n- Day 1: 100 customers.\n- Day 2: 100 + 50 = 150 customers.\n- Day 3: Total (500) - Day 1 (100) - Day 2 (150) = 250 customers.\n\n**[id 214]**\n- Let L be the larger tank now, S be the smaller tank now.\n- L = 4S.\n- Water lost in 4 mins = 4 mins * 4 gal/min = 16 gallons per tank.\n- 4 mins ago: (L + 16) = 2 * (S + 16).\n- 4S + 16 = 2S + 32 => 2S = 16 => S = 8.\n\n**[id 215]**\n- Total cost: $320.00 + $32.00 = $352.00.\n- Hours needed: $352 / $8 per hour = 44 hours.\n\n**[id 216]**\n- Amount owed: $2000 + 10% ($200) = $2200.\n- Amount paid: $165 * 12 months = $1980.\n- Remaining: $2200 - $1980 = $220.\n\n**[id 217]**\n- Roses = 4.\n- Dahlias = 4 + 7 = 11.\n- Total = 4 + 11 = 15.\n\n**[id 218]**\n- Current ages: Harriet = 21, Adrian (3 * 21) = 63, Jack (2 * 21) = 42.\n- Current average: (21 + 63 + 42) / 3 = 42.\n- Average in 3 years: 42 + 3 = 45.\n\n**[id 219]**\n- Naomi = 68.\n- Yuri = 68 + 10 = 78.\n- Brianna = 68 + 17 = 85.\n- Jojo = 251 - (68 + 78 + 85) = 251 - 231 = 20.\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n```\n",
+ "usage": {
+  "input_tokens": 16819,
+  "output_tokens": 4110,
+  "thinking_tokens": 3192,
+  "cache_read_tokens": 8140,
+  "total_tokens": 20929
+ },
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

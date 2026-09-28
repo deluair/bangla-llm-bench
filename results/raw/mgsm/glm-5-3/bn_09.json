@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 27.1,
+ "text": "Here are the solutions:\n\n**[id 90]** Adults: 20 × 10 = 200 lbs; Children: 5 × 5 = 25 lbs → 225 lbs\n\n**[id 91]** Cindy: 4, Marcy: 4 + 2 = 6, Jane: 3 × 6 = 18 → 4 + 6 + 18 = 28\n\n**[id 92]** James = 10, Corey = 10 + 1 = 11, Amy = 11 − 2 = 9, Jackson = 9 − 5 = 4\n\n**[id 93]** Lee: 38 sec, so Gerald originally: 38 + 2 = 40 sec; 10% improvement: 40 × 0.9 = 36 sec\n\n**[id 94]** Cats: 2 × 60 = 120; dogs + cats = 180; rabbits = 180 − 12 = 168 → total = 348\n\n**[id 95]** Boys: 2/5 × 200 = 80, so girls = 120; girls in scouts: 2/3 × 120 = 80 → not in scouts: 120 − 80 = 40\n\n**[id 96]** James slept 2/3 × 9 = 6 hours → difference = 9 − 6 = 3 hours\n\n**[id 97]** 32 oz sauce needs 64 oz canned tomatoes = 4 cans → 4 × 3 = 12 tomatoes\n\n**[id 98]** 30 − 20 − 5 = 5 cars passed in the first 15 minutes\n\n**[id 99]** Total: 18 + (40 × 2) = 98 pots; gives away 40 → 98 − 40 = 58 pots\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}",
+ "usage": {
+  "completion_tokens": 2391,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1919
+  },
+  "prompt_tokens": 2527,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 4918
+ },
+ "served_by": null,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

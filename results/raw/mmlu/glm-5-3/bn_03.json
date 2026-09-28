@@ -1,0 +1,71 @@
+{
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 27.1,
+ "text": "Brief reasoning:\n\n- **1196:** Unconscious bias rooted in childhood experiences with an abusive father points directly to the psychodynamic framework → **B**\n- **1258:** Marathon running (endurance) depends on aerobic energy production → **D**\n- **1322:** Without O₂, the electron transport chain halts, so water (formed at the end of ETC) stops being produced first → **C**\n- **1326:** SDS denatures proteins by breaking bonds (tertiary/primary structure) to create linear chains separable by size → **D**\n- **1357:** l = 2 means d electrons; Au (Z=79) has 3d¹⁰ 4d¹⁰ 5d⁹ ≈ 29 such electrons per standard filling → **C**\n- **1374:** N ground state: 2p³ with three parallel unpaired spins → S = 3/2 → **C**\n- **1381:** Sign of charge carriers is determined by the Hall coefficient → **D**\n- **1384:** Bosons have symmetric wave functions and do NOT obey Pauli exclusion → **B**\n- **1395:** Moon's mass cancels out of orbital equations, so it cannot be determined from these observations → **A**\n- **1452:** f_wall = 600·350/346.5 ≈ 606 Hz; f_heard = 606·353.5/350 ≈ 612 Hz → **D**\n- **1476:** Exploitable coding error by developers = buffer overflow → **B**\n- **1492:** Blinding randomizes the decryption, obscuring the correlation between input and timing → **C**\n- **1523:** Steals IM login/password = IM-Trojan → **A**\n- **1534:** Old OS like UNIX and NT-based systems → **D**\n- **1570:** Classic CIA triad = confidentiality, availability, integrity; accuracy is not one → **C**\n\n{\"answers\": {\"1196\": \"B\", \"1258\": \"D\", \"1322\": \"C\", \"1326\": \"D\", \"1357\": \"C\", \"1374\": \"C\", \"1381\": \"D\", \"1384\": \"B\", \"1395\": \"A\", \"1452\": \"D\", \"1476\": \"B\", \"1492\": \"C\", \"1523\": \"A\", \"1534\": \"D\", \"1570\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 2022,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1464
+  },
+  "prompt_tokens": 4508,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6530
+ },
+ "served_by": null,
+ "answers": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "answers_batch": {
+  "1196": "B",
+  "1258": "D",
+  "1322": "C",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "D",
+  "1384": "B",
+  "1395": "A",
+  "1452": "D",
+  "1476": "B",
+  "1492": "C",
+  "1523": "A",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {}
+}

@@ -1,0 +1,72 @@
+{
+ "task": "mmlu",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "6675",
+  "6681",
+  "6750",
+  "6778",
+  "6813",
+  "6838",
+  "6869",
+  "6871",
+  "6890",
+  "6903",
+  "7005",
+  "7011",
+  "7014",
+  "7018",
+  "7041"
+ ],
+ "seconds": 27.4,
+ "text": "**Brief reasoning:**\n\n- **6675:** False analogy = drawing a conclusion from a comparison lacking sufficient relevant similarity → **D**\n- **6681:** Concluding someone is good/honest because their associates are good = the positive counterpart of guilt by association → **A** (Laudatory personality)\n- **6750:** Appeal to emotion = winning agreement by arousing feelings rather than reason → **D**\n- **6778:** Hasty conclusion = concluding without sufficient supporting evidence → **B**\n- **6813:** The Accident fallacy is also known as Dicto simpliciter (misapplying a general rule as universal) → **D**\n- **6838:** Max instances = 3×2×2×2 (features) ×3 (class) = 72 → **D**\n- **6869:** Predicting rainfall amount (a labeled/regression task) from signals = supervised learning → **A**\n- **6871:** Pruning is done mainly to avoid overfitting the training set → **D**\n- **6890:** Grid-based clustering is the spatial clustering approach → **C**\n- **6903:** Both statements are true (kernel margins don't predict test performance; BERT uses GELU) → **A**\n- **7005:** Gouldner focused on workers' reactions to bureaucratic features → **C**\n- **7011:** Virtual teams are characterized by working remotely → **D**\n- **7014:** Analyzing the current situation and planning to achieve objectives = strategy formulation → **B**\n- **7018:** Reward is not one of the five core job characteristics model dimensions → **C**\n- **7041:** Worker self-management in decision-making = worker empowerment → **B**\n\n{\"answers\": {\"6675\": \"D\", \"6681\": \"A\", \"6750\": \"D\", \"6778\": \"B\", \"6813\": \"D\", \"6838\": \"D\", \"6869\": \"A\", \"6871\": \"D\", \"6890\": \"C\", \"6903\": \"A\", \"7005\": \"C\", \"7011\": \"D\", \"7014\": \"B\", \"7018\": \"C\", \"7041\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 2134,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1573
+  },
+  "prompt_tokens": 3546,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 5680
+ },
+ "served_by": null,
+ "answers_batch": {
+  "6675": "D",
+  "6681": "A",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "C",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "B"
+ },
+ "single": {},
+ "answers": {
+  "6675": "D",
+  "6681": "A",
+  "6750": "D",
+  "6778": "B",
+  "6813": "D",
+  "6838": "D",
+  "6869": "A",
+  "6871": "D",
+  "6890": "C",
+  "6903": "A",
+  "7005": "C",
+  "7011": "D",
+  "7014": "B",
+  "7018": "C",
+  "7041": "B"
+ }
+}

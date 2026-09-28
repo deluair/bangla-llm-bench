@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 114.6,
+ "text": "[id 90]\nAdults: 20 adults * 10 lbs/adult = 200 lbs.\nChildren: 5 children * (10/2) lbs/child = 5 children * 5 lbs/child = 25 lbs.\nTotal needed: 200 + 25 = 225 lbs.\n\n[id 91]\nCindy: 4 pets.\nMarcia: Cindy + 2 = 6 pets.\nJan: 3 * Marcia = 3 * 6 = 18 pets.\nTotal: 4 + 6 + 18 = 28 pets.\n\n[id 92]\nJames: 10 years.\nCorey: James + 1 = 11 years.\nAmy: Corey - 2 = 9 years.\nJackson: Amy - 5 = 4 years.\n\n[id 93]\nLee's time: 38 seconds.\nGerald's original time: Lee was 2 seconds faster, so 38 + 2 = 40 seconds.\nGerald's speed improvement: 10% increase in speed reduces time by roughly 10% (in standard integer word problem contexts, time reduces by 10%).\nNew time: 40 * (1 - 0.10) = 36 seconds. (Calculating strictly as 40/1.1 yields ~36.36, but integer answer expected).\n\n[id 94]\nDogs: 60.\nCats: 2 * Dogs = 120.\nCombined Dogs+Cats: 60 + 120 = 180.\nRabbits: 180 - 12 = 168.\nTotal Pets: 60 + 120 + 168 = 348.\n\n[id 95]\nTotal students: 200.\nBoys: 2/5 * 200 = 80.\nGirls: 200 - 80 = 120.\nGirl Scouts: 2/3 * 120 = 80.\nNot in Girl Scouts: 120 - 80 = 40.\n\n[id 96]\nHarry: 9 hours.\nJames: 2/3 * 9 = 6 hours.\nDifference: 9 - 6 = 3 hours.\n\n[id 97]\nSauce: 32 ounces.\nTomatoes volume: 32 * 2 = 64 ounces (since volume halves in cooking).\nCans: 64 / 16 = 4 cans.\nTomatoes count: 4 cans * 3 tomatoes/can = 12 tomatoes.\n\n[id 98]\nTotal cars: 30.\nExit: 5.\nTotal driving through: 30 - 5 = 25.\nDriven through in 2nd 15 mins: 20.\nDriven through in 1st 15 mins: 25 - 20 = 5.\n\n[id 99]\nNew plants: 18.\nExisting plants: 2 * 40 = 80.\nTotal plants: 18 + 80 = 98.\nGiven away: 1 per ledge * 40 ledges = 40.\nRemaining: 98 - 40 = 58.\n\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}",
+ "usage": {
+  "prompt_tokens": 774,
+  "completion_tokens": 6126,
+  "total_tokens": 6900,
+  "cost": 0.0009963,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009963,
+   "upstream_inference_prompt_cost": 7.74e-05,
+   "upstream_inference_completions_cost": 0.0009189
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5273,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

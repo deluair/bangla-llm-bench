@@ -1,0 +1,52 @@
+{
+ "task": "belebele",
+ "model": "gpt-oss-120b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 2.9,
+ "text": "{\"answers\": {\"32\": \"C\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}",
+ "usage": {
+  "queue_time": 0.074899179,
+  "prompt_tokens": 2328,
+  "prompt_time": 0.113350104,
+  "completion_tokens": 1252,
+  "completion_time": 2.596221856,
+  "total_tokens": 3580,
+  "total_time": 2.70957196,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1192
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "32": "C",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "C",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}

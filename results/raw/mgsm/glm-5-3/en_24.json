@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 13.8,
+ "text": "Here are the solutions:\n\n**[240]** John = 54, so Robert = 27, James = 27 + 6 = 33. John − James = 54 − 33 = 21.\n\n**[241]** Dolly reads 3 books (her 2 + Pandora's 1), Pandora reads 3 books (her 1 + Dolly's 2). Total = 6.\n\n**[242]** 5 − 2 = 3 pen pals remain. They send 3 × 2 = 6 letters; he responds to all 6. 6 letters × 5 pages = 30 pages × 6 min = 180 min = 3 hours.\n\n**[243]** 30 days × 15 min = 450 min; 450 + 300 = 750. 1000 − 750 = 250 minutes.\n\n**[244]** 24 − 5 (Kyle) − 10 (Billy) = 9. Colby took 5 − 3 = 2. So 9 + g − 2 = 27 → g = 20.\n\n**[245]** Difference = 32 − 4 = 28 = 2 × total fish → total fish = 14 → 7 per aquarium.\n\n**[246]** $250 × 6 hrs = $1500/day; × 4 days/week = $6000; × 5 weeks = $30,000. With 10% discount: $30,000 × 0.9 = $27,000.\n\n**[247]** Total: 12 + 43 + 15 + 4 + 22 = $96. Split 3 ways: 96 / 3 = 32.\n\n**[248]** 4 × 50 = 200 lbs × $1.50 = $300.\n\n**[249]** Sue: Monday 4×5 = 20, Tuesday 2×13 = 26 → 46 cookies. Sister: 5 + 13 = 18. Difference: 28 × 200 = 5600 calories.\n\n{\"answers\": {\"240\": 21, \"241\": 6, \"242\": 3, \"243\": 250, \"244\": 20, \"245\": 7, \"246\": 27000, \"247\": 32, \"248\": 300, \"249\": 5600}}",
+ "usage": {
+  "completion_tokens": 1110,
+  "completion_tokens_details": {
+   "reasoning_tokens": 592
+  },
+  "prompt_tokens": 721,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1831
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

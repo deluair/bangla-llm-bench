@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363"
+ ],
+ "seconds": 88.0,
+ "text": "Looking at these 15 questions systematically:\n\n**Q1 (Cell wall components):** Plant cell walls contain lignin, pectin, and suberin. Glycogen is an animal storage polysaccharide, not found in plant cell walls. **Answer: D**\n\n**Q2 (Parabola directrix):** For parabola y² = 4ax with focus at (a, 0), the directrix equation is x = -a. **Answer: B**\n\n**Q3 (Fire Algae):** Pyrrhophyta (dinoflagellates) are called fire algae due to bioluminescence producing a fire-like glow. **Answer: B**\n\n**Q4 (Logic gate X=1):** For X to equal 1, assuming a basic AND gate, both inputs must be 1. **Answer: C**\n\n**Q5 (Mass and inertia):** Moment of inertia is directly proportional to mass (I ∝ m). **Answer: B**\n\n**Q6 (Arsenic in water):** Bangladesh and WHO standard for drinking water arsenic limit is 0.01 mg/L. **Answer: B**\n\n**Q7 (Blood clotting):** Fibrinogen, prothrombin, and calcium ions are essential for clotting. Albumin is a transport protein not directly involved in clotting. **Answer: D**\n\n**Q8 (Dew point):** শিশিরাঙ্ক refers to the specific temperature at which air becomes saturated with moisture. **Answer: B**\n\n**Q9 (Simple interest):** SI = (P × R × T)/100 → 2000 = (5000 × R × 4)/100 → R = 10%. **Answer: C**\n\n**Q10 (Pure semiconductor at 0°C):** At very low temperatures, intrinsic semiconductors have finite resistance that decreases as temperature increases (opposite to metals). **Answer: C**\n\n**Q11 (F2 phenotypic ratio):** In complete dominance monohybrid crosses, F2 shows 3:1 phenotypic ratio (dominant:recessive). **Answer: D**\n\n**Q12 (Hydrogen electron transition):** ΔE = 5.54×10⁻¹⁰ - 2.44×10⁻¹¹ ≈ 5.3×10⁻¹⁰ erg; ν = ΔE/h = 5.3×10⁻¹⁰/6.626×10⁻²⁷ ≈ 7.99×10¹⁶ Hz. **Answer: D**\n\n**Q13 (Most recent independent state):** South Sudan gained independence in 2011, the most recent among these options. **Answer: A**\n\n**Q14 (GCD from product and LCM):** a × b = GCD × LCM → 1536 = GCD × 96 → GCD = 16. **Answer: C**\n\n**Q15 (LCM from ratio and GCD):** Numbers are 5k and 7k; if GCD = k = 8, then numbers are 40 and 56. LCM = (40×56)/8 = 280. **Answer: D**\n\n```json\n{\"answers\": {\"a644f9a2-945a-40f8-8542-fe4225e2684e-135662\": \"D\", \"a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189\": \"B\", \"a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342\": \"B\", \"a947a423-a830-43e1-bbb5-08162f7f5771-107611\": \"C\", \"a9bbb715-5505-4589-9b12-2162920cf88d-94161\": \"B\", \"ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209\": \"B\", \"ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395\": \"D\", \"ad128950-d7fa-4da3-af3f-b1f76168d943-112534\": \"B\", \"adec341f-726a-42f4-9152-4384a6c40614-110051\": \"C\", \"b0d95f00-e063-497c-845c-4df160de98a6-120411\": \"C\", \"b1396387-ca15-4741-a16d-1596d2f377cc-109799\": \"D\", \"b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117\": \"D\", \"b23bc284-b642-499a-b691-f59ee883e191-116894\": \"A\", \"b29a909e-cb43-4908-934e-b938c9c1e03b-105140\": \"C\", \"b326f694-908c-49a0-808b-ddc08524c556-137363\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 2462,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7923,
+  "output_tokens_details": {
+   "thinking_tokens": 6652
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2462,
+    "output_tokens": 7923,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.042076999999999996,
+ "answers_batch": {
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662": "D",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189": "B",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342": "B",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611": "C",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161": "B",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209": "B",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395": "D",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534": "B",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051": "C",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411": "C",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799": "D",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117": "D",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894": "A",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140": "C",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363": "D"
+ },
+ "single": {},
+ "answers": {
+  "a644f9a2-945a-40f8-8542-fe4225e2684e-135662": "D",
+  "a7ba43d0-0aa2-4dd8-8c45-8129cf7cafba-18189": "B",
+  "a7c385fe-6327-406b-ba00-f6e21a5fa3b2-145342": "B",
+  "a947a423-a830-43e1-bbb5-08162f7f5771-107611": "C",
+  "a9bbb715-5505-4589-9b12-2162920cf88d-94161": "B",
+  "ac11e6a4-cbcc-41e2-8eb5-960060104eab-74209": "B",
+  "ac92f5c5-f26d-464c-acaf-6575f1eea7a3-78395": "D",
+  "ad128950-d7fa-4da3-af3f-b1f76168d943-112534": "B",
+  "adec341f-726a-42f4-9152-4384a6c40614-110051": "C",
+  "b0d95f00-e063-497c-845c-4df160de98a6-120411": "C",
+  "b1396387-ca15-4741-a16d-1596d2f377cc-109799": "D",
+  "b1fa6b15-0bb4-48fd-9d6f-0f8612584a40-110117": "D",
+  "b23bc284-b642-499a-b691-f59ee883e191-116894": "A",
+  "b29a909e-cb43-4908-934e-b938c9c1e03b-105140": "C",
+  "b326f694-908c-49a0-808b-ddc08524c556-137363": "D"
+ }
+}

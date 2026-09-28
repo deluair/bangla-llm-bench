@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 6.5,
+ "text": "1. **Id 288**: A satellite phone is preferable in remote locations where cell phone coverage is lacking. The passage mentions that it is frequently used by shipping, including pleasure craft, which implies a boating trip.\n   **Answer: B**\n\n2. **Id 289**: Montevideo experiences summer when it is winter in the Northern Hemisphere. If a traveler prefers a cooler climate, they should visit when it is winter in the Northern Hemisphere.\n   **Answer: D**\n\n3. **Id 290**: The passage states that SkyTeam covers none of the ocean crossings in the Southern Hemisphere, making it the alliance with the least coverage.\n   **Answer: D**\n\n4. **Id 291**: The passage mentions that San Francisco's economy is diversified and not entirely reliant on tourism.\n   **Answer: D**\n\n5. **Id 292**: The passage advises that a 4x4 is highly recommended and many locations are only accessible with one, so saying most locations are accessible with a normal vehicle is bad advice.\n   **Answer: B**\n\n6. **Id 293**: The passage suggests visiting bars or pubs in neighborhoods you don’t normally frequent if your city has a varied drinking culture.\n   **Answer: C**\n\n7. **Id 294**: The passage mentions that Timbuktu has an airport, making it accessible by plane.\n   **Answer: A**\n\n8. **Id 295**: A travel agent is particularly useful for journeys extending beyond a traveler's previous experience, such as visiting low-income countries or unfamiliar cultures.\n   **Answer: B**\n\n```json\n{\n  \"answers\": {\n    \"288\": \"B\",\n    \"289\": \"D\",\n    \"290\": \"D\",\n    \"291\": \"D\",\n    \"292\": \"B\",\n    \"293\": \"C\",\n    \"294\": \"A\",\n    \"295\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1587,
+  "completion_tokens": 430,
+  "total_tokens": 2017,
+  "cost": 0.00030255,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00030255,
+   "upstream_inference_prompt_cost": 0.00023805,
+   "upstream_inference_completions_cost": 6.45e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "288": "B",
+  "289": "D",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "D",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 10.5,
+ "text": "### Brief Solutions\n\n- **[id 210]**\n  - Total needed: $\\$30 + (2 \\times \\$20) = \\$70$.\n  - Current funds: $\\$10 + (4 \\times \\$5) = \\$30$.\n  - Remaining: $\\$70 - \\$30 = \\$40$.\n  - Lawns to mow: $\\$40 / \\$4 = 10$.\n\n- **[id 211]**\n  - Let $R$ be red hens, white hens $W = R + 2$.\n  - $3R + 5(R + 2) = 42 \\implies 8R + 10 = 42 \\implies 8R = 32 \\implies R = 4$.\n\n- **[id 212]**\n  - Perimeter: $2 \\times (1.5 + 6) = 15$ miles.\n  - Time: $15 / 3 = 5$ hours.\n\n- **[id 213]**\n  - Day 1: $100$.\n  - Day 2: $100 + 50 = 150$.\n  - Day 3: $500 - (100 + 150) = 250$.\n\n- **[id 214]**\n  - Let current volumes be $L$ and $S$.\n  - Leaked in 4 minutes: $4 \\times 4 = 16$ gallons each.\n  - $L = 4S$ and $L + 16 = 2(S + 16) \\implies 4S + 16 = 2S + 32 \\implies 2S = 16 \\implies S = 8$.\n\n- **[id 215]**\n  - Total cost: $\\$320 + \\$32 = \\$352$.\n  - Hours needed: $352 / 8 = 44$.\n\n- **[id 216]**\n  - Total debt: $\\$2000 \\times 1.10 = \\$2200$.\n  - Paid: $12 \\times \\$165 = \\$1980$.\n  - Remaining: $\\$2200 - \\$1980 = \\$220$.\n\n- **[id 217]**\n  - Roses: $4$.\n  - Dahlias: $4 + 7 = 11$.\n  - Total flowers: $4 + 11 = 15$.\n\n- **[id 218]**\n  - Current ages: Harriet = $21$, Adrian = $3 \\times 21 = 63$, Jack = $2 \\times 21 = 42$.\n  - Current average: $(21 + 63 + 42) / 3 = 126 / 3 = 42$.\n  - Average in 3 years: $42 + 3 = 45$.\n\n- **[id 219]**\n  - Naomi = $68$, Yuri = $68 + 10 = 78$, Brianna = $68 + 17 = 85$.\n  - Three students total: $68 + 78 + 85 = 231$.\n  - Jojo: $251 - 231 = 20$.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n",
+ "usage": {
+  "input_tokens": 24700,
+  "output_tokens": 2660,
+  "thinking_tokens": 1781,
+  "cache_read_tokens": 0,
+  "total_tokens": 27360
+ },
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "3871",
+  "3896",
+  "4028",
+  "4079",
+  "4155",
+  "4314",
+  "4344",
+  "4393",
+  "4449",
+  "4479",
+  "4517",
+  "4603",
+  "4622",
+  "4638",
+  "4698"
+ ],
+ "seconds": 44.0,
+ "text": "Looking at each question:\n\n**[3871]** Say's law is the classical principle that supply creates its own demand. **D**\n\n**[3896]** Stagflation (simultaneous inflation and stagnation) results from decreased SRAS while AD stays constant, causing prices to rise and output to fall. **B**\n\n**[4028]** Expansionary fiscal policy stimulates the economy during recessions to close the recessionary gap. **A**\n\n**[4079]** When the government pursues expansionary fiscal policy, it borrows heavily, increasing interest rates, which crowds out private investment. **B**\n\n**[4155]** The Fed increases money supply by lowering the discount rate (making it cheaper for banks to borrow), selling securities (reduces supply), or higher reserve ratio (reduces lending). Only A expands money. **A**\n\n**[4314]** Chimes between 5:10 and 7:35: 5:15(1), 5:30(1), 5:45(1), 6:00(6), 6:15(1), 6:30(1), 6:45(1), 7:00(7), 7:15(1), 7:30(1) = 21 total. **D**\n\n**[4344]** Using $\\sum kx^k = \\frac{x}{(1-x)^2}$ with $x = 1/2$: $\\frac{1/2}{1/4} = 2$. **C**\n\n**[4393]** Each day the population doubles: Day 1→2, Day 2→4, ..., Day 7→128 amoebas. **D**\n\n**[4449]** Current ratio (s/p) vs old ratio (s/2)/(2p) = s/(4p). Ratio: $(s/p)/(s/4p) = 4 = 400\\%$. **B**\n\n**[4479]** Using $\\gcd(2^a-1, 2^b-1) = 2^{\\gcd(a,b)}-1$: $\\gcd(1001, 1012) = 11$, so $2^{11}-1 = 2047$. **D**\n\n**[4517]** By definition, MC equals AVC and ATC at their minimum points (where average ceases falling). **C**\n\n**[4603]** Standard microeconomic principle: MC intersects AVC at AVC's minimum. **D**\n\n**[4622]** In perfect competition, the wage is fixed (price taker for labor). Higher MPP increases MRPL, so firm hires more workers, but wages don't rise. **C**\n\n**[4638]** Free-rider effect: benefiting without paying. Option C: friends watch pay-per-view without paying. **C**\n\n**[4698]** Diminishing marginal utility explains the law of demand—as price falls, consumers want more because additional utility decreases. **B**\n\n```json\n{\"answers\": {\"3871\": \"D\", \"3896\": \"B\", \"4028\": \"A\", \"4079\": \"B\", \"4155\": \"A\", \"4314\": \"D\", \"4344\": \"C\", \"4393\": \"D\", \"4449\": \"B\", \"4479\": \"D\", \"4517\": \"C\", \"4603\": \"D\", \"4622\": \"C\", \"4638\": \"C\", \"4698\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1756,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4692,
+  "output_tokens_details": {
+   "thinking_tokens": 3870
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1756,
+    "output_tokens": 4692,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.025216000000000002,
+ "answers_batch": {
+  "3871": "D",
+  "3896": "B",
+  "4028": "A",
+  "4079": "B",
+  "4155": "A",
+  "4314": "D",
+  "4344": "C",
+  "4393": "D",
+  "4449": "B",
+  "4479": "D",
+  "4517": "C",
+  "4603": "D",
+  "4622": "C",
+  "4638": "C",
+  "4698": "B"
+ },
+ "single": {},
+ "answers": {
+  "3871": "D",
+  "3896": "B",
+  "4028": "A",
+  "4079": "B",
+  "4155": "A",
+  "4314": "D",
+  "4344": "C",
+  "4393": "D",
+  "4449": "B",
+  "4479": "D",
+  "4517": "C",
+  "4603": "D",
+  "4622": "C",
+  "4638": "C",
+  "4698": "B"
+ }
+}

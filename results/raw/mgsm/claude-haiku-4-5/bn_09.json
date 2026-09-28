@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  "90",
+  "91",
+  "92",
+  "93",
+  "94",
+  "95",
+  "96",
+  "97",
+  "98",
+  "99"
+ ],
+ "seconds": 71.3,
+ "text": "Looking at each problem carefully:\n\n**[id 90]** - Potato salad for dinosaurs\n- Adults eat 10 lbs each: 20 × 10 = 200 lbs\n- Babies eat 5 lbs each: 5 × 5 = 25 lbs\n- Total: 225 lbs\n\n**[id 91]** - Pets in total\n- Cindy: 4 pets\n- Marcia: 4 + 2 = 6 pets\n- Jane: 3 × 6 = 18 pets\n- Total: 28 pets\n\n**[id 92]** - Jackson's age\n- James: 10 years\n- Cory: 10 + 1 = 11 years (1 year older than James)\n- Amy: 11 - 2 = 9 years (2 years younger than Cory)\n- Jackson: 9 - 5 = 4 years (5 years younger than Amy)\n\n**[id 93]** - Gerald's improved time\n- Lee's time: 38 seconds\n- Gerald's original time: 38 + 2 = 40 seconds\n- 10% improvement in speed = 10% decrease in time\n- New time: 40 × 0.90 = 36 seconds\n\n**[id 94]** - Total pets in neighborhood\n- Dogs: 60\n- Cats: 2 × 60 = 120\n- Rabbits: (60 + 120) - 12 = 168\n- Total: 348 pets\n\n**[id 95]** - Girls not in scouts\n- Total students: 200\n- Boys (2/5): 2/5 × 200 = 80\n- Girls: 200 - 80 = 120\n- Girls in scouts (2/3 of girls): 2/3 × 120 = 80\n- Girls not in scouts: 120 - 80 = 40\n\n**[id 96]** - Sleep difference\n- Harry: 9 hours\n- James: 2/3 × 9 = 6 hours\n- Difference: 9 - 6 = 3 hours\n\n**[id 97]** - Number of tomatoes used\n- Final sauce: 32 oz\n- Original canned tomatoes: 32 × 2 = 64 oz (amount halves during cooking)\n- Tomatoes per 16 oz: 3\n- Total tomatoes: (64 ÷ 16) × 3 = 4 × 3 = 12\n\n**[id 98]** - Cars in first 15 minutes\n- Initial cars: 30\n- First 15 min: x cars passed\n- Next 15 min: 20 cars passed\n- Escaped: 5 cars\n- Equation: x + 20 + 5 = 30, so x = 5\n\n**[id 99]** - Pots remaining\n- Initial pots: 40 × 2 = 80\n- New pots: 18\n- Total: 98 pots\n- Giving away: 40 pots (1 per window)\n- Remaining: 98 - 40 = 58 pots\n\n```json\n{\"answers\": {\"90\": 225, \"91\": 28, \"92\": 4, \"93\": 36, \"94\": 348, \"95\": 40, \"96\": 3, \"97\": 12, \"98\": 5, \"99\": 58}}\n```",
+ "usage": {
+  "input_tokens": 2683,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7607,
+  "output_tokens_details": {
+   "thinking_tokens": 6750
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2683,
+    "output_tokens": 7607,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.040718,
+ "answers_batch": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ },
+ "single": {},
+ "answers": {
+  "90": 225.0,
+  "91": 28.0,
+  "92": 4.0,
+  "93": 36.0,
+  "94": 348.0,
+  "95": 40.0,
+  "96": 3.0,
+  "97": 12.0,
+  "98": 5.0,
+  "99": 58.0
+ }
+}

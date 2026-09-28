@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 11.2,
+ "text": "[id 110]\nBeatrice ate 2 * 24 = 48 roll-ups.\nMarcell ate 3 * 14 = 42 roll-ups.\nAverage = (48 + 42) / 2 = 45\n\n[id 111]\nJulia rows 20 feet in 16 seconds, so she rows 1 foot per 0.8 seconds.\nThe shore is 64 seconds away, so she rows 64 / 0.8 = 80 feet.\nWater taken on: (2 liters / 10 feet) * 80 feet = 16 liters\n\n[id 112]\nEach teacher has 2 lessons per day, and the whiteboard is cleaned 3 times per lesson.\nFor 4 teachers: 4 teachers * 2 lessons/day * 3 cleanings/lesson = 24 cleanings/day\n\n[id 113]\nRyan plants 2 flowers/day for 15 days, so he plants 2 * 15 = 30 flowers.\n5 did not grow, so he has 30 - 5 = 25 flowers\n\n[id 114]\nLet the number of ducks be D.\nBrittany's phone holds 50D photos.\nJamal's phone holds 6 times Brittany's, so 6 * 50D = 300D.\nJamal's phone holds 1800 photos, so 300D = 1800 → D = 6\n\n[id 115]\nCost of 10 boards at $10 each: 10 * $10 = $100\nCost of 5 boards at $16 each: 5 * $16 = $80\nTotal cost: $100 + $80 = $180\nTotal revenue from selling: $180 (assuming she sells at cost, no profit mentioned, but likely she sells at original price)\nProfit: $180 - $180 = $0 (Assuming she sells at original price, no profit. If prices increased by 50%, selling price would be $180 * 1.5 = $270, so profit = $270 - $180 = $90)\n\nSince the question implies she sells at the original price, profit is $0, but likely the intention is to consider the price increase. Let's assume she sells at the new price:\nNew price for 10 boards: $10 * 1.5 = $15 each → $150 total\nNew price for 5 boards: $16 * 1.5 = $24 each → $120 total\nTotal revenue: $150 + $120 = $270\nProfit: $270 - $180 = $90\n\n[id 116]\nRatio of sugar to water is 7:13, so total parts = 7 + 13 = 20.\nTeaspoons of sugar used = (7 / 20) * 120 = 42\n\n[id 117]\nJohn buys 2 pairs of shoes for each of his 3 children: 2 * 3 = 6 pairs.\nCost per pair is $60, so total cost = 6 * $60 = $360\n\n[id 118]\nFirst day: 2 containers * 5 vehicles = 10 vehicles.\nTotal vehicles after second day: 30.\nVehicles on second day: 30 - 10 = 20.\nNumber of containers on second day: 20 / 5 = 4\n\n[id 119]\nAdrien's salary 4 years ago: $40,000.\nLylah's salary 4 years ago: $40,000 / 1.3 ≈ $30,769.23\nAdrien's salary increase: 40% of $40,000 = $16,000\nAdrien's new salary: $40,000 + $16,000 = $56,000\nLylah's salary increase: Assume same percentage increase as Adrien's salary increase (40%): $30,769.23 * 1.4 ≈ $43,076.92\nTotal salary four years later: $56,000 + $43,076.92 ≈ $99,076.92\nRounding to nearest whole number: $99,077\n\nSince the question likely expects us to assume Lylah's salary increased by the same percentage as Adrien's salary increase (40%), we'll use that.\n\n{\n\"answers\": {\n\"110\": 45,\n\"111\": 16,\n\"112\": 24,\n\"113\": 25,\n\"114\": 6,\n\"115\": 90,\n\"116\": 42,\n\"117\": 360,\n\"118\": 4,\n\"119\": 99077\n}\n}",
+ "usage": {
+  "prompt_tokens": 805,
+  "completion_tokens": 1149,
+  "total_tokens": 1954,
+  "cost": 0.0002931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002931,
+   "upstream_inference_prompt_cost": 0.00012075,
+   "upstream_inference_completions_cost": 0.00017235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 99077.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 16.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 42.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 99077.0
+ }
+}

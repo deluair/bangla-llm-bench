@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "110",
+  "111",
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 54.1,
+ "text": "{id 110}\nTo find the average, we need to find the total number of fruit roll-ups eaten by both Marcell and Beatrice, then divide by 2. \nBeatrice's roll-ups = 2 * 24 = 48\nMarcell's roll-ups = 3 * 14 = 42\nTotal roll-ups = 48 + 42 = 90\nAverage = 90 / 2 = 45\n\n{id 111}\nTo find the total amount of water taken on, we need to find the total number of 10-foot intervals Julia rowed, then multiply by 2 liters. \nNumber of 10-foot intervals = 64 / 10 = 6.4\nSince she can't row a fraction of a 10-foot interval, we round down to 6 intervals\nTotal water taken on = 6 * 2 = 12 liters\n\n{id 112}\nTo find the total number of times the whiteboard is cleaned, we need to find the total number of lessons, then multiply by 3 times per lesson.\nTotal lessons per day = 4 teachers * 2 lessons = 8\nTimes whiteboard is cleaned per day = 8 * 3 = 24\n\n{id 113}\nTo find the total number of flowers, we need to find the number of flowers planted, then subtract the ones that didn't grow.\nFlowers planted = 2 * 15 = 30\nFlowers that didn't grow = 5\nTotal flowers = 30 - 5 = 25\n\n{id 114}\nTo find the number of ducks in the photograph, we need to find the number of photographs Brittany's phone can hold, then divide by 50. \nFirst, we need to find the number of photographs Jamal's phone can hold. \nNumber of photographs Jamal's phone can hold = 1800\nNumber of photographs Brittany's phone can hold = 1800 / 6 = 300\nNumber of birds in the photograph = 300 / 50 = 6\n\n{id 115}\nTo find the total profit, we need to find the total cost, then subtract the cost. \nCost of 10 2 x 4 x 10 boards = 10 * $10 = $100\nCost of 5 4 x 4 x 10 boards = 5 * $16 = $80\nTotal cost = $100 + $80 = $180\nProfit = $180 * 0.5 = $90 (since prices went up 50%)\n\n{id 116}\nTo find the number of teaspoons of sugar, we need to find the total amount of sugar and water, then multiply by 7/13. \nTotal amount of sugar and water = 120\nNumber of teaspoons of sugar = (7/13) * 120 = 56\n\n{id 117}\nTo find the total amount paid, we need to find the cost per pair of shoes, then multiply by the number of pairs bought. \nCost per pair of shoes = $60\nNumber of pairs bought = 2 * 3 = 6\nTotal amount paid = $60 * 6 = $360\n\n{id 118}\nTo find the number of containers on the second day, we need to find the total number of vehicles, then subtract the number of vehicles from the first day. \nNumber of vehicles on the first day = 2 * 5 = 10\nNumber of containers on the first day = 10 / 5 = 2\nNumber of containers on the second day = (30 - 10) / 5 = 4\n\n{id 119}\nTo find Adrien's salary four years later, we need to find his salary four years ago, then multiply by 1.4. \nAdrien's salary four years ago = $40000\nAdrien's salary four years later = $40000 * 1.4 = $56000\nLylah's salary four years ago = $40000 * 0.7 = $28000\nLylah's salary four years later = $28000 * 1.4 = $39200\nTotal salary four years later = $56000 + $39200 = $95200\n\n{\"answers\": {\"110\": 45, \"111\": 12, \"112\": 24, \"113\": 25, \"114\": 6, \"115\": 90, \"116\": 56, \"117\": 360, \"118\": 4, \"119\": 95200}}",
+ "usage": {
+  "prompt_tokens": 768,
+  "completion_tokens": 935,
+  "total_tokens": 1703,
+  "cost": 0.000385081,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000385081,
+   "upstream_inference_prompt_cost": 0.000116736,
+   "upstream_inference_completions_cost": 0.000268345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "110": 45.0,
+  "111": 12.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 56.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ },
+ "single": {},
+ "answers": {
+  "110": 45.0,
+  "111": 12.0,
+  "112": 24.0,
+  "113": 25.0,
+  "114": 6.0,
+  "115": 90.0,
+  "116": 56.0,
+  "117": 360.0,
+  "118": 4.0,
+  "119": 95200.0
+ }
+}

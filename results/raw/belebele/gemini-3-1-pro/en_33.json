@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 16.6,
+ "text": "Here is the reasoning for each question based on the provided passages:\n\n*   **[id 264]** The passage states that canyoning \"combines elements from swimming, climbing and jumping,\" making swimming ability (D) necessary, whereas it \"requires relatively little training or physical shape to get started.\"\n*   **[id 265]** The passage explicitly notes that \"decisive victory over the Spanish was not achieved until 1818\" (B), while the other events (absence of central government, Napoleonic wars, declaration of independence) all relate to 1810.\n*   **[id 266]** The text mentions that \"Sand, gravel or salt... is often scattered on roads or paths to improve traction.\" Water (D) is not mentioned and would clearly freeze and worsen the situation.\n*   **[id 267]** The passage clearly states, \"The Cook Islands do not have any cities.\" Therefore, calling Rarotonga and Aitutaki the \"main cities\" (C) is inaccurate.\n*   **[id 268]** The passage says, \"Travellers who had an easy time adjusting to the new culture sometimes have a particularly hard time readjusting to their native culture,\" pointing to travelers who adjusted quickly (B).\n*   **[id 269]** The text explicitly states that \"Moose... aren't inherently aggressive,\" making statement (A) false.\n*   **[id 270]** The passage assigns the \"reputation for wildlife\" (C) specifically to Madagascar, contrasting it with the smaller islands which are known as luxury beach resorts, independent nations, or associated with France.\n*   **[id 271]** The text warns that high-end brand-name frames \"may be knock-offs,\" meaning they might be fake (C).\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17374,
+  "output_tokens": 1917,
+  "thinking_tokens": 1449,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19291
+ },
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 10.4,
+ "text": "**Problem 210:** The jacket and shoes cost 30 + 2×20 = $70. Sara has 10 saved plus 4×5 = 20 from babysitting, so $30. She needs $40 more. At $4 per mow, that is 40 ÷ 4 = **10** mows.\n\n**Problem 211:** Let r be the number of red hens. Then 3r + 5(r + 2) = 42, so 8r = 32 and r = **4**.\n\n**Problem 212:** The perimeter is 2 × (1.5 + 6) = 15 miles. At 3 miles per hour, that takes 15 ÷ 3 = **5** hours.\n\n**Problem 213:** Day 1 had 100 and day 2 had 150, so 250 in total. Day 3 had 500 − 250 = **250**.\n\n**Problem 214:** Each tank lost 4 × 4 = 16 gallons over the 4 minutes. Let S be the small tank's volume 4 minutes ago, so the large tank had 2S. Now 2S − 16 = 4(S − 16), which gives S = 24. The small tank now holds 24 − 16 = **8** gallons.\n\n**Problem 215:** The total cost is 320 + 32 = $352. At $8 per hour, she needs 352 ÷ 8 = **44** hours.\n\n**Problem 216:** She owes 2000 × 1.1 = $2200. She paid 165 × 12 = $1980. The remaining amount is **220**.\n\n**Problem 217:** There are 4 + 7 = 11 dahlias, so 4 + 11 = **15** flowers in total.\n\n**Problem 218:** Harriet is 21, Adrian is 3 × 21 = 63, and Jack is 2 × 21 = 42. In 3 years they will be 24, 66 and 45, which sum to 135. The average is 135 ÷ 3 = **45**.\n\n**Problem 219:** Naomi scored 68, Yuri 78 and Brianna 85, totalling 231. Jojo scored 251 − 231 = **20**.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2528,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1029,
+  "output_tokens_details": {
+   "thinking_tokens": 277
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2528,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1029,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2528,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2528
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.040812,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

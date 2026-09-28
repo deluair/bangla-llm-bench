@@ -1,0 +1,120 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 90.9,
+ "text": "",
+ "error": "<HTTPError 429: 'Too Many Requests'>",
+ "answers_batch": {},
+ "single": {
+  "272": {
+   "text": "",
+   "error": "<HTTPError 429: 'Too Many Requests'>",
+   "usage": null,
+   "answer": null
+  },
+  "273": {
+   "text": "",
+   "error": "<HTTPError 429: 'Too Many Requests'>",
+   "usage": null,
+   "answer": null
+  },
+  "274": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 506,
+    "total_tokens": 707,
+    "completion_tokens_details": {
+     "reasoning_tokens": 503
+    }
+   },
+   "answer": "B"
+  },
+  "275": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 160,
+    "completion_tokens": 297,
+    "total_tokens": 457,
+    "completion_tokens_details": {
+     "reasoning_tokens": 294
+    }
+   },
+   "answer": "C"
+  },
+  "276": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 209,
+    "total_tokens": 358,
+    "completion_tokens_details": {
+     "reasoning_tokens": 206
+    }
+   },
+   "answer": "A"
+  },
+  "277": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 267,
+    "completion_tokens": 334,
+    "total_tokens": 601,
+    "completion_tokens_details": {
+     "reasoning_tokens": 331
+    }
+   },
+   "answer": "A"
+  },
+  "278": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 454,
+    "total_tokens": 676,
+    "completion_tokens_details": {
+     "reasoning_tokens": 451
+    }
+   },
+   "answer": "D"
+  },
+  "279": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 366,
+    "completion_tokens": 131,
+    "total_tokens": 497,
+    "completion_tokens_details": {
+     "reasoning_tokens": 128
+    }
+   },
+   "answer": "C"
+  }
+ },
+ "answers": {
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

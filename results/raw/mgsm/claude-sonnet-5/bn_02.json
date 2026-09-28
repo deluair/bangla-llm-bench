@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-sonnet-5",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 10.2,
+ "text": "**Solutions:**\n\n20) Orange: 10L, 2/3 water = 6.667L water. Pineapple: 15L, 3/5 water = 9L water. Total water before spill = 15.667L. Spilled 1L orange drink contains 2/3 water = 0.667L. Remaining water = 15.667 - 0.667 = 15L.\n\n21) Raymond is 6 years older than Samantha (31+6=37). Son born when Raymond was 23, so son's age = 37-23 = 14 years ago.\n\n22) 3(1) + 2(2) + 3(0) = 3+4+0 = 7 DVDs.\n\n23) 4 hours × 2 cm/hour = 8 cm.\n\n24) $19.50 = 75% of original price → original = 19.50/0.75 = $26.\n\n25) Chicken $12 + Milk 5×$3=$15 + Apples 4×$1.50=$6 → Subtotal $33. Remaining $50-$33=$17. Pizza boxes = 17/8.50 = 2.\n\n26) Shorts 3×16.50=49.5, Pants 3×22.50=67.5, Shoes 3×42=126. Total = 49.5+67.5+126 = $243.\n\n27) 60 days / 15 servings per carton = 4 cartons × $4 = $16.\n\n28) Second stop at 60-15=45 miles. Distance between stops = 45-20 = 25 miles.\n\n29) Heels: $33 + $66 = $99. Boots = $99 + $5 = $104.\n\n{\"answers\": {\"20\": 15, \"21\": 14, \"22\": 7, \"23\": 8, \"24\": 26, \"25\": 2, \"26\": 243, \"27\": 16, \"28\": 25, \"29\": 104}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2490,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1080,
+  "output_tokens_details": {
+   "thinking_tokens": 507
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2490,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1080,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2490,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2490
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.020764,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "8179",
+  "8305",
+  "8354",
+  "8415",
+  "8476",
+  "8730",
+  "8933",
+  "9177",
+  "9319",
+  "9393",
+  "9440",
+  "9491",
+  "9584",
+  "9625",
+  "9693"
+ ],
+ "seconds": 75.4,
+ "text": "Looking at each question carefully:\n\n**Philosophical/Ethical Questions:**\n\n[8179] Dershowitz uses the 9/11 hypothetical to argue for accountability structures. His position on extreme decisions emphasizes that they should be made with visibility and transparency, proposing systems like \"torture warrants\" for oversight. **B**\n\n[8305] Bentham is famously quoted on animal welfare, recognizing that the principle of equal consideration extends beyond humans. Singer specifically highlights Bentham's contributions to this recognition. **C**\n\n[8354] Huemer's core argument is that drug harms aren't clearly different from other legal harms. There's no reason to think drugs are worse, more harmful, or more character-corrupting than other legally permitted dangerous activities. **D**\n\n[8415] Carens is an open borders advocate who argues against most migration restrictions. His position is highly skeptical of standard justifications for restrictions. **D**\n\n[8476] West argues that certain harms go unnoticed because Americans tend to conflate legality with harmlessness or morality. **C**\n\n**Moral Scenario Questions (2020 US standards):**\n\n[8730] Pouring drink on own floor (not wrong), and attorneys representing clients regardless of guilt is standard legal ethics (not wrong). **D**\n\n[8933] Excitement about stepdad's recovery (not wrong), but sweeping broken glass under rug is deceptive and irresponsible (wrong). **C**\n\n[9177] Grass isn't food for children and is unsafe (wrong), signing tax forms with knowledge is normal acknowledgment (not wrong). **B**\n\n[9319] Steering kids toward museum art even if frightening (not wrong), opening chemicals in science lab is appropriate (not wrong). **D**\n\n[9393] Taking book into coat is theft (wrong), covering painting you dislike interferes with others' property (wrong). **A**\n\n**Medical/Nutritional Questions:**\n\n[9440] Urea is the primary nitrogenous waste product in urine. **C**\n\n[9491] Fluoxetine (Prozac) is FDA-approved for bulimia nervosa treatment. **A**\n\n[9584] Vitamin C and thiamine are water-soluble and heat-sensitive, lost most readily during cooking. **D**\n\n[9625] While vegans have limited ALA-to-DHA conversion, DHA is absent from most vegan diets, and microalgae provide it commercially, the statement that DHA deficiency necessarily causes visual/cognitive impairment is overstated—many vegans don't experience these impairments. **C**\n\n[9693] Mandatory flour fortification with folic acid reduces folate deficiency prevalence in older populations. **D**\n\n```json\n{\"answers\": {\"8179\": \"B\", \"8305\": \"C\", \"8354\": \"D\", \"8415\": \"D\", \"8476\": \"C\", \"8730\": \"D\", \"8933\": \"C\", \"9177\": \"B\", \"9319\": \"D\", \"9393\": \"A\", \"9440\": \"C\", \"9491\": \"A\", \"9584\": \"D\", \"9625\": \"C\", \"9693\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 1909,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6838,
+  "output_tokens_details": {
+   "thinking_tokens": 6099
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1909,
+    "output_tokens": 6838,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.036099,
+ "answers_batch": {
+  "8179": "B",
+  "8305": "C",
+  "8354": "D",
+  "8415": "D",
+  "8476": "C",
+  "8730": "D",
+  "8933": "C",
+  "9177": "B",
+  "9319": "D",
+  "9393": "A",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "C",
+  "9693": "D"
+ },
+ "single": {},
+ "answers": {
+  "8179": "B",
+  "8305": "C",
+  "8354": "D",
+  "8415": "D",
+  "8476": "C",
+  "8730": "D",
+  "8933": "C",
+  "9177": "B",
+  "9319": "D",
+  "9393": "A",
+  "9440": "C",
+  "9491": "A",
+  "9584": "D",
+  "9625": "C",
+  "9693": "D"
+ }
+}

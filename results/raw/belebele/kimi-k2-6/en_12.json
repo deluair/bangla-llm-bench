@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 156.7,
+ "text": "[id 96] The passage mentions that 45 of 117 total skiers in the Giant Slalom “failed to rank,” while 4 in the women’s sitting group specifically “failed to finish.” Since the question asks generally about competitors in the Giant Slalom and 45 is the overall figure for those who did not place, D is the best answer.\n\n[id 97] The passage states Northern Rock “had required support due to its exposure during the subprime mortgage crisis in 2007.” Thus, support was needed during the mortgage crisis.\n\n[id 98] The researcher says, “Based on this fossil, that means the split is much earlier…” indicating the evidence for the split came from the fossil itself.\n\n[id 99] The latest (later) reports mention a bomb threat, diversion to Afghanistan, and landing in Kandahar. The early reports mention Ürümqi; the latest reports do not state the plane landed in Ürümqi.\n\n[id 100] The passage explicitly attributes the “major step” quote to Bush spokesman Gordon Johndroe.\n\n[id 101] The Ninth Ward “is currently in waist-high water,” whereas the 20 feet figure refers to Hurricane Katrina flooding.\n\n[id 102] The passage says 80 police were on hand “to direct motorists to detours,” matching option C.\n\n[id 103] The passage says, “By early today, winds were around 83 km/h, and it was expect to keep weakening,” so the expected weakening coincided with the 83 km/h wind level.\n\n{\"answers\": {\"96\": \"D\", \"97\": \"D\", \"98\": \"B\", \"99\": \"B\", \"100\": \"C\", \"101\": \"C\", \"102\": \"C\", \"103\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1154,
+  "completion_tokens": 5950,
+  "total_tokens": 7104,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5584
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

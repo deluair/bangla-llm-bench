@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 5,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47"
+ ],
+ "seconds": 54.0,
+ "text": "Looking at each question carefully:\n\n**[id 40]** The passage explains speciation requires isolated populations adapting to new environments over time. A small group that *fails to establish itself* in a new location would prevent this divergence process - no population = no evolution. Options B, C, and D all describe conditions that facilitate speciation.\n**Answer: A**\n\n**[id 41]** The passage states: \"রক্ত হৃৎপিণ্ড থেকে চলে যায় ধমনী নামক নলির মধ্য দিয়ে এবং ফিরে আসে শিরা নামক নলির মধ্য দিয়ে\" (Blood leaves the heart through arteries and returns through veins).\n**Answer: D**\n\n**[id 42]** The passage states many people don't consider birds as dinosaurs *because* they have feathers and can fly. However, birds still have scales, clawed feet, lay eggs, and walk on hind legs - all traditional dinosaur characteristics. Feathers are specifically mentioned as distinguishing birds from traditional dinosaur concepts.\n**Answer: B**\n\n**[id 43]** The passage clearly states: \"1830 শতকে বেলজিয়ান বিপ্লবের পরে বেলজিয়ানে পরিণত হয়েছিল\" (After the Belgian Revolution in 1830 they became part of Belgium).\n**Answer: B**\n\n**[id 44]** The passage directly states: \"২৩,৭৬৪ বর্গকিলোমিটার (৯,১৭৪ বর্গ মাইল) ইউরোপে\" (23,764 square kilometers in Europe).\n**Answer: D**\n\n**[id 45]** The passage states: \"সঙ্গীত একসাথে প্রক্রিয়া এবং মিশ্রণ করতে জন্য প্রায়ই স্পফিস্টিক কম্পিউটার ব্যবহার করে রেকর্ড করা হয়\" (Music is recorded using sophisticated computers to process and mix sounds).\n**Answer: A**\n\n**[id 46]** The passage explicitly states: \"হরপ্পা ও মহেঞ্জো-দারোর শহরগুলির প্রায় প্রতিটি বাড়িতে একটি অত্যাধুনিক নিকাশী ব্যবস্থার সাথে একটি ফ্লাশ করা টয়লেট সংযুক্ত ছিল\" (Almost every house in Harappa and Mohenjo-daro had flush toilets).\n**Answer: A**\n\n**[id 47]** The passage names this process as \"উদ্দীপিত রেডিয়েশন নিঃসরণ\" (stimulated radiation emission), which corresponds to \"প্রণোদিতভাবে রেডিয়েশনের নির্গমন\" - the exact term for how atoms release extra energy.\n**Answer: D**\n\n```json\n{\"answers\": {\"40\": \"A\", \"41\": \"D\", \"42\": \"B\", \"43\": \"B\", \"44\": \"D\", \"45\": \"A\", \"46\": \"A\", \"47\": \"D\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 5054,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6528,
+  "output_tokens_details": {
+   "thinking_tokens": 5653
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5054,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 6528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5054,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5054
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.042757,
+ "answers_batch": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ },
+ "single": {},
+ "answers": {
+  "40": "A",
+  "41": "D",
+  "42": "B",
+  "43": "B",
+  "44": "D",
+  "45": "A",
+  "46": "A",
+  "47": "D"
+ }
+}

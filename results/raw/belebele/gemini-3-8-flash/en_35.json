@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 9.9,
+ "text": "Brief reasoning for each question:\n\n- **[id 280]**: The passage discusses Jardín de la Unión having a central gazebo with concerts, surrounding restaurants, and surviving convent architecture (Templo de San Diego). The home of the old love legend is Callejon del Beso, not Jardín de la Unión. (Answer: B)\n- **[id 281]**: The plateaus are specifically described as \"treeless\", so forested plateaus would not be typical. (Answer: B)\n- **[id 282]**: The passage directly states that tourist season peaks during the Indian summer. (Answer: C)\n- **[id 283]**: The text states: \"To get the best views of Hong Kong, leave the island and head for the Kowloon waterfront opposite.\" (Answer: D)\n- **[id 284]**: The passage notes that VPNs \"re-route all Internet traffic, not only http\", making D false. (Answer: D)\n- **[id 285]**: The text explicitly mentions: \"Often, you have to buy a global number separately that allows PSTN phones to call you.\" (Answer: A)\n- **[id 286]**: The passage highlights its fascinating history, religious significance, and cultural sites, but does not cite political influence. (Answer: B)\n- **[id 287]**: Skirts, wraps, and trousers covering the knees are provided to cover up; shorts do not meet the modesty requirements and would not be provided to borrow. (Answer: B)\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25227,
+  "output_tokens": 2029,
+  "thinking_tokens": 1620,
+  "cache_read_tokens": 0,
+  "total_tokens": 27256
+ },
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

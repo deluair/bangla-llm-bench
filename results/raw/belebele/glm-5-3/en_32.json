@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 32,
+ "ids": [
+  "256",
+  "257",
+  "258",
+  "259",
+  "260",
+  "261",
+  "262",
+  "263"
+ ],
+ "seconds": 20.3,
+ "text": "Here are my answers with brief reasoning:\n\n- **256**: The passage explicitly says the crash occurred in \"mountous terrain\" — **D**.\n- **257**: Despite thinking women shouldn't fight, Khan said he'd support the British competitors (including female boxers) at the 2012 Olympics — **A**.\n- **258**: Zayat is described as a \"fellow racer\" who struck Lenz — **B**.\n- **259**: The designation is for its \"unique cultural and historical value\" — **A**.\n- **260**: Auxiliary languages are constructed, not organic — option A describes lingua francas, not auxiliary languages — **A**.\n- **261**: \"Regular announcements in the Metro are made only in Catalan\" — **B**.\n- **262**: Luxury B&Bs compete on bedding and breakfast; contemporary decor is not mentioned (settings are often historic) — **A**.\n- **263**: Beijing will host the indoor ice events (while skiing events are elsewhere) — **B**.\n\n{\"answers\": {\"256\": \"D\", \"257\": \"A\", \"258\": \"B\", \"259\": \"A\", \"260\": \"A\", \"261\": \"B\", \"262\": \"A\", \"263\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 1538,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1259
+  },
+  "prompt_tokens": 1134,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2672
+ },
+ "served_by": null,
+ "answers_batch": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ },
+ "single": {},
+ "answers": {
+  "256": "D",
+  "257": "A",
+  "258": "B",
+  "259": "A",
+  "260": "A",
+  "261": "B",
+  "262": "A",
+  "263": "B"
+ }
+}

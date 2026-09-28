@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 41.3,
+ "text": "Here are the step-by-step solutions to the problems:\n\n**[id 70]**\n- Classes on weekdays: 5 days × 5 classes = 25 classes\n- Classes on Saturday: 8 classes\n- Total classes: 25 + 8 = 33 classes\n- Total students: 33 classes × 15 students/class = 495 students\n- Total earnings: 495 students × $15 = $7,425\n\n**[id 71]**\n- Instructions in first recipe: 20\n- Instructions in second recipe: 20 × 2 = 40\n- Total instructions: 20 + 40 = 60\n\n**[id 72]**\n- Earnings from brownies: 43 × $3 = $129\n- Earnings from cheesecake: 23 × $4 = $92\n- Total earnings: $129 + $92 = $221\n\n**[id 73]**\n- Cost of 5 cell phones: 5 × $150 = $750\n- Interest (2% for each phone): $150 × 0.02 = $3 per phone; 5 phones × $3 = $15\n- Total cost with interest: $750 + $15 = $765\n- Monthly payment (over 3 months): $765 ÷ 3 = $255\n\n**[id 74]**\n- Rounded price for marigolds ($2.74): $3.00\n- Rounded price for petunias ($1.87): $2.00\n- Rounded price for begonias ($2.12): $2.00\n- Total earnings: (12 × $3) + (9 × $2) + (17 × $2) = $36 + $18 + $34 = $88\n\n**[id 75]**\n- Top floor (4th floor): 16 sq ft\n- 3rd floor: 16 × 2 = 32 sq ft\n- 2nd floor: 32 × 2 = 64 sq ft\n- 1st floor (bottom): 64 × 2 = 128 sq ft\n- Total square footage: 16 + 32 + 64 + 128 = 240 sq ft\n- Average per floor: 240 sq ft ÷ 4 floors = 60 sq ft\n\n**[id 76]**\n- Days in a year: 365\n- Food for first 180 days: 180 days × 1 cup = 180 cups\n- Food for remaining days (365 - 180 = 185): 185 days × 2 cups = 370 cups\n- Total cups needed: 180 + 370 = 550 cups\n- Bags needed: 550 cups ÷ 110 cups/bag = 5 bags\n\n**[id 77]**\n- Sarah's laundry: 400 lbs\n- Raymond's laundry (half of Sarah's): 400 ÷ 2 = 200 lbs\n- David's laundry (1/4th of Sarah's): 400 ÷ 4 = 100 lbs\n- Difference between Raymond and David: 200 - 100 = 100 lbs\n\n**[id 78]**\n- Cost at $2.50 for 3 flowers: (18 ÷ 3) = 6 packages × $2.50 = $15.00\n- Cost at $1.00 for 2 flowers: (18 ÷ 2) = 9 packages × $1.00 = $9.00\n- Savings with the better price: $15.00 - $9.00 = $6.00\n\n**[id 79]**\n- Original cost: $100\n- Discount: 30% of $100 = $30\n- Final cost: $100 - $30 = $70\n\n```json\n{\"answers\": {\"70\": 7425, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 6, \"79\": 70}}\n```\n",
+ "usage": {
+  "input_tokens": 16847,
+  "output_tokens": 5628,
+  "thinking_tokens": 4580,
+  "cache_read_tokens": 8140,
+  "total_tokens": 22475
+ },
+ "answers_batch": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 7425.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 6.0,
+  "79": 70.0
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 46.1,
+ "text": "Here are the answers to the multiple-choice questions based on the provided passages:\n\n*   **[id 200]** The passage states that Hindi and Urdu share a similar vocabulary but have different characters/letters (\"হিন্দি আর উর্দুর মধ্যে শব্দাবলীর মিল আছে কিন্তু অক্ষর আলাদা\"). Therefore, option B (their writing style is different) is correct.\n*   **[id 201]** The passage mentions that King Sejong originally named the Hangul alphabet \"Hunmin Jeongeum\" (\"তিনি মূলত হ্যাঙ্গিউল বর্ণমালার নামকরণ করেছিলেন হুনমিন জিওংনাম\"). This indicates that Hunmin Jeongeum gradually came to be known as Hangul. Therefore, option B is correct.\n*   **[id 202]** The passage explicitly states that Sanskrit faded away due to the priesthood/clergy (\"যাজকতন্ত্রের কারণে সংস্কৃত প্রায় ম্লান হয়ে গেল\"). While \"যাজকতন্ত্র\" directly translates to priesthood, option D (\"অনুক্রমের নিয়মে\" - by rules of hierarchy/system) is the closest conceptual match to a strict religious or social hierarchy among the available choices.\n*   **[id 203]** The passage states that the moon's crust is thick in the highlands (\"উচ্চভূমিতে মোটা হয়ে থাকে\"). Therefore, option C (under the highlands) is correct.\n*   **[id 204]** The passage states that the Amazon is the *second* longest river (\"অ্যামাজন নদী পৃথিবীর দ্বিতীয় দীর্ঘতম...\"). Thus, saying it is the longest river is not a characteristic. Option C is the correct answer.\n*   **[id 205]** The passage notes that two-thirds of the working Venezuelans work in the service sector (\"ভেনেজুয়েলার দুই তৃতীয়াংশ যারা পরিষেবা খাতে কাজ করে\"). Therefore, the service sector employs the most people. Option A is correct.\n*   **[id 206]** The passage mentions scientists are working to build a reactor that can produce energy in the same way (\"একইরকমভাবে শক্তি তৈরি করতে পারে\"). Therefore, option D (Energy) is correct.\n*   **[id 207]** The passage indicates that Italy's main target was the African countries and occupying them (\"ইটালির মূল লক্ষ্য ছিল আফ্রিকার দেশগুলো। ওই দেশগুলো দখল করা...\"). Therefore, option A is correct.\n\n```json\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17362,
+  "output_tokens": 5785,
+  "thinking_tokens": 5206,
+  "cache_read_tokens": 8141,
+  "total_tokens": 23147
+ },
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

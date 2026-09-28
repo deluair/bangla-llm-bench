@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 18,
+ "ids": [
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149",
+  "150",
+  "151"
+ ],
+ "seconds": 16.2,
+ "text": "Here are the answers based on the provided passages:\n\n**[id 144]**\nThe passage explicitly states, \"A curry is a dish based on herbs and spices...\"\n**Answer: B**\n\n**[id 145]**\nCoffee, chamomile tea, and smoothies (juice) are all mentioned as beverages you can make at home or where you stay. Bars or pubs are mentioned as places to visit, but making beer at home is not mentioned.\n**Answer: C**\n\n**[id 146]**\nThe passage states, \"Student visas generally have different requirements... you will need... evidence of funds to support yourself for at least the first year of your course.\"\n**Answer: D**\n\n**[id 147]**\nThe passage starts by saying, \"In summer, especially, you'll need to watch out for mosquitoes...\"\n**Answer: A**\n\n**[id 148]**\nThe passage mentions that \"it has an airport,\" meaning it is accessible by plane, making C the inaccurate description.\n**Answer: C**\n\n**[id 149]**\nThe passage notes that funnels \"become 'tornadoes' when they touch the ground.\"\n**Answer: D**\n\n**[id 150]**\nThe passage identifies the most common film format as \"Standard 35 mm film,\" and specifies that its negative size is \"(36 by 24 mm negative).\" \n**Answer: D**\n\n**[id 151]**\nThe passage explicitly states, \"The fabulous riches of the tomb are no longer in it...\" \n**Answer: D**\n\n```json\n{\"answers\": {\"144\": \"B\", \"145\": \"C\", \"146\": \"D\", \"147\": \"A\", \"148\": \"C\", \"149\": \"D\", \"150\": \"D\", \"151\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17385,
+  "output_tokens": 1924,
+  "thinking_tokens": 1495,
+  "cache_read_tokens": 8141,
+  "total_tokens": 19309
+ },
+ "answers_batch": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ },
+ "single": {},
+ "answers": {
+  "144": "B",
+  "145": "C",
+  "146": "D",
+  "147": "A",
+  "148": "C",
+  "149": "D",
+  "150": "D",
+  "151": "D"
+ }
+}

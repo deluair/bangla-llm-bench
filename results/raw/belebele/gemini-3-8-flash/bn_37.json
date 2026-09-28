@@ -1,0 +1,34 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 8.3,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 296]**: The passage states that 35 mm film negative produces images as clear as modern DSLR cameras (\"তাতে বর্তমান ডিসিএলএর-এর মতোই স্বচ্ছ ছবি উঠবে\"). Therefore, the correct option is **A**.\n- **[id 297]**: The passage mentions that reselling/transferring partially used park-hopper tickets is prohibited by Disney as tickets are non-refundable/non-transferable (\"ডিজনি দ্বারা এটি নিষিদ্ধঃ টিকিটগুলি অফেরৎযোগ্য\"). Thus, the statement that park-hopper tickets can be shared or transferred is not true (**A**).\n- **[id 298]**: The passage cautions against swimming directly against the rip current due to fatigue and advises escaping the current first before swimming back to shore. Therefore, the correct action is **A**.\n- **[id 299]**: The passage mentions odors, failing to keep distance, and feeding/disturbing animals, but actually states that all animals are used to seeing humans (\"পার্কের সব জীবজন্তু মানুষ দেখেই অভ্যস্থ\"). Animals never seen by humans is not mentioned as a reason (**D**).\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 24843,
+  "output_tokens": 1902,
+  "thinking_tokens": 1613,
+  "cache_read_tokens": 0,
+  "total_tokens": 26745
+ },
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 5.1,
+ "text": "[id 80] The passage states that no one was inside the apartment at the time of the explosion, and no major injuries were reported, but at least five people on scene were treated for symptoms of shock. This indicates that the injuries were not serious enough to be classified as major injuries.\n**Answer:** A) At least five people\n\n[id 81] The passage mentions that baseball and softball were voted out of the Olympic Games in 2005.\n**Answer:** C) Baseball\n\n[id 82] The passage states that Haiti had not encountered problems related to the disease since the 1800s.\n**Answer:** A) The 1800s\n\n[id 83] The passage explicitly states that the suspected male offender is being investigated for trespassing.\n**Answer:** A) Trespassing\n\n[id 84] The passage mentions that 802.11n has substantially faster speeds than its predecessors, with a maximum theoretical throughput of 600 Mbit/s.\n**Answer:** A) 802.11n\n\n[id 85] The passage indicates that plans for vaccines were delayed due to lack of funds and low prioritization, suggesting they will be implemented last.\n**Answer:** C) Encephalitis vaccines\n\n[id 86] The failure of the second sentence, which proposes to ban same-sex civil unions, could open the door for civil unions in the future.\n**Answer:** B) A future right to same-sex civil unions\n\n[id 87] The passage states that the Panama Papers were leaked to the press.\n**Answer:** B) The press\n\n```json\n{\n  \"answers\": {\n    \"80\": \"A\",\n    \"81\": \"C\",\n    \"82\": \"A\",\n    \"83\": \"A\",\n    \"84\": \"A\",\n    \"85\": \"C\",\n    \"86\": \"B\",\n    \"87\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1366,
+  "completion_tokens": 418,
+  "total_tokens": 1784,
+  "cost": 0.0002676,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002676,
+   "upstream_inference_prompt_cost": 0.0002049,
+   "upstream_inference_completions_cost": 6.27e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 75.9,
+ "text": "\n\n1. **id 48**: Passage mentions Ethelred facing a Viking fleet in England. The fleet was led by a Norwegian but was in England when facing Ethelred. Answer: A) इंग्ल্যাंड (England).\n2. **id 49**: Passage says influence was around \"পনোরো শতাব্দীর\" (15th Century ~ 1400s). 600 years ago corresponds to 14th/15th century. Answer: C) প্রায় 600 বছর আগে (Around 600 years ago).\n3. **id 50**: Passage states crust is thinner at Maria and thicker at Highlands. Thin crust implies more Maria. Therefore, Thick crust (Highlands) implies fewer Maria. Answer: D) উচ্চভূমির নিচে মারিয়া কম থাকতে পারে (Under Highlands, fewer maria).\n4. **id 51**: Passage states many believe aliens can live on other worlds. Option C reflects this belief. Answer: C) অন্য গ্রহেও প্রাণের অস্তিত্ব আছে (Life on other planets exists).\n5. **id 52**: Passage statistics: Service 2/3, Industry 1/4, Agriculture 1/5, Oil 1/100. Least employment is Oil. Answer: C) তেল (Oil).\n6. **id 53**: Passage states Hydrogen combining to form heavy elements releases energy (light/heat). Star fusion creates heavy elements. Answer: A) ভারী উপাদান তৈর কতে পারে (Can create heavy elements).\n7. **id 54**: Passage states water is made of \"2 ডি হাইড্রোজেন পরমাণু এবং 1 টি অক্সিজেন পরমাণু\". Answer: D) দটি হাইড্রোজেন অ্যুটম ও একটি অক্সিজেন অ্যুটম (2 Hydrogen and 1 Oxygen).\n8. **id 55**: Passage states Singapore transformed into a \"Garden City\" and Botanical Garden became a specialty. Answer: A) শহরের সবুজ গাছপালা (City's green trees).\n\n{\"answers\": {\"48\": \"A\", \"49\": \"C\", \"50\": \"D\", \"51\": \"C\", \"52\": \"C\", \"53\": \"A\", \"54\": \"D\", \"55\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 3046,
+  "completion_tokens": 10752,
+  "total_tokens": 13798,
+  "cost": 0.0019174,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019174,
+   "upstream_inference_prompt_cost": 0.0003046,
+   "upstream_inference_completions_cost": 0.0016128
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10191,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "48": "A",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "A",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "A",
+  "49": "C",
+  "50": "D",
+  "51": "C",
+  "52": "C",
+  "53": "A",
+  "54": "D",
+  "55": "A"
+ }
+}

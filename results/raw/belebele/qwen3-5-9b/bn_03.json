@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 67.6,
+ "text": "\n\n{\"answers\": {\"24\": \"D\", \"25\": \"C\", \"26\": \"A\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 4139,
+  "completion_tokens": 10216,
+  "total_tokens": 14355,
+  "cost": 0.0019463,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019463,
+   "upstream_inference_prompt_cost": 0.0004139,
+   "upstream_inference_completions_cost": 0.0015324
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10150,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "24": "D",
+  "25": "C",
+  "26": "A",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "D",
+  "25": "C",
+  "26": "A",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

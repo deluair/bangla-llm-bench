@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-opus-5-5",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 5.1,
+ "text": "- **80:** The passage says no serious injuries were reported. The five people were treated for shock, not serious injury, so the answer is \"nobody\" (B).\n- **81:** Baseball and softball were voted out of the Olympic Games in 2005 (C).\n- **82:** Haiti had not faced the disease since the 1800s (A).\n- **83:** The suspect is being investigated for trespassing, not vandalism (A).\n- **84:** 802.11n is much faster than its previous versions (A).\n- **85:** The encephalitis vaccine vials are meant to prepare for next year, so they come last (C).\n- **86:** The failure of the second sentence may open the door to future rights for same-sex civil unions (B).\n- **87:** The documents were leaked to the press (B).\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5175,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 405,
+  "output_tokens_details": {
+   "thinking_tokens": 96
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5175,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 405,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5175,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5175
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.049507999999999996,
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

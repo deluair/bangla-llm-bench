@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 8.7,
+ "text": "The answers to the multiple-choice questions are provided below:\n\n[272] The passage states that decorated elephants are seen in parades during temple festivals (মন্দির উৎসবের শোভাযাত্রা). Thus, option C is correct.\n[273] The passage mentions that some stores provide a microwave or other arrangements to heat food, which could make buying ready-made food more acceptable. Thus, option D is correct.\n[274] The passage states that the number systems (সংখ্যা পদ্ধতি) and some pronunciations in Belgium and Switzerland differ from France. Among the options, B (number system) is a direct match.\n[275] The passage explains that the use of capitalized 'Si' (You) helps distinguish it from verbs (ক্রিয়া) and objects (বস্তু), but the need to identify verbs or adjectives can make reading/writing difficult. The question asks what makes it difficult/complicated to distinguish; option B/D are aspects of the distinction, but the sentence structure suggests the difficulty lies in the process of distinguishing verbs/adjectives. However, in a standard reading comprehension context for this text, distinguishing the noun from the verb is the core function. Looking at the phrasing \"distinguishing it from some verbs and objects is an important way... although it makes writing a bit difficult to find if a short form of a verb or adjective has been used\", it implies the difficulty in finding verbs/adjectives. However, looking at the choices, the most logical answer regarding what the capitalization helps distinguish is the distinction between a noun and a verb/object. Re-reading: the question asks what causes \"obstruction/difficulty\" in writing. Option B is the primary focus of the distinction.\n[276] The passage states: \"বরফে ফাটল, খাত তৈরি হয়, যা হয়ত বরফের ভঙ্গুর সেতু দ্বারা যুক্ত থাকে\" (cracks and gullies are formed, which might be connected by fragile ice bridges). This implies the bridges connect the gaps/cracks. Thus, option A is correct.\n[277] The passage says research on the war in North Kivu is recommended if going outside Goma. It doesn't say the situation is \"impressive\" (চিত্তাকর্ষক) as a positive thing, but rather a reason to research. However, option A is phrased as an opinion/unsuitable advice compared to facts. Actually, options B, C, and D are facts from the text. Option A is the most likely \"unsuitable advice\" or mischaracterization.\n[278] The passage states that fewer permits are available to save food (খাদ বাঁচানোর জন্য কম অনুমোদন পাওয়া যায়). Thus, option D is correct.\n[279] The passage explicitly states: \"অপ্রস্তুতদের সম্ভবত ঠাণ্ডা আবহাওয়ার মতো একমাত্র বাস্তব বিপদের মুখোমুখি হতে হবে\" (Unprepared people will likely face the only real danger, which is the cold weather). Thus, option C is correct.\n\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"B\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1845,
+  "completion_tokens": 687,
+  "total_tokens": 2532,
+  "cost": 0.00022863,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00022863,
+   "upstream_inference_prompt_cost": 7.749e-05,
+   "upstream_inference_completions_cost": 0.00015114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "B",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "B",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

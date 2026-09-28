@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 33.7,
+ "text": "# Analysis and Answers\n\n**[id 200]** - The passage states: \"Hindi and Urdu have similar vocabulary but different characters/scripts; in daily conversation, speakers can understand each other.\" Option B correctly identifies that their writing styles (scripts) are different.\n\n**[id 201]** - The passage discusses Hunminjungeum (훈민정음), the original name for what is now known as Hangul. The question asks what this alphabet became/is now called, which is Hangul.\n\n**[id 202]** - The passage explicitly states: \"After the Upanishads were compiled, Sanskrit gradually faded due to priestcraft (যাজকতন্ত্র).\" Option D relates to the priestly hierarchical system that caused Sanskrit's decline.\n\n**[id 203]** - The passage clearly states the crust is \"70 km thick on the front and 100 km thick on the back\" and also mentions \"it is thin in maria and thick in highlands.\" Therefore, it's thickest in the highlands.\n\n**[id 204]** - The passage explicitly calls the Amazon \"the second longest river (দ্বিতীয় দীর্ঘতম).\" Option C claims it's the longest, which contradicts the passage. This is NOT a characteristic.\n\n**[id 205]** - The passage provides: \"two-thirds work in service sector, about one-fourth in industry, and one-fifth in agriculture.\" Two-thirds is the largest proportion.\n\n**[id 206]** - The passage discusses fusion reactors working similarly to stars, producing energy. A functional fusion reactor would generate energy.\n\n**[id 207]** - The passage clearly states: \"Italy's main objective was to capture African countries (ইটালির মূল লক্ষ্য ছিল আফ্রিকার দেশগুলো দখল করা).\"\n\n```json\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4451,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3036,
+  "output_tokens_details": {
+   "thinking_tokens": 2534
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 3036,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.024091,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

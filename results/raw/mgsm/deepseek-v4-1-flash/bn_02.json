@@ -1,0 +1,59 @@
+{
+ "task": "mgsm",
+ "model": "deepseek-v4-1-flash",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "seconds": 5.5,
+ "text": "{\"answers\":{\"20\":15,\"21\":14,\"22\":7,\"23\":8,\"24\":26,\"25\":2,\"26\":243,\"27\":16,\"28\":25,\"29\":104}}",
+ "usage": {
+  "prompt_tokens": 1076,
+  "completion_tokens": 1145,
+  "total_tokens": 2221,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1101
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 1076
+ },
+ "served_by": null,
+ "answers_batch": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ },
+ "single": {},
+ "answers": {
+  "20": 15.0,
+  "21": 14.0,
+  "22": 7.0,
+  "23": 8.0,
+  "24": 26.0,
+  "25": 2.0,
+  "26": 243.0,
+  "27": 16.0,
+  "28": 25.0,
+  "29": 104.0
+ }
+}

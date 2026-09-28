@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 7.1,
+ "text": "An analysis of each question based on the provided passages:\n\n- **[id 80]**: The passage states \"No major injuries were reported,\" with five people treated only for shock. Therefore, **B** (No one) is correct.\n- **[id 81]**: The text specifies baseball and softball \"were voted out of the Olympic Games in 2005.\" Therefore, **C** (Baseball) is correct.\n- **[id 82]**: The passage notes Haiti had not encountered the disease \"since the 1800s.\" Therefore, **A** (The 1800s) is correct.\n- **[id 83]**: The spokesperson stated the suspect is being investigated for \"trespassing rather than vandalism.\" Therefore, **A** (Trespassing) is correct.\n- **[id 84]**: The text explicitly notes that the speeds of \"802.11n are substantially faster than that of its predecessors.\" Therefore, **A** (802.11n) is correct.\n- **[id 85]**: While pig catchers, curtains, and pesticides were deployed promptly, encephalitis vaccines were delayed and promised to help prepare for \"next year.\" Therefore, **C** (Encephalitis vaccines) will be implemented last.\n- **[id 86]**: The failure of the ban could \"open the door for civil unions in the future.\" Therefore, **B** (A future right to same-sex civil unions) is correct.\n- **[id 87]**: The documents were \"leaked to the press in spring 2016.\" Therefore, **B** (The press) is correct.\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25233,
+  "output_tokens": 1393,
+  "thinking_tokens": 966,
+  "cache_read_tokens": 0,
+  "total_tokens": 26626
+ },
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 48.9,
+ "text": "Here are the answers to the 8 multiple-choice questions:\n\n{id 16}\nPassage: Traffic Flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another. Unfortunately, studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty. Fortunately, drivers tend to behave within a reasonably consistent range; thus, traffic streams tend to have some reasonable consistency and can be roughly represented mathematically. To better represent traffic flow, relationships have been established between the three main characteristics: (1) flow, (2) density, and (3) velocity. These relationships help in planning, design, and operations of roadway facilities.\nQuestion: According to the passage, which of the following can be difficult to gauge due to the unpredictability of drivers?\nA) Traffic velocity\nB) Roadway planning\nC) Roadway operations\nD) Traffic Flow\n\nAnswer: D) Traffic Flow\n\n{id 17}\nPassage: Mutations can have a variety of different effects depending on the type of mutation, the significance of the piece of genetic material affected and whether the cells affected are germ-line cells. Only mutations in germ-line cells can be passed on to children, while mutations elsewhere can cause cell-death or cancer.\nQuestion: The ability for a mutation to be passed on to offspring is dependent upon what?\nA) If the cells are germ-line\nB) The significance of genetic material\nC) The mutation type\nD) If the mutation can cause cell-death\n\nAnswer: A) If the cells are germ-line\n\n{id 18}\nPassage: Science’s main goal is to figure out the way the world works through the scientific method. This method in fact guides most scientific research. It isn’t alone though, experimentation, and an experiment is a test that is used to eliminate one or more of the possible hypotheses, asking questions, and making observations also guide scientific research.\nQuestion: Which is the typical purpose of an experiment?\nA) To eliminate one or more possible hypotheses\nB) To figure out how the world works\nC) To pose questions\nD) To guide scientific research\n\nAnswer: A) To eliminate one or more possible hypotheses\n\n{id 19}\nPassage: Humans have been making and using lenses for magnification for thousands and thousands of years. However, the first true telescopes were made in Europe in the late 16th century. These telescopes used a combination of two lenses to make distant objects appear both nearer and larger.\nQuestion: Which of the following did humans start doing in the 16th century?\nA) Using lenses\nB) Magnifying objects\nC) Making lenses\nD) Making telescopes\n\nAnswer: D) Making telescopes\n\n{id 20}\nPassage: Subcultures bring together like-minded individuals who feel neglected by societal standards and allow them to develop a sense of identity. Subcultures can be distinctive because of the age, ethnicity, class, location, and/or gender of the members. The qualities that determine a subculture as distinct may be linguistic, aesthetic, religious, political, sexual, geographical, or a combination of factors. Members of a subculture often signal their membership through a distinctive and symbolic use of style, which includes fashions, mannerisms, and argot.\nQuestion: How do members of a particular subculture often signify their association with the group?\nA) By attempting to blend in\nB) By adopting the beliefs of everyone around them\nC) By accepting societal norms\nD) By using style as a form of symbolism\n\nAnswer: D) By using style as a form of symbolism\n\n{id 21}\nPassage: The postmodern approach to learning offers the freedom from absolutes. There is no one good way to learn. In fact, there is not one good thing to learn.Learning takes place in the experience between the learner and the knowledge presented. Our current experience with all the do-it-yourself and information presenting, learning-based television shows illustrates this point. So many of us find ourselves watching a television show that informs us of a process or experience in which we will never participate or apply that knowledge. We will never overhaul a car, build a fountain in our backyard, travel to Peru to examine ancient ruins, or remodel our neighbour's house.\nQuestion: Which of the following statements accurately describes the postmodern approach to learning?\nA) Some learning experiences are more beneficial than others\nB) Learning should be focused on things we believe we will experience\nC) Certain ways of learning are better than others\nD) There are no absolutes in learning\n\nAnswer: D) There are no absolutes in learning\n\n{id 22}\nPassage: Virtual teams are held to the same standards of excellence as conventional teams, but there are subtle differences. Virtual team members often function as the point of contact for their immediate physical group. They often have more autonomy than conventional team members as their teams may meet according to varying time zones which may not be understood by their local management. The presence of a true “invisible team” (Larson and LaFasto, 1989, p109) is also a unique component of a virtual team. The “invisible team” is the management team to which each of the members report. The invisible team sets the standards for each member.\nQuestion: According to the passage, how are conventional teams and virtual teams alike?\nA) Both teams are expected to perform at the same level\nB) Both teams have varying levels of autonomy in their day-to-day routines\nC) Both teams report to an invisible management team\nD) Both teams function in the same time zone\n\nAnswer: A) Both teams are expected to perform at the same level\n\n{id 23}\nPassage: Content theories are centered on finding what makes people tick or appeals to them. These theories suggest that people have certain needs and/or desires which have been internalized as they mature to adulthood. These theories look at what it is about certain people that make them want the things that they do and what things in their environment will make them do or not do certain things. Two popular content theories are Maslow's Hierarchy of Needs Theory and Hertzberg's Two Factor Theory.\nQuestion: Which of the following is not something that content theories are centered on?\nA) New desires that materialize in adulthood\nB) How one’s environment affects their actions\nC) Internalized needs\nD) Understanding people’s likes\n\nAnswer: A) New desires that materialize in adulthood\n\n{\"answers\": {\"16\": \"D\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1315,
+  "completion_tokens": 1380,
+  "total_tokens": 2695,
+  "cost": 8.15e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.15e-05,
+   "upstream_inference_prompt_cost": 2.63e-05,
+   "upstream_inference_completions_cost": 5.52e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

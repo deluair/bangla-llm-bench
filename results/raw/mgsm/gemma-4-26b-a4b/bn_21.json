@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 16.2,
+ "text": "To solve these problems, we evaluate each one individually:\n\n**[id 210]**\nTarget amount = $30 (jacket) + 2 * $20 (shoes) = $70.\nCurrent savings = $10.\nAmount needed = $70 - $10 = $60.\nEarnings from babysitting = 4 times * $5/time = $20.\nRemaining amount needed = $60 - $20 = $40.\nMoney per lawn mowing = $4.\nNumber of times to mow lawn = $40 / $4 = 10.\n\n**[id 211]**\nLet $R$ be the number of red chickens and $W$ be the number of white chickens.\n$W = R + 2$.\nTotal eggs: $3R + 5W = 42$.\n$3R + 5(R + 2) = 42 \\implies 3R + 5R + 10 = 42 \\implies 8R = 32 \\implies R = 4$.\n\n**[id 212]**\nPerimeter of rectangle = $2 \\times (1.5 + 6) = 2 \\times 7.5 = 15$ miles.\nSpeed = 3 mph.\nTime = Distance / Speed = $15 / 3 = 5$ hours.\n\n**[id 213]**\nDay 1: 100 customers.\nDay 2: $100 + 50 = 150$ customers.\nTotal for Day 1 and Day 2 = $100 + 150 = 250$.\nTotal for three days = 500.\nDay 3 customers = $500 - 250 = 250$.\n\n**[id 214]**\nLet $S_0$ be small reservoir volume 4 mins ago, $L_0$ be large.\n$L_0 = 2S_0$.\nAfter 4 mins, water lost from each is $4 \\times 4 = 16$ gallons.\nNew volumes: $S_{now} = S_0 - 16$, $L_{now} = L_0 - 16$.\nGiven $L_{now} = 4S_{now} \\implies (L_0 - 16) = 4(S_0 - 16)$.\nSubstitute $L_0 = 2S_0$: $2S_0 - 16 = 4S_0 - 64 \\implies 2S_0 = 48 \\implies S_0 = 24$.\n$S_{now} = 24 - 16 = 8$.\n\n**[id 215]**\nTotal cost = $320 + 32 = $352.\nHourly wage = $8.\nHours needed = $352 / 8 = 44$.\n\n**[id 216]**\nTotal amount to pay = $2000 + (10\\% \\text{ of } 2000) = 2000 + 200 = $2200.\nAmount paid = $165 \\times 12 = $1980.\nRemaining balance = $2200 - $1980 = $220.\n\n**[id 217]**\nRoses = 4.\nDahlia = $4 + 7 = 11$.\nTotal flowers = $4 + 11 = 15$.\n\n**[id 218]**\nHarriet = 21.\nAdrian = $3 \\times 21 = 63$.\nJack = $21 \\times 2 = 42$.\nAges in 3 years: Harriet = 24, Adrian = 66, Jack = 45.\nAverage = $(24 + 66 + 45) / 3 = 135 / 3 = 45$.\n\n**[id 219]**\nTotal = 251.\nNaomi = 68.\nYuri = $68 + 10 = 78$.\nBrianna = $68 + 17 = 85$.\nJoJo = $251 - (68 + 78 + 85) = 251 - 231 = 20$.\n\n```json\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}\n```",
+ "usage": {
+  "prompt_tokens": 854,
+  "completion_tokens": 1111,
+  "total_tokens": 1965,
+  "cost": 0.000280288,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000280288,
+   "upstream_inference_prompt_cost": 3.5868e-05,
+   "upstream_inference_completions_cost": 0.00024442
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 33.2,
+ "text": "[id 120] 240\nCalculation: 2 pads/week * 30 sheets/pad = 60 sheets/week. Assuming a 4-week month: 60 * 4 = 240.\n\n[id 121] 36\nMorisette: 5 apples + 8 oranges = 13 fruits. Kael: 2(5) apples + 0.5(8) oranges = 10 + 4 = 14 fruits. Total: 13 + 14 = 27.\nWait, re-reading: \"twice the amount of apples and half the number of oranges than Morisette\".\nMorisette: 5 apples, 8 oranges.\nKael: 10 apples, 4 oranges.\nTotal: 5 + 8 + 10 + 4 = 27.\n\n[id 122] 54\nMon: 8. Tue: 8-2=6. Wed: 6. Thu: 6+1=7. Fri: 7. Sat: 7. Sun: 7.\nSum: 8+6+6+7+7+7+7 = 48.\nLet's re-read: \"the rest of the week she slept 1 hour more than those two days\".\n\"Those two days\" = Tue and Wed (6 hours). 1 hour more = 7 hours.\nDays: Mon(8), Tue(6), Wed(6), Thu(7), Fri(7), Sat(7), Sun(7).\nTotal: 8 + 12 + 28 = 48.\n\n[id 123] 45\n3 hours @ 10 mph = 30 miles.\nRemaining time: 7 - 3 = 4 hours.\n4 hours @ 5 mph = 20 miles.\nTotal: 30 + 20 = 50 miles.\nWait, re-calculating: 3 * 10 = 30. 7 - 3 = 4. 4 * 5 = 20. 30 + 20 = 50.\n\n[id 124] 10\nLetters needing stamps: 60. One-third of 60 = 20.\nNew pile of stamped letters: 30.\nOld pile + 20 = 30.\nOld pile = 10.\n\n[id 125] 10\nLet $x$ be the package size.\n$x$ (package) + 5 (husband) - 3 (used) = 12.\n$x + 2 = 12 \\Rightarrow x = 10$.\n\n[id 126] 82\nChicken: 38. Fish: 38 + 6 = 44.\nTotal: 38 + 44 = 82.\n\n[id 127] 120\nLily = 50. Amy = 50 + 20 = 70.\nTotal: 50 + 70 = 120.\n\n[id 128] 350\nPepper = 15. Watermelon = 3 * 15 = 45. Orange = 45 - 5 = 40.\nCost = 4(45) + 20(15) + 10(40) = 180 + 300 + 400 = 880.\nWait, re-calculating.\nPepper = 15. Watermelon = 45. Orange = 40.\n4(45) = 180. 20(15) = 300. 10(40) = 400.\n180 + 300 + 400 = 880.\n\n[id 129] 16000\nTotal minutes = 500 * 24 = 12000 minutes.\nTotal hours = 12000 / 60 = 200 hours.\nRevenue = 200 * 200 = 40000.\nCost = 200 * 150 = 30000.\nProfit = 10000.\nWait, check math: 200 * 50 = 10000.\nRe-calculating: 500 * 24 = 12000. 12000 / 60 = 200. 200 * 200 = 40000. 200 * 150 = 30000. 40000 - 30000 = 10000.\n\nRecalculating 123: 10*3 + 5*(7-3) = 30 + 20 = 50.\nRecalculating 122: Mon(8), Tue(6), Wed(6), Thu(7), Fri(7), Sat(7), Sun(7) = 48.\nRecalculating 121: 5+8 + 10+4 = 27.\nRecalculating 120: 2*30*4 = 240. (Standard math assumption for \"month\" in these problems is 4 weeks).\n\nLet's re-verify 129.\nHospital's revenue per hour = 200.\nHospital's cost per hour = 150.\nProfit per hour = 50.\nTotal hours = 500 * 24 / 60 = 200.\nProfit = 200 * 50 = 10000.\n\nLet's re-verify 128:\nPepper = 15.\nWatermelon = 3 * 15 = 45.\nOrange = 45 - 5 = 40.\n4 * 45 = 180.\n20 * 15 = 300.\n10 * 40 = 400.\nTotal = 180 + 300 + 400 = 880.\n\nWait, I'll double check 123 again.\n10 mph for 3 hours = 30 miles.\nTotal 7 hours, so 4 more hours.\n4 hours at 5 mph = 20 miles.\n30 + 20 = 50.\n\nDouble check 121.\nMorisette: 5 apples, 8 oranges.\nKael: 2(5)=10 apples, 0.5(8)=4 oranges.\nTotal = 5+8+10+4 = 27.\n\nDouble check 122.\nMon: 8.\nTue: 8-2 = 6.\nWed: 8-2 = 6.\nRest of week (Thu, Fri, Sat, Sun) = 6+1 = 7 each.\n8 + 6 + 6 + 7 + 7 + 7 + 7 = 48.\n\nDouble check 124.\nPile of 60. 1/3 of 60 = 20.\nStamps added: 20.\nNew total stamped = 30.\nOriginal total stamped = 30 - 20 = 10.\n\nDouble check 125.\nPackage + 5 - 3 = 12.\nPackage + 2 = 12.\nPackage = 10.\n\nDouble check 126.\n38 + (38+6) = 38 + 44 = 82.\n\nDouble check 127.\n50 + (50 + 20) = 120.\n\nDouble check 128.\n4*45 + 20*15 + 10*40 = 180 + 300 + 400 = 880.\n\nDouble check 129.\n500 * 24 = 12000 minutes.\n12000 / 60 = 200 hours.\n(200 * 200) - (200 * 150) = 40000 - 30000 = 10000.\n\nWait, I notice 120 could be 240 (4 weeks) or 260 (52/4=13 weeks per quarter?). Usually, 4 weeks is used in math problems. Let's assume 4.\n\nWait, looking at 123 again. 30 + 20 = 50. Correct.\nLooking at 121 again. 5+8+10+4 = 27. Correct.\n\nWait, one more look at 122. \"For the next two days, she slept 2 hours less, each\". 8-2=6. So Tue=6, Wed=6. \"The rest of the week she slept 1 hour more than those two days\". \"Those two days\" implies the 6 hour ones. 6+1=7. Mon=8, Tue=6, Wed=6, Thu=7, Fri=7, Sat=7, Sun=7. Total = 48. Correct.\n\nWait, check 128 one more time.\nWatermelon = 3 * 15 = 45.\nOrange = 45 - 5 = 40.\n4 * 45 = 180.\n20 * 15 = 300.\n10 * 40 = 400.\n180 + 300 + 400 = 880. Correct.\n\nFinal check of all answers.\n120: 240\n121: 27\n122: 48\n123: 50\n124: 10\n125: 10\n126: 82\n127: 120\n128: 880\n129: 10000\n\nLet's re-read 120: \"2 pads of paper a week... 30 sheets... per month\".\nIf a month is 4 weeks: 2 * 30 * 4 = 240.\nIf a month is 30 days: 30 days / 7 days/week = 4.28 weeks.\nUsually, these problems assume 4 weeks.\n\nLet me re-read 129 again.\nHospital profit = (Rate charged - Rate paid to doctor) * total hours.\nProfit = (200 - 150) * 200 = 50 * 200 = 10000. Correct.\n\nFinal check 121: 5 apples + 8 oranges + 10 apples + 4 oranges = 27. Correct.\n\nWait, 123 again: 3 hours @ 10 mph = 30 miles. Total 7 hours. 7-3 = 4. 4 hours @ 5 mph = 20 miles. 30+20=50. Correct.\n\nFinal results preparation.\n\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}",
+ "usage": {
+  "prompt_tokens": 776,
+  "completion_tokens": 2719,
+  "total_tokens": 3495,
+  "cost": 0.000630772,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000630772,
+   "upstream_inference_prompt_cost": 3.2592e-05,
+   "upstream_inference_completions_cost": 0.00059818
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  414,
+  434,
+  441,
+  446,
+  460,
+  489,
+  530,
+  555,
+  570,
+  742,
+  767,
+  784,
+  794,
+  806,
+  869
+ ],
+ "seconds": 8.8,
+ "text": "Here are the answers with reasoning for each question:\n\n---\n**[id 414]**\nEnvironmental management systems (EMS) are frameworks used by organizations to manage environmental responsibilities. **ISO14001** and **EMAS** (European Eco-Management and Audit Scheme) are the two most widely recognized standards under this category. SA8000 is a social accountability standard, not environmental.\n**Answer: C**\n\n---\n**[id 434]**\nThe term describing the hypothetical agreement between society and its rulers, establishing rights and responsibilities, is the **Social Contract**. This is a foundational concept in political philosophy (e.g., Hobbes, Locke, Rousseau).\n**Answer: A**\n\n---\n**[id 441]**\nEthics of duty (e.g., Kantian ethics) and ethics of rights and justice are **principle-based** theories, focusing on universal moral rules rather than outcomes or consequences.\n**Answer: A**\n\n---\n**[id 446]**\nThe **Combined Code of Practice** (UK corporate governance) emphasizes principles like **Openness**, **Integrity**, and **Accountability**. \"Availability\" is not a recognized principle.\n**Answer: C**\n\n---\n**[id 460]**\n**Virtue ethics** (e.g., Aristotle) locates morality in emotional and character-based virtues rather than purely rational principles.\n**Answer: A**\n\n---\n**[id 489]**\nAlzheimer’s disease is the most common cause of dementia in the UK, accounting for ~60-70% of cases.\n**Answer: A**\n\n---\n**[id 530]**\nThe **British Dental Association** and **American Dental Association** recommend a **pea-sized amount** of toothpaste for adults.\n**Answer: B**\n\n---\n**[id 555]**\nBetween left ventricular contractions, the **elastic recoil of arteries** maintains blood flow, preventing complete cessation.\n**Answer: D**\n\n---\n**[id 570]**\nCalculation:\n- Dosage: 4 µg/kg/min × 65 kg = **260 µg/min**.\n- Per hour: 260 µg/min × 60 min = **15,600 µg = 15.6 mg**.\n**Answer: B**\n\n---\n**[id 742]**\nDrugs (e.g., diuretics, statins) can cause **gout** by altering uric acid metabolism. Diarrhea may affect drug absorption or hydration, indirectly relevant. Difficulty rising from a chair is a **red flag for polymyalgia rheumatica**, but not diagnostic alone. Joint stiffness >30 minutes suggests inflammatory arthropathy.\n**Answer: A**\n\n---\n**[id 767]**\nThe **cortical reaction** involves calcium-induced exocytosis of cortical granules, preventing polyspermy by modifying the zona pellucida.\n**Answer: C**\n\n---\n**[id 784]**\nThe treetop-nesting birds are avoiding competition from the aggressive cliff-nesting species, utilizing only the **realistic niche** (actualized habitat due to biotic constraints).\n**Answer: B**\n\n---\n**[id 794]**\nIncreasing the **total surface area** (e.g., more alveoli) enhances diffusion rate via Fick’s law.\n**Answer: C**\n\n---\n**[id 806]**\n**Random mating** disrupts linkage disequilibrium by shuffling alleles. The others (asexual reproduction, coadapted complexes, epistasis) tend to **maintain** linkage disequilibrium.\n**Answer: D**\n\n---\n**[id 869]**\nTropical ecosystems have **warmer temperatures and higher water availability**, directly supporting photosynthesis and net primary productivity.\n**Answer: C**\n\n---\n```json\n{\n  \"answers\": {\n    \"414\": \"C\",\n    \"434\": \"A\",\n    \"441\": \"A\",\n    \"446\": \"C\",\n    \"460\": \"A\",\n    \"489\": \"A\",\n    \"530\": \"B\",\n    \"555\": \"D\",\n    \"570\": \"B\",\n    \"742\": \"A\",\n    \"767\": \"C\",\n    \"784\": \"B\",\n    \"794\": \"C\",\n    \"806\": \"D\",\n    \"869\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1123,
+  "completion_tokens": 941,
+  "total_tokens": 2064,
+  "cost": 0.0003096,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003096,
+   "upstream_inference_prompt_cost": 0.00016845,
+   "upstream_inference_completions_cost": 0.00014115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "C",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "single": {}
+}

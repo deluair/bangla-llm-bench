@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 22,
+ "ids": [
+  "220",
+  "221",
+  "222",
+  "223",
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229"
+ ],
+ "seconds": 14.0,
+ "text": "### Brief Solutions\n\n* **[id 220]** \n  * Crosswords: $3 \\times 10 = 30$ minutes.\n  * Sudoku: $8 \\times 5 = 40$ minutes.\n  * Total time: $30 + 40 = 70$ minutes.\n\n* **[id 221]** \n  * Remaining water: $120 - 90 = 30$ liters.\n  * Rainwater collected: $2 \\times 30 = 60$ liters.\n  * Current water: $30 + 60 = 90$ liters.\n\n* **[id 222]** \n  * Geraniums: $90$.\n  * Petunias: $90 - 40 = 50$.\n  * Total flowers: $90 + 50 = 140$.\n\n* **[id 223]** \n  * Year 1: $\\$15000$.\n  * Year 2: $\\$15000 / 3 = \\$5000$.\n  * Total: $15000 + 5000 = 20000$.\n\n* **[id 224]** \n  * Carlos: $3 \\times 30 = \\$90$.\n  * Benji: $5 \\times 18 = \\$90$.\n  * Total: $90 + 90 = 180$.\n\n* **[id 225]** \n  * Bus: $6$ days.\n  * Car: $6 / 2 = 3$ days.\n  * Total: $6 + 3 = 9$ days.\n\n* **[id 226]** \n  * Final counts: Fire $= 30$, Grass $= 20 + 14 = 34$, Water $= 40 - 8 = 32$.\n  * Total cards: $30 + 34 + 32 = 96$.\n  * Water probability: $32 / 96 = 1/3 \\approx 33\\%$.\n\n* **[id 227]** \n  * Total cost: $\\$6.50 + \\$2.00 + \\$1.00 + \\$1.00 + (2 \\times \\$0.25) + \\$3.00 = \\$14.00$.\n  * After gift card: $\\$14.00 - \\$5.00 = \\$9.00$.\n\n* **[id 228]** \n  * Combined rate: $4 + 2 = 6$ pieces/minute.\n  * Time needed: $360 / 6 = 60$ minutes $= 1$ hour.\n\n* **[id 229]** \n  * First pick: $30\\%$ of $120 = 36$ watermelons.\n  * Remaining: $120 - 36 = 84$.\n  * Not ready after second visit: $1/4 \\times 84 = 21$.\n\n{\"answers\": {\"220\": 70, \"221\": 90, \"222\": 140, \"223\": 20000, \"224\": 180, \"225\": 9, \"226\": 33, \"227\": 9, \"228\": 1, \"229\": 21}}\n",
+ "usage": {
+  "input_tokens": 24779,
+  "output_tokens": 3882,
+  "thinking_tokens": 3061,
+  "cache_read_tokens": 0,
+  "total_tokens": 28661
+ },
+ "answers_batch": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ },
+ "single": {},
+ "answers": {
+  "220": 70.0,
+  "221": 90.0,
+  "222": 140.0,
+  "223": 20000.0,
+  "224": 180.0,
+  "225": 9.0,
+  "226": 33.0,
+  "227": 9.0,
+  "228": 1.0,
+  "229": 21.0
+ }
+}

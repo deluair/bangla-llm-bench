@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 28,
+ "ids": [
+  "224",
+  "225",
+  "226",
+  "227",
+  "228",
+  "229",
+  "230",
+  "231"
+ ],
+ "seconds": 6.3,
+ "text": "To answer these questions, I will analyze the provided passages and match them with the questions.\n\n**[id 224]**\n*   **Passage Analysis:** The passage states: \"...ফলে বিমানবন্দরটি বাণিজ্যিক ফ্লাইট বন্ধ করে দেয়।\" (As a result, the airport closed commercial flights.)\n*   **Question:** What was the airport closed for after the JAS 39C Gripen crashed?\n*   **Options:**\n    *   A) বাণিজ্যিক বিমান (Commercial planes/flights) - Matches the text.\n    *   B) অগ্নি নির্বাপক গাড়ি (Fire trucks) - Irrelevant to closure type.\n    *   C) স্থানীয় মিডিয়া (Local media) - Irrelevant.\n    *   D) স্কোয়াড্রন লিডার (Squadron leader) - Person involved, not the reason for closure type.\n*   **Conclusion:** Option A is correct.\n\n**[id 225]**\n*   **Passage Analysis:** The passage states: \"1977 থেকে 1981 পর্যন্ত জাতীয় নিরাপত্তা উপদেষ্টা হিসাবে ... কাজ করেছিলেন, হেনরি কিসিঞ্জার এর উত্তরসূরী হিসেবে।\" (...served as National Security Advisor from 1977 to 1981, as the successor to Henry Kissinger.)\n*   **Question:** Who was in the position of National Security Advisor until 1977?\n*   **Options:**\n    *   A) ব্রজেজিনস্কি (Brzezinski) - Started in 1977.\n    *   B) কিসিঙ্গার (Kissinger) - Predecessor to Brzezinski, so he held the post until Brzezinski took over in 1977.\n    *   C) কার্টার (Carter) - President.\n    *   D) জনসন (Johnson) - Previous President.\n*   **Conclusion:** Option B is correct.\n\n**[id 226]**\n*   **Passage Analysis:**\n    *   \"লুনো যখন ভেঙে যায়, সেই সময় 120-160 কিউবিক মিটার জ্বালানি তেল ছিল।\" (When Luno broke, there were 120-160 cubic meters of fuel oil.)\n    *   \"বিশাল বেগের বাতাস এবং একের পর এক ঢেউ লুনোকে জলের অতলে ডুবিয়ে দেয়।\" (Wind and waves sank Luno underwater.)\n    *   \"হেলিকপ্টারগুলো নাবিকদলের বারো জন সদস্যকে উদ্ধার করেছিল এবং একমাত্র আঘাত ছিল একটি ভাঙ্গা নাক।\" (Helicopters rescued 12 crew members, and the only injury was a broken nose.)\n    *   \"100 মিটারের জাহাজটি তার দৈনন্দিন সার এর কার্গো তুলতে যাচ্ছিল\" (The 100-meter ship was about to lift its daily cargo of sulfur/fertilizer.)\n*   **Question:** Which statement is NOT true regarding the breaking of Luno?\n*   **Options:**\n    *   A) The incident happened before loading the cargo. (True, it was \"about to lift\" cargo).\n    *   B) At the time of breaking, the ship had 100 meters of fuel oil. (False, the text says **120-160 cubic meters**, not 100 meters).\n    *   C) One of the twelve crew members was injured. (True, one had a broken nose).\n    *   D) The ship was sunk underwater. (True).\n*   **Conclusion:** Option B is the false statement.\n\n**[id 227]**\n*   **Passage Analysis:** The text mentions: \"1960 এর দশকে চলচ্চিত্র পরিচালনা শেখানোর জন্য তিনি সদ্য স্বাধীন আলজেরিয়াতে ফিরে আসেন।\" (In the 1960s, he returned to newly independent Algeria to teach filmmaking.)\n*   **Question:** In which decade did Algeria gain independence?\n*   **Inference:** If Algeria is described as \"newly independent\" in the 1960s, it implies independence was gained very recently, i.e., in the late 1950s/early 1960s. Historically, Algeria gained independence in 1962. However, looking at the options and the text's phrasing \"In the 1960s ... newly independent Algeria\", it strongly associates the independence status with the timeframe leading into or starting the 1960s. Let's re-read carefully. The text says he returned *in the 1960s* to *newly independent* Algeria. This implies the independence happened just before or during the early part of that decade context.\n    *   Option A: 1940s (No)\n    *   Option B: 1950s (Independence war ended in 1962, but the process started in 1954. \"Newly independent\" in the 60s usually refers to the 1950s-60s transition. However, standard historical fact is 1962. Let's look at the options again. Is there a trick? Usually, SRE (Single Best Answer) questions rely on the text. The text doesn't explicitly state the year. But \"1960s\" is when he returned. If it was \"newly\" independent then, it likely happened in the 1950s or very early 1960s. Between 1950s and 1960s, 1962 is technically the 60s. But often in these reading comprehension tests, if the text says \"In the 1960s... newly independent\", it might infer the event (independence) paved the way for that, suggesting the 1950s struggle or the immediate past. Let's check common knowledge vs text. Text: \"1960 এর দশকে ... সদ্য স্বাধীন আলজেরিয়াতে\". This phrasing places the state of being \"newly independent\" in the 1960s. Independence was declared in 1962. So it is the 1960s.\n    *   Wait, let's look at Option C: 1960-এর দশক (1960s). Algeria became independent in 1962. This fits \"1960s\".\n    *   Option B: 1950-এর দশক (1950s).\n    *   Given the text says he returned *in the 1960s* to *newly independent* Algeria, the independence must have happened recently relative to the 1960s. 1962 is in the 1960s.\n*   **Conclusion:** Option C is the most logically supported by the text's timeline (returning in the 60s to a *newly* independent country).\n\n**[id 228]**\n*   **Passage Analysis:** \"একজন প্রতিবেশী গ্যাস লিক হওয়ার কথা জানানোর পরেই...\" (After a neighbor reported the gas leak...)\n*   **Question:** Who informed about the gas leak?\n*   **Options:**\n    *   A) বিল্ডিং-এর একজন প্রতিবেশী (A neighbor of the building)\n    *   B) অ্যাপার্টমেন্টের একজন ব্যক্তি (A person from the apartment)\n    *   C) গ্যাস কম্পানির একজন কর্মকর্তা (A gas company officer)\n    *   D) বিল্ডিং-এর ম্যানেজার (Building manager)\n*   **Conclusion:** Option A is correct.\n\n**[id 229]**\n*   **Passage Analysis:** \"পূর্ব ফ্রান্সের লিওনের কাছে... একটি মৃত বন্য় হাঁস উদ্ধার হয়। হাঁসটি H5N1 এ সংক্রমিত বলে নিশ্চিত ভাবে জানানো হয়েছে।... ফ্রান্স ... সপ্তম দেশ...\" (A dead wild goose was found near Lyon in eastern France... confirmed to be infected with H5N1... France... is the seventh country...)\n*   **Question:** Where was the H5N1 virus found for the last time mentioned?\n*   **Analysis:** The text lists countries previously affected (Austria, Germany, Slovenia, Bulgaria, Greece, Italy) and then says France is the *seventh* country affected, implying the discovery in France is the most recent event described in the context of this report.\n*   **Options:**\n    *   A) ফ্রান্স (France)\n    *   B) জার্মানি (Germany)\n    *   C) ডেনমার্ক (Denmark - suspected/uncertain)\n    *   D) গ্রীস (Greece)\n*   **Conclusion:** Option A is correct.\n\n**[id 230]**\n*   **Passage Analysis:** \"ফ্রেড এখন ঘন্টায় 105 মাইল ... বেগে বাতাস নিয়ে উত্তর-পশ্চিম দিকে এগিয়ে যাচ্ছে।\" (Fred is currently moving towards the **North-West** at 105 miles per hour...)\n*   **Question:** When Fred was near Cape Verde, which direction was it moving?\n*   **Note:** The text says the storm is about 645 miles west of Cape Verde. It is *currently* moving North-West. The question asks about its direction *when* it was near Cape Verde? Or does it imply the current state relative to its position? The text says \"Forecasters say... this storm located about 645 miles west of Cape Verde... Fred is *now* ... moving towards the North-West.\" The prompt asks \"When Fred was near Cape Verde...\". Actually, the text says it is *located* west of Cape Verde and is *moving* North-West. It's likely asking for the direction of movement described in the text.\n*   **Options:**\n    *   A) পশ্চিম (West)\n    *   B) দক্ষিণ (South)\n    *   C) পূর্ব (East)\n    *   D) উত্তর-পশ্চিম (North-West)\n*   **Conclusion:** Option D is correct.\n\n**[id 231]**\n*   **Passage Analysis:** \"ভূমিকম্পের গুরুত্বপূর্ণ কার্যকলাপের পর্যায় পরিবর্তন স্থান নিয়েছিল মার্চের ১০ তারিখে...\" (The phase change of significant seismic activity took place on March 10th...)\n*   **Question:** According to the passage, when did the phase change occur?\n*   **Options:**\n    *   A) 10 মার্চের আগে (Before March 10)\n    *   B) গত 48 ঘন্টায় (In the last 48 hours)\n    *   C) 10 মার্চে (On March 10)\n    *   D) আগের সপ্তাহে (The previous week)\n*   **Conclusion:** Option C is correct.\n\n```json\n{\"answers\": {\"224\": \"A\", \"225\": \"B\", \"226\": \"B\", \"227\": \"C\", \"228\": \"A\", \"229\": \"A\", \"230\": \"D\", \"231\": \"C\"}}\n```",
+ "usage": {
+  "queue_time": 0.620697035,
+  "prompt_tokens": 2514,
+  "prompt_time": 0.185371016,
+  "completion_tokens": 2651,
+  "completion_time": 5.250856301,
+  "total_tokens": 5165,
+  "total_time": 5.436227317
+ },
+ "served_by": null,
+ "answers_batch": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ },
+ "single": {},
+ "answers": {
+  "224": "A",
+  "225": "B",
+  "226": "B",
+  "227": "C",
+  "228": "A",
+  "229": "A",
+  "230": "D",
+  "231": "C"
+ }
+}

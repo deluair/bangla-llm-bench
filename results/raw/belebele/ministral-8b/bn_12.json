@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 4.6,
+ "text": "1. [id 96] The question asks about the number of participants who failed to finish the Giant Slalom. The passage states that out of 117 participants, 45 did not finish the race.\n   **Answer:** D\n\n2. [id 97] The passage mentions that Northern Rock required urgent government assistance during the subprime mortgage crisis in 2007.\n   **Answer:** D\n\n3. [id 98] The passage mentions that the division was observed on a fossil.\n   **Answer:** B\n\n4. [id 99] The latest report by Jinghua did not mention that the plane landed in Ürümqi.\n   **Answer:** B\n\n5. [id 100] Gordon Janoe, the spokesperson for President George W. Bush, referred to the commitment as \"a big step.\"\n   **Answer:** C\n\n6. [id 101] The passage states that the 9th Ward is currently knee-deep in water.\n   **Answer:** C\n\n7. [id 102] The local police helped direct car drivers to another route.\n   **Answer:** C\n\n8. [id 103] The storm Gonu was expected to weaken from the time when the wind speed was around 83 km/h.\n   **Answer:** B\n\n```json\n{\n  \"answers\": {\n    \"96\": \"D\",\n    \"97\": \"D\",\n    \"98\": \"B\",\n    \"99\": \"B\",\n    \"100\": \"C\",\n    \"101\": \"C\",\n    \"102\": \"C\",\n    \"103\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2232,
+  "completion_tokens": 366,
+  "total_tokens": 2598,
+  "cost": 0.0003897,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003897,
+   "upstream_inference_prompt_cost": 0.0003348,
+   "upstream_inference_completions_cost": 5.49e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

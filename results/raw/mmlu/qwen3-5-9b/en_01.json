@@ -1,0 +1,83 @@
+{
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  414,
+  434,
+  441,
+  446,
+  460,
+  489,
+  530,
+  555,
+  570,
+  742,
+  767,
+  784,
+  794,
+  806,
+  869
+ ],
+ "seconds": 306.5,
+ "text": "[Question 414] Environmental management systems (EMS) are the framework for implementing environmental goals. ISO 14001 and EMAS (Eco-Management and Audit Scheme) are specific examples of EMS certifications. SA8000 focuses on social accountability, not environmental.\nAnswer: C\n\n[Question 434] The term defining a hypothetical agreement between members of society and governing authorities establishing rights and responsibilities is the Social Contract theory.\nAnswer: A\n\n[Question 441] Ethics of duty (deontology) and ethics of rights and justice are typically categorized as principle-based theories (non-consequentialist), relying on universal principles of right and wrong rather than outcomes. Utilitarianism and egoism are consequentialist.\nAnswer: A\n\n[Question 446] The underlying principles of the UK Corporate Governance Combined Code are often cited as Accountability, Fairness, and Openness (sometimes including Integrity). Acceptability is not a standard governance principle listed in the Code.\nAnswer: D\n\n[Question 460] Virtue ethics (and associated sentimentalist theories like Hume's) locates morality in character and emotional impulses rather than rigid rationality or calculation, contrasting with duty ethics or utilitarianism.\nAnswer: A\n\n[Question 489] Alzheimer's disease is the most common cause of dementia worldwide and specifically in the UK.\nAnswer: A\n\n[Question 530] For adults, a pea-sized amount of fluoride toothpaste is the standard recommended amount for brushing teeth to ensure safety and efficacy.\nAnswer: B\n\n[Question 555] During diastole (between ventricular contractions), blood continues to flow through the arterial system due to the elasticity of the arterial walls (elastic recoil) which maintain pressure.\nAnswer: D\n\n[Question 570] Calculation: Rate = 4 mcg/kg/min. Weight = 65 kg. Total/min = 260 mcg. Hour = 260 * 60 = 15600 mcg. Convert to mg: 15600 / 1000 = 15.6 mg/hr.\nAnswer: B\n\n[Question 742] Drug history is relevant in MSK assessment as certain drugs (e.g., diuretics) can cause gout or arthritis. Other options contain inaccuracies regarding diagnostic certainty or relevance.\nAnswer: A\n\n[Question 767] The release of cortical granule enzymes triggered by calcium in the oocyte to prevent polyspermy is known as the cortical reaction.\nAnswer: C\n\n[Question 784] The fundamental niche is the full range of potential conditions, while the realistic (ecological) niche is the actual set of conditions utilized in the presence of competitors. The birds are restricted to treetops due to competition, hence they utilize their realistic niche.\nAnswer: B\n\n[Question 794] According to Fick's Law of Diffusion, the rate of diffusion is directly proportional to the surface area. Increasing the surface area increases the diffusion rate.\nAnswer: C\n\n[Question 806] Linkage disequilibrium is promoted by asexual reproduction (no recombination), selection (epistasis/complexes), and drift. Random mating generally acts to reduce or maintain equilibrium (Hardy-Weinberg), not promoting disequilibrium.\nAnswer: D\n\n[Question 869] Primary productivity is driven by photosynthesis, which is maximized by warm temperatures and adequate water availability (light/water/CO2), abundant in the tropics.\nAnswer: C\n\n```json\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"A\", \"446\": \"D\", \"460\": \"A\", \"489\": \"A\", \"530\": \"B\", \"555\": \"D\", \"570\": \"B\", \"742\": \"A\", \"767\": \"C\", \"784\": \"B\", \"794\": \"C\", \"806\": \"D\", \"869\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1186,
+  "completion_tokens": 8933,
+  "total_tokens": 10119,
+  "cost": 0.00145855,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00145855,
+   "upstream_inference_prompt_cost": 0.0001186,
+   "upstream_inference_completions_cost": 0.00133995
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8043,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "D",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "A",
+  "446": "D",
+  "460": "A",
+  "489": "A",
+  "530": "B",
+  "555": "D",
+  "570": "B",
+  "742": "A",
+  "767": "C",
+  "784": "B",
+  "794": "C",
+  "806": "D",
+  "869": "C"
+ },
+ "single": {}
+}

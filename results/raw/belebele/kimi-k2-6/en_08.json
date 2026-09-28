@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 50.5,
+ "text": "Here is the brief reasoning for each question:\n\n- **64**: The passage states that iPod overheating left **four people** with minor burns.  \n- **65**: Steve Jobs said, “Today Apple is going to **reinvent the phone**.”  \n- **66**: The passage identifies **John Howard** as the current Prime Minister and Liberal Party leader whom Costello might succeed.  \n- **67**: Blake **denied** the attack, so saying he admitted it is inaccurate.  \n- **68**: The fund is for coping with global warming impacts; **bringing technology to developing nations** is listed as a separate agenda item, not a use of the fund.  \n- **69**: The bill applies only within **California**, so a ban outside California is not part of it.  \n- **70**: **Jack Layton** asked for changes and a thorough rewriting of the bill.  \n- **71**: **Tommy Dreamer** called Luna the “first Queen of Extreme.”\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1227,
+  "completion_tokens": 2032,
+  "total_tokens": 3259,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1775
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

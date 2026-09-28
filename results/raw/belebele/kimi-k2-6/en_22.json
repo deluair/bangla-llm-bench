@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 118.6,
+ "text": "176: The passage states that chimpanzees use their hands for bearing weight in knuckle walking, and that humans (not chimps) have straighter phalanges and hands specialized for manipulation. → C  \n177: The text explicitly says, “Mutation adds new genetic variation.” → C  \n178: Postmodern learning rejects a single best way or thing to learn, so prioritizing certain experiences over others contradicts the approach. → B  \n179: Pureland origami was developed to help inexperienced folders or those with limited motor skills, so saying it is intended for experienced folders is inaccurate. → A  \n180: The passage lists Indus Valley Civilization, Indus-Sarasvati Civilization, and Harappan Civilization as names; “The Indus River Civilization” is not mentioned. → C  \n181: The passage states that acting selfishly offers more to gain in the short term. → D  \n182: The passage mentions doctors being recruited, the Roman Medical Corps, and the empire’s militaristic nature, but it does not mention learning hospitals. → C  \n183: The passage explicitly says children with ADD engage in risky behaviors “in order to stimulate their brain.” → D  \n\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1399,
+  "completion_tokens": 4139,
+  "total_tokens": 5538,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3840
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

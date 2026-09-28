@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 11,
+ "ids": [
+  "6313",
+  "6315",
+  "6351",
+  "6428",
+  "6438",
+  "6488",
+  "6497",
+  "6499",
+  "6514",
+  "6534",
+  "6576",
+  "6584",
+  "6644",
+  "6652",
+  "6657"
+ ],
+ "seconds": 31.1,
+ "text": "I'll work through these questions systematically:\n\n**[6313]** Erogenous zones vary between individuals (A), vary across menstrual cycles in women (B), but are NOT mainly on lower body. Since A and B are true, answer is **D**.\n\n**[6315]** Choosing pleasure (going to dairy bar) over responsibility (studying) reflects the id's dominance over the superego. Answer is **A**.\n\n**[6351]** Penile/clitoral erection involves vasocongestion caused by activation of the parasympathetic nervous system. Answer is **D**.\n\n**[6428]** Both masturbation and autoeroticism are standard terms for sexual self-stimulation. Answer is **D**.\n\n**[6438]** Gonorrhea and chlamydia typically infect the urethra in men. Answer is **C**.\n\n**[6488]** The act of State doctrine holds that courts should not assess the validity of foreign States' public acts; this determination belongs to the executive branch. Answer is **B**.\n\n**[6497]** The ICCPR enforcement includes both a reporting mechanism and an individual petition mechanism (via Optional Protocol). Answer is **D**.\n\n**[6499]** Self-executing treaties are sufficiently clear and precise that they don't require implementing legislation to have domestic effect. Answer is **B**.\n\n**[6514]** International tribunal jurisdiction is primarily established by each tribunal's founding treaty/charter, not uniformly by common principles. Answer is **D**.\n\n**[6534]** The Human Rights Act 1998 incorporated the European Convention on Human Rights into UK law. (It cannot invalidate primary legislation, requires standing, and doesn't incorporate the EU Charter). Answer is **A**.\n\n**[6576]** Malinowski's ethnographic work emphasized reciprocity and the Kula ring as central to Trobriand social organization. Answer is **D**.\n\n**[6584]** Fuller's \"inner morality of law\" represents standards law should aspire to achieve (clarity, consistency, publicity)—a morality of aspiration. Answer is **B**.\n\n**[6644]** This definition of law as rules applied by the State is characteristic of Salmond's jurisprudence. Answer is **B**.\n\n**[6652]** John Chipman Gray famously stated that jurisprudence is the philosophy of positive law. Answer is **A**.\n\n**[6657]** This famous quote rejecting natural rights is from Jeremy Bentham. Answer is **B**.\n\n```json\n{\"answers\": {\"6313\": \"D\", \"6315\": \"A\", \"6351\": \"D\", \"6428\": \"D\", \"6438\": \"C\", \"6488\": \"B\", \"6497\": \"D\", \"6499\": \"B\", \"6514\": \"D\", \"6534\": \"A\", \"6576\": \"D\", \"6584\": \"B\", \"6644\": \"B\", \"6652\": \"A\", \"6657\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 1547,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3014,
+  "output_tokens_details": {
+   "thinking_tokens": 2331
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1547,
+    "output_tokens": 3014,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.016617,
+ "answers_batch": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "A",
+  "6657": "B"
+ },
+ "single": {},
+ "answers": {
+  "6313": "D",
+  "6315": "A",
+  "6351": "D",
+  "6428": "D",
+  "6438": "C",
+  "6488": "B",
+  "6497": "D",
+  "6499": "B",
+  "6514": "D",
+  "6534": "A",
+  "6576": "D",
+  "6584": "B",
+  "6644": "B",
+  "6652": "A",
+  "6657": "B"
+ }
+}

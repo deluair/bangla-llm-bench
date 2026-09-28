@@ -1,0 +1,149 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 134.7,
+ "text": "",
+ "error": "<HTTPError 400: 'Bad Request'>",
+ "answers_batch": {},
+ "single": {
+  "80": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "completion_tokens": 236,
+    "completion_tokens_details": {
+     "reasoning_tokens": 230
+    },
+    "prompt_tokens": 711,
+    "prompt_tokens_details": {
+     "cached_tokens": 704
+    },
+    "total_tokens": 947
+   },
+   "answer": "B"
+  },
+  "81": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "completion_tokens": 404,
+    "completion_tokens_details": {
+     "reasoning_tokens": 377
+    },
+    "prompt_tokens": 651,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "total_tokens": 1055
+   },
+   "answer": "C"
+  },
+  "82": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 115,
+    "completion_tokens_details": {
+     "reasoning_tokens": 108
+    },
+    "prompt_tokens": 867,
+    "prompt_tokens_details": {
+     "cached_tokens": 832
+    },
+    "total_tokens": 982
+   },
+   "answer": "A"
+  },
+  "83": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 118,
+    "completion_tokens_details": {
+     "reasoning_tokens": 112
+    },
+    "prompt_tokens": 509,
+    "prompt_tokens_details": {
+     "cached_tokens": 448
+    },
+    "total_tokens": 627
+   },
+   "answer": "A"
+  },
+  "84": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "completion_tokens": 125,
+    "completion_tokens_details": {
+     "reasoning_tokens": 122
+    },
+    "prompt_tokens": 447,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "total_tokens": 572
+   },
+   "answer": "A"
+  },
+  "85": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "completion_tokens": 261,
+    "completion_tokens_details": {
+     "reasoning_tokens": 249
+    },
+    "prompt_tokens": 831,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "total_tokens": 1092
+   },
+   "answer": "C"
+  },
+  "86": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "completion_tokens": 320,
+    "completion_tokens_details": {
+     "reasoning_tokens": 302
+    },
+    "prompt_tokens": 754,
+    "prompt_tokens_details": {
+     "cached_tokens": 704
+    },
+    "total_tokens": 1074
+   },
+   "answer": "B"
+  },
+  "87": {
+   "text": "",
+   "error": "<HTTPError 400: 'Bad Request'>",
+   "usage": null,
+   "answer": null
+  }
+ },
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 22,
+ "ids": [
+  "176",
+  "177",
+  "178",
+  "179",
+  "180",
+  "181",
+  "182",
+  "183"
+ ],
+ "seconds": 24.9,
+ "text": "Based on the provided passages, here is the evaluation for each question:\n\n176: The passage states that the human hand has \"straighter phalanges,\" implying the chimpanzee's are less straight, eliminating A. It states chimpanzee hands and feet are similar in size, eliminating B. It notes human hands shifted to manipulation, while the chimpanzee's hand reflects its \"use for bearing weight in knuckle walking,\" pointing to C.\n177: The passage states explicitly, \"Mutation adds new genetic variation,\" making C the correct choice.\n178: The passage states \"there is not one good thing to learn,\" which contradicts the idea that certain learning experiences should be prioritized over others, making B the exception.\n179: The passage notes that Pureland origami \"was developed by John Smith in the 1970s to help inexperienced folders,\" making A the incorrect description.\n180: The passage references \"The Indus Valley Civilization,\" \"Indus-Sarasvati Civilization,\" and \"Harappan Civilization.\" It mentions the basins of the Indus River, but \"The Indus River Civilization\" itself is not stated as a name, leaving C.\n181: The passage explicitly states \"there will always be more to gain in the short term by acting selfishly,\" pointing directly to D.\n182: The passage attributes the formation of the Medical Corps, the militaristic nature of the empire, and the recruitment of doctors to Emperor Augustus and the empire, but it never mentions learning hospitals. Therefore, C is not attributed.\n183: The passage explains that children with ADD engage in risky behaviors \"in order to stimulate their brain, since their brain can not be stimulated by normal methods,\" confirming D.\n\n```json\n{\"answers\": {\"176\": \"C\", \"177\": \"C\", \"178\": \"B\", \"179\": \"A\", \"180\": \"C\", \"181\": \"D\", \"182\": \"C\", \"183\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17392,
+  "output_tokens": 3231,
+  "thinking_tokens": 2796,
+  "cache_read_tokens": 8141,
+  "total_tokens": 20623
+ },
+ "answers_batch": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ },
+ "single": {},
+ "answers": {
+  "176": "C",
+  "177": "C",
+  "178": "B",
+  "179": "A",
+  "180": "C",
+  "181": "D",
+  "182": "C",
+  "183": "D"
+ }
+}

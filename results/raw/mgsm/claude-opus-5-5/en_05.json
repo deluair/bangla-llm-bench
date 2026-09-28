@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 5,
+ "ids": [
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55",
+  "56",
+  "57",
+  "58",
+  "59"
+ ],
+ "seconds": 8.6,
+ "text": "- **50:** 252 ÷ 12 = 21 dozen per day. 21 × $2 = $42 per day, and $42 × 7 = $294 per week.\n- **51:** He sails 3 hours × 10 mph = 30 miles. Returning takes 30 ÷ 6 = 5 hours.\n- **52:** 30 comics × 1/4 lb = 7.5 lb. The remaining 7.5 lb ÷ 1/2 lb = 15 toys.\n- **53:** Thursday earns 6 × 60 + 4 × 40 = $520. Friday earns 12 × 40 = $480. The difference is $40.\n- **54:** 7 + (3 × 7) + 12 = 40 kittens.\n- **55:** 30 − 2 = 28 lollipops, and 28 ÷ 2 = 14 bags.\n- **56:** Each trip costs $7 + $7 = $14. 42 ÷ 14 = 3 trips.\n- **57:** 5000 − 3755 = 1245 lb of capacity left. 1245 ÷ 15 = 83 boxes.\n- **58:** $40 × 1.25 = $50. Adding $3 delivery and $4 tip gives $57.\n- **59:** 6 × 20 + 67 = 187 raspberries.\n\n{\"answers\": {\"50\": 294, \"51\": 5, \"52\": 15, \"53\": 40, \"54\": 40, \"55\": 14, \"56\": 3, \"57\": 83, \"58\": 57, \"59\": 187}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1479,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 936,
+  "output_tokens_details": {
+   "thinking_tokens": 431
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1479,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 936,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1479,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1479
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.030560000000000004,
+ "answers_batch": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ },
+ "single": {},
+ "answers": {
+  "50": 294.0,
+  "51": 5.0,
+  "52": 15.0,
+  "53": 40.0,
+  "54": 40.0,
+  "55": 14.0,
+  "56": 3.0,
+  "57": 83.0,
+  "58": 57.0,
+  "59": 187.0
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 30,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247"
+ ],
+ "seconds": 7.1,
+ "text": "Here are my answers with brief reasoning:\n\n**240:** The passage states Gingrich came in second with 32 percent. → **B**\n\n**241:** \"Gingrich lauded Santorum\" — Gingrich spoke highly of another candidate. → **B**\n\n**242:** The passage says Nadal was \"winning 76 points in the first serve.\" → **B**\n\n**243:** The former government refused to ratify Kyoto, \"saying it would damage the economy.\" → **B**\n\n**244:** \"Resembling a television remote, the controller...\" refers to the Nintendo Revolution controller. → **B**\n\n**245:** The passage says Felicia was once a Category 4 storm that weakened to a tropical depression — the reverse of option B, making B false. → **B**\n\n**246:** The researchers reported the location (Galápagos), the timeframe (two generations), and the breeding birds (Geospiza fortes and Geospiza conirostris), but never named the new species. → **C**\n\n**247:** The passage explicitly calls CowParade \"the world's largest public art event.\" → **D**\n\n{\"answers\": {\"240\": \"B\", \"241\": \"B\", \"242\": \"B\", \"243\": \"B\", \"244\": \"B\", \"245\": \"B\", \"246\": \"C\", \"247\": \"D\"}}",
+ "usage": {
+  "completion_tokens": 510,
+  "completion_tokens_details": {
+   "reasoning_tokens": 211
+  },
+  "prompt_tokens": 1244,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1754
+ },
+ "served_by": null,
+ "answers_batch": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ },
+ "single": {},
+ "answers": {
+  "240": "B",
+  "241": "B",
+  "242": "B",
+  "243": "B",
+  "244": "B",
+  "245": "B",
+  "246": "C",
+  "247": "D"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 12.5,
+ "text": "**[id 56]** The passage states Germany prepared to invade the British Isles under the codename \"Operation Sea Lion.\" So the invasion targeted **Britain**.\n\n**[id 57]** The described necessary steps were: establishing a troop launching pad, getting rid of British ships/bases in Egypt. Building additional ships was mentioned only as background (four ships built before the war), not as a necessary step. So **B** was NOT described.\n\n**[id 58]** The passage says the Soviet Red Army violated the Riga peace treaty and other pacts. So **D**.\n\n**[id 59]** The passage never says there was a fire in Santa Clara — \"Fire Captain\" is a title, and the quote only mentions a hot 90-degree day. So **A** is not true.\n\n**[id 60]** During the riot, the prison was set on fire. So **D**.\n\n**[id 61]** Each episode provided book recommendations for children to look for at their library. So **D**.\n\n**[id 62]** Officials argued the tree was fungus-infected, a public health risk, and in danger of falling (they wanted to cut it down). They never said it should be preserved. So **B**.\n\n**[id 63]** Poland's government decided not to ratify the ACTA treaty after protests. So **B**.\n\n{\"answers\": {\"56\": \"B\", \"57\": \"B\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}",
+ "usage": {
+  "completion_tokens": 958,
+  "completion_tokens_details": {
+   "reasoning_tokens": 597
+  },
+  "prompt_tokens": 5251,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6209
+ },
+ "served_by": null,
+ "answers_batch": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "B",
+  "57": "B",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

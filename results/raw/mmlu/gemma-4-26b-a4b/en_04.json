@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 11.6,
+ "text": "1680: Natural processes (Entropy) move from order to disorder.\n1726: The system's acceleration is determined by the falling book: $F_{net} = m_{falling}g - T = m_{falling}a$. $T = m_{sliding}a$. Thus $m_1g - m_2a = m_2a \\Rightarrow a = g(m_1/(m_1+m_2))$. If masses are equal, $a = g/2$. Wait, the problem doesn't specify masses. However, in standard physics problems of this type where \"acceleration of the books\" is asked without mass info, it often assumes equal masses or refers to a specific limit. If $m_1=m_2$, $a=g/2$. If we assume the question implies a general case or has a typo in mass specification, we look for the most logical answer. If $m_1=m_2$, $a=g/2$.\n1753: Pitch is frequency.\n1772: $F = dp/dt$ is Newton's second law.\n1773: Reactors heat a fluid (water) to drive a turbine.\n1820: Negative autocorrelation means values alternate above and below the mean.\n1850: For ARMA(p,q), the ACF tails off after $q$ and PACF tails off after $p$. Wait, standard definition: AR(p) has PACF zero after $p$, ACF decays. MA(q) has ACF zero after $q$, PACF decays. ARMA(p,q) has both decaying. Option A says both decline geometrically.\n1873: (i) is true. (ii) is true. (iii) is false (ordering matters for both). (iv) is true (usually). So (i), (ii), and (iv). Looking at choices, (i) and (ii) and (iv) isn't an option, but (ii) and (iv) is. Let's re-evaluate (iii). The ordering in Cholesky decomposition matters for both.\n1892: Residual $e = y - \\hat{y}$.\n1895: Multiple choices (Equity, Bond, Cash) $\\rightarrow$ Multinomial Logit.\n1929: LC oscillators are typically used in the MHz range.\n1995: Electrode materials need conductivity and strength. \"All of above\" is most likely.\n1998: Heat sinks need high thermal conductivity and large surface area.\n2004: Parallel capacitors: $C_{eq} = 40+40+40+40 = 160 \\mu F$.\n2043: Poles/zeros alternating on negative real axis $\\rightarrow$ RC or RL networks (LC has imaginary poles).\n\nRefining 1726: If $m_1=m_2$, $a = g/2$. If $m_{sliding}$ is negligible, $a=g$. If $m_{falling}$ is negligible, $a=0$. Without masses, let's assume $m_1=m_2 \\implies g/2$.\nRefining 1850: ARMA(p,q) both decline.\nRefining 1873: (i) Yes, (ii) Yes, (iii) No, (iv) Yes. Choices: A (ii and iv).\nRefining 2043: RC and RL both have poles on the negative real axis.\n\n```json\n{\"answers\": {\"1680\": \"A\", \"1726\": \"B\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"A\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1162,
+  "completion_tokens": 915,
+  "total_tokens": 2077,
+  "cost": 0.000250104,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000250104,
+   "upstream_inference_prompt_cost": 4.8804e-05,
+   "upstream_inference_completions_cost": 0.0002013
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "answers_batch": {
+  "1680": "A",
+  "1726": "B",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {}
+}

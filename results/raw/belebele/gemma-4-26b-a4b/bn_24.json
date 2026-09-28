@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 4.4,
+ "text": "192: The passage says they find prey by smell (ঘ্রাণ), so saying their sense of smell is weak (ঘ্রাণশক্তি দুর্বল) is incorrect.\n193: The passage explicitly compares the roar of a tiger to a lion, noting the tiger's roar is different (not like a lion's full-throated roar).\n194: The passage states that \"কৈশিক নাড়ী\" (capillaries) are the smallest vessels.\n195: The passage mentions avoiding enemies (survival/safety), finding food (food collection), and finding mates (reproduction/life cycle). It does not mention \"life span\" (জীবনকাল) as an effect of flight efficiency, whereas food and mating are explicitly linked. However, looking at the options: Food (C) and Mates (A) are mentioned. Life span (B) is not. Efficiency (D) is a synonym for the ability itself. The question asks what is *not* mentioned. B is the best fit for an effect not directly linked to the text.\n196: The passage says people don't think they are dinosaurs *because* they have wings and can fly, implying flight is a difference.\n197: The passage states their teeth can crush hard branches and roots, implying they eat plants with hard branches.\n198: The passage states Luxembourg wanted to be neutral, but Germany occupied it during the two World Wars, thus breaking its neutrality.\n199: The passage describes a blade with two edges and a concave gap (অবতল ফাঁক), which essentially defines the hollow/curved nature of the blade. Among the options, \"B) বক্র অংশ\" (curved part/arc) or the description of the hollow edge is most central. However, the most accurate description of the \"hollow\" concept provided is the curvature/concavity.\n\n{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1458,
+  "completion_tokens": 463,
+  "total_tokens": 1921,
+  "cost": 0.00024027,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024027,
+   "upstream_inference_prompt_cost": 8.748e-05,
+   "upstream_inference_completions_cost": 0.00015279
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DekaLLM",
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "B"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "B"
+ }
+}

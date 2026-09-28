@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 6.4,
+ "text": "I will solve each problem step-by-step.\n\n**[id 40]**\n*   **Problem:** Brandon's iPhone is 4 times older than Ben's. Ben's iPhone is 2 times older than Suzie's. Suzie's is 1 year old. How old is Brandon's?\n*   **Logic:**\n    *   Suzie's age = 1 year.\n    *   Ben's age = $2 \\times$ Suzie's age = $2 \\times 1 = 2$ years.\n    *   Brandon's age = $4 \\times$ Ben's age = $4 \\times 2 = 8$ years.\n*   **Answer:** 8\n\n**[id 41]**\n*   **Problem:** A dragon breathes fire within 1000 ft. Poly can throw a spear 400 ft normally. With a blue gem, he can throw it 3 times further. How far *outside* the dragon's fire range can he stand to hit the dragon?\n*   **Logic:**\n    *   Dragon's fire range = 1000 ft.\n    *   Normal throw distance = 400 ft.\n    *   Distance with gem = $3 \\times 400 = 1200$ ft.\n    *   To hit the dragon, Poly must throw the spear from a distance $d$ such that $d$ is within his throw range ($d \\le 1200$).\n    *   To be safe from fire, he must stand outside the fire range ($d > 1000$).\n    *   The question asks: \"How far outside the dragon's fire range can he stand...?\" This usually implies the maximum distance he can stand *beyond* the 1000 ft limit while still being able to hit.\n    *   Wait, let's re-read carefully. \"How far outside the dragon's fire range can he stand to hit the dragon?\"\n    *   If he stands at distance $D$ from the dragon:\n        *   Condition 1: $D > 1000$ (to be outside fire).\n        *   Condition 2: $D \\le 1200$ (to hit the dragon).\n    *   The question likely asks for the extent of the safe distance zone or the specific distance he can stand at the limit. \"How far outside... can he stand\" often implies the maximum distance he can be from the boundary (1000 ft) while still satisfying the condition.\n    *   Maximum distance from dragon = 1200 ft.\n    *   Boundary of fire = 1000 ft.\n    *   Distance \"outside\" the range = $1200 - 1000 = 200$ ft.\n    *   Let's check alternative interpretation. Does it ask for the stand distance? \"How far... can he stand\" -> 1200? No, \"outside the range\" suggests the delta. If I ask \"How far outside the city can I live?\", the answer is a distance from the city. Here the reference point is the \"fire range\" (ending at 1000 ft). So the distance from that boundary is $1200 - 1000 = 200$.\n*   **Answer:** 200\n\n**[id 42]**\n*   **Problem:** 5 pies, cut into 8 slices each. 14 slices left. How many slices did guests take?\n*   **Logic:**\n    *   Total slices = $5 \\text{ pies} \\times 8 \\text{ slices/pie} = 40$ slices.\n    *   Remaining slices = 14.\n    *   Taken slices = Total - Remaining = $40 - 14 = 26$.\n*   **Answer:** 26\n\n**[id 43]**\n*   **Problem:** 1 serving = 250 kcal. 300g bag has 5 servings. Daily target 2000 kcal. Already ate 1800 kcal. How many grams of chips can be eaten?\n*   **Logic:**\n    *   Remaining kcal allowed = $2000 - 1800 = 200$ kcal.\n    *   Calories per gram of chips:\n        *   Total calories in bag = $5 \\text{ servings} \\times 250 \\text{ kcal/serving} = 1250$ kcal.\n        *   Weight of bag = 300 g.\n        *   Calories per gram = $1250 / 300$ kcal/g.\n    *   Grams allowed = $\\frac{\\text{Remaining kcal}}{\\text{kcal per gram}} = \\frac{200}{1250/300} = 200 \\times \\frac{300}{1250}$.\n    *   Calculation: $200 / 1250 = 20/125 = 4/25 = 0.16$.\n    *   $0.16 \\times 300 = 48$ grams.\n*   **Answer:** 48\n\n**[id 44]**\n*   **Problem:** Carlos makes candles. 1 lb wax -> 10 tapers. Cost: $10.00 for 1 lb wax and polish. Selling price: $2.00 per candle. How much profit for 20 candles?\n*   **Logic:**\n    *   Number of candles to make = 20.\n    *   Wax required = $20 \\text{ candles} / 10 \\text{ candles/lb} = 2$ lbs.\n    *   Total Cost = $2 \\text{ lbs} \\times \\$10.00/\\text{lb} = \\$20.00$.\n    *   Total Revenue = $20 \\text{ candles} \\times \\$2.00/\\text{candle} = \\$40.00$.\n    *   Profit = Revenue - Cost = $\\$40.00 - \\$20.00 = \\$20.00$.\n*   **Answer:** 20\n\n**[id 45]**\n*   **Problem:** Meredith writes blog posts. Time per post = 4 hours.\n    *   Mon: 5 posts.\n    *   Tue: $2/5$ more than Mon. (\"2/5 গুণ বেশি\" means \"2/5 times more than\" or \"increase by 2/5 of Mon\"? In Bengali \"গুণ\" usually means multiplication. \"2/5 guin beshi\" is ambiguous. It could mean $Mon \\times (1 + 2/5)$ or just comparing the quantity. Let's look at the phrase: \"সোমবারের চেয়ে মঙ্গলবারে 2/5 গুণ বেশি নিবন্ধ লিখেছে\" -> \"Wrote 2/5 times more articles on Tuesday than Monday\".\n    *   Interpretation A: $Tue = Mon \\times (1 + 2/5) = 5 \\times 1.4 = 7$.\n    *   Interpretation B: $Tue = Mon \\times (2/5) = 5 \\times 0.4 = 2$. This would mean \"fewer\", but it says \"beshi\" (more). So this is incorrect.\n    *   Interpretation C: The quantity IS 2/5 of Monday. But \"beshi\" (more) contradicts this.\n    *   Let's assume Interpretation A: $5 \\times (1 + 0.4) = 7$ posts.\n    *   Wed: \"দুইগুণ বেশি\" means \"twice as many as\" or \"two times more than\"? Usually \"2 goin beshi\" means $2 \\times$ the previous amount (standard math problem language for \"double\"). If it meant \"increase by double (i.e. triple)\", it would be less common. Let's assume $Wed = 2 \\times Tue$.\n    *   If Tue = 7, then Wed = 14.\n    *   Total posts = $5 + 7 + 14 = 26$.\n    *   Total time = $26 \\times 4 = 104$ hours.\n    *   Let's re-read \"2/5 times more\". In some contexts, people loosely say \"X times more\" to mean \"X times as many\". But \"beshi\" (more) strongly implies additive increase.\n    *   Let's check if \"2/5 of Monday\" was intended despite the word \"beshi\". $5 \\times 2/5 = 2$. If Tue=2, Then Wed = $2 \\times 2 = 4$. Total = $5+2+4=11$. Time = 44h.\n    *   However, \"2/5 times MORE\" = $5 + (2/5 \\times 5) = 7$. This is the most linguistically accurate translation of \"beshi\" (more than).\n    *   Let's consider \"duigoon beshi\" (2 times more). $7 \\times 2 = 14$. Or $7 + 2(7) = 21$? In standard school math problems (likely source for this ID), \"double\" or \"two times\" usually means multiplication by 2. \"Double\" = x2. \"Two times more\" is often used synonymously with \"double\" in casual speech, meaning x2.\n    *   Let's stick with:\n        *   Mon: 5\n        *   Tue: $5 \\times (1 + 2/5) = 7$\n        *   Wed: $7 \\times 2 = 14$\n        *   Total posts: $5 + 7 + 14 = 26$\n        *   Total time: $26 \\times 4 = 104$.\n*   **Answer:** 104\n\n**[id 46]**\n*   **Problem:** Candis starts with 80 sticky notes. Buys 1 packet. Places 1 note on each of 220 cups. 23 notes left. How many notes were in the packet?\n*   **Logic:**\n    *   Initial notes = 80.\n    *   Notes used = 220.\n    *   Notes remaining = 23.\n    *   Let $P$ be the number of notes in the packet.\n    *   Total notes available = Initial + Packet = $80 + P$.\n    *   Equation: $(80 + P) - 220 = 23$.\n    *   $P + 80 = 220 + 23$.\n    *   $P + 80 = 243$.\n    *   $P = 243 - 80 = 163$.\n*   **Answer:** 163\n\n**[id 47]**\n*   **Problem:** John bought twice as many red ties as blue ties. Red ties are 50% more expensive than blue ties. He spent $200 on blue ties at $40 each. What is the total expenditure?\n*   **Logic:**\n    *   Cost of Blue Ties = $200.\n    *   Price of Blue Tie = $40.\n    *   Number of Blue Ties = $200 / 40 = 5$.\n    *   Number of Red Ties = $2 \\times$ Number of Blue Ties = $2 \\times 5 = 10$.\n    *   Price of Red Tie = $40 \\times (1 + 0.50) = 40 \\times 1.5 = \\$60$.\n    *   Cost of Red Ties = $10 \\times 60 = \\$600$.\n    *   Total Expenditure = Cost of Blue + Cost of Red = $200 + 600 = \\$800$.\n*   **Answer:** 800\n\n**[id 48]**\n*   **Problem:** Tracy used a 4-foot long wire. Cut into 6-inch pieces. How many pieces?\n*   **Logic:**\n    *   Length of wire = 4 feet.\n    *   Convert to inches: $4 \\text{ ft} \\times 12 \\text{ in/ft} = 48$ inches.\n    *   Length of each piece = 6 inches.\n    *   Number of pieces = $48 / 6 = 8$.\n*   **Answer:** 8\n\n**[id 49]**\n*   **Problem:** 15-story building. 8 units per floor. 3/4 of the building is occupied. How many units are NOT occupied?\n*   **Logic:**\n    *   Total units = $15 \\text{ floors} \\times 8 \\text{ units/floor} = 120$ units.\n    *   Occupied fraction = 3/4.\n    *   Unoccupied fraction = $1 - 3/4 = 1/4$.\n    *   Unoccupied units = $120 \\times (1/4) = 30$.\n*   **Answer:** 30\n\n```json\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}\n```",
+ "usage": {
+  "queue_time": 0.087544898,
+  "prompt_tokens": 1533,
+  "prompt_time": 0.105242508,
+  "completion_tokens": 3086,
+  "completion_time": 6.010547369,
+  "total_tokens": 4619,
+  "total_time": 6.115789877
+ },
+ "served_by": null,
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

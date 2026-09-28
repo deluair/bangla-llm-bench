@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 18,
+ "ids": [
+  "13615",
+  "13645",
+  "13695",
+  "13697",
+  "13703",
+  "13705",
+  "13716",
+  "13757",
+  "13806",
+  "13841",
+  "13890",
+  "13921",
+  "13930",
+  "14006",
+  "14019"
+ ],
+ "seconds": 69.6,
+ "text": "\n\nThe user wants the correct option for 15 multiple-choice questions. I will evaluate each question based on general knowledge, history, science, and specific knowledge associated with the provided text fragments.\n\n1.  **ID 13615**: Cold War context and US view of the Third World. The standard IR interpretation is that local issues were viewed through a geopolitical/containment lens (Realism). **Option B**.\n2.  **ID 13645**: Realism and International vs Domestic System. Realists define the key difference as Anarchy (lack of central authority). **Option B**.\n3.  **ID 13695**: US Defense Spending pattern. Historically, it spikes during war and drops during demobilization, though often not returning to original levels (Cold War context). **Option B**.\n4.  **ID 13697**: Domino Theory. It states if one nation falls to communism, its neighbors will follow. **Option C**.\n5.  **ID 13703**: GW Bush Foreign Policy change. This refers to the shift towards Personal Leadership/Unilateralism (Bush Doctrine) vs institutional constraints. **Option C**.\n6.  **ID 13705**: Number of Human Polyomaviruses. Approximately 10-20 known types. 10 is the closest specific option provided. **Option C**.\n7.  **ID 13716**: Discovery of Retrovirus. Associated with the discovery of Rous Sarcoma Virus in chickens (Peyton Rous). **Option A**.\n8.  **ID 13757**: Influenza Control. Vaccination is the primary preventive tool. **Option B**.\n9.  **ID 13806**: Factor VIII HIV transmission risk (2011). Risk was 0% due to Recombinant/Artificial production replacing plasma products. **Option C**.\n10. **ID 13841**: Nipah Virus Origin. Reservoir is Fruit Bats. **Option B**.\n11. **ID 13890**: Jewish Principal Prayer. Shema Yisrael. **Option A**.\n12. **ID 13921**: Sikh \"Guru-Panth\". Means the Order/Sect/Community of Sikhs. **Option A**.\n13. **ID 13930**: Japanese Culture Theme. Connection to Kami/Spirit of Nature. **Option B**.\n14. **ID 14006**: Continental Culture start (Historical era). 1492 (Age of Discovery/Continental contact). **Option C**.\n15. **ID 14019**: \"Classics of Changes\" (I Ching). **Option D**.\n\n{\"answers\": {\"13615\": \"B\", \"13645\": \"B\", \"13695\": \"B\", \"13697\": \"C\", \"13703\": \"C\", \"13705\": \"C\", \"13716\": \"A\", \"13757\": \"B\", \"13806\": \"C\", \"13841\": \"B\", \"13890\": \"A\", \"13921\": \"A\", \"13930\": \"B\", \"14006\": \"C\", \"14019\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2427,
+  "completion_tokens": 11173,
+  "total_tokens": 13600,
+  "cost": 0.00191865,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00191865,
+   "upstream_inference_prompt_cost": 0.0002427,
+   "upstream_inference_completions_cost": 0.00167595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 10410,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "C",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "C",
+  "14019": "D"
+ },
+ "single": {},
+ "answers": {
+  "13615": "B",
+  "13645": "B",
+  "13695": "B",
+  "13697": "C",
+  "13703": "C",
+  "13705": "C",
+  "13716": "A",
+  "13757": "B",
+  "13806": "C",
+  "13841": "B",
+  "13890": "A",
+  "13921": "A",
+  "13930": "B",
+  "14006": "C",
+  "14019": "D"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 7.5,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 296]\nThe passage states that medium-sized film cameras using a 6x6 cm format (56x56 mm negative) offer approximately 4 times the resolution of 35mm film.  Therefore, the correct answer is B.\n\n[id 297]\nThe passage states that Disney prohibits the resale of park-hopper tickets.  Therefore, the correct answer is A.\n\n[id 298]\nThe passage advises seeking a location where rescue is possible, considering your skill level and avoiding being noticed, and suggests getting out of the current as quickly as possible. Therefore, the correct answer is B.\n\n[id 299]\nThe passage explicitly mentions \"intense smells\" attracting bears and other wildlife and failing to maintain a safe distance as reasons for attacks.  It does not mention never having seen the animal or feeding the animals. Therefore, the correct answer is D.\n\n{\"answers\": {\"296\": \"B\", \"297\": \"A\", \"298\": \"B\", \"299\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "completion_tokens": 245,
+  "total_tokens": 1236,
+  "cost": 7.405e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.405e-05,
+   "upstream_inference_prompt_cost": 4.955e-05,
+   "upstream_inference_completions_cost": 2.45e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "296": "B",
+  "297": "A",
+  "298": "B",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "B",
+  "297": "A",
+  "298": "B",
+  "299": "D"
+ }
+}

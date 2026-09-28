@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 14.9,
+ "text": "Here are the answers based on the provided passages:\n\n* **[id 64]** The passage states that the incidents left \"four people with minor burns.\" (**A**)\n* **[id 65]** Steve Jobs stated, \"Today Apple is going to reinvent the phone.\" (**B**)\n* **[id 66]** The passage says Peter Costello is likely to succeed \"Prime Minister John Howard as Liberal party leader\", meaning John Howard is the current leader. (**B**)\n* **[id 67]** The passage states that the presenter \"denied the attack\", making the statement that he admitted to it inaccurate. (**B**)\n* **[id 68]** The fund is specifically mentioned to go toward \"flood-proof houses, better water management, and crop diversification\". Sharing technologies is a separate subject on the agenda, not part of the fund itself. (**B**)\n* **[id 69]** The bill applies only within the state of California, so a ban outside of California is not part of it. (**C**)\n* **[id 70]** Jack Layton asked for a \"thorough and complete rewriting\" of the bill. (**C**)\n* **[id 71]** Tommy Dreamer is the one quoted saying \"Luna was the first Queen of Extreme.\" (**D**)\n\n```json\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"B\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}\n```\n",
+ "usage": {
+  "input_tokens": 17237,
+  "output_tokens": 1464,
+  "thinking_tokens": 1114,
+  "cache_read_tokens": 8141,
+  "total_tokens": 18701
+ },
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "B",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

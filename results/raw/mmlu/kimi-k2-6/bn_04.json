@@ -1,0 +1,69 @@
+{
+ "task": "mmlu",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 4,
+ "ids": [
+  "1680",
+  "1726",
+  "1753",
+  "1772",
+  "1773",
+  "1820",
+  "1850",
+  "1873",
+  "1892",
+  "1895",
+  "1929",
+  "1995",
+  "1998",
+  "2004",
+  "2043"
+ ],
+ "seconds": 140.6,
+ "text": "**Reasoning:**\n\n- **1680:** Natural processes follow the second law of thermodynamics, moving from a more ordered (higher order) state to a less ordered (lower order) state, i.e., entropy increases.\n- **1726:** With no friction, the acceleration of the falling book is determined by both masses connected by the string: \\(a = \\frac{m_1 g}{m_1+m_2}\\). Without knowing the mass ratio, this value must lie strictly between 0 and \\(g\\).\n- **1753:** The pitch or “sharpness” (তীক্ষ্ণতা) of a sound is determined by its frequency.\n- **1772:** The impulse-momentum theorem (\\(F\\Delta t = \\Delta p\\)) is derived directly from Newton’s second law (\\(F = dp/dt\\)).\n- **1773:** A conventional fission reactor primarily uses nuclear fission to generate heat, which is then used to heat water and produce steam for electricity generation.\n- **1820:** Negative autocorrelation in residuals means a positive residual tends to be followed by a negative one and vice-versa, indicating an alternating pattern.\n- **1850:** For an ARMA(\\(p,q\\)) process (with \\(p,q>0\\)), neither the ACF nor the PACF cuts off; both tail off (decay geometrically/exponentially).\n- **1873:** Ordering matters for both impulse responses and variance decompositions in standard recursive VARs. Variance decompositions measure the proportion of forecast error variance due to each shock, and, typically, most of a variable’s forecast error variance is due to its own shocks.\n- **1892:** Residuals in regression are defined as the difference between the actual observed value \\(y\\) and the fitted (predicted) value \\(\\hat{y}\\).\n- **1895:** Choosing among three unordered alternatives (bond fund, cash, equity fund) calls for a multinomial choice model; the appropriate class is the multinomial logit model.\n- **1929:** LC oscillators are generally employed in the radio-frequency range, typically from about 100 kHz up to several hundred MHz.\n- **1995:** Resistance-welding electrodes require high electrical and thermal conductivity, as well as high-temperature strength, so all listed properties are desirable.\n- **1998:** An effective heat-sink material needs high thermal conductivity, a large surface area for dissipation, and a high melting point to remain stable.\n- **2004:** Capacitors in parallel add linearly: \\(C_{\\text{eq}} = 4 \\times 40\\;\\mu\\text{F} = 160\\;\\mu\\text{F}\\).\n- **2043:** Networks whose driving-point immittances have poles and zeros alternating on the negative real axis are characteristic of both RC and RL networks (LC networks have them on the imaginary axis).\n\n{\"answers\": {\"1680\": \"A\", \"1726\": \"D\", \"1753\": \"B\", \"1772\": \"B\", \"1773\": \"A\", \"1820\": \"B\", \"1850\": \"A\", \"1873\": \"A\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 2285,
+  "completion_tokens": 10144,
+  "total_tokens": 12429,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9432
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "1680": "A",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {},
+ "answers": {
+  "1680": "A",
+  "1726": "D",
+  "1753": "B",
+  "1772": "B",
+  "1773": "A",
+  "1820": "B",
+  "1850": "A",
+  "1873": "A",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ }
+}

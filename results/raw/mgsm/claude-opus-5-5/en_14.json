@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-opus-5-5",
+ "lang": "en",
+ "batch": 14,
+ "ids": [
+  "140",
+  "141",
+  "142",
+  "143",
+  "144",
+  "145",
+  "146",
+  "147",
+  "148",
+  "149"
+ ],
+ "seconds": 7.4,
+ "text": "Brief working for each problem:\n\n- **140:** Semi-automatic cars = 20 − 12 − 4 = 4. That is 4/20 = **20%**.\n- **141:** Let queens = q. Then babies = 2q and workers = 4q. So 7q = 700, q = 100, and workers = **400**.\n- **142:** 2 hours × 7 days × $10 = **$140**.\n- **143:** Food (milk, eggs) = $5. Nonfood = $10, plus 10% tax = $11. Total = **$16**.\n- **144:** There are 3 + 5 = 8 clients. Each costs 2 × $2 + $5 = $9, so expenses are $72. Profit = $92 − $72 = **$20**.\n- **145:** One harvest = 10 × 100 = 1,000 pineapples. Four harvests a year gives **4,000**.\n- **146:** 500 + 3 × 500 + 500/4 = 500 + 1,500 + 125 = **2,125**.\n- **147:** 30 bees leave and 15 of them return, so 15 are still out. Then 60 more leave. In the last 6 hours, 15 + 60 = **75** return.\n- **148:** Tickets cost $12 + $10 = $22. Adding the $8 change, she gave **$30**.\n- **149:** Dorothy has 12 / 3 = 4 friends, so James has 4 × 4 = **16**.\n\n{\"answers\": {\"140\": 20, \"141\": 400, \"142\": 140, \"143\": 16, \"144\": 20, \"145\": 4000, \"146\": 2125, \"147\": 75, \"148\": 30, \"149\": 16}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1535,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 778,
+  "output_tokens_details": {
+   "thinking_tokens": 234
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1535,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 778,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1535,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1535
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.027847999999999998,
+ "answers_batch": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ },
+ "single": {},
+ "answers": {
+  "140": 20.0,
+  "141": 400.0,
+  "142": 140.0,
+  "143": 16.0,
+  "144": 20.0,
+  "145": 4000.0,
+  "146": 2125.0,
+  "147": 75.0,
+  "148": 30.0,
+  "149": 16.0
+ }
+}

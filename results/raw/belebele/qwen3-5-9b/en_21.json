@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 28.9,
+ "text": "\n\n[168] The passage explicitly states, \"Thus, the Thirty Years' War would be the last war to be labeled a religious war.\" Therefore, the Thirty Years' War is described as the last 'religious war'.\n\n[169] The passage states the mob forced the carriage windows open (A), forced an exit from Versailles (B), and forced a trip back to Paris (D). It mentions a member waved the head in front of the Queen, but does not state they were forced to view the actual beheading of a guard, only the displayed head (C).\n\n[170] The passage states that the blockade caused \"danger to even neutral ships.\" Option D claims it \"ensured that neutral ships wouldn't be jeopardized,\" which contradicts the passage.\n\n[171] The passage instructs to \"ensure your safety\" before checking a victim because getting hurt makes matters worse. Option A suggests not being concerned with sustaining own injuries, which contradicts this safety instruction.\n\n[172] The passage states, \"Almost everyone complains about transportation systems.\" This supports the statement in Option C that they cause a lot of complaints.\n\n[173] The passage states effects depend on \"type of mutation,\" \"significance of the piece,\" and \"whether the cells... are germ-line.\" It does not list the quantity (\"how much\") of genetic material as a factor.\n\n[174] Options A, B, and C are contradicted by the text regarding the majority (which are characteristics of the \"most violent two percent\" or generally false). The passage generalizes that \"Tornadoes uproot trees,\" making Option D accurate for the category despite the stats on duration/speed being specific to the minor majority.\n\n[175] The passage explains that iron tracks caused \"more wear on the wooden wheels,\" leading to their eventual replacement by iron wheels. Option D accurately reflects this cause and effect.\n\n{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"A\", \"174\": \"D\", \"175\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1381,
+  "completion_tokens": 4920,
+  "total_tokens": 6301,
+  "cost": 0.0008761,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008761,
+   "upstream_inference_prompt_cost": 0.0001381,
+   "upstream_inference_completions_cost": 0.000738
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4447,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

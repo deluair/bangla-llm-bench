@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 53.3,
+ "text": "[id 216]\nThe passage states that \"The composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy (FTIR).\" Therefore, researchers used the technique to observe crystal composition.\nAnswer: B\n\n[id 217]\nThe passage notes that South Africa \"steadily improved as the tournament progressed.\" This indicates improvement happened over the duration of the tournament, not at the start or due to single tactics mentioned.\nAnswer: D\n\n[id 218]\nThe passage explicitly says, \"He did not set a figure for the cuts,\" while mentioning the basis (economic output), date (2020), and advice to developing countries.\nAnswer: D\n\n[id 219]\nThe text states, \"Norman Lamb MP is expected to take the Business Minister job Davey is vacating.\" Thus, Lamb will assume the role.\nAnswer: A\n\n[id 220]\nThe passage concludes that \"he led the Soviet part of the Apollo–Soyuz mission.\"\nAnswer: B\n\n[id 221]\nThe text describes scientists simulating tidal forces \"between the galaxy's dark matter and the Milky Way's dark matter,\" referring to the Sagittarius galaxy and the Milky Way.\nAnswer: D\n\n[id 222]\nThe passage states, \"Liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts.\" Thus, Liberals are the ones criticizing.\nAnswer: B\n\n[id 223]\nThe passage mentions the company hopes to \"gain popularity in areas where Skype holds a strong position, such as China, Eastern Europe, and Brazil.\" This indicates an expansion into new geographical territories.\nAnswer: B\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1275,
+  "completion_tokens": 2890,
+  "total_tokens": 4165,
+  "cost": 0.000561,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000561,
+   "upstream_inference_prompt_cost": 0.0001275,
+   "upstream_inference_completions_cost": 0.0004335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2459,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

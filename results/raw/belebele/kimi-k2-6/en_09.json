@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 80.7,
+ "text": "**Reasoning:**\n\n- **[72]** The driver was initially hospitalised in Great Yarmouth and *then* relocated to Cambridge. A transfer from Cambridge to Great Yarmouth did not occur.\n- **[73]** South Africa was described as “decidedly rusty” early on; they improved later. A polished opening performance is what did **not** stand out.\n- **[74]** Hu explicitly encouraged developing countries to “avoid the old path of polluting first and cleaning up later.”\n- **[75]** Ayatollah Khamenei called the “dependency on oil” a trap from which Iran should free itself.\n- **[76]** Allen began the quest “out of a lifelong interest in the war.”\n- **[77]** Historians criticized the FBI for focusing on easy cases (e.g., stolen cars) to boost success rates. The passage does **not** say historians criticized the FBI for focusing on pornography; that was a congressional mandate.\n- **[78]** While both shared many traits, the passage states Hesperonychus’s “second claw was larger,” which gives it its name and differentiates it.\n- **[79]** Screens were placed around Rome, in other Italian cities, and in Poland because many people could not gain access to the funeral **in** St. Peter’s Square.\n\n{\"answers\": {\"72\": \"C\", \"73\": \"C\", \"74\": \"D\", \"75\": \"D\", \"76\": \"D\", \"77\": \"C\", \"78\": \"B\", \"79\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1280,
+  "completion_tokens": 3084,
+  "total_tokens": 4364,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2763
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

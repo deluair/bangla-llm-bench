@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 24,
+ "ids": [
+  "240",
+  "241",
+  "242",
+  "243",
+  "244",
+  "245",
+  "246",
+  "247",
+  "248",
+  "249"
+ ],
+ "seconds": 12.3,
+ "text": "**Reasoning:**\n\n[id 240]\n- John has 54 candies, which is twice as many as Robert.\n- So, Robert has 54 / 2 = 27 candies.\n- James has 6 more candies than Robert, so James has 27 + 6 = 33 candies.\n- John has 54 - 33 = 21 more candies than James.\n\n[id 241]\n- Dolly has 2 books, Pandora has 1 book.\n- Dolly reads her own 2 books and Pandora's 1 book, totaling 3 books.\n- Pandora reads Dolly's 2 books and her own 1 book, totaling 3 books.\n- Collectively, they read 3 + 3 = 6 books.\n\n[id 242]\n- Mike initially had 5 pen pals, then stopped being pen pals with 2, so he has 3 pen pals left.\n- Each pen pal exchange involves 2 letters per week (1 from each), so 3 pen pals × 2 letters = 6 letters per week.\n- Each letter is 5 pages long, so 6 letters × 5 pages = 30 pages per week.\n- He writes a page every 6 minutes, so 30 pages × 6 minutes = 180 minutes.\n- 180 minutes is 180 / 60 = 3 hours.\n\n[id 243]\n- Jason has a total of 1000 minutes.\n- He uses 15 minutes per day for 30 days: 15 × 30 = 450 minutes.\n- He has an additional 300 minutes.\n- Total used: 450 + 300 = 750 minutes.\n- Remaining minutes: 1000 - 750 = 250 minutes.\n\n[id 244]\n- Griffin starts with 24 fries.\n- Kyle takes 5 fries, leaving 24 - 5 = 19 fries.\n- Billy takes twice as many as Kyle, so Billy takes 5 × 2 = 10 fries, leaving 19 - 10 = 9 fries.\n- Ginger gives Griffin some fries, let’s call this number G.\n- Colby takes 3 less than Kyle took, so Colby takes 5 - 3 = 2 fries.\n- Griffin ends with 27 fries: 9 + G - 2 = 27.\n- Solving for G: G = 27 - 7 = 20.\n\n[id 245]\n- Difference in snails: 32 - 4 = 28.\n- This difference is twice the number of fish in both aquariums combined.\n- Let the number of fish in each aquarium be F.\n- So, 2 × (F + F) = 28 → 4F = 28 → F = 7.\n- Each aquarium has 7 fish.\n\n[id 246]\n- Cost per hour: $250.\n- Hours per day: 6, days per week: 4, weeks: 5.\n- Total hours: 6 × 4 × 5 = 120 hours.\n- Total cost before discount: 120 × $250 = $30,000.\n- Discount: 10% of $30,000 = $3,000.\n- Final cost: $30,000 - $3,000 = $27,000.\n\n[id 247]\n- Total cost: $12 + $43 + $15 + $4 + $22 = $96.\n- Split evenly among 3 people: $96 / 3 = $32.\n\n[id 248]\n- Total weight of onions: 4 bags × 50 pounds = 200 pounds.\n- Cost per pound: $1.50.\n- Total cost: 200 × $1.50 = $300.\n\n[id 249]\n- Sister's cookies: Monday (5) + Tuesday (13) = 18 cookies.\n- Sue's cookies: Monday (4 × 5 = 20), Tuesday (2 × 13 = 26), total = 46 cookies.\n- Difference in cookies: 46 - 18 = 28 cookies.\n- Calories per cookie: 200.\n- Difference in calories: 28 × 200 = 5600 calories.\n\n---\n```json\n{\n  \"answers\": {\n    \"240\": 21,\n    \"241\": 6,\n    \"242\": 3,\n    \"243\": 250,\n    \"244\": 20,\n    \"245\": 7,\n    \"246\": 27000,\n    \"247\": 32,\n    \"248\": 300,\n    \"249\": 5600\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 768,
+  "completion_tokens": 1127,
+  "total_tokens": 1895,
+  "cost": 0.00028425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00028425,
+   "upstream_inference_prompt_cost": 0.0001152,
+   "upstream_inference_completions_cost": 0.00016905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ },
+ "single": {},
+ "answers": {
+  "240": 21.0,
+  "241": 6.0,
+  "242": 3.0,
+  "243": 250.0,
+  "244": 20.0,
+  "245": 7.0,
+  "246": 27000.0,
+  "247": 32.0,
+  "248": 300.0,
+  "249": 5600.0
+ }
+}

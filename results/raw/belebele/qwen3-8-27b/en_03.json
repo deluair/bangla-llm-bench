@@ -1,0 +1,49 @@
+{
+ "task": "belebele",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 3,
+ "ids": [
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "seconds": 3.5,
+ "text": "**Question 24 Analysis:**\nThe passage states the rule of thirds creates \"dynamism\" (life/energy) and \"a measure of order\". It states the most effective place for the subject is at the intersection of lines.\n*   A) \"Creating a baseline for where the subject might be placed\": The rule provides specific points (intersections) for the subject, not just a general baseline. While it's a guideline, option B, C, and D are more directly supported by the text's explicit phrases (\"dynamism\", \"order\", \"most effective place\"). However, let's look closer. The question asks what is *not* an object (goal/purpose).\n    *   B is \"Creating life and energy\" -> Text says \"creating dynamism\". This matches.\n    *   C is \"Keeping the subject in a specific and effective place\" -> Text says \"most effective place for the main subject is at the intersection\". This matches.\n    *   D is \"Establishing order within a photo\" -> Text says \"keeping a measure of order\". This matches.\n    *   A is \"Creating a baseline...\". A baseline is a horizontal reference line. The rule of thirds creates a grid of lines, but its *objective* as described is to place the subject at intersections for dynamism and order. \"Creating a baseline\" is a geometric construction step, not the artistic *object* or goal itself in the same way the others are direct translations of the text's purpose statement. Furthermore, \"baseline\" isn't mentioned. It's a distractor describing the *method* loosely rather than the *purpose*. Comparing A to the others, A is the least accurate description of the *purpose* (object) described. The purpose is placement for dynamism/order, not creating a baseline.\n\n**Question 25 Analysis:**\n*   A) \"It's still in production\": Text says \"It is still produced today\". True.\n*   B) \"It was adopted by digital camera formats\": Text says \"its aspect ratio has been inherited by digital camera image sensor formats\". True.\n*   C) \"It has a different aspect ratio than many common formats\": Text says \"Many common formats... are equal to or closely approximate this aspect ratio.\" So, it does *not* have a different aspect ratio; it shares it. Therefore, this statement is false.\n*   D) \"It's the most common format in the world\": Text says \"the most common still image photography format in the world is 35mm\". True.\n*   The question asks what does *not* describe the format. Option C is the false statement.\n\n**Question 26 Analysis:**\n*   A) \"emphasis on experiencing peaceful and blissful states\": Text says \"particularly those of a peaceful, insightful, blissful, or even ecstatic character.\" True.\n*   B) \"conscious awareness of a spiritual truth\": Text says \"pursuit of... conscious awareness of... spiritual truth\". True.\n*   C) \"adopt practices that will help nurture their insight\": Text says \"pursue certain ways of living, or practices that are intended to nurture those experiences.\" True.\n*   D) \"emphasis on seeking a direct personal experience is comparable to many other forms...\": Text says \"Mysticism can be *distinguished* from other forms of religious belief and worship by its emphasis on the direct personal experience\". Distinguished means it is different, not comparable/similar in this aspect. Therefore, D is not an accurate description.\n\n**Question 27 Analysis:**\n*   A) Harappa: Text says \"call it the Harappan Civilization after Harappa\". Associated.\n*   B) The Sarasvati River: Text says \"speculate that since the civilisation also existed in the basins of the... Sarasvati River\". Associated (in speculation).\n*   C) All regions in northeast Afghanistan: Text says the civilization encompassed \"some regions in... northeast Afghanistan\". It does not say *all* regions.\n*   D) Most of modern-day Pakistan: Text says \"encompassing most of modern-day Pakistan\". Associated.\n*   The question asks for the location *not* associated. Since the text specifies \"some regions\" in northeast Afghanistan, the statement \"All regions in northeast Afghanistan\" is factually incorrect based on the passage's scope. Thus, C is the answer.\n\n**Question 28 Analysis:**\n*   Text: \"The war expenditures... were paid for by the Filipino people themselves.\" and \"They were compelled to pay taxes... to defray a major part of the expenditures\".\n*   A) Philippine government: Text says bonds floated in its name, but Filipinos paid the taxes/interest. Not the primary payer described in the first sentence.\n*   B) Wall Street banks: They floated bonds.\n*   C) U.S. colonial regime: They collected taxes.\n*   D) The Filipino people: Explicitly stated as paying for it.\n*   Answer is D.\n\n**Question 29 Analysis:**\n*   A) Treating PTSD: The text mentions \"sedatives including morphine... and scopolamine\". It mentions amputation for gangrene. It does *not* mention treating PTSD. Sedatives were likely for pain or sedation, not specifically PTSD (a modern term/cure not mentioned).\n*   B) Using extracts of herbane seeds for scopolamine: Text says \"scopolamine from herbane seeds\". True.\n*   C) Stemming blood flow with arterial clamps: Text says \"tourniquets and arterial clamps to stem blood flow\". True.\n*   D) Performing amputations for gangrene patients: Text says \"proficient at amputation to save patients from gangrene\". True.\n*   Answer is A.\n\n**Question 30 Analysis:**\n*   Text: \"Vision, or the ability to see depends on visual system sensory organs or eyes.\"\n*   A) Visual system sensory organs: Direct match.\n*   B) Requirements of an organism: This determines complexity, not the fundamental dependency of the ability itself.\n*   C) Sensitivity to wave-lengths: This is a capability/construction feature.\n*   D) Varying degrees of acuity: This is a characteristic.\n*   The direct dependency stated is the sensory organs/eyes.\n*   Answer is A.\n\n**Question 31 Analysis:**\n*   A) Result of sectarian split within Hindu tradition: Text says \"originated... from a sectarian split within the Hindu tradition\". True.\n*   B) The guru is a fundamental aspect unique to Sikhism: Text says \"The guru is a fundamental aspect of *all Indian religions* but in Sikhism has taken on an importance...\". So it is not unique to Sikhism; it's found in all Indian religions. This statement is inaccurate.\n*   C) Nine gurus followed after founder: Text says \"There followed in succession a further nine gurus.\" True.\n*   D) Certain traditions rooted in Hinduism: Text says \"acknowledge its Hindu roots and traditions\". True.\n*   Answer is B.\n\n```json\n{\"answers\": {\"24\": \"A\", \"25\": \"C\", \"26\": \"D\", \"27\": \"C\", \"28\": \"D\", \"29\": \"A\", \"30\": \"A\", \"31\": \"B\"}}\n```",
+ "usage": {
+  "queue_time": 0.08709366,
+  "prompt_tokens": 1534,
+  "prompt_time": 0.109435845,
+  "completion_tokens": 1582,
+  "completion_time": 3.038131541,
+  "total_tokens": 3116,
+  "total_time": 3.147567386
+ },
+ "served_by": null,
+ "answers_batch": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ },
+ "single": {},
+ "answers": {
+  "24": "A",
+  "25": "C",
+  "26": "D",
+  "27": "C",
+  "28": "D",
+  "29": "A",
+  "30": "A",
+  "31": "B"
+ }
+}

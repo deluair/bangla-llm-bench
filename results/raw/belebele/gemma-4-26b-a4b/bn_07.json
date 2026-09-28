@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "56",
+  "57",
+  "58",
+  "59",
+  "60",
+  "61",
+  "62",
+  "63"
+ ],
+ "seconds": 16.4,
+ "text": "The provided passages and questions are answered as follows:\n\n[56] The passage states: \"এই আক্রমণকে জার্মানি কোড-নেম দিয়েছে ''অপারেশন সিলায়ন''\" (Germany gave this attack the code-name 'Operation Ceylon'). Therefore, the attack was by Germany. **Answer: A**\n\n[57] The passage mentions: 1. Building four new ships (B), 2. Needing a launching pad/foothold to move through the Mediterranean to Africa (C), and 3. Needing to release British ships/bases from Egypt (A). It does *not* mention the necessity of destroying the British base itself, only releasing the ships/bases from their control/hold. **Answer: D**\n\n[58] The passage states: \"সোভিয়েত ইউনিয়নের 800,000 লালফৌজ রিগা শান্তি চুক্তি লঙ্ঘন করে...\" (800,000 Red Army of the Soviet Union violated the Riga Peace Treaty...). Therefore, the Soviet Union violated the treaty. **Answer: D**\n\n[59] The passage mentions: 1. Passengers were given water (C), 2. It was a hot day in Santa Clara (A - implied context of heat), and 3. It took at least an hour to get the first person down (D). However, it does *not* explicitly state that a fire occurred (it mentions a hot day, but \"fire captain\" is a title, not an indication of a fire event). Comparing options, A is the least supported by the text provided. **Answer: A**\n\n[60] The passage states: \"একটি দাঙ্গার সময় ইরাকের আবু গারিব কারাগারটি জ্বালিয়ে দেয়া হয়েছে\" (During a riot, Iraq's Abu Ghraib prison was set on fire). **Answer: D**\n\n[61] The passage states: \"...অনুষ্ঠানটি বইয়ের জন্য সুপারিশ সরবরাহও করবে যেগুলি শিশুদের খোঁজা উচিত যখন তারা তাদের লাইব্রেরিতে যাবে\" (...the program will also provide recommendations for books that children should look for when they go to their libraries). **Answer: D**\n\n[62] The officials argued that: 1. The tree is infected by fungus (C), 2. It could be a public health risk (D), and 3. It might fall (A - \"উপড়ে পড়ার বিপদ\"). They did *not* argue that it *should* be preserved; in fact, they were arguing for its removal (cutting it down). **Answer: B**\n\n[63] The passage states: \"গত মাসে পোল্যান্ডে ACTA চুক্তি স্বাক্ষর হওয়ার পরে সে দেশে বড় ধরনের বিক্ষোভ হয়েছিল , যার ফলে পোলিশ সরকার আপাতত চুক্তিটি অনুমোদন না করার সিদ্ধান্ত নিয়েছে\" (After the ACTA treaty was signed in Poland last month, there were large protests, resulting in the Polish government deciding not to approve the treaty for now). **Answer: B**\n\n```json\n{\"answers\": {\"56\": \"A\", \"57\": \"D\", \"58\": \"D\", \"59\": \"A\", \"60\": \"D\", \"61\": \"D\", \"62\": \"B\", \"63\": \"B\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1603,
+  "completion_tokens": 681,
+  "total_tokens": 2284,
+  "cost": 0.0003646,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003646,
+   "upstream_inference_prompt_cost": 0.0001603,
+   "upstream_inference_completions_cost": 0.0002043
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Cloudflare",
+ "answers_batch": {
+  "56": "A",
+  "57": "D",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ },
+ "single": {},
+ "answers": {
+  "56": "A",
+  "57": "D",
+  "58": "D",
+  "59": "A",
+  "60": "D",
+  "61": "D",
+  "62": "B",
+  "63": "B"
+ }
+}

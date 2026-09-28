@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 0.9,
+ "text": "{\"answers\": {\"280\": \"C\", \"281\": \"B\", \"282\": \"C\", \n             \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \n             \"287\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 6579,
+  "completion_tokens": 56,
+  "total_tokens": 6635,
+  "cost": 0.00033343,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00033343,
+   "upstream_inference_prompt_cost": 0.00032895,
+   "upstream_inference_completions_cost": 4.48e-06
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers_batch": {
+  "280": "C",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "D"
+ },
+ "single": {},
+ "answers": {
+  "280": "C",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "D"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "seconds": 171.6,
+ "text": "[id 0] The passage explicitly says accordion keys should not be hit too hard like a piano; louder sound comes from pressing below with force/velocity. Therefore, advising to hit keys harder is incorrect.\n\n[id 1] The passage states that TV borders are cut so that the image can cover the entire screen.\n\n[id 2] The passage says the nomadic phase begins when the amount of food decreases, implying low food supply during this phase.\n\n[id 3] The passage states that biological clocks have their own long-lasting oscillators that continue to run even without external force or cues.\n\n[id 4] The passage lists outdoor/nature activities like fishing, photography, bird watching, and visiting parks. Going to a science museum is an indoor, non-nature activity and is not listed.\n\n[id 5] A five-bit binary number must contain exactly five digits, each being only 0 or 1. Option C (10010) is the only valid 5-bit example.\n\n[id 6] The passage mentions students as a highly critical audience and that bloggers improve writing to avoid criticism; it does not say students hear less criticism. The other options are explicitly supported.\n\n[id 7] The passage mentions dungeons, war sounds, horse hooves, and Arthurian chivalry/tournaments, all of which relate to knights, battles, and prisons. It does not explicitly mention glory/valor (শৌর্য).\n\n{\"answers\": {\"0\": \"A\", \"1\": \"B\", \"2\": \"B\", \"3\": \"C\", \"4\": \"C\", \"5\": \"C\", \"6\": \"B\", \"7\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 3463,
+  "completion_tokens": 7862,
+  "total_tokens": 11325,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7519
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "C"
+ },
+ "single": {},
+ "answers": {
+  "0": "A",
+  "1": "B",
+  "2": "B",
+  "3": "C",
+  "4": "C",
+  "5": "C",
+  "6": "B",
+  "7": "C"
+ }
+}

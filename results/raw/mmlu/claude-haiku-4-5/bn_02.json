@@ -1,0 +1,94 @@
+{
+ "task": "mmlu",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 2,
+ "ids": [
+  "899",
+  "908",
+  "951",
+  "981",
+  "987",
+  "1004",
+  "1011",
+  "1019",
+  "1030",
+  "1045",
+  "1100",
+  "1116",
+  "1125",
+  "1141",
+  "1158"
+ ],
+ "seconds": 115.5,
+ "text": "Looking at each question systematically:\n\n## [id 899] Redox equation balancing\n\nFor MnO4⁻ + I⁻ + H⁺ → Mn²⁺ + IO3⁻ + H2O:\n- Mn: +7 → +2 (gains 5e⁻)\n- I: -1 → +5 in IO3⁻ (loses 6e⁻)\n\nUsing LCM(5,6) = 30:\n- 6 MnO4⁻ + 5 I⁻ + 18 H⁺ → 6 Mn²⁺ + 5 IO3⁻ + 9 H2O\n\nChecking option B: MnO4⁻ : I⁻ = 6:5 ✓\n\n## [id 908] β-hyperfine coupling\n\nFor a cyclobutyl radical at ~115° dihedral angle, using Karplus-type relationships for β-coupling with typical constants gives approximately 27 G (2.7 mT), consistent with known values for this system.\n\n## [id 951] Fluorescence quantum yield\n\nQuantum yield (Φf) is defined as the ratio of emitted photons to absorbed photons.\n\n## [id 981] PO3⁻ EPR resonance field\n\nFor X-band (9.5 GHz) with 280 MHz splitting and giso = 2.005:\n- Central field ≈ 339 mT\n- Hyperfine splitting ≈ ±5 mT\n- Results: 333.5 and 343.5 mT\n\n## [id 987] Spontaneous process\n\nThe second law states total entropy (system + surroundings) must increase for spontaneous processes: ΔS_total > 0.\n\n## [id 1004] Floating-point arithmetic\n\nRounding conventions cannot restore associativity in floating-point arithmetic due to fundamental representation limitations.\n\n## [id 1011] String function\n\nTesting the recursive definition shows none of A, B, or C holds universally.\n\n## [id 1019] K-ary tree ratio\n\nFor a complete K-ary tree, nonterminal/total nodes ratio approaches 1/K as tree size increases.\n\n## [id 1030] Activation record\n\nStack frames contain local variables, return address, and frame pointers—but NOT a heap area (separate memory region).\n\n## [id 1045] Integer addition in 8-bit\n\n67 = 109 + (-42) is representable in all three systems:\n- One's complement: -127 to 127 ✓\n- Two's complement: -128 to 127 ✓\n- Sign-magnitude: -127 to 127 ✓\n\n## [id 1100] Probability of damaged suitcases\n\nP(exactly 2 damaged) = C(5,2)×C(20,1)/C(25,3) = (10×20)/2300 = 200/2300 = 2/23 ≈ 0.087\n\n## [id 1116] Eigenvectors under transformations\n\nIf Av = λv with λ ≠ 0:\n- I. 2Av = 2λv ✓\n- II. A²v = λ²v ✓  \n- III. A⁻¹v = (1/λ)v ✓\n\n## [id 1125] Largest element order in S₅\n\nCycle type (3,2) gives lcm(3,2) = 6 as maximum order.\n\n## [id 1141] Topology statements\n\n- Statement 1: Continuous function on compact space is uniformly continuous (Heine-Cantor) ✓\n- Statement 2: Composition of differentiable functions is differentiable (chain rule) ✓\n\n## [id 1158] Ordered fields on ℂ\n\nStatement A: Possible to define orders on ℂ that are NOT ordered fields = TRUE (trivially true)\nStatement B: Possible to define orders on ℂ that ARE ordered fields = FALSE (impossible due to i² = -1 paradox)\n\n```json\n{\"answers\": {\"899\": \"B\", \"908\": \"B\", \"951\": \"C\", \"981\": \"C\", \"987\": \"D\", \"1004\": \"C\", \"1011\": \"D\", \"1019\": \"A\", \"1030\": \"B\", \"1045\": \"D\", \"1100\": \"D\", \"1116\": \"D\", \"1125\": \"B\", \"1141\": \"A\", \"1158\": \"A\"}}\n```",
+ "usage": {
+  "input_tokens": 3921,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 13846,
+  "output_tokens_details": {
+   "thinking_tokens": 12719
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3921,
+    "output_tokens": 13846,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.073151,
+ "answers_batch": {
+  "899": "B",
+  "908": "B",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "D",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ },
+ "single": {},
+ "answers": {
+  "899": "B",
+  "908": "B",
+  "951": "C",
+  "981": "C",
+  "987": "D",
+  "1004": "C",
+  "1011": "D",
+  "1019": "A",
+  "1030": "B",
+  "1045": "D",
+  "1100": "D",
+  "1116": "D",
+  "1125": "B",
+  "1141": "A",
+  "1158": "A"
+ }
+}

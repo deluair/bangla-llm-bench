@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 33,
+ "ids": [
+  "264",
+  "265",
+  "266",
+  "267",
+  "268",
+  "269",
+  "270",
+  "271"
+ ],
+ "seconds": 10.6,
+ "text": "Here is a brief reasoning for each question:\n\n- **[id 264] D**: The passage notes that canyoning involves swimming, climbing, and jumping, and water-filled canyons may be encountered; thus, swimming ability is essential.\n- **[id 265] B**: The passage states that the final victory against Spain was not achieved until 1818, so Chile did not defeat the Spanish in 1810.\n- **[id 266] D**: Sand, gravel, and salt are listed as materials spread to improve or maintain friction; water would freeze and increase slipperiness, failing to improve friction.\n- **[id 267] C**: The passage explicitly states that the Cook Islands have no cities (\"কোনও শহর নেই\"); Rarotonga and Aitutaki are main islands, not cities.\n- **[id 268] B**: The text mentions that travelers who adapted easily to the new culture often face the hardest time readjusting to their home culture.\n- **[id 269] A**: The passage explicitly states that moose are not inherently aggressive (\"সহজাতভাবে আক্রমণাত্মক নয়\"), making statement A false.\n- **[id 270] C**: Renowned wildlife is specifically attributed to Madagascar, while the smaller islands are characterized by luxury resorts, independence, or association with France.\n- **[id 271] C**: The risk with expensive brand-name frames sold abroad in low-wage countries is that they may be counterfeit (knockoffs).\n\n{\"answers\": {\"264\": \"D\", \"265\": \"B\", \"266\": \"D\", \"267\": \"C\", \"268\": \"B\", \"269\": \"A\", \"270\": \"C\", \"271\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 25525,
+  "output_tokens": 2007,
+  "thinking_tokens": 1613,
+  "cache_read_tokens": 0,
+  "total_tokens": 27532
+ },
+ "answers_batch": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ },
+ "single": {},
+ "answers": {
+  "264": "D",
+  "265": "B",
+  "266": "D",
+  "267": "C",
+  "268": "B",
+  "269": "A",
+  "270": "C",
+  "271": "C"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 25,
+ "ids": [
+  "200",
+  "201",
+  "202",
+  "203",
+  "204",
+  "205",
+  "206",
+  "207"
+ ],
+ "seconds": 33.7,
+ "text": "Here is the reasoning for each question:\n\n- **200**: The passage explicitly states that Hindi and Urdu are similar in vocabulary but *different in script*, so **B** is correct.\n- **201**: King Sejong originally named the alphabet *Hunmin Jeongeum*; the passage identifies the alphabet as *Hangeul*, so the name was eventually changed to **Hangeul** (**B**).\n- **202**: The passage says Sanskrit faded *due to hierarchy*, making **D** correct.\n- **203**: The crust is described as *thicker under the highlands*, so **C** is correct.\n- **204**: The Amazon is called the *second longest*, *biggest*, and *widest* river, but not the *longest*; thus **C** is the accolade not attributed.\n- **205**: Two thirds of employed Venezuelans work in the *service sector*, which is larger than industry, agriculture, or oil, so **A** is correct.\n- **206**: The goal of a fusion reactor is to *make energy* the same way stars do, so **D** is correct.\n- **207**: Italy’s *main goals were African countries*, so its primary objective was capturing African countries (**A**).\n\n{\"answers\": {\"200\": \"B\", \"201\": \"B\", \"202\": \"D\", \"203\": \"C\", \"204\": \"C\", \"205\": \"A\", \"206\": \"D\", \"207\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1238,
+  "completion_tokens": 1276,
+  "total_tokens": 2514,
+  "completion_tokens_details": {
+   "reasoning_tokens": 962
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ },
+ "single": {},
+ "answers": {
+  "200": "B",
+  "201": "B",
+  "202": "D",
+  "203": "C",
+  "204": "C",
+  "205": "A",
+  "206": "D",
+  "207": "A"
+ }
+}

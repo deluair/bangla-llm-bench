@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "seconds": 53.0,
+ "text": "Looking at each problem systematically:\n\n**[id 0]** Janet's eggs: 16 total - 3 eaten - 4 baked = 9 eggs sold\n9 eggs × $2 = **$18**\n\n**[id 1]** Blue fiber: 2 bolts, White fiber: 2/2 = 1 bolt\nTotal: 2 + 1 = **3 bolts**\n\n**[id 2]** Total cost: $80,000 + $50,000 = $130,000\nValue increased 150% from original $80,000: $80,000 × 2.5 = $200,000\nProfit: $200,000 - $130,000 = **$70,000**\n\n**[id 3]** Sprints per week: 3 sprints × 3 times = 9 sprints\nDistance: 9 × 60 meters = **540 meters**\n\n**[id 4]** Total feed needed: 20 chickens × 3 cups = 60 cups\nMorning + Afternoon: 15 + 25 = 40 cups\nFinal meal: 60 - 40 = **20 cups**\n\n**[id 5]** Pattern: glasses alternate $5, $3, $5, $3...\nFor 16 glasses: 8 pairs × ($5 + $3) = 8 × $8 = **$64**\n\n**[id 6]** Seattle: 20 sheep\nCharleston: 4 × 20 = 80 sheep\nToulouse: 2 × 80 = 160 sheep\nTotal: 20 + 80 + 160 = **260 sheep**\n\n**[id 7]** First 40% (80 GB) at 2 GB/min: 40 minutes\nWindows restart: 20 minutes\nFull download from start at 2 GB/min: 200/2 = 100 minutes\nTotal: 40 + 20 + 100 = **160 minutes**\n\n**[id 8]** Forward: 3 hours × 60 mph = 180 miles from home\nReturn journey (4 hours):\n- 2 hours standstill: 0 miles\n- 0.5 hours at 30 mph: 15 miles\n- 1.5 hours at 80 mph: 120 miles\nTotal return: 135 miles\nDistance from home: 180 - 135 = **45 miles**\n\n**[id 9]** Regular pay: 40 hours × $10 = $400\nOvertime pay: 5 hours × $12 = $60\nTotal: $400 + $60 = **$460**\n\n```json\n{\"answers\": {\"0\": 18, \"1\": 3, \"2\": 70000, \"3\": 540, \"4\": 20, \"5\": 64, \"6\": 260, \"7\": 160, \"8\": 45, \"9\": 460}}\n```",
+ "usage": {
+  "input_tokens": 1201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6108,
+  "output_tokens_details": {
+   "thinking_tokens": 5382
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1201,
+    "output_tokens": 6108,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.031741,
+ "answers_batch": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ },
+ "single": {},
+ "answers": {
+  "0": 18.0,
+  "1": 3.0,
+  "2": 70000.0,
+  "3": 540.0,
+  "4": 20.0,
+  "5": 64.0,
+  "6": 260.0,
+  "7": 160.0,
+  "8": 45.0,
+  "9": 460.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 27,
+ "ids": [
+  "216",
+  "217",
+  "218",
+  "219",
+  "220",
+  "221",
+  "222",
+  "223"
+ ],
+ "seconds": 12.4,
+ "text": "[id 216] The passage states: \"The composition of these crystals matches those found in the urine of affected pets when compared by infrared spectroscopy (FTIR).\" Thus, it was used to observe crystal composition.\n[id 217] The passage states: \"South Africa however steadily improved as the tournament progressed.\"\n[id 218] Hu says he \"did not set a figure for the cuts.\" A, B, and C are all explicitly mentioned.\n[id 219] The passage states: \"Norman Lamb MP is expected to take the Business Minister job Davey is vacating.\"\n[id 220] The passage states: \"...he led the Soviet part of the Apollo–Soyuz mission...\"\n[id 221] The passage discusses the tidal forces between \"the galaxy's [Sagittarius] dark matter and the Milky Way's dark matter.\"\n[id 222] The passage states: \"Liberal criticism of the reconstruction effort has focused on the awarding of reconstruction contracts...\"\n[id 223] The passage says the company hopes to \"gain popularity in areas where Skype holds a strong position, such as China, Eastern Europe, and Brazil,\" which aligns with expanding into new territories/areas.\n\n{\"answers\": {\"216\": \"B\", \"217\": \"D\", \"218\": \"D\", \"219\": \"A\", \"220\": \"B\", \"221\": \"D\", \"222\": \"B\", \"223\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1263,
+  "completion_tokens": 334,
+  "total_tokens": 1597,
+  "cost": 0.00014218,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 16,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014218,
+   "upstream_inference_prompt_cost": 7.538e-05,
+   "upstream_inference_completions_cost": 6.68e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ },
+ "single": {},
+ "answers": {
+  "216": "B",
+  "217": "D",
+  "218": "D",
+  "219": "A",
+  "220": "B",
+  "221": "D",
+  "222": "B",
+  "223": "B"
+ }
+}

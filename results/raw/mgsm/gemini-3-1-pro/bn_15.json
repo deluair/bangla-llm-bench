@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "150",
+  "151",
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 47.4,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 150]**\nSteve bikes 3 miles (3 × 5280 = 15,840 feet). At 440 feet per minute, it takes him 15,840 / 440 = 36 minutes. \nTim skateboards 2 miles (2 × 5280 = 10,560 feet). At 264 feet per minute, it takes him 10,560 / 264 = 40 minutes.\nThe winner (Steve) waits for 40 - 36 = 4 minutes.\n\n**[id 151]**\nNumber of tires: 5 bicycles (10 tires) + 3 tricycles (9 tires) + 1 unicycle (1 tire) = 20 tires. \nAt $0.25 per tire, 20 × 0.25 = 5 dollars.\n\n**[id 152]**\n10 packets × 6 cookies = 60 cookies.\n60 cookies × $0.10 = $6.00 total cost. \n$10.00 - $6.00 = 4 dollars change.\n\n**[id 153]**\nWorking backward from the end:\nThe ants took the remaining 5 fries. \nBefore that, the raccoon stole 2/3 of the fries, leaving 1/3. So, 1/3 of the fries = 5, which means there were 15 fries before the raccoon.\nBefore that, 3 pigeons ate 3 fries each (9 total), so there were 15 + 9 = 24 fries.\nBefore that, the seagull ate half the amount Dave had eaten (Dave ate 14, so seagull ate 7), meaning there were 24 + 7 = 31 fries.\nAdding the 14 Dave ate initially: 31 + 14 = 45 fries in the packet.\n\n**[id 154]**\nMonday, Wednesday, Friday: 3 classes × 1 hour × 3 days = 9 hours/week.\nTuesday, Thursday: 2 classes × 2 hours × 2 days = 8 hours/week.\nTotal per week = 17 hours.\n17 hours/week × 16 weeks = 272 hours.\n\n**[id 155]**\nRolls: 300 × 4 inches = 1,200 inches.\nCroissants: 120 × 6 inches = 720 inches.\n1,200 + 720 = 1,920 inches total. Convert to feet: 1,920 / 12 = 160 feet.\nBaguettes: 60 × 2 feet = 120 feet. \nTotal length: 160 + 120 = 280 feet.\n\n**[id 156]**\nBananas per month = 200 (monkeys) + 400 (gorillas) + 100 (baboons) = 700 bananas.\nFor 2 months: 700 × 2 = 1,400 bananas.\n\n**[id 157]**\nBlake ran 100 yards down and back 15 times: 15 × 200 = 3,000 yards.\nKelly ran 100 yards down and back once (200 yards), then to the 40-yard line and back 34 times (34 × 80 = 2,720 yards). Total: 200 + 2,720 = 2,920 yards.\nDifference: 3,000 - 2,920 = 80 yards.\n\n**[id 158]**\n4 pens × $1.50 = $6.\n2 notebooks × $4 = $8.\n1 ream of paper = $20.\nTotal cost: 6 + 8 + 20 = 34 dollars.\n\n**[id 159]**\nInitially swimming: 11 tadpoles. \nCome out of hiding: +6. \nHide under rock: -2.\nTotal seen now: 11 + 6 - 2 = 15 tadpoles.\n\n```json\n{\"answers\": {\"150\": 4, \"151\": 5, \"152\": 4, \"153\": 45, \"154\": 272, \"155\": 280, \"156\": 1400, \"157\": 80, \"158\": 34, \"159\": 15}}\n```\n",
+ "usage": {
+  "input_tokens": 17032,
+  "output_tokens": 6358,
+  "thinking_tokens": 5248,
+  "cache_read_tokens": 8140,
+  "total_tokens": 23390
+ },
+ "answers_batch": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 45.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ },
+ "single": {},
+ "answers": {
+  "150": 4.0,
+  "151": 5.0,
+  "152": 4.0,
+  "153": 45.0,
+  "154": 272.0,
+  "155": 280.0,
+  "156": 1400.0,
+  "157": 80.0,
+  "158": 34.0,
+  "159": 15.0
+ }
+}

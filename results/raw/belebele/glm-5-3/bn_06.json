@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "48",
+  "49",
+  "50",
+  "51",
+  "52",
+  "53",
+  "54",
+  "55"
+ ],
+ "seconds": 28.1,
+ "text": "Brief reasoning for each:\n\n- **48**: Æthelred faced the Viking fleet in England in 991 → A\n- **49**: \"Around the fifteenth century\" ≈ 600 years ago → C\n- **50**: The crust is thinner on the near side, so more maria formed there; therefore the far side likely has fewer maria → C\n- **51**: Some believe aliens or other life may exist on other worlds → C\n- **52**: Oil industry employs only one percent, the least → C\n- **53**: Fusion produces energy, which is why stars give off light and heat → C\n- **54**: Water is composed of 2 hydrogen atoms and 1 oxygen atom → D\n- **55**: Singapore is known as a tropical garden city with lush greenery → A\n\n{\"answers\": {\"48\": \"A\", \"49\": \"C\", \"50\": \"C\", \"51\": \"C\", \"52\": \"C\", \"53\": \"C\", \"54\": \"D\", \"55\": \"A\"}}",
+ "usage": {
+  "completion_tokens": 2211,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1888
+  },
+  "prompt_tokens": 4442,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6653
+ },
+ "served_by": null,
+ "answers_batch": {
+  "48": "A",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ },
+ "single": {},
+ "answers": {
+  "48": "A",
+  "49": "C",
+  "50": "C",
+  "51": "C",
+  "52": "C",
+  "53": "C",
+  "54": "D",
+  "55": "A"
+ }
+}

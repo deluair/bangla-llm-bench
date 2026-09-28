@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 24,
+ "ids": [
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 51.4,
+ "text": "# Multiple Choice Exam Answers\n\nLet me work through each question:\n\n**[192] Ocelot Description:**\nThe passage emphasizes that ocelots hunt by following and **smell** (গন্ধ দ্বারা খাওয়া), indicating their sense of smell is strong. It also confirms night vision ability and preference for small prey. Option C states their sense of smell is weak, which directly contradicts the passage.\n**Answer: C**\n\n**[193] Tiger vs Lion:**\nThe passage explicitly states that a tiger's roar differs from a lion's: \"বাঘটির গর্জন একটি সিংহের পূর্ণ-কণ্ঠস্বরের গর্জনের মতো নয়\" (Tiger's roar is not like lion's full-throated roar). No differences are mentioned for other characteristics.\n**Answer: B**\n\n**[194] Smallest Tube:**\nThe passage directly states: \"সব থেকে ক্ষুদ্রতম নলিকে বলে কৈশিক নাড়ী\" (The smallest tube is called capillary).\n**Answer: A**\n\n**[195] Insect Flying Ability Impact:**\nThe passage mentions flying helps insects: avoid enemies (শত্রুদের এড়ানো), find food (খাবার খুঁজে), find mates (সাথীদের খুঁজে). Lifespan (জীবনকাল) is never mentioned as affected by flying ability.\n**Answer: B**\n\n**[196] Bird and Dinosaur Characteristics:**\nThe passage lists: scales, clawed feet, laying eggs, and walking on hind legs as shared traits. Flying ability is mentioned only for birds, not dinosaurs. Only birds can fly.\n**Answer: C**\n\n**[197] Triceratops Diet:**\nThe passage emphasizes that Triceratops teeth could crush \"খুব শক্ত শাখা-প্রশাখাযুক্ত\" (very hard branches). This directly matches option B (plant with hard branches). A, C, and D refer to animals or contradict the passage's toxicity concerns.\n**Answer: B**\n\n**[198] Luxembourg's Neutrality:**\nThe passage states: \"প্রথম এবং দ্বিতীয় বিশ্বযুদ্ধের দুটিতেই জার্মানি একে দখল করে নিয়েছিল\" (Germany occupied it in both World Wars). This violates neutrality.\n**Answer: A**\n\n**[199] Hollow Blade Concept:**\nThe passage emphasizes the defining feature: \"2টি প্রান্ত রয়েছে যার মধ্যে একটি অবতল ফাঁক রয়েছে\" (2 edges with a concave gap between them). The concave shape (উভতল) is what creates the \"hollow\" structure that allows gripping.\n**Answer: C**\n\n```json\n{\"answers\": {\"192\": \"C\", \"193\": \"B\", \"194\": \"A\", \"195\": \"B\", \"196\": \"C\", \"197\": \"B\", \"198\": \"A\", \"199\": \"C\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4433,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5162,
+  "output_tokens_details": {
+   "thinking_tokens": 4355
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4433,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 5162,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4433,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4433
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.034685,
+ "answers_batch": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ },
+ "single": {},
+ "answers": {
+  "192": "C",
+  "193": "B",
+  "194": "A",
+  "195": "B",
+  "196": "C",
+  "197": "B",
+  "198": "A",
+  "199": "C"
+ }
+}

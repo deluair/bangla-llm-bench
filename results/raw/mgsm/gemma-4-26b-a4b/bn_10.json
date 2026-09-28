@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 10.6,
+ "text": "[id 100]\n1st friend: 20\n2nd friend: 20 + (1/4 * 20) = 25\n4th friend: 60\n3rd friend: 60 + 10 = 70\nTotal: 20 + 25 + 70 + 60 = 175\n\n[id 101]\nTotal pages: 4 + 20 + 7 + 8 = 39\nPages read: 15\nPages remaining: 39 - 15 = 24\nDays remaining: 4\nAverage per day: 24 / 4 = 6\n\n[id 102]\nDaily routine: Breakfast (1), Lunch (1), Dinner (1), Bedtime (1) = 4 glasses.\nDays in a week: 7.\nRoutine for 6 days: 6 * 4 = 24 glasses.\nOn the 7th day (rest day), he drinks soda instead of water at dinner: Breakfast (1), Lunch (1), Bedtime (1) = 3 glasses.\nTotal for the week: 24 + 3 = 27.\n\n[id 103]\nRate: 3 miles / 10 minutes = 0.3 miles per minute.\nDistance: 42 miles.\nTime = 42 / 0.3 = 140 minutes.\n\n[id 104]\nTotal: 1000\n1/4 on board: 250\nRemaining: 1000 - 250 = 750\n1/3 of remainder kept: 1/3 * 750 = 250\nTotal kept: 250 + 250 = 500\nRemaining to be kept: 1000 - 500 = 500\n\n[id 105]\nAmir: 5\nCody: 5 * 3 = 15\nTotal: 5 + 15 = 20\n\n[id 106]\nOuter dimensions: 5 x 6 x 4\nWall thickness: 1 inch.\nInner dimensions (subtract 2 * thickness from each dimension):\nLength: 5 - 2 = 3\nWidth: 6 - 2 = 4\nHeight: 4 - 2 = 2\nInner volume of one box: 3 * 4 * 2 = 24\nTotal inner volume of 3 boxes: 24 * 3 = 72\n\n[id 107]\nMon: 1 hr\nTue: 1 hr\nThu: 1 hr + 0.5 hr = 1.5 hrs\nFri: 2 hrs\nSubtotal: 1 + 1 + 1.5 + 2 = 5.5 hrs\nTotal: 7 hrs\nRemaining for Wed: 7 - 5.5 = 1.5 hrs (90 minutes)\nSince Wed episodes are 30 mins each: 90 / 30 = 3\n\n[id 108]\nLet X be cookies baked last year.\nTarget for this year: 2X.\nActual baked: 2X + 15.\nAfter losing 5: (2X + 15) - 5 = 110.\n2X + 10 = 110.\n2X = 100.\nX = 50.\n\n[id 109]\nPrice per gallon: $3.00\nCashback per gallon: $0.20\nNet price per gallon: $3.00 - $0.20 = $2.80\nFor 10 gallons: 10 * 2.80 = 28\n\n{\"answers\": {\"100\": 175, \"101\": 6, \"102\": 27, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "prompt_tokens": 978,
+  "completion_tokens": 958,
+  "total_tokens": 1936,
+  "cost": 0.00052012,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00052012,
+   "upstream_inference_prompt_cost": 0.00013692,
+   "upstream_inference_completions_cost": 0.0003832
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 27.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

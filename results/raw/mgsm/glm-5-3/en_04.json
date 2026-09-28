@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45",
+  "46",
+  "47",
+  "48",
+  "49"
+ ],
+ "seconds": 8.7,
+ "text": "Here are my solutions:\n\n- **40:** Suzy = 1, Ben = 2×1 = 2, Brandon = 4×2 = 8\n- **41:** With gemstone: 3×400 = 1200 ft; 1200 − 1000 = 200 ft beyond reach\n- **42:** 5×8 = 40 pieces; 40 − 14 = 26 taken\n- **43:** Remaining calories = 200; serving = 60g (300/5); 200/250 = 0.8 servings; 0.8×60 = 48 grams\n- **44:** Supplies for 20 candles = 2 lbs × $10 = $20; Revenue = 20×$2 = $40; Profit = $20\n- **45:** Tuesday = 5 + (2/5×5) = 7; Wednesday = 14; Total articles = 5+7+14 = 26; Hours = 26×4 = 104\n- **46:** 80 + x − 220 = 23 → x = 163\n- **47:** Blue ties = 200/40 = 5; Red = 10; Red cost = $60 each → $600; Total = $800\n- **48:** 4 ft = 48 inches; 48/6 = 8 pieces\n- **49:** 15×8 = 120 units; Unoccupied = 1/4×120 = 30\n\n{\"answers\": {\"40\": 8, \"41\": 200, \"42\": 26, \"43\": 48, \"44\": 20, \"45\": 104, \"46\": 163, \"47\": 800, \"48\": 8, \"49\": 30}}",
+ "usage": {
+  "completion_tokens": 735,
+  "completion_tokens_details": {
+   "reasoning_tokens": 352
+  },
+  "prompt_tokens": 809,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1544
+ },
+ "served_by": null,
+ "answers_batch": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ },
+ "single": {},
+ "answers": {
+  "40": 8.0,
+  "41": 200.0,
+  "42": 26.0,
+  "43": 48.0,
+  "44": 20.0,
+  "45": 104.0,
+  "46": 163.0,
+  "47": 800.0,
+  "48": 8.0,
+  "49": 30.0
+ }
+}

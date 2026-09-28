@@ -1,0 +1,83 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  1196,
+  1258,
+  1322,
+  1326,
+  1357,
+  1374,
+  1381,
+  1384,
+  1395,
+  1452,
+  1476,
+  1492,
+  1523,
+  1534,
+  1570
+ ],
+ "seconds": 3.7,
+ "text": "{\"answers\": {\n\"1196\": \"D\",\n\"1258\": \"D\",\n\"1322\": \"D\",\n\"1326\": \"D\",\n\"1357\": \"C\",\n\"1374\": \"C\",\n\"1381\": \"C\",\n\"1384\": \"B\",\n\"1395\": \"C\",\n\"1452\": \"A\",\n\"1476\": \"A\",\n\"1492\": \"D\",\n\"1523\": \"B\",\n\"1534\": \"D\",\n\"1570\": \"C\"}}\n \n Please note that JSON format is used where each question (id) is associated with a corresponding answer choice.",
+ "usage": {
+  "prompt_tokens": 5392,
+  "completion_tokens": 132,
+  "total_tokens": 5524,
+  "cost": 0.00028016,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00028016,
+   "upstream_inference_prompt_cost": 0.0002696,
+   "upstream_inference_completions_cost": 1.056e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Groq",
+ "answers": {
+  "1196": "D",
+  "1258": "D",
+  "1322": "D",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "C",
+  "1384": "B",
+  "1395": "C",
+  "1452": "A",
+  "1476": "A",
+  "1492": "D",
+  "1523": "B",
+  "1534": "D",
+  "1570": "C"
+ },
+ "answers_batch": {
+  "1196": "D",
+  "1258": "D",
+  "1322": "D",
+  "1326": "D",
+  "1357": "C",
+  "1374": "C",
+  "1381": "C",
+  "1384": "B",
+  "1395": "C",
+  "1452": "A",
+  "1476": "A",
+  "1492": "D",
+  "1523": "B",
+  "1534": "D",
+  "1570": "C"
+ },
+ "single": {}
+}

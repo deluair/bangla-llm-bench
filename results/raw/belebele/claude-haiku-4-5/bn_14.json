@@ -1,0 +1,73 @@
+{
+ "task": "belebele",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 126.9,
+ "text": "Looking at each question carefully:\n\n**[id 112]** The passage explicitly states: \"বিশ্বজুড়ে মহামারী হওয়ার আগে অবশ্যই এই রোগটি কম প্রাণঘাতী আকার ধারণ করবে\" (the disease must become less deadly before becoming a pandemic worldwide).\n**Answer: A**\n\n**[id 113]** The passage states two facts: there is no intelligence about an imminent attack, but \"হুমকির মাত্রা হ্রাস করে মারাত্নকে নামিয়ে আনার অর্থ এই নয় যে সামগ্রিকভাবে হুমকিটি চলে গেছে\" (reducing threat level doesn't mean the overall threat is gone). The clearest known information is that the threat level has been reduced.\n**Answer: A**\n\n**[id 114]** The passage directly states: \"ভারত মাত্র ৩৬ রান করতে ৭ উইকেট হারিয়ে ফেলে\" (India lost 7 wickets while scoring 36 runs).\n**Answer: B**\n\n**[id 115]** The passage advises: \"প্রদত্ত সুযোগ-সুবিধাগুলি প্রায়শই আলাদা হয় এবং একই জোটে একটি আলাদা বিমানের অধীনে ফ্রিকুয়েন্ট ফ্লায়ার পয়েন্টগুলি আরও বেশি কিছু অফার করতে পারে\" (benefits often differ and a different airline might offer more points). This recommends comparing based on points offered.\n**Answer: A**\n\n**[id 116]** The passage explicitly states: \"রাতের স্লিপার ট্রেনে কনডাক্টররা আপনার পাসপোর্ট সংগ্রহ করে রাখতে পারে যাতে আপনার ঘুমের ব্যাঘাত না হয়\" (in night sleeper trains, conductors can collect passports so sleep isn't disturbed).\n**Answer: B**\n\n**[id 117]** Tracing the rebuilds: Portuguese rebuilt after 1755 earthquake (first rebuild), then Moroccan Sultan rebuilt (second rebuild), then Spanish merchants named it Casablanca. The second rebuilding was by the Sultan.\n**Answer: D**\n\n**[id 118]** The passage states: \"রাস্তা, ট্রেন এবং জলপথ গ্রামের সঙ্গে সংযোগ রক্ষা করে এবং বাইরে থেকে কোনও গাড়ি সেখানে পৌঁছোতে পারে না\" (roads, trains, and waterways connect with villages, but no cars from outside can reach). Thus accessible by train or boat only.\n**Answer: C**\n\n**[id 119]** The passage recommends: \"কিছু কিছু বুটে স্টাড বা স্পাইক থাকে এবং স্টাড এর সাথে কিছু সহপযোগী উপকরণ থাকে যা পিচ্ছিল অবস্থায়\" (some boots have studs or spikes with accompanying material suitable for slippery conditions). Also specifies heels should be small and wide.\n**Answer: B**\n\n```json\n{\"answers\": {\"112\": \"A\", \"113\": \"A\", \"114\": \"B\", \"115\": \"A\", \"116\": \"B\", \"117\": \"D\", \"118\": \"C\", \"119\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 9,
+  "cache_creation_input_tokens": 4879,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 11707,
+  "output_tokens_details": {
+   "thinking_tokens": 10707
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4879,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 9,
+    "output_tokens": 11707,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4879,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4879
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.068302,
+ "answers_batch": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "A",
+  "114": "B",
+  "115": "A",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

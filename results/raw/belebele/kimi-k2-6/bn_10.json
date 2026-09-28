@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 105.2,
+ "text": "[id 80] The passage states that no serious damage was reported, but at least five people present were treated for signs of shock. Among the choices, only option A identifies those who received medical treatment.\n[id 81] The passage explicitly mentions that baseball (along with softball) had left the Olympic Games in a 2005 vote and was trying to get back in. Thus, baseball was dropped.\n[id 82] The text clearly says that before the soldiers arrived, Haiti had not faced this disease since the 1800s.\n[id 83] The passage directly states the suspect is being investigated as an intruder/trespasser (\"অনধিকারপ্রবেশকারী\"), not for vandalism.\n[id 84] The passage states that 802.11n's speed is considerably faster than its previous versions.\n[id 85] While pig hunters, mosquito destruction, and insecticide spraying are current measures, the encephalitis vaccine is promised for the next year, making it the last measure to be applied.\n[id 86] The passage says the failure of the second sentence—which sought to ban same-sex civil unions—may open the door for civil unions in the future.\n[id 87] The passage states the documents were published in the press (\"প্রেসে প্রকাশ হয়েছিল\").\n\n{\"answers\": {\"80\": \"A\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 3287,
+  "completion_tokens": 4738,
+  "total_tokens": 8025,
+  "completion_tokens_details": {
+   "reasoning_tokens": 4411
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "A",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

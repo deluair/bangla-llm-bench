@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 6.5,
+ "text": "[id 80] The passage mentions that **five or fewer people** showed signs of shock and were treated, but it does not mention any severe injuries. The correct answer is **A) কমপক্ষে পাঁচজন ব্যক্তিকে** (though the wording is slightly off; it should be \"কমপক্ষে পাঁচজন ব্যক্তিকে শকের লক্ষণ থাকার জন্য চিকিৎসা করা হয়েছিল,\" but the closest match is A).\n\n[id 81] The passage states that **baseball, softball, squash, karate, and roller sports** were rejected from the Olympic program in 2005. Among the options, **A) স্কোয়াশ** is one of them, but the question asks for the one that was explicitly mentioned as being rejected in the context of the vote that happened in 2005. However, the passage also mentions that **ragby** was selected, so it wasn't rejected. The correct answer is **A) স্কোয়াশ** (though it is not the only one rejected, it is one of the correct options).\n\n[id 82] The passage mentions that before the UN peacekeepers arrived, Haiti had not faced this disease since **the 1800s**. The correct answer is **A) 1800-এর দশকে**.\n\n[id 83] The passage states that the suspect is being investigated for **unauthorized entry**, not for vandalism or physical damage. The correct answer is **A) অনধিকারপ্রবেশ**.\n\n[id 84] The passage mentions that **802.11n** has a significantly higher theoretical throughput of up to 600 Mbps compared to its predecessors. The correct answer is **A) 802.11n**.\n\n[id 85] The passage mentions that the vaccination supply for encephalitis will be provided in the **following year**, making it the last step mentioned. The correct answer is **C) এনসেফ্যালাইটিস টিকা**.\n\n[id 86] The failure of the second clause, which proposed banning same-sex civil unions, **could potentially open doors for future civil unions**. The correct answer is **B) সমকামী নাগরিক ইউনিয়নের ভবিষ্যতে অধিকার**.\n\n[id 87] The Panama Papers were leaked to **the press**. The correct answer is **B) প্রেস**.\n\n```json\n{\n  \"answers\": {\n    \"80\": \"A\",\n    \"81\": \"A\",\n    \"82\": \"A\",\n    \"83\": \"A\",\n    \"84\": \"A\",\n    \"85\": \"C\",\n    \"86\": \"B\",\n    \"87\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2494,
+  "completion_tokens": 582,
+  "total_tokens": 3076,
+  "cost": 0.0004614,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004614,
+   "upstream_inference_prompt_cost": 0.0003741,
+   "upstream_inference_completions_cost": 8.73e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "80": "A",
+  "81": "A",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "A",
+  "81": "A",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

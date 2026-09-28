@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 10.8,
+ "text": "Here are my solutions:\n\n**[190]** 3 hours = 180 minutes × 2 peaches/min = **360**\n\n**[191]** 10 ducks × 3.5 lbs/week = 35 lbs/week ÷ 7 days = **5**\n\n**[192]** Starts with 50, gains 10−2=8/year × 10 years = 50+80 = 130; 30% die: 130 × 0.7 = **91**\n\n**[193]** Friday: 18 pink. Saturday: 6 painted white (12 pink + 6 white). Sunday: +18 pink = 30 pink, 6 white. Difference: 30−6 = **24**\n\n**[194]** 5 crayons × $2 = $10 spent; $20 − $10 = **10**\n\n**[195]** Pen = $1.20 + $0.30 = $1.50; 8 × $1.50 = **12**\n\n**[196]** 40 × 2 = 80 lbs used; 200 − 80 = **120**\n\n**[197]** 23786 − 8417 − 9092 = **6277**\n\n**[198]** Initial 20; month 1: 3×20=60; month 2: 60−20=40; month 3: 2×(60+40)=200; total = 20+60+40+200 = **320**\n\n**[199]** 500 sentences each publisher; A: 500×5=2500¢; B: 500×10=5000¢; total = **7500**\n\n{\"answers\": {\"190\": 360, \"191\": 5, \"192\": 91, \"193\": 24, \"194\": 10, \"195\": 12, \"196\": 120, \"197\": 6277, \"198\": 320, \"199\": 7500}}",
+ "usage": {
+  "completion_tokens": 922,
+  "completion_tokens_details": {
+   "reasoning_tokens": 495
+  },
+  "prompt_tokens": 680,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1602
+ },
+ "served_by": null,
+ "answers_batch": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ },
+ "single": {},
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 320.0,
+  "199": 7500.0
+ }
+}

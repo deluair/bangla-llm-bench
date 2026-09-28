@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 14,
+ "ids": [
+  "112",
+  "113",
+  "114",
+  "115",
+  "116",
+  "117",
+  "118",
+  "119"
+ ],
+ "seconds": 2.6,
+ "text": "1. The passage mentions that before a global pandemic, the disease will likely become less deadly.\n2. The passage indicates that while the threat level has been reduced, the overall threat has not disappeared.\n3. The passage states that India lost 7 wickets.\n4. The passage suggests prioritizing an airline that offers additional benefits within the same alliance.\n5. Passports are kept by conductors on overnight sleeper trains to avoid disturbance.\n6. The second reconstruction of Casablanca was done by the Sultan of Morocco.\n7. The remote villages in Liguria can be accessed by train or boat.\n8. The passage recommends boots with studs or spikes for icy conditions.\n\n```json\n{\n  \"answers\": {\n    \"112\": \"A\",\n    \"113\": \"C\",\n    \"114\": \"B\",\n    \"115\": \"D\",\n    \"116\": \"B\",\n    \"117\": \"D\",\n    \"118\": \"C\",\n    \"119\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2408,
+  "completion_tokens": 219,
+  "total_tokens": 2627,
+  "cost": 0.00039405,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00039405,
+   "upstream_inference_prompt_cost": 0.0003612,
+   "upstream_inference_completions_cost": 3.285e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "112": "A",
+  "113": "C",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ },
+ "single": {},
+ "answers": {
+  "112": "A",
+  "113": "C",
+  "114": "B",
+  "115": "D",
+  "116": "B",
+  "117": "D",
+  "118": "C",
+  "119": "B"
+ }
+}

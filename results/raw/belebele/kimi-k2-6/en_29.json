@@ -1,0 +1,48 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 29,
+ "ids": [
+  "232",
+  "233",
+  "234",
+  "235",
+  "236",
+  "237",
+  "238",
+  "239"
+ ],
+ "seconds": 51.4,
+ "text": "[id 232] The passage states the disease “migrates to humans through mosquitos,” so the transfer vector to humans is mosquitoes. → A  \n[id 233] Iwasaki was “attacked in Tibet by a rabid dog.” → C  \n[id 234] The temporary restraining order requires release of those held more than 24 hours without a hearing, so to be held longer they must receive a hearing. → D  \n[id 235] The listed nominations include Best Picture, Sound Mixing, and Original Song, but not Best Visual Effects. → B  \n[id 236] The passage explicitly says “Some roads have been damaged,” while the other options are described as shut down, closed, or without services rather than damaged. → C  \n[id 237] Palestine wants pre-1967 borders and Jerusalem’s future addressed; Israel, not Palestine, demands an ongoing military presence. → B  \n[id 238] Massa was injured “after a crash during the 2009 Hungarian Grand Prix,” i.e., during a Grand Prix. → A  \n[id 239] The text says, “Police said they suspect an alleged Daesh (ISIL) militant,” so the police reported the suspect. → A  \n\n{\"answers\": {\"232\": \"A\", \"233\": \"C\", \"234\": \"D\", \"235\": \"B\", \"236\": \"C\", \"237\": \"B\", \"238\": \"A\", \"239\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1191,
+  "completion_tokens": 1813,
+  "total_tokens": 3004,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1509
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ },
+ "single": {},
+ "answers": {
+  "232": "A",
+  "233": "C",
+  "234": "D",
+  "235": "B",
+  "236": "C",
+  "237": "B",
+  "238": "A",
+  "239": "A"
+ }
+}

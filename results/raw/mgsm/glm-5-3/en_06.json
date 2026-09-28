@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 8.7,
+ "text": "**ID 60:** 20% of 25 = 5 unripe. Good = 25 − 1 − 5 − 2 = 17.\n\n**ID 61:** 500 + 800 = 1300; insurance = 10% × 1300 = 130. Total = 1430.\n\n**ID 62:** 30 years − 20 years = 10 years × 5% = 50% of $50,000 = $25,000.\n\n**ID 63:** First half: 6 × 140 = 840. Second half: 140 × 0.9 = 126/month → 6 × 126 = 756. Total = 1596.\n\n**ID 64:** 100 miles / 4 gallons = 25 mpg. 25 × 12 gallons = 300 miles.\n\n**ID 65:** Per session: 2 + 1 = 3 hours. Per week: 3 × 3 = 9. Over 4 weeks: 36.\n\n**ID 66:** 4 schools × 2 teams × 5 players = 40 players; coaches = 4 × 2 = 8. Total = 48.\n\n**ID 67:** Diamonds 175, rubies 140, emeralds 280. Total = 595.\n\n**ID 68:** Girls 60, boys 120 → 180 students ÷ 5 = 36 teachers.\n\n**ID 69:** 8 × $5 = $40 allowance. Started with 100 − 40 = $60.\n\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 25000, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}",
+ "usage": {
+  "completion_tokens": 824,
+  "completion_tokens_details": {
+   "reasoning_tokens": 423
+  },
+  "prompt_tokens": 679,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 1503
+ },
+ "served_by": null,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 25000.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

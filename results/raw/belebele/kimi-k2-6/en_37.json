@@ -1,0 +1,36 @@
+{
+ "task": "belebele",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 37,
+ "ids": [
+  "296",
+  "297",
+  "298",
+  "299"
+ ],
+ "seconds": 35.8,
+ "text": "For question 296, the passage explicitly states that standard 35 mm film gives resolution roughly comparable to a current DSLR, while medium-format film offers much higher resolution.  \nFor question 297, the passage states that Disney tickets are non-transferable, making option A the false statement.  \nFor question 298, the passage advises getting out of the current first (aiming elsewhere) and then swimming back, rather than fighting the current directly.  \nFor question 299, the passage mentions feeding wildlife, failure to maintain distance, and strong odors as factors, but it does not cite animals being unfamiliar with humans as a cause of attacks.\n\n{\"answers\": {\"296\": \"A\", \"297\": \"A\", \"298\": \"A\", \"299\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 821,
+  "completion_tokens": 1298,
+  "total_tokens": 2119,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1141
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ },
+ "single": {},
+ "answers": {
+  "296": "A",
+  "297": "A",
+  "298": "A",
+  "299": "D"
+ }
+}

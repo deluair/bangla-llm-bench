@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 0,
+ "ids": [
+  10,
+  36,
+  63,
+  65,
+  86,
+  108,
+  127,
+  150,
+  159,
+  234,
+  237,
+  255,
+  264,
+  295,
+  300
+ ],
+ "seconds": 8.8,
+ "text": "[id 10]\nThe first statement is true because left multiplication and right multiplication by a subgroup H of G yield cosets of the same size. The second statement is true because if aH and Hb intersect, then aH = Hb (since H is a subgroup). So the answer is **A**.\n\n[id 36]\nIn Z_26, (20)(-8) = (20)(18) because -8 ≡ 18 mod 26. Then 20 × 18 = 360 ≡ 360 - 13×26 = 360 - 338 = 22 mod 26. So the answer is **D**.\n\n[id 63]\nThe relation ~ is not reflexive (no (1,1), (2,2), etc.), not symmetric (e.g., (1,2) is in ~ but (2,1) is not), and not transitive (e.g., (1,2) and (4,2) are in ~ but (1,4) is not). It is **not anti-symmetric** because (1,2) and (1,3) are both in ~ but neither implies the other, so the answer is **A**.\n\n[id 65]\nEvery field is a ring (fields satisfy all ring axioms plus multiplicative inverses), but not every ring has a multiplicative identity (e.g., Z/2Z × Z/2Z with componentwise addition and multiplication but no identity). So the answer is **C**.\n\n[id 86]\nThe first statement is **True** (Lagrange's theorem for cosets). The second statement is **True** (Sylow theorems). So the answer is **A**.\n\n[id 108]\nThe palatine processes begin to fuse around **10 weeks post-fertilization**. So the answer is **C**.\n\n[id 127]\nThe pulse of the facial artery is typically felt where it crosses the **mandible**. So the answer is **A**.\n\n[id 150]\nThe **mental foramen** is palpable in a live patient, as are the supraorbital and infraorbital foramina (though the latter two are less commonly palpated). So the answer is **D**.\n\n[id 159]\nThe **masseter** initiates elevation of the mandible. So the answer is **A**.\n\n[id 234]\nA dental panoramic radiograph typically shows the **mandibular canal** and **maxillary sinus**, but not the hard palate or zygomatic arch. So the answer is **B**.\n\n[id 237]\nThe sky appears blue due to **Rayleigh scattering**, which preferentially scatters shorter (blue) wavelengths. So the answer is **C**.\n\n[id 255]\nThe lithosphere consists of the **rigid rocky material of the crust and uppermost portion of the mantle**. So the answer is **D**.\n\n[id 264]\nThe terrestrial planet cores contain mostly metal because **metals sank to the center during a time when the interiors were molten**. So the answer is **C**.\n\n[id 295]\nAsteroids stand out in sky surveys because **they have substantial motion relative to the background stars**. So the answer is **D**.\n\n[id 300]\nThe equatorial wind speed of **more than 900 miles per hour** is not a similarity between Saturn and Jupiter's atmospheres (Jupiter's is ~360 mph, Saturn's is ~1,100 mph). So the answer is **C**.\n\n---\n```json\n{\n  \"answers\": {\n    \"10\": \"A\",\n    \"36\": \"D\",\n    \"63\": \"A\",\n    \"65\": \"C\",\n    \"86\": \"A\",\n    \"108\": \"C\",\n    \"127\": \"A\",\n    \"150\": \"D\",\n    \"159\": \"A\",\n    \"234\": \"B\",\n    \"237\": \"C\",\n    \"255\": \"D\",\n    \"264\": \"C\",\n    \"295\": \"D\",\n    \"300\": \"C\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1054,
+  "completion_tokens": 900,
+  "total_tokens": 1954,
+  "cost": 0.0002931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002931,
+   "upstream_inference_prompt_cost": 0.0001581,
+   "upstream_inference_completions_cost": 0.000135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "10": "A",
+  "36": "D",
+  "63": "A",
+  "65": "C",
+  "86": "A",
+  "108": "C",
+  "127": "A",
+  "150": "D",
+  "159": "A",
+  "234": "B",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "D",
+  "300": "C"
+ },
+ "answers_batch": {
+  "10": "A",
+  "36": "D",
+  "63": "A",
+  "65": "C",
+  "86": "A",
+  "108": "C",
+  "127": "A",
+  "150": "D",
+  "159": "A",
+  "234": "B",
+  "237": "C",
+  "255": "D",
+  "264": "C",
+  "295": "D",
+  "300": "C"
+ },
+ "single": {}
+}

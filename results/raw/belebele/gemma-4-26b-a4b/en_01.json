@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 6.6,
+ "text": "To answer these questions:\n\n8. **D**: Micro-expressions are facial movements lasting milliseconds. A thumb's up is a hand gesture, not a facial movement.\n9. **C**: \"Researching travel\" is an information-seeking/learning activity, not a motivation for \"continuing relationships.\"\n10. **B**: The passage mentions scrutiny regarding the use of wealth (A), concentration of power (C), and whether tenets were being met (D). It does not mention whether the tenets themselves should be *amended*.\n11. **C**: The passage states the blockade *violated* existing international law, but it does not state that the warfare itself *caused changes* to the law. A, B, and D are directly stated.\n12. **A**: MS is most likely in females (2x more than males) and younger/middle-aged adults. A 32-year-old female fits both criteria better than the others (15 is a child/early teen, others are male).\n13. **D**: The passage explicitly states: \"The sport is primarily played in a duel format.\"\n14. **B**: The passage states military rankings moved from being based on \"class\" to \"caliber\" (competence/ability), which impacted the working class by allowing ambitious individuals to succeed.\n15. **C**: The passage states that in developed countries, people complain about transportation systems much more than they do about water quality or bridges.\n\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1312,
+  "completion_tokens": 372,
+  "total_tokens": 1684,
+  "cost": 0.000136944,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000136944,
+   "upstream_inference_prompt_cost": 5.5104e-05,
+   "upstream_inference_completions_cost": 8.184e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Darkbloom",
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

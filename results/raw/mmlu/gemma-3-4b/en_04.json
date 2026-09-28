@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  1680,
+  1726,
+  1753,
+  1772,
+  1773,
+  1820,
+  1850,
+  1873,
+  1892,
+  1895,
+  1929,
+  1995,
+  1998,
+  2004,
+  2043
+ ],
+ "seconds": 6.9,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 1680] B\n[id 1726] D\n[id 1753] B\n[id 1772] C\n[id 1773] A\n[id 1820] A\n[id 1850] B\n[id 1873] D\n[id 1892] C\n[id 1895] B\n[id 1929] B\n[id 1995] D\n[id 1998] D\n[id 2004] A\n[id 2043] D\n\n```json\n{\"answers\": {\"1680\": \"B\", \"1726\": \"D\", \"1753\": \"B\", \"1772\": \"C\", \"1773\": \"A\", \"1820\": \"A\", \"1850\": \"B\", \"1873\": \"D\", \"1892\": \"C\", \"1895\": \"B\", \"1929\": \"B\", \"1995\": \"D\", \"1998\": \"D\", \"2004\": \"A\", \"2043\": \"D\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1154,
+  "completion_tokens": 306,
+  "total_tokens": 1460,
+  "cost": 8.83e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.83e-05,
+   "upstream_inference_prompt_cost": 5.77e-05,
+   "upstream_inference_completions_cost": 3.06e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "1680": "B",
+  "1726": "D",
+  "1753": "B",
+  "1772": "C",
+  "1773": "A",
+  "1820": "A",
+  "1850": "B",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "answers_batch": {
+  "1680": "B",
+  "1726": "D",
+  "1753": "B",
+  "1772": "C",
+  "1773": "A",
+  "1820": "A",
+  "1850": "B",
+  "1873": "D",
+  "1892": "C",
+  "1895": "B",
+  "1929": "B",
+  "1995": "D",
+  "1998": "D",
+  "2004": "A",
+  "2043": "D"
+ },
+ "single": {}
+}

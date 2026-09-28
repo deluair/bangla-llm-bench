@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 12,
+ "ids": [
+  "96",
+  "97",
+  "98",
+  "99",
+  "100",
+  "101",
+  "102",
+  "103"
+ ],
+ "seconds": 6.2,
+ "text": "Here are the answers based on the reasoning for each question:\n\n---\n**id 96**: The passage states that **4 skiers in the women's sitting group failed to finish their runs**, and **45 of the 117 total skiers in the Giant Slalom failed to rank in the race**. The question asks about the total number of competitors who did not finish the Giant Slalom, which is **45**.\n**Answer: D**\n\n**id 97**: The passage mentions that Northern Rock required support **due to its exposure during the subprime mortgage crisis in 2007**.\n**Answer: D**\n\n**id 98**: The passage states that the split was found **\"based on this fossil\"**, and the researcher is from the **Rift Valley Research Service in Ethiopia**. The split itself is described as being found **in a fossil**.\n**Answer: B**\n\n**id 99**: The latest report from Xinhua states the plane **landed in Kandahar** and **received a bomb threat**, but it does **not** mention the plane being diverted back to Afghanistan after being denied an emergency landing in **Ürümqi** (this was part of the earlier report).\n**Answer: B**\n\n**id 100**: The passage says **Gordon Johndroe**, a spokesman for George W. Bush, commented on the pledge being \"a major step.\"\n**Answer: C**\n\n**id 101**: The passage states that the water in The Ninth Ward is currently **waist-high**.\n**Answer: C**\n\n**id 102**: The passage says local police were **on hand to direct motorists to detours**.\n**Answer: C**\n\n**id 103**: The passage states that winds were around **83 km/h** and it was **expected to keep weakening**.\n**Answer: B**\n\n---\n```json\n{\n  \"answers\": {\n    \"96\": \"D\",\n    \"97\": \"D\",\n    \"98\": \"B\",\n    \"99\": \"B\",\n    \"100\": \"C\",\n    \"101\": \"C\",\n    \"102\": \"C\",\n    \"103\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1208,
+  "completion_tokens": 471,
+  "total_tokens": 1679,
+  "cost": 0.00025185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025185,
+   "upstream_inference_prompt_cost": 0.0001812,
+   "upstream_inference_completions_cost": 7.065e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ },
+ "single": {},
+ "answers": {
+  "96": "D",
+  "97": "D",
+  "98": "B",
+  "99": "B",
+  "100": "C",
+  "101": "C",
+  "102": "C",
+  "103": "B"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 2,
+ "ids": [
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23"
+ ],
+ "seconds": 54.9,
+ "text": "16. D. The passage explicitly states that \"studying traffic flow is difficult because driver behavior cannot be predicted with one-hundred percent certainty.\" This directly links the difficulty to gauging Traffic Flow.\n\n17. A. The passage states, \"Only mutations in germ-line cells can be passed on to children,\" indicating that the type of cell is the deciding factor.\n\n18. A. The text defines an experiment as \"a test that is used to eliminate one or more of the possible hypotheses.\"\n\n19. D. The passage contrasts the use of lenses for thousands of years with the fact that \"the first true telescopes were made in Europe in the late 16th century.\"\n\n20. D. The passage concludes by stating members \"signal their membership through a distinctive and symbolic use of style.\"\n\n21. D. The passage opens by stating, \"The postmodern approach to learning offers the freedom from absolutes.\"\n\n22. A. The passage begins by saying, \"Virtual teams are held to the same standards of excellence as conventional teams,\" implying they share performance expectations.\n\n23. A. The passage mentions needs internalized as one matures (C), environmental effects on actions (B), and what appeals to people/drives them (D). It does not explicitly center on new desires materializing in adulthood.\n\n{\"answers\": {\"16\": \"D\", \"17\": \"A\", \"18\": \"A\", \"19\": \"D\", \"20\": \"D\", \"21\": \"D\", \"22\": \"A\", \"23\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 1355,
+  "completion_tokens": 3135,
+  "total_tokens": 4490,
+  "cost": 0.00060575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00060575,
+   "upstream_inference_prompt_cost": 0.0001355,
+   "upstream_inference_completions_cost": 0.00047025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2796,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ },
+ "single": {},
+ "answers": {
+  "16": "D",
+  "17": "A",
+  "18": "A",
+  "19": "D",
+  "20": "D",
+  "21": "D",
+  "22": "A",
+  "23": "A"
+ }
+}

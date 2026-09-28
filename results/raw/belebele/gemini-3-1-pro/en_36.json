@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 36,
+ "ids": [
+  "288",
+  "289",
+  "290",
+  "291",
+  "292",
+  "293",
+  "294",
+  "295"
+ ],
+ "seconds": 25.8,
+ "text": "Here is the reasoning for each of the questions:\n\n*   **[id 288]** The passage notes that satellite phones are \"frequently used by shipping, including pleasure craft.\" Therefore, they would be preferable during a boating trip (B).\n*   **[id 289]** A traveler seeking a cooler climate should visit during Montevideo's winter. The passage states that \"it is summer there when it's winter in the Northern Hemisphere and vice versa,\" meaning Montevideo's winter occurs during the Northern Hemisphere's summer (B).\n*   **[id 290]** The passage explicitly states that \"SkyTeam covers none of the crossings\" (D). \n*   **[id 291]** The passage says San Francisco's \"economy is diversified,\" directly contradicting the claim that the economy is entirely reliant on tourism (D).\n*   **[id 292]** The passage explicitly warns that \"many locations are only accessible with a high wheel base 4x4.\" Telling tourists that \"most locations are accessible with a normal vehicle\" contradicts this warning and would be bad advice (B).\n*   **[id 293]** The text advises that if you live in a city with a varied drinking culture, you should \"go to bars or pubs in neighborhoods you don't frequent\" (C).\n*   **[id 294]** The passage mentions that Timbuktu \"has an airport,\" meaning it is accessible by plane (A).\n*   **[id 295]** A travel agent is beneficial for journeys that extend \"beyond a traveller's previous experience.\" Booking a specialty excursion for the first time fits this description best (B).\n\n{\"answers\": {\"288\": \"B\", \"289\": \"B\", \"290\": \"D\", \"291\": \"D\", \"292\": \"B\", \"293\": \"C\", \"294\": \"A\", \"295\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 17568,
+  "output_tokens": 3006,
+  "thinking_tokens": 2569,
+  "cache_read_tokens": 8141,
+  "total_tokens": 20574
+ },
+ "answers_batch": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ },
+ "single": {},
+ "answers": {
+  "288": "B",
+  "289": "B",
+  "290": "D",
+  "291": "D",
+  "292": "B",
+  "293": "C",
+  "294": "A",
+  "295": "B"
+ }
+}

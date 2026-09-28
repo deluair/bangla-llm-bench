@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "bn",
+ "batch": 31,
+ "ids": [
+  "248",
+  "249",
+  "250",
+  "251",
+  "252",
+  "253",
+  "254",
+  "255"
+ ],
+ "seconds": 8.2,
+ "text": "Here are the answers with reasoning:\n\n- **[248]** The passage states that **সায়মন** (Simon) was responsible for hiring the writing team for *Simpsons* in 1989, working alongside Brooks and Groening. So, the correct answer is **B) সায়মন**.\n- **[249]** The passage mentions that Roberts considered discussing **specific details of the case** to be highly unethical. So, the correct answer is **D) মামলার সুনির্দিষ্ট বিষয়**.\n- **[250]** The passage explains that a star's **Rössi number** is determined by its **luminosity and rotation**. So, the correct answer is **A) উজ্জ্বলতা ও ঘূর্ণন**.\n- **[251]** The passage states that Murray lost the first tiebreak in the **first set**. So, the correct answer is **A) প্রথম সেটে ম্যুরে হেরে যান**.\n- **[252]** Dr. Ar is uncertain about whether **cure for diabetes** is possible. So, the correct answer is **B) যদি একটি প্রতিকার পাওয়া সম্ভব হয়**.\n- **[253]** The flight was canceled due to **bad weather**. So, the correct answer is **D) আবহাওয়ার অবস্থা খারাপ ছিল**.\n- **[254]** The government announced an increase in funding for **additional 1,300 carriages** to manage overcrowding. So, the correct answer is **C) তারা অতিরিক্ত 1,300 টি বগির জন্য তহবিল প্রদান করার পরিকল্পনা করেছে**.\n- **[255]** The statement says that **Turkey** (তুরস্ক) took responsibility for guarding the detained ISIS fighters. So, the correct answer is **D) টার্কি**.\n\n```json\n{\n  \"answers\": {\n    \"248\": \"B\",\n    \"249\": \"D\",\n    \"250\": \"A\",\n    \"251\": \"A\",\n    \"252\": \"B\",\n    \"253\": \"D\",\n    \"254\": \"C\",\n    \"255\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 2247,
+  "completion_tokens": 497,
+  "total_tokens": 2744,
+  "cost": 0.0004116,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004116,
+   "upstream_inference_prompt_cost": 0.00033705,
+   "upstream_inference_completions_cost": 7.455e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "C",
+  "255": "D"
+ },
+ "single": {},
+ "answers": {
+  "248": "B",
+  "249": "D",
+  "250": "A",
+  "251": "A",
+  "252": "B",
+  "253": "D",
+  "254": "C",
+  "255": "D"
+ }
+}

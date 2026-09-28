@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 3,
+ "ids": [
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 11.1,
+ "text": "**[id 30]** Ratio 7:11, total 162 → Allen = 162 × 11/18 = 99. In 10 years: 99 + 10 = **109**\n\n**[id 31]** Guesses: 80, 80/2 + 20 = 60, 80 × 1.25 = 100. Average = 240/3 = **80**\n\n**[id 32]** 10 dogs × 0.5 hr/day × 7 days = **35** hours\n\n**[id 33]** G + S = 110, G = S + 30 → S = 40, G = **70**\n\n**[id 34]** Aaron = 40/2 + 5 = 25; Siobhan = 25 − 2 = **23**\n\n**[id 35]** 4 + (4 × 1.25) = 4 + 5 = **9** points\n\n**[id 36]** 2 × 30 = 60 yogurts; 60/4 = 15 packs × $5 = **75** dollars\n\n**[id 37]** Spent: 8 × $20 + $5 left = $165 → sold 165/15 = 11 sets → remaining = 13 − 11 = **2**\n\n**[id 38]** Hours: 3 + 1.5 + 1.5 = 6 → speed = 60/6 = **10** mph\n\n**[id 39]** Skip 3 mph → run = 6 mph, walk = 1.5 mph. (2 hr × 6) + (4 hr × 1.5) = 12 + 6 = **18** miles\n\n{\"answers\": {\"30\": 109, \"31\": 80, \"32\": 35, \"33\": 70, \"34\": 23, \"35\": 9, \"36\": 75, \"37\": 2, \"38\": 10, \"39\": 18}}",
+ "usage": {
+  "completion_tokens": 920,
+  "completion_tokens_details": {
+   "reasoning_tokens": 484
+  },
+  "prompt_tokens": 1969,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2889
+ },
+ "served_by": null,
+ "answers_batch": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ },
+ "single": {},
+ "answers": {
+  "30": 109.0,
+  "31": 80.0,
+  "32": 35.0,
+  "33": 70.0,
+  "34": 23.0,
+  "35": 9.0,
+  "36": 75.0,
+  "37": 2.0,
+  "38": 10.0,
+  "39": 18.0
+ }
+}

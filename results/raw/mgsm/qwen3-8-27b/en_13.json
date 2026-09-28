@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 3.5,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 130]**\n1.  Start with 60 elves.\n2.  A third quit: $60 / 3 = 20$ elves quit.\n3.  Remaining elves: $60 - 20 = 40$.\n4.  10 more quit: $40 - 10 = 30$.\n5.  Answer: 30\n\n**[id 131]**\n1.  May expenditure: $500.\n2.  June expenditure: $500 - 60 = 440$.\n3.  Total expenditure: $500 + 440 = 940$.\n4.  Answer: 940\n\n**[id 132]**\n1.  Pam's rides: 2 roller coaster + 2 luge = 4 rides.\n2.  Fred's rides: 4 roller coaster + 2 luge = 6 rides.\n3.  Total rides: $4 + 6 = 10$.\n4.  Cost per ride: 6 tickets.\n5.  Total tickets: $10 \\times 6 = 60$.\n6.  Answer: 60\n\n**[id 133]**\n1.  Monday miles: 4.\n2.  Tuesday miles: $4 \\times 6 = 24$.\n3.  Total miles (Mon-Wed): 41.\n4.  Wednesday miles: $41 - (4 + 24) = 41 - 28 = 13$.\n5.  Answer: 13\n\n**[id 134]**\n1.  Monthly cost: $4 \\text{ washes} \\times \\$15/\\text{wash} = \\$60$.\n2.  Annual cost: $\\$60 \\times 12 \\text{ months} = \\$720$.\n3.  Answer: 720\n\n**[id 135]**\n1.  Brian's games after losing 5: The problem states \"Brian has 20 video games but lost 5 right before the comparison was made\". This phrasing implies the comparison is based on his current state *after* the loss, or it implies the \"20\" is the starting point and he now has 15. Let's re-read carefully: \"Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does. If Brian has 20 video games but lost 5 right before the comparison was made...\"\n    *   Interpretation A: Brian currently has 20. He lost 5, so before he had 25? No, \"Brian has 20... but lost 5\". This usually means he *starts* with 20, loses 5, so he has 15 left at the time of comparison.\n    *   Interpretation B: Brian *currently* has 20. The \"lost 5\" is extra info or defines how he got to 20? \"If Brian has 20... but lost 5... how many does Bobby have?\" The comparison \"Bobby has... as many as Brian does\" happens *after* the loss. So we must use the number Brian has *at the time of comparison*.\n    *   Let's look at standard math problem phrasing. \"X has Y. But he lost Z.\" Usually implies the effective number for the next step is $Y - Z$. So Brian has $20 - 5 = 15$ games at the time of comparison.\n    *   Bobby has $3 \\times 15 - 5 = 45 - 5 = 40$.\n    *   Alternative Interpretation: \"Brian has 20\" is the fact. The \"lost 5\" is a distractor or context for a previous state? No, \"right before the comparison\" links the loss to the comparison. The comparison uses the amount Brian has *then*. Brian had 20, lost 5, so he has 15. Bobby = $3(15) - 5 = 40$.\n2.  Answer: 40\n\n**[id 136]**\n1.  Total unicorns: 27.\n2.  Scottish unicorns: $1/3$ of 27 = 9.\n3.  Female Scottish unicorns: $2/3$ of 9 = 6.\n4.  Answer: 6\n\n**[id 137]**\n1.  Subs: $2 \\times 7.50 = 15.00$.\n2.  Chips: $2 \\times 1.50 = 3.00$.\n3.  Cookies: $2 \\times 1.00 = 2.00$.\n4.  Subtotal: $15.00 + 3.00 + 2.00 = 20.00$.\n5.  Delivery fee: $20\\%$ of $20.00 = 4.00$.\n6.  Tip: $5.00$.\n7.  Total cost: $20.00 + 4.00 + 5.00 = 29.00$.\n8.  Answer: 29\n\n**[id 138]**\n1.  Rate: 5 questions/hour.\n2.  Test 1: 75 questions, 8 hours available.\n    *   Capacity in 8 hours: $8 \\times 5 = 40$ questions.\n    *   Completed: 40 (since $40 < 75$).\n    *   Incomplete: $75 - 40 = 35$.\n3.  Test 2: 100 questions, 6 hours available.\n    *   Capacity in 6 hours: $6 \\times 5 = 30$ questions.\n    *   Completed: 30 (since $30 < 100$).\n    *   Incomplete: $100 - 30 = 70$.\n4.  Total incomplete: $35 + 70 = 105$.\n5.  Answer: 105\n\n**[id 139]**\n1.  Blue gumballs: 12.\n2.  Pink gumballs: 22 more than 4 times the number of blue.\n3.  Calculation: $4 \\times 12 + 22 = 48 + 22 = 70$.\n4.  Answer: 70\n\n```json\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}\n```",
+ "usage": {
+  "queue_time": 0.099129997,
+  "prompt_tokens": 676,
+  "prompt_time": 0.057269598,
+  "completion_tokens": 1595,
+  "completion_time": 3.191723405,
+  "total_tokens": 2271,
+  "total_time": 3.248993003
+ },
+ "served_by": null,
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

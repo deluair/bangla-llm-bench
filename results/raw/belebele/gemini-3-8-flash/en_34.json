@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 9.8,
+ "text": "Here are the brief justifications for each question:\n\n- **[id 272]**: The passage states that temple festivals feature a \"regular procession of decorated elephants\", making **C** the correct choice.\n- **[id 273]**: The passage highlights that for ready-made food without cooking opportunities, some supermarkets provide \"a microwave oven or other means to heat food\", making **D** correct.\n- **[id 274]**: The text explicitly notes that \"the numbering system in French-speaking Belgium and Switzerland has some slight peculiarities that are different from the French spoken in France\", making **B** correct.\n- **[id 275]**: The passage states that \"writing is somewhat complicated by the need to find out whether a verb or adjective is used in a substantivized form\", pointing to **C**.\n- **[id 276]**: The passage notes that glaciers develop \"cracks, crevasses, which may be obscured by snow bridges\", so **A** is correct.\n- **[id 277]**: The text cautions tourists about ongoing fighting in the North Kivu province; claiming the fights are \"entertaining\" would not be a good tip, making **A** correct.\n- **[id 278]**: The passage explicitly mentions that \"Permits are limited to protect the canyon\", making **D** the correct answer.\n- **[id 279]**: The text specifies that \"Cold weather is perhaps the only real danger the unprepared will face\", making **C** correct.\n\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 17193,
+  "output_tokens": 2097,
+  "thinking_tokens": 1696,
+  "cache_read_tokens": 8162,
+  "total_tokens": 19290
+ },
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

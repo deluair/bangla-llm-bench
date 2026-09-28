@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 5.2,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 10]**\n*   Month 1: 60 downloads.\n*   Month 2: $60 \\times 3 = 180$ downloads.\n*   Month 3: A 30% decrease from Month 2. $180 \\times (1 - 0.30) = 180 \\times 0.70 = 126$ downloads.\n*   Total: $60 + 180 + 126 = 366$.\n*   Answer: 366\n\n**[id 11]**\n*   Donuts: 3 dozen at $\\$68$/dozen. Cost = $3 \\times 68 = 204$.\n*   Cupcakes: 2 dozen at $\\$80$/dozen. Cost = $2 \\times 80 = 160$.\n*   Cheesecakes: 6 dozen at $\\$55$/dozen. Cost = $6 \\times 55 = 330$.\n*   Total Cost: $204 + 160 + 330 = 694$.\n*   Answer: 694\n\n**[id 12]**\n*   Initial Cost: $\\$90$.\n*   Annual Expense: $\\$3$.\n*   Annual Revenue: 7 lemons $\\times$ $\\$1.5$/lemon = $\\$10.5$.\n*   Net Profit/Loss per year: $\\$10.5 - \\$3 = \\$7.5$ profit per year.\n*   To break even (start earning money), he must recover the initial $\\$90$ cost.\n*   Years to recover cost: $90 / 7.5 = 12$ years.\n*   After 12 years, he has broken even. In the 13th year, he starts making a net profit compared to the start. The question asks \"after how many years\" he starts earning. Usually, this implies the first year where the cumulative net is positive. By end of year 12, net is 0. By end of year 13, net is +7.5. However, often these problems ask for the time to *start* the process of earning beyond just breaking even, or simply the break-even point. Let's re-read carefully: \"start earning money from the lemon tree\". This usually means the break-even point where revenue equals total cost. At the end of year 12, Revenue = 12 * 10.5 = 126. Total Cost = 90 + 12 * 3 = 126. He has earned back his money. Does he \"start earning\" in year 12 or does he start *making a profit* in year 13? In financial terms, \"start earning\" usually means covering the initial investment. Let's look at the phrasing \"কত বছর লাগবে\" (how many years will it take). It takes 12 years to recover the initial investment. After that, he is earning. Let's assume the question asks for the number of years required to turn a profit from the initial investment standpoint. 12 years is the break-even. Let's check if the question implies integer years. Yes.\n    *   Wait, let's re-evaluate. Year 1: Net +7.5. Year 2: Net +15... Year 12: Net +90. So at the end of year 12, his final position is 0 relative to the start (0 profit/loss). In Year 13, he makes a profit. So he \"starts earning\" (making money) in the 13th year? Or does \"earning\" mean recovering the cost? Usually, \"start earning\" means the point of profitability. Let's look at similar problems. Often, the answer is the break-even year. Let's assume the question asks for the duration until the total earnings exceed the total costs.\n    *   Let's check the wording again. \"লেবু গাছ থেকে অর্থ উপার্জন করা শুরু করতে\" -> To start earning money from the lemon tree.\n    *   If I plant it, I lose 90.\n    *   End of Y1: Balance -82.5.\n    *   ...\n    *   End of Y12: Balance 0.\n    *   End of Y13: Balance +7.5.\n    *   He starts to have positive balance in Year 13. However, often in these simple math contests, the answer is the break-even point (12). Let's look for clues. If the question was \"how long until profit\", it would be stricter. \"Start earning\" is ambiguous. But let's look at the numbers. 90 / 7.5 = 12. It's a very clean integer. This suggests 12 is the intended answer, representing the time to recover the initial outlay.\n\n**[id 13]**\n*   Let $x$ be the total number of vacuum cleaners.\n*   Sold to Green House: $x/3$.\n*   Sold to Red Houses: 2.\n*   Remaining after these sales: $x - x/3 - 2 = 2x/3 - 2$.\n*   Sold to Orange House: Half of the remaining. So, $0.5 \\times (2x/3 - 2)$.\n*   Leftover: 5.\n*   So, remaining after Orange sale is 5.\n*   $0.5 \\times (2x/3 - 2) = 5$.\n*   $2x/3 - 2 = 10$.\n*   $2x/3 = 12$.\n*   $2x = 36$.\n*   $x = 18$.\n*   Check: Start 18. Green: 6. Red: 2. Left: 10. Orange: half of 10 = 5. Left: 5. Correct.\n*   Answer: 18\n\n**[id 14]**\n*   Total students = 20.\n*   Contemporary: 20% of 20 = 4 students.\n*   Jazz: 25% of 20 = 5 students.\n*   Hip-hop: The rest. $20 - 4 - 5 = 11$ students.\n*   Question asks for the **percentage** of total students enrolled in hip-hop.\n*   Percentage = $(11 / 20) \\times 100 = 55\\%$.\n*   Answer: 55\n\n**[id 15]**\n*   Option A (Jewelry): Cost $\\$5,000$. Increase 2.5%.\n    *   Value end of month = $5000 \\times 1.025 = 5125$.\n    *   Profit = $5125 - 5000 = 125$.\n*   Option B (Electronics): Cost $\\$8,000$. Increase 1.2%.\n    *   Value end of month = $8000 \\times 1.012 = 8096$.\n    *   Profit = $8096 - 8000 = 96$.\n*   Maximum profit is $\\$125$.\n*   Answer: 125\n\n**[id 16]**\n*   Day 1: West 80 miles.\n*   Day 2: North 150 miles.\n*   The question asks for the total distance traveled (\"কত দূরত্ব অতিক্রম করেছে\"), not the displacement.\n*   Total Distance = $80 + 150 = 230$ miles.\n*   Answer: 230\n\n**[id 17]**\n*   Jill works 50 weeks a year.\n*   Weekly hours: 35 hours teaching, 15 hours training.\n*   Teaching pay: $\\$20$/hr. Training pay: $\\$30$/hr.\n*   Weekly income = $(35 \\times 20) + (15 \\times 30)$.\n    *   $35 \\times 20 = 700$.\n    *   $15 \\times 30 = 450$.\n    *   Total weekly = $1150$.\n*   Annual income = $1150 \\times 50$.\n    *   $1150 \\times 50 = 57,500$.\n*   Answer: 57500\n\n**[id 18]**\n*   Claire eats 3 eggs per day.\n*   Duration: 4 weeks.\n*   Total days = $4 \\times 7 = 28$ days.\n*   Total eggs = $28 \\times 3 = 84$ eggs.\n*   Question asks for **dozens** of eggs.\n*   Dozens = $84 / 12 = 7$.\n*   Answer: 7\n\n**[id 19]**\n*   Total distance = 12 miles.\n*   Desired average speed = 4 miles/hour.\n*   Total time required for average speed = Total Distance / Average Speed = $12 / 4 = 3$ hours.\n*   Time already spent:\n    *   First 4 miles: 1 hour.\n    *   Next 2 miles: 1 hour.\n    *   Total time spent so far = 2 hours.\n    *   Distance covered so far = $4 + 2 = 6$ miles.\n*   Remaining distance: $12 - 6 = 6$ miles.\n*   Remaining time available: $3 \\text{ hours (total)} - 2 \\text{ hours (spent)} = 1$ hour.\n*   Required speed = Remaining Distance / Remaining Time = $6 / 1 = 6$ miles/hour.\n*   Answer: 6\n\n```json\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 55, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n```",
+ "usage": {
+  "queue_time": 0.098903535,
+  "prompt_tokens": 1291,
+  "prompt_time": 0.10357132,
+  "completion_tokens": 2363,
+  "completion_time": 4.780555347,
+  "total_tokens": 3654,
+  "total_time": 4.884126667
+ },
+ "served_by": null,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

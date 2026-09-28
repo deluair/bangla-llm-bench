@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "168",
+  "169",
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175"
+ ],
+ "seconds": 10.3,
+ "text": "The questions are answered as follows:\n\n[168] The passage states: \"Thus, the Thirty Years' War would be the last war to be labeled a religious war.\" Therefore, A is correct.\n[169] The passage mentions the mob forced the windows open (A), the royal family was forced back to Paris (D), and a member waved a severed head (C). While they were forced from Versailles, the question asks what was *forced upon them by the mob*—the \"abrupt exit\" itself is the consequence of the mob, but specifically, the text details the window (A), the trip (D), and the head (C). However, looking at the options, \"An abrupt exit\" is a description of the event, while the others are specific actions/visceral experiences mentioned. Wait, looking closer: The King/Queen were \"forced back to Paris\" (D). The windows were \"forced... wide open\" (A). The head was waved in front of the Queen (C). Option B \"An abrupt exit from Versailles\" is the general event resulting from the mob's presence, but the text specifically details A, C, and D as things the mob did/forced. Actually, the question asks what was *not* forced. The family was \"forced back to Paris\" (D). They were forced to have windows open (A). A head was waved (C). The \"abrupt exit\" is the act of being forced back to Paris. Let's re-read. The text says they were \"forced back to Paris... by a mob\". This is D. The windows were \"forced... wide open\". This is A. The head was waved (C). Actually, option B is the most logical \"not\" if we consider the others as specific actions, but B is essentially D. Let's look at C: \"A viewing of the guard's beheading\". The text says the mob waved the *head* of a guard *killed at Versailles*. It does not say they viewed the *beheading* itself. This is a subtle distinction.\n[170] The passage states Britain's mining of waters caused danger to \"even neutral ships.\" Therefore, D (\"It ensured that neutral ships wouldn't be jeopardized\") is false.\n[171] The passage states: \"If you get hurt trying to help, you may only serve to make matters worse.\" Thus, you *should* be concerned with your own safety. A is the incorrect statement.\n[172] The passage states \"Almost everyone complains about transportation systems.\" This makes C correct.\n[173] The passage lists three factors: \"the type of mutation, the significance of the piece of genetic material affected and whether the cells affected are germ-line cells.\" Option A (\"How much of the genetic material is affected\") is not listed.\n[174] The passage states \"The most violent two percent of tornadoes last more than three hours.\" This implies the other 98% (the majority) last less than three hours. It also says tornadoes \"uproot trees,\" which is a capability of tornadoes in general. Option D is a correct description of tornadoes.\n[175] The passage states \"the iron [on the tracks] caused more wear on the wooden wheels of the wagons. Eventually, wooden wheels were replaced by iron wheels.\" Therefore, D is correct.\n\nRe-evaluating 169: The text says \"waved the head of a royal guard killed at Versailles\". It does not say they watched the beheading. Thus, C is the best answer for what was \"not\" forced (they saw the head, not the act).\n\n{\"answers\": {\"168\": \"A\", \"169\": \"C\", \"170\": \"D\", \"171\": \"A\", \"172\": \"C\", \"173\": \"A\", \"174\": \"D\", \"175\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 1391,
+  "completion_tokens": 843,
+  "total_tokens": 2234,
+  "cost": 0.00025166,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 16,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025166,
+   "upstream_inference_prompt_cost": 8.306e-05,
+   "upstream_inference_completions_cost": 0.0001686
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers_batch": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ },
+ "single": {},
+ "answers": {
+  "168": "A",
+  "169": "C",
+  "170": "D",
+  "171": "A",
+  "172": "C",
+  "173": "A",
+  "174": "D",
+  "175": "D"
+ }
+}

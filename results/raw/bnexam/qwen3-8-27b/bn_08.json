@@ -1,0 +1,281 @@
+{
+ "task": "bnexam",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306",
+  "7690d276-0c68-4558-8bec-453730563cce-1991",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114"
+ ],
+ "seconds": 15.8,
+ "text": "Here are the step-by-step solutions for each question:\n\n**1. [id 67ab314c-5a13-4a89-b35f-6e9537e74c71-89189]**\nQuestion: Which disease is caused by insulin deficiency?\nInsulin is a hormone produced by the beta cells of the pancreas that regulates blood glucose levels. A deficiency in insulin leads to high blood sugar, a condition known as Diabetes Mellitus. In Bengali, Diabetes is referred to as \"Bhomufotro\" (বহুমূত্র).\n- A) Heart disease (Harnodrog)\n- B) Diabetes (Bhomufotro)\n- C) Jaundice (Jondis)\n- D) None\nAnswer: B\n\n**2. [id 68569189-0bf1-4a15-ae3f-60f829a88ebb-79778]**\nQuestion: Which statement is NOT true for Sclerenchyma?\nSclerenchyma cells are dead at maturity, have thick lignified cell walls, and are densely packed. Since they are dead, they do not contain protoplasm, chloroplasts, or other living organelles.\n- A) Cells are dead (True)\n- B) Cell walls are lignified (True)\n- C) Chloroplasts are present (False - they are dead cells)\n- D) Cell walls are thick (True)\nAnswer: C\n\n**3. [id 6933878d-b2f3-4939-b07e-1ce5d40c908c-20187]**\nQuestion: What is the cofactor of the element at (1,2) of the determinant |3 -4; 2 -1|? (Note: The text formatting is messy, but it looks like a 2x2 matrix).\nLet's assume the matrix is $\\begin{vmatrix} 3 & -4 \\\\ 2 & -1 \\end{vmatrix}$.\nThe element at $(1,2)$ is $a_{12} = -4$.\nThe cofactor $C_{12}$ is calculated as $(-1)^{1+2} \\times M_{12}$, where $M_{12}$ is the minor (determinant of the submatrix obtained by removing row 1 and column 2).\n$M_{12} = 2$.\n$C_{12} = (-1)^3 \\times 2 = -1 \\times 2 = -2$.\nWait, looking at the options (-184, -46, 46, 184), this seems like a 3x3 or larger determinant or the numbers in the prompt are grouped differently. Let's re-read the raw text: `∣∣3−42−1567−84∣∣`.\nIt looks like a 3x3 matrix:\nRow 1: 3, -4, 2\nRow 2: -1, 5, 6\nRow 3: 7, -8, 4\nElement at $(1,2)$ is $-4$.\nCofactor $C_{12} = (-1)^{1+2} \\det \\begin{vmatrix} -1 & 6 \\\\ 7 & 4 \\end{vmatrix}$\n$C_{12} = -1 \\times ((-1)(4) - (6)(7)) = -1 \\times (-4 - 42) = -1 \\times (-46) = 46$.\nAnswer: C\n\n**4. [id 6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046]**\nQuestion: What is the concentration of 0.015 M CaCl2 solution in ppm?\nMolar mass of CaCl2 = $40.08 + 2 \\times 35.45 = 40.08 + 70.90 = 110.98$ g/mol.\nConcentration in g/L = Molarity $\\times$ Molar Mass = $0.015 \\times 110.98 = 1.6647$ g/L.\n1 g/L = 1000 mg/L = 1000 ppm (for dilute aqueous solutions).\nSo, 1.6647 g/L = 1664.7 mg/L = 1664.7 ppm.\nRounding to nearest integer, it is approx 1665 ppm.\nAnswer: A\n\n**5. [id 6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683]**\nQuestion: Distance between point (2,3) and its reflection across line 4x + 3y - 7 = 0?\nThe distance from a point $(x_1, y_1)$ to a line $ax + by + c = 0$ is given by $d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$.\nHere, $(x_1, y_1) = (2, 3)$, $a=4, b=3, c=-7$.\n$d = \\frac{|4(2) + 3(3) - 7|}{\\sqrt{4^2 + 3^2}} = \\frac{|8 + 9 - 7|}{\\sqrt{16 + 9}} = \\frac{10}{5} = 2$.\nThe distance between the original point and its image across the line is twice the perpendicular distance from the point to the line.\nDistance between reflection and original point = $2 \\times d = 2 \\times 2 = 4$ units.\nAnswer: B\n\n**6. [id 71f25bf8-a76a-466d-bc74-007ef39e7c15-128717]**\nQuestion: Who is the painter of the oil painting 'Panchendriya' (Five Senses)?\n\"Abhijna\" is a famous series, but \"Panchendriya\" or \"Abhijnya\" (often associated with Mukul Dey or others?) Let's check the specific title \"Panchendriya\".\nMokbul Hossain (Mokbul Ferdous?) No, it refers to **Mokbul Hossain**? Actually, **Mokbul Hossain** is a contemporary artist. However, looking at the options:\nA) Leonardo da Vinci\nB) Mokbul Fida Hossain (Likely refers to **Mokbul Hossain** or a misspelling of a Bangladeshi artist like **Abul Hossain** or **Mokbul**? Wait, \"Mokbul Fida Hossain\" seems like a specific name. Let's look for \"Panchendriya\" painting.)\nActually, **Mokbul Hossain** (artist) created \"Abhijnna\". But the question asks about \"Panchendriya\".\nLet's reconsider. Is it a trick?\nCommon Bengali painters: Amate Hossain, Mukul Dey, Zainul Abedin, Shahabuddin Ahmed, Hasan Khan, Abul Hossain, Mozumdar Ali, etc.\n\"Mokbul Fida Hossain\" doesn't ring a bell as a major classic painter for this specific title in standard curricula.\nHowever, looking at the options, A, C, D are Western masters. B is a Bengali name. In Bangladeshi/Indian art contexts asking about a piece named \"Panchendriya\" (The Five Senses), it is highly likely to be a local artist.\nLet's assume the question refers to **Mokbul Hossain**'s work or potentially **Mokbul Fida** is a specific artist. Given the other options are global icons not known for a specific painting titled \"Panchendriya\" in this context, B is the most logical choice by elimination and cultural context.\n*Correction*: There is a well-known painter **Mokbul Hossain**? No, **Mokbul** might be a typo for **Makbul** or similar. However, **Mokbul Fida Hossain** appears in some local exam banks.\nLet's check if \"Panchendriya\" is a work by **Mokbul Hossain**. Yes, artist **Mokbul Hossain** has works on the senses.\nAnswer: B\n\n**7. [id 72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147]**\nQuestion: Which halogen acid is the strongest?\nThe strength of binary hydrogen halides increases down the group due to increasing bond length and decreasing bond dissociation energy. The order of strength is HF < HCl < HBr < HI.\nTherefore, HI is the strongest.\nAnswer: D\n\n**8. [id 7365fff4-3ba8-4efb-ac67-5a7940463525-14949]**\nQuestion: For a simple harmonic oscillator (specifically a simple pendulum in the small angle approximation), the angular displacement should not exceed which value for the motion to be considered simple harmonic?\nThe formula $T = 2\\pi\\sqrt{L/g}$ is valid only for small angles, typically less than $5^\\circ$ or $10^\\circ$. In many physics textbooks and exams, the limit quoted is often $5^\\circ$ (0.05 rad) or sometimes $10^\\circ$. Among the options 3, 4, 5, 6 degrees, **5°** is the standard cutoff often cited for the small angle approximation to hold with reasonable accuracy (error < 1-2%).\nAnswer: D\n\n**9. [id 752de91a-4a2e-4c17-b275-f73ebde26e01-59185]**\nQuestion: A siren emits sound of frequency 120 Hz. It moves away from you with a speed of 15 m/s. What is the apparent frequency? (Speed of sound = 320 m/s).\nFormula for Doppler effect when source moves away from stationary observer:\n$f' = f \\left( \\frac{v}{v + v_s} \\right)$\n$f = 120$ Hz\n$v = 320$ m/s\n$v_s = 15$ m/s\n$f' = 120 \\left( \\frac{320}{320 + 15} \\right) = 120 \\left( \\frac{320}{335} \\right)$\n$f' = 120 \\times 0.95522...$\n$f' \\approx 114.62$ Hz.\nAnswer: C\n\n**10. [id 753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591]**\nQuestion: Which statement is true for a simple pendulum?\nA) Time period is inversely proportional to acceleration due to gravity ($g$). ($T \\propto 1/\\sqrt{g}$, so False)\nB) If taken from Earth surface to Moon surface, the amplitude of oscillation will decrease. (Amplitude depends on initial conditions/energy. Period increases due to lower $g$. This statement is generally indefinite/False without context of energy conservation, but usually \"amplitude\" isn't defined as changing just by location unless driven. However, let's look at C and D.)\nC) Oscillation frequency depends on the effective length. (Frequency $f = \\frac{1}{2\\pi}\\sqrt{\\frac{g}{L}}$. Yes, it depends on length $L$. Specifically, $f \\propto 1/\\sqrt{L}$. This is a True statement regarding dependency.)\nD) Frequency is directly proportional to effective length. (False, it's inverse square root proportional).\nComparing B and C: Statement C is a fundamental physical property. Statement B is ambiguous (amplitude is a kinematic quantity determined by initial displacement, while frequency/period are dynamic properties of the system determined by $L$ and $g$). If a pendulum is set in motion on Earth and then moved to the Moon, its amplitude (in terms of angle) might remain the same if no energy is lost, but the period changes. Usually, questions about pendulums focus on the dependence of Period/Frequency on $g$ and $L$.\nStatement C says \"depends on\". This is true.\nAnswer: C\n\n**11. [id 75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886]**\nQuestion: How long is the systole of the atria in the human heart?\nThe cardiac cycle lasts about 0.8 seconds.\nAtrial systole lasts approximately 0.1 seconds.\nVentricular systole lasts approximately 0.3 seconds.\nDiastole (relaxation) lasts approximately 0.4 seconds.\nAnswer: C\n\n**12. [id 7618488d-de61-4487-ada3-2eb2618165d7-84216]**\nQuestion: An I&CE student gave a condition to a CSE student: Maximize $Z = ?$ (The objective function is missing in the text, but usually implied or standard). The constraints are $x+2y \\le 8$, $2x+y \\le 10$, $x,y \\ge 0$.\nWait, the question asks for a value (45, 46, 47, 48). The objective function is missing. However, in linear programming problems in such exams, the objective is often to maximize $Z = ax + by$.\nLet's find the feasible region vertices:\n1. Origin: $(0,0) \\rightarrow Z=0$\n2. Intersection with axes:\n   - For $x+2y=8$: $(8,0)$ and $(0,4)$.\n   - For $2x+y=10$: $(5,0)$ and $(0,10)$.\n   Feasible region vertices:\n   - $(0,0)$\n   - $(5,0)$ (x-intercept of tighter bound $2x \\le 10$ vs $x \\le 8$? No, $x+2y \\le 8 \\Rightarrow x \\le 8$. $2x+y \\le 10 \\Rightarrow x \\le 5$. So x-axis intercept is 5. At $(5,0)$, check other constraint: $5+0 \\le 8$ (OK).)\n   - $(0,4)$ (y-intercept of tighter bound $2y \\le 8 \\Rightarrow y \\le 4$ vs $y \\le 10$. So y-axis intercept is 4. At $(0,4)$, check other constraint: $0+4 \\le 10$ (OK).)\n   - Intersection of $x+2y=8$ and $2x+y=10$:\n     $x = 8-2y$\n     $2(8-2y) + y = 10 \\Rightarrow 16 - 4y + y = 10 \\Rightarrow -3y = -6 \\Rightarrow y=2$.\n     $x = 8 - 4 = 4$.\n     Point: $(4,2)$.\nVertices are $(0,0), (5,0), (4,2), (0,4)$.\nLet's assume the objective function was $Z = 9x + 7y$? Or something that yields 40-50.\nLet's test the vertices with common coefficients.\nIf $Z = 6x + 6y$:\n$(5,0) \\rightarrow 30$\n$(4,2) \\rightarrow 24+12=36$\n$(0,4) \\rightarrow 24$\nIf $Z = 9x + 6y$:\n$(5,0) \\rightarrow 45$\n$(4,2) \\rightarrow 36+12=48$\n$(0,4) \\rightarrow 24$\nMax is 48.\nIf $Z = 8x + 7y$:\n$(5,0) \\rightarrow 40$\n$(4,2) \\rightarrow 32+14=46$\n$(0,4) \\rightarrow 28$\nMax is 46.\nIf $Z = 9x + 5y$:\n$(5,0) \\rightarrow 45$\n$(4,2) \\rightarrow 36+10=46$\nMax 46.\nIf $Z = 10x + 5y$:\n$(5,0) \\rightarrow 50$\n$(4,2) \\rightarrow 40+10=50$\nIf $Z = 6x + 9y$:\n$(5,0) \\rightarrow 30$\n$(4,2) \\rightarrow 24+18=42$\n$(0,4) \\rightarrow 36$\nLet's look at the options: 45, 46, 47, 48.\nA very common textbook problem maximizes $Z = 6x + 5y$? No.\nLet's guess the objective function based on the answer key distribution.\nOften these problems come from a specific context where $Z = 9x + 6y$ or similar.\nLet's check $Z = 5x + 5y$? Max at (4,2) is 30.\nWhat if the question implies maximizing $x$? Max $x=5$.\nWhat if it's $Z = x+y$? Max at (4,2) is 6.\nLet's re-read carefully. \"Information and communication Engineering... gave a condition...\". This might be a story from a specific local exam paper.\nCommon LP problem: Max $Z = 6x + 9y$? No.\nLet's try to reverse engineer.\nIf max is 48, likely vertex (4,2) with $4a+2b=48$.\nIf max is 45, likely vertex (5,0) with $5a=45 \\Rightarrow a=9$. Then check (4,2): $36+2b$. If $b < 6$, then 45 is max.\nIf max is 46, likely vertex (4,2) with $4a+2b=46 \\Rightarrow 2a+b=23$.\nIf max is 47, unlikely integer coefficients.\nLet's assume the standard problem \"Maximize $5x + 4y$\"?\n$(5,0) \\rightarrow 25$\n$(4,2) \\rightarrow 20+8=28$\n$(0,4) \\rightarrow 16$\nWhat if the objective is $Z = 9x + 6y$?\n$(5,0) \\rightarrow 45$\n$(4,2) \\rightarrow 36+12=48$\n$(0,4) \\rightarrow 24$\nMax is 48. Option D.\nWhat if $Z = 8x + 7y$?\n$(5,0) \\rightarrow 40$\n$(4,2) \\rightarrow 32+14=46$\nMax 46. Option B.\nWithout the objective function, this is ambiguous. However, \"48\" is a \"cleaner\" maximum often found in such constructed problems where the gradient points towards the corner intersection. Let's look for clues in similar online questions.\nA common variant is Max $Z = 6x + 4y$?\nActually, there is a known problem: Max $Z = 10x + 5y$? No.\nLet's guess **48** as it corresponds to the intersection point $(4,2)$ which is the \"internal\" vertex often yielding the max in canonical LP examples (unlike boundary points).\nAnswer: D (Probabilistic guess based on typical LP structures where the internal intersection is the optimum).\n\n**13. [id 764f6eda-81b0-45a0-bb6d-44c26c53782e-7306]**\nQuestion: Due to the greenhouse effect created by the atmosphere, what is the current average temperature of the Earth in °C?\nThe average surface temperature of the Earth is approximately $15^\\circ\\text{C}$ (or $288\\text{ K}$). Without the greenhouse effect, it would be about $-18^\\circ\\text{C}$.\nAnswer: C\n\n**14. [id 7690d276-0c68-4558-8bec-453730563cce-1991]**\nQuestion: For which electron in an atom is the set of quantum numbers NOT possible?\nRules:\n$n$: principal, $1, 2, 3...$\n$l$: azimuthal, $0$ to $n-1$.\n$m$: magnetic, $-l$ to $+l$.\n$s$: spin, $\\pm 1/2$.\nA) $n=3, l=3...$ Here $l$ must be less than $n$. Max $l$ for $n=3$ is $2$ ($d$-orbital). So $l=3$ is invalid for $n=3$.\nB) $n=2, l=1$ (Valid, $1<2$), $m=0$ (Valid, $-1\\le0\\le1$), $s=1/2$ (Valid).\nC) $n=4, l=3$ (Valid, $3<4$), $m=-1$ (Valid, $-3\\le-1\\le3$), $s=-1/2$ (Valid).\nD) $n=4, l=3$ (Valid), $m=1$ (Valid), $s=-1/2$ (Valid).\nTherefore, A is the impossible set.\nAnswer: A\n\n**15. [id 76d2d03f-237f-4d28-82a5-1607191c62e2-121114]**\nQuestion: Which of the following is NOT a type of vascular bundle?\nTypes of vascular bundles are classified based on the arrangement of xylem and phloem:\n1. Collateral (Samaparshyi / Cognate)\n2. Bicollateral\n3. Concentric (Akhandal / Concentric)\n4. Radial (Ariya / Radial)\nOptions:\nA) Ariya (Radial) - This IS a type of vascular bundle (found in roots).\nB) Kendriya (Central/Stele?) - \"Kendriya\" usually refers to the stele itself, or central pith. It is not a standard *type* of vascular bundle classification like collateral or concentric. However, let's check D.\nC) Samaparshyi (Collateral) - This IS a type of vascular bundle.\nD) Protisim (Symmetric/Isobilateral?) - \"Protisim\" leaf is a term, not a vascular bundle type. Wait.\nLet's re-evaluate standard Bengali botanical terms.\nTypes:\n- Radial (Ariya)\n- Collateral (Samaparshyi)\n- Concentric (Paridha/Samabindi?)\n- Bicollateral\n\"Kendriya\" (Central) is often used to describe the stele, but \"Concentric\" bundles are sometimes called \"Central\" in loose translation? No, Concentric is \"Samabindi\" or similar.\nLet's look at \"Protisim\" (Symmetry). Vascular bundles don't have a \"symmetric\" type.\nHowever, \"Kendriya\" (Central) might be a distractor.\nLet's check if \"Kendriya\" is considered a type. In some contexts, monostelic types are named.\nBut \"Protisim\" is definitely not a type of vascular bundle.\nWait, let's look at option B again. \"Kendriya\" could be a mistranslation of \"Concentric\"? No, concentric is usually \"Pari\" or \"Gulph\".\nLet's look at A, C. Radial and Collateral are definitely types.\nBetween B and D:\n\"Protisim\" (Symmetric) is not a classification of vascular bundles.\n\"Kendriya\" (Central) might refer to the positional arrangement in some old texts or \"Centroidal\"?\nActually, in some multiple choice questions, \"Bicollateral\" is a type. \"Concentric\" is a type.\nIs \"Kendriya\" a type? No.\nIs \"Protisim\" a type? No.\nWhich one is the intended \"Not a type\"?\nLet's check the source or common errors.\nCommon types: Radial, Collateral, Concentric, Bicollateral.\nBengali: Ariya, Samaparshyi, Sambodi (Concentric), Dwibidha Samaparshyi (Bicollateral).\nOption B says \"Kendriya\". Option D says \"Protisim\".\n\"Protisim\" is clearly a geometric property, not a biological structure type.\n\"Kendriya\" might be a typo for \"Concentric\" (if the author thinks Central=Concentric) OR it is the wrong answer.\nHowever, \"Concentric\" bundles have xylem and phloem arranged in circles around each other. They are not \"central\".\nLet's assume the question asks for the one that is NOT a type.\nIf B stands for \"Concentric\" (bad translation), then it's a type.\nIf D stands for \"Symmetric\", it's not a type.\nUsually, \"Protisim\" (Symmetric) is associated with leaves (isobilateral).\nI will bet on **D** being the odd one out because \"Kendriya\" might be a confused term for a specific arrangement in a specific textbook, whereas \"Protisim\" is definitively not a vascular bundle type.\n*Self-Correction*: Actually, \"Concentric\" is often translated as **\"Paridha\"** or **\"Gulph\"**. \"Kendriya\" means Central. There is no \"Central vascular bundle\".\nBut \"Protisim\" is also not one.\nLet's look at the phrasing again. \"Vascular bundle parokarbhede\" (Types of vascular bundles).\nA) Radial (Type)\nC) Collateral (Type)\nB) Central? D) Symmetric?\nIn many MCQs, \"Tetrahedral\" or \"Symmetric\" are distractors.\nHowever, some sources list \"Concentric\" as a main type.\nLet's guess **D** is the intended answer for \"Not a type\" because \"Central\" might be used loosely for \"Concentric\" in low-quality translation, but \"Symmetric\" is completely unrelated.\n*Alternative*: Maybe \"Kendriya\" refers to \"Protostele\" (Central xylem)? A protostele is a *stele* type, not a *bundle* type.\nThis is tricky. Let's look at Option B again. If the question is from a specific book, \"Kendriya\" might be the name for Concentric.\nLet's go with **D** as the most obvious non-scientific category for bundles.\n\nAnswer: D\n\n```json\n{\"answers\": {\"67ab314c-5a13-4a89-b35f-6e9537e74c71-89189\": \"B\", \"68569189-0bf1-4a15-ae3f-60f829a88ebb-79778\": \"C\", \"6933878d-b2f3-4939-b07e-1ce5d40c908c-20187\": \"C\", \"6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046\": \"A\", \"6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683\": \"B\", \"71f25bf8-a76a-466d-bc74-007ef39e7c15-128717\": \"B\", \"72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147\": \"D\", \"7365fff4-3ba8-4efb-ac67-5a7940463525-14949\": \"D\", \"752de91a-4a2e-4c17-b275-f73ebde26e01-59185\": \"C\", \"753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591\": \"C\", \"75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886\": \"C\", \"7618488d-de61-4487-ada3-2eb2618165d7-84216\": \"D\", \"764f6eda-81b0-45a0-bb6d-44c26c53782e-7306\": \"C\", \"7690d276-0c68-4558-8bec-453730563cce-1991\": \"A\", \"76d2d03f-237f-4d28-82a5-1607191c62e2-121114\": \"D\"}}\n```",
+ "usage": {
+  "queue_time": 0.121766067,
+  "prompt_tokens": 1889,
+  "prompt_time": 0.157814626,
+  "completion_tokens": 6977,
+  "completion_time": 15.421209744,
+  "total_tokens": 8866,
+  "total_time": 15.579024369999999
+ },
+ "served_by": null,
+ "answers_batch": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "D",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ },
+ "single": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.050308422,
+    "prompt_tokens": 138,
+    "prompt_time": 0.010810119,
+    "completion_tokens": 2,
+    "completion_time": 0.004188561,
+    "total_tokens": 140,
+    "total_time": 0.01499868
+   },
+   "answer": "B"
+  },
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.1390509,
+    "prompt_tokens": 155,
+    "prompt_time": 0.013871771,
+    "completion_tokens": 2,
+    "completion_time": 0.004119492,
+    "total_tokens": 157,
+    "total_time": 0.017991263
+   },
+   "answer": "B"
+  },
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 0.070305058,
+    "prompt_tokens": 183,
+    "prompt_time": 0.014418826,
+    "completion_tokens": 2,
+    "completion_time": 0.004197913,
+    "total_tokens": 185,
+    "total_time": 0.018616739
+   },
+   "answer": "D"
+  },
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.148346564,
+    "prompt_tokens": 142,
+    "prompt_time": 0.012249786,
+    "completion_tokens": 2,
+    "completion_time": 0.004212021,
+    "total_tokens": 144,
+    "total_time": 0.016461807
+   },
+   "answer": "B"
+  },
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004424681,
+    "prompt_tokens": 161,
+    "prompt_time": 0.013634233,
+    "completion_tokens": 2,
+    "completion_time": 0.004191961,
+    "total_tokens": 163,
+    "total_time": 0.017826194
+   },
+   "answer": "B"
+  },
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.211757421,
+    "prompt_tokens": 163,
+    "prompt_time": 0.014026159,
+    "completion_tokens": 2,
+    "completion_time": 0.004192061,
+    "total_tokens": 165,
+    "total_time": 0.01821822
+   },
+   "answer": "B"
+  },
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": {
+   "text": "D",
+   "error": null,
+   "usage": {
+    "queue_time": 1.3863324559999999,
+    "prompt_tokens": 126,
+    "prompt_time": 0.00917936,
+    "completion_tokens": 2,
+    "completion_time": 0.004387986,
+    "total_tokens": 128,
+    "total_time": 0.013567346
+   },
+   "answer": "D"
+  },
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.116719986,
+    "prompt_tokens": 156,
+    "prompt_time": 0.012220211,
+    "completion_tokens": 2,
+    "completion_time": 0.004210069,
+    "total_tokens": 158,
+    "total_time": 0.01643028
+   },
+   "answer": "B"
+  },
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.027480106,
+    "prompt_tokens": 220,
+    "prompt_time": 0.0182328,
+    "completion_tokens": 2,
+    "completion_time": 0.00432289,
+    "total_tokens": 222,
+    "total_time": 0.02255569
+   },
+   "answer": "C"
+  },
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004440117,
+    "prompt_tokens": 198,
+    "prompt_time": 0.016478436,
+    "completion_tokens": 2,
+    "completion_time": 0.004190171,
+    "total_tokens": 200,
+    "total_time": 0.020668607
+   },
+   "answer": "B"
+  },
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.192824076,
+    "prompt_tokens": 141,
+    "prompt_time": 0.011958299,
+    "completion_tokens": 2,
+    "completion_time": 0.00419991,
+    "total_tokens": 143,
+    "total_time": 0.016158209
+   },
+   "answer": "B"
+  },
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.243059685,
+    "prompt_tokens": 167,
+    "prompt_time": 0.012066132,
+    "completion_tokens": 2,
+    "completion_time": 0.004072104,
+    "total_tokens": 169,
+    "total_time": 0.016138236
+   },
+   "answer": "B"
+  },
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": {
+   "text": "C",
+   "error": null,
+   "usage": {
+    "queue_time": 0.108033084,
+    "prompt_tokens": 159,
+    "prompt_time": 0.013135427,
+    "completion_tokens": 2,
+    "completion_time": 0.00420464,
+    "total_tokens": 161,
+    "total_time": 0.017340067
+   },
+   "answer": "C"
+  },
+  "7690d276-0c68-4558-8bec-453730563cce-1991": {
+   "text": "A",
+   "error": null,
+   "usage": {
+    "queue_time": 0.004231807,
+    "prompt_tokens": 215,
+    "prompt_time": 0.017653955,
+    "completion_tokens": 2,
+    "completion_time": 0.004512018,
+    "total_tokens": 217,
+    "total_time": 0.022165973
+   },
+   "answer": "A"
+  },
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": {
+   "text": "B",
+   "error": null,
+   "usage": {
+    "queue_time": 0.08715695,
+    "prompt_tokens": 146,
+    "prompt_time": 0.010079555,
+    "completion_tokens": 2,
+    "completion_time": 0.004008024,
+    "total_tokens": 148,
+    "total_time": 0.014087579
+   },
+   "answer": "B"
+  }
+ },
+ "answers": {
+  "67ab314c-5a13-4a89-b35f-6e9537e74c71-89189": "B",
+  "68569189-0bf1-4a15-ae3f-60f829a88ebb-79778": "C",
+  "6933878d-b2f3-4939-b07e-1ce5d40c908c-20187": "C",
+  "6dac6d45-aa1a-4ca2-9137-ed74ad8d1311-71046": "A",
+  "6ee561d5-27e9-47c7-a614-9752b1d8cc15-80683": "B",
+  "71f25bf8-a76a-466d-bc74-007ef39e7c15-128717": "B",
+  "72b547d4-bb13-45ee-98e7-16dc6fc75a49-44147": "D",
+  "7365fff4-3ba8-4efb-ac67-5a7940463525-14949": "D",
+  "752de91a-4a2e-4c17-b275-f73ebde26e01-59185": "C",
+  "753d2e4a-c542-4740-b5ad-a0a57b2f1d35-81591": "C",
+  "75d8ee9a-0dc3-48b1-8322-82fd3c602292-7886": "C",
+  "7618488d-de61-4487-ada3-2eb2618165d7-84216": "D",
+  "764f6eda-81b0-45a0-bb6d-44c26c53782e-7306": "C",
+  "7690d276-0c68-4558-8bec-453730563cce-1991": "A",
+  "76d2d03f-237f-4d28-82a5-1607191c62e2-121114": "D"
+ }
+}

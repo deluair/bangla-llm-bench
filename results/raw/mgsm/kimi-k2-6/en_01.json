@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 88.1,
+ "text": "[id 10] First month: 60. Second: 3×60 = 180. Third: 180 − 0.30×180 = 126. Total = 60 + 180 + 126 = 366.\n[id 11] Donuts: 3 × 68 = 204. Cupcakes: 2 × 80 = 160. Cheesecakes: 6 × 55 = 330. Total = 204 + 160 + 330 = 694.\n[id 12] Yearly net = 7(1.5) − 3 = 7.5. Years to recover 90 = 90 / 7.5 = 12.\n[id 13] Working backwards: before orange house she had 5 × 2 = 10; before red house she had 10 + 2 = 12; before green house she had 12 ÷ (2/3) = 18.\n[id 14] Contemporary: 4 (20%). Remaining 16. Jazz: 25% of 16 = 4. Hip-hop: 20 − 4 − 4 = 12, which is 12/20 = 60%.\n[id 15] Jewelry: 0.025 × 5000 = 125. Gadgets: 0.012 × 8000 = 96. Maximum profit = 125.\n[id 16] Each train traveled 80 + 150 = 230 miles.\n[id 17] Weekly = 20×35 + 30×15 = 700 + 450 = 1150. Annual = 1150 × 50 = 57500.\n[id 18] 4 weeks = 28 days. Eggs = 3 × 28 = 84. Dozens = 84 / 12 = 7.\n[id 19] Desired total time for 4 mph average over 12 miles = 12/4 = 3 hours. Time used = 2 hours. Remaining distance = 6 miles. Required speed = 6/1 = 6 mph.\n\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}",
+ "usage": {
+  "prompt_tokens": 697,
+  "completion_tokens": 3356,
+  "total_tokens": 4053,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2855
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

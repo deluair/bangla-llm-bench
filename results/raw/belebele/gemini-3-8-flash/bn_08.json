@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 11.5,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 64]**: The passage states that four people were slightly burned (\"চারজন লোক অল্প পুড়ে গিয়েছেন\"), so 4 individuals were injured. **(A)**\n- **[id 65]**: Steve Jobs explicitly stated that Apple was going to reinvent the phone (\"অ্যাপল আজ ফোনটিকে পুনরায় উদ্ভাবিত করতে চলেছে\"). **(B)**\n- **[id 66]**: The text directly introduces Peter Costello as the leader of the Liberal Party (\"পিটার কষ্টেলো, অস্ট্রেলিয়ার অর্থপাল এবং লিবারেল পার্টি-র নেতা হিসাবে...\"). **(A)**\n- **[id 67]**: Blake denied carrying out the attack (\"তিনি আক্রমণ করার কথা অস্বীকার করেছেন\"), so stating that he admitted to it is incorrect. **(B)**\n- **[id 68]**: The fund is allocated for flood defenses, water management, and crop diversity to address global warming; sharing clean technology with developing nations was a separate agenda item in Bali. **(B)**\n- **[id 69]**: The legislation applies only within California; banning sales/rentals outside California is not part of the state governor's bill. **(C)**\n- **[id 70]**: Jack Layton suggested a complete rewrite/amendment to the Conservative Party's environment/clean air bill during his meeting with the Prime Minister. **(C)**\n- **[id 71]**: Tommy Dreamer stated that Luna was the first queen of extreme (\"টমি ড্রিমার বলেছিলেন, 'লুনা চূড়ান্তের প্রথম রানী ছিলেন'\"). **(D)**\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"A\", \"67\": \"B\", \"68\": \"B\", \"69\": \"C\", \"70\": \"C\", \"71\": \"D\"}}\n",
+ "usage": {
+  "input_tokens": 25383,
+  "output_tokens": 2509,
+  "thinking_tokens": 2103,
+  "cache_read_tokens": 0,
+  "total_tokens": 27892
+ },
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "B",
+  "68": "B",
+  "69": "C",
+  "70": "C",
+  "71": "D"
+ }
+}

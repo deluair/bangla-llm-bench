@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 34,
+ "ids": [
+  "272",
+  "273",
+  "274",
+  "275",
+  "276",
+  "277",
+  "278",
+  "279"
+ ],
+ "seconds": 25.3,
+ "text": "\n\n[id 272]\nThe passage states that Kerala's temple festivals include a \"regular procession of decorated elephants.\" While festivals occur between November and May, the elephants are specifically associated with the processions during these festivals.\n\n[id 273]\nThe passage links ready-made food with heating methods, stating \"Some even provide a microwave oven or other means to heat food\" immediately after discussing the ready-made food section. This amenity allows customers to consume the purchased items conveniently.\n\n[id 274]\nThe passage explicitly mentions that \"the numbering system in French-speaking Belgium and Switzerland has some slight peculiarities that are different from the French spoken in France.\"\n\n[id 275]\nThe passage concludes by stating that \"writing is somewhat complicated by the need to find out whether a verb or adjective is used in a substantivized form\" when capitalizing nouns.\n\n[id 276]\nThe text states: \"This will cause cracks, crevasses, which may be obscured by snow bridges.\" Obscuring means hiding or covering them up.\n\n[id 277]\nThe passage warns to research fights in North Kivu because they persist, implying danger. Suggesting the fights are \"entertaining\" would be incorrect and unsafe advice, making it the least good tip.\n\n[id 278]\nThe passage states directly: \"Permits are limited to protect the canyon.\" This constraint is the specific policy mentioned for protection.\n\n[id 279]\nThe passage explicitly notes: \"Cold weather is perhaps the only real danger the unprepared will face,\" distinguishing it from mosquitoes (irritating), crime (unknown), or locals.\n\n{\"answers\": {\"272\": \"C\", \"273\": \"D\", \"274\": \"B\", \"275\": \"C\", \"276\": \"A\", \"277\": \"A\", \"278\": \"D\", \"279\": \"C\"}}",
+ "usage": {
+  "prompt_tokens": 1515,
+  "completion_tokens": 3632,
+  "total_tokens": 5147,
+  "cost": 0.0006963,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006963,
+   "upstream_inference_prompt_cost": 0.0001515,
+   "upstream_inference_completions_cost": 0.0005448
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3213,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ },
+ "single": {},
+ "answers": {
+  "272": "C",
+  "273": "D",
+  "274": "B",
+  "275": "C",
+  "276": "A",
+  "277": "A",
+  "278": "D",
+  "279": "C"
+ }
+}

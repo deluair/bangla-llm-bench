@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 4.6,
+ "text": "[id 72] The passage states that the driver sustained serious head injuries, was freed by emergency services, and was transferred from Great Yarmouth to Cambridge. It also mentions that none of the people inside the house were hurt. The only option that contradicts the passage is C, as the driver was transferred from Great Yarmouth to Cambridge, not the other way around.\n\n[id 73] The passage describes South Africa as looking \"rusty\" at the beginning of the tournament but improving later. The other attributes mentioned are disciplined defense, ball handling skills, and excellent teamwork.\n\n[id 74] Hu suggested that developing countries should avoid the old path of polluting first and cleaning up later.\n\n[id 75] Ayatollah Ali Khamenei described the dependency on oil as a trap that Iran should free itself from.\n\n[id 76] Allen began his search for the Musashi out of a lifelong interest in the war.\n\n[id 77] Historians criticized the FBI for focusing on easy-to-solve cases and boosting their success rate, but they did not criticize the FBI for focusing on pornography cases.\n\n[id 78] The passage states that the Hesperonychus had a larger second claw compared to the Velociraptor.\n\n[id 79] The passage mentions that televisions screens were set up in Rome, various Italian cities, and certain locations in Poland, but not in St. Peter’s Square itself.\n\n```json\n{\n  \"answers\": {\n    \"72\": \"C\",\n    \"73\": \"C\",\n    \"74\": \"D\",\n    \"75\": \"D\",\n    \"76\": \"D\",\n    \"77\": \"C\",\n    \"78\": \"B\",\n    \"79\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1303,
+  "completion_tokens": 378,
+  "total_tokens": 1681,
+  "cost": 0.00025215,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00025215,
+   "upstream_inference_prompt_cost": 0.00019545,
+   "upstream_inference_completions_cost": 5.67e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ },
+ "single": {},
+ "answers": {
+  "72": "C",
+  "73": "C",
+  "74": "D",
+  "75": "D",
+  "76": "D",
+  "77": "C",
+  "78": "B",
+  "79": "D"
+ }
+}

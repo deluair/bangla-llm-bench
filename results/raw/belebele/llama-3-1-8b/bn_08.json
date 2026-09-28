@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69",
+  "70",
+  "71"
+ ],
+ "seconds": 18.3,
+ "text": "উত্তরগুলি নিচে দেওয়া হলো:\n\n[id 64]\nউত্তর: A) 4\n\n[id 65]\nউত্তর: B) ফোন\n\n[id 66]\nউত্তর: A) পিটার কষ্টেলো\n\n[id 67]\nউত্তর: C) হামলার সময় তিনি একটি লাঠি ব্যবহার করেছিলেন\n\n[id 68]\nউত্তর: D) বৈশ্বিক উষ্ণতার প্রভাবকে প্রশমিত করতে\n\n[id 69]\nউত্তর: C) হিংসাত্মক গেমের জন্য সিল সহ লেবেল থাকা আবশ্যক\n\n[id 70]\nউত্তর: A) জন হাওয়ার্ড\n\n[id 71]\nউত্তর: A) টমি ড্রিমার\n\n{\"answers\": {\"64\": \"A\", \"65\": \"B\", \"66\": \"A\", \"67\": \"C\", \"68\": \"D\", \"69\": \"C\", \"70\": \"A\", \"71\": \"A\"}}",
+ "usage": {
+  "prompt_tokens": 6201,
+  "completion_tokens": 411,
+  "total_tokens": 6612,
+  "cost": 0.00014046,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00014046,
+   "upstream_inference_prompt_cost": 0.00012402,
+   "upstream_inference_completions_cost": 1.644e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "C",
+  "68": "D",
+  "69": "C",
+  "70": "A",
+  "71": "A"
+ },
+ "single": {},
+ "answers": {
+  "64": "A",
+  "65": "B",
+  "66": "A",
+  "67": "C",
+  "68": "D",
+  "69": "C",
+  "70": "A",
+  "71": "A"
+ }
+}

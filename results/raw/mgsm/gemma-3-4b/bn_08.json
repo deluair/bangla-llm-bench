@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 29.4,
+ "text": "Here are the solutions to the math word problems:\n\n[id 80]\nTwo girls each received 1/6 of 24 liters of water. So each girl received (1/6) * 24 = 4 liters.  Together they received 4 * 2 = 8 liters. Then a boy received 6 liters. Remaining water = 8 - 6 = 2 liters.\n2\n\n[id 81]\nCharlie started with 10 stickers. He bought 21, so he had 10 + 21 = 31 stickers. He received 23, so he had 31 + 23 = 54 stickers. He gave away 9, so he had 54 - 9 = 45 stickers. He used 28 for cards, so he had 45 - 28 = 17 stickers.\n17\n\n[id 82]\nAlex's weight is 4 * 125 - 2 = 500 - 2 = 498 pounds. Together their weight is 125 + 498 = 623 pounds.\n623\n\n[id 83]\nDan planted 3 rose bushes. Each bush has 25 roses, so he has 3 * 25 = 75 roses. Each rose has 8 thorns, so he has 75 * 8 = 600 thorns.\n600\n\n[id 84]\nLet x be the number of games they won. They won 8 more games than they lost, so they lost x - 8 games. They played 22 games in total, so x + (x - 8) = 22. 2x - 8 = 22. 2x = 30. x = 15. They won 15 games.\n15\n\n[id 85]\nJim sews a quilt using one T-shirt for each vacation. He has been on 4 vacations per year for 23 years. So he has 4 * 23 = 92 T-shirts. Each T-shirt has a quilt block, so he has 92 quilt blocks.\n92\n\n[id 86]\nThe first alarm rang 4 times. The second rang 4 * 3 = 12 times. The third rang 12 / 2 = 6 times. Total number of rings = 4 + 12 + 6 = 22 times.\n22\n\n[id 87]\nSylvie has been with the company for 5 years. Her initial salary was $600. She gets a 10% raise every year. After 3 more years, she will have worked for 8 years. Her salary will be 600 + (8 * 0.1 * 600) = 600 + 480 = 1080.\n1080\n\n[id 88]\nLet H be the number of copies Harold sold. Marilinn sold 10 * H copies. Together they sold 88000 copies, so 10H + H = 88000. 11H = 88000. H = 88000 / 11 = 8000.\n8000\n\n[id 89]\nCristina invited 16 friends. Each friend needs 0.75 gift bags, so she needs 16 * 0.75 = 12 gift bags.  Since 1/4 didn't attend, that means 3/4 did. So the number of attendees is 16 * (3/4) = 12.  Therefore she needs 12 * 0.75 = 9 gift bags.  Each bag costs $2, so she spends 9 * 2 = $18.\n18\n{\"answers\": {\"80\": 2, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 92, \"86\": 22, \"87\": 1080, \"88\": 8000, \"89\": 18}}",
+ "usage": {
+  "prompt_tokens": 782,
+  "completion_tokens": 968,
+  "total_tokens": 1750,
+  "cost": 0.0001359,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001359,
+   "upstream_inference_prompt_cost": 3.91e-05,
+   "upstream_inference_completions_cost": 9.68e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "80": 2.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 92.0,
+  "86": 22.0,
+  "87": 1080.0,
+  "88": 8000.0,
+  "89": 18.0
+ },
+ "single": {},
+ "answers": {
+  "80": 2.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 92.0,
+  "86": 22.0,
+  "87": 1080.0,
+  "88": 8000.0,
+  "89": 18.0
+ }
+}

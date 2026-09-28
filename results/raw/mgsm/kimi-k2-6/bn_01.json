@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 181.8,
+ "text": "[id 10] First month = 60. Second month = 3 × 60 = 180. Third month = 180 − 30% of 180 = 126. Total = 60 + 180 + 126 = 366.\n[id 11] Cost = (3 × 68) + (2 × 80) + (6 × 55) = 204 + 160 + 330 = 694.\n[id 12] Yearly revenue = 7 × 1.5 = 10.5. Yearly net = 10.5 − 3 = 7.5. Years to recover $90 = 90 / 7.5 = 12.\n[id 13] Let x be initial. After Green: 2x/3 remain. After Red: 2x/3 − 2 remain. Half of that is left = 5, so 2x/3 − 2 = 10 → x = 18.\n[id 14] Hip-hop % = 100 − 20 − 25 = 55.\n[id 15] Jewelry profit = 5000 × 0.025 = 125. Gadget profit = 8000 × 0.012 = 96. Maximum = 125.\n[id 16] Each train travels 80 + 150 = 230 miles.\n[id 17] Weekly pay = 35×20 + 15×30 = 700 + 450 = 1150. Annual = 1150 × 50 = 57500.\n[id 18] 4 weeks = 28 days. Eggs = 28 × 3 = 84 = 7 dozen.\n[id 19] Required total time for 12 miles at 4 mph = 3 hours. Already spent 2 hours. Remaining 6 miles in 1 hour → 6 mph.\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 55, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}",
+ "usage": {
+  "prompt_tokens": 1585,
+  "completion_tokens": 7096,
+  "total_tokens": 8681,
+  "completion_tokens_details": {
+   "reasoning_tokens": 6642
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 55.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

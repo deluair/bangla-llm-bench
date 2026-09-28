@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 20,
+ "ids": [
+  "160",
+  "161",
+  "162",
+  "163",
+  "164",
+  "165",
+  "166",
+  "167"
+ ],
+ "seconds": 3.9,
+ "text": "1. **C** – Army ants change nests daily during the nomadic phase.\n2. **B** – The passage states that Kirby Muxloe Castle lacked a foundation built to sustain attacks, making this feature atypical.\n3. **B** – The passage does not suggest elite performance as a way to enjoy sports; it focuses on wellness and enjoyment through nutrition, hydration, and energy balance.\n4. **B** – The first patent for MRI was granted in 1974.\n5. **A** – Understanding intention helps eliminate ambiguity or uncertainty behind physical actions.\n6. **A** – The passage emphasizes that less emphasis was placed on individual recall during the Renaissance.\n7. **C** – The use of buttons was a result of the Crusades, as mentioned in the passage.\n8. **B** – Deactivating the root causes of environmental issues is not symptomatic treatment; it addresses the core problem.\n\n```json\n{\n  \"answers\": {\n    \"160\": \"C\",\n    \"161\": \"B\",\n    \"162\": \"B\",\n    \"163\": \"B\",\n    \"164\": \"A\",\n    \"165\": \"A\",\n    \"166\": \"C\",\n    \"167\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1343,
+  "completion_tokens": 273,
+  "total_tokens": 1616,
+  "cost": 0.0002424,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002424,
+   "upstream_inference_prompt_cost": 0.00020145,
+   "upstream_inference_completions_cost": 4.095e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ },
+ "single": {},
+ "answers": {
+  "160": "C",
+  "161": "B",
+  "162": "B",
+  "163": "B",
+  "164": "A",
+  "165": "A",
+  "166": "C",
+  "167": "B"
+ }
+}

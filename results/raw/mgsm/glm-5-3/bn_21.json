@@ -1,0 +1,57 @@
+{
+ "task": "mgsm",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 15.3,
+ "text": "Here are brief solutions:\n\n- **210:** Needs $30 + 2×$20 = $70. Has $10 saved + 4×$5 = $20 babysitting = $30. Remaining $40 ÷ $4 per mow = **10**.\n- **211:** Let red = r, white = r+2. Then 3r + 5(r+2) = 42 → 8r = 32 → r = **4**.\n- **212:** Perimeter = 2(1.5+6) = 15 miles; 15 ÷ 3 = **5** hours.\n- **213:** Day 3 = 500 − 100 − 150 = **250**.\n- **214:** Small now = s, large now = 4s; 4 min ago each had 16 more: 4s+16 = 2(s+16) → s = **8** gallons.\n- **215:** $320 + $32 = $352; $352 ÷ $8 = **44** hours.\n- **216:** Owes 1.10 × 2000 = $2200; paid 12 × 165 = $1980; remaining = **220**.\n- **217:** 4 roses + (4+7) = 11 dahlias → 4 + 11 = **15** flowers.\n- **218:** Harriet 21, Adrian 63, Jake 42. In 3 years: 24, 66, 45 → (24+66+45)/3 = **45**.\n- **219:** Yuri 78, Brianna 85; JoJo = 251 − (68+78+85) = **20**.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 20}}",
+ "usage": {
+  "completion_tokens": 1199,
+  "completion_tokens_details": {
+   "reasoning_tokens": 759
+  },
+  "prompt_tokens": 2335,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 3534
+ },
+ "served_by": null,
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 20.0
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "170",
+  "171",
+  "172",
+  "173",
+  "174",
+  "175",
+  "176",
+  "177",
+  "178",
+  "179"
+ ],
+ "seconds": 17.0,
+ "text": "# Solutions\n\n**[id 170]**\n- Hat: $25\n- Jacket: 3 × $25 = $75\n- Pants: ($25 + $75) / 2 = $50\n- Total: $25 + $75 + $50 = **$150**\n\n**[id 171]**\n- Spiders: 80 × 8 = 640 legs\n- Insects: 90 × 6 = 540 legs\n- Mutants: 3 × 10 = 30 legs\n- Total: 640 + 540 + 30 = **1210 legs**\n\n**[id 172]**\n- Sally Thirtytwo: 8 years\n- Sally Four: 8 years (same age)\n- Granny Red: 2 × 8 = 16 years\n- Sally Two: 16 + 3 = 19 years\n- Total: 8 + 8 + 16 + 19 = **51 years**\n\n**[id 173]**\n- Minimum total: $300 + $200 + $500 = $1000/month\n- 50% more: $1000 + $500 = $1500/month\n- Annual: $1500 × 12 = **$18,000**\n\n**[id 174]**\n- Time per potato: 1.5 min (90 sec) + 5 sec = 95 seconds\n- Total: 60 × 95 = 5700 seconds = **95 minutes**\n\n**[id 175]**\n- Cost per gallon: $3 + $2 = $5\n- Revenue per gallon: 20 × $0.50 = $10\n- Profit per gallon: $5\n- Gallons made: $25 / $5 = 5 gallons\n- Spent on lemons: 5 × $3 = **$15**\n\n**[id 176]**\n- Chinese: 240 - 80 = 160\n- Girls: 160 - 60 = **100**\n\n**[id 177]**\n- Rent: $6000 / 4 = $1500\n- Fuel: $6000 / 3 = $2000\n- Remaining: $2500\n- Charity: $1250\n- After charity: $1250\n- Family expenses: $200 + $700 = $900\n- Final: $1250 - $900 = **$350**\n\n**[id 178]**\n- Bo: 40 crabs\n- Monic: 40 - 4 = 36 crabs\n- Rani: 36 + 10 = 46 crabs\n- Total: 40 + 36 + 46 = **122 crabs**\n\n**[id 179]**\n- Total hours: 5 + 8 = 13 hours\n- Earnings: 13 × $10 = **$130**\n\n```json\n{\"answers\": {\"170\": 150, \"171\": 1210, \"172\": 51, \"173\": 18000, \"174\": 95, \"175\": 15, \"176\": 100, \"177\": 350, \"178\": 122, \"179\": 130}}\n```",
+ "usage": {
+  "input_tokens": 1220,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2044,
+  "output_tokens_details": {
+   "thinking_tokens": 1243
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1220,
+    "output_tokens": 2044,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.01144,
+ "answers_batch": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ },
+ "single": {},
+ "answers": {
+  "170": 150.0,
+  "171": 1210.0,
+  "172": 51.0,
+  "173": 18000.0,
+  "174": 95.0,
+  "175": 15.0,
+  "176": 100.0,
+  "177": 350.0,
+  "178": 122.0,
+  "179": 130.0
+ }
+}

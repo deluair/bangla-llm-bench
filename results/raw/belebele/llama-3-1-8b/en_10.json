@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "llama-3-1-8b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87"
+ ],
+ "seconds": 10.8,
+ "text": "Here are my answers to each question:\n\n[id 80]\nFollowing the explosion, no one was inside the apartment, so no one was treated for serious injuries.\n\n[id 81]\nThe sport that was voted out of the Olympic program is baseball.\n\n[id 82]\nHaiti’s last encounter with the disease was in the 1800s.\n\n[id 83]\nThe suspected offender is being investigated for trespassing.\n\n[id 84]\nThe 802.11n standard operates on both the 2.4Ghz and 5.0Ghz frequencies, which will allow it to be backwards compatible with 802.11a, 802.11b and 802.11g, provided that the base station has dual radios. The speeds of 802.11n are substantially faster than that of its predecessors with a maximum theoretical throughput of 600Mbit/s.\n\n[id 85]\nThe measure of protection against the disease that will be implemented last is the vaccines.\n\n[id 86]\nThe second sentence’s failure could lead to a future right to same-sex civil unions.\n\n[id 87]\nThe “Panama Papers” were leaked to the press.\n\n{\"answers\": {\"80\": \"B\", \"81\": \"C\", \"82\": \"A\", \"83\": \"A\", \"84\": \"A\", \"85\": \"C\", \"86\": \"B\", \"87\": \"B\"}}",
+ "usage": {
+  "prompt_tokens": 1312,
+  "completion_tokens": 287,
+  "total_tokens": 1599,
+  "cost": 3.772e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 3.772e-05,
+   "upstream_inference_prompt_cost": 2.624e-05,
+   "upstream_inference_completions_cost": 1.148e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ },
+ "single": {},
+ "answers": {
+  "80": "B",
+  "81": "C",
+  "82": "A",
+  "83": "A",
+  "84": "A",
+  "85": "C",
+  "86": "B",
+  "87": "B"
+ }
+}

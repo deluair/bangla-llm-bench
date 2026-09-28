@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 41.8,
+ "text": "Here is the reasoning for each problem:\n\n*   **[120]**: Miguel uses 2 pads per week, each with 30 pages, meaning he uses 60 pages a week. Assuming 4 weeks in a month, he uses $60 \\times 4 = 240$ pages.\n*   **[121]**: Morissette brought 5 apples and 8 oranges. Kyle brought twice as many apples ($5 \\times 2 = 10$) and half as many oranges ($8 \\div 2 = 4$). The total number of fruits is $5 + 8 + 10 + 4 = 27$.\n*   **[122]**: Sadie slept 8 hours on Monday. For the next 2 days, she slept 2 hours less, which is 6 hours each day ($6 + 6 = 12$ hours). For the remaining 4 days of the week, she slept 1 hour more than those two days, which is 7 hours a day ($7 \\times 4 = 28$ hours). Total sleep = $8 + 12 + 28 = 48$ hours.\n*   **[123]**: Rosy runs at 10 mph for 3 hours, covering $10 \\times 3 = 30$ miles. She then runs at 5 mph for the remaining 4 hours (7 total - 3), covering $5 \\times 4 = 20$ miles. Total distance = $30 + 20 = 50$ miles.\n*   **[124]**: Jenny has 60 letters to stamp. She stamps 1/3 of them, which is 20 letters. These 20 are added to the already-stamped pile, bringing its total to 30. The initial amount was $30 - 20 = 10$ letters.\n*   **[125]**: Julia bought a packet of spoons (let's say $x$ spoons). Her husband gave her another packet of 5 spoons. She had $x + 5$ spoons. After using 3 spoons for tasting, she had 12 left. Thus, $x + 5 - 3 = 12$, which gives $x = 10$ spoons.\n*   **[126]**: Dylan bought 38 chicken sausages and 6 more fish sausages than chicken sausages ($38 + 6 = 44$ fish sausages). Total sausages = $38 + 44 = 82$.\n*   **[127]**: Lily has 50 friends. Amy has 20 more, meaning Amy has 70 friends. Together they have $50 + 70 = 120$ friends.\n*   **[128]**: A pepper costs \\$15. A watermelon is 3 times as much, so it costs \\$45. An orange is \\$5 less than a watermelon, costing \\$40. For 4 watermelons, 20 peppers, and 10 oranges: $(4 \\times 45) + (20 \\times 15) + (10 \\times 40) = 180 + 300 + 400 = \\$880$.\n*   **[129]**: The hospital sees 500 patients for an average of 24 minutes each, totaling 12,000 minutes, or 200 hours. The profit per hour is $\\$200 - \\$150 = \\$50$. Total profit = $200 \\times 50 = \\$10,000$.\n\n```json\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}\n```\n",
+ "usage": {
+  "input_tokens": 16853,
+  "output_tokens": 5283,
+  "thinking_tokens": 4364,
+  "cache_read_tokens": 8140,
+  "total_tokens": 22136
+ },
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

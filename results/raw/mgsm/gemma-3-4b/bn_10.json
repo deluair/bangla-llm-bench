@@ -1,0 +1,69 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 49.3,
+ "text": "Here are the solutions to the math word problems:\n\n[id 100]\nFirst friend rang the bell 20 times.\nSecond friend rang the bell 20 / 4 = 5 times more than the first friend.\nSo, the second friend rang the bell 20 + 5 = 25 times.\nThird friend rang the bell 10 more than the third friend.\nFourth friend rang the bell 60 times.\nLet the third friend rang the bell x times.\nThen x = 60 + 10 = 70.\nTotal rings = 20 + 25 + 70 + 60 = 175.\n\n[id 101]\nTotal pages to read = 4 + 20 + 7 + 8 = 39 pages.\nPages read in 5 days = 15 pages.\nRemaining pages = 39 - 15 = 24 pages.\nDays to read remaining pages = 4 days.\nPages to read per day = 24 / 4 = 6 pages.\n\n[id 102]\nJohn drinks water every day of the week, except Saturday.\nSo, he drinks water 6 days a week.\nNumber of glasses of water per day = 1.\nTotal glasses of water in a week = 6 * 1 = 6 glasses.\n\n[id 103]\nThe city is 42 miles wide.\nThe time taken to cover 3 miles is 10 minutes.\nThe time taken to cover 42 miles is (42 / 3) * 10 = 14 * 10 = 140 minutes.\n\n[id 104]\nTotal pieces = 1000\nPieces placed on the board = 1000 * 1/4 = 250\nPieces remaining with mother = 1000 * 1/3 = 333.33 (round down to 333)\nTotal pieces with mother = 333\nPieces remaining = 1000 - 250 - 333 = 417\n\n[id 105]\nAmir eats 5 cookies.\nQodi eats 3 times more than Amir, so Qodi eats 3 * 5 = 15 cookies.\nTogether they eat 5 + 15 = 20 cookies.\n\n[id 106]\nDimensions of each box are 5 inches x 6 inches x 4 inches.\nOuter dimensions of each box are 5+2*1=7, 6+2*1=8, 4+2*1=6.\nVolume of each box is 7 * 8 * 6 = 336 cubic inches.\nVolume of 3 boxes is 3 * 336 = 1008 cubic inches.\nSince the walls are 1 inch thick, the inner dimensions are 5x6x4, and the inner volume is 5*6*4 = 120 cubic inches.\nThe inner volume of 3 boxes is 3 * 120 = 360 cubic inches.\n\n[id 107]\nMonday & Tuesday: 1 hour each.\nWednesday: 30 minutes * x + 1 hour = 30x + 60\nThursday: 1 hour + 30 minutes = 1.5 hours\nFriday: 2 hours\nTotal hours = 1*2 + (30x+60) + 1.5 + 2 = 1 + 30x + 60 + 1.5 + 2 = 30x + 64.5\nGiven that the total hours watched is 7, so 30x + 64.5 = 7.\n30x = 7 - 64.5 = -57.5\nx = -57.5 / 30 = -1.9166... This doesn't make sense as the number of 30 minute shows must be a whole number.\n\nLet's rethink it. Total TV hours = 7.\nMon/Tue: 1hr each = 2hrs\nWed: 30min * x + 1hr\nThu: 1hr + 30min = 1.5hrs\nFri: 2hrs\nTotal: 2 + (30x + 1) + 1.5 + 2 = 7\n30x + 6.5 = 7 - 2 - 1 - 1.5 = 2.5\n30x = 2.5 - 6.5 = -4\nx = -4/30 which is impossible since x must be a positive integer\n\nRevising:\nLet the number of 30-minute shows on Wednesday be x.\nTotal hours watched = 1(Mon/Tue) + x(Wed) + 1.5(Thu) + 2(Fri) = 7\n1 + x + 1.5 + 2 = 7\nx + 4.5 = 7 - 1 - 2 = 4\nx = 4 - 4.5 = -0.5. This is still not possible\n\nSomething went wrong in the problem.\nHowever, we are asked for the number of 30 minute shows. Therefore, we should find what value of x satisfies the equation such that x is a whole number.\n\n[id 108]\nLet y be the number of cookies Henry made last year.\nThis year, he wants to make 2y cookies.\nHe actually made 2y - 15 cookies.\nHe has 2y - 15 + 5 = 2y - 10 cookies now.\n2y - 10 = 110\n2y = 120\ny = 60\nTherefore, Henry made 60 cookies last year.\n\n[id 109]\nCost per gallon = $3.00\nCashback per gallon = $0.20\nPrice per gallon after cashback = $3.00 - $0.20 = $2.80\nCost for 10 gallons = 10 * $2.80 = $28.00\n\n```json\n{\"answers\": {\"100\": \"175\", \"101\": \"6\", \"102\": \"6\", \"103\": \"140\", \"104\": \"417\", \"105\": \"20\", \"106\": \"360\", \"107\": \"-1\", \"108\": \"60\", \"109\": \"28.00\"}}\n```",
+ "usage": {
+  "prompt_tokens": 969,
+  "completion_tokens": 1509,
+  "total_tokens": 2478,
+  "cost": 0.00019935,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00019935,
+   "upstream_inference_prompt_cost": 4.845e-05,
+   "upstream_inference_completions_cost": 0.0001509
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 6.0,
+  "103": 140.0,
+  "104": 417.0,
+  "105": 20.0,
+  "106": 360.0,
+  "107": -1.0,
+  "108": 60.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 175.0,
+  "101": 6.0,
+  "102": 6.0,
+  "103": 140.0,
+  "104": 417.0,
+  "105": 20.0,
+  "106": 360.0,
+  "107": -1.0,
+  "108": 60.0,
+  "109": 28.0
+ }
+}

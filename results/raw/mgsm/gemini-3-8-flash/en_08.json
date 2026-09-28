@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-8-flash",
+ "lang": "en",
+ "batch": 8,
+ "ids": [
+  "80",
+  "81",
+  "82",
+  "83",
+  "84",
+  "85",
+  "86",
+  "87",
+  "88",
+  "89"
+ ],
+ "seconds": 14.7,
+ "text": "### Brief Solutions\n\n- **[id 80]**: Each girl receives $\\frac{1}{6} \\times 24 = 4$ liters, so two girls receive $8$ liters. The boy receives $6$ liters. Water left: $24 - 8 - 6 = 10$ liters.\n- **[id 81]**: Charlie had $10 + 21 + 23 = 54$ stickers. After giving away $9$ and using $28$, he has $54 - 9 - 28 = 17$ stickers left.\n- **[id 82]**: Grace weighs $125$ pounds. Alex weighs $4 \\times 125 - 2 = 498$ pounds. Combined weight: $125 + 498 = 623$ pounds.\n- **[id 83]**: There are $3 \\times 25 = 75$ roses in total. Each has $8$ thorns: $75 \\times 8 = 600$ thorns.\n- **[id 84]**: Let losses be $L$ and wins be $W = L + 8$. Then $(L + 8) + L = 22 \\implies 2L = 14 \\implies L = 7$. Wins: $7 + 8 = 15$.\n- **[id 85]**: Gene has been vacationing for $34 - 23 = 11$ years. At $4$ vacations per year, he has $11 \\times 4 = 44$ quilt blocks.\n- **[id 86]**: First time: $4$ rings. Second time: $4 \\times 3 = 12$ rings. Third time: $12 / 2 = 6$ rings. Total: $4 + 12 + 6 = 22$ rings.\n- **[id 87]**: Sylvie's initial base salary is $\\$600 \\times 12 = \\$7,200$ per year. An annual raise of $10\\%$ of initial salary is $\\$720$ per year. After $3$ more years of raises, her salary increases by $3 \\times \\$720 = \\$2,160$, resulting in $\\$7,200 + \\$2,160 = \\$9,360$.\n- **[id 88]**: Marilyn sold $10$ times Harald's copies. Combined they sold $11$ parts: $88,000 / 11 = 8,000$ copies for Harald.\n- **[id 89]**: Gift bags needed: $16 \\times 0.75 = 12$. Total cost: $12 \\times \\$2 = \\$24$.\n\n{\"answers\": {\"80\": 10, \"81\": 17, \"82\": 623, \"83\": 600, \"84\": 15, \"85\": 44, \"86\": 22, \"87\": 9360, \"88\": 8000, \"89\": 24}}\n",
+ "usage": {
+  "input_tokens": 24535,
+  "output_tokens": 3919,
+  "thinking_tokens": 3190,
+  "cache_read_tokens": 0,
+  "total_tokens": 28454
+ },
+ "answers_batch": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ },
+ "single": {},
+ "answers": {
+  "80": 10.0,
+  "81": 17.0,
+  "82": 623.0,
+  "83": 600.0,
+  "84": 15.0,
+  "85": 44.0,
+  "86": 22.0,
+  "87": 9360.0,
+  "88": 8000.0,
+  "89": 24.0
+ }
+}

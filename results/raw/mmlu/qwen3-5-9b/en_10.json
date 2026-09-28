@@ -1,0 +1,84 @@
+{
+ "task": "mmlu",
+ "model": "qwen3-5-9b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "5669",
+  "5751",
+  "5807",
+  "5817",
+  "5849",
+  "5924",
+  "5973",
+  "6006",
+  "6073",
+  "6083",
+  "6118",
+  "6123",
+  "6199",
+  "6202",
+  "6212"
+ ],
+ "seconds": 189.0,
+ "text": "{\"answers\": {\"5669\": \"C\", \"5751\": \"D\", \"5807\": \"B\", \"5817\": \"C\", \"5849\": \"B\", \"5924\": \"D\", \"5973\": \"B\", \"6006\": \"B\", \"6073\": \"C\", \"6083\": \"A\", \"6118\": \"D\", \"6123\": \"D\", \"6199\": \"A\", \"6202\": \"C\", \"6212\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 4096,
+  "completion_tokens": 13537,
+  "total_tokens": 17633,
+  "cost": 0.00244015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00244015,
+   "upstream_inference_prompt_cost": 0.0004096,
+   "upstream_inference_completions_cost": 0.00203055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 13398,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "SiliconFlow",
+ "answers_batch": {
+  "5669": "C",
+  "5751": "D",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "B",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "C",
+  "6212": "D"
+ },
+ "single": {},
+ "answers": {
+  "5669": "C",
+  "5751": "D",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "B",
+  "6006": "B",
+  "6073": "C",
+  "6083": "A",
+  "6118": "D",
+  "6123": "D",
+  "6199": "A",
+  "6202": "C",
+  "6212": "D"
+ }
+}

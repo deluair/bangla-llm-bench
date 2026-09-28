@@ -1,0 +1,111 @@
+{
+ "model": "llama-3-1-8b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  414,
+  434,
+  441,
+  446,
+  460,
+  489,
+  530,
+  555,
+  570,
+  742,
+  767,
+  784,
+  794,
+  806,
+  869
+ ],
+ "seconds": 40.3,
+ "text": "{id 414}\nসঠিক উত্তর হল C) পরিবেশগত পরিচালন ব্যবস্থা, ISO14001, EMAS\n\n{id 434}\nসঠিক উত্তর হল A) সামাজিক চুক্তি\n\n{id 441}\nসঠিক উত্তর হল C) কর্তব্যের নৈতিকতা, উপযোগিতাবাদ, পরিণতিবাদী\n\n{id 446}\nসঠিক উত্তর হল C) উপলভ্যতা\n\n{id 460}\nসঠিক উত্তর হল D) কর্তব্যের নৈতিকতা\n\n{id 489}\nসঠিক উত্তর হল C) সেরেব্রোভাস্কুলার (স্ট্রোক) রোগ\n\n{id 530}\nসঠিক উত্তর হল C) টুথব্রাশের সমান দৈর্ঘ্য\n\n{id 555}\nসঠিক উত্তর হল B) ভেসেলগুলো কন্ট্রাক্ট করছে\n\n{id 570}\nসঠিক উত্তর হল B) 15.6\n\n{id 742}\nসঠিক উত্তর হল B) ডায়রিয়া-এর ইতিহাস সংশ্লিষ্ট নয়\n\n{id 767}\nসঠিক উত্তর হল A) জোনা রিয়্যাকশন\n\n{id 784}\nসঠিক উত্তর হল B) ভেসেলগুলো কন্ট্রাক্ট করছে\n\n{id 806}\nসঠিক উত্তর হল C) এপিস্ট্যাসিস\n\n{id 869}\nসঠিক উত্তর হল D) ক্রান্তীয় অঞ্চলে বেশি শিকারি প্রাণী আছে যারা তৃণভোজীদের সংখ্যা হ্রাস করে\n\nউত্তর:\n{\"answers\": {\"414\": \"C\", \"434\": \"A\", \"441\": \"C\", \"446\": \"C\", \"460\": \"D\", \"489\": \"C\", \"530\": \"C\", \"555\": \"B\", \"570\": \"B\", \"742\": \"B\", \"767\": \"A\", \"784\": \"B\", \"806\": \"C\", \"869\": \"D\"}}",
+ "usage": {
+  "prompt_tokens": 4756,
+  "completion_tokens": 874,
+  "total_tokens": 5630,
+  "cost": 0.00013008,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00013008,
+   "upstream_inference_prompt_cost": 9.512e-05,
+   "upstream_inference_completions_cost": 3.496e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "794": "C",
+  "414": "C",
+  "434": "A",
+  "441": "C",
+  "446": "C",
+  "460": "D",
+  "489": "C",
+  "530": "C",
+  "555": "B",
+  "570": "B",
+  "742": "B",
+  "767": "A",
+  "784": "B",
+  "806": "C",
+  "869": "D"
+ },
+ "answers_batch": {
+  "414": "C",
+  "434": "A",
+  "441": "C",
+  "446": "C",
+  "460": "D",
+  "489": "C",
+  "530": "C",
+  "555": "B",
+  "570": "B",
+  "742": "B",
+  "767": "A",
+  "784": "B",
+  "806": "C",
+  "869": "D"
+ },
+ "single": {
+  "794": {
+   "text": "C)",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 488,
+    "completion_tokens": 3,
+    "total_tokens": 491,
+    "cost": 2.464e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.464e-05,
+     "upstream_inference_prompt_cost": 2.44e-05,
+     "upstream_inference_completions_cost": 2.4e-07
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": "C"
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 6,
+ "ids": [
+  "60",
+  "61",
+  "62",
+  "63",
+  "64",
+  "65",
+  "66",
+  "67",
+  "68",
+  "69"
+ ],
+ "seconds": 4.9,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 60]**\n*   Total oranges: 25\n*   Bad/rotten: 1\n*   Unripe: 20% of 25 = $0.20 \\times 25 = 5$\n*   Sour: 2\n*   Good oranges = Total - (Bad + Unripe + Sour)\n*   Good oranges = $25 - (1 + 5 + 2) = 25 - 8 = 17$\n\n**[id 61]**\n*   Material cost: $500\n*   Labor (galvanizing) cost: $800\n*   Base value for insurance: $500 + 800 = 1300$\n*   Insurance cost: 10% of 1300 = $0.10 \\times 1300 = 130$\n*   Total cost = Material + Labor + Insurance\n*   Total cost = $1300 + 130 = 1430$\n\n**[id 62]**\n*   This problem contains a logical ambiguity or trick. Let's re-read carefully: \"If Macy works for the same company for 40 years, she will receive an annual pension of $50,000/year. Starting from 20 years onward, she becomes eligible for 5% of the pension value each year... If she retires after 30 years, what will be her annual pension?\"\n*   Interpretation A (Standard Accrual): If you work 40 years, you get 100% ($50,000). Usually, pensions work linearly. So working 20 years would give you 50% ($25,000), and working 30 years would give you 75% ($37,500).\n*   Interpretation B (Literal Text): The text says \"From 20 years onward, she becomes eligible for 5% of the pension value each year.\" This phrasing is unusual. It might mean that for every year of service *beyond* a certain point, or it's a faulty translation of a standard linear problem.\n*   Let's look at standard pension logic often found in these datasets: Usually, it's (Years Worked / Total Years for Full Benefit) * Full Benefit.\n    *   If Full Benefit at 40 years = $50,000.\n    *   Benefit per year = $50,000 / 40 = $1,250 per year of service.\n    *   If she works 30 years: Pension = $30 \\times 1,250 = 37,500$.\n*   Let's check the \"5%\" part. Maybe it means she gets 5% *each year*? No, that would be $2,500 total. That's too low.\n*   Maybe it means \"Starting from year 1, she earns 5%/year of the $50k\"? 40 years * 5% = 200%? No.\n*   Let's re-read the Bengali: \"২০ বছর পর থেকে শুরু করে, তিনি প্রতি বছর পেনশন মূল্যের ৫%-এর জন্য যোগ্য হয়ে ওঠেন।\" -> \"Starting from 20 years later, she becomes eligible for 5% of the pension value each year.\" This is very specific.\n    *   Perhaps: Years 1-20: 0? (Unlikely).\n    *   Perhaps: She earns 5% for *each* year of service? $50,000 * 5% = $2,500 per year of service.\n    *   Total pension after 30 years = $30 \\times 2,500 = 75,000$. This exceeds the max stated for 40 years ($50,000). So this interpretation is wrong.\n    *   Let's reconsider the linear model: Full pension is $50,000 for 40 years. Therefore, the accrual rate is $1,250/year. After 30 years, pension = $37,500. The \"5% after 20 years\" text seems like garbled logic from a badly translated problem, but the \"40 years = $50k\" anchor is strong.\n    *   Alternative interpretation: Is it possible the question implies the pension *value* is $50,000 in total over some period? No, it says \"annual pension\".\n    *   Let's look at similar problems online. Often, these problems have a structure: \"If you work X years, you get Z% of salary.\" Here, \"50,000/year\" is the max.\n    *   Let's assume the standard linear accrual: $(30/40) * 50,000 = 37,500$.\n\n**[id 63]**\n*   Monthly cost: $140\n*   First half of the year (6 months): $6 \\times 140 = 840$\n*   Second half of the year (6 months): Cost is 10% less.\n    *   New monthly cost = $140 - (0.10 \\times 140) = 140 - 14 = 126$\n    *   Cost for second half = $6 \\times 126 = 756$\n*   Total cost = $840 + 756 = 1596$\n\n**[id 64]**\n*   Distance driven on current gas: 100 miles\n*   Gas consumed to refill: 4 gallons\n*   Fuel efficiency: $100 \\text{ miles} / 4 \\text{ gallons} = 25 \\text{ miles/gallon}$\n*   Tank capacity: 12 gallons\n*   Distance on a full tank = $12 \\text{ gallons} \\times 25 \\text{ miles/gallon} = 300$ miles\n\n**[id 65]**\n*   Time watching TV per instance: 2 hours\n*   Time reading books per instance: \"half of that time\" (half of TV time) = $2 / 2 = 1$ hour.\n*   Total time per instance = $2 + 1 = 3$ hours.\n*   Frequency: 3 times a week.\n*   Total time per week = $3 \\text{ instances} \\times 3 \\text{ hours/instance} = 9$ hours.\n*   Total time over 4 weeks = $4 \\text{ weeks} \\times 9 \\text{ hours/week} = 36$ hours.\n\n**[id 66]**\n*   Schools: 4\n*   Teams per school: 2 (1 girls, 1 boys)\n*   Players per team: 5\n*   Coaches per team: 1\n*   People per team = Players + Coaches = $5 + 1 = 6$ people.\n*   Teams per school = 2\n*   People per school = $2 \\text{ teams} \\times 6 \\text{ people/team} = 12$ people.\n*   Total people = $4 \\text{ schools} \\times 12 \\text{ people/school} = 48$ people.\n\n**[id 67]**\n*   Diamonds: 175\n*   Rubies: 35 less than diamonds = $175 - 35 = 140$\n*   Pearls: Double the rubies = $140 \\times 2 = 280$\n*   Total gems = Diamonds + Rubies + Pearls\n*   Total = $175 + 140 + 280 = 595$\n\n**[id 68]**\n*   Girls: 60\n*   Boys: Double the girls = $60 \\times 2 = 120$\n*   Total students = $60 + 120 = 180$\n*   Teachers: \"5 students per teacher\"\n*   Number of teachers = Total students / 5\n*   Teachers = $180 / 5 = 36$\n\n**[id 69]**\n*   Weekly allowance: $5\n*   Duration: 8 weeks\n*   Total earned = $8 \\times 5 = 40$\n*   Final amount: $100$\n*   Initial amount + Earned = Final\n*   Initial amount = $100 - 40 = 60$\n\n```json\n{\"answers\": {\"60\": 17, \"61\": 1430, \"62\": 37500, \"63\": 1596, \"64\": 300, \"65\": 36, \"66\": 48, \"67\": 595, \"68\": 36, \"69\": 60}}\n```",
+ "usage": {
+  "queue_time": 0.06221299,
+  "prompt_tokens": 1205,
+  "prompt_time": 0.099785967,
+  "completion_tokens": 2066,
+  "completion_time": 4.607386002,
+  "total_tokens": 3271,
+  "total_time": 4.707171969
+ },
+ "served_by": null,
+ "answers_batch": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 37500.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ },
+ "single": {},
+ "answers": {
+  "60": 17.0,
+  "61": 1430.0,
+  "62": 37500.0,
+  "63": 1596.0,
+  "64": 300.0,
+  "65": 36.0,
+  "66": 48.0,
+  "67": 595.0,
+  "68": 36.0,
+  "69": 60.0
+ }
+}

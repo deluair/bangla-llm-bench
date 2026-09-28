@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "bn",
+ "batch": 13,
+ "ids": [
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109",
+  "110",
+  "111"
+ ],
+ "seconds": 22.6,
+ "text": "Here are the answers with brief reasoning:\n\n**104:** The passage explicitly states the find does not confirm that dinosaurs (at least some) had feathers — that remains only a widespread theory. Colors (A), non-flight use (B), and evolution insight (C) were all derived from the feathers. → **D**\n\n**105:** The scarps were found across the entire moon, so saying they are rarely found on the surface is false. A, B, C all match the passage. → **D**\n\n**106:** Bad weather, ice amount, and ice density are all cited as problems; melting ice is not mentioned. → **D**\n\n**107:** The passage says the two beams of light were aimed toward the sky. → **A**\n\n**108:** The suspect was detained in an injured condition, so \"he was not injured\" is false. → **D**\n\n**109:** AOL's headquarters prompted the complaint; the case was not brought against AOL. → **D**\n\n**110:** The passage states ASUS received the Taiwan Sustainable Award in 2007. → **C**\n\n**111:** The flight made one (already aborted) attempt and was on its second approach when it disappeared — not three attempts. → **C**\n\n{\"answers\": {\"104\": \"D\", \"105\": \"D\", \"106\": \"D\", \"107\": \"A\", \"108\": \"D\", \"109\": \"D\", \"110\": \"C\", \"111\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 1185,
+  "completion_tokens_details": {
+   "reasoning_tokens": 847
+  },
+  "prompt_tokens": 5026,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 6211
+ },
+ "served_by": null,
+ "answers_batch": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ },
+ "single": {},
+ "answers": {
+  "104": "D",
+  "105": "D",
+  "106": "D",
+  "107": "A",
+  "108": "D",
+  "109": "D",
+  "110": "C",
+  "111": "C"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "task": "mgsm",
+ "model": "gemini-3-1-pro",
+ "lang": "en",
+ "batch": 21,
+ "ids": [
+  "210",
+  "211",
+  "212",
+  "213",
+  "214",
+  "215",
+  "216",
+  "217",
+  "218",
+  "219"
+ ],
+ "seconds": 26.0,
+ "text": "Here is the step-by-step reasoning for each problem:\n\n*   **[id 210]** The jacket costs $30 and 2 pairs of shoes cost $40, so Sara needs $70 total. She earned $20 from babysitting and had $10 saved, meaning she has $30. She needs $40 more ($70 - $30). At $4 per lawn, she needs to mow 10 lawns ($40 / $4).\n*   **[id 211]** Let R be the number of red chickens and W be the number of white chickens. We know W = R + 2. The egg equation is 3R + 5W = 42. Substituting W, we get 3R + 5(R + 2) = 42 -> 8R + 10 = 42 -> 8R = 32 -> R = 4.\n*   **[id 212]** The perimeter of the park is 2 * (1.5 + 6) = 15 miles. Walking at 3 miles/hour, it will take him 15 / 3 = 5 hours.\n*   **[id 213]** Day 1 had 100 customers. Day 2 had 150 customers (100 + 50). The total for the first two days is 250. To reach 500 customers by day 3, she must have counted 500 - 250 = 250 customers on the third day.\n*   **[id 214]** Let B and S be the volumes of the big and small pools 4 minutes ago. We know B = 2S. Now, 4 minutes later, 16 gallons have leaked from each pool (4 gal/min * 4 min). The current volumes are B - 16 and S - 16. We are told B - 16 = 4(S - 16). Substituting B: 2S - 16 = 4S - 64 -> 48 = 2S -> S = 24. Four minutes ago the small pool had 24 gallons. Now it has 24 - 16 = 8 gallons.\n*   **[id 215]** The total cost of Lori's purchase is $320 + $32 = $352. At a rate of $8.00 an hour, she needs to work $352 / $8 = 44 hours.\n*   **[id 216]** Janeth must repay the $2000 plus 10%, which makes the total $2200. She will pay $165 * 12 months = $1980. Her remaining balance will be $2200 - $1980 = $220.\n*   **[id 217]** There are 4 roses. There are 4 + 7 = 11 dahlias. The total number of flowers is 4 + 11 = 15.\n*   **[id 218]** Harriet is 21. Adrian is 3 * 21 = 63. Zack is 2 * 21 = 42. Their current average age is (21 + 63 + 42) / 3 = 42. In three years, their average age will be 42 + 3 = 45.\n*   **[id 219]** Naomi = 68. Yuri = 10 + (68 / 2) = 44. Brianna = 68 + 17 = 85. The three of them scored 68 + 44 + 85 = 197 points. Jojo scored the remainder: 251 - 197 = 54.\n\n{\"answers\": {\"210\": 10, \"211\": 4, \"212\": 5, \"213\": 250, \"214\": 8, \"215\": 44, \"216\": 220, \"217\": 15, \"218\": 45, \"219\": 54}}\n",
+ "usage": {
+  "input_tokens": 16725,
+  "output_tokens": 3241,
+  "thinking_tokens": 2261,
+  "cache_read_tokens": 8140,
+  "total_tokens": 19966
+ },
+ "answers_batch": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ },
+ "single": {},
+ "answers": {
+  "210": 10.0,
+  "211": 4.0,
+  "212": 5.0,
+  "213": 250.0,
+  "214": 8.0,
+  "215": 44.0,
+  "216": 220.0,
+  "217": 15.0,
+  "218": 45.0,
+  "219": 54.0
+ }
+}

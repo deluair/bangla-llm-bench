@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 13,
+ "ids": [
+  "130",
+  "131",
+  "132",
+  "133",
+  "134",
+  "135",
+  "136",
+  "137",
+  "138",
+  "139"
+ ],
+ "seconds": 13.4,
+ "text": "# Math Word Problems Solutions\n\n**[id 130]:** Starting with 60 elves. One-third quit (60/3 = 20), leaving 40. Then 10 more quit. Final: 40 - 10 = **30 elves**\n\n**[id 131]:** May: $500. June: $500 - $60 = $440. Total: $500 + $440 = **$940**\n\n**[id 132]:** Roller coaster rides: Pam (2) + Fred (4) = 6 rides. Luge rides: 2 + 2 = 4 rides. Total: 10 rides × 6 tickets = **60 tickets**\n\n**[id 133]:** Monday: 4 miles. Tuesday: 6 × 4 = 24 miles. Combined: 28 miles. Wednesday: 41 - 28 = **13 miles**\n\n**[id 134]:** 4 washes/month × 12 months = 48 washes/year. 48 × $15 = **$720**\n\n**[id 135]:** Brian had 20 but lost 5, so 15 at comparison. Bobby has 3 × 15 - 5 = 45 - 5 = **40 games**\n\n**[id 136]:** Scottish unicorns: 27/3 = 9. Female Scottish: 2/3 × 9 = **6 unicorns**\n\n**[id 137]:** Subs: 2 × $7.50 = $15. Chips: 2 × $1.50 = $3. Cookies: 2 × $1 = $2. Subtotal: $20. Delivery fee (20%): $4. With tip: $20 + $4 + $5 = **$29**\n\n**[id 138]:** First test: 75 questions, 8 hours available at 5 q/hr = 40 completed, 35 incomplete. Second test: 100 questions, 6 hours available at 5 q/hr = 30 completed, 70 incomplete. Total incomplete: 35 + 70 = **105 questions**\n\n**[id 139]:** Pink = 4 × (blue) + 22 = 4 × 12 + 22 = 48 + 22 = **70 gumballs**\n\n```json\n{\"answers\": {\"130\": 30, \"131\": 940, \"132\": 60, \"133\": 13, \"134\": 720, \"135\": 40, \"136\": 6, \"137\": 29, \"138\": 105, \"139\": 70}}\n```",
+ "usage": {
+  "input_tokens": 1083,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2137,
+  "output_tokens_details": {
+   "thinking_tokens": 1483
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1083,
+    "output_tokens": 2137,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.011768,
+ "answers_batch": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ },
+ "single": {},
+ "answers": {
+  "130": 30.0,
+  "131": 940.0,
+  "132": 60.0,
+  "133": 13.0,
+  "134": 720.0,
+  "135": 40.0,
+  "136": 6.0,
+  "137": 29.0,
+  "138": 105.0,
+  "139": 70.0
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "qwen3-5-9b",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 58.5,
+ "text": "\n\n**Question 8 Analysis**\nThe passage discusses \"micro-expressions\" ( ক্ষুদ্র-অভিব্যক্তি) which are described as \"subtle facial expressions\" (মুখের সূক্ষ্ম অভিব্যক্তিগুলা) and \"movements of the face\" (মুখের গতিবিধি). \n- Option A (Staring) involves the eyes (part of face), though it is an action.\n- Option B (Eyebrows) are part of the face.\n- Option C (Blinking) involves the eyes/face.\n- Option D (Showing a finger) involves the hand/arm, which is not a facial micro-expression.\nTherefore, D is the correct answer as it is not a facial expression.\n\n**Question 9 Analysis**\nThe passage lists motivations for Internet use: \"Education\" and \"Socialization\" (সামাজিকীকরণ) and \"Personalization/Connection\".\n- Options A, B, and D relate directly to \"connecting with others\" (Business, Family, New People).\n- Option C (Travel Research) relates to information seeking/gathering, not necessarily maintaining social connections.\nThe question asks which is NOT done due to the desire to maintain/continue a connection. C is the outlier.\n\n**Question 10 Analysis**\nThe passage states that questions were raised regarding the Church's \"power and wealth abundance\". \n- Options A (\"Is property enough?\"), B (\"Should principles be modified?\"), and D (\"Are principles fulfilled?\") are interrogative phrases (ending with 'কি না').\n- Option C (\"Concentration of power\" - ক্ষমতার কেন্দ্রীভবন) is a noun phrase describing the situation, not a question itself ('কি না').\nAdditionally, in historical context, the questions were about the nature of the wealth and authority, but grammatically and structurally in this question set, C stands out as not being a question (\"ki na\" options).\n\n**Question 11 Analysis**\nThe passage states that Britain's blockade strategy was successful but violated international norms.\n- A (Germany's desire to start same method) - Implied by \"Germany hoped for similar reaction/start\".\n- B (Damaged ships) - Confirmed by sea mines affecting ships.\n- C (International law changed) - The text says laws were \"violated\" (লঙ্ঘন করছে), it does not state that the law itself was *changed* or established as a result.\n- D (Supply not received) - Confirmed by blockade cutting off supplies.\nThus, C is the correct answer as the law itself did not change per the text.\n\n**Question 12 Analysis**\nMS (Multiple Sclerosis) affects \"young and middle-aged\" people.\n- \"Women are twice as likely as men\" (মহিলারা পুরুষদের থেকে দ্বিগুণ সম্ভাবনা).\n- Option A: 32-year-old Woman (Prime age group + Gender).\n- Option B/C: Men (Lower probability).\n- Option D: 10-year-old Woman (Too young, peak is 20-40).\nOption A has the highest probability due to gender and age fit.\n\n**Question 13 Analysis**\nThe passage states fencing is \"mainly played by two\" (মূলত দ্বজন খেলার চলক আচে).\n- This refers to a \"Duel\" format.\n- Options B and C are levels of competition, not format.\n- Option D (Duel format) matches \"played by two\".\nThus, D is correct.\n\n**Question 14 Analysis**\nThe passage describes changes like \"Republic/Republicanism\" (প্রজাতান্ত্রিক), \"Metric system\", \"Meritocracy\".\n- It ends by saying the Revolution \"inspired... working people... to start their own revolutions\".\n- This broad political impact is best captured by \"Democratic ideals adopted\" (Option C).\n- While B (Meritocracy) is mentioned, C covers the wider ideological shift influencing common people most significantly.\nThus, C is correct.\n\n**Question 15 Analysis**\nThe passage explicitly mentions that complaints about \"water quality\" or \"bridges\" are \"rarely heard\" in developed countries.\n- This eliminates A and B.\n- The text then pivots to questioning why the \"Transport system\" (পরিবহন ব্যবস্থা) fails or has issues.\n- Education (D) is not the focus of the services mentioned.\n- Therefore, Public Transport (C) is the service most likely to show dissatisfaction/failure as per the passage's argument.\nThus, C is correct.\n\n```json\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"C\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"C\", \"15\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 3664,
+  "completion_tokens": 9025,
+  "total_tokens": 12689,
+  "cost": 0.00172015,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00172015,
+   "upstream_inference_prompt_cost": 0.0003664,
+   "upstream_inference_completions_cost": 0.00135375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7956,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Venice",
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "C",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "C",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "C",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "C",
+  "15": "C"
+ }
+}

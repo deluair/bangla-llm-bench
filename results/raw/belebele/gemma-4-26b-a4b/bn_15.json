@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 15,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127"
+ ],
+ "seconds": 38.5,
+ "text": "The questions are answered based on the provided Bengali passages:\n\n[id 120] The passage states \"সিরেনা হল একমাত্র ভ্রমণমূলক স্টেশন যা ক্যাম্পিংয়ের পাশাপাশি অস্থায়ী থাকার ব্যবস্থা... সরবরাহ করে\" (Sirena is the only station that provides temporary accommodation along with camping). Thus, A is correct.\n[id 121] The passage states \"১৮৬১ সালে অস্ট্রেলিয়া তে নরওয়েজীয়ানরা প্রথম বিনোদনমূলক স্কি ক্লাব খোলে\" (In 1861, Norwegians opened the first recreational ski club in Australia). Thus, B is correct.\n[id 122] The passage states \"বন্যজীবনের ক্ষেত্রে মাদাগাস্কার এখন পর্যন্ত সর্ববৃহৎ একটি মহাদেশ\" (In terms of wildlife, Madagascar is currently the largest continent [island/area implied]). The question asks what is related to the largest island/area in East Africa. The text links Madagascar primarily to wildlife. Thus, C is correct.\n[id 123] The passage notes that imported brand-name frames are much more expensive than local ones (\"প্রকৃত আমদানি করা জিনিস দেশী জিনিসের চেয়ে অনেক দামী\"). Thus, B is correct.\n[id 124] The passage states \"প্রথম বা ব্যবসায়িক শ্রেণির ফ্লাইটে যাতায়াত করার সবথেকে ভালো উপায় হলো মোটা অংকের টাকা প্রদান করা (বা আরও ভাল হয়, যদি আপনার কোম্পানি আপনাকে এটি প্রদান করে থাকে)\" (The best way to travel... is to pay a large amount (or better, if your company pays for it)). Thus, A is correct.\n[id 125] The passage states \"'সি' (তুমি) শব্দটিও সবসময় বড় হাতের অক্ষর দিয়ে শুরু হয়... বিশেষ্য শব্দগুলির মতো\" (The word 'Si' (you) always starts with a capital letter, like nouns). However, the question asks which part of speech *must* be capitalized according to the text's logic for 'Si'. The text explicitly mentions 'Si' (You) is capitalized like nouns. Given the options, the text implies 'Si' is the subject. Looking at the options provided, the passage says \"বিশেষ্য শব্দগুলির মতো 'সি' (তুমি) শব্দটিও সবসময় বড় হাতের অক্ষর দিয়ে শুরু হয়\". This implies 'Si' behaves like a noun (বিশেষ্য) in this context. Thus, B is correct.\n[id 126] The passage says \"এমনকি শিশুদের ও প্রাক-বিদ্যালয় বাচ্চাদের নিয়েও একদিন বাড়ির বাইরে যাওয়া সহজেই সম্ভব\" (Even with children and pre-schoolers, going out for a day is easily possible). Option D says it is *not* suitable for families with small children, which contradicts the text. Thus, D is incorrect/not true.\n[id 127] The passage says \"হংকং দ্বীপের নগর উন্নয়নের বেশিরভাগ অংশ উত্তর তীর বরাবর পুনরদ্ধার করা জমিতে ঘনভাবে অবস্থিত... আপনি যদি এই অঞ্চলের ঔপনিবেশিক অতীতের প্রমাণ খুঁজেন তবে সেটা শুরু করার জন্য এটি ভালো জায়গা\" (Most of the urban development of Hong Kong island is densely located along the north coast... if you are looking for evidence of the colonial past, this is a good place to start). Thus, A is correct.\n\n```json\n{\"answers\": {\"120\": \"A\", \"121\": \"B\", \"122\": \"C\", \"123\": \"B\", \"124\": \"A\", \"125\": \"B\", \"126\": \"D\", \"127\": \"A\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1673,
+  "completion_tokens": 736,
+  "total_tokens": 2409,
+  "cost": 0.00036735,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00036735,
+   "upstream_inference_prompt_cost": 0.00011711,
+   "upstream_inference_completions_cost": 0.00025024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ },
+ "single": {},
+ "answers": {
+  "120": "A",
+  "121": "B",
+  "122": "C",
+  "123": "B",
+  "124": "A",
+  "125": "B",
+  "126": "D",
+  "127": "A"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "task": "bnexam",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 0,
+ "ids": [
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528"
+ ],
+ "seconds": 83.0,
+ "text": "# Analysis of Multiple-Choice Questions\n\nLet me work through each question:\n\n**[000c853a]** f(x)=√(x-2)\nDomain requires x-2 ≥ 0, so x ≥ 2 → **D) [2, ∞]**\n\n**[018777f7]** Average speed problem\nTotal distance = 2d; Time = d/5 + d/3 = 8d/15\nAverage = 2d ÷ (8d/15) = 15/4 km/h → **A)**\n\n**[01e79fd1]** Local government tiers in Bangladesh\nStandard structure: Union Parishad → Upazila Parishad → Zilla Parishad = 3 tiers → **A)**\n\n**[0269a96c]** Boolean Algebra inventor\nGeorge Boole developed Boolean Algebra/Logic → **C) জর্জ বুল**\n\n**[0328368d]** Second's pendulum frequency\nPeriod = 2 seconds; Frequency = 1/Period = 0.5 Hz → **C)**\n\n**[034aa277]** Henna color compound\nLawson (2-hydroxy-1,4-naphthoquinone) is the active dyeing compound → **D) লাসোন**\n\n**[03a5ee94]** Dicot root internal structure - incorrect statement\nCortex IS divided into layers in dicot roots, so \"cortex is not divided\" is wrong → **B)**\n\n**[064a8667]** Passive form of \"The pill tastes bitter\"\nSensory verbs use: \"The pill is bitter when it is tasted\" → **D)**\n\n**[0720a5e2]** Translation: \"সৌভাগ্যক্রমে পরের বাসে আমি উঠতে পেরেছিলাম\"\nMeans: \"Fortunately I could get into the next bus\" → **A)**\n\n**[084c3183]** Screwdriver turns needed\nBoth drivers turning identical screws to same depth need the same rotations (pitch is constant) → **C)**\n\n**[08bd4ed2]** Central Shaheed Minar architect\n→ **A) Hamidur Rahman**\n\n**[08de5d58]** Incorrect statement about electronegativity\nPolarity IS a characteristic of covalent compounds (both polar and nonpolar types exist) → **D)**\n\n**[09255f80]** Building collapse during earthquakes\nResonance (forced vibration at natural frequency) causes buildings to collapse → **A) পরবশ কম্পন**\n\n**[09771521]** Meaning of \"Inexorable\"\nInexorable = unyielding, relentless → **B) অনমনীয়**\n\n**[0a88ac8c]** Maximum horizontal range in projectile motion\nMaximum range occurs at 45° angle → **B)**\n\n```json\n{\"answers\": {\"000c853a-7896-439c-af8f-83f93a94aa21-146810\": \"D\", \"018777f7-7958-4668-95af-70afe6cf7e66-103354\": \"A\", \"01e79fd1-255b-4857-96fc-59c1f17df04c-15675\": \"A\", \"0269a96c-32f5-477c-bab9-31fd827929f3-51190\": \"C\", \"0328368d-9139-4f5e-b75b-2eae817dba6d-119686\": \"C\", \"034aa277-1099-4156-bd75-02abc0eca393-64103\": \"D\", \"03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978\": \"B\", \"064a8667-f1ca-4d1a-8459-11db81ef4a69-131760\": \"D\", \"0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424\": \"A\", \"084c3183-b891-4cae-bca9-e9b73a923003-48454\": \"C\", \"08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115\": \"A\", \"08de5d58-d002-429c-ba6c-c49610eea192-102317\": \"D\", \"09255f80-0720-46f4-ae96-f013ca5a79fb-108294\": \"A\", \"09771521-ceb8-449f-bced-46bb53d91cf7-63413\": \"B\", \"0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528\": \"B\"}}\n```",
+ "usage": {
+  "input_tokens": 2664,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7218,
+  "output_tokens_details": {
+   "thinking_tokens": 6025
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2664,
+    "output_tokens": 7218,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.038754,
+ "answers_batch": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "B",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "A",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ },
+ "single": {},
+ "answers": {
+  "000c853a-7896-439c-af8f-83f93a94aa21-146810": "D",
+  "018777f7-7958-4668-95af-70afe6cf7e66-103354": "A",
+  "01e79fd1-255b-4857-96fc-59c1f17df04c-15675": "A",
+  "0269a96c-32f5-477c-bab9-31fd827929f3-51190": "C",
+  "0328368d-9139-4f5e-b75b-2eae817dba6d-119686": "C",
+  "034aa277-1099-4156-bd75-02abc0eca393-64103": "D",
+  "03a5ee94-d39c-4a25-94f3-d20bc8197d6e-141978": "B",
+  "064a8667-f1ca-4d1a-8459-11db81ef4a69-131760": "D",
+  "0720a5e2-aa79-49f6-9ed2-98f8473d1fb6-139424": "A",
+  "084c3183-b891-4cae-bca9-e9b73a923003-48454": "C",
+  "08bd4ed2-6c89-43d1-91b6-6e7e4695bede-122115": "A",
+  "08de5d58-d002-429c-ba6c-c49610eea192-102317": "D",
+  "09255f80-0720-46f4-ae96-f013ca5a79fb-108294": "A",
+  "09771521-ceb8-449f-bced-46bb53d91cf7-63413": "B",
+  "0a88ac8c-fb49-46ae-a2fe-9c449a16c780-105528": "B"
+ }
+}

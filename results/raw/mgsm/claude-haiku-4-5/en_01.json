@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "en",
+ "batch": 1,
+ "ids": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "seconds": 85.6,
+ "text": "I'll solve each problem step by step.\n\n**[id 10]** Downloads over three months:\n- Month 1: 60\n- Month 2: 3 × 60 = 180\n- Month 3: 180 × 0.70 = 126\n- Total: 60 + 180 + 126 = **366**\n\n**[id 11]** Total bakery cost:\n- Donuts: 3 × $68 = $204\n- Cupcakes: 2 × $80 = $160\n- Cheesecakes: 6 × $55 = $330\n- Total: $204 + $160 + $330 = **694**\n\n**[id 12]** Break-even analysis:\n- Initial cost: $90\n- Annual revenue: 7 lemons × $1.5 = $10.50\n- Annual cost: $3\n- Net annual profit: $10.50 - $3 = $7.50\n- Years to break even: $90 ÷ $7.50 = **12**\n\n**[id 13]** Working backwards from 5 remaining:\n- Let x = starting amount\n- Sold x/3 at green house; remaining = 2x/3\n- Sold 2 at red house; remaining = 2x/3 - 2\n- Sold half of remaining at orange; remaining = (2x/3 - 2)/2 = 5\n- Solving: 2x/3 - 2 = 10 → x = **18**\n\n**[id 14]** Student enrollment:\n- Contemporary: 20% × 20 = 4\n- Remaining: 16\n- Jazz: 25% × 16 = 4\n- Hip-hop: 16 - 4 = 12\n- Percentage: 12/20 = **60**\n\n**[id 15]** Comparing investments:\n- Jewelry profit: $5,000 × 0.025 = $125\n- Gadgets profit: $8,000 × 0.012 = $96\n- Maximum profit: **125**\n\n**[id 16]** Distance traveled by each train:\n- Day 1: 80 miles west\n- Day 2: 150 miles north\n- Total: 80 + 150 = **230**\n\n**[id 17]** Annual salary:\n- Teaching: $20 × 35 hours = $700/week\n- Coaching: $30 × 15 hours = $450/week\n- Per week: $1,150\n- Annual (50 weeks): $1,150 × 50 = **57500**\n\n**[id 18]** Eggs in 4 weeks:\n- Days: 4 × 7 = 28\n- Total eggs: 3 × 28 = 84\n- Dozens: 84 ÷ 12 = **7**\n\n**[id 19]** Required speed for remaining distance:\n- First 6 miles: 2 hours\n- Remaining: 6 miles\n- For 4 mph average over 12 miles: need 3 hours total\n- Time available for remaining 6 miles: 1 hour\n- Required speed: 6 ÷ 1 = **6**\n\n```json\n{\"answers\": {\"10\": 366, \"11\": 694, \"12\": 12, \"13\": 18, \"14\": 60, \"15\": 125, \"16\": 230, \"17\": 57500, \"18\": 7, \"19\": 6}}\n```",
+ "usage": {
+  "input_tokens": 1173,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9148,
+  "output_tokens_details": {
+   "thinking_tokens": 8281
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1173,
+    "output_tokens": 9148,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.046913,
+ "answers_batch": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ },
+ "single": {},
+ "answers": {
+  "10": 366.0,
+  "11": 694.0,
+  "12": 12.0,
+  "13": 18.0,
+  "14": 60.0,
+  "15": 125.0,
+  "16": 230.0,
+  "17": 57500.0,
+  "18": 7.0,
+  "19": 6.0
+ }
+}

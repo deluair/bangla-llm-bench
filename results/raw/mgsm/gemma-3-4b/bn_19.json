@@ -1,0 +1,339 @@
+{
+ "task": "mgsm",
+ "model": "gemma-3-4b",
+ "lang": "bn",
+ "batch": 19,
+ "ids": [
+  "190",
+  "191",
+  "192",
+  "193",
+  "194",
+  "195",
+  "196",
+  "197",
+  "198",
+  "199"
+ ],
+ "seconds": 29.6,
+ "text": "",
+ "usage": {
+  "prompt_tokens": 840,
+  "completion_tokens": 1004,
+  "total_tokens": 1844,
+  "cost": 0.0001424,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001424,
+   "upstream_inference_prompt_cost": 4.2e-05,
+   "upstream_inference_completions_cost": 0.0001004
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers_batch": {},
+ "single": {
+  "190": {
+   "text": "Let the time taken by John to collect pitches be $t = 3$ hours.\nJohn collects 2 pitches per minute.\nWe need to find the total number of pitches collected.\n\nFirst, we convert the time from hours to minutes.\nSince 1 hour = 60 minutes,\n3 hours = 3 * 60 = 180 minutes.\n\nNow, we can find the number of pitches collected by multiplying the time in minutes by the number of pitches collected per minute.\nNumber of pitches = (Time in minutes) * (Pitches per minute)\nNumber of pitches = 180 minutes * 2 pitches/minute = 360 pitches.\n\nTherefore, John collects 360 pitches.\n\nANSWER: 360",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 83,
+    "completion_tokens": 164,
+    "total_tokens": 247,
+    "cost": 2.055e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.055e-05,
+     "upstream_inference_prompt_cost": 4.15e-06,
+     "upstream_inference_completions_cost": 1.64e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 360.0
+  },
+  "191": {
+   "text": "Here's how to solve the problem:\n\n1. **Calculate the weekly food requirement for one duck:** Each duck needs 3.5 pounds of insects per week.\n\n2. **Calculate the weekly food requirement for a flock of ten ducks:** Ten ducks need 10 * 3.5 = 35 pounds of insects per week.\n\n3. **Calculate the daily food requirement:** There are 7 days in a week, so the flock needs 35 pounds / 7 days = 5 pounds of insects per day.\n\nANSWER: 5",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 118,
+    "total_tokens": 211,
+    "cost": 1.645e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.645e-05,
+     "upstream_inference_prompt_cost": 4.65e-06,
+     "upstream_inference_completions_cost": 1.18e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 5.0
+  },
+  "192": {
+   "text": "Here's how to solve the problem step-by-step:\n\n1. **Initial number of trees:** Tom starts with 50 trees.\n\n2. **Trees planted per year:** He plants 10 trees per year.\n\n3. **Trees cut per year:** He cuts 2 trees per year.\n\n4. **Net increase per year:** The net increase in trees is 10 - 2 = 8 trees per year.\n\n5. **Total increase over 10 years:** Over 10 years, the total increase is 8 trees/year * 10 years = 80 trees.\n\n6. **Total trees after 10 years:**  The total number of trees after 10 years is 50 + 80 = 130 trees.\n\n7. **Trees lost:** 30% of the trees are lost, which is 130 * 0.30 = 39 trees.\n\n8. **Remaining trees:** The number of trees remaining is 130 - 39 = 91 trees.\n\nANSWER: 91",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 111,
+    "completion_tokens": 239,
+    "total_tokens": 350,
+    "cost": 2.945e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.945e-05,
+     "upstream_inference_prompt_cost": 5.55e-06,
+     "upstream_inference_completions_cost": 2.39e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 91.0
+  },
+  "193": {
+   "text": "Let $F_F$ be the number of flamingoes initially placed in Su's yard on Friday morning.\n$F_F = 18$\n\nOn Saturday morning, the neighbors took $\\frac{1}{3}$ of the flamingoes and painted them white.\nNumber of flamingoes taken = $\\frac{1}{3} \\times 18 = 6$\nNumber of flamingoes remaining = $18 - 6 = 12$\nThe painted white flamingoes were returned and repainted pink.\nSo, the number of pink flamingoes now is $12$.\nThen, on Sunday morning, 18 more pink flamingoes were added.\nNumber of pink flamingoes = $12 + 18 = 30$\n\nOn Sunday afternoon, the number of white flamingoes is the number of flamingoes that were taken and painted white, which is 6.\nThe number of pink flamingoes is 30.\nThe difference between the number of pink flamingoes and white flamingoes is $30 - 6 = 24$.\n\nTherefore, there were 24 more pink flamingoes than white flamingoes.\n\nLet $F_F = 18$ be the number of flamingoes on Friday.\nOn Saturday, $\\frac{1}{3} \\times 18 = 6$ flamingoes were removed and painted white.\nSo the number of flamingoes remaining on Saturday is $18 - 6 = 12$.\nThese 6 white flamingoes were returned and painted pink.\nOn Sunday, 18 more pink flamingoes were added.\nSo the total number of pink flamingoes on Sunday is $12 + 18 = 30$.\nThe number of white flamingoes is still 6 (the 6 that were removed and then painted pink).\nThe difference between the number of pink flamingoes and white flamingoes is $30 - 6 = 24$.\n\nANSWER: 24",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 423,
+    "total_tokens": 636,
+    "cost": 5.295e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 5.295e-05,
+     "upstream_inference_prompt_cost": 1.065e-05,
+     "upstream_inference_completions_cost": 4.23e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 24.0
+  },
+  "194": {
+   "text": "Let the number of colors Violet wants to buy be $n = 5$.\nThe total amount Violet has is $T = $20$.\nThe price of one crayon is $P = $2$.\n\nThe total number of crayons Violet can buy is $\\frac{T}{P} = \\frac{20}{2} = 10$.\nSince Violet wants 5 different colors, she needs to buy 5 crayons.\nThe amount Violet spends on 5 crayons is $5 \\times 2 = $10$.\nThe amount Violet receives as a refund is $T - 5P = 20 - 10 = $10$.\n\nAlternatively, Violet wants 5 different colors, and each color costs $2.\nTotal cost = 5 * $2 = $10.\nViolet had $20 and spent $10.\nRefund = $20 - $10 = $10.\n\nANSWER: 10",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 205,
+    "total_tokens": 301,
+    "cost": 2.53e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.53e-05,
+     "upstream_inference_prompt_cost": 4.8e-06,
+     "upstream_inference_completions_cost": 2.05e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 10.0
+  },
+  "195": {
+   "text": "Let the price of a pencil be $P$ and the price of an eraser be $E$.\nGiven that the total cost of a pencil and an eraser is the same as the price of a pen.\nWe are given that $P = $1.20$ and $E = $0.30$.\nLet the price of a pen be $N$. Then $P + E = N$.\n$1.20 + 0.30 = N$\n$N = 1.50$\nSo, the price of a pen is $1.50$.\nWe want to find the cost of 8 pens.\nCost of 8 pens = $8 \\times N = 8 \\times 1.50 = 12.00$\nTherefore, the cost of 8 pens is $12.00$.\n\nANSWER: 12",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 191,
+    "total_tokens": 295,
+    "cost": 2.43e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.43e-05,
+     "upstream_inference_prompt_cost": 5.2e-06,
+     "upstream_inference_completions_cost": 1.91e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 12.0
+  },
+  "196": {
+   "text": "Here's how to solve the problem:\n\n1. **Total gazar distributed:** 40 restaurants * 2 pounds/restaurant = 80 pounds\n2. **Gazar remaining:** 200 pounds - 80 pounds = 120 pounds\n\nANSWER: 120",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 65,
+    "total_tokens": 172,
+    "cost": 1.185e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 1.185e-05,
+     "upstream_inference_prompt_cost": 5.35e-06,
+     "upstream_inference_completions_cost": 6.5e-06
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 120.0
+  },
+  "197": {
+   "text": "Let the total number of residents in Soda City be $T$.\nGiven that $T = 23786$.\nLet the number of male residents be $M$.\nGiven that $M = 8417$.\nLet the number of female residents be $F$.\nGiven that $F = 9092$.\nThe remaining population consists of children.\nLet the number of children be $C$.\nWe have $T = M + F + C$.\nSo, $C = T - (M + F)$.\n$C = 23786 - (8417 + 9092)$\n$C = 23786 - 17509$\n$C = 6277$\n\nThe number of children in Soda City is $6277$.\n\nANSWER: 6277",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 190,
+    "total_tokens": 293,
+    "cost": 2.415e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.415e-05,
+     "upstream_inference_prompt_cost": 5.15e-06,
+     "upstream_inference_completions_cost": 1.9e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 6277.0
+  },
+  "198": {
+   "text": "Let's break down the problem step by step:\n\n1. **Initial cards:** Ellen starts with 20 Pokémon cards.\n\n2. **After one month:** She has three times the initial amount, so she has 20 * 3 = 60 cards.\n\n3. **Second month:** She collects 20 fewer cards than the first month, so she collects 60 - 20 = 40 cards.  Her total is now 60 + 40 = 100 cards.\n\n4. **Third month:** She collects twice the total of the first and second months, so she collects 2 * (60 + 40) = 2 * 100 = 200 cards. Her total is now 100 + 200 = 300 cards.\n\nTherefore, Ellen now has 300 Pokémon cards.\n\nANSWER: 300",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 201,
+    "total_tokens": 341,
+    "cost": 2.71e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 2.71e-05,
+     "upstream_inference_prompt_cost": 7e-06,
+     "upstream_inference_completions_cost": 2.01e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 300.0
+  },
+  "199": {
+   "text": "Let $x$ be the number of sentences Mark edits for publisher A per week.\nSince Mark edits two different publishers and edits the same number of sentences for each, he edits $x$ sentences for publisher A and $x$ sentences for publisher B.\nThe total number of sentences edited per week is $x + x = 2x$.\nWe are given that Mark edits 1000 sentences per week, so $2x = 1000$.\nTherefore, $x = \\frac{1000}{2} = 500$.\nSo Mark edits 500 sentences for publisher A and 500 sentences for publisher B.\nPublisher A pays Mark 5 cents per sentence, so publisher A pays $500 \\times 5 = 2500$ cents.\nPublisher B pays Mark twice as much as publisher A, so publisher B pays $2 \\times 5 = 10$ cents per sentence.\nTherefore, publisher B pays $500 \\times 10 = 5000$ cents.\nTotal earnings for Mark per week are $2500 + 5000 = 7500$ cents.\n\nAlternatively:\nLet $p_A$ be the price per sentence from publisher A, and $p_B$ be the price per sentence from publisher B.\nWe are given that $p_B = 2p_A$.\nWe are given that $p_A = 5$ cents.\nSo, $p_B = 2 \\times 5 = 10$ cents.\nMark edits $x$ sentences for publisher A and $x$ sentences for publisher B, and $x+x = 2x$ sentences in total.\nWe are given that $2x = 1000$, so $x = 500$.\nThe earnings from publisher A are $500 \\times 5 = 2500$ cents.\nThe earnings from publisher B are $500 \\times 10 = 5000$ cents.\nThe total earnings are $2500 + 5000 = 7500$ cents.\n\nTo convert to dollars, we divide by 100: $\\frac{7500}{100} = 75$ dollars.\nIn cents, Mark earns 7500 cents per week.\n\nANSWER: 7500",
+   "error": null,
+   "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 531,
+    "total_tokens": 676,
+    "cost": 6.035e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "cost_details": {
+     "upstream_inference_cost": 6.035e-05,
+     "upstream_inference_prompt_cost": 7.25e-06,
+     "upstream_inference_completions_cost": 5.31e-05
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "image_tokens": 0,
+     "audio_tokens": 0
+    }
+   },
+   "answer": 7500.0
+  }
+ },
+ "answers": {
+  "190": 360.0,
+  "191": 5.0,
+  "192": 91.0,
+  "193": 24.0,
+  "194": 10.0,
+  "195": 12.0,
+  "196": 120.0,
+  "197": 6277.0,
+  "198": 300.0,
+  "199": 7500.0
+ }
+}

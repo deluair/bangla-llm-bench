@@ -1,0 +1,54 @@
+{
+ "task": "mgsm",
+ "model": "kimi-k2-6",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  "100",
+  "101",
+  "102",
+  "103",
+  "104",
+  "105",
+  "106",
+  "107",
+  "108",
+  "109"
+ ],
+ "seconds": 178.4,
+ "text": "[id 100] First friend: 20. Second: 20 + 20/4 = 25. Third: 10 × 60 = 600. Fourth: 60. Total = 20 + 25 + 600 + 60 = 705.\n[id 101] Total pages = 4 + 20 + 7 + 8 = 39. After Monday: 39 − 15 = 24. Over 4 days: 24 ÷ 4 = 6.\n[id 102] Weekdays: 5 days × 4 glasses = 20. Weekends: 2 days × 3 glasses = 6. Total = 26.\n[id 103] 42 miles ÷ 3 miles = 14 intervals. 14 × 10 minutes = 140 minutes.\n[id 104] Poppy places 250, leaving 750. Mom places 750 ÷ 3 = 250, leaving 500.\n[id 105] Cody eats 3 × 5 = 15. Together: 5 + 15 = 20.\n[id 106] Inner dimensions: (5−2) × (6−2) × (4−2) = 3 × 4 × 2 = 24 per box. 24 × 3 = 72.\n[id 107] Known viewing: 1 + 1 + 1.5 + 2 = 5.5 hours. Remaining for Wednesday: 7 − 5.5 = 1.5 hours = 3 half-hour episodes.\n[id 108] Let last year be L. He baked 2L + 15, dropped 5, so 2L + 10 = 110 → 2L = 100 → L = 50.\n[id 109] Cost: 10 × $3 = $30. Cashback: 10 × $0.20 = $2. Final cost: $30 − $2 = $28.\n{\"answers\": {\"100\": 705, \"101\": 6, \"102\": 26, \"103\": 140, \"104\": 500, \"105\": 20, \"106\": 72, \"107\": 3, \"108\": 50, \"109\": 28}}",
+ "usage": {
+  "prompt_tokens": 783,
+  "completion_tokens": 6708,
+  "total_tokens": 7491,
+  "completion_tokens_details": {
+   "reasoning_tokens": 6230
+  }
+ },
+ "served_by": null,
+ "answers_batch": {
+  "100": 705.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ },
+ "single": {},
+ "answers": {
+  "100": 705.0,
+  "101": 6.0,
+  "102": 26.0,
+  "103": 140.0,
+  "104": 500.0,
+  "105": 20.0,
+  "106": 72.0,
+  "107": 3.0,
+  "108": 50.0,
+  "109": 28.0
+ }
+}

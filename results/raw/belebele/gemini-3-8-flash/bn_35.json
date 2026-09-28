@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 35,
+ "ids": [
+  "280",
+  "281",
+  "282",
+  "283",
+  "284",
+  "285",
+  "286",
+  "287"
+ ],
+ "seconds": 11.9,
+ "text": "Here is the brief reasoning for each question:\n\n- **[id 280]**: **B** — The legend of the lovers is located at *Callejón del Beso* (Alley of the Kiss), which is separate from *Jardín de la Unión*.\n- **[id 281]**: **B** — The plateaus in Norway are explicitly described as treeless (*বৃক্ষবিহীন* / *গাছহীন*), not forested (*জঙ্গলে ঘেরা*).\n- **[id 282]**: **C** — The passage states that summer is generally the peak tourist season for top Indian hill stations (*গ্রীষ্ম সাধারণত ভারতীয় শীর্ষ পার্বত্য কেন্দ্রগুলোর পর্যটন মৌসুম*).\n- **[id 283]**: **D** — The passage recommends heading to the Kowloon Waterfront for the best views of Hong Kong (*হংকং-এর সর্বোচ্চ দৃশ্যর জন্য... কোলউন ওয়াটারফ্রন্ট অপোজিট-এর দিকে এগিয়ে যাও*).\n- **[id 284]**: **D** — VPNs reroute all internet traffic, not just HTTP (*তারা কেবলমাত্র http নয় সমস্ত ইন্টারনেট ট্র্যাফিককে পুনরায় রুট করে*), making statement D false.\n- **[id 285]**: **A** — To receive calls from PSTN phones, one often needs to purchase a global number separately (*আলাদাভাবে একটি গ্লোবাল নম্বর কিনতে হয় যা PSTN ফোনগুলোকে আপনাকে কল করার অনুমতি দেয়*).\n- **[id 286]**: **B** — The passage attributes Jerusalem's prominence to its captivating history, religious significance, and cultural/archaeological sites, but does not cite political influence.\n- **[id 287]**: **B** — Visitors must cover their knees and shoulders; wraps, skirts, and trousers can be borrowed, whereas shorts cannot be borrowed/worn.\n\n{\"answers\": {\"280\": \"B\", \"281\": \"B\", \"282\": \"C\", \"283\": \"D\", \"284\": \"D\", \"285\": \"A\", \"286\": \"B\", \"287\": \"B\"}}\n",
+ "usage": {
+  "input_tokens": 25469,
+  "output_tokens": 2804,
+  "thinking_tokens": 2337,
+  "cache_read_tokens": 0,
+  "total_tokens": 28273
+ },
+ "answers_batch": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ },
+ "single": {},
+ "answers": {
+  "280": "B",
+  "281": "B",
+  "282": "C",
+  "283": "D",
+  "284": "D",
+  "285": "A",
+  "286": "B",
+  "287": "B"
+ }
+}

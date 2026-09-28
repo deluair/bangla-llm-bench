@@ -1,0 +1,83 @@
+{
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 10,
+ "ids": [
+  5669,
+  5751,
+  5807,
+  5817,
+  5849,
+  5924,
+  5973,
+  6006,
+  6073,
+  6083,
+  6118,
+  6123,
+  6199,
+  6202,
+  6212
+ ],
+ "seconds": 16.8,
+ "text": "Here are the answers based on the reasoning for each question:\n\n---\n**[id 5669]**\nThe excerpt describes systemic racism and the belief that Black people were considered property rather than citizens. Alexander Hamilton, in *Federalist #15*, warned of a weak central government that could not address pressing issues. The passage reflects the inability of states to protect rights, aligning with Hamilton’s concern about a weak federal government.\n**Answer: C) a weak central government without the powers to address pressing issues.**\n\n---\n\n**[id 5751]**\nThe excerpt highlights Lincoln’s overwhelming electoral victory, particularly among Union soldiers and specific demographic groups (e.g., native-born farmers, military personnel). The symbolic value of Union soldiers' support suggests their influence was critical to his landslide win, not necessarily due to war successes alone or specific voter mobilization tactics.\n**Answer: B) Lincoln won the Election of 1864 due to Union successes during the Civil War.**\n\n---\n\n**[id 5807]**\nCalhoun’s language of protest in *South Carolina Exposition and Protest* (1828) mirrors the defiance of states' rights advocates who opposed federal overreach, similar to New England Federalists' opposition to the War of 1812 (which they saw as unconstitutional and economically harmful).\n**Answer: B) The response of New England Federalists to the War of 1812.**\n\n---\n\n**[id 5817]**\nJefferson’s statement emphasizes adapting institutions to evolving human understanding and societal progress. The **Nineteenth Amendment** (1920), granting women the right to vote, directly reflects this sentiment by expanding rights in response to changing social norms.\n**Answer: C) The Nineteenth Amendment, which guaranteed all women the right to vote.**\n\n---\n\n**[id 5849]**\nThe unintended consequence of liberal successes in the 1960s was the mobilization of conservative Republicans to defend traditional values and limit government authority, as seen in the rise of the New Right and opposition to social programs.\n**Answer: B) Conservative Republicans mobilized to defend traditional mores and curb government authority.**\n\n---\n\n**[id 5924]**\nHalima Ghomri’s statement suggests that the Algerian independence struggle prioritized national liberation over broader social reforms like education for women, which remained unattended to post-independence.\n**Answer: D) Prioritization of national liberation over social reform.**\n\n---\n\n**[id 5973]**\nThe boycott of foreign cloth and promotion of spinning/weaving (Swadeshi) gained momentum due to **World War II**, which disrupted global trade and increased domestic production needs, indirectly supporting decolonization movements.\n**Answer: D) World War II.**\n\n---\n\n**[id 6006]**\nEnglish colonial practices in the New World often involved intermarriage (e.g., mestizos) and exploitation of natives for labor, unlike Spanish practices, which were more rigidly hierarchical and segregated. English settlers were less likely to condone intermingling with natives in the same way.\n**Answer: C) widely did not condone intermingling with the natives.**\n\n---\n\n**[id 6073]**\nBoth passages illustrate that revolutions often fail to distribute new liberties equally, leaving marginalized groups (women, ethnic minorities) excluded or disadvantaged.\n**Answer: C) The new liberties gained by revolution are sometimes distributed unequally or inconsistently.**\n\n---\n\n**[id 6083]**\nNkrumah’s reference to \"co-operation with all States\" reflects the **Cold War** context, where non-aligned nations sought to balance relations with capitalist, socialist, and mixed-economy countries.\n**Answer: A) The competing ideologies of the Cold War.**\n\n---\n\n**[id 6118]**\nCoping strategies tend to vary more by **cohort** (generational experiences) than age alone, as different age groups develop distinct ways of handling stress or adversity.\n**Answer: A) Coping strategies.**\n\n---\n\n**[id 6123]**\nThe program described is **Hospice**, which focuses on end-of-life care, comfort, and dignity for patients with limited life expectancy.\n**Answer: D) Hospice.**\n\n---\n\n**[id 6199]**\nAn **Advanced Directive** specifying medical interventions is commonly called a **Living Will**.\n**Answer: A) Living will.**\n\n---\n\n**[id 6202]**\nPat Shelley’s advice implies that retirement should not be forced if one is still capable or engaged in meaningful work, regardless of age.\n**Answer: A) You can't do it right.**\n\n---\n\n**[id 6212]**\nThe **Eden Alternative** is an environmental design that integrates pets, plants, and intergenerational interactions to improve quality of life in nursing homes.\n**Answer: D) The Eden Alternative.**\n\n---\n```json\n{\n  \"answers\": {\n    \"5669\": \"C\",\n    \"5751\": \"B\",\n    \"5807\": \"B\",\n    \"5817\": \"C\",\n    \"5849\": \"B\",\n    \"5924\": \"D\",\n    \"5973\": \"D\",\n    \"6006\": \"C\",\n    \"6073\": \"C\",\n    \"6083\": \"A\",\n    \"6118\": \"A\",\n    \"6123\": \"D\",\n    \"6199\": \"A\",\n    \"6202\": \"A\",\n    \"6212\": \"D\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 4072,
+  "completion_tokens": 1180,
+  "total_tokens": 5252,
+  "cost": 0.0007878,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007878,
+   "upstream_inference_prompt_cost": 0.0006108,
+   "upstream_inference_completions_cost": 0.000177
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "A",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "answers_batch": {
+  "5669": "C",
+  "5751": "B",
+  "5807": "B",
+  "5817": "C",
+  "5849": "B",
+  "5924": "D",
+  "5973": "D",
+  "6006": "C",
+  "6073": "C",
+  "6083": "A",
+  "6118": "A",
+  "6123": "D",
+  "6199": "A",
+  "6202": "A",
+  "6212": "D"
+ },
+ "single": {}
+}

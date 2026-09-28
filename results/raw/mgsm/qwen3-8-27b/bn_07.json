@@ -1,0 +1,55 @@
+{
+ "task": "mgsm",
+ "model": "qwen3-8-27b",
+ "lang": "bn",
+ "batch": 7,
+ "ids": [
+  "70",
+  "71",
+  "72",
+  "73",
+  "74",
+  "75",
+  "76",
+  "77",
+  "78",
+  "79"
+ ],
+ "seconds": 3.4,
+ "text": "Here are the step-by-step solutions for each problem:\n\n**[id 70]**\nJudy takes 5 dance classes every day of the week except Saturday, and 8 classes on Saturday.\nDays in a week = 7.\nDays other than Saturday = 6.\nTotal classes per week = $(6 \\times 5) + 8 = 30 + 8 = 38$ classes.\nNumber of students per class = 15.\nRate per student = $15.\nTotal earnings = Total classes $\\times$ Students per class $\\times$ Rate\nTotal earnings = $38 \\times 15 \\times 15$.\n$38 \\times 225 = 8550$.\nAnswer: 8550\n\n**[id 71]**\nRecipe 1 has 20 instructions.\nRecipe 2 has twice as many instructions as Recipe 1: $20 \\times 2 = 40$ instructions.\nTotal instructions for both recipes = $20 + 40 = 60$.\nAnswer: 60\n\n**[id 72]**\nPrice per brownie = $3.\nPrice per cheesecake = $4.\nNumber of brownies sold = 43.\nNumber of cheesecakes sold = 23.\nRevenue from brownies = $43 \\times 3 = 129$.\nRevenue from cheesecakes = $23 \\times 4 = 92$.\nTotal amount collected = $129 + 92 = 221$.\nAnswer: 221\n\n**[id 73]**\nNumber of cell phones = 5.\nCost per phone = $150.\nTotal cost = $5 \\times 150 = 750$.\nInterest rate = 2% per phone.\nTotal interest = $750 \\times 0.02 = 15$.\nTotal amount to be paid = $750 + 15 = 765$.\nNumber of months = 3.\nMonthly payment = $765 / 3 = 255$.\nAnswer: 255\n\n**[id 74]**\nPrices before rounding:\nRoses: $2.74 $\\rightarrow$ nearest whole dollar is $3.\nPetunias: $1.87 $\\rightarrow$ nearest whole dollar is $2.\nBegonias: $2.12 $\\rightarrow$ nearest whole dollar is $2.\n\nQuantities sold:\nRoses: 12 pots. Revenue = $12 \\times 3 = 36$.\nPetunias: 9 pots. Revenue = $9 \\times 2 = 18$.\nBegonias: 17 pots. Revenue = $17 \\times 2 = 34$.\nTotal revenue = $36 + 18 + 34 = 88$.\nAnswer: 88\n\n**[id 75]**\nThe sandcastle has 4 floors.\nLet the areas of the floors from top to bottom be $A_1, A_2, A_3, A_4$.\nGiven: $A_1 = 16$ sq ft.\nEach floor is half the area of the floor below it. This means the floor *above* is half the floor *below*.\nSo, $A_1 = A_2 / 2 \\Rightarrow A_2 = A_1 \\times 2 = 16 \\times 2 = 32$.\n$A_2 = A_3 / 2 \\Rightarrow A_3 = A_2 \\times 2 = 32 \\times 2 = 64$.\n$A_3 = A_4 / 2 \\Rightarrow A_4 = A_3 \\times 2 = 64 \\times 2 = 128$.\nAreas are: 16, 32, 64, 128.\nTotal area = $16 + 32 + 64 + 128 = 240$.\nAverage area = Total area / Number of floors = $240 / 4 = 60$.\nAnswer: 60\n\n**[id 76]**\nFirst 180 days: 1 cup per day. Total = 180 cups.\nFirst year has 365 days.\nRemaining days in first year = $365 - 180 = 185$ days.\nFor the remaining days: 2 cups per day. Total = $185 \\times 2 = 370$ cups.\nTotal food needed in first year = $180 + 370 = 550$ cups.\nCups per bag = 110.\nNumber of bags needed = $550 / 110 = 5$.\nAnswer: 5\n\n**[id 77]**\nSara's laundry = 400 lbs.\nRaymond does half as much as Sara: $400 / 2 = 200$ lbs.\nSara does 4 times as much as David. So David does $1/4$ of Sara's amount: $400 / 4 = 100$ lbs.\nDifference between Raymond's and David's laundry = $200 - 100 = 100$ lbs.\nAnswer: 100\n\n**[id 78]**\nGoal: Buy 18 flowers.\nOption 1: Buy packages of 3 for $2.50.\nNumber of packages needed = $18 / 3 = 6$.\nCost = $6 \\times 2.50 = 15.00$.\nOption 2: Buy individual flowers for $1 each.\nCost = $18 \\times 1 = 18.00$.\nBetter value is Option 1 (costs $15).\nSavings = Cost of Option 2 - Cost of Option 1 = $18.00 - 15.00 = 3.00$.\nAnswer: 3\n\n**[id 79]**\nOriginal cost = $100.\nDiscount = 30%.\nDiscount amount = $100 \\times 0.30 = 30$.\nFinal cost = $100 - 30 = 70$.\nAnswer: 70\n\n```json\n{\"answers\": {\"70\": 8550, \"71\": 60, \"72\": 221, \"73\": 255, \"74\": 88, \"75\": 60, \"76\": 5, \"77\": 100, \"78\": 3, \"79\": 70}}\n```",
+ "usage": {
+  "queue_time": 0.125579485,
+  "prompt_tokens": 1268,
+  "prompt_time": 0.105845379,
+  "completion_tokens": 1523,
+  "completion_time": 3.055313076,
+  "total_tokens": 2791,
+  "total_time": 3.161158455
+ },
+ "served_by": null,
+ "answers_batch": {
+  "70": 8550.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 3.0,
+  "79": 70.0
+ },
+ "single": {},
+ "answers": {
+  "70": 8550.0,
+  "71": 60.0,
+  "72": 221.0,
+  "73": 255.0,
+  "74": 88.0,
+  "75": 60.0,
+  "76": 5.0,
+  "77": 100.0,
+  "78": 3.0,
+  "79": 70.0
+ }
+}

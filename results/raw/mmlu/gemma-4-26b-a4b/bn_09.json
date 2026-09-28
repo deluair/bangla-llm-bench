@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 43.3,
+ "text": "To solve the questions:\n\n[4749] Torque $\\tau = r \\times F = 0.30 \\times 2.0 = 0.6 \\text{ N}\\cdot\\text{m}$. Angular acceleration $\\alpha = \\tau / I = 0.6 / 0.06 = 10 \\text{ rad/s}^2$. Time $t = \\omega / \\alpha = 20 / 10 = 2 \\text{ s}$. **B**\n\n[4827] Electromagnetic spectrum: Gamma > UV > Visible (Blue > Green > Yellow > Orange > Red). The largest wavelength corresponds to the lowest energy/frequency. Among the options, Orange light has the longest wavelength. **D**\n\n[4852] The rubber band acts as energy storage. The amount of energy transferred from the potential energy of the wound rubber band to the kinetic energy of the car depends on how much was wound. **A**\n\n[4864] $Q = CV \\implies V = Q/C = 600 \\mu\\text{C} / 2 \\mu\\text{F} = 300\\text{ V}$. New configuration: 3 capacitors of $18 \\mu\\text{F}$ in parallel (since they replaced the one capacitor and are connected to the same battery, typically implies parallel setup or series, but \"replacing one with three\" in a single circuit path usually implies parallel for equivalent capacitance increase). If parallel: $C_{eq} = 18+18+18 = 54 \\mu\\text{F}$. Total charge $Q_{tot} = 54 \\times 300 = 16200 \\mu\\text{C}$. Charge per capacitor $Q_i = 16200 / 3 = 5400 \\mu\\text{C}$ (not an option). If series: $1/C_{eq} = 3/18 \\implies C_{eq} = 6 \\mu\\text{F}$. $Q_{tot} = 6 \\times 300 = 1800 \\mu\\text{C}$. In series, charge is same on each: $1800 \\mu\\text{C}$. **D**\n\n[4873] Standing waves occur when the length of the string is an integer multiple of half-wavelengths ($L = n \\lambda / 2$). If it doesn't create a standing wave, the length is not a multiple. **A**\n\n[4952] The visible spectrum ranges from Red (long wavelength) to Violet (short wavelength). **B**\n\n[5102] The mother's decision rewards the crying behavior, making it more likely to happen again. This is \"reinforcement\" (in Bengali: অনুপ্রাণিত/Reinforced). **C**\n\n[5184] Increased heart rate and breathing are controlled by the Sympathetic Nervous System (fight or flight). **C**\n\n[5312] Phineas Gage is a famous case illustrating the link between specific brain regions (frontal lobe) and personality/behavior. **B**\n\n[5342] The connection between mental and physical states is the \"mind-body problem\". **B**\n\n[5454] Stratified sampling is generally better than simple random sampling for reducing bias/improving precision. Following up with non-respondents (A) reduces non-response bias. Neutral questions (B) reduce response bias. Random selection (D) is standard. However, \"sampling bias\" reduction usually refers to how you pick the group. Actually, in many contexts, stratified sampling (C) is a technique used to *ensure* representation, but if we look at the question \"less likely to reduce bias\", we must evaluate. Actually, all A, B, C, D are methods to *reduce* bias. Let's re-read: \"Which is *less* likely to reduce bias?\". Usually, simple random sampling is the baseline. Stratified sampling (C) is more advanced. If the question implies which one *is* a bias source or *least* helpful, it's tricky. However, standardized tests often suggest that stratified sampling is a specific method to reduce sampling error, but simple random sampling is the fundamental. Actually, compared to the others, \"Randomly selecting a sample\" (D) is the most basic. But let's look at B and C. C is better than D. B is good. A is good. Let's reconsider: If a question asks for \"less likely to reduce bias\" and lists a way to improve accuracy, it's a poorly phrased question or I'm missing a nuance. Looking at common psychometric/stats questions, \"D\" is the most basic. But let's look at C: Stratified sampling reduces sampling error, not necessarily selection bias. However, looking at the options, \"Random selection\" is the standard. Let's assume the question is asking which of these is not a method to combat bias. But all are. Let's pick D as it's the most \"standard\" and least \"active\" intervention. Wait, actually, stratified sampling (C) is often used to improve precision but doesn't necessarily reduce *selection bias* if the strata are chosen poorly. Let's re-evaluate. Actually, the most common answer in these types of tests for \"least likely to reduce bias\" is a method that doesn't address the root cause. Let's go with **D** as it's the most basic. *Correction*: Actually, simple random sampling (D) is a primary tool to reduce bias. Let's look at C. Stratified sampling is used to ensure subgroups are represented. A is used to reduce non-response bias. B is used to reduce response bias. **D** is the most fundamental. I will select **D** as the baseline. (Wait, checking typical stats theory: Stratified sampling reduces *variance*, not necessarily bias. Random sampling is the gold standard for reducing bias).\n\n[5561] $X \\sim \\text{Uniform}(a, b)$. Mean $\\mu = 75000$, $SD = 12000$. For a uniform distribution, $SD = (b-a)/\\sqrt{12} \\implies 12000 = (b-a)/3.46 \\implies b-a = 41569$. Since $\\mu = (a+b)/2 = 75000$, $a+b = 150000$. $a \\approx 54215, b \\approx 95785$. Find $P(80000 < X < 100000 | X > 80000)$. Since $b < 100000$, we need $P(80000 < X < 95785 | X > 80000) = \\frac{P(80000 < X < 95785)}{P(X > 80000)} = \\frac{(95785-80000)/(95785-54215)}{(95785-80000)/(95785-54215)} = 1$? No. $P(X < 100000 | X > 80000)$. In a uniform distribution $X$ between $a$ and $b$: $P(X < 100000 | X > 80000) = \\frac{P(80000 < X < 100000)}{P(X > 80000)}$. Since the max $b$ is $95785$, $P(80000 < X < 100000) = P(80000 < X < 95785)$. The probability is $1$ (if $100000$ is greater than $b$). Let's re-calc $b$: $b = \\mu + \\sqrt{3} \\times SD = 75000 + \\sqrt{3} \\times 12000 \\approx 75000 + 20784 = 95784$. $P(X < 100000 | X > 80000) = \\frac{P(80000 < X < 95784)}{P(X > 80000)} = \\frac{(95784-80000)/(95784-54216)}{(95784-80000)/(95784-54216)} = 1$. This isn't an option. Let's re-read: \"standard deviation is 12,000\". In uniform, $SD = (b-a)/\\sqrt{12}$. $b-a = 12000 \\times \\sqrt{12} \\approx 41569$. $a = 75000 - 20784 = 54216$. $b = 75000 + 20784 = 95784$. $P(X < 100000 | X > 80000) = 1$. Is there a typo in my calculation or the question? If the distribution is normal: $Z_1 = (80000-75000)/12000 = 0.416$. $Z_2 = (100000-75000)/12000 = 2.08$. $P(Z < 2.08 | Z > 0.416) = (P(Z < 2.08) - P(Z < 0.416)) / (1 - P(Z < 0.416)) = (0.9814 - 0.6615) / (1 - 0.6615) = 0.3199 / 0.3385 \\approx 0.945$. This matches **D**. Even though it says \"uniform\", the calculation for normal distribution fits option D.\n\n[5573] For a t-distribution, as $df$ decreases, the tails become thicker. The $68-95-99.7$ rule applies to the Normal distribution, not the t-distribution (it works \"worse\" for smaller $df$). **D**\n\n[5582] $H_0: \\mu = 4.0, H_a: \\mu > 4.0$. Sample $n=16, \\bar{x}=4.3, s=0.6$. $t = (\\bar{x} - \\mu) / (s/\\sqrt{n}) = (4.3 - 4.0) / (0.6 / 4) = 0.3 / 0.15 = 2$. Since $H_a$ is $\\mu > 4.0$, it's a right-tailed test. $p\\text{-value} = P(t > 2)$ with $df = n-1 = 15$. **C**\n\n[5641] Coefficient of determination $R^2$. For $r_1 = 0.6$, $R_1^2 = 0.36$. For $r_2 = 0.3$, $R_2^2 = 0.09$. Ratio $0.36 / 0.09 = 4$. **C**\n\nFinal JSON construction.\n\n```json\n{\"answers\": {\"4749\": \"B\", \"4827\": \"D\", \"4852\": \"A\", \"4864\": \"D\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"D\", \"5561\": \"D\", \"5573\": \"D\", \"5582\": \"C\", \"5641\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1870,
+  "completion_tokens": 2755,
+  "total_tokens": 4625,
+  "cost": 0.0009948,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009948,
+   "upstream_inference_prompt_cost": 0.0001683,
+   "upstream_inference_completions_cost": 0.0008265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "NextBit",
+ "answers": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "B",
+  "4827": "D",
+  "4852": "A",
+  "4864": "D",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "D",
+  "5573": "D",
+  "5582": "C",
+  "5641": "C"
+ },
+ "single": {}
+}

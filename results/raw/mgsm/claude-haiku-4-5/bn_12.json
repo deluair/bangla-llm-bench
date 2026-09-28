@@ -1,0 +1,79 @@
+{
+ "task": "mgsm",
+ "model": "claude-haiku-4-5",
+ "lang": "bn",
+ "batch": 12,
+ "ids": [
+  "120",
+  "121",
+  "122",
+  "123",
+  "124",
+  "125",
+  "126",
+  "127",
+  "128",
+  "129"
+ ],
+ "seconds": 53.1,
+ "text": "Looking at each problem:\n\n**[id 120]** Miguel uses 2 pads/week × 30 pages/pad = 60 pages/week\nPer month (4 weeks): 60 × 4 = **240 pages**\n\n**[id 121]** Morisset: 5 apples + 8 oranges = 13 fruits\nKael: 10 apples + 4 oranges = 14 fruits\nTotal: **27 fruits**\n\n**[id 122]** Monday: 8 hours\nTuesday & Wednesday: 6 hours each = 12 hours\nRemaining 4 days: 7 hours each (6+1) = 28 hours\nTotal: 8 + 12 + 28 = **48 hours**\n\n**[id 123]** First 3 hours: 3 × 10 = 30 miles\nNext 4 hours: 4 × 5 = 20 miles\nTotal: **50 miles**\n\n**[id 124]** Jenny stamped 1/3 of 60 = 20 letters\nThe stamped bundle had 30 letters after Jenny added her 20\nOriginal letters in that bundle: 30 - 20 = **10 letters**\n\n**[id 125]** Let x = spoons in Julia's pack\nTotal: x + 5 (husband's) - 3 (used) = 12\nx + 5 - 3 = 12\nx = **10 spoons**\n\n**[id 126]** Chicken: 38 sausages\nFish: 38 + 6 = 44 sausages\nTotal: **82 sausages**\n\n**[id 127]** Lily: 50 friends\nAmy: 50 + 20 = 70 friends\nTotal: **120 friends**\n\n**[id 128]** Pepper: $15 each\nWatermelon: 3 × $15 = $45 each\nOrange: $45 - $5 = $40 each\n\n4 watermelons: $180\n20 peppers: $300\n10 oranges: $400\nTotal: **$880**\n\n**[id 129]** Total time: 500 patients × 24 min = 12,000 min = 200 hours\nHospital revenue: 200 × $200 = $40,000\nDoctor cost: 200 × $150 = $30,000\nProfit: **$10,000**\n\n```json\n{\"answers\": {\"120\": 240, \"121\": 27, \"122\": 48, \"123\": 50, \"124\": 10, \"125\": 10, \"126\": 82, \"127\": 120, \"128\": 880, \"129\": 10000}}\n```",
+ "usage": {
+  "input_tokens": 2720,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5580,
+  "output_tokens_details": {
+   "thinking_tokens": 4907
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2720,
+    "output_tokens": 5580,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "cost_usd": 0.03062,
+ "answers_batch": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ },
+ "single": {},
+ "answers": {
+  "120": 240.0,
+  "121": 27.0,
+  "122": 48.0,
+  "123": 50.0,
+  "124": 10.0,
+  "125": 10.0,
+  "126": 82.0,
+  "127": 120.0,
+  "128": 880.0,
+  "129": 10000.0
+ }
+}

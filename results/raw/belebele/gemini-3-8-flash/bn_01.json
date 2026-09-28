@@ -1,0 +1,46 @@
+{
+ "task": "belebele",
+ "model": "gemini-3-8-flash",
+ "lang": "bn",
+ "batch": 1,
+ "ids": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "seconds": 76.3,
+ "text": "Here is a brief reasoning for each question:\n\n- **[id 8]**: Micro-expressions are subtle, fleeting facial movements lasting only milliseconds; showing a thumbs-up (**D**) is a hand gesture, not a facial micro-expression.\n- **[id 9]**: Researching travel (**C**) is primarily an information-gathering activity rather than an activity driven by maintaining interpersonal relationships.\n- **[id 10]**: The scrutiny of the Catholic Church focused on the centralization of power, wealth, and adherence to its mission to relieve poverty, not on revising the core tenets of religion (**B**).\n- **[id 11]**: Britain's naval blockade violated existing international rules rather than resulting in international law being changed (**C**).\n- **[id 12]**: Multiple sclerosis is most prevalent among young and middle-aged adults and occurs twice as frequently in women as in men, making a 32-year-old woman (**A**) the most likely candidate.\n- **[id 13]**: Fencing is described as being played between two people, one facing another opponent, which corresponds to a duel format (**D**).\n- **[id 14]**: The French Revolution opened careers based on merit/caliber rather than social class, having a transformative impact on the working class (**B**).\n- **[id 15]**: The passage directly contrasts rarely criticized services (water quality, bridge integrity) with transportation systems, about which almost everyone complains (**C**).\n\n{\"answers\": {\"8\": \"D\", \"9\": \"C\", \"10\": \"B\", \"11\": \"C\", \"12\": \"A\", \"13\": \"D\", \"14\": \"B\", \"15\": \"C\"}}\n",
+ "usage": {
+  "input_tokens": 67803,
+  "output_tokens": 8272,
+  "thinking_tokens": 6233,
+  "cache_read_tokens": 346843,
+  "total_tokens": 76075
+ },
+ "answers_batch": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ },
+ "single": {},
+ "answers": {
+  "8": "D",
+  "9": "C",
+  "10": "B",
+  "11": "C",
+  "12": "A",
+  "13": "D",
+  "14": "B",
+  "15": "C"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "gemma-4-26b-a4b",
+ "lang": "bn",
+ "batch": 16,
+ "ids": [
+  10694,
+  11167,
+  11431,
+  11486,
+  11690,
+  12239,
+  12247,
+  12303,
+  12421,
+  12423,
+  12582,
+  12609,
+  12674,
+  12915,
+  13027
+ ],
+ "seconds": 37.1,
+ "text": "To solve these questions, I will evaluate each scenario based on legal, medical, or psychological principles.\n\n[10694] The friend intended to threaten the husband, not the woman. While the woman suffered distress, the tort of intentional infliction of emotional distress (IIED) generally requires the defendant to act with the intent to cause distress to the plaintiff or reckless disregard of the risk of such distress. However, in many jurisdictions, the \"near miss\" or bystander rule applies. Here, because the target of the threat was the husband and not the woman, the lack of intent towards her is the primary legal hurdle. However, looking at the options, B is a strong legal defense in tort law regarding intentional infliction of emotional distress (the act must be directed at the plaintiff). \n*Self-correction:* In IIED, the conduct must be \"extreme and outrageous.\" If the defendant's conduct is directed at a third party, the bystander can only recover if they are in the \"zone of danger.\" Since she was on the porch watching, she was likely in the zone of danger/immediate area. However, B is the most standard legal answer for why a direct tort claim might fail if the intent wasn't directed at her.\n\n[11167] This is a case of privity of contract and third-party beneficiaries. The worker performed the service for the company. The company then hired a subcontractor (the worker). There is an implied contract between the worker and the company. Since the husband and wife accepted the benefit and paid the company, they have essentially ratified the arrangement. The worker can sue the party he had the contract with (the company) or potentially the homeowners under theory of unjust enrichment/quasi-contract. However, the most direct answer in agency/contract law is that the worker has a claim against the company, but since the homeowners accepted the benefit and paid, the worker can pursue the company. Looking at C, it addresses the possibility of pursuing either.\n\n[11431] The passenger saw the signs. In negligence law, \"assumption of risk\" is a valid defense if the person was aware of the specific danger and voluntarily encountered it. \nA/B: Both suggest the defense is valid. B is more precise regarding the knowledge of the risk.\n\n[11486] This concerns the Double Jeopardy clause of the 5th Amendment. The \"Dual Sovereignty Doctrine\" allows two different states to prosecute a person for the same act if that act violates the laws of both states. Therefore, the court should not dismiss the case.\nB: Correct based on Dual Sovereignty.\n\n[11690] This is about the \"Fourth Amendment\" and the \"Scope of a Warrant.\" A warrant to search a house allows a search of areas where the object of the search (cocaine) might reasonably be hidden. If the warrant was for the whole house, the police can search any room. However, if the warrant was specific to the first floor, they cannot go to the second floor. The prompt says they searched the first floor, found nothing, and then went to the second floor. If the warrant was for the \"residence\" (the whole house), they are fine. The defendant claims the residence is separate. However, legally, a house is usually treated as one residence unless specified. C is a common application of the \"good faith\" exception/reasonable belief.\n\n[12239] The patient has signs of a tension pneumothorax (distended/absent breath sounds, tachycardia, agitation/distress). This is a medical emergency. While an X-ray is ordered, the clinical presentation (especially if breath sounds are absent and he is becoming unstable) suggests immediate intervention is needed. However, usually, in such exams, if a patient is unstable with suspected tension pneumothorax, decompression is key. But looking at the options, D (repositioning the tube) or immediate needle decompression/chest tube is standard. Given the options, let's look closer. Actually, if a patient is agitated and has absent breath sounds, it's an emergency.\n\n[12247] The symptoms (hypomania for 3-4 days before menses, and depressive symptoms during menses) are classic for Premenstrual Dysphoric Disorder (PMDD). However, looking at the options: A is adjustment, B is Bipolar I, C is Cyclothymia, D is GAD. PMDD is often categorized under depressive disorders. If we look at the hypomania/depression pattern, it aligns with Cyclothymia or PMDD.\n\n[12303] The description (painless, sessile, skin-colored lesions that turn white with acetic acid/acetowhite) is highly suggestive of Human Papillomavirus (HPV/Genital Warts). The best treatment for genital warts is often cryotherapy or topical agents.\nD: Cryotherapy.\n\n[12421] For a first-time episode of asthma, the priority is to establish the diagnosis and manage the symptoms.\nD: Treat the symptoms (alleviate the immediate problem).\n\n[12423] A brown, irregular mass behind an intact eardrum in a child with chronic otitis media is a classic description of a cholesteatoma. A cholesteatoma is an abnormal growth of skin cells (epithelial tissue) in the middle ear.\nA: Epithelial tissue expansion.\n\n[12582] Competency to stand trial focuses on the defendant's current mental state and their ability to understand the proceedings and assist counsel. \nB: Understanding the charges/proceedings.\n\n[12609] Research shows that parents are generally very good at remembering \"objective\" milestones like when a child crawled or how much they weighed, but less accurate with subjective social histories.\nD: Motor development and weight gain.\n\n[12674] A significant discrepancy between Verbal IQ and Performance IQ (where Verbal is much higher) is often seen in individuals with specific learning disabilities (like dyslexia) or non-verbal learning disabilities.\nA: Learning disability.\n\n[12915] In the context of \"privilege\" (like physician-patient privilege), the \"privileged person\" is the one who holds the right to waive or assert the privilege. In medical contexts, this is the patient.\nB: Patient.\n\n[13027] This is an ethical question regarding \"Informed Consent.\" Participants must be told they have the right to withdraw at any time without penalty. The first step in professional ethics is to address the issue through proper channels.\nC: Discuss with the supervisor.\n\n```json\n{\"answers\": {\"10694\": \"B\", \"11167\": \"C\", \"11431\": \"B\", \"11486\": \"B\", \"11690\": \"C\", \"12239\": \"D\", \"12247\": \"C\", \"12303\": \"D\", \"12421\": \"D\", \"12423\": \"A\", \"12582\": \"B\", \"12609\": \"D\", \"12674\": \"A\", \"12915\": \"B\", \"13027\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 2920,
+  "completion_tokens": 1558,
+  "total_tokens": 4478,
+  "cost": 0.0004868,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004868,
+   "upstream_inference_prompt_cost": 0.0001752,
+   "upstream_inference_completions_cost": 0.0003116
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Reka",
+ "answers": {
+  "10694": "B",
+  "11167": "C",
+  "11431": "B",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "C",
+  "12303": "D",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "answers_batch": {
+  "10694": "B",
+  "11167": "C",
+  "11431": "B",
+  "11486": "B",
+  "11690": "C",
+  "12239": "D",
+  "12247": "C",
+  "12303": "D",
+  "12421": "D",
+  "12423": "A",
+  "12582": "B",
+  "12609": "D",
+  "12674": "A",
+  "12915": "B",
+  "13027": "C"
+ },
+ "single": {}
+}

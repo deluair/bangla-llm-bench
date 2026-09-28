@@ -1,0 +1,83 @@
+{
+ "model": "gemma-3-4b",
+ "lang": "en",
+ "batch": 9,
+ "ids": [
+  4749,
+  4827,
+  4852,
+  4864,
+  4873,
+  4952,
+  5102,
+  5184,
+  5312,
+  5342,
+  5454,
+  5561,
+  5573,
+  5582,
+  5641
+ ],
+ "seconds": 8.6,
+ "text": "Here are the answers to the multiple-choice questions:\n\n[id 4749]\nA) 4 s\n\n[id 4827]\nA) Gamma rays\n\n[id 4852]\nA) Depending on how the rubber band is initially wound, more or less potential energy can be transferred from the rubber band to the kinetic energy of the car’s motion.\n\n[id 4864]\nA) 100 μC\n\n[id 4873]\nA) The string length is not a multiple of half the wavelength of the wave.\n\n[id 4952]\nB) violet\n\n[id 5102]\nC) reinforced\n\n[id 5184]\nC) sympathetic nervous system\n\n[id 5312]\nB) It was one of the first well-documented examples of a specific brain area being associated with a set of physical and emotional changes.\n\n[id 5342]\nB) the mind-body problem\n\n[id 5454]\nD) Selecting samples randomly\n\n[id 5561]\nB) 0.34\n\n[id 5573]\nD) The smaller the df, the better the 68-95-99.7 Rule works for t-models.\n\n[id 5582]\nB) P(Z < 2)\n\n[id 5641]\nC) 4\n\n```json\n{\"answers\": {\"4749\": \"A\", \"4827\": \"A\", \"4852\": \"A\", \"4864\": \"A\", \"4873\": \"A\", \"4952\": \"B\", \"5102\": \"C\", \"5184\": \"C\", \"5312\": \"B\", \"5342\": \"B\", \"5454\": \"D\", \"5561\": \"B\", \"5573\": \"D\", \"5582\": \"B\", \"5641\": \"C\"}}\n```",
+ "usage": {
+  "prompt_tokens": 1711,
+  "completion_tokens": 474,
+  "total_tokens": 2185,
+  "cost": 0.00013295,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00013295,
+   "upstream_inference_prompt_cost": 8.555e-05,
+   "upstream_inference_completions_cost": 4.74e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "DeepInfra",
+ "answers": {
+  "4749": "A",
+  "4827": "A",
+  "4852": "A",
+  "4864": "A",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "B",
+  "5573": "D",
+  "5582": "B",
+  "5641": "C"
+ },
+ "answers_batch": {
+  "4749": "A",
+  "4827": "A",
+  "4852": "A",
+  "4864": "A",
+  "4873": "A",
+  "4952": "B",
+  "5102": "C",
+  "5184": "C",
+  "5312": "B",
+  "5342": "B",
+  "5454": "D",
+  "5561": "B",
+  "5573": "D",
+  "5582": "B",
+  "5641": "C"
+ },
+ "single": {}
+}

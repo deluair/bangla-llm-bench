@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 19,
+ "ids": [
+  "152",
+  "153",
+  "154",
+  "155",
+  "156",
+  "157",
+  "158",
+  "159"
+ ],
+ "seconds": 4.9,
+ "text": "1. **D) Whistler** – The passage explicitly states that Whistler is \"expensive\" compared to other destinations like Bowen Island or the Sea to Sky corridor, making it the least appealing to price-conscious travelers.\n\n2. **D) Filming only in crowded areas where the drone won’t be noticeable** – The passage warns against flying a drone near crowds, so filming in crowded areas is not recommended.\n\n3. **B) All countries require registration with the local authorities** – The passage states that registration requirements vary, and not all countries require it, especially if staying in tourist accommodations.\n\n4. **A) Wilderness survival** – The passage mentions that wilderness survival books are common, but publications dealing with war zones are few, and professional training focuses on war zone readiness.\n\n5. **C) Swimming against a current** – The passage states that swimming against a rip current can be impossible due to fatigue, even for skilled swimmers.\n\n6. **A) If they’re photographing especially small creatures** – The passage mentions that small creatures or flocks of birds may require other lenses, implying a specialty lens might be needed.\n\n7. **B) Heavy traffic** – The passage does not mention heavy traffic as a problem; it focuses on snow, ice, and visibility issues, which are more directly related to driving conditions.\n\n8. **B) Partially cut subtitles** – The passage explicitly mentions that subtitles too close to the bottom may be cut off due to overscan when converting to DVD.\n\n---\n```json\n{\n  \"answers\": {\n    \"152\": \"D\",\n    \"153\": \"D\",\n    \"154\": \"B\",\n    \"155\": \"A\",\n    \"156\": \"C\",\n    \"157\": \"A\",\n    \"158\": \"A\",\n    \"159\": \"B\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1484,
+  "completion_tokens": 399,
+  "total_tokens": 1883,
+  "cost": 0.00028245,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00028245,
+   "upstream_inference_prompt_cost": 0.0002226,
+   "upstream_inference_completions_cost": 5.985e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ },
+ "single": {},
+ "answers": {
+  "152": "D",
+  "153": "D",
+  "154": "B",
+  "155": "A",
+  "156": "C",
+  "157": "A",
+  "158": "A",
+  "159": "B"
+ }
+}

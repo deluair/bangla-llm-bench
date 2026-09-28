@@ -1,0 +1,63 @@
+{
+ "task": "belebele",
+ "model": "ministral-8b",
+ "lang": "en",
+ "batch": 17,
+ "ids": [
+  "136",
+  "137",
+  "138",
+  "139",
+  "140",
+  "141",
+  "142",
+  "143"
+ ],
+ "seconds": 3.5,
+ "text": "1. The passage states that the Spaniards started the colonization period in Paraguay.\n2. The passage suggests that acting politely (\"bien élevé\") is the best way to get a Parisian to warm up to you.\n3. The passage mentions that MetroPlus is less crowded, which is a benefit of First Class.\n4. The passage indicates that immigration checks are typically informal when arriving in your homeland.\n5. The passage states that Go Running Tours is the successor to Global Running Tours.\n6. The passage mentions that tours are cheaper for larger groups, so forming a group of four to six would lower the cost.\n7. The passage attributes San Francisco’s worldwide recognition to its frequent portrayal in music, films, literature, and popular culture.\n8. The passage lists sunshine, additional snowfall, and humans as triggers for avalanches, but not sticky snow.\n\n```json\n{\n  \"answers\": {\n    \"136\": \"D\",\n    \"137\": \"C\",\n    \"138\": \"B\",\n    \"139\": \"A\",\n    \"140\": \"B\",\n    \"141\": \"B\",\n    \"142\": \"A\",\n    \"143\": \"A\"\n  }\n}\n```",
+ "usage": {
+  "prompt_tokens": 1227,
+  "completion_tokens": 261,
+  "total_tokens": 1488,
+  "cost": 0.0002232,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002232,
+   "upstream_inference_prompt_cost": 0.00018405,
+   "upstream_inference_completions_cost": 3.915e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "served_by": "Mistral",
+ "answers_batch": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ },
+ "single": {},
+ "answers": {
+  "136": "D",
+  "137": "C",
+  "138": "B",
+  "139": "A",
+  "140": "B",
+  "141": "B",
+  "142": "A",
+  "143": "A"
+ }
+}

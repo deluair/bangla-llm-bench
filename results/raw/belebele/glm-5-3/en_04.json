@@ -1,0 +1,51 @@
+{
+ "task": "belebele",
+ "model": "glm-5-3",
+ "lang": "en",
+ "batch": 4,
+ "ids": [
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39"
+ ],
+ "seconds": 12.8,
+ "text": "Brief reasoning:\n\n- **32:** The passage cites \"clashes of system, process and culture\" as causes of the falling out; shared opposition to Germany (a common enemy) promoted cooperation, not conflict. → **B**\n- **33:** Nerve impulses keep blood flow going and undisturbed — they do not slow it. → **A**\n- **34:** Strabo recorded Herostratus' name, which is how we know it today. → **C**\n- **35:** The Germans used U-boats to stop American men and materials from reaching Britain. → **B**\n- **36:** Homer was described as the legendary blind poet. → **B**\n- **37:** The Qing forces took control; the passage never says the Dutch willingly ceded Taiwan. → **D**\n- **38:** The pH level is indicated by the amount of Hydrogen ions in the chemical. → **C**\n- **39:** Only the females are described as closely related (sisters and daughters); the males are not described as related to the females. → **C**\n\n{\"answers\": {\"32\": \"B\", \"33\": \"A\", \"34\": \"C\", \"35\": \"B\", \"36\": \"B\", \"37\": \"D\", \"38\": \"C\", \"39\": \"C\"}}",
+ "usage": {
+  "completion_tokens": 814,
+  "completion_tokens_details": {
+   "reasoning_tokens": 541
+  },
+  "prompt_tokens": 1407,
+  "prompt_tokens_details": {
+   "cached_tokens": 64
+  },
+  "total_tokens": 2221
+ },
+ "served_by": null,
+ "answers_batch": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ },
+ "single": {},
+ "answers": {
+  "32": "B",
+  "33": "A",
+  "34": "C",
+  "35": "B",
+  "36": "B",
+  "37": "D",
+  "38": "C",
+  "39": "C"
+ }
+}
