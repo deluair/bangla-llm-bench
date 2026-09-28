@@ -1,0 +1,102 @@
+# Model roster. `cli` runs through the vendor's own CLI on a subscription login;
+# `provider` calls an OpenAI-compatible chat endpoint with a key from the environment.
+# `size` is the rough class: frontier, mid (large open-weight or fast API), small (runs on a laptop or phone).
+
+[models.claude-opus-5-5]
+cli = "claude"
+model = "claude-opus-5-5"
+size = "frontier"
+workers = 2
+
+[models.claude-sonnet-5]
+cli = "claude"
+model = "claude-sonnet-5"
+size = "frontier"
+workers = 2
+
+[models.claude-haiku-4-5]
+cli = "claude"
+model = "claude-haiku-4-5-20251001"
+size = "mid"
+workers = 2
+
+[models.gpt-6-astra]
+cli = "codex"
+model = "gpt-6-astra"
+effort = "medium"
+size = "frontier"
+workers = 2
+
+[models.gemini-3-8-flash]
+cli = "agy"
+model = "gemini-3.8-flash"
+effort = "medium"
+size = "frontier"
+workers = 3
+
+[models.gemini-3-1-pro]
+cli = "agy"
+model = "gemini-3.1-pro-high"
+effort = "high"
+size = "frontier"
+workers = 3
+
+[models.deepseek-v4-1-flash]
+provider = "deepseek"
+model = "deepseek-flash"
+size = "mid"
+
+[models.glm-5-3]
+provider = "zai"
+model = "glm-5.3"
+size = "mid"
+
+[models.kimi-k2-6]
+provider = "moonshot"
+model = "kimi-k2.6"
+size = "mid"
+
+[models.qwen3-8-27b]
+provider = "groq"
+model = "qwen/qwen3.8-27b"
+size = "mid"
+
+[models.gpt-oss-120b]
+provider = "groq"
+model = "openai/gpt-oss-120b"
+size = "mid"
+
+[models.gemma-4-26b-a4b]
+provider = "openrouter"
+model = "google/gemma-4-26b-a4b-it"
+size = "small"
+
+[models.qwen3-5-9b]
+provider = "openrouter"
+model = "qwen/qwen3.5-9b"
+size = "small"
+
+[models.qwen3-8b]
+provider = "openrouter"
+model = "qwen/qwen3-8b"
+size = "small"
+
+[models.gpt-oss-20b]
+provider = "openrouter"
+model = "openai/gpt-oss-20b"
+size = "small"
+
+[models.ministral-8b]
+provider = "openrouter"
+model = "mistralai/ministral-8b-2512"
+size = "small"
+
+[models.llama-3-1-8b]
+provider = "openrouter"
+model = "meta-llama/llama-3.1-8b-instruct"
+size = "small"
+
+[models.gemma-3-4b]
+provider = "openrouter"
+model = "google/gemma-3-4b-it"
+size = "small"
